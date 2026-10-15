@@ -1,0 +1,5 @@
+# Text files are stored with LF, so files regenerated on Windows do not show as changed
+* text=auto eol=lf
+*.mp4 binary
+*.jpg binary
+*.woff2 binary

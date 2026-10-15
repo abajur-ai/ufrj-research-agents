@@ -84,6 +84,21 @@ python -m benchmark.run --level n3 --topic a04 --tag mytest --rep 1
 
 O comando mostra o id da rodada quando termina, aqui `mytest-n3-a04-r1`, e a rodada fica em `agents/level_3/runs/mytest-n3-a04-r1/`. Enquanto ela roda, dá para acompanhar ao vivo no visualizador (seção 9).
 
+### Como é uma primeira rodada
+
+Este é o caminho de quem chega agora, percorrido de ponta a ponta a partir de um clone novo deste repositório, no Windows 11 com Python 3.13:
+
+| Passo | Comando | O que você deve ver |
+| --- | --- | --- |
+| Instalar | `pip install -r requirements.txt` | alguns minutos; nenhum erro |
+| Conferir a instalação sem custo | `python -m evaluation.report class` | a tabela da aula: Nível 3 com 97% pelo júri |
+| Uma rodada do Nível 3 no tema de exemplo | `python -m benchmark.run --level n3 --topic a04 --tag mytest --rep 1` | de 5 a 8 minutos; mostra `mytest-n3-a04-r1`; o `final.json` tem `"status": "done"` e cerca de 20 artigos |
+| Avaliar com os três juízes | `python -m evaluation.evaluate --judge deepseek --prefix mytest` (depois `qwen` e `gemini`; os três podem rodar ao mesmo tempo, em três terminais) | alguns minutos cada; uma linha por rodada, com artigos entregues e corretos |
+| Juntar os três | `python -m evaluation.jury mytest` | `jury: 1 runs, ... articles` |
+| Ler o resultado | `python -m evaluation.report mytest` | `evaluation/REPORT_mytest.md`, com precisão, tempo, custo e certos, errados e não entregues |
+
+Nessa conferência de ponta a ponta, o Nível 3 no tema a04 entregou 20 artigos em 7,1 minutos, com 6 chamadas de IA e todos os passos de IA aprovados na primeira tentativa; o júri julgou 20 de 20 corretos e o juiz único, 19 de 20; o verificador e os três juízes custaram US$ 0,67 na OpenRouter. Com um nível e um tema, o relatório não mostra intervalo nem comparação entre níveis: isso exige rodadas de pelo menos dois níveis em pelo menos dois temas.
+
 ## 4. Um lote de rodadas
 
 ```powershell

@@ -159,6 +159,10 @@ python -m benchmark.run --level n3 --topic a04 --tag mytest --rep 1
 A rodada fica em `agents/level_3/runs/mytest-n3-a04-r1/`. Para assistir, rode `python -m http.server 8000` e abra
 `http://127.0.0.1:8000/viewer/index.html?run=mytest-n3-a04-r1&replay=1`.
 
+O que esperar, segundo uma conferência de ponta a ponta num clone novo: de 5 a 8 minutos (7,1 nessa conferência), 6
+chamadas de IA, um `final.json` com `"status": "done"` e cerca de 20 artigos (20 nessa conferência), todos julgados
+corretos pelo júri. O passo a passo, com a avaliação, está em [Rodar o benchmark](../../docs/run-the-benchmark.pt-BR.md#como-é-uma-primeira-rodada).
+
 ## O que você pode editar
 
 As três instruções deste nível, em português, em texto simples:

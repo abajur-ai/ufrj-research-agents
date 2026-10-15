@@ -157,6 +157,10 @@ python -m benchmark.run --level n3 --topic a04 --tag mytest --rep 1
 The run lands in `agents/level_3/runs/mytest-n3-a04-r1/`. To watch it, run `python -m http.server 8000` and open
 `http://127.0.0.1:8000/viewer/index.html?run=mytest-n3-a04-r1&replay=1`.
 
+What to expect, from an end-to-end check on a fresh clone: about 5 to 8 minutes (7.1 in that check), 6 AI calls, a
+`final.json` with `"status": "done"` and around 20 articles (20 in that check), all judged correct by the jury. Step by
+step, including the evaluation, in [Run the benchmark](../../docs/run-the-benchmark.md#what-a-first-run-looks-like).
+
 ## What you can edit
 
 The three instructions of this level, in Portuguese, plain text:

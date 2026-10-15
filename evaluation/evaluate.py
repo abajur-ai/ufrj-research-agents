@@ -17,6 +17,7 @@ import argparse
 import asyncio
 import json
 import re
+import sys
 from pathlib import Path
 
 import httpx
@@ -201,4 +202,13 @@ if __name__ == "__main__":
     a = ap.parse_args()
     JUDGE = a.judge
     judge_llm.JUDGE_MODEL = JUDGES[JUDGE][0]
+    _hook = sys.unraisablehook
+
+    def _quiet(u):
+        # on Windows the browser subprocess used for publisher pages can be collected after the event loop closes;
+        # Python then prints "I/O operation on closed pipe", which is harmless, so it is not shown
+        if not (isinstance(u.exc_value, ValueError) and "closed pipe" in str(u.exc_value)):
+            _hook(u)
+
+    sys.unraisablehook = _quiet
     asyncio.run(main_async(a.prefix))

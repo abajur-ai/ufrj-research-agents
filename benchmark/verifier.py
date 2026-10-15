@@ -110,7 +110,7 @@ async def _post(client: httpx.AsyncClient, body: dict, result: AgentResult, time
 async def run_verifier(*, log: EventLog, name: str, prompt: str, schema: dict, web: bool = True,
                        extra: dict | None = None, timeout_s: int = 300) -> AgentResult:
     calls_dir = log.run_dir / "calls"
-    calls_dir.mkdir(exist_ok=True)
+    calls_dir.mkdir(parents=True, exist_ok=True)
     call_id = f"{len(list(calls_dir.glob('*.result.json'))) + 1:03d}-{name}"
     (calls_dir / f"{call_id}.prompt.md").write_text(prompt, encoding="utf-8")
     result = AgentResult(name=name)

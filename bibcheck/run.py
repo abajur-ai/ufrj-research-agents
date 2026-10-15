@@ -315,7 +315,7 @@ async def judge(client, model, claim, ref, text):
 
 
 async def main_async():
-    CACHE.mkdir(exist_ok=True)
+    CACHE.mkdir(parents=True, exist_ok=True)
     async with httpx.AsyncClient(headers=HEADERS, follow_redirects=True) as client:
         refs = {r["id"]: r for r in await asyncio.gather(*(resolve(client, ref) for ref in REFS))}
         results = []

@@ -70,12 +70,12 @@ async def _cached_get(client: httpx.AsyncClient, url: str, params: dict | None =
             await asyncio.sleep(2 * (attempt + 1))
             continue
         if r.status_code == 404:
-            CACHE.mkdir(exist_ok=True)
+            CACHE.mkdir(parents=True, exist_ok=True)
             f.write_text(json.dumps({"status": 404, "data": None}), encoding="utf-8")
             return None
         if r.status_code == 200:
             data = r.json()
-            CACHE.mkdir(exist_ok=True)
+            CACHE.mkdir(parents=True, exist_ok=True)
             f.write_text(json.dumps({"status": 200, "data": data}, ensure_ascii=False), encoding="utf-8")
             return data
         if r.status_code == 429 and "budget" in r.text.lower():
@@ -214,7 +214,7 @@ async def publisher_abstract(doi: str) -> str:
         finally:
             await page.close()
     if ok:
-        CACHE.mkdir(exist_ok=True)
+        CACHE.mkdir(parents=True, exist_ok=True)
         f.write_text(json.dumps({"abstract": text, "titles": titles}, ensure_ascii=False), encoding="utf-8")
     return text
 

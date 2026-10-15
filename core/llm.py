@@ -110,14 +110,14 @@ async def run_agent(
     tools = tools or []
     run_dir = log.run_dir
     calls_dir = run_dir / "calls"
-    calls_dir.mkdir(exist_ok=True)
+    calls_dir.mkdir(parents=True, exist_ok=True)
     seq = len(list(calls_dir.glob("*.system.md"))) + 1
     call_id = f"{seq:03d}-{name}"
     system_file = calls_dir / f"{call_id}.system.md"
     system_file.write_text(system_prompt, encoding="utf-8")
     (calls_dir / f"{call_id}.user.md").write_text(user_prompt, encoding="utf-8")
     work = run_dir / "work"
-    work.mkdir(exist_ok=True)
+    work.mkdir(parents=True, exist_ok=True)
 
     options = ClaudeAgentOptions(
         model=MODEL,

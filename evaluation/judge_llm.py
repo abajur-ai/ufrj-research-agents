@@ -57,7 +57,7 @@ async def judge(client: httpx.AsyncClient, system: str, user: str, schema: dict,
             except (KeyError, IndexError, TypeError, json.JSONDecodeError):
                 await asyncio.sleep(2)
                 continue
-            CACHE.mkdir(exist_ok=True)
+            CACHE.mkdir(parents=True, exist_ok=True)
             f.write_text(json.dumps({"parsed": parsed, "usage": data.get("usage"), "model": data.get("model")},
                                     ensure_ascii=False), encoding="utf-8")
             return parsed

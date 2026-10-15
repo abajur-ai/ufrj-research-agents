@@ -84,6 +84,21 @@ python -m benchmark.run --level n3 --topic a04 --tag mytest --rep 1
 
 The command prints the run id when it ends, here `mytest-n3-a04-r1`, and the run is in `agents/level_3/runs/mytest-n3-a04-r1/`. While it runs, you can watch it live in the viewer (section 9).
 
+### What a first run looks like
+
+This is the path a newcomer follows, run end to end from a fresh clone of this repository on Windows 11 with Python 3.13:
+
+| Step | Command | What you should see |
+| --- | --- | --- |
+| Install | `pip install -r requirements.txt` | a few minutes; no errors |
+| Check the setup at no cost | `python -m evaluation.report class` | the class table: Level 3 at 97% by the jury |
+| One run of Level 3 on the example topic | `python -m benchmark.run --level n3 --topic a04 --tag mytest --rep 1` | about 5 to 8 minutes; it prints `mytest-n3-a04-r1`; `final.json` has `"status": "done"` and around 20 articles |
+| Evaluate it with the three judges | `python -m evaluation.evaluate --judge deepseek --prefix mytest` (then `qwen` and `gemini`; they can run at the same time in three terminals) | a few minutes each; one line per run with delivered and correct articles |
+| Combine them | `python -m evaluation.jury mytest` | `jury: 1 runs, ... articles` |
+| Read the result | `python -m evaluation.report mytest` | `evaluation/REPORT_mytest.md`, with precision, time, cost and right, wrong and not delivered |
+
+In that end-to-end check, Level 3 on topic a04 delivered 20 articles in 7.1 minutes with 6 AI calls, every AI step approved on the first attempt; the jury judged 20 of 20 correct and the single judge 19 of 20; the verifier and the three judges cost US$ 0.67 on OpenRouter. With one level and one topic the report shows no interval and no comparison between levels: those need runs of at least two levels on at least two topics.
+
 ## 4. A batch of runs
 
 ```powershell

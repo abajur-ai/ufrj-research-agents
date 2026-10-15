@@ -78,10 +78,16 @@ def section(title: str, df: pd.DataFrame, pt_br: bool) -> list[str]:
            + ", ".join(f"{lv_name(lv)} {v * 100:.0f}%" for lv, v in prec.items()) + ".", "",
            T("| Comparison | Odds ratio | p | p Holm |", "| Comparação | Razão de chances | p | p Holm |"),
            "| --- | --- | --- | --- |"]
+    present = set(df["level"]) if len(df) else set()
+    pairs = [(a, b) for a, b in PAIRS if a in present and b in present]
+    if not pairs or df["topic"].nunique() < 2 and len(present) < 2:
+        # comparing levels needs runs of at least two levels
+        return out[:3] + [T("Comparing levels needs runs of at least two levels.",
+                            "Comparar níveis exige rodadas de pelo menos dois níveis."), ""]
     fit = logit(df)
-    con = [contrast(fit, a, b) for a, b in PAIRS]
+    con = [contrast(fit, a, b) for a, b in pairs]
     adj = holm([p for _, p in con])
-    for (a, b), (orr, p), ph in zip(PAIRS, con, adj):
+    for (a, b), (orr, p), ph in zip(pairs, con, adj):
         out.append(f"| {lv_name(a)} {T('vs', 'contra')} {lv_name(b)} | {orr:.2f} | {p:.4f} | {ph:.4f} |")
     return out + [""]
 

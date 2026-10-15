@@ -2,7 +2,7 @@
 
 # Resultados das rodadas `class`
 
-48 rodadas (4 níveis, 6 temas, 2 repetições), 25 artigos pedidos por rodada. Gerado por `python -m evaluation.report`.
+Rodadas: 48. Níveis: 4. Temas: 6. 25 artigos pedidos por rodada. Gerado por `python -m evaluation.report`.
 
 ## Precisão: dos artigos entregues, quantos estão 100% certos
 

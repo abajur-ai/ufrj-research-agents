@@ -20,7 +20,7 @@ ORDER = {"n2": 0, "n3": 1, "n1": 2, "n0": 3}
 async def main_async(a) -> None:
     jobs = [(lv, t, r) for r in range(1, a.reps + 1) for lv in sorted(a.levels, key=ORDER.get) for t in a.topics]
     log = paths.ROOT / "benchmark" / "progress" / f"{a.tag}.jsonl"
-    log.parent.mkdir(exist_ok=True)
+    log.parent.mkdir(parents=True, exist_ok=True)
 
     def note(**kw):
         with log.open("a", encoding="utf-8") as f:
