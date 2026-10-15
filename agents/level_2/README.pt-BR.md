@@ -2,7 +2,7 @@
 
 # Nível 2: multiagente, com conferência
 
-**Um verificador confere cada passo.** O trabalho é dividido em três passos (plano, busca e triagem, extração), cada
+**Um verificador confere cada passo.** O trabalho é dividido em três passos (plano; busca e triagem; extração e entrega), cada
 um feito pelo seu próprio agente. Um verificador de outra empresa confere cada passo. Reprovou, o passo volta com o
 parecer do verificador, em até 5 tentativas.
 
@@ -28,7 +28,7 @@ preferir as próprias respostas (Panickssery, Bowman e Feng 2024). Aqui todo pas
 | --- | --- | --- | --- |
 | 1. Plano | executor (IA) | verificador: o plano cobre tudo o que o pedido exige? | Transforma o pedido em critérios de inclusão, consultas e o jeito de conferir cada critério. Ainda sem buscar nada. |
 | 2. Busca e triagem | executor (IA), com busca na web | checagem por código, depois o verificador, com busca na web: o artigo existe e atende ao pedido? | Roda as consultas, abre o registro oficial de cada candidato e lê o resumo. |
-| 3. Extração | executor (IA), com busca na web | checagem por código, depois o verificador, com busca na web: o que foi tirado está mesmo no resumo? | Escolhe os artigos da lista aprovada e tira método, amostra, achado e um trecho literal do resumo. |
+| 3. Extração e entrega | executor (IA), com busca na web | checagem por código, depois o verificador, com busca na web: o que foi tirado está no resumo e a referência confere? | Escolhe os artigos da lista aprovada, tira do resumo método, amostra, achado e um trecho literal, e entrega o relatório com as referências. |
 
 ```mermaid
 flowchart TD
@@ -40,10 +40,10 @@ flowchart TD
     SG -->|reprovou, volta com o parecer| S
     SG -->|passou| SV{"Verificador, com busca na web<br/>o artigo existe e atende ao pedido?"}
     SV -->|reprovou, volta com o parecer| S
-    SV -->|aprovou, artigos reprovados saem da lista| E["3. Extração<br/>Executor: método, amostra, achado e um trecho do resumo"]
+    SV -->|aprovou, artigos reprovados saem da lista| E["3. Extração e entrega<br/>Executor: método, amostra, achado e um trecho do resumo,<br/>e o relatório com as referências"]
     E --> EG{"Checagem por código<br/>quantidade certa, só artigos aprovados, trecho presente"}
     EG -->|reprovou, volta com o parecer| E
-    EG -->|passou| EV{"Verificador, com busca na web<br/>o que foi tirado está mesmo no resumo?"}
+    EG -->|passou| EV{"Verificador, com busca na web<br/>o que foi tirado está no resumo e a referência confere?"}
     EV -->|reprovou, volta com o parecer| E
     EV -->|aprovou, artigos reprovados saem da lista| D["Lista entregue"]
 ```
@@ -78,7 +78,7 @@ Todo agente tem quatro camadas: perfil, memória, planejamento e ação (Wang et
 ## O que recebe, como busca e lê, quem confere
 
 - **Recebe:** cada agente recebe as instruções do seu passo e o pedido.
-- **Busca e lê:** em três passos: plano, busca e extração.
+- **Busca e lê:** em três passos: plano, busca e triagem, extração e entrega.
 - **Quem confere:** um verificador confere cada passo e devolve o que reprova.
 
 ## Resultados
@@ -100,14 +100,14 @@ inteiro conta como erro. Média dos 6 temas, com o intervalo de 95% (t de Studen
 O júri são três juízes de IA de três empresas (DeepSeek V4 Pro, Qwen3.7 Plus, Gemini 3.1 Flash-Lite), cegos ao
 nível, que decidem por maioria em cada critério. O juiz único é o DeepSeek V4 Pro sozinho, nas mesmas rodadas.
 
-**Custo e resultado**, média por rodada. Certos, errados e não entregues são parcelas dos 25 artigos pedidos, pelo júri:
+**Custo e resultado**, média por rodada. Certos, errados e não entregues são parcelas dos 25 artigos pedidos, pelo júri; a precisão é a parcela dos artigos entregues que está 100% certa:
 
-| Nível | Tempo | Chamadas de IA | Tokens | Custo por rodada | Certos | Errados | Não entregues | Rodadas pausadas |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 0 | 10,2 min | 1,0 | 2,2 mi | R$ 7,11 | 80% | 17% | 3% | 0 de 12 |
-| 1 | 17,0 min | 1,0 | 4,2 mi | R$ 9,84 | 82% | 10% | 8% | 0 de 12 |
-| **2** | **42,1 min** | **9,9** | **5,9 mi** | **R$ 16,33** | **59%** | **8%** | **33%** | **3 de 12** |
-| 3 | 5,1 min | 7,0 | 146 mil | R$ 2,90 | 81% | 2% | 17% | 0 de 12 |
+| Nível | Tempo | Chamadas de IA | Tokens | Custo por rodada | Certos | Errados | Não entregues | Precisão (dos entregues) | Rodadas pausadas |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0 | 10,2 min | 1,0 | 2,2 mi | R$ 7,11 | 80% | 17% | 3% | 82% | 0 de 12 |
+| 1 | 17,0 min | 1,0 | 4,2 mi | R$ 9,84 | 82% | 10% | 8% | 89% | 0 de 12 |
+| **2** | **42,1 min** | **9,9** | **5,9 mi** | **R$ 16,33** | **59%** | **8%** | **33%** | **90%** | **3 de 12** |
+| 3 | 5,1 min | 7,0 | 146 mil | R$ 2,90 | 81% | 2% | 17% | 97% | 0 de 12 |
 
 Custo por rodada: Claude Sonnet 5.5 a preço de API pública da Anthropic (tokens e buscas na web) mais o verificador
 pelo valor cobrado pela OpenRouter, convertidos pela PTAX de venda do Banco Central de 14/10/2026, US$ 1 = R$ 5,0441.
@@ -172,7 +172,7 @@ os dois níveis.
 | `agent.py` | O pipeline do Nível 2. Ponto de entrada: `run(topic, run_dir, log)`, uma corrotina aguardada por `benchmark/run.py`. `topic` é uma entrada de `benchmark/topics.json`, `run_dir` a pasta da rodada, `log` o registro de eventos de `core/`. Contém os esquemas do plano e dos candidatos, as checagens por código e os três passos. |
 | `prompts/planner.md` | Prompt de sistema do passo 1 (plano). Em português. |
 | `prompts/searcher.md` | Prompt de sistema do passo 2 (busca e triagem). Em português. |
-| `prompts/extractor.md` | Prompt de sistema do passo 3 (extração). Em português. |
+| `prompts/extractor.md` | Prompt de sistema do passo 3 (extração e entrega). Em português. |
 | `runs/class-n2-<topic>-r<rep>/` | As 12 rodadas da aula: `events.jsonl`, `final.json`, `meta.json`, `calls/`. |
 | `evaluations/judge-deepseek/` | Um arquivo por rodada: checagens por código mais os pareceres do DeepSeek V4 Pro. |
 | `evaluations/judge-qwen/` | O mesmo, Qwen3.7 Plus. |

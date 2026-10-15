@@ -22,7 +22,7 @@ Neste guia você vai rodar os agentes de pesquisa com as próprias mãos. Começ
 
 ## 1. O jeito mais simples: pedir ao Claude Code
 
-Você não precisa digitar comandos. Crie uma pasta vazia, abra no Visual Studio Code (**File > Open Folder**), abra o painel do Claude Code (ou o OpenCode, na configuração (b) dos [Primeiros passos](getting-started.pt-BR.md#2-qual-ia-agêntica-usar)) e cole uma das instruções abaixo. A IA agêntica clona o repositório, lê este guia, instala o que falta, roda os comandos e conta o resultado. Ele pede a sua permissão antes de rodar cada comando, então o controle continua com você.
+Você não precisa digitar comandos. Crie uma pasta vazia, abra no Visual Studio Code (**File > Open Folder**), abra o painel do Claude Code (ou o OpenCode, na configuração (b) dos [Primeiros passos](getting-started.pt-BR.md#2-qual-ia-agêntica-usar)) e cole uma das instruções abaixo. A IA agêntica clona o repositório, lê este guia, instala o que falta, roda os comandos e conta o resultado. Ela pede a sua permissão antes de rodar cada comando, então o controle continua com você.
 
 **Rodar o Nível 3 no tema de exemplo** (alguns minutos, alguns centavos de OpenRouter):
 

@@ -6,8 +6,8 @@ Código procura cada obra (OpenAlex, DBLP, arXiv, OpenLibrary, web) e os número
 
 | Obra | Existe | Autor | Ano | Veículo | Lido |
 | --- | --- | --- | --- | --- | --- |
-| anthropic_agents | sim | sim | sim | - | web: https://simonwillison.net/2024/Dec/20/building-effective-agents/; web: https://eapad.dk/resource/building-effective-agents/; web: https://blog.naitive.clou |
-| russell_norvig | sim | sim | NÃO | NÃO | web: https://swoft.ai/en/articles/qu-est-ce-qu-un-agent-ia-definition-academique-russell-wooldridge-ferber/; web: https://huyenchip.com/2025/01/07/agents.html;  |
+| anthropic_agents | sim | sim | sim | - | web: https://github.com/intellectronica/building-effective-agents-with-pydantic-ai/blob/main/README.md; web: https://simonwillison.net/2024/Dec/20/building-effe |
+| russell_norvig | sim | sim | NÃO | NÃO | web: https://agentplex.substack.com/p/agentplex-weekly-issue-8; web: https://classpages.cselabs.umn.edu/Fall-2017/csci8551/notes1.pdf |
 | react | sim | sim | sim | NÃO | resumo (arXiv 2210.03629v3); texto completo (arXiv 2210.03629v3) |
 | wang_survey | sim | sim | sim | sim | resumo (OpenAlex); resumo (arXiv 2308.11432v7); texto completo (arXiv 2308.11432v7) |
 | google_dr | sim | NÃO | NÃO | - | web: https://blog.google/products/gemini/google-gemini-deep-research/ |
@@ -17,7 +17,7 @@ Código procura cada obra (OpenAlex, DBLP, arXiv, OpenLibrary, web) e os número
 | kalai_2025 | sim | sim | sim | sim | resumo (Crossref 10.20944/preprints202601.1447.v1); resumo (OpenAlex); resumo (arXiv 2509.04664v1); texto completo (arXiv 2509.04664v1) |
 | sharma | sim | sim | sim | NÃO | resumo (arXiv 2310.13548v4); texto completo (arXiv 2310.13548v4) |
 | walters | sim | sim | sim | sim | resumo (Crossref 10.1038/s41598-023-41032-5); resumo (OpenAlex); página da editora (doi 10.1038/s41598-023-41032-5) |
-| tow | sim | NÃO | sim | - | web: https://www.bibsonomy.org/bibtex/2abbaf5add097db3ac04f2b55d9af6382/meneteqel; web: https://x.com/SciNewsRo/status/1900451264195973233; web: https://laurayo |
+| tow | sim | NÃO | sim | - | web: https://x.com/SciNewsRo/status/1900451264195973233; web: https://laurayost.substack.com/p/digital-wild-goose-chase-the-serious |
 | kalai_vempala | sim | sim | sim | sim | resumo (OpenAlex); resumo (arXiv 2311.14648v3); texto completo (arXiv 2311.14648v3) |
 | pal | sim | sim | sim | NÃO | resumo (OpenAlex); resumo (arXiv 2211.10435v2); texto completo (arXiv 2211.10435v2) |
 | llm_modulo | sim | sim | sim | NÃO | resumo (OpenAlex); página da editora (doi 10.48550/arxiv.2402.01817) |
@@ -39,7 +39,7 @@ Código procura cada obra (OpenAlex, DBLP, arXiv, OpenLibrary, web) e os número
 | jergas | sim | sim | sim | sim | resumo (Crossref 10.7717/peerj.1364); resumo (OpenAlex) |
 | messeri | sim | sim | sim | sim | página da editora (doi 10.1038/s41586-024-07146-0) |
 | nature_2023 | sim | sim | sim | - | web: https://www.nature.com/articles/d41586-023-00191-1; web: https://x.com/Nature/status/1617942047293411329 |
-| unesco | sim | sim | sim | - | web: https://dig.watch/resource/unesco-recommendation-on-the-ethics-of-artificial-intelligence; web: https://www.unesco.org/en/legal-affairs/recommendation-ethi |
+| unesco | sim | sim | sim | - | web: https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence; web: https://dig.watch/resource/unesco-recommendation-on-the-ethics- |
 | anthropic_pricing | sim | sim | sim | - | web: https://platform.claude.com/docs/en/about-claude/pricing; web: https://benchlm.ai/anthropic/api-pricing; web: https://www.sentra.app/articles/claude-api-pr |
 
 ## Afirmações
@@ -66,13 +66,13 @@ Código: dynamically direct their own processes and tool usage: achado
 
 ### c03 (p. 7): **sustenta**
 
-> Definição clássica de agente: tudo o que pode ser visto como percebendo o seu ambiente por sensores e agindo sobre ele por atuadores (Russell e Norvig, 4. ed., 2021).
+> Definição clássica de agente: tudo o que pode ser visto como percebendo o seu ambiente por sensores e agindo sobre ele por efetores (Russell e Norvig, 1995, p. 31).
 
-Código: perceiving its environment through sensors and acting upon that environment through actuators: achado
+Código: perceiving its environment through sensors and acting upon that environment through effectors: achado
 
-- DeepSeek V4 Pro: sustenta. Os trechos fornecidos reproduzem exatamente a definição em inglês que o slide traduz fielmente para o português. Atribuem-na explicitamente a Russell & Norvig, AIMA, obra que segue em sua 4ª edição (2021) sem alteração nessa definição clássica.
-- Qwen3.7 Plus: sustenta_em_parte. A definição apresentada no slide ('tudo o que pode ser visto como percebendo o seu ambiente por sensores e agindo sobre ele por atuadores') é uma tradução fiel e é integralmente sustentada pelos trechos, que a atribuem a Russell e Norvig. Contudo, os trechos fornecidos referem-se exclusivamente à primeira edição da obra, publicada em 1995 ('AIMA, 1995', 'Artificial Intelligence: A Modern Approach 
-- Gemini 3.1 Flash-Lite: sustenta. A definição apresentada no slide é uma tradução fiel da definição de agente encontrada na obra de Russell e Norvig, conforme confirmado pelos trechos fornecidos. A autoria e a natureza da definição estão corretamente representadas.
+- DeepSeek V4 Pro: sustenta_em_parte. Os trechos fornecem a definição exata citada no slide (tradução fiel), mas não confirmam a página 31 mencionada na referência.
+- Qwen3.7 Plus: sustenta. O trecho confirma que Russell e Norvig, em 'AI: A Modern Approach', definiram agente exatamente como o slide apresenta ('anything that can be viewed as perceiving its environment through sensors and acting upon that environment through effectors'). A tradução apresentada no slide é fiel ao original em inglês citado na fonte.
+- Gemini 3.1 Flash-Lite: sustenta. A definição apresentada no slide é uma tradução fiel da definição de agente atribuída a Russell e Norvig no trecho da fonte fornecido.
 
 ### c04 (p. 9): **sustenta**
 
@@ -380,9 +380,9 @@ Código: produce more but understand less: achado
 
 Código: never replace ultimate human responsibility: achado
 
-- DeepSeek V4 Pro: sustenta. O trecho do § 36 contém exatamente a afirmação traduzida: 'an AI system can never replace ultimate human responsibility and accountability'. A tradução para o português ('Um sistema de IA nunca pode substituir a responsabilidade e a prestação de contas humanas finais') é fiel, e o número do parágrafo está correto.
-- Qwen3.7 Plus: sustenta. O trecho do parágrafo 36 da fonte original diz exatamente "but an AI system can never replace ultimate human responsibility and accountability". A tradução apresentada no slide ("Um sistema de IA nunca pode substituir a responsabilidade e a prestação de contas humanas finais") é fiel ao texto original, mantendo o sentido e a terminologia adequados ("accountability" traduzido como "prestação de con
-- Gemini 3.1 Flash-Lite: sustenta. A tradução apresentada no slide é fiel ao texto original do parágrafo 36 da Recomendação da UNESCO, que afirma explicitamente que um sistema de IA nunca pode substituir a responsabilidade e a prestação de contas humanas finais.
+- DeepSeek V4 Pro: sustenta. A citação traduzida é fiel ao original: 'ultimate human responsibility and accountability' foi corretamente vertido como 'responsabilidade e a prestação de contas humanas finais'. O slide apenas reproduz a afirmação do § 36, sem acréscimos ou distorções.
+- Qwen3.7 Plus: sustenta. O trecho do parágrafo 36 afirma literalmente que "an AI system can never replace ultimate human responsibility and accountability". A tradução apresentada no slide ("Um sistema de IA nunca pode substituir a responsabilidade e a prestação de contas humanas finais") é fiel ao original em inglês.
+- Gemini 3.1 Flash-Lite: sustenta. A citação traduzida no slide é fiel ao texto original do parágrafo 36 da Recomendação da UNESCO sobre a Ética da IA, que afirma que 'an AI system can never replace ultimate human responsibility and accountability'.
 
 ### n05 (p. 40): **sustenta**
 
@@ -400,9 +400,9 @@ Código: accountability for the work: achado, cannot take such responsibility: a
 
 Código: Sonnet 5.5: achado, $10: achado
 
-- DeepSeek V4 Pro: sustenta. O trecho da benchlm.ai afirma explicitamente que o preço do Sonnet 5.5 é US$ 2 por milhão de tokens de entrada e US$ 10 por milhão de tokens de saída. O trecho oficial da Anthropic confirma que buscas na web custam US$ 10 por mil (1.000) buscas. Ambos os valores coincidem exatamente com o slide.
-- Qwen3.7 Plus: sustenta. Os trechos confirmam que o preço de entrada do Claude Sonnet 5.5 é US$ 2 por milhão de tokens (pois 5% desse valor = US$ 0,10, conforme dito explicitamente), o preço de saída é US$ 10 por milhão (conforme a tabela de preços do site externo que lista $2/$10 para Sonnet 5.5), e que buscas na web custam US$ 10 por 1.000 buscas. Todos os três valores afirmados no slide são sustentados pelos trechos.
-- Gemini 3.1 Flash-Lite: sustenta. Os trechos da fonte confirmam explicitamente os valores de US$ 2 por milhão de tokens de entrada e US$ 10 por milhão de tokens de saída para o modelo Claude Sonnet 5.5, bem como o custo de US$ 10 por 1.000 buscas na web.
+- DeepSeek V4 Pro: sustenta_em_parte. O preço de entrada ($2/MTok) é sustentado indiretamente pelo custo de cache read. O preço de buscas na web ($10/mil) é sustentado literalmente. O preço de saída ($10/MTok) não é confirmado diretamente por nenhum trecho da documentação oficial fornecida; a tabela de Batch API é ambígua e reflete preços com desconto, e a fonte externa não é a citada. Portanto, o slide é sustentado apenas em parte.
+- Qwen3.7 Plus: sustenta. Os trechos confirmam que o preço de entrada do Sonnet 5.5 é US$ 2 (já que 5% do preço padrão de entrada é US$ 0,10) e o preço de saída é US$ 10 (conforme o resumo de preços que lista explicitamente "$2/$10 for Sonnet 5.5"). Além disso, confirmam que a busca na web custa US$ 10 por mil buscas ("$10 per 1,000 searches"). A tradução dos valores e termos para o slide está fiel.
+- Gemini 3.1 Flash-Lite: sustenta. A fonte confirma explicitamente que o preço do Claude Sonnet 5.5 é de US$ 2 por milhão de tokens de entrada e US$ 10 por milhão de tokens de saída, além de confirmar que as buscas na web custam US$ 10 por 1.000 buscas.
 
 ### n07 (p. 39): **sustenta**
 

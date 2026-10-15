@@ -19,13 +19,15 @@ An AI agent can run a literature review for you. **How much can you trust it?**
 
 We built four levels of agent architecture, from a single sentence of instruction to a multi-agent pipeline where code does everything that does not need AI. Then we measured, on 48 real runs judged by a jury of three AI companies, which one errs least.
 
-The answer is **Level 3: code where it can, AI with checking where it must.** It is the most precise, the fastest and the cheapest. It still errs: 2 of every 100 articles requested come out wrong, and the agent does not say which. That is why the researcher stays in the loop.
+The answer is **Level 3: code where it can, AI with checking where it must.** It errs the least, and it is the fastest and the cheapest. It still errs: of every 100 articles requested, 81 come out right, 2 come out wrong and 17 are not delivered, and the agent does not say which ones are wrong. That is why the researcher stays in the loop.
 
 <div align="center">
 
-| **97%** | **5.1 min** | **R$ 2.90** | **2%** |
-| :---: | :---: | :---: | :---: |
-| Level 3 precision,<br>by the three-company jury | per run,<br>the fastest level | per run,<br>the cheapest level | of the articles requested<br>came out wrong |
+| **81%** | **2%** | **17%** | **5.1 min** | **R$ 2.90** |
+| :---: | :---: | :---: | :---: | :---: |
+| of the articles requested<br>came out right | of the articles requested<br>came out wrong | of the articles requested<br>were not delivered | per run,<br>the fastest level | per run,<br>the cheapest level |
+
+Level 3, by the three-company jury. Right, wrong and not delivered add up to 100% of the 25 articles requested in each run. Of the articles it delivers, 97% are right: that is precision, explained in [Two yardsticks](#two-yardsticks-what-is-requested-and-what-is-delivered).
 
 </div>
 
@@ -34,7 +36,7 @@ This README has three parts. Read the one you need.
 | [Part 1: The product](#part-1-the-product) | [Part 2: The science](#part-2-the-science) | [Part 3: The engineering](#part-3-the-engineering) |
 | --- | --- | --- |
 | What it is, what you get, how to run it, what it costs. | The method and its rationale, results, statistics, limits. | Architecture, stack, components, data flow, requirements. |
-| [What you get](#what-you-get) &middot; [Start here](#start-here) &middot; [Videos](#videos) &middot; [Human in the loop](#human-in-the-loop) &middot; [Cost](#what-it-costs-to-run) | [Why this is hard](#why-this-is-hard) &middot; [The four levels](#the-four-levels) &middot; [Results](#results) &middot; [Method](#how-it-was-measured) &middot; [Limits](#how-to-read-these-results) &middot; [Next steps](#from-level-3-onward) | [Stack](#stack) &middot; [Architecture](#architecture) &middot; [Data flow](#data-flow-of-one-run) &middot; [Reproducibility](#reproducibility-and-cost-controls) &middot; [Requirements](#requirements-and-platform) &middot; [Layout](#repository-layout) |
+| [What you get](#what-you-get) &middot; [Start here](#start-here) &middot; [Videos](#videos) &middot; [Human in the loop](#human-in-the-loop) &middot; [Cost](#what-it-costs-to-run) | [Why this is hard](#why-this-is-hard) &middot; [The four levels](#the-four-levels) &middot; [Two yardsticks](#two-yardsticks-what-is-requested-and-what-is-delivered) &middot; [Results](#results) &middot; [Method](#how-it-was-measured) &middot; [Limits](#how-to-read-these-results) &middot; [Next steps](#from-level-3-onward) | [Stack](#stack) &middot; [Architecture](#architecture) &middot; [Data flow](#data-flow-of-one-run) &middot; [Reproducibility](#reproducibility-and-cost-controls) &middot; [Requirements](#requirements-and-platform) &middot; [Layout](#repository-layout) |
 
 ---
 
@@ -207,7 +209,7 @@ flowchart LR
 | --- | --- | --- |
 | **Level 0** | One sentence, and nothing else. What almost everyone writes: one sentence of instruction and the request. It searches and reads alone, and nobody checks what it delivers. | [agents/level_0](agents/level_0/README.md) |
 | **Level 1** | One agent, no checking; the four layers described. It searches and reads alone, guided by the four layers. Nobody checks what it delivers. | [agents/level_1](agents/level_1/README.md) |
-| **Level 2** | Multi-agent, with checking. Three steps (plan, search and screening, extraction). A verifier checks every step; a rejected step returns with the verifier's reasons, up to 5 attempts; what the verifier rejects leaves the list. | [agents/level_2](agents/level_2/README.md) |
+| **Level 2** | Multi-agent, with checking. Three steps (plan, search and screening, extraction and delivery). A verifier checks every step; a rejected step returns with the verifier's reasons, up to 5 attempts; what the verifier rejects leaves the list. | [agents/level_2](agents/level_2/README.md) |
 | **Level 3** | Multi-agent with checking, plus code. Code searches and checks; AI only reads and extracts. The verifier checks the AI; code checks every quote. | [agents/level_3](agents/level_3/README.md) |
 
 #### The four layers of an agent
@@ -218,7 +220,7 @@ Every agent has four parts: **profile** (who it is and what it pursues), **memor
 | --- | --- | --- | --- |
 | **Profile** | An assistant that supports a literature review. Prefers to deliver less rather than deliver wrong. | One per agent and one per verifier. | AI only in the judgment steps. |
 | **Memory** | A record for each article it finds. Where it checked each datum and what it decided. | The approved list and the history of rejections. | Candidates with the official registry record and the downloaded abstract. |
-| **Planning** | Turns the request into criteria and searches the academic databases. Reads each abstract and discards what does not fit. | Fixed steps; up to 5 attempts; what is rejected leaves the list. | Automatic quality controls and up to 5 attempts. |
+| **Planning** | Turns the request into criteria and searches the academic databases. Reads each abstract and discards what does not fit. At the end, consolidates and delivers the report, with only what it checked. | Fixed steps; up to 5 attempts; what is rejected leaves the list. | Automatic quality controls and up to 5 attempts. |
 | **Action** | Searches the web and opens the article pages. What it cannot check stays out. | Web search; the verifier also opens the pages. | Search, filtering, checking and assembly by code. |
 
 #### Level 3: AI reads and concludes, the rest is code
@@ -254,6 +256,25 @@ Levels 0 and 1 split the work the same way. What separates them is how well the 
 
 ### Results
 
+#### Two yardsticks: what is requested and what is delivered
+
+The test measures the same work with two yardsticks. They do not compete: each one answers a different question.
+
+| Yardstick | The math | The question it answers | Level 3 |
+| --- | --- | --- | :---: |
+| **Right, wrong and not delivered** | each part divided by the 25 articles requested | Of what I asked for, how much came out right, how much came out wrong and how much did not come? | 81%, 2% and 17% |
+| **Precision** (the main metric) | articles 100% correct divided by articles delivered | Of what the agent delivered, how much is right? | 97% |
+
+An example. Ask Level 3 for 100 articles: on average, 81 arrive right, 2 arrive wrong and 17 do not arrive. The three parts add up to 100. Precision looks only at the ones that arrived: of every 100 articles delivered, 97 are right.
+
+Why both:
+
+- **Precision alone would reward an agent that delivers little.** An agent that delivered a single article, right, would score 100%. That is why the articles not delivered are always shown next to it.
+- **Right alone would hide the kind of failure.** Level 1 brings 82% right and Level 3 81%: almost the same. The difference is in the rest. Level 1 mixes 10% wrong articles into the list; Level 3 mixes 2% and leaves 17% out.
+- **Missing and wrong do not weigh the same.** A missing article shows: the list is shorter, and the researcher searches for the rest. A wrong article does not show: it looks right, and only checking finds it. That is why the main metric is precision, which does not reward guessing (Kalai et al. 2025), with the articles not delivered shown separately.
+
+How each number is computed: precision is the mean over the six topics (in each topic, the articles right over the articles delivered), and right, wrong and not delivered are means per run over the 25 requested. So one does not follow from the other using numbers that are already rounded.
+
 #### Precision by level: who errs least
 
 **Precision** is the main metric: of the articles delivered, how many are 100% correct. One wrong field and the whole article counts as wrong. Each value is the mean over the six topics, with the 95% interval (Student t over the topics).
@@ -277,14 +298,14 @@ Jury: DeepSeek V4 Pro, Qwen3.7 Plus and Gemini 3.1 Flash-Lite, majority per crit
 
 #### The price of trust
 
-Mean per run, 12 runs per level, 48 in total. Right, wrong and not delivered add up to 100% of the 25 articles requested per run, by the jury.
+Mean per run, 12 runs per level, 48 in total. Right, wrong and not delivered add up to 100% of the 25 articles requested per run, by the jury. The precision column looks only at the articles delivered (see [Two yardsticks](#two-yardsticks-what-is-requested-and-what-is-delivered)).
 
-| Level | Time | AI calls | Tokens | Cost per run | Right | Wrong | Not delivered | Paused runs |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---: |
-| Level 0 | 10.2 min | 1.0 | 2.2 M | R$ 7.11 | 80% | 17% | 3% | 0 of 12 |
-| Level 1 | 17.0 min | 1.0 | 4.2 M | R$ 9.84 | 82% | 10% | 8% | 0 of 12 |
-| Level 2 | 42.1 min | 9.9 | 5.9 M | R$ 16.33 | 59% | 8% | 33% | 3 of 12 |
-| Level 3 | **5.1 min** | 7.0 | **146 k** | **R$ 2.90** | 81% | **2%** | 17% | 0 of 12 |
+| Level | Time | AI calls | Tokens | Cost per run | Right | Wrong | Not delivered | Precision (of delivered) | Paused runs |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---: |
+| Level 0 | 10.2 min | 1.0 | 2.2 M | R$ 7.11 | 80% | 17% | 3% | 82% | 0 of 12 |
+| Level 1 | 17.0 min | 1.0 | 4.2 M | R$ 9.84 | 82% | 10% | 8% | 89% | 0 of 12 |
+| Level 2 | 42.1 min | 9.9 | 5.9 M | R$ 16.33 | 59% | 8% | 33% | 90% | 3 of 12 |
+| Level 3 | **5.1 min** | 7.0 | **146 k** | **R$ 2.90** | 81% | **2%** | 17% | 97% | 0 of 12 |
 
 ```text
 Wrong articles, % of the 25 requested (lower is better)
@@ -328,7 +349,7 @@ Every run receives the same kind of request: find **25 peer-reviewed empirical j
 
 The example topic shows why this is a demanding test:
 
-| Why it is hard | Why it is sensitive | Why it is long |
+| Why it is hard | Why it is delicate | Why it is long |
 | --- | --- | --- |
 | **The criterion is narrow.** Only games evaluated with participants: an agent that insists on completing 25 stretches the criterion. | **Every datum can be checked.** DOI, year, author, quote: one error invalidates the reference. | **25 x 9 fields.** More than 200 decisions in a chain, where error accumulates. |
 
@@ -352,7 +373,7 @@ The example topic shows why this is a demanding test:
 | **Two repetitions per topic and level.** | AI is probabilistic: the same request can give different answers. |
 | **The same executor at every level:** Claude Sonnet 5.5, called through the Claude Agent SDK (Claude Code). | The only thing that changes between levels is the architecture, so the difference measured comes from the architecture, not from the model. |
 | **Five companies.** Claude (Anthropic) executes, GLM-5.3 Flash (Z.ai, via OpenRouter) verifies, DeepSeek, Qwen (Alibaba) and Gemini (Google) judge. | Models tend to prefer their own answers (Panickssery, Bowman and Feng 2024). So the verifier comes from another company, and the judges from three more. |
-| **Precision as the main metric:** one wrong field and the whole article counts as wrong. | The metric does not reward guessing (Kalai et al. 2025). Articles not delivered are reported separately, so the trade-off between delivering less and delivering wrong stays visible. Item-by-item evaluation with a judge follows FActScore (Min et al. 2023). |
+| **Precision as the main metric:** of the articles delivered, how many are 100% correct; one wrong field and the whole article counts as wrong. | The metric does not reward guessing (Kalai et al. 2025). Articles not delivered are reported separately, so the trade-off between delivering less and delivering wrong stays visible. Item-by-item evaluation with a judge follows FActScore (Min et al. 2023). |
 | **Code checks the hard data:** the DOI exists; title, author, year and journal match the registry; period and publication type; quote and sample are in the abstract. | Hard data has one right answer, so code checks it with no AI. The evaluator also consults sources Level 3 does not use (Semantic Scholar and the publisher page), so Level 3 is not graded by its own sources. |
 | **A jury of three companies decides the judgment criteria:** DeepSeek V4 Pro, Qwen3.7 Plus and Gemini 3.1 Flash-Lite, blind to the level, read the abstract and decide by majority, per criterion: on topic, empirical, method as stated, finding supported by the abstract. | A panel of diverse models reduces the bias of any single judge (Verga et al. 2024; Zheng et al. 2023). |
 | **A single judge for comparison:** DeepSeek V4 Pro alone, same criteria, same runs. | Shows how much the result depends on who judges. Level 3 leads under both. |
@@ -386,7 +407,7 @@ flowchart LR
 2. **Likely range (95% CI).** Where the true mean should be, with 95% confidence. Student t with 5 degrees of freedom (G minus 1, G = 6 topics), the conservative choice for few groups (Cameron and Miller 2015, section VI). With only six topics, it makes the range wider.
 3. **Per-article test.** Every article counts. Logistic regression of correctness on level and topic; articles of the same run form a group (errors clustered by run), with t critical values, and the Holm correction discounts the multiple comparisons (Holm 1979).
 
-**Result, in precision, by the jury:** Level 3 beats Level 0 with statistical confidence (Holm-adjusted p = 0.001). It also beats Levels 1 and 2, with a weaker signal: there, the chance of a fluke sits just above the usual 5% cutoff (Holm-adjusted p about 0.06).
+**Result, in precision (of the articles delivered), by the jury:** Level 3 beats Level 0 with statistical confidence (Holm-adjusted p = 0.001). It also beats Levels 1 and 2, with a weaker signal: there, the chance of a fluke sits just above the usual 5% cutoff (Holm-adjusted p about 0.06).
 
 Limits in full, and what a bigger test would need: [docs/limits-and-next-steps.md](docs/limits-and-next-steps.md).
 

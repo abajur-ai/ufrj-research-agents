@@ -6,7 +6,7 @@ REFS = [
     {"id": "anthropic_agents", "kind": "web", "title": "Building effective agents", "authors": ["Schluntz", "Zhang"],
      "year": 2024, "venue": "Anthropic", "query": "Anthropic \"Building effective agents\" Erik Schluntz Barry Zhang"},
     {"id": "russell_norvig", "kind": "book", "title": "Artificial Intelligence: A Modern Approach", "authors": ["Russell", "Norvig"],
-     "year": 2021, "venue": "Pearson", "query": "Russell Norvig \"perceiving its environment through sensors and acting upon that environment through actuators\""},
+     "year": 1995, "venue": "Prentice Hall", "query": "Russell Norvig \"perceiving its environment through sensors and acting upon that environment through effectors\""},
     {"id": "react", "kind": "paper", "title": "ReAct: Synergizing Reasoning and Acting in Language Models", "authors": ["Yao"], "year": 2023, "venue": "ICLR"},
     {"id": "wang_survey", "kind": "paper", "title": "A survey on large language model based autonomous agents", "authors": ["Wang"], "year": 2024, "venue": "Frontiers of Computer Science"},
     {"id": "google_dr", "kind": "web", "title": "Try Deep Research and our new experimental model in Gemini, your AI assistant", "authors": ["Citron"],
@@ -57,7 +57,7 @@ REFS = [
 CLAIMS = [
     {"id": "c01", "page": 6, "refs": ["anthropic_agents"], "claim": "Um agente recebe uma tarefa, planeja e opera de forma independente, decide os próprios passos e usa ferramentas até concluir.", "needles": ["dynamically direct their own processes and tool usage", "plan and operate independently"]},
     {"id": "c02", "page": 7, "refs": ["anthropic_agents"], "claim": "Citação traduzida: \"O modelo de linguagem dirige dinamicamente o próprio processo e o uso de ferramentas.\"", "needles": ["dynamically direct their own processes and tool usage"]},
-    {"id": "c03", "page": 7, "refs": ["russell_norvig"], "claim": "Definição clássica de agente: tudo o que pode ser visto como percebendo o seu ambiente por sensores e agindo sobre ele por atuadores (Russell e Norvig, 4. ed., 2021).", "needles": ["perceiving its environment through sensors and acting upon that environment through actuators"], "extra": ["Russell Norvig \"Artificial Intelligence: A Modern Approach\" 4th edition 2021 \"anything that can be viewed as perceiving its environment through sensors\""]},
+    {"id": "c03", "page": 7, "refs": ["russell_norvig"], "claim": "Definição clássica de agente: tudo o que pode ser visto como percebendo o seu ambiente por sensores e agindo sobre ele por efetores (Russell e Norvig, 1995, p. 31).", "needles": ["perceiving its environment through sensors and acting upon that environment through effectors"], "extra": ["Russell Norvig aima1e chapter02 \"Intelligent Agents\" \"acting upon that environment through effectors\""], "prefer": "berkeley.edu"},
     {"id": "c04", "page": 9, "refs": ["react"], "claim": "O ciclo do agente alterna raciocínio (pensar), ação (usar uma ferramenta, como busca) e observação do resultado, e repete.", "needles": ["interleaved", "reasoning traces", "actions"]},
     {"id": "c05", "page": 8, "refs": ["wang_survey"], "claim": "Agentes baseados em LLM têm quatro módulos: perfil, memória, planejamento e ação.", "needles": ["profiling module", "memory module", "planning module", "action module"]},
     {"id": "c06", "page": 10, "refs": ["google_dr"], "claim": "Deep Research do Google (dez. 2024): pesquisa em várias etapas, navega pela web, lê as páginas e devolve um relatório com as fontes.", "needles": ["Deep Research", "report"]},

@@ -83,6 +83,11 @@ sempre somam 100%:
 - **Não entregues:** pedidos, mas fora da entrega. Uma rodada pausada (o verificador recusou a quinta tentativa de um
   passo, e a rodada não entregou relatório) conta os seus 25 artigos como não entregues.
 
+Um exemplo, com o Nível 3 pelo júri: de cada 100 artigos pedidos, 81 chegam certos, 2 chegam errados e 17 não chegam;
+de cada 100 artigos entregues, 97 estão certos. A precisão é a média dos seis temas (em cada tema, os certos sobre os
+entregues), e certos, errados e não entregues são médias por rodada sobre os 25 pedidos. Por isso uma não sai da
+outra com os números já arredondados.
+
 ## As conferências por código, em detalhe
 
 O código confere o que tem resposta certa fora da IA. Ele é determinístico: a mesma entrada sempre dá o mesmo

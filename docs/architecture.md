@@ -85,7 +85,7 @@ flowchart TB
 | `config.py` | Shared configuration: the executor model (`claude-sonnet-5-5`) and effort (`high`), the same for every AI call of every level; the cache root (`.cache/`); the HTTP user agent; `find_claude_exe()`, which finds the newest `claude.exe` shipped with the Claude Code extension for VS Code; `brave_api_key()`. |
 | `llm.py` | `run_agent()`: one isolated executor call through the Claude Agent SDK. It writes the system and user prompts to `calls/`, starts Claude Code with no user settings (`setting_sources=[]`), no MCP servers (`strict_mcp_config`, `mcp_servers={}`), no saved session (`no-session-persistence`), only the tools the step allows, a turn limit, a timeout and, when the step has one, a JSON schema for structured output. It streams every message into the event log, keeps the latest quota reading, raises `RateLimited` when the quota is rejected, and on timeout stops the `claude.exe` processes of that call. If the structured output is missing, it extracts the last JSON object from the text. |
 | `events.py` | `EventLog`: an append-only JSON Lines file per run (`events.jsonl`), thread-safe, one event per line. `clip()` shortens long text for the log. |
-| `sources.py` | HTTP helpers shared by the evaluation and the verifier: request headers, page download with size limit, PDF and HTML text extraction, and a Brave Search client. |
+| `sources.py` | HTTP helpers shared by the evaluation, the verifier and the bibliography check: request headers, page download with size limit, PDF and HTML text extraction, the Wikipedia address pattern and headers, and the Brave Search and OpenAlex clients. |
 
 ### `benchmark/`
 
@@ -110,7 +110,7 @@ Each level is one module, `agent.py`, exposing `async def run(topic: dict, run_d
 | --- | --- | --- |
 | Level 0 | `run_single_agent()` with a one-sentence instruction. | `level_0.md` |
 | Level 1 | `run_single_agent()` with the instruction written in four layers. | `level_1.md` |
-| Level 2 | Three `qa_step()` calls: plan, search and screening, extraction. | `planner.md`, `searcher.md`, `extractor.md` |
+| Level 2 | Three `qa_step()` calls: plan; search and screening; extraction and delivery. | `planner.md`, `searcher.md`, `extractor.md` |
 | Level 3 | Six steps: three `qa_step()` calls (terms, screening, extraction) and three code steps (retrieve, filter, assemble). | `terms.md`, `screener.md`, `extractor.md` |
 
 Executor limits per call (n = 25 articles requested):
@@ -131,10 +131,10 @@ Level 3 executors have no tools: everything they read was downloaded by code.
 | --- | --- |
 | `evaluate.py` | `python -m evaluation.evaluate --judge deepseek --prefix mytest`. For every finished run whose id starts with the prefix, checks every delivered article by code and asks one judge about it, then writes `agents/level_N/evaluations/judge-<name>/<run_id>.json`. Runs whose evaluation is newer than their `meta.json` are skipped. |
 | `judge_llm.py` | `judge()`: one judge call through OpenRouter, effort `high`, temperature 0, strict JSON schema, cached by the SHA-256 of the full request. |
-| `verify.py` | Page fetch with cache (HTML through trafilatura and BeautifulSoup, PDF through PyMuPDF), text normalization (`norm()`: Unicode NFKC, quote marks and dashes unified, case folded, spaces collapsed) and literal quote matching (`find_quote()`: `exact` when every segment is a substring, `near` when every segment aligns at 90 or more, else `not_found`; segments split at ellipses and line breaks). |
+| `verify.py` | Page fetch with cache (HTML through trafilatura and BeautifulSoup, PDF through PyMuPDF), text normalization (`norm()`: Unicode NFKC, quote marks and dashes unified, case folded, spaces collapsed) and literal quote matching (`find_quote()`: `exact` when every segment is a substring, `near` when every segment aligns at 90 or more, else `not_found`; segments split at ellipses, line breaks and the ` // ` and ` / ` separators, and segments shorter than 15 characters are ignored). |
 | `jury.py` | `python -m evaluation.jury mytest`. For every run judged by all three judges, the majority vote per criterion, written as `evaluations/jury/<run_id>.json` in the same format as a judge's file. |
-| `report.py` | `python -m evaluation.report mytest`. Precision, intervals, cost and outcome per level, written to `evaluation/REPORT.md`. |
-| `stats.py` | `python -m evaluation.stats mytest`. The per-article test with Holm correction, written to `evaluation/STATISTICS.md`. |
+| `report.py` | `python -m evaluation.report mytest`. Per level: right, wrong and not delivered out of the 25 articles requested, cost, and the precision of the delivered articles with its intervals. Written to `evaluation/REPORT_mytest.md` and `REPORT_mytest.pt-BR.md`; for the tag `class`, to `evaluation/REPORT.md` and `REPORT.pt-BR.md`. |
+| `stats.py` | `python -m evaluation.stats mytest`. The per-article test of the precision of the delivered articles, with Holm correction. Written to `evaluation/STATISTICS_mytest.md` and `STATISTICS_mytest.pt-BR.md`; for the tag `class`, to `evaluation/STATISTICS.md` and `STATISTICS.pt-BR.md`. |
 
 ### `viewer/index.html`
 
@@ -294,7 +294,7 @@ Rules, as the code applies them:
 | --- | --- | --- | --- |
 | `plan` | criteria, queries (query, language, database), how to check | none | checks that the plan covers every criterion of the request; no web |
 | `search` | candidates (DOI, title, authors, year, venue, checked URL, criteria met) | DOIs well formed, no repeats, at least one candidate | checks, article by article, that each DOI exists and matches, and that each article meets every criterion; with web search and page fetch |
-| `extract` | the final items | the requested number, all from the approved list, each with a quote of 40 characters or more | checks, article by article, quote, sample, method and finding; with web search and page fetch |
+| `extract` | the final items, delivered as the report with the references | the requested number, all from the approved list, each with a quote of 40 characters or more | checks, article by article, quote, sample, method and finding; with web search and page fetch |
 
 On a new search attempt the executor also receives the previous list with the verifier's verdict on each article.
 
@@ -343,7 +343,7 @@ The judges are not part of the cost of a run: they are the cost of measuring. Th
 ### A new level
 
 1. Create `agents/level_4/` with `__init__.py`, `agent.py` and `prompts/`. `agent.py` exposes `async def run(topic, run_dir, log)`. Call the executor with `core.llm.run_agent()`, wrap any step you want checked in `benchmark.qa.qa_step()`, and finish with `benchmark.common.write_final(run_dir, items, status)`, each item with the 10 keys of `FINAL_SCHEMA`. Log `step_start` and `step_end` for the viewer.
-2. Register the level id `n4`: add it to `LEVELS` and widen the `RUN_ID` pattern in `benchmark/paths.py`; add a title to `TITLES` in `benchmark/run.py`; add a start order to `ORDER` in `benchmark/bench.py`; add it to the level lists in `evaluation/report.py` and `evaluation/stats.py`.
+2. Register the level id `n4`: add it to `LEVELS` and widen the `RUN_ID` pattern in `benchmark/paths.py`; add a title to `TITLES` in `benchmark/run.py`; add a start order to `ORDER` in `benchmark/bench.py`; add its comparisons to `PAIRS` in `evaluation/report.py` and `evaluation/stats.py` (both take the levels from `benchmark/paths.py`).
 3. Run it with `python -m benchmark.run --level n4 ...`. The evaluation does not change: it judges `final.json`, whatever produced it.
 
 ### A new judge

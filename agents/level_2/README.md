@@ -2,7 +2,7 @@
 
 # Level 2: multi-agent, with checking
 
-**A verifier checks every step.** The work is split into three steps (plan, search and screening, extraction), each
+**A verifier checks every step.** The work is split into three steps (plan; search and screening; extraction and delivery), each
 done by its own agent. A verifier from another company checks each step. Rejected, the step goes back with the
 verifier's reasons, up to 5 attempts.
 
@@ -28,7 +28,7 @@ own answers (Panickssery, Bowman and Feng 2024). Here every step is AI, and ever
 | --- | --- | --- | --- |
 | 1. Plan | executor (AI) | verifier: does the plan cover everything the request demands? | Turns the request into inclusion criteria, queries and the way each criterion will be checked. No searching yet. |
 | 2. Search and screening | executor (AI), with web search | code gate, then the verifier, with web search: does the article exist and meet the request? | Runs the queries, opens each candidate's official record and reads the abstract. |
-| 3. Extraction | executor (AI), with web search | code gate, then the verifier, with web search: is what was extracted really in the abstract? | Picks the articles from the approved list and extracts method, sample, finding and a literal quote from the abstract. |
+| 3. Extraction and delivery | executor (AI), with web search | code gate, then the verifier, with web search: is what was extracted in the abstract, and does the reference check out? | Picks the articles from the approved list, extracts method, sample, finding and a literal quote from the abstract, and delivers the report with the references. |
 
 ```mermaid
 flowchart TD
@@ -40,10 +40,10 @@ flowchart TD
     SG -->|fails, back with the reasons| S
     SG -->|passes| SV{"Verifier, with web search<br/>does the article exist and meet the request?"}
     SV -->|rejected, back with the reasons| S
-    SV -->|approved, rejected articles leave the list| E["3. Extraction<br/>Executor: method, sample, finding and a quote from the abstract"]
+    SV -->|approved, rejected articles leave the list| E["3. Extraction and delivery<br/>Executor: method, sample, finding and a quote from the abstract,<br/>and the report with the references"]
     E --> EG{"Code gate<br/>right count, only approved articles, quote present"}
     EG -->|fails, back with the reasons| E
-    EG -->|passes| EV{"Verifier, with web search<br/>is what was extracted really in the abstract?"}
+    EG -->|passes| EV{"Verifier, with web search<br/>is what was extracted in the abstract, and does the reference check out?"}
     EV -->|rejected, back with the reasons| E
     EV -->|approved, rejected articles leave the list| D["Delivered list"]
 ```
@@ -78,7 +78,7 @@ Every agent has four layers: profile, memory, planning and action (Wang et al. 2
 ## What it receives, how it searches and reads, who checks
 
 - **Receives:** each agent receives the instructions of its step and the request.
-- **Searches and reads:** in three steps: plan, search and extraction.
+- **Searches and reads:** in three steps: plan, search and screening, extraction and delivery.
 - **Who checks:** a verifier checks each step and returns what it rejects.
 
 ## Results
@@ -100,14 +100,14 @@ article counts as wrong. Mean over the 6 topics, with the 95% interval (Student 
 The jury is three AI judges from three companies (DeepSeek V4 Pro, Qwen3.7 Plus, Gemini 3.1 Flash-Lite), blind to the
 level, deciding by majority per criterion. The single judge is DeepSeek V4 Pro alone, on the same runs.
 
-**Cost and outcome**, mean per run. Right, wrong and not delivered are shares of the 25 articles requested, by the jury:
+**Cost and outcome**, mean per run. Right, wrong and not delivered are shares of the 25 articles requested, by the jury; precision is the share of the articles delivered that are 100% correct:
 
-| Level | Time | AI calls | Tokens | Cost per run | Right | Wrong | Not delivered | Paused runs |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 0 | 10.2 min | 1.0 | 2.2 M | R$ 7.11 | 80% | 17% | 3% | 0 of 12 |
-| 1 | 17.0 min | 1.0 | 4.2 M | R$ 9.84 | 82% | 10% | 8% | 0 of 12 |
-| **2** | **42.1 min** | **9.9** | **5.9 M** | **R$ 16.33** | **59%** | **8%** | **33%** | **3 of 12** |
-| 3 | 5.1 min | 7.0 | 146 k | R$ 2.90 | 81% | 2% | 17% | 0 of 12 |
+| Level | Time | AI calls | Tokens | Cost per run | Right | Wrong | Not delivered | Precision (of delivered) | Paused runs |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0 | 10.2 min | 1.0 | 2.2 M | R$ 7.11 | 80% | 17% | 3% | 82% | 0 of 12 |
+| 1 | 17.0 min | 1.0 | 4.2 M | R$ 9.84 | 82% | 10% | 8% | 89% | 0 of 12 |
+| **2** | **42.1 min** | **9.9** | **5.9 M** | **R$ 16.33** | **59%** | **8%** | **33%** | **90%** | **3 of 12** |
+| 3 | 5.1 min | 7.0 | 146 k | R$ 2.90 | 81% | 2% | 17% | 97% | 0 of 12 |
 
 Cost per run: Claude Sonnet 5.5 at Anthropic's public API price (tokens and web searches) plus the verifier at the
 cost OpenRouter charged, converted at the Banco Central PTAX selling rate of 14/10/2026, US$ 1 = R$ 5.0441. A paused
@@ -171,7 +171,7 @@ levels.
 | `agent.py` | The Level 2 pipeline. Entry point: `run(topic, run_dir, log)`, a coroutine awaited by `benchmark/run.py`. `topic` is one entry of `benchmark/topics.json`, `run_dir` the run folder, `log` the event log from `core/`. Holds the plan and candidate schemas, the code gates and the three steps. |
 | `prompts/planner.md` | System prompt of step 1 (plan). Portuguese. |
 | `prompts/searcher.md` | System prompt of step 2 (search and screening). Portuguese. |
-| `prompts/extractor.md` | System prompt of step 3 (extraction). Portuguese. |
+| `prompts/extractor.md` | System prompt of step 3 (extraction and delivery). Portuguese. |
 | `runs/class-n2-<topic>-r<rep>/` | The 12 class runs: `events.jsonl`, `final.json`, `meta.json`, `calls/`. |
 | `evaluations/judge-deepseek/` | One file per run: code checks plus the DeepSeek V4 Pro verdicts. |
 | `evaluations/judge-qwen/` | Same, Qwen3.7 Plus. |

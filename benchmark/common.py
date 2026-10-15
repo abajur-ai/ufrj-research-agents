@@ -1,6 +1,6 @@
 """What the four agents share: the output schema, the answer format, the verifier's instructions and helpers.
 
-Every level answers the same request with the same 9 fields per article, so the evaluation is the same for all.
+Every level answers the same request with the same 9 fields per article (study type and method are two keys of the schema), so the evaluation is the same for all.
 """
 from __future__ import annotations
 

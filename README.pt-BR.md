@@ -19,13 +19,15 @@ Um agente de IA pode fazer uma revisão bibliográfica por você. **Quanto dá p
 
 Construímos quatro níveis de arquitetura de agente, de uma única frase de instrução a um fluxo multiagente em que o código faz tudo o que não precisa de IA. Depois medimos, em 48 rodadas reais julgadas por um júri de três empresas de IA, qual erra menos.
 
-A resposta é o **Nível 3: código onde dá, IA com conferência onde precisa.** Ele é o mais preciso, o mais rápido e o mais barato. E ainda erra: 2 de cada 100 artigos pedidos saem errados, e o agente não diz quais. Por isso quem pesquisa continua no circuito.
+A resposta é o **Nível 3: código onde dá, IA com conferência onde precisa.** Ele é o que menos erra, o mais rápido e o mais barato. E ainda erra: de cada 100 artigos pedidos, 81 vêm certos, 2 vêm errados e 17 não vêm, e o agente não diz quais são os errados. Por isso quem pesquisa continua no circuito.
 
 <div align="center">
 
-| **97%** | **5,1 min** | **R$ 2,90** | **2%** |
-| :---: | :---: | :---: | :---: |
-| precisão do Nível 3,<br>pelo júri de três empresas | por rodada,<br>o nível mais rápido | por rodada,<br>o nível mais barato | dos artigos pedidos<br>saíram errados |
+| **81%** | **2%** | **17%** | **5,1 min** | **R$ 2,90** |
+| :---: | :---: | :---: | :---: | :---: |
+| dos artigos pedidos<br>vieram certos | dos artigos pedidos<br>vieram errados | dos artigos pedidos<br>não foram entregues | por rodada,<br>o nível mais rápido | por rodada,<br>o nível mais barato |
+
+Nível 3, pelo júri de três empresas. Certos, errados e não entregues somam 100% dos 25 artigos pedidos em cada rodada. Dos artigos que ele entrega, 97% estão certos: é a precisão, explicada em [Duas réguas](#duas-réguas-o-que-se-pede-e-o-que-se-entrega).
 
 </div>
 
@@ -34,7 +36,7 @@ Este README tem três partes. Leia a que você precisa.
 | [Parte 1: O produto](#parte-1-o-produto) | [Parte 2: A ciência](#parte-2-a-ciência) | [Parte 3: A engenharia](#parte-3-a-engenharia) |
 | --- | --- | --- |
 | O que é, o que você recebe, como rodar, quanto custa. | O método e o racional, resultados, estatística, limites. | Arquitetura, stack, componentes, fluxo de dados, requisitos. |
-| [O que você recebe](#o-que-você-recebe) &middot; [Comece aqui](#comece-aqui) &middot; [Vídeos](#vídeos) &middot; [Human in the loop](#human-in-the-loop) &middot; [Custo](#quanto-custa-rodar) | [Por que é difícil](#por-que-isso-é-difícil) &middot; [Os quatro níveis](#os-quatro-níveis) &middot; [Resultados](#resultados) &middot; [Método](#como-foi-medido) &middot; [Limites](#como-ler-estes-resultados) &middot; [Próximos passos](#do-nível-3-em-diante) | [Stack](#stack) &middot; [Arquitetura](#arquitetura) &middot; [Fluxo de dados](#fluxo-de-dados-de-uma-rodada) &middot; [Reprodutibilidade](#reprodutibilidade-e-controle-de-custo) &middot; [Requisitos](#requisitos-e-plataforma) &middot; [Estrutura](#estrutura-do-repositório) |
+| [O que você recebe](#o-que-você-recebe) &middot; [Comece aqui](#comece-aqui) &middot; [Vídeos](#vídeos) &middot; [Human in the loop](#human-in-the-loop) &middot; [Custo](#quanto-custa-rodar) | [Por que é difícil](#por-que-isso-é-difícil) &middot; [Os quatro níveis](#os-quatro-níveis) &middot; [Duas réguas](#duas-réguas-o-que-se-pede-e-o-que-se-entrega) &middot; [Resultados](#resultados) &middot; [Método](#como-foi-medido) &middot; [Limites](#como-ler-estes-resultados) &middot; [Próximos passos](#do-nível-3-em-diante) | [Stack](#stack) &middot; [Arquitetura](#arquitetura) &middot; [Fluxo de dados](#fluxo-de-dados-de-uma-rodada) &middot; [Reprodutibilidade](#reprodutibilidade-e-controle-de-custo) &middot; [Requisitos](#requisitos-e-plataforma) &middot; [Estrutura](#estrutura-do-repositório) |
 
 ---
 
@@ -207,7 +209,7 @@ flowchart LR
 | --- | --- | --- |
 | **Nível 0** | Uma frase, e mais nada. O que quase todo mundo escreve: uma frase de instrução e o pedido. Busca e lê sozinho, e ninguém confere o que ele entrega. | [agents/level_0](agents/level_0/README.pt-BR.md) |
 | **Nível 1** | Um agente, sem conferência; as quatro camadas descritas. Busca e lê sozinho, guiado pelas quatro camadas. Ninguém confere o que ele entrega. | [agents/level_1](agents/level_1/README.pt-BR.md) |
-| **Nível 2** | Multiagente, com conferência. Três passos (plano, busca e triagem, extração). Um verificador confere cada passo; o passo reprovado volta com o parecer do verificador, até 5 tentativas; o que o verificador reprova sai da lista. | [agents/level_2](agents/level_2/README.pt-BR.md) |
+| **Nível 2** | Multiagente, com conferência. Três passos (plano, busca e triagem, extração e entrega). Um verificador confere cada passo; o passo reprovado volta com o parecer do verificador, até 5 tentativas; o que o verificador reprova sai da lista. | [agents/level_2](agents/level_2/README.pt-BR.md) |
 | **Nível 3** | Multiagente com conferência, mais código. O código busca e confere; a IA só lê e extrai. O verificador confere a IA; o código confere cada trecho. | [agents/level_3](agents/level_3/README.pt-BR.md) |
 
 #### As quatro camadas de um agente
@@ -218,7 +220,7 @@ Todo agente tem quatro peças: **perfil** (quem ele é e o que persegue), **mem�
 | --- | --- | --- | --- |
 | **Perfil** | Um assistente que apoia uma revisão de literatura. Prefere entregar menos a entregar errado. | Um por agente e um por verificador. | IA só nos passos de julgamento. |
 | **Memória** | Uma ficha para cada artigo que encontra. Onde conferiu cada dado e o que decidiu. | Lista aprovada e histórico das reprovações. | Candidatos com o registro oficial e o resumo baixado. |
-| **Planejamento** | Transforma o pedido em critérios e busca nas bases acadêmicas. Lê cada resumo e descarta o que não atende. | Passos fixos; até 5 tentativas; o que é reprovado sai da lista. | Controles de qualidade automáticos e até 5 tentativas. |
+| **Planejamento** | Transforma o pedido em critérios e busca nas bases acadêmicas. Lê cada resumo e descarta o que não atende. Ao fim, consolida e entrega o relatório, só com o que conferiu. | Passos fixos; até 5 tentativas; o que é reprovado sai da lista. | Controles de qualidade automáticos e até 5 tentativas. |
 | **Ação** | Busca na web e abre as páginas dos artigos. O que não consegue conferir fica de fora. | Busca na web; o verificador também abre as páginas. | Busca, filtro, conferência e montagem por código. |
 
 #### Nível 3: a IA lê e conclui, o resto é código
@@ -254,6 +256,25 @@ Os níveis 0 e 1 dividem o trabalho do mesmo jeito. O que separa os dois é o qu
 
 ### Resultados
 
+#### Duas réguas: o que se pede e o que se entrega
+
+O teste mede o mesmo trabalho com duas réguas. Elas não competem: cada uma responde a uma pergunta diferente.
+
+| Régua | A conta | A pergunta que ela responde | Nível 3 |
+| --- | --- | --- | :---: |
+| **Certos, errados e não entregues** | cada parte dividida pelos 25 artigos pedidos | Do que eu pedi, quanto veio certo, quanto veio errado e quanto não veio? | 81%, 2% e 17% |
+| **Precisão** (a métrica principal) | artigos 100% certos divididos pelos artigos entregues | Do que o agente me entregou, quanto está certo? | 97% |
+
+Um exemplo. Peça 100 artigos ao Nível 3: em média, 81 chegam certos, 2 chegam errados e 17 não chegam. As três partes somam 100. A precisão olha só para os que chegaram: de cada 100 artigos entregues, 97 estão certos.
+
+Por que as duas:
+
+- **A precisão sozinha premiaria quem entrega pouco.** Um agente que entregasse um único artigo, certo, teria 100%. Por isso os não entregues aparecem sempre ao lado.
+- **Os certos sozinhos esconderiam o tipo de falha.** O Nível 1 traz 82% de certos e o Nível 3, 81%: quase o mesmo. A diferença está no resto. O Nível 1 mistura 10% de artigos errados na lista; o Nível 3 mistura 2% e deixa 17% de fora.
+- **Faltar e errar não pesam igual.** O artigo que falta se vê: a lista veio menor, e quem pesquisa busca o resto. O artigo errado não se vê: parece certo, e só a conferência o encontra. Por isso a métrica principal é a precisão, que não premia o chute (Kalai et al. 2025), com os não entregues mostrados à parte.
+
+Como cada número é calculado: a precisão é a média dos seis temas (em cada tema, os artigos certos sobre os entregues), e certos, errados e não entregues são médias por rodada sobre os 25 pedidos. Por isso uma não sai da outra com os números já arredondados.
+
 #### Precisão por nível: quem erra menos
 
 A **precisão** é a métrica principal: dos artigos entregues, quantos estão 100% certos. Um campo errado e o artigo inteiro conta como erro. Cada valor é a média dos seis temas, com o intervalo de 95% (t de Student sobre os temas).
@@ -277,14 +298,14 @@ Júri: DeepSeek V4 Pro, Qwen3.7 Plus e Gemini 3.1 Flash-Lite, maioria por crité
 
 #### O preço da confiança
 
-Média por rodada, 12 rodadas por nível, 48 no total. Certos, errados e não entregues somam 100% dos 25 artigos pedidos por rodada, pelo júri.
+Média por rodada, 12 rodadas por nível, 48 no total. Certos, errados e não entregues somam 100% dos 25 artigos pedidos por rodada, pelo júri. A coluna de precisão olha só para os artigos entregues (veja [Duas réguas](#duas-réguas-o-que-se-pede-e-o-que-se-entrega)).
 
-| Nível | Tempo | Chamadas de IA | Tokens | Custo por rodada | Certos | Errados | Não entregues | Rodadas pausadas |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---: |
-| Nível 0 | 10,2 min | 1,0 | 2,2 mi | R$ 7,11 | 80% | 17% | 3% | 0 de 12 |
-| Nível 1 | 17,0 min | 1,0 | 4,2 mi | R$ 9,84 | 82% | 10% | 8% | 0 de 12 |
-| Nível 2 | 42,1 min | 9,9 | 5,9 mi | R$ 16,33 | 59% | 8% | 33% | 3 de 12 |
-| Nível 3 | **5,1 min** | 7,0 | **146 mil** | **R$ 2,90** | 81% | **2%** | 17% | 0 de 12 |
+| Nível | Tempo | Chamadas de IA | Tokens | Custo por rodada | Certos | Errados | Não entregues | Precisão (dos entregues) | Rodadas pausadas |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---: |
+| Nível 0 | 10,2 min | 1,0 | 2,2 mi | R$ 7,11 | 80% | 17% | 3% | 82% | 0 de 12 |
+| Nível 1 | 17,0 min | 1,0 | 4,2 mi | R$ 9,84 | 82% | 10% | 8% | 89% | 0 de 12 |
+| Nível 2 | 42,1 min | 9,9 | 5,9 mi | R$ 16,33 | 59% | 8% | 33% | 90% | 3 de 12 |
+| Nível 3 | **5,1 min** | 7,0 | **146 mil** | **R$ 2,90** | 81% | **2%** | 17% | 97% | 0 de 12 |
 
 ```text
 Artigos errados, % dos 25 pedidos (menor é melhor)
@@ -328,7 +349,7 @@ Toda rodada recebe o mesmo tipo de pedido: encontrar **25 artigos empíricos de 
 
 O tema de exemplo mostra por que este é um teste exigente:
 
-| Por que é difícil | Por que é sensível | Por que é longo |
+| Por que é difícil | Por que é delicado | Por que é longo |
 | --- | --- | --- |
 | **O critério é estreito.** Só jogos avaliados com participantes: quem insiste em completar 25 estica o critério. | **Cada dado se confere.** DOI, ano, autor, trecho: um erro invalida a referência. | **25 x 9 campos.** Mais de 200 decisões em cadeia, onde o erro se acumula. |
 
@@ -352,7 +373,7 @@ O tema de exemplo mostra por que este é um teste exigente:
 | **Duas repetições por tema e nível.** | A IA é probabilística: o mesmo pedido pode dar respostas diferentes. |
 | **O mesmo executor em todos os níveis:** Claude Sonnet 5.5, chamado pelo Claude Agent SDK (Claude Code). | A única coisa que muda entre os níveis é a arquitetura, então a diferença medida vem da arquitetura, não do modelo. |
 | **Cinco empresas.** Claude (Anthropic) executa, GLM-5.3 Flash (Z.ai, via OpenRouter) confere, DeepSeek, Qwen (Alibaba) e Gemini (Google) julgam. | Modelos tendem a preferir as próprias respostas (Panickssery, Bowman e Feng 2024). Por isso o verificador é de outra empresa, e os juízes, de mais três. |
-| **Precisão como métrica principal:** um campo errado e o artigo inteiro conta como erro. | A métrica não premia o chute (Kalai et al. 2025). Os artigos não entregues aparecem à parte, e assim a troca entre entregar menos e entregar errado fica visível. A avaliação item a item, com juiz, segue o FActScore (Min et al. 2023). |
+| **Precisão como métrica principal:** dos artigos entregues, quantos estão 100% certos; um campo errado e o artigo inteiro conta como erro. | A métrica não premia o chute (Kalai et al. 2025). Os artigos não entregues aparecem à parte, e assim a troca entre entregar menos e entregar errado fica visível. A avaliação item a item, com juiz, segue o FActScore (Min et al. 2023). |
 | **O código confere o dado duro:** o DOI existe; título, autor, ano e revista batem com o registro; período e tipo de publicação; trecho e amostra estão no resumo. | Dado duro tem uma única resposta certa, então o código confere sem IA. O avaliador também consulta fontes que o Nível 3 não usa (Semantic Scholar e a página da editora), e assim o Nível 3 não é avaliado pelas próprias fontes. |
 | **Um júri de três empresas decide os critérios de julgamento:** DeepSeek V4 Pro, Qwen3.7 Plus e Gemini 3.1 Flash-Lite, cegos ao nível, leem o resumo e decidem por maioria, critério a critério: é do tema, é empírico, o método é o dito, o achado é sustentado pelo resumo. | Um painel de modelos diversos reduz o viés de qualquer juiz isolado (Verga et al. 2024; Zheng et al. 2023). |
 | **Um juiz único para comparar:** DeepSeek V4 Pro sozinho, mesmos critérios, mesmas rodadas. | Mostra o quanto o resultado depende de quem julga. O Nível 3 lidera nos dois. |
@@ -386,7 +407,7 @@ flowchart LR
 2. **Faixa provável (IC 95%).** Onde a média verdadeira deve estar, com 95% de confiança. t de Student com 5 graus de liberdade (G menos 1, G = 6 temas), a escolha conservadora para poucos grupos (Cameron e Miller 2015, seção VI). Com só seis temas, ela deixa a faixa mais larga.
 3. **Teste por artigo.** Cada artigo conta. Regressão logística do acerto sobre nível e tema; os artigos da mesma rodada formam um grupo (erros agrupados por rodada), com valores críticos t, e a correção de Holm desconta as várias comparações (Holm 1979).
 
-**Resultado, em precisão, pelo júri:** o Nível 3 supera o Nível 0 com segurança estatística (p ajustado por Holm = 0,001). Também supera os níveis 1 e 2, com sinal mais tímido: ali, a chance de acaso fica pouco acima do corte usual de 5% (p ajustado por Holm de cerca de 0,06).
+**Resultado, em precisão (dos artigos entregues), pelo júri:** o Nível 3 supera o Nível 0 com segurança estatística (p ajustado por Holm = 0,001). Também supera os níveis 1 e 2, com sinal mais tímido: ali, a chance de acaso fica pouco acima do corte usual de 5% (p ajustado por Holm de cerca de 0,06).
 
 Limites completos, e o que um teste maior exigiria: [docs/limits-and-next-steps.pt-BR.md](docs/limits-and-next-steps.pt-BR.md).
 

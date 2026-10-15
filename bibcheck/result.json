@@ -13,17 +13,19 @@
     "venue": "Anthropic"
    },
    "texts": [
+    "web: https://github.com/intellectronica/building-effective-agents-with-pydantic-ai/blob/main/README.md",
     "web: https://simonwillison.net/2024/Dec/20/building-effective-agents/",
     "web: https://eapad.dk/resource/building-effective-agents/",
     "web: https://blog.naitive.cloud/building-effective-agents/"
    ],
    "found": {
     "web": [
+     "https://github.com/intellectronica/building-effective-agents-with-pydantic-ai/blob/main/README.md",
      "https://simonwillison.net/2024/Dec/20/building-effective-agents/",
      "https://eapad.dk/resource/building-effective-agents/",
      "https://blog.naitive.cloud/building-effective-agents/"
     ],
-    "search": "- building-effective-agents-with-pydantic-ai/README.md at main · intellectronica/building-effective-agents-with-pydantic-ai | https://github.com/intellectronica/building-effective-agents-with-pydantic-ai/blob/main/README.md | Code examples for the agentic AI patterns discussed in the excellent article Building Effective Agents by Erik Schluntz and Barry Zhang of Anthropic, inspired, ported and adapted from the code samples by the authors.\n- Building effective agents | https://simonwillison.net/2024/Dec/20/building-effective-agents/ | This outstanding piece by Erik Schluntz and Barry Zhang at Anthropic bucks that trend from the start, providing a clear definition that they then use throughout.\n- Building effective agents - The EA Pad | https://eapad.dk/resource/building-effective-agents/ | Barry Zhang, Erik Schluntz · Over the past year, we’ve worked with dozens of teams building large language model (LLM) agents across industries. Consistently, the most successful implementations weren’t using complex frameworks or specialized libraries. Instead, they were building with simple, comp…\n- Building Effective Agents | CandleKeep | https://getcandlekeep.com/marketplace/building-effective-agents-xd97cw | By Anthropic | Erik Schluntz and Barry Zhang Published December 19, 2024 · <strong>A comprehensive guide to building successful LLM agent implementations using simple, composable patterns rather than complex frameworks</strong>.\n- AI Agents — Day 3 | https://medium.com/@srideviaishw"
+    "search": "- building-effective-agents-with-pydantic-ai/README.md at main · intellectronica/building-effective-agents-with-pydantic-ai | https://github.com/intellectronica/building-effective-agents-with-pydantic-ai/blob/main/README.md | Code examples for the agentic AI patterns discussed in the excellent article Building Effective Agents by Erik Schluntz and Barry Zhang of Anthropic, inspired, ported and adapted from the code samples by the authors.\n- Building effective agents | https://simonwillison.net/2024/Dec/20/building-effective-agents/ | This outstanding piece by Erik Schluntz and Barry Zhang at Anthropic bucks that trend from the start, providing a clear definition that they then use throughout.\n- Building effective agents - The EA Pad | https://eapad.dk/resource/building-effective-agents/ | Barry Zhang, Erik Schluntz · Over the past year, we’ve worked with dozens of teams building large language model (LLM) agents across industries. Consistently, the most successful implementations weren’t using complex frameworks or specialized libraries. Instead, they were building with simple, comp…\n- https://www.anthropic.com/engineering/building-effective-agents | https://blog.naitive.cloud/building-effective-agents/ | &quot;Success in the LLM space isn&#x27;t about building the most sophisticated system. It&#x27;s about building the right system for your needs.&quot; - Erik Schluntz and Barry Zhang, Anthropic\n- Building Effective Agents | CandleKeep | https://getcandlekeep.com/marketplace"
    },
    "exists": true,
    "author_ok": true,
@@ -39,14 +41,12 @@
      "Russell",
      "Norvig"
     ],
-    "year": 2021,
-    "venue": "Pearson"
+    "year": 1995,
+    "venue": "Prentice Hall"
    },
    "texts": [
-    "web: https://swoft.ai/en/articles/qu-est-ce-qu-un-agent-ia-definition-academique-russell-wooldridge-ferber/",
-    "web: https://huyenchip.com/2025/01/07/agents.html",
-    "web: https://arxiv.org/html/2503.12687v1",
-    "web: https://mattrickard.com/norvigs-agent-definition"
+    "web: https://agentplex.substack.com/p/agentplex-weekly-issue-8",
+    "web: https://classpages.cselabs.umn.edu/Fall-2017/csci8551/notes1.pdf"
    ],
    "found": {
     "openlibrary": [
@@ -426,17 +426,15 @@
     "venue": "Columbia Journalism Review"
    },
    "texts": [
-    "web: https://www.bibsonomy.org/bibtex/2abbaf5add097db3ac04f2b55d9af6382/meneteqel",
     "web: https://x.com/SciNewsRo/status/1900451264195973233",
     "web: https://laurayost.substack.com/p/digital-wild-goose-chase-the-serious"
    ],
    "found": {
     "web": [
-     "https://www.bibsonomy.org/bibtex/2abbaf5add097db3ac04f2b55d9af6382/meneteqel",
      "https://x.com/SciNewsRo/status/1900451264195973233",
      "https://laurayost.substack.com/p/digital-wild-goose-chase-the-serious"
     ],
-    "search": "- AI Search Has a Citation Problem - Columbia Journalism Review | https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php | Building on our previous research, <strong>the Tow Center for Digital Journalism conducted tests on eight generative search tools with live search features to assess their abilities to accurately retrieve and cite news content, as well as how they behave when they cannot</strong>...\n- r/labrats on Reddit: AI Search Has A Citation Problem (from Columbia Journalism Review) | https://www.reddit.com/r/labrats/comments/1janqzv/ai_search_has_a_citation_problem_from_columbia/ | https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php Share ... Even Perplexity ... Well it suggests there is room for improvement over the next years, that&#x27;s the good thing. ... I feel AI tools are at the initial peak of the Dunning-Kruger curve,…\n- AI search engines fail to produce accurate citations in over 60% of tests, according to new Tow Center study | Nieman Journalism Lab | https://www.niemanlab.org/2025/03/ai-search-engines-fail-to-produce-accurate-citations-in-over-60-of-tests-according-to-new-tow-center-study/ | For their study “AI search has a citation problem,” they conducted 200 tests on eight different AI search engines: <strong>ChatGPT Search, Perplexity, Perplexity Pro, Gemini, DeepSeek Search, Grok-2 Search, Grok-3 Search, and Copilot</strong>.\n- AI search has a citation pr"
+    "search": "- AI Search Has a Citation Problem - Columbia Journalism Review | https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php | Building on our previous research, <strong>the Tow Center for Digital Journalism conducted tests on eight generative search tools with live search features to assess their abilities to accurately retrieve and cite news content, as well as how they behave when they cannot</strong>...\n- r/labrats on Reddit: AI Search Has A Citation Problem (from Columbia Journalism Review) | https://www.reddit.com/r/labrats/comments/1janqzv/ai_search_has_a_citation_problem_from_columbia/ | https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php Share ... Even Perplexity ... Well it suggests there is room for improvement over the next years, that&#x27;s the good thing. ... I feel AI tools are at the initial peak of the Dunning-Kruger curve,…\n- AI search engines fail to produce accurate citations in over 60% of tests, according to new Tow Center study | Nieman Journalism Lab | https://www.niemanlab.org/2025/03/ai-search-engines-fail-to-produce-accurate-citations-in-over-60-of-tests-according-to-new-tow-center-study/ | For their study “AI search has a citation problem,” they conducted 200 tests on eight different AI search engines: <strong>ChatGPT Search, Perplexity, Perplexity Pro, Gemini, DeepSeek Search, Grok-2 Search, Grok-3 Search, and Copilot</strong>.\n- SciNews on X: \"Columbia Jou"
    },
    "exists": true,
    "author_ok": false,
@@ -1115,10 +1113,10 @@
      "id": "2108.00941v3"
     },
     "crossref": {
-     "title": "Human-in-the-Loop Machine Learning Systems",
-     "year": 2025,
-     "venue": "Iconic Research and Engineering Journals",
-     "doi": "10.64388/irev9i5-1711956"
+     "title": "A survey of human-in-the-loop for machine learning",
+     "year": 2022,
+     "venue": "Future Generation Computer Systems",
+     "doi": "10.1016/j.future.2022.05.014"
     }
    },
    "exists": true,
@@ -1238,17 +1236,17 @@
     "venue": "UNESCO"
    },
    "texts": [
-    "web: https://dig.watch/resource/unesco-recommendation-on-the-ethics-of-artificial-intelligence",
     "web: https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
+    "web: https://dig.watch/resource/unesco-recommendation-on-the-ethics-of-artificial-intelligence",
     "web: https://www.geoethics.org/_files/ugd/5195a5_56fc787932864ee199e73208ee6784ec.pdf?index=true"
    ],
    "found": {
     "web": [
-     "https://dig.watch/resource/unesco-recommendation-on-the-ethics-of-artificial-intelligence",
      "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
+     "https://dig.watch/resource/unesco-recommendation-on-the-ethics-of-artificial-intelligence",
      "https://www.geoethics.org/_files/ugd/5195a5_56fc787932864ee199e73208ee6784ec.pdf?index=true"
     ],
-    "search": "- Recommendation on the Ethics of Artificial Intelligence | UNESCO | https://en.unesco.org/about-us/legal-affairs/recommendation-ethics-artificial-intelligence | It may be the case that sometimes ... to AI systems in decision-making and acting, but <strong>an AI system can never replace ultimate human responsibility and accountability</strong>....\n- UNESCO Recommendation on the ethics of artificial intelligence | Digital Watch Observatory | https://dig.watch/resource/unesco-recommendation-on-the-ethics-of-artificial-intelligence | It may be the case that sometimes ... humans, as humans can resort to AI systems in decision-making and acting, but <strong>an AI system can never replace ultimate human responsibility and accountability</strong>....\n- Recommendation on the Ethics of Artificial Intelligence - Legal Affairs | https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence | It may be the case that sometimes ... humans, as humans can resort to AI systems in decision-making and acting, but <strong>an AI system can never replace ultimate human responsibility and accountability</strong>....\n- Recommendation on - the Ethics of Artificial Intelligence | https://www.geoethics.org/_files/ugd/5195a5_56fc787932864ee199e73208ee6784ec.pdf?index=true | decision-making and acting, but <strong>an AI system can never · replace ultimate human responsibility and accountability</strong>. As a rule, life and death decisions should not be ceded to · AI systems. Tran"
+    "search": "- Recommendation on the Ethics of Artificial Intelligence | UNESCO | https://en.unesco.org/about-us/legal-affairs/recommendation-ethics-artificial-intelligence | It may be the case that sometimes ... to AI systems in decision-making and acting, but <strong>an AI system can never replace ultimate human responsibility and accountability</strong>....\n- Recommendation on the Ethics of Artificial Intelligence - Legal Affairs | https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence | It may be the case that sometimes ... humans, as humans can resort to AI systems in decision-making and acting, but <strong>an AI system can never replace ultimate human responsibility and accountability</strong>....\n- UNESCO Recommendation on the ethics of artificial intelligence | Digital Watch Observatory | https://dig.watch/resource/unesco-recommendation-on-the-ethics-of-artificial-intelligence | It may be the case that sometimes ... humans, as humans can resort to AI systems in decision-making and acting, but <strong>an AI system can never replace ultimate human responsibility and accountability</strong>....\n- Recommendation on - the Ethics of Artificial Intelligence | https://www.geoethics.org/_files/ugd/5195a5_56fc787932864ee199e73208ee6784ec.pdf?index=true | decision-making and acting, but <strong>an AI system can never · replace ultimate human responsibility and accountability</strong>. As a rule, life and death decisions should not be ceded to · AI systems. Tran"
    },
    "exists": true,
    "author_ok": true,
@@ -1279,7 +1277,7 @@
      "https://www.sentra.app/articles/claude-api-pricing",
      "https://emergent.sh/learn/claude-sonnet-5-5-pricing"
     ],
-    "search": "- Pricing - Claude Platform Docs | https://platform.claude.com/docs/en/about-claude/pricing | On Claude Opus 5.5 and Claude Sonnet 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens on Claude Opus 5.5, <strong>$0.10 USD</strong> on Claude Sonnet 5.5). These multipliers stack with other pricing modifiers, including the ...\n- Claude API Pricing (October 2026): $1–$50 per 1M Tokens | BenchLM.ai | https://benchlm.ai/anthropic/api-pricing | Current Claude API pricing is $4/$20 per million input/output tokens for Claude Opus 5.5, $5/$25 for Claude Opus 5, <strong>$2/$10</strong> for Sonnet 5.5 and Sonnet 5, $1/$5 for Haiku 4.5, and $10/$50 for Fable 5.1. Fable 5.1 cache reads cost $0.25/M and Opus ...\n- Claude API Pricing (Oct 2026): Haiku $1, Sonnet $2, Opus $4 · Sentra | https://www.sentra.app/articles/claude-api-pricing | TL;DRAs of October 2026, the Claude API costs $4 per million input tokens and $20 per million output tokens on Claude Opus 5.5, <strong>$2 and $10</strong> on Claude Sonnet 5.5, $1 and $5 on Claude Haiku 4.5, and $10 and $50 on Claude Fable 5.1, according to ...\n- Claude Sonnet 5.5 Pricing: API Rates, Plans, and What a Task Really Costs | https://emergent.sh/learn/claude-sonnet-5-5-pricing | Claude Sonnet 5.5 pricing explained: <strong>$2 input and $10 output per 1M tokens</strong>, 50% batch savings, caching math, plan prices, and what 4 everyday tasks cost.\n- Claude Sonnet 5.5 Developer Guide: Pricing and API Changes | https:/"
+    "search": "- Pricing - Claude Platform Docs | https://platform.claude.com/docs/en/about-claude/pricing | On Claude Opus 5.5 and Claude Sonnet 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens on Claude Opus 5.5, <strong>$0.10 USD</strong> on Claude Sonnet 5.5). These multipliers stack with other pricing modifiers, including the ...\n- Claude API Pricing (October 2026): $1–$50 per 1M Tokens | BenchLM.ai | https://benchlm.ai/anthropic/api-pricing | Current Claude API pricing is $4/$20 per million input/output tokens for Claude Opus 5.5, $5/$25 for Claude Opus 5, <strong>$2/$10</strong> for Sonnet 5.5 and Sonnet 5, $1/$5 for Haiku 4.5, and $10/$50 for Fable 5.1. Fable 5.1 cache reads cost $0.25/M and Opus ...\n- Claude API Pricing (Oct 2026): Haiku $1, Sonnet $2, Opus $4 · Sentra | https://www.sentra.app/articles/claude-api-pricing | TL;DRAs of October 2026, the Claude API costs $4 per million input tokens and $20 per million output tokens on Claude Opus 5.5, <strong>$2 and $10</strong> on Claude Sonnet 5.5, $1 and $5 on Claude Haiku 4.5, and $10 and $50 on Claude Fable 5.1, according to ...\n- Claude Sonnet 5.5 Pricing: API Rates, Plans, and What a Task Really Costs | https://emergent.sh/learn/claude-sonnet-5-5-pricing | Claude Sonnet 5.5 pricing explained: <strong>$2 input and $10 output per 1M tokens</strong>, 50% batch savings, caching math, plan prices, and what 4 everyday tasks cost.\n- Claude Sonnet 5.5 API Pricing for Developers (2026) | https://www.ac"
    },
    "exists": true,
    "author_ok": true,
@@ -1325,6 +1323,7 @@
    ],
    "verdict": "sustenta",
    "sources_read": [
+    "web: https://github.com/intellectronica/building-effective-agents-with-pydantic-ai/blob/main/README.md",
     "web: https://simonwillison.net/2024/Dec/20/building-effective-agents/",
     "web: https://eapad.dk/resource/building-effective-agents/",
     "web: https://blog.naitive.cloud/building-effective-agents/"
@@ -1365,6 +1364,7 @@
    ],
    "verdict": "sustenta",
    "sources_read": [
+    "web: https://github.com/intellectronica/building-effective-agents-with-pydantic-ai/blob/main/README.md",
     "web: https://simonwillison.net/2024/Dec/20/building-effective-agents/",
     "web: https://eapad.dk/resource/building-effective-agents/",
     "web: https://blog.naitive.cloud/building-effective-agents/"
@@ -1376,42 +1376,43 @@
    "refs": [
     "russell_norvig"
    ],
-   "claim": "Definição clássica de agente: tudo o que pode ser visto como percebendo o seu ambiente por sensores e agindo sobre ele por atuadores (Russell e Norvig, 4. ed., 2021).",
+   "claim": "Definição clássica de agente: tudo o que pode ser visto como percebendo o seu ambiente por sensores e agindo sobre ele por efetores (Russell e Norvig, 1995, p. 31).",
    "needles": [
-    "perceiving its environment through sensors and acting upon that environment through actuators"
+    "perceiving its environment through sensors and acting upon that environment through effectors"
    ],
    "extra": [
-    "Russell Norvig \"Artificial Intelligence: A Modern Approach\" 4th edition 2021 \"anything that can be viewed as perceiving its environment through sensors\""
+    "Russell Norvig aima1e chapter02 \"Intelligent Agents\" \"acting upon that environment through effectors\""
    ],
+   "prefer": "berkeley.edu",
    "needles_found": {
-    "perceiving its environment through sensors and acting upon that environment through actuators": "web: https://swoft.ai/en/articles/qu-est-ce-qu-un-agent-ia-definition-academique-russell-wooldridge-ferber/"
+    "perceiving its environment through sensors and acting upon that environment through effectors": "web, busca dirigida: https://agentplex.substack.com/p/agentplex-weekly-issue-8"
    },
    "votes": [
     {
      "judge": "DeepSeek V4 Pro",
-     "evidence": "\"The book is organized around a single definition of agent: 'An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators.'\"",
-     "reason": "Os trechos fornecidos reproduzem exatamente a definição em inglês que o slide traduz fielmente para o português. Atribuem-na explicitamente a Russell & Norvig, AIMA, obra que segue em sua 4ª edição (2021) sem alteração nessa definição clássica.",
-     "verdict": "sustenta"
+     "evidence": "An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through effectors",
+     "verdict": "sustenta_em_parte",
+     "reason": "Os trechos fornecem a definição exata citada no slide (tradução fiel), mas não confirmam a página 31 mencionada na referência."
     },
     {
      "judge": "Qwen3.7 Plus",
-     "evidence": "An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators.",
-     "verdict": "sustenta_em_parte",
-     "reason": "A definição apresentada no slide ('tudo o que pode ser visto como percebendo o seu ambiente por sensores e agindo sobre ele por atuadores') é uma tradução fiel e é integralmente sustentada pelos trechos, que a atribuem a Russell e Norvig. Contudo, os trechos fornecidos referem-se exclusivamente à primeira edição da obra, publicada em 1995 ('AIMA, 1995', 'Artificial Intelligence: A Modern Approach (1995)'). Como não há menção à 4. edição de 2021 nos trechos, a citação da edição específica no slide vai além do que é estritamente comprovado pelo texto fornecido, caracterizando 'sustenta_em_parte'."
+     "evidence": "Then years later, Russell & Norvig in their authoritative, text book AI: A Modern Approach (pdf, 1.5k pages), defined intelligent agents as: An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through effectors",
+     "verdict": "sustenta",
+     "reason": "O trecho confirma que Russell e Norvig, em 'AI: A Modern Approach', definiram agente exatamente como o slide apresenta ('anything that can be viewed as perceiving its environment through sensors and acting upon that environment through effectors'). A tradução apresentada no slide é fiel ao original em inglês citado na fonte."
     },
     {
      "judge": "Gemini 3.1 Flash-Lite",
-     "evidence": "An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators.",
+     "evidence": "An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through effectors",
      "verdict": "sustenta",
-     "reason": "A definição apresentada no slide é uma tradução fiel da definição de agente encontrada na obra de Russell e Norvig, conforme confirmado pelos trechos fornecidos. A autoria e a natureza da definição estão corretamente representadas."
+     "reason": "A definição apresentada no slide é uma tradução fiel da definição de agente atribuída a Russell e Norvig no trecho da fonte fornecido."
     }
    ],
    "verdict": "sustenta",
    "sources_read": [
-    "web: https://swoft.ai/en/articles/qu-est-ce-qu-un-agent-ia-definition-academique-russell-wooldridge-ferber/",
-    "web: https://huyenchip.com/2025/01/07/agents.html",
-    "web: https://arxiv.org/html/2503.12687v1",
-    "web: https://mattrickard.com/norvigs-agent-definition"
+    "web, busca dirigida: https://agentplex.substack.com/p/agentplex-weekly-issue-8",
+    "web, busca dirigida: https://classpages.cselabs.umn.edu/Fall-2017/csci8551/notes1.pdf",
+    "web: https://agentplex.substack.com/p/agentplex-weekly-issue-8",
+    "web: https://classpages.cselabs.umn.edu/Fall-2017/csci8551/notes1.pdf"
    ]
   },
   {
@@ -1842,7 +1843,6 @@
    "sources_read": [
     "web, busca dirigida: https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php",
     "web, busca dirigida: https://x.com/SciNewsRo/status/1900451264195973233",
-    "web: https://www.bibsonomy.org/bibtex/2abbaf5add097db3ac04f2b55d9af6382/meneteqel",
     "web: https://x.com/SciNewsRo/status/1900451264195973233",
     "web: https://laurayost.substack.com/p/digital-wild-goose-chase-the-serious"
    ]
@@ -2721,21 +2721,21 @@
    "votes": [
     {
      "judge": "DeepSeek V4 Pro",
-     "evidence": "36. It may be the case that sometimes humans would choose to rely on AI systems for reasons of efficacy, but the decision to cede control in limited contexts remains that of humans, as humans can resort to AI systems in decision-making and acting, but an AI system can never replace ultimate human responsibility and accountability.",
+     "evidence": "an AI system can never replace ultimate human responsibility and accountability.",
      "verdict": "sustenta",
-     "reason": "O trecho do § 36 contém exatamente a afirmação traduzida: 'an AI system can never replace ultimate human responsibility and accountability'. A tradução para o português ('Um sistema de IA nunca pode substituir a responsabilidade e a prestação de contas humanas finais') é fiel, e o número do parágrafo está correto."
+     "reason": "A citação traduzida é fiel ao original: 'ultimate human responsibility and accountability' foi corretamente vertido como 'responsabilidade e a prestação de contas humanas finais'. O slide apenas reproduz a afirmação do § 36, sem acréscimos ou distorções."
     },
     {
      "judge": "Qwen3.7 Plus",
      "evidence": "but an AI system can never replace ultimate human responsibility and accountability.",
      "verdict": "sustenta",
-     "reason": "O trecho do parágrafo 36 da fonte original diz exatamente \"but an AI system can never replace ultimate human responsibility and accountability\". A tradução apresentada no slide (\"Um sistema de IA nunca pode substituir a responsabilidade e a prestação de contas humanas finais\") é fiel ao texto original, mantendo o sentido e a terminologia adequados (\"accountability\" traduzido como \"prestação de contas\" e \"ultimate\" como \"finais\")."
+     "reason": "O trecho do parágrafo 36 afirma literalmente que \"an AI system can never replace ultimate human responsibility and accountability\". A tradução apresentada no slide (\"Um sistema de IA nunca pode substituir a responsabilidade e a prestação de contas humanas finais\") é fiel ao original em inglês."
     },
     {
      "judge": "Gemini 3.1 Flash-Lite",
      "evidence": "an AI system can never replace ultimate human responsibility and accountability.",
      "verdict": "sustenta",
-     "reason": "A tradução apresentada no slide é fiel ao texto original do parágrafo 36 da Recomendação da UNESCO, que afirma explicitamente que um sistema de IA nunca pode substituir a responsabilidade e a prestação de contas humanas finais."
+     "reason": "A citação traduzida no slide é fiel ao texto original do parágrafo 36 da Recomendação da UNESCO sobre a Ética da IA, que afirma que 'an AI system can never replace ultimate human responsibility and accountability'."
     }
    ],
    "verdict": "sustenta",
@@ -2744,8 +2744,8 @@
     "web, busca dirigida: https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
     "web, busca dirigida: https://dig.watch/resource/unesco-recommendation-on-the-ethics-of-artificial-intelligence",
     "web, busca dirigida: https://www.geoethics.org/_files/ugd/5195a5_56fc787932864ee199e73208ee6784ec.pdf?index=true",
-    "web: https://dig.watch/resource/unesco-recommendation-on-the-ethics-of-artificial-intelligence",
     "web: https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
+    "web: https://dig.watch/resource/unesco-recommendation-on-the-ethics-of-artificial-intelligence",
     "web: https://www.geoethics.org/_files/ugd/5195a5_56fc787932864ee199e73208ee6784ec.pdf?index=true"
    ]
   },
@@ -2812,21 +2812,21 @@
    "votes": [
     {
      "judge": "DeepSeek V4 Pro",
-     "evidence": "Current Claude API pricing is $4/$20 per million input/output tokens for Claude Opus 5.5, $5/$25 for Claude Opus 5, $2/$10 for Sonnet 5.5 and Sonnet 5, $1/$5 for Haiku 4.5, and $10/$50 for Fable 5.1. [...] Web search is available on the Claude API for $10 per 1,000 searches, plus standard token costs for search-generated content.",
-     "reason": "O trecho da benchlm.ai afirma explicitamente que o preço do Sonnet 5.5 é US$ 2 por milhão de tokens de entrada e US$ 10 por milhão de tokens de saída. O trecho oficial da Anthropic confirma que buscas na web custam US$ 10 por mil (1.000) buscas. Ambos os valores coincidem exatamente com o slide.",
-     "verdict": "sustenta"
+     "evidence": "Trecho 1: 'On Claude Opus 5.5 and Claude Sonnet 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens on Claude Opus 5.5, $0.10 USD on Claude Sonnet 5.5).' Isso permite calcular o preço de entrada do Sonnet 5.5: $0.10 / 0.05 = $2.00 por milhão de tokens. Trecho 4: 'Web search is available on the Claude API for $10 per 1,000 searches'. Nenhum trecho da documentação oficial (platform.claude.com) informa explicitamente o preço de saída do Sonnet 5.5. O trecho 3 mostra uma tabela de Batch API com 'US$ 2 / MTok | US$ 10 / MTok', mas não identifica o modelo e se refere a preços com desconto de 50%, não ao preço público padrão. O trecho 5 (fonte externa benchlm.ai) afirma '$2/$10 for Sonnet 5.5', mas não pertence à fonte citada no slide (Anthropic, 2026, Claude Developer Platform).",
+     "reason": "O preço de entrada ($2/MTok) é sustentado indiretamente pelo custo de cache read. O preço de buscas na web ($10/mil) é sustentado literalmente. O preço de saída ($10/MTok) não é confirmado diretamente por nenhum trecho da documentação oficial fornecida; a tabela de Batch API é ambígua e reflete preços com desconto, e a fonte externa não é a citada. Portanto, o slide é sustentado apenas em parte.",
+     "verdict": "sustenta_em_parte"
     },
     {
      "judge": "Qwen3.7 Plus",
-     "evidence": "On Claude Opus 5.5 and Claude Sonnet 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens on Claude Opus 5.5, $0.10 USD on Claude Sonnet 5.5).",
+     "evidence": "On Claude Opus 5.5 and Claude Sonnet 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens on Claude Opus 5.5, $0.10 USD on Claude Sonnet 5.5).\n\nCurrent Claude API pricing is $4/$20 per million input/output tokens for Claude Opus 5.5, $5/$25 for Claude Opus 5, $2/$10 for Sonnet 5.5 and Sonnet 5...\n\nWeb search is available on the Claude API for $10 per 1,000 searches...",
      "verdict": "sustenta",
-     "reason": "Os trechos confirmam que o preço de entrada do Claude Sonnet 5.5 é US$ 2 por milhão de tokens (pois 5% desse valor = US$ 0,10, conforme dito explicitamente), o preço de saída é US$ 10 por milhão (conforme a tabela de preços do site externo que lista $2/$10 para Sonnet 5.5), e que buscas na web custam US$ 10 por 1.000 buscas. Todos os três valores afirmados no slide são sustentados pelos trechos."
+     "reason": "Os trechos confirmam que o preço de entrada do Sonnet 5.5 é US$ 2 (já que 5% do preço padrão de entrada é US$ 0,10) e o preço de saída é US$ 10 (conforme o resumo de preços que lista explicitamente \"$2/$10 for Sonnet 5.5\"). Além disso, confirmam que a busca na web custa US$ 10 por mil buscas (\"$10 per 1,000 searches\"). A tradução dos valores e termos para o slide está fiel."
     },
     {
      "judge": "Gemini 3.1 Flash-Lite",
      "evidence": "Current Claude API pricing is $4/$20 per million input/output tokens for Claude Opus 5.5, $5/$25 for Claude Opus 5, $2/$10 for Sonnet 5.5 and Sonnet 5... Web search is available on the Claude API for $10 per 1,000 searches",
      "verdict": "sustenta",
-     "reason": "Os trechos da fonte confirmam explicitamente os valores de US$ 2 por milhão de tokens de entrada e US$ 10 por milhão de tokens de saída para o modelo Claude Sonnet 5.5, bem como o custo de US$ 10 por 1.000 buscas na web."
+     "reason": "A fonte confirma explicitamente que o preço do Claude Sonnet 5.5 é de US$ 2 por milhão de tokens de entrada e US$ 10 por milhão de tokens de saída, além de confirmar que as buscas na web custam US$ 10 por 1.000 buscas."
     }
    ],
    "verdict": "sustenta",
@@ -2835,7 +2835,7 @@
     "web, busca dirigida: https://benchlm.ai/anthropic/api-pricing",
     "web, busca dirigida: https://www.sentra.app/articles/claude-api-pricing",
     "web, busca dirigida: https://emergent.sh/learn/claude-sonnet-5-5-pricing",
-    "web, busca dirigida: https://www.developersdigest.tech/blog/claude-sonnet-5-5-release-guide-2026",
+    "web, busca dirigida: https://www.activepieces.com/blog/claude-sonnet-55-api-pricing-for-developers-2026",
     "web: https://platform.claude.com/docs/en/about-claude/pricing",
     "web: https://benchlm.ai/anthropic/api-pricing",
     "web: https://www.sentra.app/articles/claude-api-pricing",

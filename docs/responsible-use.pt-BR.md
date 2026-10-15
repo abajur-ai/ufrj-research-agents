@@ -102,7 +102,7 @@ Portaria CNPq nº 2.664/2026, Política de Integridade na Atividade Científica,
 Aplicado a este repositório: se você usar um agente como o Nível 3 numa revisão, declare o uso, com a ferramenta e o
 que ela fez (busca, triagem, extração); confira o que citar; e trate a saída dele como responsabilidade sua.
 
-## Para discutir
+## Para refletir
 
 As perguntas com que a aula fecha:
 

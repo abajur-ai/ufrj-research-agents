@@ -46,14 +46,15 @@ A distância entre esta tabela e a anterior é o que só a leitura pega: recorte
 ## Custo e desfecho por rodada
 
 Média por rodada, 12 rodadas por nível. Certos, errados e não entregues são partes dos 25 artigos pedidos por rodada,
-pelo júri, e somam 100%.
+pelo júri, e somam 100%. A precisão é a parte dos artigos entregues que está 100%
+certa.
 
-| Nível | Tempo | Chamadas de IA | Tokens | Custo por rodada | Certos | Errados | Não entregues | Rodadas pausadas |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 0 | 10,2 min | 1,0 | 2,2 mi | R$ 7,11 | 80% | 17% | 3% | 0 de 12 |
-| 1 | 17,0 min | 1,0 | 4,2 mi | R$ 9,84 | 82% | 10% | 8% | 0 de 12 |
-| 2 | 42,1 min | 9,9 | 5,9 mi | R$ 16,33 | 59% | 8% | 33% | 3 de 12 |
-| 3 | 5,1 min | 7,0 | 146 mil | R$ 2,90 | 81% | 2% | 17% | 0 de 12 |
+| Nível | Tempo | Chamadas de IA | Tokens | Custo por rodada | Certos | Errados | Não entregues | Precisão (dos entregues) | Rodadas pausadas |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 0 | 10,2 min | 1,0 | 2,2 mi | R$ 7,11 | 80% | 17% | 3% | 82% | 0 de 12 |
+| 1 | 17,0 min | 1,0 | 4,2 mi | R$ 9,84 | 82% | 10% | 8% | 89% | 0 de 12 |
+| 2 | 42,1 min | 9,9 | 5,9 mi | R$ 16,33 | 59% | 8% | 33% | 90% | 3 de 12 |
+| 3 | 5,1 min | 7,0 | 146 mil | R$ 2,90 | 81% | 2% | 17% | 97% | 0 de 12 |
 
 Custo por rodada: Claude Sonnet 5.5 pelo preço público da API da Anthropic (tokens e buscas na web) mais o
 verificador pelo valor que a OpenRouter cobrou, convertidos pela PTAX de venda do Banco Central de 14/10/2026,

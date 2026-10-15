@@ -85,7 +85,7 @@ flowchart TB
 | `config.py` | Configuração comum: o modelo executor (`claude-sonnet-5-5`) e o esforço (`high`), os mesmos em toda chamada de IA de todo nível; a raiz do cache (`.cache/`); o user agent HTTP; `find_claude_exe()`, que acha o `claude.exe` mais novo que vem com a extensão do Claude Code para o VS Code; `brave_api_key()`. |
 | `llm.py` | `run_agent()`: uma chamada isolada do executor pelo Claude Agent SDK. Grava as instruções de sistema e de usuário em `calls/`, inicia o Claude Code sem configurações do usuário (`setting_sources=[]`), sem servidores MCP (`strict_mcp_config`, `mcp_servers={}`), sem sessão salva (`no-session-persistence`), só com as ferramentas que o passo permite, um limite de turnos, um tempo máximo e, quando o passo tem um, um esquema JSON para a saída estruturada. Transmite cada mensagem para o registro de eventos, guarda a última leitura de cota, levanta `RateLimited` quando a cota é recusada, e, no estouro de tempo, encerra os processos `claude.exe` daquela chamada. Se a saída estruturada faltar, extrai o último objeto JSON do texto. |
 | `events.py` | `EventLog`: um arquivo JSON Lines só de acréscimo por rodada (`events.jsonl`), seguro entre threads, um evento por linha. `clip()` encurta textos longos para o registro. |
-| `sources.py` | Funções HTTP comuns à avaliação e ao verificador: cabeçalhos das requisições, download de página com limite de tamanho, extração de texto de PDF e HTML, e um cliente do Brave Search. |
+| `sources.py` | Funções HTTP comuns à avaliação, ao verificador e à checagem de bibliografia: cabeçalhos das requisições, download de página com limite de tamanho, extração de texto de PDF e HTML, o padrão de endereço e os cabeçalhos da Wikipédia, e os clientes do Brave Search e do OpenAlex. |
 
 ### `benchmark/`
 
@@ -110,7 +110,7 @@ Cada nível é um módulo, `agent.py`, que expõe `async def run(topic: dict, ru
 | --- | --- | --- |
 | Nível 0 | `run_single_agent()` com uma instrução de uma frase. | `level_0.md` |
 | Nível 1 | `run_single_agent()` com a instrução escrita em quatro camadas. | `level_1.md` |
-| Nível 2 | Três chamadas de `qa_step()`: plano, busca e triagem, extração. | `planner.md`, `searcher.md`, `extractor.md` |
+| Nível 2 | Três chamadas de `qa_step()`: plano; busca e triagem; extração e entrega. | `planner.md`, `searcher.md`, `extractor.md` |
 | Nível 3 | Seis passos: três chamadas de `qa_step()` (termos, triagem, extração) e três passos de código (busca, filtro, montagem). | `terms.md`, `screener.md`, `extractor.md` |
 
 Limites do executor por chamada (n = 25 artigos pedidos):
@@ -131,10 +131,10 @@ Os executores do Nível 3 não têm ferramentas: tudo o que eles leem foi baixad
 | --- | --- |
 | `evaluate.py` | `python -m evaluation.evaluate --judge deepseek --prefix mytest`. Para cada rodada terminada cujo id começa com o prefixo, confere por código cada artigo entregue e pergunta a um juiz sobre ele, depois grava `agents/level_N/evaluations/judge-<nome>/<run_id>.json`. Rodadas cuja avaliação é mais nova que o `meta.json` são puladas. |
 | `judge_llm.py` | `judge()`: uma chamada de juiz pela OpenRouter, esforço `high`, temperatura 0, esquema JSON estrito, em cache pelo SHA-256 da requisição inteira. |
-| `verify.py` | Leitura de páginas com cache (HTML pelo trafilatura e pelo BeautifulSoup, PDF pelo PyMuPDF), normalização de texto (`norm()`: Unicode NFKC, aspas e traços unificados, caixa baixa, espaços colapsados) e conferência literal do trecho (`find_quote()`: `exact` quando cada segmento é uma substring, `near` quando cada segmento se alinha com 90 ou mais, senão `not_found`; os segmentos se separam em reticências e quebras de linha). |
+| `verify.py` | Leitura de páginas com cache (HTML pelo trafilatura e pelo BeautifulSoup, PDF pelo PyMuPDF), normalização de texto (`norm()`: Unicode NFKC, aspas e traços unificados, caixa baixa, espaços colapsados) e conferência literal do trecho (`find_quote()`: `exact` quando cada segmento é uma substring, `near` quando cada segmento se alinha com 90 ou mais, senão `not_found`; os segmentos se separam em reticências, quebras de linha e nos separadores ` // ` e ` / `, e segmentos com menos de 15 caracteres são ignorados). |
 | `jury.py` | `python -m evaluation.jury mytest`. Para cada rodada julgada pelos três juízes, o voto da maioria por critério, gravado como `evaluations/jury/<run_id>.json` no mesmo formato do arquivo de um juiz. |
-| `report.py` | `python -m evaluation.report mytest`. Precisão, intervalos, custo e desfecho por nível, gravados em `evaluation/REPORT.md`. |
-| `stats.py` | `python -m evaluation.stats mytest`. O teste por artigo com correção de Holm, gravado em `evaluation/STATISTICS.md`. |
+| `report.py` | `python -m evaluation.report mytest`. Por nível: certos, errados e não entregues dos 25 artigos pedidos, custo, e a precisão dos artigos entregues com os seus intervalos. Gravado em `evaluation/REPORT_mytest.md` e `REPORT_mytest.pt-BR.md`; na tag `class`, em `evaluation/REPORT.md` e `REPORT.pt-BR.md`. |
+| `stats.py` | `python -m evaluation.stats mytest`. O teste por artigo da precisão dos artigos entregues, com correção de Holm. Gravado em `evaluation/STATISTICS_mytest.md` e `STATISTICS_mytest.pt-BR.md`; na tag `class`, em `evaluation/STATISTICS.md` e `STATISTICS.pt-BR.md`. |
 
 ### `viewer/index.html`
 
@@ -294,7 +294,7 @@ As regras, como o código as aplica:
 | --- | --- | --- | --- |
 | `plan` | critérios, consultas (consulta, idioma, base), como conferir | nenhum | confere se o plano cobre cada critério do pedido; sem web |
 | `search` | candidatos (DOI, título, autores, ano, periódico, endereço conferido, critérios atendidos) | DOIs bem formados, sem repetição, pelo menos um candidato | confere, artigo a artigo, se cada DOI existe e corresponde, e se cada artigo atende a cada critério; com busca na web e leitura de páginas |
-| `extract` | os itens finais | a quantidade pedida, todos da lista aprovada, cada um com um trecho de 40 caracteres ou mais | confere, artigo a artigo, trecho, amostra, método e achado; com busca na web e leitura de páginas |
+| `extract` | os itens finais, entregues como o relatório com as referências | a quantidade pedida, todos da lista aprovada, cada um com um trecho de 40 caracteres ou mais | confere, artigo a artigo, trecho, amostra, método e achado; com busca na web e leitura de páginas |
 
 Numa nova tentativa de busca, o executor recebe também a lista anterior com o parecer do verificador sobre cada artigo.
 
@@ -343,7 +343,7 @@ Os juízes não entram no custo de uma rodada: são o custo de medir. O uso dele
 ### Um nível novo
 
 1. Crie `agents/level_4/` com `__init__.py`, `agent.py` e `prompts/`. O `agent.py` expõe `async def run(topic, run_dir, log)`. Chame o executor com `core.llm.run_agent()`, envolva em `benchmark.qa.qa_step()` cada passo que você quer conferido, e termine com `benchmark.common.write_final(run_dir, items, status)`, cada item com as 10 chaves do `FINAL_SCHEMA`. Registre `step_start` e `step_end` para o visualizador.
-2. Cadastre o id de nível `n4`: acrescente-o em `LEVELS` e amplie o padrão `RUN_ID` em `benchmark/paths.py`; dê um título em `TITLES` no `benchmark/run.py`; dê uma ordem de início em `ORDER` no `benchmark/bench.py`; acrescente-o às listas de níveis do `evaluation/report.py` e do `evaluation/stats.py`.
+2. Cadastre o id de nível `n4`: acrescente-o em `LEVELS` e amplie o padrão `RUN_ID` em `benchmark/paths.py`; dê um título em `TITLES` no `benchmark/run.py`; dê uma ordem de início em `ORDER` no `benchmark/bench.py`; acrescente as comparações dele em `PAIRS` no `evaluation/report.py` e no `evaluation/stats.py` (os dois tiram os níveis do `benchmark/paths.py`).
 3. Rode com `python -m benchmark.run --level n4 ...`. A avaliação não muda: ela julga o `final.json`, seja quem for que o produziu.
 
 ### Um juiz novo

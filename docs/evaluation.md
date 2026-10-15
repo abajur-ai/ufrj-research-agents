@@ -80,6 +80,11 @@ always add up to 100%:
 - **Not delivered:** requested but not in the delivery. A paused run (the verifier refused the fifth attempt of a
   step, so the run delivered no report) counts its 25 articles as not delivered.
 
+An example, with Level 3 by the jury: of every 100 articles requested, 81 arrive right, 2 arrive wrong and 17 do not
+arrive; of every 100 articles delivered, 97 are right. Precision is the mean over the six topics (in each topic, the
+right articles over the delivered ones), and right, wrong and not delivered are means per run over the 25 requested.
+So one does not follow from the other using numbers that are already rounded.
+
 ## The code checks, in detail
 
 Code checks what has a right answer outside the AI. It is deterministic: the same input always gives the same

@@ -95,7 +95,7 @@ original is in Portuguese):
 Applied to this repository: if you use an agent like Level 3 in a review, declare it, with the tool and what it did
 (searching, screening, extraction); check what you cite; and treat its output as your responsibility.
 
-## Questions to discuss
+## Questions to reflect on
 
 The questions the class closes with:
 
