@@ -1,0 +1,163 @@
+{
+  "structured": {
+    "approved": false,
+    "checked": [
+      "C13: resumo descreve experimento com rastreamento ocular e SAM sobre manchetes clickbait em contexto de notícias online; atende a tema, método empírico e recorte.",
+      "C03: resumo descreve experimento com usuários comparando manchetes tradicionais e clickbait em notícias; atende.",
+      "C32: resumo descreve dois experimentos online (N = 629 e N = 1.674) sobre efeito de manchetes clickbait no aprendizado a partir de notícias; atende.",
+      "C106: resumo descreve experimento com 200 participantes sobre efeito de manchetes clickbait na credibilidade de notícias; atende.",
+      "C107: resumo descreve dois experimentos online sobre percepções de credibilidade e qualidade diante de clickbait em notícias; atende.",
+      "C110: resumo descreve experimento de laboratório e teste de campo sobre busca de notícias com manchetes de curiosidade (clickbait); atende.",
+      "C21: resumo descreve estudo experimental com consumidores de notícias online na Zâmbia e Tanzânia sobre credibilidade; atende.",
+      "C109: resumo descreve experimento de EEG (N2b e P3a) sobre atenção a manchetes clickbait em notícias; atende.",
+      "C02: resumo descreve survey com 624 estudantes sobre confiança e percepção de manchetes clickbait em jornalismo digital; atende.",
+      "C42: resumo descreve survey com 600 participantes sobre reação a manchetes clickbait e informativas em jornalismo online; atende.",
+      "C09: resumo descreve survey com 113 respondentes sobre efeito de manchetes clickbait no interesse de leitura de notícias; atende.",
+      "C11: resumo descreve análise de mais de 4.400 posts de fontes de notícias no Facebook com métricas de engajamento; atende.",
+      "C24: resumo descreve análise de tuítes de veículos de notícias com métricas de engajamento (favoritos e retuítes); atende.",
+      "C37: resumo descreve questionário quantitativo com usuários de mídia online sobre clickbait; atende.",
+      "C45: resumo descreve survey com cerca de 100 leitores sobre letramento crítico diante de notícias clickbait; atende.",
+      "C20: resumo descreve estudo qualitativo com entrevistas a 8 estudantes sobre confiança em notícias com clickbait; atente.",
+      "C69: resumo descreve estudo qualitativo com entrevistas a leitores sobre impacto de notícias clickbait; atende.",
+      "C64: resumo descreve método misto com survey de 368 leitores sobre percepção de notificações push e clickbait; atende.",
+      "C41: resumo descreve análise de engajamento no Facebook e survey com 81 leitores sobre manchetes sensacionalistas; atende.",
+      "C18: resumo descreve survey com 200 respondentes sobre manipulação por manchetes clickbait e fotos em notícias; atende.",
+      "C23: resumo descreve experimento sobre formatos de manchete (pergunta e referência adiante) em notícias; mecanismos de curiosidade compatíveis com clickbait; aceitável, mas limite fino.",
+      "C06: verificado contra o critério de contexto de notícias; o resumo menciona 'online interactions' e cita 'content creators and marketers', mas não menciona notícias ou mídia noticiosa em nenhum trecho.",
+      "C40: verificado contra o critério de contexto de notícias; o resumo fala de 'Internet users' urge to click clickbaits' e compara clickbaits de texto e thumbnail, sem mencionar notícias ou mídia noticiosa em nenhum trecho."
+    ],
+    "per_item": [
+      {
+        "id": "C13",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C03",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C32",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C106",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C107",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C110",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C21",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C109",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C02",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C42",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C09",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C11",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C24",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C37",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C45",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C20",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C69",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C64",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C41",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C18",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C23",
+        "ok": true,
+        "problem": "Aceito com ressalva: o resumo trata de manchetes de pergunta e referência adiante em notícias ambientais, sem usar o termo clickbait; considere justificar melhor essa equivalência no motivo."
+      },
+      {
+        "id": "C06",
+        "ok": false,
+        "problem": "O resumo não estabelece contexto de notícias: fala de clickbait em 'online interactions' e menciona 'content creators and marketers', o que sugere contexto de marketing, explicitamente excluído pelo pedido."
+      },
+      {
+        "id": "C40",
+        "ok": false,
+        "problem": "O resumo não estabelece contexto de notícias: estuda a vontade de clicar em clickbaits genéricos de Internet, sem mencionar notícias ou mídia noticiosa."
+      }
+    ],
+    "issues": [
+      "C06 (Decoding Clickbait, 2024): o resumo não menciona notícias nem mídia noticiosa; cita 'content creators and marketers', contexto que o pedido exclui explicitamente, e o critério de inclusão exige contexto de notícias.",
+      "C40 (This Will Blow Your Mind, 2020): o resumo estuda a vontade de clicar em clickbaits genéricos de Internet e não menciona notícias em nenhum trecho, sem comprovar o contexto de notícias exigido pelo pedido."
+    ],
+    "feedback": "Remova C06 e C40 da lista de incluídos, pois o contexto de notícias não pode ser confirmado pelos resumos e o pedido exige esse recorte. Entregar menos de 25 artigos que atendam a todos os critérios é o correto, então não substitua por artigos que não se qualifiquem. Para C23, fortaleça a justificativa da equivalência entre os formatos de manchete estudados e clickbait, já que o resumo não usa o termo."
+  },
+  "text": "{\"approved\": false, \"checked\": [\n\"C13: resumo descreve experimento com rastreamento ocular e SAM sobre manchetes clickbait em contexto de notícias online; atende a tema, método empírico e recorte.\",\n\"C03: resumo descreve experimento com usuários comparando manchetes tradicionais e clickbait em notícias; atende.\",\n\"C32: resumo descreve dois experimentos online (N = 629 e N = 1.674) sobre efeito de manchetes clickbait no aprendizado a partir de notícias; atende.\",\n\"C106: resumo descreve experimento com 200 participantes sobre efeito de manchetes clickbait na credibilidade de notícias; atende.\",\n\"C107: resumo descreve dois experimentos online sobre percepções de credibilidade e qualidade diante de clickbait em notícias; atende.\",\n\"C110: resumo descreve experimento de laboratório e teste de campo sobre busca de notícias com manchetes de curiosidade (clickbait); atende.\",\n\"C21: resumo descreve estudo experimental com consumidores de notícias online na Zâmbia e Tanzânia sobre credibilidade; atende.\",\n\"C109: resumo descreve experimento de EEG (N2b e P3a) sobre atenção a manchetes clickbait em notícias; atende.\",\n\"C02: resumo descreve survey com 624 estudantes sobre confiança e percepção de manchetes clickbait em jornalismo digital; atende.\",\n\"C42: resumo descreve survey com 600 participantes sobre reação a manchetes clickbait e informativas em jornalismo online; atende.\",\n\"C09: resumo descreve survey com 113 respondentes sobre efeito de manchetes clickbait no interesse de leitura de notícias; atende.\",\n\"C11: resumo descreve análise de mais de 4.400 posts de fontes de notícias no Facebook com métricas de engajamento; atende.\",\n\"C24: resumo descreve análise de tuítes de veículos de notícias com métricas de engajamento (favoritos e retuítes); atende.\",\n\"C37: resumo descreve questionário quantitativo com usuários de mídia online sobre clickbait; atende.\",\n\"C45: resumo descreve survey com cerca de 100 leitores sobre letramento crítico diante de notícias clickbait; atende.\",\n\"C20: resumo descreve estudo qualitativo com entrevistas a 8 estudantes sobre confiança em notícias com clickbait; atente.\",\n\"C69: resumo descreve estudo qualitativo com entrevistas a leitores sobre impacto de notícias clickbait; atende.\",\n\"C64: resumo descreve método misto com survey de 368 leitores sobre percepção de notificações push e clickbait; atende.\",\n\"C41: resumo descreve análise de engajamento no Facebook e survey com 81 leitores sobre manchetes sensacionalistas; atende.\",\n\"C18: resumo descreve survey com 200 respondentes sobre manipulação por manchetes clickbait e fotos em notícias; atende.\",\n\"C23: resumo descreve experimento sobre formatos de manchete (pergunta e referência adiante) em notícias; mecanismos de curiosidade compatíveis com clickbait; aceitável, mas limite fino.\",\n\"C06: verificado contra o critério de contexto de notícias; o resumo menciona 'online interactions' e cita 'content creators and marketers', mas não menciona notícias ou mídia noticiosa em nenhum trecho.\",\n\"C40: verificado contra o critério de contexto de notícias; o resumo fala de 'Internet users' urge to click clickbaits' e compara clickbaits de texto e thumbnail, sem mencionar notícias ou mídia noticiosa em nenhum trecho.\"\n], \"per_item\": [\n{\"id\": \"C13\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C03\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C32\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C106\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C107\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C110\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C21\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C109\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C02\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C42\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C09\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C11\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C24\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C37\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C45\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C20\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C69\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C64\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C41\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C18\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C23\", \"ok\": true, \"problem\": \"Aceito com ressalva: o resumo trata de manchetes de pergunta e referência adiante em notícias ambientais, sem usar o termo clickbait; considere justificar melhor essa equivalência no motivo.\"},\n{\"id\": \"C06\", \"ok\": false, \"problem\": \"O resumo não estabelece contexto de notícias: fala de clickbait em 'online interactions' e menciona 'content creators and marketers', o que sugere contexto de marketing, explicitamente excluído pelo pedido.\"},\n{\"id\": \"C40\", \"ok\": false, \"problem\": \"O resumo não estabelece contexto de notícias: estuda a vontade de clicar em clickbaits genéricos de Internet, sem mencionar notícias ou mídia noticiosa.\"}\n], \"issues\": [\n\"C06 (Decoding Clickbait, 2024): o resumo não menciona notícias nem mídia noticiosa; cita 'content creators and marketers', contexto que o pedido exclui explicitamente, e o critério de inclusão exige contexto de notícias.\",\n\"C40 (This Will Blow Your Mind, 2020): o resumo estuda a vontade de clicar em clickbaits genéricos de Internet e não menciona notícias em nenhum trecho, sem comprovar o contexto de notícias exigido pelo pedido.\"\n], \"feedback\": \"Remova C06 e C40 da lista de incluídos, pois o contexto de notícias não pode ser confirmado pelos resumos e o pedido exige esse recorte. Entregar menos de 25 artigos que atendam a todos os critérios é o correto, então não substitua por artigos que não se qualifiquem. Para C23, fortaleça a justificativa da equivalência entre os formatos de manchete estudados e clickbait, já que o resumo não usa o termo.\"}",
+  "usage": {
+    "input_tokens": 9038,
+    "output_tokens": 3810,
+    "cost_usd": 0.00326
+  },
+  "duration_s": 17.68,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

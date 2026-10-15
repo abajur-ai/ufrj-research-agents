@@ -1,0 +1,30 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Tema coberto: critério 1 exige desinformação E educação midiática/competência em informação/letramento como eixo central, cobrindo os sinônimos do pedido (fake news, MIL, alfabetização midiática)",
+      "Período coberto: critério 2 fixa 01/01/2018 a 31/12/2025 e orienta conferir ano oficial via Crossref/OpenAlex, sem deslocar a janela",
+      "Tipo de publicação coberto: critério 3 exige journal-article revisado por pares e lista as exclusões do pedido (preprint, anais, capítulo, tese, resenha, editorial)",
+      "Tipo de estudo coberto: critério 4 exige dado próprio (questionário, entrevista, grupo focal, intervenção, relato com coleta, análise documental de currículo/BNCC/livro didático) e exclui revisões, meta-análises e ensaios",
+      "Recorte coberto: critérios 5 e 6 exigem ensino formal brasileiro com estudantes/professores/currículo/livro didático e amostra brasileira explícita em comparativos internacionais",
+      "Exclusões cobertas: critério 7 exclui COVID-19/vacinas/eleições/política partidária; critério 8 exclui públicos fora do ensino formal",
+      "Consultas em inglês: queries 1, 3, 6 e 7 em OpenAlex/Crossref cobrem os termos do tema em inglês",
+      "Consultas em português: queries 2, 4, 5 e 8 cobrem desinformação, educação midiática, competência em informação e letramento informacional em SciELO e busca web",
+      "Verificação concreta: how_to_check tem um procedimento por critério, incluindo conferência caractere a caractere do trecho literal, regra para amostra ausente ('não informado no resumo') e checagem de DOI em doi.org",
+      "Meta de 25: critério 9 cobre contagem, duplicatas e versões PT/EN; how_to_check ainda determina não inflar a lista com itens duvidosos se faltarem candidatos"
+    ],
+    "issues": [],
+    "feedback": "Plano aprovado. Sugestões não obrigatórias: adicionar filtro de ano (from 2018 to 2025) diretamente nas queries de OpenAlex/Crossref para reduzir triagem; incluir LILACS ou Google Scholar Acadêmico como fonte complementar em português, já que revistas brasileiras de Educação e Ciência da Informação nem sempre aparecem em OpenAlex; e prever na checagem de revisão por pares o que fazer quando o site do periódico não declarar a política explicitamente (por exemplo, tratar periódico indexado em SciELO como revisado por pares e registrar a premissa)."
+  },
+  "text": "{\"approved\": true, \"checked\": [\"Tema coberto: critério 1 exige desinformação E educação midiática/competência em informação/letramento como eixo central, cobrindo os sinônimos do pedido (fake news, MIL, alfabetização midiática)\", \"Período coberto: critério 2 fixa 01/01/2018 a 31/12/2025 e orienta conferir ano oficial via Crossref/OpenAlex, sem deslocar a janela\", \"Tipo de publicação coberto: critério 3 exige journal-article revisado por pares e lista as exclusões do pedido (preprint, anais, capítulo, tese, resenha, editorial)\", \"Tipo de estudo coberto: critério 4 exige dado próprio (questionário, entrevista, grupo focal, intervenção, relato com coleta, análise documental de currículo/BNCC/livro didático) e exclui revisões, meta-análises e ensaios\", \"Recorte coberto: critérios 5 e 6 exigem ensino formal brasileiro com estudantes/professores/currículo/livro didático e amostra brasileira explícita em comparativos internacionais\", \"Exclusões cobertas: critério 7 exclui COVID-19/vacinas/eleições/política partidária; critério 8 exclui públicos fora do ensino formal\", \"Consultas em inglês: queries 1, 3, 6 e 7 em OpenAlex/Crossref cobrem os termos do tema em inglês\", \"Consultas em português: queries 2, 4, 5 e 8 cobrem desinformação, educação midiática, competência em informação e letramento informacional em SciELO e busca web\", \"Verificação concreta: how_to_check tem um procedimento por critério, incluindo conferência caractere a caractere do trecho literal, regra para amostra ausente ('não informado no resumo') e checagem de DOI em doi.org\", \"Meta de 25: critério 9 cobre contagem, duplicatas e versões PT/EN; how_to_check ainda determina não inflar a lista com itens duvidosos se faltarem candidatos\"], \"issues\": [], \"feedback\": \"Plano aprovado. Sugestões não obrigatórias: adicionar filtro de ano (from 2018 to 2025) diretamente nas queries de OpenAlex/Crossref para reduzir triagem; incluir LILACS ou Google Scholar Acadêmico como fonte complementar em português, já que revistas brasileiras de Educação e Ciência da Informação nem sempre aparecem em OpenAlex; e prever na checagem de revisão por pares o que fazer quando o site do periódico não declarar a política explicitamente (por exemplo, tratar periódico indexado em SciELO como revisado por pares e registrar a premissa).\"}",
+  "usage": {
+    "input_tokens": 2499,
+    "output_tokens": 759,
+    "cost_usd": 0.00075
+  },
+  "duration_s": 7.73,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

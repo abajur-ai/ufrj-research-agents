@@ -1,0 +1,31 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Tema coberto: o critério 1 define CIE como uso persistente de informação falsa após correção/retratação, igual ao pedido.",
+      "Período coberto: o critério 2 fixa 2018 a 2025 inclusive e define regra de desempate entre publicação online antecipada e versão do registro.",
+      "Tipo de publicação coberto: critérios 3 e 4 pedem artigo de periódico revisado por pares com dados próprios e excluem exatamente os tipos vedados no pedido (revisão, meta-análise, teórico, preprint, anais, capítulo, tese, resenha).",
+      "Método coberto: critério 5 exige experimento com humanos medindo crença ou raciocínio após correção/retratação, e o how_to_check item 4 detalha como conferir isso.",
+      "Recorte coberto: critérios 6 e 7 tratam dos materiais neutros e das exclusões de política, eleitoral, vacinas, COVID-19 e saúde, com regra para casos duvidosos.",
+      "Campos de saída cobertos: critério 9 lista os nove campos exigidos, incluindo N exatamente como no resumo e trecho literal entre aspas.",
+      "Meta coberta: critério 8 pede 25 artigos verificáveis ou declaração de déficit, sem preencher com itens duvidosos.",
+      "Consulta em inglês: sete queries em inglês (OpenAlex, Crossref, busca na web) cobrem termos centrais como 'continued influence effect' com retraction/correction, mais snowballing a partir de Johnson & Seifert 1994, Ecker 2010/2011/2022, Lewandowsky 2012 e Walter & Tukachinsky 2020, referências que existem e são canônicas na área.",
+      "Consulta em português: duas queries em português (SciELO e busca na web com Google Acadêmico e Portal CAPES) atendem à exigência de busca em português.",
+      "Verificação concreta: how_to_check traz procedimento verificável por critério, incluindo validação de DOI via API do Crossref, checagem de tipo journal-article, deduplicação por DOI e tabela de triagem auditável.",
+      "Amostra e citação literal: how_to_check itens 7 e 8 exigem cópia fiel do N do resumo e conferência caractere a caractere do trecho citado, com regra para resumo indisponível."
+    ],
+    "issues": [],
+    "feedback": "Aprovado. Sugestões não obrigatórias para a próxima execução: na primeira query do OpenAlex o termo 'continued influence of misinformation' aparece duplicado no bloco de OR, o que pode ser limpo sem prejuízo; a query 4 termina com 'experiment, 2018-2025' em formato misto, melhor separar o filtro de ano do texto livre como nas demais; na query em português pode valer acrescentar 'desinformação' e 'pós-verdade' para ampliar a cobertura em SciELO; e no snowballing vale registrar explicitamente que a filtragem por cited_by/referenced_works do OpenAlex precisa checar o ano de 2018-2025 no registro do artigo citado, não no do citante."
+  },
+  "text": "{\"approved\": true, \"checked\": [\"Tema coberto: o critério 1 define CIE como uso persistente de informação falsa após correção/retratação, igual ao pedido.\", \"Período coberto: o critério 2 fixa 2018 a 2025 inclusive e define regra de desempate entre publicação online antecipada e versão do registro.\", \"Tipo de publicação coberto: critérios 3 e 4 pedem artigo de periódico revisado por pares com dados próprios e excluem exatamente os tipos vedados no pedido (revisão, meta-análise, teórico, preprint, anais, capítulo, tese, resenha).\", \"Método coberto: critério 5 exige experimento com humanos medindo crença ou raciocínio após correção/retratação, e o how_to_check item 4 detalha como conferir isso.\", \"Recorte coberto: critérios 6 e 7 tratam dos materiais neutros e das exclusões de política, eleitoral, vacinas, COVID-19 e saúde, com regra para casos duvidosos.\", \"Campos de saída cobertos: critério 9 lista os nove campos exigidos, incluindo N exatamente como no resumo e trecho literal entre aspas.\", \"Meta coberta: critério 8 pede 25 artigos verificáveis ou declaração de déficit, sem preencher com itens duvidosos.\", \"Consulta em inglês: sete queries em inglês (OpenAlex, Crossref, busca na web) cobrem termos centrais como 'continued influence effect' com retraction/correction, mais snowballing a partir de Johnson & Seifert 1994, Ecker 2010/2011/2022, Lewandowsky 2012 e Walter & Tukachinsky 2020, referências que existem e são canônicas na área.\", \"Consulta em português: duas queries em português (SciELO e busca na web com Google Acadêmico e Portal CAPES) atendem à exigência de busca em português.\", \"Verificação concreta: how_to_check traz procedimento verificável por critério, incluindo validação de DOI via API do Crossref, checagem de tipo journal-article, deduplicação por DOI e tabela de triagem auditável.\", \"Amostra e citação literal: how_to_check itens 7 e 8 exigem cópia fiel do N do resumo e conferência caractere a caractere do trecho citado, com regra para resumo indisponível.\"], \"issues\": [], \"feedback\": \"Aprovado. Sugestões não obrigatórias para a próxima execução: na primeira query do OpenAlex o termo 'continued influence of misinformation' aparece duplicado no bloco de OR, o que pode ser limpo sem prejuízo; a query 4 termina com 'experiment, 2018-2025' em formato misto, melhor separar o filtro de ano do texto livre como nas demais; na query em português pode valer acrescentar 'desinformação' e 'pós-verdade' para ampliar a cobertura em SciELO; e no snowballing vale registrar explicitamente que a filtragem por cited_by/referenced_works do OpenAlex precisa checar o ano de 2018-2025 no registro do artigo citado, não no do citante.\"}",
+  "usage": {
+    "input_tokens": 2657,
+    "output_tokens": 1022,
+    "cost_usd": 0.00091
+  },
+  "duration_s": 12.14,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

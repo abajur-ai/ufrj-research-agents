@@ -1,0 +1,98 @@
+{
+  "structured": {
+    "year_from": 2018,
+    "year_to": 2025,
+    "queries_en": [
+      "misinformation inoculation game",
+      "prebunking game fake news",
+      "Bad News game misinformation",
+      "serious game fake news resilience",
+      "educational game disinformation experiment",
+      "gamified intervention misinformation susceptibility",
+      "psychological inoculation online game",
+      "board game media literacy misinformation",
+      "game-based learning fake news detection",
+      "inoculation game manipulation techniques"
+    ],
+    "queries_pt": [
+      "jogo educativo desinformação",
+      "jogo inoculação notícias falsas",
+      "gamificação combate à desinformação",
+      "jogo sério fake news letramento midiático",
+      "prebunking jogo desinformação",
+      "jogo de tabuleiro desinformação educação"
+    ],
+    "include": [
+      "Artigo de periódico revisado por pares, publicado entre 2018 e 2025",
+      "Relata estudo empírico com dados próprios coletados de participantes",
+      "A intervenção avaliada é um jogo (digital, online, de tabuleiro, de cartas ou de papéis) sobre desinformação, fake news, manipulação ou inoculação/prebunking",
+      "Desenho experimental, quase-experimental, ensaio randomizado ou pré e pós-intervenção com participantes",
+      "Mede desfechos como identificação de desinformação, resistência/resiliência, confiança, discernimento de veracidade ou habilidades de letramento midiático",
+      "Inclui jogos como Bad News, Harmony Square, Cranky Uncle, Fake It to Make It, Cat Park, Tessera ou similares, desde que o tema não seja excluído",
+      "Jogos educativos de letramento midiático/informacional com avaliação empírica"
+    ],
+    "exclude": [
+      "Intervenções que não são jogos (vídeos, textos, infográficos, dicas, aulas ou checagens isoladas)",
+      "Reanálise de dados de outros estudos ou análise secundária",
+      "Estudos centrados em COVID-19, vacinas ou saúde pandêmica (ex.: Go Viral!)",
+      "Estudos centrados em eleições, política partidária ou desinformação eleitoral (ex.: Harmony Square se o foco for eleições)",
+      "Revisões de literatura, revisões sistemáticas, meta-análises",
+      "Ensaios teóricos, conceituais ou propostas de design sem avaliação com participantes",
+      "Preprints, trabalhos de anais de congresso, capítulos de livro, teses, dissertações, resenhas, editoriais",
+      "Publicações fora do período 2018 a 2025",
+      "Artigos sem resumo disponível ou sem relato de avaliação empírica"
+    ]
+  },
+  "text": "{\"year_from\":2018,\"year_to\":2025,\"queries_en\":[\"misinformation inoculation game\",\"prebunking game fake news\",\"Bad News game misinformation\",\"serious game fake news resilience\",\"educational game disinformation experiment\",\"gamified intervention misinformation susceptibility\",\"psychological inoculation online game\",\"board game media literacy misinformation\",\"game-based learning fake news detection\",\"inoculation game manipulation techniques\"],\"queries_pt\":[\"jogo educativo desinformação\",\"jogo inoculação notícias falsas\",\"gamificação combate à desinformação\",\"jogo sério fake news letramento midiático\",\"prebunking jogo desinformação\",\"jogo de tabuleiro desinformação educação\"],\"include\":[\"Artigo de periódico revisado por pares, publicado entre 2018 e 2025\",\"Relata estudo empírico com dados próprios coletados de participantes\",\"A intervenção avaliada é um jogo (digital, online, de tabuleiro, de cartas ou de papéis) sobre desinformação, fake news, manipulação ou inoculação/prebunking\",\"Desenho experimental, quase-experimental, ensaio randomizado ou pré e pós-intervenção com participantes\",\"Mede desfechos como identificação de desinformação, resistência/resiliência, confiança, discernimento de veracidade ou habilidades de letramento midiático\",\"Inclui jogos como Bad News, Harmony Square, Cranky Uncle, Fake It to Make It, Cat Park, Tessera ou similares, desde que o tema não seja excluído\",\"Jogos educativos de letramento midiático/informacional com avaliação empírica\"],\"exclude\":[\"Intervenções que não são jogos (vídeos, textos, infográficos, dicas, aulas ou checagens isoladas)\",\"Reanálise de dados de outros estudos ou análise secundária\",\"Estudos centrados em COVID-19, vacinas ou saúde pandêmica (ex.: Go Viral!)\",\"Estudos centrados em eleições, política partidária ou desinformação eleitoral (ex.: Harmony Square se o foco for eleições)\",\"Revisões de literatura, revisões sistemáticas, meta-análises\",\"Ensaios teóricos, conceituais ou propostas de design sem avaliação com participantes\",\"Preprints, trabalhos de anais de congresso, capítulos de livro, teses, dissertações, resenhas, editoriais\",\"Publicações fora do período 2018 a 2025\",\"Artigos sem resumo disponível ou sem relato de avaliação empírica\"]}",
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 392,
+    "cache_read_input_tokens": 1703,
+    "output_tokens": 999,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 392,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 999,
+        "cache_read_input_tokens": 1703,
+        "cache_creation_input_tokens": 392,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 392
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 2,
+  "duration_s": 11.79,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "year_from": "2018",
+        "year_to": "2025",
+        "queries_en": "[\"misinformation inoculation game\", \"prebunking game fake news\", \"Bad News game misinformation\", \"serious game fake news resilience\", \"educational game disinformation experiment\", \"gamified intervent…",
+        "queries_pt": "[\"jogo educativo desinformação\", \"jogo inoculação notícias falsas\", \"gamificação combate à desinformação\", \"jogo sério fake news letramento midiático\", \"prebunking jogo desinformação\", \"jogo de tabul…",
+        "include": "[\"Artigo de periódico revisado por pares, publicado entre 2018 e 2025\", \"Relata estudo empírico com dados próprios coletados de participantes\", \"A intervenção avaliada é um jogo (digital, online, de …",
+        "exclude": "[\"Intervenções que não são jogos (vídeos, textos, infográficos, dicas, aulas ou checagens isoladas)\", \"Reanálise de dados de outros estudos ou análise secundária\", \"Estudos centrados em COVID-19, vac…"
+      }
+    }
+  ]
+}

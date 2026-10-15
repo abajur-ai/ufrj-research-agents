@@ -1,0 +1,573 @@
+{
+ "run_id": "class-n3-a06-r1",
+ "level": "n3",
+ "item": "a06",
+ "status": "done",
+ "delivered": 23,
+ "correct": 23,
+ "requested": 25,
+ "yield": 0.92,
+ "precision": 1.0,
+ "not_found": 0,
+ "wrong_doi": 0,
+ "metadata_errors": 0,
+ "quote_fail": 0,
+ "no_abstract": 0,
+ "wall_seconds": 248.7,
+ "calls": 6,
+ "items": [
+  {
+   "doi": "10.1108/oir-05-2018-0172",
+   "title": "Shocking secret you won’t believe! Emotional arousal in clickbait headlines",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.58729/1941-6679.1440",
+   "title": "Effects of Clickbait Headlines on User Responses: An Empirical Investigation",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1027/1864-1105/a000298",
+   "title": "Exaggerated and Questioning Clickbait Headlines and Their Influence \t\t\t\t\ton Media Learning",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1080/17512786.2019.1628658",
+   "title": "Aggregation, Clickbait and Their Effect on Perceptions of Journalistic Credibility and Quality",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1109/tts.2021.3073464",
+   "title": "Clickbait—Trust and Credibility of Digital News",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 1,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1177/1461444819863408",
+   "title": "The curiosity effect: Information seeking in the contemporary news environment",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.5897/jmcs2020.0715",
+   "title": "Clickbait-style headlines and journalism credibility in Sub-Saharan Africa: Exploring audience perceptions",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1089/cyber.2024.0295",
+   "title": "Decoding Clickbait: The Impact of Clickbait Types and Structures on Cognitive and Emotional Responses in Online Interactions",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1080/10447318.2022.2158262",
+   "title": "Attention Grabbing through Forward Reference: An ERP Study on Clickbait and Top News Stories",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1108/ajim-07-2020-0214",
+   "title": "“This Will Blow Your Mind”: examining the urge to click clickbaits",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1080/17512786.2020.1805794",
+   "title": "Headline Format Influences Evaluation of, but Not Engagement with, Environmental News",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3390/info16020150",
+   "title": "AI vs. Human-Authored Headlines: Evaluating the Effectiveness, Trust, and Linguistic Features of ChatGPT-Generated Clickbait and Informative Headlines in Digital News",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3390/journalmedia5040110",
+   "title": "Are ChatGPT-Generated Headlines Better Attention Grabbers than Human-Authored Ones? An Assessment of Salient Features Driving Engagement with Online Media",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.24815/jr.v8i3.47278",
+   "title": "The Effect of Clickbait Headlines on Tribunnews.Com Online News Articles on the Reading Interest of Generation Z at FKI UMS",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1371/journal.pone.0266743",
+   "title": "Click me…! The influence of clickbait on user engagement in social media and the role of digital nudging",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1080/21670811.2024.2394764",
+   "title": "Analyzing Sensationalism in News on Twitter (\n            <i>X</i>\n            ): Clickbait Journalism by Legacy vs. Online-Native Outlets and the Consequences for User Engagement",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3126/njdrs.v22i1.99390",
+   "title": "Sensational Headlines, Engagement, and Credibility in Nepal’s Online News",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.37679/trta.1013651",
+   "title": "Tık Odaklı Başlıklar ve Okuyucu Refleksleri Üzerine Bir Araştırma: Odak Grup Çalışması A Study on Click-Focused Headlines and Reader Reflexes: Focus Group",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.58984/smb2201145s",
+   "title": "PHOTOGRAPHY AND CLICKBAIT HEADLINES: ONLINE MEDIA TOOLS IN THE PROCESS OF READERS MANIPULATION",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.36761/kagangakomunika.v7i2.6865",
+   "title": "CLICKBAIT SEBAGAI STRATEGI FRAMING BERITA DALAM MEDIA DARING TRIBUNNEWS.COM CLICKBAIT AS A NEWS FRAMING STRATEGY IN THE ONLINE MEDIA TRIBUNNEWS.COM",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1108/lhtn-02-2022-0027",
+   "title": "Critical literacy: prevents negative impact of clickbait news on news agency website",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3389/fpsyg.2022.940903",
+   "title": "Superlatives, clickbaits, appeals to authority, poor grammar, or boldface: Is editorial style related to the credibility of online health messages?",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.22452/jpmm.vol25no1.3",
+   "title": "The Impact of Sensational News Towards Public Perception on The Malaysian News Industry",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  }
+ ],
+ "judge": "júri: DeepSeek V4 Pro, Qwen3.7 Plus, Gemini 3.1 Flash-Lite (maioria)"
+}

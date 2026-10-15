@@ -1,0 +1,32 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Período 2018 a 2025 no campo year_from/year_to confere exatamente com o pedido (2018 a 2025)",
+      "As 10 consultas em inglês cobrem os eixos centrais do pedido: desinformação, educação midiática, competência em informação, estudantes, professores e Brasil",
+      "As 6 consultas em português cobrem desinformação, fake news, alfabetização/letramento midiático, competência em informação, professores, universitários e ensino médio",
+      "Restrição de COVID-19, vacinas, eleições e política partidária está presente na lista de exclusão",
+      "Restrição de públicos fora do ensino formal está presente na lista de exclusão",
+      "Restrição de tipo de documento (revisões, meta-análises, ensaios teóricos, preprints, anais, capítulos, teses, resenhas) está presente e completa na lista de exclusão",
+      "Exigência de estudo empírico com dados próprios e exemplos de método (questionário, entrevista, grupo focal, intervenção, experimento, análise documental) está fiel ao pedido",
+      "Regra de estudos comparativos internacionais somente com amostra brasileira está presente e idêntica ao pedido",
+      "Regra de Brasil com estudantes, professores, aulas, currículos ou livros didáticos está presente no critério de inclusão",
+      "Exclusão de estudos sem amostra brasileira e de estudos fora do período está presente",
+      "Exclusão de estudos de desinformação sem componente educacional (detecção automática, análise de redes) traduz corretamente a exigência de componente educacional do pedido",
+      "Nenhum critério acrescenta restrição que não esteja no pedido"
+    ],
+    "issues": [],
+    "feedback": "Aprovado. Sugestões para a próxima rodada, sem caráter obrigatório: (1) acrescentar consulta em português para livros didáticos, por exemplo 'livro didático desinformação análise' ou 'fake news livro didático', pois o tema só aparece hoje em inglês ('textbooks misinformation Brazil analysis'); (2) acrescentar consultas com o termo 'currículo' (ex.: 'currículo educação midiática desinformação' e 'misinformation curriculum Brazil education'), já que currículos são objeto aceito no pedido; (3) considerar explicitar 'Brasil' na consulta 'desinformação ensino superior universitários' para manter o padrão das demais; (4) o JSON não traz os campos de saída exigidos no pedido (DOI, título, autores, ano, periódico, tipo de estudo e método, tamanho da amostra como no resumo, achado principal e trecho literal entre aspas), então convém confirmar que o executor os incluirá no relatório final."
+  },
+  "text": "{\"approved\": true, \"checked\": [\n\"Período 2018 a 2025 no campo year_from/year_to confere exatamente com o pedido (2018 a 2025)\",\n\"As 10 consultas em inglês cobrem os eixos centrais do pedido: desinformação, educação midiática, competência em informação, estudantes, professores e Brasil\",\n\"As 6 consultas em português cobrem desinformação, fake news, alfabetização/letramento midiático, competência em informação, professores, universitários e ensino médio\",\n\"Restrição de COVID-19, vacinas, eleições e política partidária está presente na lista de exclusão\",\n\"Restrição de públicos fora do ensino formal está presente na lista de exclusão\",\n\"Restrição de tipo de documento (revisões, meta-análises, ensaios teóricos, preprints, anais, capítulos, teses, resenhas) está presente e completa na lista de exclusão\",\n\"Exigência de estudo empírico com dados próprios e exemplos de método (questionário, entrevista, grupo focal, intervenção, experimento, análise documental) está fiel ao pedido\",\n\"Regra de estudos comparativos internacionais somente com amostra brasileira está presente e idêntica ao pedido\",\n\"Regra de Brasil com estudantes, professores, aulas, currículos ou livros didáticos está presente no critério de inclusão\",\n\"Exclusão de estudos sem amostra brasileira e de estudos fora do período está presente\",\n\"Exclusão de estudos de desinformação sem componente educacional (detecção automática, análise de redes) traduz corretamente a exigência de componente educacional do pedido\",\n\"Nenhum critério acrescenta restrição que não esteja no pedido\"\n], \"issues\": [], \"feedback\": \"Aprovado. Sugestões para a próxima rodada, sem caráter obrigatório: (1) acrescentar consulta em português para livros didáticos, por exemplo 'livro didático desinformação análise' ou 'fake news livro didático', pois o tema só aparece hoje em inglês ('textbooks misinformation Brazil analysis'); (2) acrescentar consultas com o termo 'currículo' (ex.: 'currículo educação midiática desinformação' e 'misinformation curriculum Brazil education'), já que currículos são objeto aceito no pedido; (3) considerar explicitar 'Brasil' na consulta 'desinformação ensino superior universitários' para manter o padrão das demais; (4) o JSON não traz os campos de saída exigidos no pedido (DOI, título, autores, ano, periódico, tipo de estudo e método, tamanho da amostra como no resumo, achado principal e trecho literal entre aspas), então convém confirmar que o executor os incluirá no relatório final.\"}",
+  "usage": {
+    "input_tokens": 1173,
+    "output_tokens": 1143,
+    "cost_usd": 0.00075
+  },
+  "duration_s": 19.09,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

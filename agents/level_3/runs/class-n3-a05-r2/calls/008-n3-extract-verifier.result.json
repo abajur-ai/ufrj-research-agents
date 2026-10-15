@@ -1,0 +1,131 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "C94: o resumo informa experimento comportamental pré-registrado com N = 210; o tipo de estudo, o método (conscientização e incentivos financeiros), a amostra e o achado principal (detecção não confiável, viés de autenticidade e superconfiança) correspondem ao resumo.",
+      "C57: o resumo informa n = 529 participantes, testes em inglês e mandarim e 73% de acerto sem diferença entre línguas; método, amostra e achado conferem.",
+      "C71: o resumo informa dois estudos online com 15.016 participantes, comparação humano x modelo de visão computacional e intervenções randomizadas pré-registradas; tipo de estudo, amostra e achado conferem.",
+      "C25: o resumo informa survey online com N = 280, alocação aleatória em quatro grupos, 20 imagens do StyleGAN2/FFHQ e precisão de 62% pouco acima do acaso sem ganho das intervenções; tudo conferido.",
+      "C55: o resumo confirma o Experimento 1 com N = 124 adultos, o hiper-realismo da IA e o efeito Dunning-Kruger; o trecho citado está no resumo.",
+      "C02: o resumo confirma super-reconhecedores (N = 283) versus controles (N = 381), dois desenhos experimentais e ganho com treinamento; o método e o achado conferem.",
+      "C07: o resumo não informa tamanho de amostra, e o campo registra corretamente 'não informado no resumo'; o achado (imagens de fictícios e celebridades indistinguíveis de fotos reais) confere.",
+      "C43: o resumo informa 746 participantes, cinco variantes experimentais, precisão entre 47,0% e 55,5%, viés do impostor e viés de automação mais forte em homens; tudo conferido.",
+      "C44: o resumo informa estudo com EEG, N = 30, faces reais rotuladas como reais ou falsas e efeito de amortecimento para sorrisos tidos como deepfake, não para raiva; confere.",
+      "C58: o resumo informa 292 participantes do Reino Unido, imagens variando em realismo estético e saliência emocional, e veredito de ferramenta de detecção; amostra, método e achado conferem.",
+      "C08: o resumo não informa tamanho de amostra e o campo está correto; o achado sobre multidões externas e a solução 'surpreendentemente popular' conferem.",
+      "C119: o resumo não informa número de participantes humanos e o campo está correto; o achado de queda de precisão humana com o aumento da compressão VVC confere.",
+      "C97: o resumo informa survey online com jovens adultos de 21 a 35 anos, quatro vídeos e análise de estratégias, sem número de participantes, corretamente registrado; o achado sobre estratégias centradas no sujeito do vídeo confere.",
+      "C28: o resumo confirma experimento survey online nos EUA com três condições (vídeo, áudio e cheap fakes), sem amostra informada, e o achado sobre vídeo deepfakes versus cheap fakes e habilidade cognitiva confere.",
+      "C41: o resumo informa estudo experimental com 46 usuários, personas deepfake versus humanas, think-aloud e survey; amostra e achado sobre glitches conferem.",
+      "C111: o resumo não informa tamanho de amostra e o campo está correto; o achado de percepções mais negativas das personas deepfake sem diferença de desempenho confere.",
+      "C12: o resumo informa survey com 199 respondentes da Geração X na Indonésia (43 a 58 anos) e ausência de efeito significativo de literacia digital e exposição; amostra e achado conferem.",
+      "C24: o resumo confirma estudo sobre fala parcialmente falsa avaliando humanos e máquinas, sem amostra informada no resumo; o achado de que ambos são facilmente enganados confere.",
+      "Verifiquei que todos os trechos citados entre aspas aparecem literalmente nos respectivos resumos."
+    ],
+    "per_item": [
+      {
+        "id": "C94",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C57",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C71",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C25",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C55",
+        "ok": true,
+        "problem": "amostra informada cobre apenas o Experimento 1; o resumo também informa N = 610 no Experimento 2"
+      },
+      {
+        "id": "C02",
+        "ok": true,
+        "problem": "amostra informa apenas os super-reconhecedores (N = 283) e omite os controles (N = 381) mencionados no mesmo resumo"
+      },
+      {
+        "id": "C07",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C43",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C44",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C58",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C08",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C119",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C97",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C28",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C41",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C111",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C12",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C24",
+        "ok": true,
+        "problem": "o estudo avalia também detectores automáticos de fala falsa, o que exige confirmação de que não fere a exclusão de artigos sobre algoritmos de detecção automática"
+      }
+    ],
+    "issues": [],
+    "feedback": "Nenhum erro que comprometa a extração: todos os 18 itens foram aprovados. Sugestões: em C55, registre as duas amostras do resumo (Experimento 1 com N = 124 e Experimento 2 com N = 610); em C02, registre as duas amostras (super-reconhecedores N = 283 e controles N = 381) para não sugerir que 283 é a amostra total. Em C24, confirme na seção de métodos do artigo completo que o componente humano é central, já que o resumo também avalia sistemas automáticos de reconhecimento de locutor e ferramentas de detecção, área que o pedido exclui quando é o foco do artigo; se o artigo for predominantemente sobre detecção automática, substitua por outro. Em C71 e C24, convém registrar no campo de método que o estudo compara desempenho humano com modelos, para transparência diante da restrição. Por fim, o pedido do pesquisador era de 25 artigos e a extração contém 18; se ainda há tentativas restantes, complete os 7 faltantes observando as mesmas regras de restrição e de amostra."
+  },
+  "text": "{\n  \"approved\": true,\n  \"checked\": [\n    \"C94: o resumo informa experimento comportamental pré-registrado com N = 210; o tipo de estudo, o método (conscientização e incentivos financeiros), a amostra e o achado principal (detecção não confiável, viés de autenticidade e superconfiança) correspondem ao resumo.\",\n    \"C57: o resumo informa n = 529 participantes, testes em inglês e mandarim e 73% de acerto sem diferença entre línguas; método, amostra e achado conferem.\",\n    \"C71: o resumo informa dois estudos online com 15.016 participantes, comparação humano x modelo de visão computacional e intervenções randomizadas pré-registradas; tipo de estudo, amostra e achado conferem.\",\n    \"C25: o resumo informa survey online com N = 280, alocação aleatória em quatro grupos, 20 imagens do StyleGAN2/FFHQ e precisão de 62% pouco acima do acaso sem ganho das intervenções; tudo conferido.\",\n    \"C55: o resumo confirma o Experimento 1 com N = 124 adultos, o hiper-realismo da IA e o efeito Dunning-Kruger; o trecho citado está no resumo.\",\n    \"C02: o resumo confirma super-reconhecedores (N = 283) versus controles (N = 381), dois desenhos experimentais e ganho com treinamento; o método e o achado conferem.\",\n    \"C07: o resumo não informa tamanho de amostra, e o campo registra corretamente 'não informado no resumo'; o achado (imagens de fictícios e celebridades indistinguíveis de fotos reais) confere.\",\n    \"C43: o resumo informa 746 participantes, cinco variantes experimentais, precisão entre 47,0% e 55,5%, viés do impostor e viés de automação mais forte em homens; tudo conferido.\",\n    \"C44: o resumo informa estudo com EEG, N = 30, faces reais rotuladas como reais ou falsas e efeito de amortecimento para sorrisos tidos como deepfake, não para raiva; confere.\",\n    \"C58: o resumo informa 292 participantes do Reino Unido, imagens variando em realismo estético e saliência emocional, e veredito de ferramenta de detecção; amostra, método e achado conferem.\",\n    \"C08: o resumo não informa tamanho de amostra e o campo está correto; o achado sobre multidões externas e a solução 'surpreendentemente popular' conferem.\",\n    \"C119: o resumo não informa número de participantes humanos e o campo está correto; o achado de queda de precisão humana com o aumento da compressão VVC confere.\",\n    \"C97: o resumo informa survey online com jovens adultos de 21 a 35 anos, quatro vídeos e análise de estratégias, sem número de participantes, corretamente registrado; o achado sobre estratégias centradas no sujeito do vídeo confere.\",\n    \"C28: o resumo confirma experimento survey online nos EUA com três condições (vídeo, áudio e cheap fakes), sem amostra informada, e o achado sobre vídeo deepfakes versus cheap fakes e habilidade cognitiva confere.\",\n    \"C41: o resumo informa estudo experimental com 46 usuários, personas deepfake versus humanas, think-aloud e survey; amostra e achado sobre glitches conferem.\",\n    \"C111: o resumo não informa tamanho de amostra e o campo está correto; o achado de percepções mais negativas das personas deepfake sem diferença de desempenho confere.\",\n    \"C12: o resumo informa survey com 199 respondentes da Geração X na Indonésia (43 a 58 anos) e ausência de efeito significativo de literacia digital e exposição; amostra e achado conferem.\",\n    \"C24: o resumo confirma estudo sobre fala parcialmente falsa avaliando humanos e máquinas, sem amostra informada no resumo; o achado de que ambos são facilmente enganados confere.\",\n    \"Verifiquei que todos os trechos citados entre aspas aparecem literalmente nos respectivos resumos.\"\n  ],\n  \"per_item\": [\n    { \"id\": \"C94\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C57\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C71\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C25\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C55\", \"ok\": true, \"problem\": \"amostra informada cobre apenas o Experimento 1; o resumo também informa N = 610 no Experimento 2\" },\n    { \"id\": \"C02\", \"ok\": true, \"problem\": \"amostra informa apenas os super-reconhecedores (N = 283) e omite os controles (N = 381) mencionados no mesmo resumo\" },\n    { \"id\": \"C07\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C43\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C44\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C58\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C08\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C119\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C97\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C28\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C41\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C111\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C12\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C24\", \"ok\": true, \"problem\": \"o estudo avalia também detectores automáticos de fala falsa, o que exige confirmação de que não fere a exclusão de artigos sobre algoritmos de detecção automática\" }\n  ],\n  \"issues\": [],\n  \"feedback\": \"Nenhum erro que comprometa a extração: todos os 18 itens foram aprovados. Sugestões: em C55, registre as duas amostras do resumo (Experimento 1 com N = 124 e Experimento 2 com N = 610); em C02, registre as duas amostras (super-reconhecedores N = 283 e controles N = 381) para não sugerir que 283 é a amostra total. Em C24, confirme na seção de métodos do artigo completo que o componente humano é central, já que o resumo também avalia sistemas automáticos de reconhecimento de locutor e ferramentas de detecção, área que o pedido exclui quando é o foco do artigo; se o artigo for predominantemente sobre detecção automática, substitua por outro. Em C71 e C24, convém registrar no campo de método que o estudo compara desempenho humano com modelos, para transparência diante da restrição. Por fim, o pedido do pesquisador era de 25 artigos e a extração contém 18; se ainda há tentativas restantes, complete os 7 faltantes observando as mesmas regras de restrição e de amostra.\"\n}",
+  "usage": {
+    "input_tokens": 8925,
+    "output_tokens": 4775,
+    "cost_usd": 0.00369
+  },
+  "duration_s": 53.68,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

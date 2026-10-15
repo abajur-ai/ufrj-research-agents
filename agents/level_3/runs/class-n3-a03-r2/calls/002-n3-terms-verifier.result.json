@@ -1,0 +1,36 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Período 2018 a 2025 no é exatamente o do pedido (year_from 2018, year_to 2025), e aparece também como inclusão e exclusão.",
+      "Queries em inglês cobrem os eixos do tema: students, schools, university, teachers, classroom intervention, textbooks, teacher training, adolescents, fact-checking; dez consultas no total.",
+      "Queries em português cobrem desinformação, educação midiática, competência em informação, professores, ensino básico, ensino superior, sala de aula e intervenção; seis consultas no total.",
+      "Critério de inclusão de artigo de periódico revisado por pares entre 2018 e 2025 corresponde ao pedido.",
+      "Critério de estudo empírico com dados próprios lista os métodos do pedido (questionário, entrevista, grupo focal, intervenção, experimento, relato com coleta, análise documental de currículos e livros didáticos).",
+      "Critério de Brasil ou comparativo internacional com amostra brasileira explícita corresponde à restrição do pedido.",
+      "Critério de participantes e objetos (estudantes, professores, aulas, currículos, livros didáticos, educação básica e superior) corresponde ao pedido.",
+      "Critério de tema central (desinformação, fake news, educação midiática, letramento midiático, competência em informação) cobre as duas formulações do pedido.",
+      "Exclusões de revisões, meta-análises, ensaios teóricos, preprints, anais, capítulos, livros, teses, dissertações e resenhas correspondem à lista do pedido.",
+      "Exclusão de públicos fora do ensino formal corresponde à restrição do pedido.",
+      "Exclusão de estudos sem componente educacional é coerente com o tema duplo do pedido (desinformação E educação).",
+      "Nenhuma restrição do pedido ficou esquecida: todas as nove exclusões e as seis inclusões mapeiam para texto do pedido."
+    ],
+    "issues": [
+      "O critério de exclusão adiciona 'pandemia' e 'saúde' além de COVID-19 e vacinas, o que pode excluir estudos de educação sobre desinformação em saúde que o pedido não excluía.",
+      "O critério de exclusão adiciona 'polarização política' além de eleições e política partidária, podendo excluir estudos escolares sobre polarização aceitos pelo pedido.",
+      "As queries em português não cobrem livro didático e currículo, eixos presentes apenas na query em inglês sobre textbooks."
+    ],
+    "feedback": "Na próxima tentativa, restringir as exclusões ao texto do pedido: trocar 'Estudos centrados em COVID-19, pandemia, vacinas ou saúde' por 'Estudos centrados em COVID-19 ou vacinas' e remover 'polarização política' da exclusão eleitoral, evitando descartes além do solicitado. Sugerir acrescentar uma query em português com livro didático e fake news e outra com currículo e desinformação, para equilibrar a cobertura com as queries em inglês. Nenhuma dessas correções muda o veredito: critérios e período estão fiéis ao pedido e as queries cobrem o tema nos dois idiomas."
+  },
+  "text": "{\n \"approved\": true,\n \"checked\": [\n  \"Período 2018 a 2025 no é exatamente o do pedido (year_from 2018, year_to 2025), e aparece também como inclusão e exclusão.\",\n  \"Queries em inglês cobrem os eixos do tema: students, schools, university, teachers, classroom intervention, textbooks, teacher training, adolescents, fact-checking; dez consultas no total.\",\n  \"Queries em português cobrem desinformação, educação midiática, competência em informação, professores, ensino básico, ensino superior, sala de aula e intervenção; seis consultas no total.\",\n  \"Critério de inclusão de artigo de periódico revisado por pares entre 2018 e 2025 corresponde ao pedido.\",\n  \"Critério de estudo empírico com dados próprios lista os métodos do pedido (questionário, entrevista, grupo focal, intervenção, experimento, relato com coleta, análise documental de currículos e livros didáticos).\",\n  \"Critério de Brasil ou comparativo internacional com amostra brasileira explícita corresponde à restrição do pedido.\",\n  \"Critério de participantes e objetos (estudantes, professores, aulas, currículos, livros didáticos, educação básica e superior) corresponde ao pedido.\",\n  \"Critério de tema central (desinformação, fake news, educação midiática, letramento midiático, competência em informação) cobre as duas formulações do pedido.\",\n  \"Exclusões de revisões, meta-análises, ensaios teóricos, preprints, anais, capítulos, livros, teses, dissertações e resenhas correspondem à lista do pedido.\",\n  \"Exclusão de públicos fora do ensino formal corresponde à restrição do pedido.\",\n  \"Exclusão de estudos sem componente educacional é coerente com o tema duplo do pedido (desinformação E educação).\",\n  \"Nenhuma restrição do pedido ficou esquecida: todas as nove exclusões e as seis inclusões mapeiam para texto do pedido.\"\n ],\n \"issues\": [\n  \"O critério de exclusão adiciona 'pandemia' e 'saúde' além de COVID-19 e vacinas, o que pode excluir estudos de educação sobre desinformação em saúde que o pedido não excluía.\",\n  \"O critério de exclusão adiciona 'polarização política' além de eleições e política partidária, podendo excluir estudos escolares sobre polarização aceitos pelo pedido.\",\n  \"As queries em português não cobrem livro didático e currículo, eixos presentes apenas na query em inglês sobre textbooks.\"\n ],\n \"feedback\": \"Na próxima tentativa, restringir as exclusões ao texto do pedido: trocar 'Estudos centrados em COVID-19, pandemia, vacinas ou saúde' por 'Estudos centrados em COVID-19 ou vacinas' e remover 'polarização política' da exclusão eleitoral, evitando descartes além do solicitado. Sugerir acrescentar uma query em português com livro didático e fake news e outra com currículo e desinformação, para equilibrar a cobertura com as queries em inglês. Nenhuma dessas correções muda o veredito: critérios e período estão fiéis ao pedido e as queries cobrem o tema nos dois idiomas.\"\n}",
+  "usage": {
+    "input_tokens": 1190,
+    "output_tokens": 1611,
+    "cost_usd": 0.00098
+  },
+  "duration_s": 15.24,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

@@ -1,0 +1,154 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Resumo confirma dois experimentos com manipulação de confiabilidade e expertise da fonte da retratação",
+      "Amostra realmente não é informada no resumo",
+      "Achado confere com o resumo, incluindo a parte sobre influência continuada com retratações muito críveis",
+      "Citação literal está no resumo e sustenta o achado"
+    ],
+    "per_item": [
+      {
+        "id": "C12",
+        "ok": true,
+        "problem": "Nenhum erro. Confira se a citação literal está no resumo e se o achado não acrescenta nada além do que o texto diz."
+      },
+      {
+        "id": "C03",
+        "ok": true,
+        "problem": "Nenhum erro. O resumo tem uma aparente redundância interna (menciona Experimento 2 duas vezes), mas a extração citou o trecho tal como está."
+      },
+      {
+        "id": "C14",
+        "ok": true,
+        "problem": "Nenhum erro. Confira se os dois experimentos e os tipos de fonte (pessoa e mídia) descritos no método batem com o resumo."
+      },
+      {
+        "id": "C05",
+        "ok": true,
+        "problem": "Nenhum erro. O resumo diz 'três estudos' e a extração registra isso; o achado sobre eliminação do CIE em certas condições também está no resumo."
+      },
+      {
+        "id": "C01",
+        "ok": true,
+        "problem": "Nenhum erro. O resumo não informa o número de experimentos nem a amostra; a extração não inventou esses dados."
+      },
+      {
+        "id": "C17",
+        "ok": true,
+        "problem": "Nenhum erro. Confira se a parte do achado sobre 'explicações baseadas em recuperação' está qualificada como o resumo qualifica ('to the extent that...')."
+      },
+      {
+        "id": "C11",
+        "ok": true,
+        "problem": "Nenhum erro. N = 441 aparece exatamente no resumo e o achado sobre proteção não sustentada após 7 dias confere."
+      },
+      {
+        "id": "C06",
+        "ok": true,
+        "problem": "Nenhum erro. O resumo não informa número de experimentos nem amostra; a extração não inventou."
+      },
+      {
+        "id": "C13",
+        "ok": true,
+        "problem": "Nenhum erro. Total N = 1718 e três experimentos estão no resumo; o achado contra o backfire de familiaridade confere."
+      },
+      {
+        "id": "C08",
+        "ok": true,
+        "problem": "Nenhum erro. Três experimentos, tarefa não dinâmica e resultado misto (um experimento com efeito, dois sem) conferem com o resumo."
+      },
+      {
+        "id": "C15",
+        "ok": true,
+        "problem": "Nenhum erro. Quatro experimentos e o resultado de descarte total da desinformação retratada estão no resumo."
+      },
+      {
+        "id": "C02",
+        "ok": true,
+        "problem": "Nenhum erro. Três experimentos e o resultado sobre revezamento versus colaboração livre conferem."
+      },
+      {
+        "id": "C30",
+        "ok": true,
+        "problem": "Nenhum erro. Quatro experimentos e o achado sobre sensibilidade à confiabilidade da fonte conferem. Atenção apenas ao fato de o Experimento 1 do resumo indicar ausência de CIE, o que está refletido na extração."
+      },
+      {
+        "id": "C21",
+        "ok": true,
+        "problem": "O campo de amostra traz só 'Exp. 1A, n = 78', mas o resumo também informa n = 75 (Exp. 1B) e n = 323 (Exps. 2A e 2B). O valor trazido está correto, mas incompleto."
+      },
+      {
+        "id": "C86",
+        "ok": false,
+        "problem": "O resumo deste artigo não relata nenhum resultado, apenas objetivos e desenho. O campo 'achado principal' descreve o que o estudo explora, não um achado, e o trecho citado sustenta um objetivo, não um resultado. O pedido exige achado principal em uma frase sustentado por trecho literal do resumo."
+      },
+      {
+        "id": "C20",
+        "ok": true,
+        "problem": "A extração descreve corretamente o estudo como correlacional/de diferenças individuais, e não como experimento manipulado. O resumo sustenta o restante."
+      },
+      {
+        "id": "C10",
+        "ok": true,
+        "problem": "Nenhum erro. Estudo exploratório com ERP, achado e citação conferem com o resumo."
+      },
+      {
+        "id": "C22",
+        "ok": true,
+        "problem": "Nenhum erro. Desenho, ausência de efeito em traços e previsões e a evidência tentativa sobre a avaliação do rosto conferem com o resumo."
+      },
+      {
+        "id": "C44",
+        "ok": true,
+        "problem": "Nenhum erro. Dois experimentos e o achado contrário à hipótese conferem."
+      },
+      {
+        "id": "C58",
+        "ok": true,
+        "problem": "Nenhum erro. 'One hundred and twenty-nine lay participants' está literal no resumo e o achado confere."
+      },
+      {
+        "id": "C40",
+        "ok": true,
+        "problem": "Nenhum erro. N = 84, delineamento intra-sujeitos, papel versus tela e ausência de diferenças confiáveis conferem."
+      },
+      {
+        "id": "C16",
+        "ok": true,
+        "problem": "Nenhum erro de extração: 61 participantes e ausência de CIE com efeito de supercorreção estão no resumo. Ponto de atenção: os cenários são militares, o que merece confirmação quanto à exigência de materiais neutros, já que o pedido exige alegações sem conotação política."
+      },
+      {
+        "id": "C97",
+        "ok": true,
+        "problem": "Nenhum erro. Delineamento 2x2x2 intra-sujeitos e o achado sobre valência negativa e estilo explícito conferem."
+      },
+      {
+        "id": "C92",
+        "ok": true,
+        "problem": "A extração descreve corretamente o estudo como de diferenças individuais; o resumo sustenta o achado sobre função executiva central e relevância alta."
+      },
+      {
+        "id": "C93",
+        "ok": true,
+        "problem": "A extração descreve corretamente o estudo como de diferenças individuais; o resumo sustenta o achado sobre inibição."
+      }
+    ],
+    "issues": [
+      "C86: o resumo não contém achado algum, então o campo 'achado principal' descreve apenas o objetivo do estudo e o trecho citado não sustenta resultado nenhum, o que viola o formato exigido pelo pedido.",
+      "C21: o campo de tamanho da amostra lista apenas n = 78 do Experimento 1A, omitindo n = 75 e n = 323 que também aparecem no resumo."
+    ],
+    "feedback": "Para a próxima tentativa: em C86, substitua o artigo por outro cujo resumo relatre resultados, ou obtenha o achado no texto completo e indique isso, pois o resumo atual não permite cumprir o pedido. Em C21, registre todos os tamanhos de amostra que aparecem no resumo (n = 78, n = 75 e n = 323), não apenas o primeiro. Sugestões não reprovas: em C16, confirme com o pesquisador se cenários militares fictícios atendem à exigência de materiais neutros; em C20, C92 e C93, os estudos são de diferenças individuais (correlacionais quanto à função executiva) embora usem tarefa de CIE com retratação, e a extração rotulou isso corretamente, mas o pesquisador pode querer confirmar se delineamentos desse tipo contam como 'experimentos' para os critérios dele."
+  },
+  "text": "{\"approved\": true, \"checked\": [\"Resumo confirma dois experimentos com manipulação de confiabilidade e expertise da fonte da retratação\", \"Amostra realmente não é informada no resumo\", \"Achado confere com o resumo, incluindo a parte sobre influência continuada com retratações muito críveis\", \"Citação literal está no resumo e sustenta o achado\"], \"per_item\": [\n{\"id\": \"C12\", \"ok\": true, \"problem\": \"Nenhum erro. Confira se a citação literal está no resumo e se o achado não acrescenta nada além do que o texto diz.\"},\n{\"id\": \"C03\", \"ok\": true, \"problem\": \"Nenhum erro. O resumo tem uma aparente redundância interna (menciona Experimento 2 duas vezes), mas a extração citou o trecho tal como está.\"},\n{\"id\": \"C14\", \"ok\": true, \"problem\": \"Nenhum erro. Confira se os dois experimentos e os tipos de fonte (pessoa e mídia) descritos no método batem com o resumo.\"},\n{\"id\": \"C05\", \"ok\": true, \"problem\": \"Nenhum erro. O resumo diz 'três estudos' e a extração registra isso; o achado sobre eliminação do CIE em certas condições também está no resumo.\"},\n{\"id\": \"C01\", \"ok\": true, \"problem\": \"Nenhum erro. O resumo não informa o número de experimentos nem a amostra; a extração não inventou esses dados.\"},\n{\"id\": \"C17\", \"ok\": true, \"problem\": \"Nenhum erro. Confira se a parte do achado sobre 'explicações baseadas em recuperação' está qualificada como o resumo qualifica ('to the extent that...').\"},\n{\"id\": \"C11\", \"ok\": true, \"problem\": \"Nenhum erro. N = 441 aparece exatamente no resumo e o achado sobre proteção não sustentada após 7 dias confere.\"},\n{\"id\": \"C06\", \"ok\": true, \"problem\": \"Nenhum erro. O resumo não informa número de experimentos nem amostra; a extração não inventou.\"},\n{\"id\": \"C13\", \"ok\": true, \"problem\": \"Nenhum erro. Total N = 1718 e três experimentos estão no resumo; o achado contra o backfire de familiaridade confere.\"},\n{\"id\": \"C08\", \"ok\": true, \"problem\": \"Nenhum erro. Três experimentos, tarefa não dinâmica e resultado misto (um experimento com efeito, dois sem) conferem com o resumo.\"},\n{\"id\": \"C15\", \"ok\": true, \"problem\": \"Nenhum erro. Quatro experimentos e o resultado de descarte total da desinformação retratada estão no resumo.\"},\n{\"id\": \"C02\", \"ok\": true, \"problem\": \"Nenhum erro. Três experimentos e o resultado sobre revezamento versus colaboração livre conferem.\"},\n{\"id\": \"C30\", \"ok\": true, \"problem\": \"Nenhum erro. Quatro experimentos e o achado sobre sensibilidade à confiabilidade da fonte conferem. Atenção apenas ao fato de o Experimento 1 do resumo indicar ausência de CIE, o que está refletido na extração.\"},\n{\"id\": \"C21\", \"ok\": true, \"problem\": \"O campo de amostra traz só 'Exp. 1A, n = 78', mas o resumo também informa n = 75 (Exp. 1B) e n = 323 (Exps. 2A e 2B). O valor trazido está correto, mas incompleto.\"},\n{\"id\": \"C86\", \"ok\": false, \"problem\": \"O resumo deste artigo não relata nenhum resultado, apenas objetivos e desenho. O campo 'achado principal' descreve o que o estudo explora, não um achado, e o trecho citado sustenta um objetivo, não um resultado. O pedido exige achado principal em uma frase sustentado por trecho literal do resumo.\"},\n{\"id\": \"C20\", \"ok\": true, \"problem\": \"A extração descreve corretamente o estudo como correlacional/de diferenças individuais, e não como experimento manipulado. O resumo sustenta o restante.\"},\n{\"id\": \"C10\", \"ok\": true, \"problem\": \"Nenhum erro. Estudo exploratório com ERP, achado e citação conferem com o resumo.\"},\n{\"id\": \"C22\", \"ok\": true, \"problem\": \"Nenhum erro. Desenho, ausência de efeito em traços e previsões e a evidência tentativa sobre a avaliação do rosto conferem com o resumo.\"},\n{\"id\": \"C44\", \"ok\": true, \"problem\": \"Nenhum erro. Dois experimentos e o achado contrário à hipótese conferem.\"},\n{\"id\": \"C58\", \"ok\": true, \"problem\": \"Nenhum erro. 'One hundred and twenty-nine lay participants' está literal no resumo e o achado confere.\"},\n{\"id\": \"C40\", \"ok\": true, \"problem\": \"Nenhum erro. N = 84, delineamento intra-sujeitos, papel versus tela e ausência de diferenças confiáveis conferem.\"},\n{\"id\": \"C16\", \"ok\": true, \"problem\": \"Nenhum erro de extração: 61 participantes e ausência de CIE com efeito de supercorreção estão no resumo. Ponto de atenção: os cenários são militares, o que merece confirmação quanto à exigência de materiais neutros, já que o pedido exige alegações sem conotação política.\"},\n{\"id\": \"C97\", \"ok\": true, \"problem\": \"Nenhum erro. Delineamento 2x2x2 intra-sujeitos e o achado sobre valência negativa e estilo explícito conferem.\"},\n{\"id\": \"C92\", \"ok\": true, \"problem\": \"A extração descreve corretamente o estudo como de diferenças individuais; o resumo sustenta o achado sobre função executiva central e relevância alta.\"},\n{\"id\": \"C93\", \"ok\": true, \"problem\": \"A extração descreve corretamente o estudo como de diferenças individuais; o resumo sustenta o achado sobre inibição.\"}]\n\n, \"issues\": [\n\"C86: o resumo não contém achado algum, então o campo 'achado principal' descreve apenas o objetivo do estudo e o trecho citado não sustenta resultado nenhum, o que viola o formato exigido pelo pedido.\",\n\"C21: o campo de tamanho da amostra lista apenas n = 78 do Experimento 1A, omitindo n = 75 e n = 323 que também aparecem no resumo.\"\n], \"feedback\": \"Para a próxima tentativa: em C86, substitua o artigo por outro cujo resumo relatre resultados, ou obtenha o achado no texto completo e indique isso, pois o resumo atual não permite cumprir o pedido. Em C21, registre todos os tamanhos de amostra que aparecem no resumo (n = 78, n = 75 e n = 323), não apenas o primeiro. Sugestões não reprovas: em C16, confirme com o pesquisador se cenários militares fictícios atendem à exigência de materiais neutros; em C20, C92 e C93, os estudos são de diferenças individuais (correlacionais quanto à função executiva) embora usem tarefa de CIE com retratação, e a extração rotulou isso corretamente, mas o pesquisador pode querer confirmar se delineamentos desse tipo contam como 'experimentos' para os critérios dele.\"\n}",
+  "usage": {
+    "input_tokens": 11350,
+    "output_tokens": 4465,
+    "cost_usd": 0.0039
+  },
+  "duration_s": 41.1,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

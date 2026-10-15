@@ -1,0 +1,1232 @@
+{
+  "structured": {
+    "candidates": [
+      {
+        "doi": "10.1057/s41599-019-0279-9",
+        "title": "Fake news game confers psychological resistance against online misinformation",
+        "authors": [
+          "Jon Roozenbeek",
+          "Sander van der Linden"
+        ],
+        "year": 2019,
+        "venue": "Palgrave Communications",
+        "checked_url": "https://api.crossref.org/works/10.1057/s41599-019-0279-9 (metadados); https://api.semanticscholar.org/graph/v1/paper/DOI:10.1057/s41599-019-0279-9 (resumo)",
+        "criteria_met": [
+          "Tipo de estudo e método: estudo empírico com desenho pré e pós-jogo (Bad News, jogo online de navegador)",
+          "Amostra: N = 15,000 (o fragmento recuperado do resumo veio truncado em 'with N'; o Crossref indica cerca de 15.000, então confira o formato exato)",
+          "Achado principal: a capacidade de identificar e resistir à desinformação melhorou após jogar o Bad News, independentemente de escolaridade, idade, ideologia e estilo cognitivo",
+          "Trecho do resumo: \"people’s ability to spot and resist misinformation improves after gameplay\"",
+          "Jogo; periódico revisado por pares (journal-article); 2019; sem foco em COVID, vacinas ou eleições"
+        ]
+      },
+      {
+        "doi": "10.5334/joc.91",
+        "title": "Good News about Bad News: Gamified Inoculation Boosts Confidence and Cognitive Immunity Against Fake News",
+        "authors": [
+          "Melisa Basol",
+          "Jon Roozenbeek",
+          "Sander van der Linden"
+        ],
+        "year": 2020,
+        "venue": "Journal of Cognition",
+        "checked_url": "https://www.journalofcognition.org/articles/10.5334/joc.91 e Europe PMC (DOI:10.5334/joc.91)",
+        "criteria_met": [
+          "Tipo de estudo e método: experimento com delineamento misto 2 (tratamento vs. controle) × 2 (pré vs. pós); replicação e extensão com grupo de controle gamificado",
+          "Amostra: N = 196",
+          "Achado principal: jogar o Bad News melhorou a capacidade de identificar técnicas de desinformação em comparação com o controle gamificado e aumentou a confiança nos próprios julgamentos",
+          "Trecho do resumo: \"We find that playing Bad News significantly improves people's ability to spot misinformation techniques\"",
+          "Jogo; periódico; 2020; tema geral de fake news"
+        ]
+      },
+      {
+        "doi": "10.1186/s41235-023-00505-x",
+        "title": "Game-based inoculation versus graphic-based inoculation to combat misinformation: a randomized controlled trial",
+        "authors": [
+          "Bo Hu",
+          "Xing-Da Ju",
+          "Huan-Huan Liu",
+          "Han-Qian Wu",
+          "Chao Bi",
+          "Chang Lu"
+        ],
+        "year": 2023,
+        "venue": "Cognitive Research: Principles and Implications",
+        "checked_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1186/s41235-023-00505-x&resultType=core&format=json; https://api.crossref.org/works/10.1186/s41235-023-00505-x",
+        "criteria_met": [
+          "Tipo de estudo e método: ensaio controlado randomizado (jogo de inoculação vs. inoculação gráfica vs. controle), com seguimento de duas semanas",
+          "Amostra: 180 participantes chineses (resumo: 'A total of 180 Chinese participants were randomly assigned')",
+          "Achado principal: o jogo reduziu a credibilidade percebida e a intenção de compartilhar desinformação, e foi mais eficaz que a intervenção gráfica na credibilidade percebida",
+          "Trecho do resumo: \"significantly decreased the perceived credibility and sharing intention of misinformation\"",
+          "Há um braço gráfico (não jogo), mas o jogo é a intervenção principal avaliada; periódico; 2023"
+        ]
+      },
+      {
+        "doi": "10.36850/e12",
+        "title": "Gamified Inoculation Against Misinformation in India: A Randomized Control Trial",
+        "authors": [
+          "Trisha Harjani",
+          "Melisa-Sinem Basol",
+          "Jon Roozenbeek",
+          "Sander van der Linden"
+        ],
+        "year": 2023,
+        "venue": "Journal of Trial and Error",
+        "checked_url": "https://api.crossref.org/works/10.36850/e12; https://api.semanticscholar.org/graph/v1/paper/DOI:10.36850/e12",
+        "criteria_met": [
+          "Tipo de estudo e método: ensaio controlado randomizado de campo no norte da Índia com jogo de inoculação (resultado nulo)",
+          "Amostra: n = 757",
+          "Achado principal: o estudo não replicou os efeitos anteriores; a intervenção não teve efeito significativo sobre a confiabilidade percebida, a confiança nem a disposição de compartilhar",
+          "Trecho do resumo: \"We found no significant impact of the intervention on the perceived reliability of messages containing misinformation\"",
+          "Jogo; periódico; 2023; desinformação geral"
+        ]
+      },
+      {
+        "doi": "10.1037/xge0001603",
+        "title": "Feedback exercises boost discernment of misinformation for gamified inoculation interventions",
+        "authors": [
+          "Johannes Leder",
+          "Lukas Valentin Schellinger",
+          "Rakoen Maertens",
+          "Sander van der Linden",
+          "Breanne Chryst",
+          "Jon Roozenbeek"
+        ],
+        "year": 2024,
+        "venue": "Journal of Experimental Psychology: General",
+        "checked_url": "https://api.crossref.org/works/10.1037/xge0001603; https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1037/xge0001603&resultType=core&format=json",
+        "criteria_met": [
+          "Tipo de estudo e método: seis experimentos (dois de laboratório pré-registrados e quatro de pesquisa dentro do jogo) com Bad News e Harmony Square, com e sem exercício de feedback",
+          "Amostra: N1 = 191, N2 = 321 nos experimentos de laboratório; os experimentos 3–6 têm N = 559, 2,558, 419 e 882 (valores recuperados do resumo, a conferir)",
+          "Achado principal: acrescentar exercícios de feedback depois do jogo aumenta o discernimento entre notícias falsas e verdadeiras, principalmente por melhorar a identificação de notícias reais",
+          "Trecho do resumo: \"this significantly boosts discernment compared with playing the game without a feedback exercise\"",
+          "Jogo; periódico; 2024 (agosto); um dos jogos (Harmony Square) é de política, mas o foco do estudo é o efeito do feedback e o Bad News predomina"
+        ]
+      },
+      {
+        "doi": "10.1098/rsos.211719",
+        "title": "Technique-based inoculation against real-world misinformation",
+        "authors": [
+          "Jon Roozenbeek",
+          "Cecilie S. Traberg",
+          "Sander van der Linden"
+        ],
+        "year": 2022,
+        "venue": "Royal Society Open Science",
+        "checked_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1098/rsos.211719&resultType=core&format=json",
+        "criteria_met": [
+          "Tipo de estudo e método: dois experimentos com o jogo Bad News, com amostra de conveniência recrutada pela plataforma do jogo",
+          "Amostra: total n = 2188 (dois experimentos)",
+          "Achado principal: um jogo de 15 minutos confere resistência psicológica à desinformação do mundo real (d = 0,37), com proteção cruzada menor para técnicas não treinadas",
+          "Trecho do resumo: \"We find that playing a 15 min game confers psychological resistance against real-world misinformation\"",
+          "Jogo; periódico; 2022 (há uma errata de 2023, 10.1098/rsos.231235, que não conta)"
+        ]
+      },
+      {
+        "doi": "10.1037/xap0000315",
+        "title": "Long-term effectiveness of inoculation against misinformation: Three longitudinal experiments",
+        "authors": [
+          "Rakoen Maertens",
+          "Jon Roozenbeek",
+          "Melisa Basol",
+          "Sander van der Linden"
+        ],
+        "year": 2021,
+        "venue": "Journal of Experimental Psychology: Applied",
+        "checked_url": "https://api.crossref.org/works/10.1037/xap0000315 (publicado em 2021-03, vol. 27, nº 1); https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1037/xap0000315&resultType=core&format=json",
+        "criteria_met": [
+          "Tipo de estudo e método: três experimentos longitudinais; Bad News (inoculação) vs. Tetris (controle gamificado)",
+          "Amostra: Experimento 1 (n=151), Experimento 2 (n=194), Experimento 3 (n=170) (valores recuperados do resumo, a conferir)",
+          "Achado principal: o efeito de inoculação do jogo ficou estável por pelo menos 3 meses no Experimento 1, mas decaiu em 2 meses no Experimento 2",
+          "Trecho do resumo: \"participants rate fake news as significantly less reliable after the intervention\"",
+          "Jogo; periódico; 2021 (ano oficial do fascículo); estudo empírico, não reanálise"
+        ]
+      },
+      {
+        "doi": "10.37016//mr-2020-008",
+        "title": "Prebunking interventions based on the psychological theory of \"inoculation\" can reduce susceptibility to misinformation across cultures",
+        "authors": [
+          "Jon Roozenbeek",
+          "Sander van der Linden",
+          "Thomas Nygren"
+        ],
+        "year": 2020,
+        "venue": "Harvard Kennedy School Misinformation Review",
+        "checked_url": "https://misinforeview.hks.harvard.edu/article/global-vaccination-badnews/ (a página exibe o DOI com barra dupla, igual ao registro do Crossref)",
+        "criteria_met": [
+          "Tipo de estudo e método: quatro experimentos voluntários dentro do jogo, um por versão linguística do Bad News (desenho pré e pós)",
+          "Amostra: não informado no resumo",
+          "Achado principal: o Bad News confere resistência psicológica a estratégias de desinformação em diferentes culturas",
+          "Trecho do resumo: \"can confer psychological resistance against common online misinformation strategies across different cultures\"",
+          "Jogo; periódico; 2020; o DOI tem barra dupla no registro oficial"
+        ]
+      },
+      {
+        "doi": "10.62758/re.302",
+        "title": "Jogo Meias#Verdades: o método prebunking no combate à desinformação no contexto brasileiro",
+        "authors": [
+          "Karoline Maria Fernandes",
+          "Nadi Helena Presser",
+          "Luciana Monteiro Krebs",
+          "R. F. Carmo"
+        ],
+        "year": 2025,
+        "venue": "Revista EDICIC",
+        "checked_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.62758/re.302 e https://api.crossref.org/works?query.bibliographic=... (registro com data 2025-12-12)",
+        "criteria_met": [
+          "Tipo de estudo e método: avaliação com voluntários, com questionário antes e depois do jogo e teste t pareado (sem grupo de controle descrito no resumo)",
+          "Amostra: (N=55)",
+          "Achado principal: após jogar, os voluntários reduziram a vulnerabilidade às estratégias de desinformação",
+          "Trecho do resumo: \"os voluntários reduziram seu grau de vulnerabilidade frente às estratégias de desinformação\"",
+          "Jogo de prebunking; periódico; 2025; desinformação geral; o desenho pré e pós foi inferido do teste t pareado e de 'após jogarem'"
+        ]
+      },
+      {
+        "doi": "10.11645/18.2.13",
+        "title": "Chaos creator",
+        "authors": [
+          "Mandi Goodsett"
+        ],
+        "year": 2024,
+        "venue": "Journal of Information Literacy",
+        "checked_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.11645/18.2.13",
+        "criteria_met": [
+          "Tipo de estudo e método: estudo quase-experimental com estudantes de graduação; técnicas de prebunking entregues pelo jogo competitivo Chaos Creator (baseado no Bad News), comparadas ao teste CRAP",
+          "Amostra: não informado no resumo",
+          "Achado principal: as técnicas de inoculação ajudaram mais os estudantes a identificar desinformação do que o teste CRAP, mas podem gerar ceticismo excessivo",
+          "Trecho do resumo: \"Via a quasi-experimental study, this research explores the effect of prebunking techniques\"",
+          "Jogo; periódico; 2024 (29 nov. 2024)"
+        ]
+      },
+      {
+        "doi": "10.1016/j.compedu.2023.104832",
+        "title": "Misinformation Is Contagious: Middle school students learn how to evaluate and share information responsibly through a digital game",
+        "authors": [
+          "Sarit Barzilai",
+          "Shiri Mor-Hagani",
+          "Fayez Abed",
+          "Danna Tal-Savir",
+          "Na'ama Goldik",
+          "Ina Talmon",
+          "Ohad Davidow"
+        ],
+        "year": 2023,
+        "venue": "Computers & Education",
+        "checked_url": "https://cris.iucc.ac.il/en/publications/misinformation-is-contagious-middle-school-students-learn-how-to-/ ; https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.compedu.2023.104832",
+        "criteria_met": [
+          "Tipo de estudo e método: dois estudos experimentais com jogo digital vs. jogo de linguagem de controle, com alunos do 7º e 8º anos",
+          "Amostra: (N = 84 and N = 131)",
+          "Achado principal: jogar o jogo de desinformação melhorou o discernimento de acurácia e de compartilhamento, mas não alterou as posturas autorrelatadas sobre compartilhar desinformação",
+          "Trecho do resumo: \"playing the misinformation game resulted in better accuracy discernment, sharing discernment\"",
+          "Jogo; periódico; 2023"
+        ]
+      },
+      {
+        "doi": "10.30935/cedtech/14335",
+        "title": "Can pre-service teachers learn about fake news by playing an augmented reality escape game?",
+        "authors": [
+          "Josef Buchner",
+          "Elke Höfler"
+        ],
+        "year": 2024,
+        "venue": "Contemporary Educational Technology",
+        "checked_url": "https://www.cedtech.net/article/can-pre-service-teachers-learn-about-fake-news-by-playing-an-augmented-reality-escape-game-14335",
+        "criteria_met": [
+          "Tipo de estudo e método: desenho pré e pós-teste com um escape game em realidade aumentada (Escape Fake)",
+          "Amostra: \"a pre-/post-test design was conducted with 45 pre-service teachers\"",
+          "Achado principal: aumentaram o conhecimento sobre fake news, o senso crítico e a confiança, mas o jogo não melhorou a capacidade de distinguir informação verdadeira de falsa",
+          "Trecho do resumo: \"playing the game did not promote the ability to discern real from false information\"",
+          "Jogo (escape game); periódico; 2024"
+        ]
+      },
+      {
+        "doi": "10.1080/15391523.2024.2338451",
+        "title": "Bad News in the civics classroom: How serious gameplay fosters teenagers' ability to discern misinformation techniques",
+        "authors": [
+          "Carl-Anton Werner Axelsson",
+          "Thomas Nygren",
+          "Jon Roozenbeek",
+          "Sander van der Linden"
+        ],
+        "year": 2024,
+        "venue": "Journal of Research on Technology in Education",
+        "checked_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1080/15391523.2024.2338451; https://api.crossref.org/works/10.1080/15391523.2024.2338451 (online 2024-04-19; impresso 2025-09-03, vol. 57, nº 5)",
+        "criteria_met": [
+          "Tipo de estudo e método: estudo experimental em sala de aula com o Bad News (individual, em duplas e com a turma toda), pré e pós",
+          "Amostra: \"We therefore evaluated its impact on 516 upper-secondary Swedish students\"",
+          "Achado principal: os estudantes melhoraram a capacidade de discernir técnicas de manipulação em postagens de redes sociais",
+          "Trecho do resumo: \"Results show that students improved their ability to discern manipulation techniques in social media posts.\"",
+          "Jogo; periódico; ano 2024 (online) e 2025 (fascículo), ambos dentro do período"
+        ]
+      },
+      {
+        "doi": "10.3991/ijim.v17i15.40865",
+        "title": "Enhancing Information Literacy for Spotting Fake News: A Study on the Efficacy of a Serious Game for M-Learning Across Different Age Groups",
+        "authors": [
+          "Pradorn Sureephong",
+          "Suepphong Chernbumroong",
+          "Sumalee Sangamuang",
+          "Orasa Sirasakamol",
+          "Kannikar Intawong",
+          "Kitti Puritat"
+        ],
+        "year": 2023,
+        "venue": "International Journal of Interactive Mobile Technologies (iJIM)",
+        "checked_url": "https://online-journals.org/index.php/i-jim/article/view/40865",
+        "criteria_met": [
+          "Tipo de estudo e método: estudo de campo online randomizado com pré e pós-testes, com o serious game 'How to Spot Fake News'",
+          "Amostra: \"quantitative research based on pre-posttests involving 351 participants\"",
+          "Achado principal: o jogo melhorou o conhecimento de letramento informacional para avaliar fontes online",
+          "Trecho do resumo: \"using a serious game of 'How to Spot Fake News' can improve the knowledge of information literacy needed to evaluate online sources\"",
+          "Jogo; periódico; 2023"
+        ]
+      },
+      {
+        "doi": "10.5334/joc.324",
+        "title": "Mixed News about the Bad News Game",
+        "authors": [
+          "Graham ME",
+          "Skov B",
+          "Gilson Z",
+          "Heise C",
+          "Fallow KM",
+          "Mah EY",
+          "Lindsay DS"
+        ],
+        "year": 2023,
+        "venue": "Journal of Cognition",
+        "checked_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.5334/joc.324&resultType=core&format=json",
+        "criteria_met": [
+          "Tipo de estudo e método: quatro replicações estendidas, com dados novos coletados por equipes de estudantes de graduação (não é reanálise)",
+          "Amostra: não informado no resumo",
+          "Achado principal: o Bad News reduziu a crença em tweets falsos, mas também em tweets verdadeiros na mesma medida, deslocando o viés de resposta sem melhorar a discriminação",
+          "Trecho do resumo: \"But playing the BNG also reduced belief in true Tweets to the same or almost the same extent.\"",
+          "Jogo; periódico; 2023; o Europe PMC lista o tipo como 'research-article; News', então confirme se o periódico o trata como artigo empírico"
+        ]
+      },
+      {
+        "doi": "10.1038/s41598-023-43885-2",
+        "title": "How to \"inoculate\" against multimodal misinformation: A conceptual replication of Roozenbeek and van der Linden (2020)",
+        "authors": [
+          "J. Neylan",
+          "M. Biddlestone",
+          "Jon Roozenbeek",
+          "Sander van der Linden"
+        ],
+        "year": 2023,
+        "venue": "Scientific Reports",
+        "checked_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41598-023-43885-2&resultType=core&format=json",
+        "criteria_met": [
+          "Tipo de estudo e método: experimento randomizado (replicação conceitual) com o jogo Cat Park, que cobre técnicas de manipulação e desinformação multimodal",
+          "Amostra: \"conceptual replication (N = 380)\"",
+          "Achado principal: os jogadores consideraram a desinformação menos confiável e se mostraram menos dispostos a compartilhá-la, sem ganho significativo de confiança",
+          "Trecho do resumo: \"people who play Cat Park find misinformation significantly less reliable post-gameplay (d = 0.95, p < 0.001)\"",
+          "Jogo; periódico; 2023; é replicação conceitual, com dados próprios"
+        ]
+      },
+      {
+        "doi": "10.1371/journal.pone.0326928",
+        "title": "Investigating the long-term impact of misinformation interventions in upper secondary education",
+        "authors": [
+          "Thomas Nygren",
+          "Elena Efimova"
+        ],
+        "year": 2025,
+        "venue": "PLOS ONE",
+        "checked_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1371/journal.pone.0326928&resultType=core&format=json",
+        "criteria_met": [
+          "Tipo de estudo e método: desenho experimental em salas de aula, com Bad News (jogo) e oficina News Evaluator (não é jogo) vs. controle, com seguimento de três meses",
+          "Amostra: \"Using an experimental design with 459 students in authentic classroom settings\"",
+          "Achado principal: nem o jogo Bad News nem a oficina melhoraram significativamente a capacidade dos estudantes de avaliar notícias",
+          "Trecho do resumo: \"Neither the Bad News game nor the News Evaluator workshop significantly improved students' ability\"",
+          "Jogo é um dos braços avaliados; periódico; 2025; resultado nulo"
+        ]
+      },
+      {
+        "doi": "10.5209/esmp.88599",
+        "title": "Winning the game against fake news? Using games to inoculate adolescents and young adults in Singapore against fake news",
+        "authors": [
+          "Edson C. Tandoc",
+          "Seth Seet"
+        ],
+        "year": 2023,
+        "venue": "Estudios sobre el Mensaje Periodístico",
+        "checked_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.5209/esmp.88599",
+        "criteria_met": [
+          "Tipo de estudo e método: estudo experimental comparando quem jogou um jogo de fake news com quem não jogou (o resumo não diz se a alocação foi aleatória)",
+          "Amostra: \"college (n = 84) and junior high and secondary school (n = 30) students\"",
+          "Achado principal: quem jogou teve pontuação maior na detecção de fake news do que quem não jogou",
+          "Trecho do resumo: \"those who played the game scored higher in detecting fake news than those who did not play the game.\"",
+          "Jogo; periódico; 2023 (dez.)"
+        ]
+      },
+      {
+        "doi": "10.1007/s10758-024-09749-y",
+        "title": "Playing an Augmented Reality Escape Game Promotes Learning About Fake News",
+        "authors": [
+          "Josef Buchner"
+        ],
+        "year": 2024,
+        "venue": "Technology, Knowledge and Learning",
+        "checked_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s10758-024-09749-y",
+        "criteria_met": [
+          "Tipo de estudo e método: estudo de campo com desenho pré e pós-teste (sem grupo de controle no resumo) do escape game em realidade aumentada Escape Fake",
+          "Amostra: \"A total of 28 students (14 girls, mean age = 14.71 years) participated.\"",
+          "Achado principal: o jogo atingiu quatro objetivos de aprendizagem sobre detecção de fake news, com maior efeito na aquisição de conhecimento",
+          "Trecho do resumo: \"The results show that Escape Fake can address four learning objectives relevant in fake news detection\"",
+          "Jogo (escape game); periódico; 2024 (online em 19 jun. 2024)"
+        ]
+      },
+      {
+        "doi": "10.21240/mpaed/51/2023.01.12.x",
+        "title": "Effekte eines Augmented Reality Escape Games auf das Lernen über Fake News",
+        "authors": [
+          "Josef Buchner"
+        ],
+        "year": 2023,
+        "venue": "MedienPädagogik: Zeitschrift für Theorie und Praxis der Medienbildung",
+        "checked_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.21240/mpaed/51/2023.01.12.x",
+        "criteria_met": [
+          "Tipo de estudo e método: estudo-piloto com desenho pré e pós-teste (sem grupo de controle) do escape game Escape Fake",
+          "Amostra: \"wurde ein Vortest-Nachtest Design mit 27 Schüler:innen durchgeführt\"",
+          "Achado principal: o jogo conseguiu transmitir conhecimento sobre fake news e promover a capacidade de reconhecer a confiabilidade das informações",
+          "Trecho do resumo: \"Wie die Ergebnisse zeigen, kann das untersuchte Spiel «Escape Fake» Wissen über Fake News vermitteln\"",
+          "Jogo (escape game); periódico; 2023; amostra (27) diferente da de Buchner 2024 (28) e da de Buchner & Höfler 2024 (45), então não é duplicata, mas o mesmo jogo pode se repetir entre os artigos"
+        ]
+      },
+      {
+        "doi": "10.1080/13669877.2018.1443491",
+        "title": "The fake news game: actively inoculating against the risk of misinformation",
+        "authors": [
+          "Jon Roozenbeek",
+          "Sander van der Linden"
+        ],
+        "year": 2018,
+        "venue": "Journal of Risk Research",
+        "checked_url": "https://www.repository.cam.ac.uk/handle/1810/278736 ; https://api.crossref.org/works?query.bibliographic=... (ano 2018; o fascículo impresso é vol. 22, 2019)",
+        "criteria_met": [
+          "Tipo de estudo e método: estudo de campo randomizado (teste-piloto) com um jogo em que os participantes criam uma notícia falsa, em um liceu público",
+          "Amostra: \"we conducted a randomized field study (N = 95)\"",
+          "Achado principal: jogar reduziu a confiabilidade percebida (e, de forma preliminar, a persuasão) de artigos de fake news",
+          "Trecho do resumo: \"Results provide some preliminary evidence that playing the fake news game reduced the perceived reliability\"",
+          "Jogo; periódico; ano 2018 (online) ou 2019 (fascículo), ambos dentro do período; o resumo não apresenta o estudo como centrado em política partidária"
+        ]
+      },
+      {
+        "doi": "10.3390/educsci9020155",
+        "title": "MAthE the Game: A Serious Game for Education and Training in News Verification",
+        "authors": [
+          "Anastasia Katsaounidou",
+          "Lazaros Vrysis",
+          "Rigas Kotsakis",
+          "Charalampos A. Dimoulas",
+          "Andreas Veglis"
+        ],
+        "year": 2019,
+        "venue": "Education Sciences",
+        "checked_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.3390/educsci9020155",
+        "criteria_met": [
+          "Tipo de estudo e método: estudo de campo online randomizado com o serious game MAthE, mais uma avaliação de usabilidade com uma turma",
+          "Amostra: \"a randomized online field study (n = 111)\"",
+          "Achado principal: o jogo pode aumentar a conscientização e ensinar ferramentas de autenticação de notícias, com evidência preliminar",
+          "Trecho do resumo: \"it is validated that the game can raise awareness, teach about authentication tools\"",
+          "Jogo; periódico; 2019 (24 jun.); o resumo também descreve o desenvolvimento do jogo, mas inclui avaliação empírica"
+        ]
+      },
+      {
+        "doi": "10.1027/1864-1105/a000471",
+        "title": "Experimental Testing of Active vs. Passive Inoculation Interventions on Adolescents' News Discernment and Learning Enjoyment",
+        "authors": [
+          "Anne Reinhardt",
+          "Claudia Wilhelm",
+          "Sophie Mayen"
+        ],
+        "year": 2025,
+        "venue": "Journal of Media Psychology",
+        "checked_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1027/1864-1105/a000471",
+        "criteria_met": [
+          "Tipo de estudo e método: experimento escolar com pré e pós, comparando intervenção ativa (jogo online) e passiva (folheto)",
+          "Amostra: \"In a school experiment involving 373 participants\"",
+          "Achado principal: a diversão foi maior com o jogo, sem diferença de desempenho entre as duas intervenções; os alunos melhoraram em notícias falsas e pioraram em notícias reais",
+          "Trecho do resumo: \"enjoyment was significantly higher in the active intervention group compared to the passive one\"",
+          "Jogo (braço ativo); periódico; 2025 (20 mai. 2025); o folheto não é jogo, mas o jogo é uma das duas intervenções avaliadas"
+        ]
+      },
+      {
+        "doi": "10.1177/0013164420940378",
+        "title": "Disentangling Item and Testing Effects in Inoculation Research on Online Misinformation: Solomon Revisited",
+        "authors": [
+          "Jon Roozenbeek",
+          "Rakoen Maertens",
+          "William McClanahan",
+          "Sander van der Linden"
+        ],
+        "year": 2020,
+        "venue": "Educational and Psychological Measurement",
+        "checked_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1177/0013164420940378",
+        "criteria_met": [
+          "Tipo de estudo e método: dois estudos online com delineamento de três grupos de Solomon, usando o jogo Bad News",
+          "Amostra: \"two online studies (total N = 2,159) using the Bad News game\"",
+          "Achado principal: os efeitos de inoculação sofrem alguma influência dos itens, mas não de efeitos de teste, e o jogo melhora a capacidade de identificar técnicas de desinformação",
+          "Trecho do resumo: \"inoculation interventions are effective at improving people’s ability to spot misinformation techniques\"",
+          "Jogo; periódico; 2020 (16 jul. 2020); dados próprios (dois estudos online), não reanálise"
+        ]
+      }
+    ],
+    "notes": "RESULTADO: entreguei 24 artigos que atendem a todos os critérios, 1 a menos que os 25 pedidos. Preferi ficar abaixo do número a incluir artigos duvidosos.\n\nCOMO VERIFIQUEI: os metadados vieram do Crossref, do Semantic Scholar e do Europe PMC, e algumas páginas de periódicos abriram. Muitos sites de editoras (Springer, Wiley, APA, Sage, MDPI, ScienceDirect) devolveram 403 ou redirecionamento. Por isso os trechos entre aspas são fragmentos literais de até cerca de 120 caracteres devolvidos pela ferramenta de leitura, não o resumo completo. Vale conferir 3 pontos nos resumos oficiais:\n- Roozenbeek & van der Linden 2019: o fragmento do N veio truncado ('N'), e o valor 15,000 vem do Crossref/Semantic Scholar.\n- Leder 2024: os N dos experimentos 3–6 vêm do resumo recuperado, mas não foram reconferidos palavra por palavra.\n- Maertens 2021: os n dos três experimentos (151, 194, 170) vêm do resumo recuperado.\n\nEXCLUÍDOS DE PROPÓSITO (por motivo):\n- Harmony Square (10.37016/mr-2020-47): o corpo do artigo trata de desinformação eleitoral, embora o resumo diga só 'política'. Pelo plano, exclui-se.\n- Traberg et al. 2024 (10.37016/mr-2020-141): o foco é desinformação vinda de fontes políticas alinhadas ou não ao leitor (endogrupo partidário), o que é política partidária.\n- Seabrooke et al. (10.3758/s13423-025-02827-x): online em dez. 2025, mas fascículo impresso em jan. 2026. O ano oficial do periódico seria 2026, fora do período. Se aceitar a data online, o artigo entra.\n- Wong & Wu 2023 (10.1080/13669877.2023.2249909): replicação em Singapura feita durante a pandemia e enquadrada como risco de saúde pública. Pode ser incluída se a regra de COVID for lida de forma estrita ao conteúdo.\n- Barzilai & Stadtler 2025 (10.1016/j.compedu.2024.105210): não consegui abrir o resumo (sem abstract no Crossref/Semantic Scholar e 403 no ScienceDirect), então não há trecho literal. Fontes secundárias indicam 132 alunos do 8º e 9º anos em um experimento 2×2, e o artigo provavelmente atende aos critérios.\n- Maertens et al. 2025 (Nature Communications, 10.1038/s41467-025-57205-x): compara texto, vídeo e jogo, então a intervenção não é só jogo.\n- Cranky Uncle (Cook et al., 10.1080/13504622.2022.2085671): estudos de caso qualitativos, sem experimento.\n- Fakey (10.1145/3449080): análise de registros de uso e entrevistas, sem desenho experimental.\n- LAMBOOZLED (10.23860/jmle-2021-13-1-5): resumo só de desenho e desenvolvimento.\n- Musi et al. 2023 (10.1177/20563051221150407): chatbots, não jogos.\n- Modirrousta-Galian & Higham 2023 (10.1037/xge0001395): reanálise de dados.\n- Escape rooms de bibliotecas (Wedlake 2024; Cho 2023; EBLIP 2025): pesquisa pós-jogo ou estudo misto, sem pré e pós nem grupo de controle; o EBLIP é um evidence summary, não estudo primário.\n- Pimmer et al. (IADIS): trabalho de anais.\n- Cunha et al. (J. Interactive Systems): publicado em 2026.\n- Mateus et al., Bad News no Peru: 2026.\n- Jogos sobre COVID ou vacinas (Go Viral!, Bad Vaxx, COVID-19 Fake News game, Super Gotinha): excluídos pelo tema.\n- Estudos de extremismo (Saleh et al.): fora do tema de desinformação.\n\nPONTOS DE ATENÇÃO NA LISTA:\n- Tipo de estudo: Buchner 2023 e Buchner 2024 são estudos-piloto pré e pós sem grupo de controle, e Fernandes 2025 (N=55) tem pré e pós inferido do teste t pareado. Se o pesquisador exigir grupo de controle, esses três saem.\n- Duplicidade: Buchner & Höfler 2024, Buchner 2024 (TKL) e Buchner 2023 (MedienPädagogik) avaliam o mesmo jogo (Escape Fake), mas com amostras diferentes (45, 28 e 27), então os contei como artigos distintos. Se preferir, conte-os como um só.\n- Anos: Axelsson 2024 tem online em 2024 e fascículo em 2025; Roozenbeek & van der Linden (JRR) tem online em 2018 e fascículo em 2019 (vol. 22). Registrei 2024 e 2018, e ambos os anos de cada artigo estão dentro de 2018–2025.\n- Graham 2023: o Europe PMC lista o tipo como 'research-article; News'. Os dados são próprios (quatro replicações), mas vale confirmar o tratamento editorial.\n- DOI 10.37016//mr-2020-008 tem barra dupla, que é a forma registrada no Crossref e exibida na página do periódico.\n- Hu 2023, Reinhardt 2025 e Nygren & Efimova 2025 têm um braço que não é jogo (gráfico, folheto, oficina). Mantive-os porque o jogo é uma das intervenções avaliadas.\n- Para chegar a 25, as melhores opções são Barzilai & Stadtler 2025 (se o resumo for conferido no site da editora) e Seabrooke 2025 (se aceitar a data online)."
+  },
+  "text": "{\"candidates\":[{\"doi\":\"10.1057/s41599-019-0279-9\",\"title\":\"Fake news game confers psychological resistance against online misinformation\",\"authors\":[\"Jon Roozenbeek\",\"Sander van der Linden\"],\"year\":2019,\"venue\":\"Palgrave Communications\",\"checked_url\":\"https://api.crossref.org/works/10.1057/s41599-019-0279-9 (metadados); https://api.semanticscholar.org/graph/v1/paper/DOI:10.1057/s41599-019-0279-9 (resumo)\",\"criteria_met\":[\"Tipo de estudo e método: estudo empírico com desenho pré e pós-jogo (Bad News, jogo online de navegador)\",\"Amostra: N = 15,000 (o fragmento recuperado do resumo veio truncado em 'with N'; o Crossref indica cerca de 15.000, então confira o formato exato)\",\"Achado principal: a capacidade de identificar e resistir à desinformação melhorou após jogar o Bad News, independentemente de escolaridade, idade, ideologia e estilo cognitivo\",\"Trecho do resumo: \\\"people’s ability to spot and resist misinformation improves after gameplay\\\"\",\"Jogo; periódico revisado por pares (journal-article); 2019; sem foco em COVID, vacinas ou eleições\"]},{\"doi\":\"10.5334/joc.91\",\"title\":\"Good News about Bad News: Gamified Inoculation Boosts Confidence and Cognitive Immunity Against Fake News\",\"authors\":[\"Melisa Basol\",\"Jon Roozenbeek\",\"Sander van der Linden\"],\"year\":2020,\"venue\":\"Journal of Cognition\",\"checked_url\":\"https://www.journalofcognition.org/articles/10.5334/joc.91 e Europe PMC (DOI:10.5334/joc.91)\",\"criteria_met\":[\"Tipo de estudo e método: experimento com delineamento misto 2 (tratamento vs. controle) × 2 (pré vs. pós); replicação e extensão com grupo de controle gamificado\",\"Amostra: N = 196\",\"Achado principal: jogar o Bad News melhorou a capacidade de identificar técnicas de desinformação em comparação com o controle gamificado e aumentou a confiança nos próprios julgamentos\",\"Trecho do resumo: \\\"We find that playing Bad News significantly improves people's ability to spot misinformation techniques\\\"\",\"Jogo; periódico; 2020; tema geral de fake news\"]},{\"doi\":\"10.1186/s41235-023-00505-x\",\"title\":\"Game-based inoculation versus graphic-based inoculation to combat misinformation: a randomized controlled trial\",\"authors\":[\"Bo Hu\",\"Xing-Da Ju\",\"Huan-Huan Liu\",\"Han-Qian Wu\",\"Chao Bi\",\"Chang Lu\"],\"year\":2023,\"venue\":\"Cognitive Research: Principles and Implications\",\"checked_url\":\"https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1186/s41235-023-00505-x&resultType=core&format=json; https://api.crossref.org/works/10.1186/s41235-023-00505-x\",\"criteria_met\":[\"Tipo de estudo e método: ensaio controlado randomizado (jogo de inoculação vs. inoculação gráfica vs. controle), com seguimento de duas semanas\",\"Amostra: 180 participantes chineses (resumo: 'A total of 180 Chinese participants were randomly assigned')\",\"Achado principal: o jogo reduziu a credibilidade percebida e a intenção de compartilhar desinformação, e foi mais eficaz que a intervenção gráfica na credibilidade percebida\",\"Trecho do resumo: \\\"significantly decreased the perceived credibility and sharing intention of misinformation\\\"\",\"Há um braço gráfico (não jogo), mas o jogo é a intervenção principal avaliada; periódico; 2023\"]},{\"doi\":\"10.36850/e12\",\"title\":\"Gamified Inoculation Against Misinformation in India: A Randomized Control Trial\",\"authors\":[\"Trisha Harjani\",\"Melisa-Sinem Basol\",\"Jon Roozenbeek\",\"Sander van der Linden\"],\"year\":2023,\"venue\":\"Journal of Trial and Error\",\"checked_url\":\"https://api.crossref.org/works/10.36850/e12; https://api.semanticscholar.org/graph/v1/paper/DOI:10.36850/e12\",\"criteria_met\":[\"Tipo de estudo e método: ensaio controlado randomizado de campo no norte da Índia com jogo de inoculação (resultado nulo)\",\"Amostra: n = 757\",\"Achado principal: o estudo não replicou os efeitos anteriores; a intervenção não teve efeito significativo sobre a confiabilidade percebida, a confiança nem a disposição de compartilhar\",\"Trecho do resumo: \\\"We found no significant impact of the intervention on the perceived reliability of messages containing misinformation\\\"\",\"Jogo; periódico; 2023; desinformação geral\"]},{\"doi\":\"10.1037/xge0001603\",\"title\":\"Feedback exercises boost discernment of misinformation for gamified inoculation interventions\",\"authors\":[\"Johannes Leder\",\"Lukas Valentin Schellinger\",\"Rakoen Maertens\",\"Sander van der Linden\",\"Breanne Chryst\",\"Jon Roozenbeek\"],\"year\":2024,\"venue\":\"Journal of Experimental Psychology: General\",\"checked_url\":\"https://api.crossref.org/works/10.1037/xge0001603; https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1037/xge0001603&resultType=core&format=json\",\"criteria_met\":[\"Tipo de estudo e método: seis experimentos (dois de laboratório pré-registrados e quatro de pesquisa dentro do jogo) com Bad News e Harmony Square, com e sem exercício de feedback\",\"Amostra: N1 = 191, N2 = 321 nos experimentos de laboratório; os experimentos 3–6 têm N = 559, 2,558, 419 e 882 (valores recuperados do resumo, a conferir)\",\"Achado principal: acrescentar exercícios de feedback depois do jogo aumenta o discernimento entre notícias falsas e verdadeiras, principalmente por melhorar a identificação de notícias reais\",\"Trecho do resumo: \\\"this significantly boosts discernment compared with playing the game without a feedback exercise\\\"\",\"Jogo; periódico; 2024 (agosto); um dos jogos (Harmony Square) é de política, mas o foco do estudo é o efeito do feedback e o Bad News predomina\"]},{\"doi\":\"10.1098/rsos.211719\",\"title\":\"Technique-based inoculation against real-world misinformation\",\"authors\":[\"Jon Roozenbeek\",\"Cecilie S. Traberg\",\"Sander van der Linden\"],\"year\":2022,\"venue\":\"Royal Society Open Science\",\"checked_url\":\"https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1098/rsos.211719&resultType=core&format=json\",\"criteria_met\":[\"Tipo de estudo e método: dois experimentos com o jogo Bad News, com amostra de conveniência recrutada pela plataforma do jogo\",\"Amostra: total n = 2188 (dois experimentos)\",\"Achado principal: um jogo de 15 minutos confere resistência psicológica à desinformação do mundo real (d = 0,37), com proteção cruzada menor para técnicas não treinadas\",\"Trecho do resumo: \\\"We find that playing a 15 min game confers psychological resistance against real-world misinformation\\\"\",\"Jogo; periódico; 2022 (há uma errata de 2023, 10.1098/rsos.231235, que não conta)\"]},{\"doi\":\"10.1037/xap0000315\",\"title\":\"Long-term effectiveness of inoculation against misinformation: Three longitudinal experiments\",\"authors\":[\"Rakoen Maertens\",\"Jon Roozenbeek\",\"Melisa Basol\",\"Sander van der Linden\"],\"year\":2021,\"venue\":\"Journal of Experimental Psychology: Applied\",\"checked_url\":\"https://api.crossref.org/works/10.1037/xap0000315 (publicado em 2021-03, vol. 27, nº 1); https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1037/xap0000315&resultType=core&format=json\",\"criteria_met\":[\"Tipo de estudo e método: três experimentos longitudinais; Bad News (inoculação) vs. Tetris (controle gamificado)\",\"Amostra: Experimento 1 (n=151), Experimento 2 (n=194), Experimento 3 (n=170) (valores recuperados do resumo, a conferir)\",\"Achado principal: o efeito de inoculação do jogo ficou estável por pelo menos 3 meses no Experimento 1, mas decaiu em 2 meses no Experimento 2\",\"Trecho do resumo: \\\"participants rate fake news as significantly less reliable after the intervention\\\"\",\"Jogo; periódico; 2021 (ano oficial do fascículo); estudo empírico, não reanálise\"]},{\"doi\":\"10.37016//mr-2020-008\",\"title\":\"Prebunking interventions based on the psychological theory of \\\"inoculation\\\" can reduce susceptibility to misinformation across cultures\",\"authors\":[\"Jon Roozenbeek\",\"Sander van der Linden\",\"Thomas Nygren\"],\"year\":2020,\"venue\":\"Harvard Kennedy School Misinformation Review\",\"checked_url\":\"https://misinforeview.hks.harvard.edu/article/global-vaccination-badnews/ (a página exibe o DOI com barra dupla, igual ao registro do Crossref)\",\"criteria_met\":[\"Tipo de estudo e método: quatro experimentos voluntários dentro do jogo, um por versão linguística do Bad News (desenho pré e pós)\",\"Amostra: não informado no resumo\",\"Achado principal: o Bad News confere resistência psicológica a estratégias de desinformação em diferentes culturas\",\"Trecho do resumo: \\\"can confer psychological resistance against common online misinformation strategies across different cultures\\\"\",\"Jogo; periódico; 2020; o DOI tem barra dupla no registro oficial\"]},{\"doi\":\"10.62758/re.302\",\"title\":\"Jogo Meias#Verdades: o método prebunking no combate à desinformação no contexto brasileiro\",\"authors\":[\"Karoline Maria Fernandes\",\"Nadi Helena Presser\",\"Luciana Monteiro Krebs\",\"R. F. Carmo\"],\"year\":2025,\"venue\":\"Revista EDICIC\",\"checked_url\":\"https://api.semanticscholar.org/graph/v1/paper/DOI:10.62758/re.302 e https://api.crossref.org/works?query.bibliographic=... (registro com data 2025-12-12)\",\"criteria_met\":[\"Tipo de estudo e método: avaliação com voluntários, com questionário antes e depois do jogo e teste t pareado (sem grupo de controle descrito no resumo)\",\"Amostra: (N=55)\",\"Achado principal: após jogar, os voluntários reduziram a vulnerabilidade às estratégias de desinformação\",\"Trecho do resumo: \\\"os voluntários reduziram seu grau de vulnerabilidade frente às estratégias de desinformação\\\"\",\"Jogo de prebunking; periódico; 2025; desinformação geral; o desenho pré e pós foi inferido do teste t pareado e de 'após jogarem'\"]},{\"doi\":\"10.11645/18.2.13\",\"title\":\"Chaos creator\",\"authors\":[\"Mandi Goodsett\"],\"year\":2024,\"venue\":\"Journal of Information Literacy\",\"checked_url\":\"https://api.semanticscholar.org/graph/v1/paper/DOI:10.11645/18.2.13\",\"criteria_met\":[\"Tipo de estudo e método: estudo quase-experimental com estudantes de graduação; técnicas de prebunking entregues pelo jogo competitivo Chaos Creator (baseado no Bad News), comparadas ao teste CRAP\",\"Amostra: não informado no resumo\",\"Achado principal: as técnicas de inoculação ajudaram mais os estudantes a identificar desinformação do que o teste CRAP, mas podem gerar ceticismo excessivo\",\"Trecho do resumo: \\\"Via a quasi-experimental study, this research explores the effect of prebunking techniques\\\"\",\"Jogo; periódico; 2024 (29 nov. 2024)\"]},{\"doi\":\"10.1016/j.compedu.2023.104832\",\"title\":\"Misinformation Is Contagious: Middle school students learn how to evaluate and share information responsibly through a digital game\",\"authors\":[\"Sarit Barzilai\",\"Shiri Mor-Hagani\",\"Fayez Abed\",\"Danna Tal-Savir\",\"Na'ama Goldik\",\"Ina Talmon\",\"Ohad Davidow\"],\"year\":2023,\"venue\":\"Computers & Education\",\"checked_url\":\"https://cris.iucc.ac.il/en/publications/misinformation-is-contagious-middle-school-students-learn-how-to-/ ; https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.compedu.2023.104832\",\"criteria_met\":[\"Tipo de estudo e método: dois estudos experimentais com jogo digital vs. jogo de linguagem de controle, com alunos do 7º e 8º anos\",\"Amostra: (N = 84 and N = 131)\",\"Achado principal: jogar o jogo de desinformação melhorou o discernimento de acurácia e de compartilhamento, mas não alterou as posturas autorrelatadas sobre compartilhar desinformação\",\"Trecho do resumo: \\\"playing the misinformation game resulted in better accuracy discernment, sharing discernment\\\"\",\"Jogo; periódico; 2023\"]},{\"doi\":\"10.30935/cedtech/14335\",\"title\":\"Can pre-service teachers learn about fake news by playing an augmented reality escape game?\",\"authors\":[\"Josef Buchner\",\"Elke Höfler\"],\"year\":2024,\"venue\":\"Contemporary Educational Technology\",\"checked_url\":\"https://www.cedtech.net/article/can-pre-service-teachers-learn-about-fake-news-by-playing-an-augmented-reality-escape-game-14335\",\"criteria_met\":[\"Tipo de estudo e método: desenho pré e pós-teste com um escape game em realidade aumentada (Escape Fake)\",\"Amostra: \\\"a pre-/post-test design was conducted with 45 pre-service teachers\\\"\",\"Achado principal: aumentaram o conhecimento sobre fake news, o senso crítico e a confiança, mas o jogo não melhorou a capacidade de distinguir informação verdadeira de falsa\",\"Trecho do resumo: \\\"playing the game did not promote the ability to discern real from false information\\\"\",\"Jogo (escape game); periódico; 2024\"]},{\"doi\":\"10.1080/15391523.2024.2338451\",\"title\":\"Bad News in the civics classroom: How serious gameplay fosters teenagers' ability to discern misinformation techniques\",\"authors\":[\"Carl-Anton Werner Axelsson\",\"Thomas Nygren\",\"Jon Roozenbeek\",\"Sander van der Linden\"],\"year\":2024,\"venue\":\"Journal of Research on Technology in Education\",\"checked_url\":\"https://api.semanticscholar.org/graph/v1/paper/DOI:10.1080/15391523.2024.2338451; https://api.crossref.org/works/10.1080/15391523.2024.2338451 (online 2024-04-19; impresso 2025-09-03, vol. 57, nº 5)\",\"criteria_met\":[\"Tipo de estudo e método: estudo experimental em sala de aula com o Bad News (individual, em duplas e com a turma toda), pré e pós\",\"Amostra: \\\"We therefore evaluated its impact on 516 upper-secondary Swedish students\\\"\",\"Achado principal: os estudantes melhoraram a capacidade de discernir técnicas de manipulação em postagens de redes sociais\",\"Trecho do resumo: \\\"Results show that students improved their ability to discern manipulation techniques in social media posts.\\\"\",\"Jogo; periódico; ano 2024 (online) e 2025 (fascículo), ambos dentro do período\"]},{\"doi\":\"10.3991/ijim.v17i15.40865\",\"title\":\"Enhancing Information Literacy for Spotting Fake News: A Study on the Efficacy of a Serious Game for M-Learning Across Different Age Groups\",\"authors\":[\"Pradorn Sureephong\",\"Suepphong Chernbumroong\",\"Sumalee Sangamuang\",\"Orasa Sirasakamol\",\"Kannikar Intawong\",\"Kitti Puritat\"],\"year\":2023,\"venue\":\"International Journal of Interactive Mobile Technologies (iJIM)\",\"checked_url\":\"https://online-journals.org/index.php/i-jim/article/view/40865\",\"criteria_met\":[\"Tipo de estudo e método: estudo de campo online randomizado com pré e pós-testes, com o serious game 'How to Spot Fake News'\",\"Amostra: \\\"quantitative research based on pre-posttests involving 351 participants\\\"\",\"Achado principal: o jogo melhorou o conhecimento de letramento informacional para avaliar fontes online\",\"Trecho do resumo: \\\"using a serious game of 'How to Spot Fake News' can improve the knowledge of information literacy needed to evaluate online sources\\\"\",\"Jogo; periódico; 2023\"]},{\"doi\":\"10.5334/joc.324\",\"title\":\"Mixed News about the Bad News Game\",\"authors\":[\"Graham ME\",\"Skov B\",\"Gilson Z\",\"Heise C\",\"Fallow KM\",\"Mah EY\",\"Lindsay DS\"],\"year\":2023,\"venue\":\"Journal of Cognition\",\"checked_url\":\"https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.5334/joc.324&resultType=core&format=json\",\"criteria_met\":[\"Tipo de estudo e método: quatro replicações estendidas, com dados novos coletados por equipes de estudantes de graduação (não é reanálise)\",\"Amostra: não informado no resumo\",\"Achado principal: o Bad News reduziu a crença em tweets falsos, mas também em tweets verdadeiros na mesma medida, deslocando o viés de resposta sem melhorar a discriminação\",\"Trecho do resumo: \\\"But playing the BNG also reduced belief in true Tweets to the same or almost the same extent.\\\"\",\"Jogo; periódico; 2023; o Europe PMC lista o tipo como 'research-article; News', então confirme se o periódico o trata como artigo empírico\"]},{\"doi\":\"10.1038/s41598-023-43885-2\",\"title\":\"How to \\\"inoculate\\\" against multimodal misinformation: A conceptual replication of Roozenbeek and van der Linden (2020)\",\"authors\":[\"J. Neylan\",\"M. Biddlestone\",\"Jon Roozenbeek\",\"Sander van der Linden\"],\"year\":2023,\"venue\":\"Scientific Reports\",\"checked_url\":\"https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41598-023-43885-2&resultType=core&format=json\",\"criteria_met\":[\"Tipo de estudo e método: experimento randomizado (replicação conceitual) com o jogo Cat Park, que cobre técnicas de manipulação e desinformação multimodal\",\"Amostra: \\\"conceptual replication (N = 380)\\\"\",\"Achado principal: os jogadores consideraram a desinformação menos confiável e se mostraram menos dispostos a compartilhá-la, sem ganho significativo de confiança\",\"Trecho do resumo: \\\"people who play Cat Park find misinformation significantly less reliable post-gameplay (d = 0.95, p < 0.001)\\\"\",\"Jogo; periódico; 2023; é replicação conceitual, com dados próprios\"]},{\"doi\":\"10.1371/journal.pone.0326928\",\"title\":\"Investigating the long-term impact of misinformation interventions in upper secondary education\",\"authors\":[\"Thomas Nygren\",\"Elena Efimova\"],\"year\":2025,\"venue\":\"PLOS ONE\",\"checked_url\":\"https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1371/journal.pone.0326928&resultType=core&format=json\",\"criteria_met\":[\"Tipo de estudo e método: desenho experimental em salas de aula, com Bad News (jogo) e oficina News Evaluator (não é jogo) vs. controle, com seguimento de três meses\",\"Amostra: \\\"Using an experimental design with 459 students in authentic classroom settings\\\"\",\"Achado principal: nem o jogo Bad News nem a oficina melhoraram significativamente a capacidade dos estudantes de avaliar notícias\",\"Trecho do resumo: \\\"Neither the Bad News game nor the News Evaluator workshop significantly improved students' ability\\\"\",\"Jogo é um dos braços avaliados; periódico; 2025; resultado nulo\"]},{\"doi\":\"10.5209/esmp.88599\",\"title\":\"Winning the game against fake news? Using games to inoculate adolescents and young adults in Singapore against fake news\",\"authors\":[\"Edson C. Tandoc\",\"Seth Seet\"],\"year\":2023,\"venue\":\"Estudios sobre el Mensaje Periodístico\",\"checked_url\":\"https://api.semanticscholar.org/graph/v1/paper/DOI:10.5209/esmp.88599\",\"criteria_met\":[\"Tipo de estudo e método: estudo experimental comparando quem jogou um jogo de fake news com quem não jogou (o resumo não diz se a alocação foi aleatória)\",\"Amostra: \\\"college (n = 84) and junior high and secondary school (n = 30) students\\\"\",\"Achado principal: quem jogou teve pontuação maior na detecção de fake news do que quem não jogou\",\"Trecho do resumo: \\\"those who played the game scored higher in detecting fake news than those who did not play the game.\\\"\",\"Jogo; periódico; 2023 (dez.)\"]},{\"doi\":\"10.1007/s10758-024-09749-y\",\"title\":\"Playing an Augmented Reality Escape Game Promotes Learning About Fake News\",\"authors\":[\"Josef Buchner\"],\"year\":2024,\"venue\":\"Technology, Knowledge and Learning\",\"checked_url\":\"https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s10758-024-09749-y\",\"criteria_met\":[\"Tipo de estudo e método: estudo de campo com desenho pré e pós-teste (sem grupo de controle no resumo) do escape game em realidade aumentada Escape Fake\",\"Amostra: \\\"A total of 28 students (14 girls, mean age = 14.71 years) participated.\\\"\",\"Achado principal: o jogo atingiu quatro objetivos de aprendizagem sobre detecção de fake news, com maior efeito na aquisição de conhecimento\",\"Trecho do resumo: \\\"The results show that Escape Fake can address four learning objectives relevant in fake news detection\\\"\",\"Jogo (escape game); periódico; 2024 (online em 19 jun. 2024)\"]},{\"doi\":\"10.21240/mpaed/51/2023.01.12.x\",\"title\":\"Effekte eines Augmented Reality Escape Games auf das Lernen über Fake News\",\"authors\":[\"Josef Buchner\"],\"year\":2023,\"venue\":\"MedienPädagogik: Zeitschrift für Theorie und Praxis der Medienbildung\",\"checked_url\":\"https://api.semanticscholar.org/graph/v1/paper/DOI:10.21240/mpaed/51/2023.01.12.x\",\"criteria_met\":[\"Tipo de estudo e método: estudo-piloto com desenho pré e pós-teste (sem grupo de controle) do escape game Escape Fake\",\"Amostra: \\\"wurde ein Vortest-Nachtest Design mit 27 Schüler:innen durchgeführt\\\"\",\"Achado principal: o jogo conseguiu transmitir conhecimento sobre fake news e promover a capacidade de reconhecer a confiabilidade das informações\",\"Trecho do resumo: \\\"Wie die Ergebnisse zeigen, kann das untersuchte Spiel «Escape Fake» Wissen über Fake News vermitteln\\\"\",\"Jogo (escape game); periódico; 2023; amostra (27) diferente da de Buchner 2024 (28) e da de Buchner & Höfler 2024 (45), então não é duplicata, mas o mesmo jogo pode se repetir entre os artigos\"]},{\"doi\":\"10.1080/13669877.2018.1443491\",\"title\":\"The fake news game: actively inoculating against the risk of misinformation\",\"authors\":[\"Jon Roozenbeek\",\"Sander van der Linden\"],\"year\":2018,\"venue\":\"Journal of Risk Research\",\"checked_url\":\"https://www.repository.cam.ac.uk/handle/1810/278736 ; https://api.crossref.org/works?query.bibliographic=... (ano 2018; o fascículo impresso é vol. 22, 2019)\",\"criteria_met\":[\"Tipo de estudo e método: estudo de campo randomizado (teste-piloto) com um jogo em que os participantes criam uma notícia falsa, em um liceu público\",\"Amostra: \\\"we conducted a randomized field study (N = 95)\\\"\",\"Achado principal: jogar reduziu a confiabilidade percebida (e, de forma preliminar, a persuasão) de artigos de fake news\",\"Trecho do resumo: \\\"Results provide some preliminary evidence that playing the fake news game reduced the perceived reliability\\\"\",\"Jogo; periódico; ano 2018 (online) ou 2019 (fascículo), ambos dentro do período; o resumo não apresenta o estudo como centrado em política partidária\"]},{\"doi\":\"10.3390/educsci9020155\",\"title\":\"MAthE the Game: A Serious Game for Education and Training in News Verification\",\"authors\":[\"Anastasia Katsaounidou\",\"Lazaros Vrysis\",\"Rigas Kotsakis\",\"Charalampos A. Dimoulas\",\"Andreas Veglis\"],\"year\":2019,\"venue\":\"Education Sciences\",\"checked_url\":\"https://api.semanticscholar.org/graph/v1/paper/DOI:10.3390/educsci9020155\",\"criteria_met\":[\"Tipo de estudo e método: estudo de campo online randomizado com o serious game MAthE, mais uma avaliação de usabilidade com uma turma\",\"Amostra: \\\"a randomized online field study (n = 111)\\\"\",\"Achado principal: o jogo pode aumentar a conscientização e ensinar ferramentas de autenticação de notícias, com evidência preliminar\",\"Trecho do resumo: \\\"it is validated that the game can raise awareness, teach about authentication tools\\\"\",\"Jogo; periódico; 2019 (24 jun.); o resumo também descreve o desenvolvimento do jogo, mas inclui avaliação empírica\"]},{\"doi\":\"10.1027/1864-1105/a000471\",\"title\":\"Experimental Testing of Active vs. Passive Inoculation Interventions on Adolescents' News Discernment and Learning Enjoyment\",\"authors\":[\"Anne Reinhardt\",\"Claudia Wilhelm\",\"Sophie Mayen\"],\"year\":2025,\"venue\":\"Journal of Media Psychology\",\"checked_url\":\"https://api.semanticscholar.org/graph/v1/paper/DOI:10.1027/1864-1105/a000471\",\"criteria_met\":[\"Tipo de estudo e método: experimento escolar com pré e pós, comparando intervenção ativa (jogo online) e passiva (folheto)\",\"Amostra: \\\"In a school experiment involving 373 participants\\\"\",\"Achado principal: a diversão foi maior com o jogo, sem diferença de desempenho entre as duas intervenções; os alunos melhoraram em notícias falsas e pioraram em notícias reais\",\"Trecho do resumo: \\\"enjoyment was significantly higher in the active intervention group compared to the passive one\\\"\",\"Jogo (braço ativo); periódico; 2025 (20 mai. 2025); o folheto não é jogo, mas o jogo é uma das duas intervenções avaliadas\"]},{\"doi\":\"10.1177/0013164420940378\",\"title\":\"Disentangling Item and Testing Effects in Inoculation Research on Online Misinformation: Solomon Revisited\",\"authors\":[\"Jon Roozenbeek\",\"Rakoen Maertens\",\"William McClanahan\",\"Sander van der Linden\"],\"year\":2020,\"venue\":\"Educational and Psychological Measurement\",\"checked_url\":\"https://api.semanticscholar.org/graph/v1/paper/DOI:10.1177/0013164420940378\",\"criteria_met\":[\"Tipo de estudo e método: dois estudos online com delineamento de três grupos de Solomon, usando o jogo Bad News\",\"Amostra: \\\"two online studies (total N = 2,159) using the Bad News game\\\"\",\"Achado principal: os efeitos de inoculação sofrem alguma influência dos itens, mas não de efeitos de teste, e o jogo melhora a capacidade de identificar técnicas de desinformação\",\"Trecho do resumo: \\\"inoculation interventions are effective at improving people’s ability to spot misinformation techniques\\\"\",\"Jogo; periódico; 2020 (16 jul. 2020); dados próprios (dois estudos online), não reanálise\"]}],\"notes\":\"RESULTADO: entreguei 24 artigos que atendem a todos os critérios, 1 a menos que os 25 pedidos. Preferi ficar abaixo do número a incluir artigos duvidosos.\\n\\nCOMO VERIFIQUEI: os metadados vieram do Crossref, do Semantic Scholar e do Europe PMC, e algumas páginas de periódicos abriram. Muitos sites de editoras (Springer, Wiley, APA, Sage, MDPI, ScienceDirect) devolveram 403 ou redirecionamento. Por isso os trechos entre aspas são fragmentos literais de até cerca de 120 caracteres devolvidos pela ferramenta de leitura, não o resumo completo. Vale conferir 3 pontos nos resumos oficiais:\\n- Roozenbeek & van der Linden 2019: o fragmento do N veio truncado ('N'), e o valor 15,000 vem do Crossref/Semantic Scholar.\\n- Leder 2024: os N dos experimentos 3–6 vêm do resumo recuperado, mas não foram reconferidos palavra por palavra.\\n- Maertens 2021: os n dos três experimentos (151, 194, 170) vêm do resumo recuperado.\\n\\nEXCLUÍDOS DE PROPÓSITO (por motivo):\\n- Harmony Square (10.37016/mr-2020-47): o corpo do artigo trata de desinformação eleitoral, embora o resumo diga só 'política'. Pelo plano, exclui-se.\\n- Traberg et al. 2024 (10.37016/mr-2020-141): o foco é desinformação vinda de fontes políticas alinhadas ou não ao leitor (endogrupo partidário), o que é política partidária.\\n- Seabrooke et al. (10.3758/s13423-025-02827-x): online em dez. 2025, mas fascículo impresso em jan. 2026. O ano oficial do periódico seria 2026, fora do período. Se aceitar a data online, o artigo entra.\\n- Wong & Wu 2023 (10.1080/13669877.2023.2249909): replicação em Singapura feita durante a pandemia e enquadrada como risco de saúde pública. Pode ser incluída se a regra de COVID for lida de forma estrita ao conteúdo.\\n- Barzilai & Stadtler 2025 (10.1016/j.compedu.2024.105210): não consegui abrir o resumo (sem abstract no Crossref/Semantic Scholar e 403 no ScienceDirect), então não há trecho literal. Fontes secundárias indicam 132 alunos do 8º e 9º anos em um experimento 2×2, e o artigo provavelmente atende aos critérios.\\n- Maertens et al. 2025 (Nature Communications, 10.1038/s41467-025-57205-x): compara texto, vídeo e jogo, então a intervenção não é só jogo.\\n- Cranky Uncle (Cook et al., 10.1080/13504622.2022.2085671): estudos de caso qualitativos, sem experimento.\\n- Fakey (10.1145/3449080): análise de registros de uso e entrevistas, sem desenho experimental.\\n- LAMBOOZLED (10.23860/jmle-2021-13-1-5): resumo só de desenho e desenvolvimento.\\n- Musi et al. 2023 (10.1177/20563051221150407): chatbots, não jogos.\\n- Modirrousta-Galian & Higham 2023 (10.1037/xge0001395): reanálise de dados.\\n- Escape rooms de bibliotecas (Wedlake 2024; Cho 2023; EBLIP 2025): pesquisa pós-jogo ou estudo misto, sem pré e pós nem grupo de controle; o EBLIP é um evidence summary, não estudo primário.\\n- Pimmer et al. (IADIS): trabalho de anais.\\n- Cunha et al. (J. Interactive Systems): publicado em 2026.\\n- Mateus et al., Bad News no Peru: 2026.\\n- Jogos sobre COVID ou vacinas (Go Viral!, Bad Vaxx, COVID-19 Fake News game, Super Gotinha): excluídos pelo tema.\\n- Estudos de extremismo (Saleh et al.): fora do tema de desinformação.\\n\\nPONTOS DE ATENÇÃO NA LISTA:\\n- Tipo de estudo: Buchner 2023 e Buchner 2024 são estudos-piloto pré e pós sem grupo de controle, e Fernandes 2025 (N=55) tem pré e pós inferido do teste t pareado. Se o pesquisador exigir grupo de controle, esses três saem.\\n- Duplicidade: Buchner & Höfler 2024, Buchner 2024 (TKL) e Buchner 2023 (MedienPädagogik) avaliam o mesmo jogo (Escape Fake), mas com amostras diferentes (45, 28 e 27), então os contei como artigos distintos. Se preferir, conte-os como um só.\\n- Anos: Axelsson 2024 tem online em 2024 e fascículo em 2025; Roozenbeek & van der Linden (JRR) tem online em 2018 e fascículo em 2019 (vol. 22). Registrei 2024 e 2018, e ambos os anos de cada artigo estão dentro de 2018–2025.\\n- Graham 2023: o Europe PMC lista o tipo como 'research-article; News'. Os dados são próprios (quatro replicações), mas vale confirmar o tratamento editorial.\\n- DOI 10.37016//mr-2020-008 tem barra dupla, que é a forma registrada no Crossref e exibida na página do periódico.\\n- Hu 2023, Reinhardt 2025 e Nygren & Efimova 2025 têm um braço que não é jogo (gráfico, folheto, oficina). Mantive-os porque o jogo é uma das intervenções avaliadas.\\n- Para chegar a 25, as melhores opções são Barzilai & Stadtler 2025 (se o resumo for conferido no site da editora) e Seabrooke 2025 (se aceitar a data online).\"}",
+  "usage": {
+    "input_tokens": 48,
+    "cache_creation_input_tokens": 122687,
+    "cache_read_input_tokens": 1499818,
+    "output_tokens": 45120,
+    "output_tokens_details": {
+      "thinking_tokens": 16923
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 122687,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 15564,
+        "cache_read_input_tokens": 124219,
+        "cache_creation_input_tokens": 552,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 552
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 106,
+  "duration_s": 557.77,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Bad News game inoculation fake news randomized experiment journal article"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Harmony Square game inoculation misinformation experiment"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Cranky Uncle game climate misinformation inoculation study"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "serious game fake news media literacy pre-post experiment students journal"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "escape room OR board game misinformation disinformation intervention evaluation participants"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.openalex.org/works?search=game%20misinformation%20inoculation&filter=type:article,publication_year:2018-2025&per-page=50&select=doi,title,publication_year,primary_location,type",
+        "prompt": "List all results: DOI, title, year, source display name, type."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works?query.bibliographic=game+inoculation+misinformation+fake+news&filter=type:journal-article,from-pub-date:2018,until-pub-date:2025&rows=40&select=DOI,title,container-title,issued,author",
+        "prompt": "List all results: DOI, title, container-title, year, first authors."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works?query.bibliographic=gamified+inoculation+misinformation+game+experiment&filter=type:journal-article,from-pub-date:2018,until-pub-date:2025&rows=40&select=DOI,title,container-title,issued",
+        "prompt": "List all results as a compact table: DOI, title, container-title, year."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works?query.bibliographic=serious+game+fake+news+students+evaluation&filter=type:journal-article,from-pub-date:2018,until-pub-date:2025&rows=40&select=DOI,title,container-title,issued",
+        "prompt": "List all results as a compact table: DOI, title, container-title, year."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works?query.bibliographic=Bad+News+game+prebunking+misinformation+resistance&filter=type:journal-article,from-pub-date:2018,until-pub-date:2025&rows=40&select=DOI,title,container-title,issued",
+        "prompt": "List all results as a compact table: DOI, title, container-title, year."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works?query.bibliographic=escape+room+misinformation+disinformation+game&filter=type:journal-article,from-pub-date:2018,until-pub-date:2025&rows=40&select=DOI,title,container-title,issued",
+        "prompt": "List all results as a compact table: DOI, title, container-title, year."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works?query.bibliographic=game-based+media+literacy+disinformation+intervention+randomized&filter=type:journal-article,from-pub-date:2018,until-pub-date:2025&rows=40&select=DOI,title,container-title,issued",
+        "prompt": "List all results as a compact table: DOI, title, container-title, year."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1057/s41599-019-0279-9",
+        "prompt": "Give title, all authors, container-title, issued/published-print/published-online dates, type, and the full abstract text verbatim."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.5334/joc.91",
+        "prompt": "Give title, all authors, container-title, issued/published-print/published-online dates, type, and the full abstract text verbatim."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1186/s41235-023-00505-x",
+        "prompt": "Give title, all authors, container-title, issued/published-print/published-online dates, type, and the full abstract text verbatim."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.36850/e12",
+        "prompt": "Give title, all authors, container-title, issued/published-print/published-online dates, type, and the full abstract text verbatim."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.37016/mr-2020-141",
+        "prompt": "Give title, all authors, container-title, issued/published-print/published-online dates, type, and the full abstract text verbatim."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1037/xge0001603",
+        "prompt": "Give title, all authors, container-title, issued/published-print/published-online dates, type, and the full abstract text verbatim."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.5334/joc.91&resultType=core&format=json",
+        "prompt": "Return the abstractText split into consecutive sentences, each in its own quoted bullet, verbatim, in order. Also give title, journal, pubYear, authorString."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.journalofcognition.org/articles/10.5334/joc.91",
+        "prompt": "Return the abstract split into consecutive sentences, each in its own quoted bullet, verbatim, in order."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.nature.com/articles/s41599-019-0279-9",
+        "prompt": "From the abstract only: quote verbatim (each quote max 120 characters) the fragment stating the sample size and the fragment stating the main finding. Also give article type, journal, publication yea…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1186/s41235-023-00505-x&resultType=core&format=json",
+        "prompt": "From abstractText: quote verbatim (each quote max 120 characters) the fragment with sample size and the fragment with the main finding. Also give journal, pubYear, pubType."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://journals.sagepub.com/doi/10.36850/e12",
+        "prompt": "From abstract: quote verbatim (each quote max 120 characters) the fragment with sample size and the fragment with the main finding. Also give journal and year."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://misinforeview.hks.harvard.edu/article/gamified-inoculation-reduces-susceptibility-to-misinformation-from-political-ingroups/",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 characters), including any sample size and the main finding. Also mention whether it focuses on elections or partisan politics."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://psycnet.apa.org/record/2024-82965-001",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 characters), including sample size and main finding."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1057/s41599-019-0279-9?fields=title,abstract,year,venue,publicationTypes,externalIds",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars), including sample size and main finding. Give venue, year, publicationTypes."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1098/rsos.211719&resultType=core&format=json",
+        "prompt": "From abstractText: quote verbatim fragments (each max 120 characters) with sample size and main finding. Also give journal, pubYear, pubType, authorString, title."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1037/xge0001603&resultType=core&format=json",
+        "prompt": "From abstractText: quote verbatim fragments (each max 120 characters) with sample size and main finding. Also give journal, pubYear, pubType, authorString, title."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://misinforeview.hks.harvard.edu/article/global-vaccination-badnews/",
+        "prompt": "Find the abstract of \"Prebunking interventions based on the psychological theory of inoculation can reduce susceptibility to misinformation across cultures\". Quote verbatim fragments (each max 120 ch…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.37016/mr-2020-47",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 characters), including sample size and main finding. State whether it focuses on elections."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://misinforeview.hks.harvard.edu/?p=3972",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 characters), including sample size and main finding. State whether it focuses on elections."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.37016/mr-2020-008",
+        "prompt": "Confirm title, authors, publication date, and quote the abstract in verbatim fragments (each max 120 chars) incl. sample size if present."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1037/xap0000315&resultType=core&format=json",
+        "prompt": "From abstractText: quote verbatim fragments (each max 120 characters) with sample size and main finding; say whether a game (Bad News) is the intervention. Also give journal, pubYear, authorString, t…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://link.springer.com/article/10.3758/s13423-025-02827-x",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars), including sample size and main finding. Say whether it collects new data from participants or reanalyzes existing data. Give authors and…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.tandfonline.com/doi/full/10.1080/13669877.2018.1443491",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars). Say whether it reports empirical data from participants. Give authors and year."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.3758/s13423-025-02827-x?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars), including sample size and main finding. Say whether new data are collected. Give authors, venue, publication date."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1080/13669877.2018.1443491?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars). Say whether it reports empirical data from participants. Give authors, venue, date."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.62758/re.302?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars), including sample size and main finding. Say whether it evaluates the game with participants (experiment/pre-post). Give authors, venue, …"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.23860/jmle-2021-13-1-5?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars), including sample size and main finding. Say whether it evaluates the game with participants (experiment/pre-post). Give authors, venue, …"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.11645/18.2.13?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars), including sample size and main finding. Say whether it evaluates a game with participants. Give authors, venue, date."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1080/15228959.2023.2252322?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars), including sample size and main finding. Say whether it evaluates a game with participants. Give authors, venue, date."
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Misinformation is contagious\" middle school students digital game evaluate and share information responsibly Computers & Education"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Fakey game news literacy social media experiment Micallef"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Escape Fake augmented reality escape game pre-service teachers fake news Contemporary Educational Technology"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"How to Spot Fake News\" serious game m-learning information literacy randomized field study International Journal of Interactive Mobile Technologies"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Bad News in the civics classroom serious gameplay teenagers Journal of Research on Technology in Education"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.compedu.2023.104832?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) including sample size and main finding. Give authors, venue, date. Note: do not report anything not in the content."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.30935/cedtech/14335?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) including sample size and main finding. Give authors, venue, date."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1080/15391523.2024.2338451?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) including sample size and main finding. Give authors, venue, date."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://online-journals.org/index.php/i-jim/article/view/40865",
+        "prompt": "Give title, authors, DOI, year, and quote the abstract in verbatim fragments (each max 120 chars), including sample size and main finding."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doaj.org/article/6f2b200f09f84238b9e1127bfb709d86",
+        "prompt": "Give title, authors, DOI, year, journal, and quote the abstract in verbatim fragments (each max 120 chars), including sample size and main finding."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://irf.fhnw.ch/entities/publication/934966e3-2cf7-4509-9be4-1fceb7f789a3",
+        "prompt": "Give title, authors, DOI, year, journal/type, and quote the abstract in verbatim fragments (each max 120 chars), including sample size and main finding."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://journals-sol.sbc.org.br/index.php/jis/article/view/5986",
+        "prompt": "Give title, authors, DOI, year, journal, and quote the abstract in verbatim fragments (each max 120 chars), including sample size and main finding. Is it an empirical experiment?"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://cris.iucc.ac.il/en/publications/misinformation-is-contagious-middle-school-students-learn-how-to-/",
+        "prompt": "Give title, authors, DOI, year, journal, and quote the abstract in verbatim fragments (each max 120 chars), including sample sizes and main finding."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.cedtech.net/article/can-pre-service-teachers-learn-about-fake-news-by-playing-an-augmented-reality-escape-game-14335",
+        "prompt": "Give title, authors, DOI, year, journal, and quote the abstract in verbatim fragments (each max 120 chars), including sample size and main finding."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://oalib-perpustakaan.upi.edu/Record/doaj_6f2b200f09f84238b9e1127bfb709d86/Description?print=1",
+        "prompt": "Give title, authors, DOI, year, journal, and quote the abstract in verbatim fragments (each max 120 chars), including sample size and main finding."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1080/15391523.2024.2338451",
+        "prompt": "Give issued, published-online, published-print dates, volume, issue, type."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.3758/s13423-025-02827-x",
+        "prompt": "Give issued, published-online, published-print dates, volume, issue, type, authors."
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Cranky Uncle game experiment effect on technique recognition logical fallacies climate misinformation randomized"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "game-based intervention fake news students quasi-experimental pretest posttest journal article 2022 2023 2024 \"fake news\" game \"control group\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Troll Factory OR \"Fake It to Make It\" OR \"Fake News Detective\" OR Factitious game study participants misinformation resilience"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Bad News game replication Japan OR Germany OR Netherlands OR Indonesia OR Brazil OR China students misinformation susceptibility experiment journal"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.5334/joc.324&resultType=core&format=json",
+        "prompt": "From abstractText: quote verbatim fragments (each max 120 characters) with sample size (if any) and main finding. Also give journal, pubYear, pubType, authorString, title, DOI."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1038/s41598-023-43885-2&resultType=core&format=json",
+        "prompt": "From abstractText: quote verbatim fragments (each max 120 characters) with sample size and main finding. Also give journal, pubYear, pubType, authorString, title, DOI."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1371/journal.pone.0326928&resultType=core&format=json",
+        "prompt": "From abstractText: quote verbatim fragments (each max 120 characters) with sample size and main finding. Also give journal, pubYear, pubType, authorString, title, DOI."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://cris.pucp.edu.pe/en/publications/enhancing-media-literacy-in-higher-education-an-experimental-stud/",
+        "prompt": "Give title, authors, DOI, year, journal, and quote the abstract in verbatim fragments (each max 120 chars). Is the intervention a game?"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works?query.bibliographic=online+game+misinformation+resilience+randomized+controlled+trial+players+manipulation+techniques&filter=type:journal-article,from-pub-date:2018,until-pub-date:2025&rows=50&select=DOI,title,container-title,issued",
+        "prompt": "List all results as compact table: DOI, title, container-title, year."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works?query.bibliographic=game+to+teach+students+to+detect+fake+news+experiment&filter=type:journal-article,from-pub-date:2018,until-pub-date:2025&rows=50&select=DOI,title,container-title,issued",
+        "prompt": "List all results as compact table: DOI, title, container-title, year."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works?query.bibliographic=news+verification+game+fake+news+awareness+learning&filter=type:journal-article,from-pub-date:2018,until-pub-date:2025&rows=50&select=DOI,title,container-title,issued",
+        "prompt": "List all results as compact table: DOI, title, container-title, year."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works?query.bibliographic=gamification+conspiracy+theories+OR+disinformation+inoculation+game+adolescents&filter=type:journal-article,from-pub-date:2018,until-pub-date:2025&rows=50&select=DOI,title,container-title,issued",
+        "prompt": "List all results as compact table: DOI, title, container-title, year."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.5209/esmp.88599?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) including sample size and main finding; give authors, venue, date; say whether game intervention evaluated experimentally."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s10758-024-09749-y?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) including sample size and main finding; give authors, venue, date; say whether game intervention evaluated experimentally."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.21240/mpaed/51/2023.01.12.x?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) including sample size and main finding; give authors, venue, date; say whether game intervention evaluated experimentally."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1002/acp.3995?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) including sample size and main finding; give authors, venue, date; say whether the intervention is a game."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.36850/e12?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) including sample size and main finding; give authors, venue, date."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1002/acp.3995",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) including sample size and main finding; say whether the intervention is a game."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://misinforeview.hks.harvard.edu/article/global-vaccination-badnews/",
+        "prompt": "Give article title, authors, DOI, date, and verbatim abstract fragments (each max 120 chars)."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.37016/mr-2020-008?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) including sample size and main finding; give authors, venue, date."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1037/xap0000315",
+        "prompt": "Give issued, published-online, published-print dates, volume, issue, type, title, authors."
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "MAthE the Game serious game news verification Education Sciences 2019 randomized online study 111 participants"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Wedlake OR Cho misinformation escape room library players Journal of the Association for Information Science and Technology study pre post"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://mdpi.com/484938",
+        "prompt": "Give title, authors, DOI, year, journal, and quote the abstract in verbatim fragments (each max 120 chars), including sample size and main finding."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/acp.3995",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) including sample size and main finding; say whether the intervention is a game."
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Barzilai Stadtler 2025 Computers & Education learning to evaluate (mis)information online game experiment"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "jogo desinformação estudo experimental pré-teste pós-teste estudantes jogo educativo fake news periódico"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "juego educativo desinformación fake news estudio cuasi-experimental alfabetización mediática estudiantes pretest postest revista"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.repository.cam.ac.uk/handle/1810/278736",
+        "prompt": "Give title, authors, journal, date, and abstract in verbatim fragments (each max 120 chars). Does it report an empirical study with participants (sample size)?"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.compedu.2024.105210?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) including sample size and main finding; give authors, venue, date."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://analisi.cat/article/download/v66-quevedo-gomez-navarro/3447-pdf-es",
+        "prompt": "Give title, authors, journal, year, DOI if shown, and abstract in verbatim fragments (each max 120 chars). Is there a pre/post or experimental design and sample size?"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"fake news game\" Dutch secondary school randomized field study N = 95 perceived reliability persuasiveness fake news"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "game inoculation misinformation experiment 2024 2025 journal \"game\" prebunking older adults OR adolescents OR teachers results preregistered new game"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=misinformation+game+inoculation+experiment&year=2018-2025&fields=title,year,venue,externalIds,publicationTypes&limit=100",
+        "prompt": "List all results as compact table: title, year, venue, DOI."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1080/13504622.2022.2085671?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) incl. sample size, design."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1177/20563051221150407?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) incl. sample size, design, intervention type (is it a game?), main finding; give authors, venue, date."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1027/1864-1105/a000471?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) incl. sample size, design, intervention type (is it a game?), main finding; give authors, venue, date."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1080/13669877.2023.2249909?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) incl. sample size, design, main finding; give authors, venue, date; say if focus is COVID-19."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1177/0013164420940378?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) incl. sample size, design, intervention (is it a game?), main finding; give authors, venue, date."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1038/s41467-025-57205-x?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) incl. sample size, design, intervention (is it a game?), main finding; give authors, venue, date."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0360131524001982",
+        "prompt": "If this is Barzilai & Stadtler \"Learning to evaluate (mis)information in an online game: Strategies matter!\", quote abstract verbatim fragments (max 120 chars) with sample size and main finding."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.3390/educsci9020155?fields=title,abstract,year,venue,authors,publicationDate",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) incl. sample size, design, main finding; give authors, venue, date."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1016/j.compedu.2024.105210",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) incl. sample size, design, main finding; give authors, journal, date."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.mdpi.com/2227-7102/9/2/155",
+        "prompt": "Give title, authors, DOI, date, and abstract in verbatim fragments (each max 120 chars) incl. sample size and main finding."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1016/j.compedu.2024.105210",
+        "prompt": "Give title, authors, issued, published-online, published-print, volume, type, and whether an abstract field exists (quote fragments max 120 chars)."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0360131524002240",
+        "prompt": "Quote the abstract in verbatim fragments (each max 120 chars) incl. sample size, design, main finding; give authors, journal, date."
+      }
+    },
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "candidates": "[{\"doi\": \"10.1057/s41599-019-0279-9\", \"title\": \"Fake news game confers psychological resistance against online misinformation\", \"authors\": [\"Jon Roozenbeek\", \"Sander van der Linden\"], \"year\": 2019, \"…",
+        "notes": "RESULTADO: entreguei 24 artigos que atendem a todos os critérios, 1 a menos que os 25 pedidos. Preferi ficar abaixo do número a incluir artigos duvidosos. COMO VERIFIQUEI: os metadados vieram do Cros…"
+      }
+    }
+  ]
+}

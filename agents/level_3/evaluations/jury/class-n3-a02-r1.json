@@ -1,0 +1,501 @@
+{
+ "run_id": "class-n3-a02-r1",
+ "level": "n3",
+ "item": "a02",
+ "status": "done",
+ "delivered": 20,
+ "correct": 20,
+ "requested": 25,
+ "yield": 0.8,
+ "precision": 1.0,
+ "not_found": 0,
+ "wrong_doi": 0,
+ "metadata_errors": 0,
+ "quote_fail": 0,
+ "no_abstract": 0,
+ "wall_seconds": 236.4,
+ "calls": 6,
+ "items": [
+  {
+   "doi": "10.25200/bjr.v18n2.2022.1510",
+   "title": "critérios dos fact-checkers brasileiros",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1177/10776990231207963",
+   "title": "Fostering Artificial Intelligence to Face Misinformation: Discourses and Practices of Automated Fact-Checking in Brazil",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3390/socsci14090514",
+   "title": "On Fact-Checking Service: Artificial Intelligence’s Uses in Ibero-American Fact-Checkers",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1515/omgc-2022-0028",
+   "title": "Fact-checking initiatives in Portuguese language countries: checking methods and financing strategies",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.17645/mac.v9i1.3443",
+   "title": "Fact-Checking Interventions as Counteroffensives to Disinformation Growth: Standards, Values, and Practices in Latin America and Spain",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1177/19401612241270004",
+   "title": "“We Follow the Disinformation”: Conceptualizing and Analyzing Fact-Checking Cultures Across Countries",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.25200/bjr.v16n2.2020.1212",
+   "title": "JOURNALISM AND FACT-CHECKING: typification of sources used for checking and criteria for selecting fact-checked material – an analysis by Agência Lupa and Aos Fatos",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.25200/bjr.v20n3.2024.1687",
+   "title": "TRANSPARÊNCIA CONTRA A DESINFORMAÇÃO?",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.5209/esmp.71235",
+   "title": "Credibilidad en disputa en periodismo digital Disputed credibility in digital journalism Credibilidade em disputa no jornalismo digital",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.59289/t7hc8w93",
+   "title": "Desinformação, agências de fact-checking e identificação de fake news",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.22478/ufpb.2763-9398.2022v17n.63545",
+   "title": "Fact-checking e financiamento",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.51206/elegis.v15i38.758",
+   "title": "JORNALISMO DE CHECAGEM DE FATOS COMO INTERMEDIÁRIO DA TRANSPARÊNCIA PÚBLICA: UMA ANÁLISE COMPARADA ENTRE PAÍSES",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1177/27523543251344971",
+   "title": "AI-Generated Misinformation: A Case Study on Emerging Trends in Fact-Checking Practices Across Brazil, Germany, and the United Kingdom",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.55028/rpe.v10in.1.18117",
+   "title": "Mídia alternativa digital e a checagem de fatos: Alternative digital media and fact checking:",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.22478/ufpb.1807-8931.2025v21n4.73367",
+   "title": "Desinformação e inteligência artificial:  um estudo nas agências de fact-checking",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.15847/obsobs18520242436",
+   "title": "Media literacy against disinformation: the vision of South American fact-checkers",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.17648/movideias-v28n2-2926",
+   "title": "A AGÊNCIA LUPA EM PROL DA COMUNICAÇÃO PARA A PAZ: UM MODELO DE FACT-CHECKING E MEDIA LITERACY",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.22478/ufpb.2236-417x.2022v12n3.65025",
+   "title": "Checagem de fake news: uma abordagem por meio de indícios de comunidades virtuais de prática",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.21878/compolitica.2019.9.2.143",
+   "title": "Fact-checking como possibilidade de media accountability sobre o discurso político? Fact-checking as a possibility of media accountability on political discourse?",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.31501/clogia.v17i1.15467",
+   "title": "Pedagogia midiática da checagem de fatos",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  }
+ ],
+ "judge": "júri: DeepSeek V4 Pro, Qwen3.7 Plus, Gemini 3.1 Flash-Lite (maioria)"
+}

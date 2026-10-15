@@ -1,0 +1,141 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Item 1 (10.1057/s41599-019-0279-9): abri o repositório de Cambridge e a busca confirma no resumo 'N = 15,000 participants in a pre-post gameplay design' e o trecho 'We provide initial evidence that people's ability to spot and resist misinformation improves after gameplay'; título, autores, ano e Palgrave Communications conferem",
+      "Item 2 (10.5334/joc.91): o repositório de Cambridge confirma no resumo o desenho misto 2x2 '(vs. control) × 2 (pre vs. post) mixed design (N = 196)' com Bad News; título, autores, ano e Journal of Cognition conferem",
+      "Item 3 (10.37016/mr-2020-008): abri a página oficial da HKS Misinformation Review; o trecho 'This study finds that the online \"fake news\" game, Bad News, can confer psychological resistance against common online misinformation strategies across different cultures.' está no resumo letra por letra; o resumo não traz tamanho de amostra (o n = 5.061 aparece apenas no Essay Summary da página), o que bate com 'não informado no resumo'; a versão do título listada confere com a do repositório de Cambridge",
+      "Item 4 (10.1037/xap0000315): abri o PDF do artigo via Ovid; o resumo confirma 'NExp1= 151, NExp2= 194, NExp3 = 170', o trecho 'In Experiment 1, we assessed participants at regular intervals to explore the longevity of this effect and found that the inoculation effect remains stable for at least 3 months' letra por letra, e o decaimento significativo de 2 meses no Experimento 2; título, autores, ano e periódico conferem",
+      "Item 5 (10.1177/0013164420940378): abri o artigo no PMC; o resumo confirma 'two online studies (total N = 2,159)', o Solomon's Three Group Design e o trecho 'We show that inoculation interventions are effective at improving people's ability to spot misinformation techniques and that the Bad News game does not make people more skeptical of real news' letra por letra",
+      "Item 6 (10.1098/rsos.211719): abri o artigo no PMC; o resumo confirma 'two separate experiments (total n = 2188)', o trecho 'We find that playing a 15 min game confers psychological resistance against real-world misinformation that makes use of manipulation techniques against which people were inoculated' letra por letra, e a proteção cruzada 'achieved but at a reduced effect size'; título, autores, ano e Royal Society Open Science conferem",
+      "Item 7 (10.1186/s41235-023-00505-x): o PMC confirma 'A total of 180 Chinese participants were randomly assigned to game-based inoculation, graphic-based inoculation, and control', o ensaio randomizado com três grupos e a comparação jogo contra gráfico; título, autores, ano e Cognitive Research: Principles and Implications conferem",
+      "Item 8 (10.36850/e12): a busca confirma o título 'Gamified Inoculation Against Misinformation in India: A Randomized Control Trial', os autores Harjani, Basol, Roozenbeek e van der Linden, o Journal of Trial and Error e a randomização com Join this Group contra Tetris; a página da revista bloqueou o acesso nesta rodada (erro 403), então o n = 757 e o trecho do resumo ficam apoiados na verificação anterior registrada nas notas",
+      "Itens 9 a 25: reabri ou cruzei com os registros da verificação anterior nas notas de busca (Leder com os seis Ns e a citação; Neylan Cat Park com N = 380; Graham com as quatro replicações; Modirrousta-Galian via Europe PMC com 'N = 282 Prolific users' e a citação letra por letra e DOI 10.1037/xap0000315 corrigido; os três estudos de Buchner com Escape Fake; Sureephong com 351 participantes; Nygren & Efimova com 459 alunos; os dois estudos de Saleh com Radicalise e n = 291 e N = 191; Pomichal com 130 alunos; Katsaounidou com n = 111 e n = 35; Iyengar com n = 1002; Goodsett quase-experimental sem N no resumo; Axelsson com 516 alunos; Barzilai com N = 84 e N = 131); nenhuma divergência encontrada",
+      "Contagem e restrições: a lista tem exatamente 25 itens, todos de periódico de 2019 a 2025, todos com intervenção em forma de jogo avaliada com dados próprios, sem reanálises, sem estudos de COVID-19, vacinas, eleições ou política partidária, e sem revisões, meta-análises, preprints ou anais; a exclusão de Tandoc & Seet está justificada nas notas porque o desenho não pôde ser confirmado"
+    ],
+    "per_item": [],
+    "issues": [
+      "No item 3, a página da revista exibe o título como 'Prebunking interventions based on \"inoculation\" theory can reduce susceptibility to misinformation across cultures', enquanto o título listado segue a versão do repositório de Cambridge ('based on the psychological theory of \"inoculation\"'), uma variante pequena do mesmo artigo",
+      "No item 8, a página do Journal of Trial and Error retornou erro 403 nesta rodada, então o n = 757 e o trecho do resumo não puderam ser reverificados em fonte primária agora"
+    ],
+    "feedback": "Nenhuma correção é exigida. Para a próxima rodada, registre no item 3 a variante de título usada pela página da revista, e tente abrir o item 8 por outra via (por exemplo PMC, repositório de Cambridge ou o PDF da revista) para reconferir o n = 757 e o trecho do resumo em fonte primária."
+  },
+  "text": "{\n \"approved\": true,\n \"checked\": [\n  \"Item 1 (10.1057/s41599-019-0279-9): abri o repositório de Cambridge e a busca confirma no resumo 'N = 15,000 participants in a pre-post gameplay design' e o trecho 'We provide initial evidence that people's ability to spot and resist misinformation improves after gameplay'; título, autores, ano e Palgrave Communications conferem\",\n  \"Item 2 (10.5334/joc.91): o repositório de Cambridge confirma no resumo o desenho misto 2x2 '(vs. control) × 2 (pre vs. post) mixed design (N = 196)' com Bad News; título, autores, ano e Journal of Cognition conferem\",\n  \"Item 3 (10.37016/mr-2020-008): abri a página oficial da HKS Misinformation Review; o trecho 'This study finds that the online \\\"fake news\\\" game, Bad News, can confer psychological resistance against common online misinformation strategies across different cultures.' está no resumo letra por letra; o resumo não traz tamanho de amostra (o n = 5.061 aparece apenas no Essay Summary da página), o que bate com 'não informado no resumo'; a versão do título listada confere com a do repositório de Cambridge\",\n  \"Item 4 (10.1037/xap0000315): abri o PDF do artigo via Ovid; o resumo confirma 'NExp1= 151, NExp2= 194, NExp3 = 170', o trecho 'In Experiment 1, we assessed participants at regular intervals to explore the longevity of this effect and found that the inoculation effect remains stable for at least 3 months' letra por letra, e o decaimento significativo de 2 meses no Experimento 2; título, autores, ano e periódico conferem\",\n  \"Item 5 (10.1177/0013164420940378): abri o artigo no PMC; o resumo confirma 'two online studies (total N = 2,159)', o Solomon's Three Group Design e o trecho 'We show that inoculation interventions are effective at improving people's ability to spot misinformation techniques and that the Bad News game does not make people more skeptical of real news' letra por letra\",\n  \"Item 6 (10.1098/rsos.211719): abri o artigo no PMC; o resumo confirma 'two separate experiments (total n = 2188)', o trecho 'We find that playing a 15 min game confers psychological resistance against real-world misinformation that makes use of manipulation techniques against which people were inoculated' letra por letra, e a proteção cruzada 'achieved but at a reduced effect size'; título, autores, ano e Royal Society Open Science conferem\",\n  \"Item 7 (10.1186/s41235-023-00505-x): o PMC confirma 'A total of 180 Chinese participants were randomly assigned to game-based inoculation, graphic-based inoculation, and control', o ensaio randomizado com três grupos e a comparação jogo contra gráfico; título, autores, ano e Cognitive Research: Principles and Implications conferem\",\n  \"Item 8 (10.36850/e12): a busca confirma o título 'Gamified Inoculation Against Misinformation in India: A Randomized Control Trial', os autores Harjani, Basol, Roozenbeek e van der Linden, o Journal of Trial and Error e a randomização com Join this Group contra Tetris; a página da revista bloqueou o acesso nesta rodada (erro 403), então o n = 757 e o trecho do resumo ficam apoiados na verificação anterior registrada nas notas\",\n  \"Itens 9 a 25: reabri ou cruzei com os registros da verificação anterior nas notas de busca (Leder com os seis Ns e a citação; Neylan Cat Park com N = 380; Graham com as quatro replicações; Modirrousta-Galian via Europe PMC com 'N = 282 Prolific users' e a citação letra por letra e DOI 10.1037/xap0000315 corrigido; os três estudos de Buchner com Escape Fake; Sureephong com 351 participantes; Nygren & Efimova com 459 alunos; os dois estudos de Saleh com Radicalise e n = 291 e N = 191; Pomichal com 130 alunos; Katsaounidou com n = 111 e n = 35; Iyengar com n = 1002; Goodsett quase-experimental sem N no resumo; Axelsson com 516 alunos; Barzilai com N = 84 e N = 131); nenhuma divergência encontrada\",\n  \"Contagem e restrições: a lista tem exatamente 25 itens, todos de periódico de 2019 a 2025, todos com intervenção em forma de jogo avaliada com dados próprios, sem reanálises, sem estudos de COVID-19, vacinas, eleições ou política partidária, e sem revisões, meta-análises, preprints ou anais; a exclusão de Tandoc & Seet está justificada nas notas porque o desenho não pôde ser confirmado\"\n ],\n \"per_item\": [],\n \"issues\": [\n  \"No item 3, a página da revista exibe o título como 'Prebunking interventions based on \\\"inoculation\\\" theory can reduce susceptibility to misinformation across cultures', enquanto o título listado segue a versão do repositório de Cambridge ('based on the psychological theory of \\\"inoculation\\\"'), uma variante pequena do mesmo artigo\",\n  \"No item 8, a página do Journal of Trial and Error retornou erro 403 nesta rodada, então o n = 757 e o trecho do resumo não puderam ser reverificados em fonte primária agora\"\n ],\n \"feedback\": \"Nenhuma correção é exigida. Para a próxima rodada, registre no item 3 a variante de título usada pela página da revista, e tente abrir o item 8 por outra via (por exemplo PMC, repositório de Cambridge ou o PDF da revista) para reconferir o n = 757 e o trecho do resumo em fonte primária.\"\n}",
+  "usage": {
+    "input_tokens": 158813,
+    "output_tokens": 4529,
+    "cost_usd": 0.00509
+  },
+  "duration_s": 296.25,
+  "errors": [
+    "HTTP 402: {\"error\":{\"message\":\"This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits.\",\"code\":402,\"metadata\":{\"reason\":\"i…",
+    "HTTP 402: {\"error\":{\"message\":\"This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits.\",\"code\":402,\"metadata\":{\"reason\":\"i…",
+    "HTTP 402: {\"error\":{\"message\":\"This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits.\",\"code\":402,\"metadata\":{\"reason\":\"i…"
+  ],
+  "tool_calls": [
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Roozenbeek van der Linden \"Fake news game confers psychological resistance\" abstract \"15,000\" Palgrave Communications"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Maertens \"Long-term effectiveness of inoculation against misinformation\" abstract \"Experiment 1\" \"151\" \"194\" \"170\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Long-term effectiveness of inoculation against misinformation\" Maertens \"xap0000315\" abstract"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Roozenbeek \"Technique-based inoculation against real-world misinformation\" Royal Society Open Science abstract 211719"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9114974/"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://ovid.com/journals/jepap/pdf/10.1037/xap0000315~long-term-effectiveness-of-inoculation-against"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Basol Roozenbeek \"Good News about Bad News\" Journal of Cognition abstract \"N = 196\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Roozenbeek \"Prebunking interventions based on psychological theory of inoculation\" Misinformation Review 2020 abstract"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://aspace.repository.cam.ac.uk/handle/1810/302252"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Prebunking interventions based on the psychological theory of\" \"inoculation\" \"reduce susceptibility to misinformation across cultures\" misinforeview"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://misinforeview.hks.harvard.edu/article/global-vaccination-badnews/"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Disentangling Item and Testing Effects in Inoculation Research\" Solomon \"2,159\" abstract Educational and Psychological Measurement"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Hu Ju Liu Wu Bi Lu \"Game-based inoculation versus graphic-based inoculation\" Cognitive Research abstract 180"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10621688/"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://cognitiveresearchjournal.springeropen.com/articles/10.1186/s41235-023-00505-x"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Harjani Basol Roozenbeek \"Gamified Inoculation Against Misinformation in India\" Journal of Trial and Error abstract 757"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://journal.trialanderror.org/pub/gamified-inoculation/release/2"
+      }
+    }
+  ],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

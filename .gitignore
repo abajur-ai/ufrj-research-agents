@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+
+# Caches and outputs of your own runs (the class runs and evaluations are versioned)
+.cache/
+benchmark/progress/
+agents/level_*/media/raw/
+bibcheck/cache/
+*.log

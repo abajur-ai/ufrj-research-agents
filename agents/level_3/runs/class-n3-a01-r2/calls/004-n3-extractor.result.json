@@ -1,0 +1,221 @@
+{
+  "structured": {
+    "items": [
+      {
+        "id": "C11",
+        "study_type": "Experimento comportamental (2 experimentos)",
+        "method": "Manipulação da credibilidade (confiabilidade e expertise) da fonte da retratação em relatos de eventos; medida de dependência da desinformação no raciocínio",
+        "sample_size": "não informado no resumo",
+        "main_finding": "A confiabilidade da fonte, mas não sua expertise, influencia a eficácia da retratação, e retratações de fontes pouco confiáveis são totalmente ineficazes.",
+        "abstract_quote": "source trustworthiness but not source expertise indeed influences retraction effectiveness, with retractions from low-trustworthiness sources entirely ineffective"
+      },
+      {
+        "id": "C48",
+        "study_type": "Experimento comportamental (2 experimentos)",
+        "method": "Manipulação independente da credibilidade do informante e do retratador em notícia fictícia, com grupo controle sem informação nem retratação",
+        "sample_size": "N = 151, N = 146",
+        "main_finding": "O efeito de influência continuada depende da credibilidade relativa de informante e retratador, mas também ocorreu com fontes igualmente credíveis, o que um relato puramente racional não explica.",
+        "abstract_quote": "when the informant was more credible than the retractor, participants showed a CIE compared to control participants who saw neither the information nor the retraction"
+      },
+      {
+        "id": "C22",
+        "study_type": "Experimento comportamental (2 experimentos)",
+        "method": "Comparação de correções que explicam a origem da desinformação (engano intencional ou erro não intencional) com correção que apenas a identifica como falsa",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Explicar a origem da desinformação, deliberada ou acidental, não tornou a correção mais eficaz do que apenas declarar que a informação é falsa.",
+        "abstract_quote": "Experiment 2 found no evidence that corrections explaining the reason the misinformation was presented, were more effective than a correction not accompanied by an explanation"
+      },
+      {
+        "id": "C23",
+        "study_type": "Experimento comportamental (2 experimentos)",
+        "method": "Comparação de desacreditação da fonte, correção da mensagem e combinação de ambas, com desinformação fictícia sobre eventos; fontes pessoa versus mídia",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Desacreditar a fonte reduziu a dependência da desinformação, menos que a correção isolada, e a combinação das duas foi a mais eficaz.",
+        "abstract_quote": "The discreditation alone was effective, but less effective than a correction, with the combination of both most effective."
+      },
+      {
+        "id": "C07",
+        "study_type": "Experimento comportamental (2 experimentos) com reteste após 7 dias",
+        "method": "Técnica de explicação alternativa isolada e combinada com aviso prévio (Exp. 1) ou inoculação (Exp. 2); medida da dependência da desinformação ao longo do tempo",
+        "sample_size": "N = 441",
+        "main_finding": "A alternativa reduziu o efeito de influência continuada, e a combinação com aviso prévio ou inoculação reforçou a proteção no pré-teste, mas a proteção não se sustentou em 7 dias.",
+        "abstract_quote": "We found that an alternative reduced CIE while combining it with a forewarning or inoculation boosted this protective effect in the pretest."
+      },
+      {
+        "id": "C01",
+        "study_type": "Experimento comportamental",
+        "method": "Inoculação versus ausência de inoculação, combinada com a confiabilidade da fonte da correção; medida de dependência e de crença na desinformação",
+        "sample_size": "não informado no resumo",
+        "main_finding": "A inoculação reduziu a dependência da desinformação quando a correção vinha de fonte altamente credível.",
+        "abstract_quote": "inoculated participants relied on misinformation less when the correction came from a highly credible source"
+      },
+      {
+        "id": "C09",
+        "study_type": "Experimento comportamental (2 experimentos)",
+        "method": "Paradigma de influência continuada com fronteiras espaciais de segmentação de eventos para manipular a integração da retratação",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Uma fronteira de evento não teve efeito no Exp. 1 e reduziu o efeito de influência continuada no Exp. 2, o que favorece as explicações baseadas em recuperação.",
+        "abstract_quote": "Experiment 2 yielded evidence that an event boundary resulted in a reduced CIE"
+      },
+      {
+        "id": "C08",
+        "study_type": "Experimento comportamental (3 estudos)",
+        "method": "Manipulação de três fatores (visar a desinformação, fornecer explicação alternativa, importância do conteúdo) com duas medidas de influência continuada e grupo-base sem exposição",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Fornecer uma explicação alternativa reduziu consistentemente o efeito, e combiná-la com o alvo direto na desinformação pôde eliminá-lo em certas condições.",
+        "abstract_quote": "we found that alternative provision consistently resulted in CIE reduction"
+      },
+      {
+        "id": "C14",
+        "study_type": "Experimento comportamental online (com réplica pré-registrada)",
+        "method": "Comparação de perguntas abertas e fechadas como medidas do efeito de influência continuada em relato de evento com uma afirmação corrigida",
+        "sample_size": "Exp. 1A, n = 78; Exp. 1B, n = 75; Exps. 2A and 2B, n = 323",
+        "main_finding": "O efeito apareceu em todas as condições, e as referências à desinformação foram semelhantes nos formatos aberto e fechado.",
+        "abstract_quote": "We observed the CIE in all conditions: Participants continued to refer to the misinformation following a correction"
+      },
+      {
+        "id": "C04",
+        "study_type": "Experimento comportamental (3 experimentos)",
+        "method": "Comparação de recordação individual, colaboração por turnos e colaboração livre em diferentes intervalos de recordação",
+        "sample_size": "não informado no resumo",
+        "main_finding": "A colaboração por turnos reduziu consistentemente o efeito de influência continuada, enquanto o efeito da colaboração livre dependeu do tempo de recordação.",
+        "abstract_quote": "Results revealed that turn-taking collaboration consistently mitigates the CIE"
+      },
+      {
+        "id": "C21",
+        "study_type": "Experimento comportamental com simulador de direção",
+        "method": "Manipulação do número de correções (uma ou várias) e da carga cognitiva (tarefa matemática) durante a codificação de correções auditivas",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Múltiplas correções foram mais eficazes que uma única, e a carga cognitiva reduziu a eficácia da correção, sem evidência de efeito backfire de familiaridade.",
+        "abstract_quote": "Multiple corrections were more effective than a single correction; cognitive load reduced correction effectiveness, with a single correction entirely ineffective under load."
+      },
+      {
+        "id": "C26",
+        "study_type": "Experimento comportamental (2 experimentos)",
+        "method": "Comparação de correções negadas, substituições e ausência de correção, com manipulação da exposição prévia ao conceito-alvo; perguntas abertas",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Correções negadas reduziram menções à desinformação quando houve exposição prévia, mas as aumentaram quando não houve.",
+        "abstract_quote": "when not exposed to the concept, negated corrections increased mentions relative to no correction"
+      },
+      {
+        "id": "C02",
+        "study_type": "Experimento comportamental (4 experimentos)",
+        "method": "Formação dinâmica de impressão sobre um protagonista fictício, com desinformação positiva ou negativa depois retratada",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Os participantes descartaram totalmente a desinformação retratada sobre a pessoa, sem influência continuada nas impressões.",
+        "abstract_quote": "in each experiment participants fully discounted the misinformation once retracted"
+      },
+      {
+        "id": "C18",
+        "study_type": "Experimento comportamental (3 experimentos)",
+        "method": "Tarefa não dinâmica de formação de impressão sobre pessoa fictícia, com afirmação comportamental negativa retratada ou não",
+        "sample_size": "não informado no resumo",
+        "main_finding": "A influência continuada da desinformação retratada sobre impressões de pessoa apareceu em um experimento, e nos outros dois a desinformação foi totalmente descartada.",
+        "abstract_quote": "Evidence for the continued influence of the retracted behaviour statement was found in one experiment; in the other two experiments the retracted misinformation was fully discounted."
+      },
+      {
+        "id": "C46",
+        "study_type": "Experimento comportamental",
+        "method": "Formação de impressão sobre pessoa fictícia com comportamento de violência doméstica retratado ou não, incluindo nome com estereótipo cultural; avaliações de traços, previsões de comportamento e rosto",
+        "sample_size": "não informado no resumo",
+        "main_finding": "A alegação retratada não influenciou as impressões explícitas da pessoa, apenas, tentativamente, uma medida indireta.",
+        "abstract_quote": "Discredited misinformation was found to influence neither trait ratings of the person nor behavior predictions."
+      },
+      {
+        "id": "C03",
+        "study_type": "Estudo experimental exploratório com eletroencefalografia (ERPs)",
+        "method": "Tarefa de influência continuada com registro eletroencefalográfico; comparação de potenciais evocados para desinformação retratada e informação verdadeira",
+        "sample_size": "não informado no resumo",
+        "main_finding": "A dependência da desinformação após a retratação pode refletir uma recordação particularmente forte da desinformação, após integração deficiente da retratação.",
+        "abstract_quote": "This suggests that post-retraction reliance on misinformation may be driven by particularly strong recollection of the misinformation"
+      },
+      {
+        "id": "C16",
+        "study_type": "Experimento comportamental",
+        "method": "Manipulação do papel causal da informação corrigida em histórias lidas previamente, com histórias de desfecho negativo ou não",
+        "sample_size": "não informado no resumo",
+        "main_finding": "A desinformação corrigida que preenche uma lacuna causal de uma história lida teve efeito mais forte nas crenças do que informação apenas relacionada ao tema.",
+        "abstract_quote": "corrected misinformation was found to have a stronger effect on people's beliefs than information that was topically related to the story if it helped to provide a causal explanation of a story they had read previously"
+      },
+      {
+        "id": "C29",
+        "study_type": "Experimento comportamental (2 experimentos)",
+        "method": "Comparação de ruminadores depressivos e controles quanto à eficácia de retratações de desinformação negativa e positiva",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Em ruminadores depressivos, retratações de desinformação negativa foram pelo menos tão eficazes quanto nos controles, contra a hipótese de menor eficácia.",
+        "abstract_quote": "in depressive ruminators, retractions of negative misinformation were at least as effective as they were in control participants"
+      },
+      {
+        "id": "C30",
+        "study_type": "Experimento comportamental intrassujeito",
+        "method": "Delineamento 2 (valência emocional) x 2 (estilo expressivo: explícito ou implícito) x 2 (condição: não corrigida ou corrigida), com perguntas de memória e de inferência",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Para desinformação negativa, o efeito foi mais forte quando declarada explicitamente do que quando implícita, e a explícita foi mais difícil de corrigir.",
+        "abstract_quote": "for negative misinformation, the CIE was stronger in the explicitly stated condition compared with the implied condition"
+      },
+      {
+        "id": "C42",
+        "study_type": "Experimento comportamental intrassujeito",
+        "method": "Leitura de notícias fictícias com desinformação e correção em papel e em tela, com relato de emoções epistêmicas",
+        "sample_size": "N = 84",
+        "main_finding": "Não houve diferenças confiáveis no efeito de influência continuada conforme o meio de leitura (papel ou tela).",
+        "abstract_quote": "There were no reliable differences in the continued misinformation effect by reading medium."
+      },
+      {
+        "id": "C40",
+        "study_type": "Experimento comportamental",
+        "method": "Leitura de quatro cenários militares, dois com informação falsa depois retratada e dois sem, seguida de avaliação do raciocínio inferencial",
+        "sample_size": "61 participants",
+        "main_finding": "Não houve evidência do efeito de influência continuada, mas surgiu um efeito de supercorreção na tomada de decisão.",
+        "abstract_quote": "The results did not reveal any evidence of the CIE"
+      }
+    ]
+  },
+  "text": "{\"items\":[{\"id\":\"C11\",\"study_type\":\"Experimento comportamental (2 experimentos)\",\"method\":\"Manipulação da credibilidade (confiabilidade e expertise) da fonte da retratação em relatos de eventos; medida de dependência da desinformação no raciocínio\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"A confiabilidade da fonte, mas não sua expertise, influencia a eficácia da retratação, e retratações de fontes pouco confiáveis são totalmente ineficazes.\",\"abstract_quote\":\"source trustworthiness but not source expertise indeed influences retraction effectiveness, with retractions from low-trustworthiness sources entirely ineffective\"},{\"id\":\"C48\",\"study_type\":\"Experimento comportamental (2 experimentos)\",\"method\":\"Manipulação independente da credibilidade do informante e do retratador em notícia fictícia, com grupo controle sem informação nem retratação\",\"sample_size\":\"N = 151, N = 146\",\"main_finding\":\"O efeito de influência continuada depende da credibilidade relativa de informante e retratador, mas também ocorreu com fontes igualmente credíveis, o que um relato puramente racional não explica.\",\"abstract_quote\":\"when the informant was more credible than the retractor, participants showed a CIE compared to control participants who saw neither the information nor the retraction\"},{\"id\":\"C22\",\"study_type\":\"Experimento comportamental (2 experimentos)\",\"method\":\"Comparação de correções que explicam a origem da desinformação (engano intencional ou erro não intencional) com correção que apenas a identifica como falsa\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Explicar a origem da desinformação, deliberada ou acidental, não tornou a correção mais eficaz do que apenas declarar que a informação é falsa.\",\"abstract_quote\":\"Experiment 2 found no evidence that corrections explaining the reason the misinformation was presented, were more effective than a correction not accompanied by an explanation\"},{\"id\":\"C23\",\"study_type\":\"Experimento comportamental (2 experimentos)\",\"method\":\"Comparação de desacreditação da fonte, correção da mensagem e combinação de ambas, com desinformação fictícia sobre eventos; fontes pessoa versus mídia\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Desacreditar a fonte reduziu a dependência da desinformação, menos que a correção isolada, e a combinação das duas foi a mais eficaz.\",\"abstract_quote\":\"The discreditation alone was effective, but less effective than a correction, with the combination of both most effective.\"},{\"id\":\"C07\",\"study_type\":\"Experimento comportamental (2 experimentos) com reteste após 7 dias\",\"method\":\"Técnica de explicação alternativa isolada e combinada com aviso prévio (Exp. 1) ou inoculação (Exp. 2); medida da dependência da desinformação ao longo do tempo\",\"sample_size\":\"N = 441\",\"main_finding\":\"A alternativa reduziu o efeito de influência continuada, e a combinação com aviso prévio ou inoculação reforçou a proteção no pré-teste, mas a proteção não se sustentou em 7 dias.\",\"abstract_quote\":\"We found that an alternative reduced CIE while combining it with a forewarning or inoculation boosted this protective effect in the pretest.\"},{\"id\":\"C01\",\"study_type\":\"Experimento comportamental\",\"method\":\"Inoculação versus ausência de inoculação, combinada com a confiabilidade da fonte da correção; medida de dependência e de crença na desinformação\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"A inoculação reduziu a dependência da desinformação quando a correção vinha de fonte altamente credível.\",\"abstract_quote\":\"inoculated participants relied on misinformation less when the correction came from a highly credible source\"},{\"id\":\"C09\",\"study_type\":\"Experimento comportamental (2 experimentos)\",\"method\":\"Paradigma de influência continuada com fronteiras espaciais de segmentação de eventos para manipular a integração da retratação\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Uma fronteira de evento não teve efeito no Exp. 1 e reduziu o efeito de influência continuada no Exp. 2, o que favorece as explicações baseadas em recuperação.\",\"abstract_quote\":\"Experiment 2 yielded evidence that an event boundary resulted in a reduced CIE\"},{\"id\":\"C08\",\"study_type\":\"Experimento comportamental (3 estudos)\",\"method\":\"Manipulação de três fatores (visar a desinformação, fornecer explicação alternativa, importância do conteúdo) com duas medidas de influência continuada e grupo-base sem exposição\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Fornecer uma explicação alternativa reduziu consistentemente o efeito, e combiná-la com o alvo direto na desinformação pôde eliminá-lo em certas condições.\",\"abstract_quote\":\"we found that alternative provision consistently resulted in CIE reduction\"},{\"id\":\"C14\",\"study_type\":\"Experimento comportamental online (com réplica pré-registrada)\",\"method\":\"Comparação de perguntas abertas e fechadas como medidas do efeito de influência continuada em relato de evento com uma afirmação corrigida\",\"sample_size\":\"Exp. 1A, n = 78; Exp. 1B, n = 75; Exps. 2A and 2B, n = 323\",\"main_finding\":\"O efeito apareceu em todas as condições, e as referências à desinformação foram semelhantes nos formatos aberto e fechado.\",\"abstract_quote\":\"We observed the CIE in all conditions: Participants continued to refer to the misinformation following a correction\"},{\"id\":\"C04\",\"study_type\":\"Experimento comportamental (3 experimentos)\",\"method\":\"Comparação de recordação individual, colaboração por turnos e colaboração livre em diferentes intervalos de recordação\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"A colaboração por turnos reduziu consistentemente o efeito de influência continuada, enquanto o efeito da colaboração livre dependeu do tempo de recordação.\",\"abstract_quote\":\"Results revealed that turn-taking collaboration consistently mitigates the CIE\"},{\"id\":\"C21\",\"study_type\":\"Experimento comportamental com simulador de direção\",\"method\":\"Manipulação do número de correções (uma ou várias) e da carga cognitiva (tarefa matemática) durante a codificação de correções auditivas\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Múltiplas correções foram mais eficazes que uma única, e a carga cognitiva reduziu a eficácia da correção, sem evidência de efeito backfire de familiaridade.\",\"abstract_quote\":\"Multiple corrections were more effective than a single correction; cognitive load reduced correction effectiveness, with a single correction entirely ineffective under load.\"},{\"id\":\"C26\",\"study_type\":\"Experimento comportamental (2 experimentos)\",\"method\":\"Comparação de correções negadas, substituições e ausência de correção, com manipulação da exposição prévia ao conceito-alvo; perguntas abertas\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Correções negadas reduziram menções à desinformação quando houve exposição prévia, mas as aumentaram quando não houve.\",\"abstract_quote\":\"when not exposed to the concept, negated corrections increased mentions relative to no correction\"},{\"id\":\"C02\",\"study_type\":\"Experimento comportamental (4 experimentos)\",\"method\":\"Formação dinâmica de impressão sobre um protagonista fictício, com desinformação positiva ou negativa depois retratada\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Os participantes descartaram totalmente a desinformação retratada sobre a pessoa, sem influência continuada nas impressões.\",\"abstract_quote\":\"in each experiment participants fully discounted the misinformation once retracted\"},{\"id\":\"C18\",\"study_type\":\"Experimento comportamental (3 experimentos)\",\"method\":\"Tarefa não dinâmica de formação de impressão sobre pessoa fictícia, com afirmação comportamental negativa retratada ou não\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"A influência continuada da desinformação retratada sobre impressões de pessoa apareceu em um experimento, e nos outros dois a desinformação foi totalmente descartada.\",\"abstract_quote\":\"Evidence for the continued influence of the retracted behaviour statement was found in one experiment; in the other two experiments the retracted misinformation was fully discounted.\"},{\"id\":\"C46\",\"study_type\":\"Experimento comportamental\",\"method\":\"Formação de impressão sobre pessoa fictícia com comportamento de violência doméstica retratado ou não, incluindo nome com estereótipo cultural; avaliações de traços, previsões de comportamento e rosto\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"A alegação retratada não influenciou as impressões explícitas da pessoa, apenas, tentativamente, uma medida indireta.\",\"abstract_quote\":\"Discredited misinformation was found to influence neither trait ratings of the person nor behavior predictions.\"},{\"id\":\"C03\",\"study_type\":\"Estudo experimental exploratório com eletroencefalografia (ERPs)\",\"method\":\"Tarefa de influência continuada com registro eletroencefalográfico; comparação de potenciais evocados para desinformação retratada e informação verdadeira\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"A dependência da desinformação após a retratação pode refletir uma recordação particularmente forte da desinformação, após integração deficiente da retratação.\",\"abstract_quote\":\"This suggests that post-retraction reliance on misinformation may be driven by particularly strong recollection of the misinformation\"},{\"id\":\"C16\",\"study_type\":\"Experimento comportamental\",\"method\":\"Manipulação do papel causal da informação corrigida em histórias lidas previamente, com histórias de desfecho negativo ou não\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"A desinformação corrigida que preenche uma lacuna causal de uma história lida teve efeito mais forte nas crenças do que informação apenas relacionada ao tema.\",\"abstract_quote\":\"corrected misinformation was found to have a stronger effect on people's beliefs than information that was topically related to the story if it helped to provide a causal explanation of a story they had read previously\"},{\"id\":\"C29\",\"study_type\":\"Experimento comportamental (2 experimentos)\",\"method\":\"Comparação de ruminadores depressivos e controles quanto à eficácia de retratações de desinformação negativa e positiva\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Em ruminadores depressivos, retratações de desinformação negativa foram pelo menos tão eficazes quanto nos controles, contra a hipótese de menor eficácia.\",\"abstract_quote\":\"in depressive ruminators, retractions of negative misinformation were at least as effective as they were in control participants\"},{\"id\":\"C30\",\"study_type\":\"Experimento comportamental intrassujeito\",\"method\":\"Delineamento 2 (valência emocional) x 2 (estilo expressivo: explícito ou implícito) x 2 (condição: não corrigida ou corrigida), com perguntas de memória e de inferência\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Para desinformação negativa, o efeito foi mais forte quando declarada explicitamente do que quando implícita, e a explícita foi mais difícil de corrigir.\",\"abstract_quote\":\"for negative misinformation, the CIE was stronger in the explicitly stated condition compared with the implied condition\"},{\"id\":\"C42\",\"study_type\":\"Experimento comportamental intrassujeito\",\"method\":\"Leitura de notícias fictícias com desinformação e correção em papel e em tela, com relato de emoções epistêmicas\",\"sample_size\":\"N = 84\",\"main_finding\":\"Não houve diferenças confiáveis no efeito de influência continuada conforme o meio de leitura (papel ou tela).\",\"abstract_quote\":\"There were no reliable differences in the continued misinformation effect by reading medium.\"},{\"id\":\"C40\",\"study_type\":\"Experimento comportamental\",\"method\":\"Leitura de quatro cenários militares, dois com informação falsa depois retratada e dois sem, seguida de avaliação do raciocínio inferencial\",\"sample_size\":\"61 participants\",\"main_finding\":\"Não houve evidência do efeito de influência continuada, mas surgiu um efeito de supercorreção na tomada de decisão.\",\"abstract_quote\":\"The results did not reveal any evidence of the CIE\"}]}",
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 12113,
+    "cache_read_input_tokens": 910,
+    "output_tokens": 6479,
+    "output_tokens_details": {
+      "thinking_tokens": 1948
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 12113,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 6479,
+        "cache_read_input_tokens": 910,
+        "cache_creation_input_tokens": 12113,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 12113
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 2,
+  "duration_s": 39.17,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "items": "[{\"id\": \"C11\", \"study_type\": \"Experimento comportamental (2 experimentos)\", \"method\": \"Manipulação da credibilidade (confiabilidade e expertise) da fonte da retratação em relatos de eventos; medida d…"
+      }
+    }
+  ]
+}

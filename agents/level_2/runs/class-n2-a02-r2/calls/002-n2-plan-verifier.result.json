@@ -1,0 +1,31 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Tema coberto: critério 1 lista as organizações citadas no pedido (Lupa, Aos Fatos, Estadão Verifica, Fato ou Fake, Comprova) e exige que o objeto seja a organização/prática, não a desinformação em geral",
+      "Foco temático coberto: critério 2 reproduz rotinas, métodos, critérios, fontes, transparência, financiamento e IA, exatamente como no pedido",
+      "Período coberto: critério 3 fixa 2018 a 2025 inclusive, e o how_to_check manda conferir o ano no Crossref/OpenAlex e na página do periódico",
+      "Tipo de publicação coberto: critério 4 exige artigo de periódico revisado por pares e critério 5 lista todas as exclusões do pedido (revisões, meta-análises, ensaios, preprints, anais, capítulos, teses, resenhas)",
+      "Desenho empírico coberto: critério 6 exige dados próprios (entrevistas, questionários, análise de conteúdo ou análise documental) e o how_to_check manda confirmar no resumo e na seção de métodos",
+      "Comparativos internacionais: critério 7 mantém a regra de só valer se incluírem organizações brasileiras, com verificação concreta no how_to_check",
+      "Exclusões temáticas cobertas: critérios 8 e 9 excluem estudos centrados em eleições, governos específicos ou COVID-19 e estudos de efeito no público, com termos de busca para detectar esses focos",
+      "Campos de saída cobertos: critério 10 exige os oito campos do pedido, incluindo tamanho da amostra literal do resumo ou 'não informado no resumo' e trecho literal entre aspas",
+      "Consultas em inglês: quatro consultas em inglês cobrem fact-checking, rotinas/métodos, financiamento e IA, com nomes das organizações brasileiras",
+      "Consultas em português: quatro consultas em português cobrem checagem de fatos, os nomes das organizações e termos como análise de conteúdo e entrevistas, inclusive no SciELO",
+      "Verificabilidade: cada critério tem procedimento concreto no how_to_check (DOI resolvendo no doi.org, type = journal-article no Crossref, deduplicação por DOI e título, registro do motivo das exclusões)"
+    ],
+    "issues": [],
+    "feedback": "Plano aprovado. Sugestões opcionais para a execução: (1) na consulta 1, acrescentar 'factchecker' como variante para pegar estudos que usam a grafia sem hífen; (2) considerar uma consulta adicional com nomes de outras checadoras (UOL Confere, Boatos.org, E-farsas, Aos Fatos em português) para garantir que os 25 artigos fechem sem depender só das cinco organizações principais; (3) ao aplicar a exclusão de estudos eleitorais, ficar atento a estudos que citam eleições apenas como contexto e não como foco, para não excluir artigos válidos."
+  },
+  "text": "{\"approved\": true, \"checked\": [\"Tema coberto: critério 1 lista as organizações citadas no pedido (Lupa, Aos Fatos, Estadão Verifica, Fato ou Fake, Comprova) e exige que o objeto seja a organização/prática, não a desinformação em geral\", \"Foco temático coberto: critério 2 reproduz rotinas, métodos, critérios, fontes, transparência, financiamento e IA, exatamente como no pedido\", \"Período coberto: critério 3 fixa 2018 a 2025 inclusive, e o how_to_check manda conferir o ano no Crossref/OpenAlex e na página do periódico\", \"Tipo de publicação coberto: critério 4 exige artigo de periódico revisado por pares e critério 5 lista todas as exclusões do pedido (revisões, meta-análises, ensaios, preprints, anais, capítulos, teses, resenhas)\", \"Desenho empírico coberto: critério 6 exige dados próprios (entrevistas, questionários, análise de conteúdo ou análise documental) e o how_to_check manda confirmar no resumo e na seção de métodos\", \"Comparativos internacionais: critério 7 mantém a regra de só valer se incluírem organizações brasileiras, com verificação concreta no how_to_check\", \"Exclusões temáticas cobertas: critérios 8 e 9 excluem estudos centrados em eleições, governos específicos ou COVID-19 e estudos de efeito no público, com termos de busca para detectar esses focos\", \"Campos de saída cobertos: critério 10 exige os oito campos do pedido, incluindo tamanho da amostra literal do resumo ou 'não informado no resumo' e trecho literal entre aspas\", \"Consultas em inglês: quatro consultas em inglês cobrem fact-checking, rotinas/métodos, financiamento e IA, com nomes das organizações brasileiras\", \"Consultas em português: quatro consultas em português cobrem checagem de fatos, os nomes das organizações e termos como análise de conteúdo e entrevistas, inclusive no SciELO\", \"Verificabilidade: cada critério tem procedimento concreto no how_to_check (DOI resolvendo no doi.org, type = journal-article no Crossref, deduplicação por DOI e título, registro do motivo das exclusões)\"], \"issues\": [], \"feedback\": \"Plano aprovado. Sugestões opcionais para a execução: (1) na consulta 1, acrescentar 'factchecker' como variante para pegar estudos que usam a grafia sem hífen; (2) considerar uma consulta adicional com nomes de outras checadoras (UOL Confere, Boatos.org, E-farsas, Aos Fatos em português) para garantir que os 25 artigos fechem sem depender só das cinco organizações principais; (3) ao aplicar a exclusão de estudos eleitorais, ficar atento a estudos que citam eleições apenas como contexto e não como foco, para não excluir artigos válidos.\"}",
+  "usage": {
+    "input_tokens": 2141,
+    "output_tokens": 814,
+    "cost_usd": 0.00073
+  },
+  "duration_s": 20.45,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

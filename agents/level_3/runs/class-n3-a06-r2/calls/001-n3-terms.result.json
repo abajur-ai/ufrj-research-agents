@@ -1,0 +1,95 @@
+{
+  "structured": {
+    "year_from": 2018,
+    "year_to": 2025,
+    "queries_en": [
+      "clickbait headlines effects on readers",
+      "clickbait news headlines experiment",
+      "clickbait eye tracking news readers",
+      "clickbait EEG neural responses headlines",
+      "clickbait headlines click-through engagement data",
+      "clickbait credibility news survey",
+      "curiosity gap headlines reader response",
+      "clickbait social media users sharing behavior",
+      "forward-referencing headlines user attention",
+      "clickbait news trust audience perception"
+    ],
+    "queries_pt": [
+      "clickbait manchetes efeitos leitores",
+      "manchetes caça-cliques notícias experimento",
+      "clickbait credibilidade notícias leitores",
+      "caça-cliques jornalismo engajamento usuários",
+      "clickbait percepção do público notícias",
+      "títulos sensacionalistas notícias online recepção"
+    ],
+    "include": [
+      "Artigo de periódico revisado por pares, publicado entre 2018 e 2025",
+      "Estudo empírico com dados próprios de leitores ou usuários (experimento, survey, questionário, entrevistas, EEG, rastreamento ocular, cliques ou engajamento)",
+      "Tema central: efeitos ou respostas de leitores/usuários a manchetes clickbait ou caça-cliques (atenção, credibilidade, confiança, intenção de clicar, compartilhamento, emoção, compreensão, engajamento)",
+      "Contexto de notícias ou mídia noticiosa online/social",
+      "Resumo disponível que permita identificar método e achado principal"
+    ],
+    "exclude": [
+      "Modelos computacionais de detecção, classificação ou geração de clickbait (machine learning, NLP, deep learning)",
+      "Análises apenas linguísticas ou de conteúdo de manchetes sem dados de leitores ou usuários",
+      "Estudos com recorte político ou eleitoral (campanhas, eleições, polarização partidária, desinformação política)",
+      "Revisões de literatura, revisões sistemáticas, meta-análises, ensaios teóricos ou conceituais, resenhas",
+      "Preprints, trabalhos de anais de congresso, capítulos de livro, teses e dissertações",
+      "Publicações fora do período 2018–2025",
+      "Estudos sem dados empíricos próprios (comentários, editoriais, análises de literatura)",
+      "Clickbait fora do contexto de notícias (publicidade, marketing de produtos, YouTube de entretenimento) sem relação com leitores de notícias"
+    ]
+  },
+  "text": "{\"year_from\":2018,\"year_to\":2025,\"queries_en\":[\"clickbait headlines effects on readers\",\"clickbait news headlines experiment\",\"clickbait eye tracking news readers\",\"clickbait EEG neural responses headlines\",\"clickbait headlines click-through engagement data\",\"clickbait credibility news survey\",\"curiosity gap headlines reader response\",\"clickbait social media users sharing behavior\",\"forward-referencing headlines user attention\",\"clickbait news trust audience perception\"],\"queries_pt\":[\"clickbait manchetes efeitos leitores\",\"manchetes caça-cliques notícias experimento\",\"clickbait credibilidade notícias leitores\",\"caça-cliques jornalismo engajamento usuários\",\"clickbait percepção do público notícias\",\"títulos sensacionalistas notícias online recepção\"],\"include\":[\"Artigo de periódico revisado por pares, publicado entre 2018 e 2025\",\"Estudo empírico com dados próprios de leitores ou usuários (experimento, survey, questionário, entrevistas, EEG, rastreamento ocular, cliques ou engajamento)\",\"Tema central: efeitos ou respostas de leitores/usuários a manchetes clickbait ou caça-cliques (atenção, credibilidade, confiança, intenção de clicar, compartilhamento, emoção, compreensão, engajamento)\",\"Contexto de notícias ou mídia noticiosa online/social\",\"Resumo disponível que permita identificar método e achado principal\"],\"exclude\":[\"Modelos computacionais de detecção, classificação ou geração de clickbait (machine learning, NLP, deep learning)\",\"Análises apenas linguísticas ou de conteúdo de manchetes sem dados de leitores ou usuários\",\"Estudos com recorte político ou eleitoral (campanhas, eleições, polarização partidária, desinformação política)\",\"Revisões de literatura, revisões sistemáticas, meta-análises, ensaios teóricos ou conceituais, resenhas\",\"Preprints, trabalhos de anais de congresso, capítulos de livro, teses e dissertações\",\"Publicações fora do período 2018–2025\",\"Estudos sem dados empíricos próprios (comentários, editoriais, análises de literatura)\",\"Clickbait fora do contexto de notícias (publicidade, marketing de produtos, YouTube de entretenimento) sem relação com leitores de notícias\"]}",
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 392,
+    "cache_read_input_tokens": 1681,
+    "output_tokens": 948,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 392,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 948,
+        "cache_read_input_tokens": 1681,
+        "cache_creation_input_tokens": 392,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 392
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 2,
+  "duration_s": 12.65,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "year_from": "2018",
+        "year_to": "2025",
+        "queries_en": "[\"clickbait headlines effects on readers\", \"clickbait news headlines experiment\", \"clickbait eye tracking news readers\", \"clickbait EEG neural responses headlines\", \"clickbait headlines click-through…",
+        "queries_pt": "[\"clickbait manchetes efeitos leitores\", \"manchetes caça-cliques notícias experimento\", \"clickbait credibilidade notícias leitores\", \"caça-cliques jornalismo engajamento usuários\", \"clickbait percepç…",
+        "include": "[\"Artigo de periódico revisado por pares, publicado entre 2018 e 2025\", \"Estudo empírico com dados próprios de leitores ou usuários (experimento, survey, questionário, entrevistas, EEG, rastreamento …",
+        "exclude": "[\"Modelos computacionais de detecção, classificação ou geração de clickbait (machine learning, NLP, deep learning)\", \"Análises apenas linguísticas ou de conteúdo de manchetes sem dados de leitores ou…"
+      }
+    }
+  ]
+}

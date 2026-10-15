@@ -1,0 +1,87 @@
+# Verificador do plano de busca
+Você é um verificador independente. Confira se o plano cobre TODOS os critérios do pedido do pesquisador (tema,
+período, tipo de publicação, método, recorte), se as consultas encontram o tema em inglês e em português, e se cada
+critério tem um jeito concreto de ser conferido. Reprove plano que esquece um critério, muda o período ou o tema.
+Não precisa buscar na web.
+
+COMO RESPONDER
+- approved: false só por ERRO REAL que compromete o resultado (dado errado, critério do pedido violado ou
+  esquecido, fonte que não existe, citação que não está na fonte, afirmação que a fonte não sustenta).
+  Sugestão de melhoria, preferência de estilo ou cobertura que poderia ser maior não reprova: aprove e ponha a
+  sugestão em feedback.
+- checked: o que você conferiu, um item por linha, concreto (por exemplo: 'DOI 10.x abre e o título confere').
+- issues: cada problema numa frase curta que um estudante entenda: o que está errado ou faltou, e onde.
+- feedback: o que o executor precisa fazer na próxima tentativa.
+- Escreva em português do Brasil, sem travessão.
+
+PEDIDO DO PESQUISADOR:
+Encontre 25 artigos científicos revisados por pares, publicados em periódicos entre 2018 e 2025, sobre organizações brasileiras de checagem de fatos (fact-checking), como Agência Lupa, Aos Fatos, Estadão Verifica, Fato ou Fake e Comprova, e suas rotinas, métodos, critérios, fontes, transparência, financiamento ou uso de inteligência artificial. Restrições: estudos empíricos (entrevistas, questionários, análise de conteúdo ou análise documental) sobre a prática das organizações; estudos comparativos internacionais valem se incluírem organizações brasileiras; exclua estudos centrados em eleições, em governos específicos ou na pandemia de COVID-19 e estudos sobre o efeito das checagens no público. Valem apenas artigos de periódico que relatem estudo empírico com dados próprios; não use revisões de literatura, meta-análises, ensaios teóricos, preprints, trabalhos de anais de congresso, capítulos de livro, teses ou resenhas. Para cada artigo, informe: DOI; título; autores; ano de publicação; periódico; tipo de estudo e método; tamanho da amostra exatamente como aparece no resumo (ou "não informado no resumo"); achado principal, em uma frase; e um trecho literal do resumo, entre aspas, que sustente o achado principal.
+
+PLANO A VERIFICAR:
+{
+ "criteria": [
+  "Tema: organizações brasileiras de checagem de fatos (fact-checking), p. ex., Agência Lupa, Aos Fatos, Estadão Verifica, Fato ou Fake, Comprova, Boatos.org, UOL Confere, e suas rotinas, métodos, critérios, fontes, transparência, financiamento ou uso de inteligência artificial.",
+  "Período: publicado entre 2018 e 2025 (ano de publicação do artigo, de 01/01/2018 a 31/12/2025).",
+  "Tipo de publicação: artigo revisado por pares em periódico científico. Excluir preprints, trabalhos de anais de congresso, capítulos de livro, teses e dissertações, resenhas.",
+  "Tipo de estudo: estudo empírico com dados próprios (entrevistas, questionários/surveys, análise de conteúdo ou análise documental) sobre a prática das organizações. Excluir revisões de literatura, meta-análises e ensaios teóricos.",
+  "Recorte geográfico: foco no Brasil; estudos comparativos internacionais só entram se incluírem organizações brasileiras entre as analisadas.",
+  "Exclusão temática 1: estudos centrados em eleições (p. ex., checagem durante campanhas eleitorais).",
+  "Exclusão temática 2: estudos centrados em governos específicos (p. ex., governo Bolsonaro).",
+  "Exclusão temática 3: estudos centrados na pandemia de COVID-19.",
+  "Exclusão temática 4: estudos sobre o efeito das checagens no público (recepção, correção de crenças, experimentos de efeito).",
+  "Meta: 25 artigos que atendam a todos os critérios. Cada um precisa ter DOI, título, autores, ano, periódico, tipo de estudo e método, amostra como aparece no resumo (ou 'não informado no resumo'), achado principal em uma frase e trecho literal do resumo que sustente o achado."
+ ],
+ "queries": [
+  {
+   "query": "(\"fact-checking\" OR \"fact checking\" OR \"fact-checkers\") AND (Brazil OR Brazilian OR Brasil) AND (organizations OR routines OR practices OR methods OR transparency OR funding OR sources)",
+   "language": "en",
+   "database": "OpenAlex"
+  },
+  {
+   "query": "(\"fact-checking\" OR \"fact-checkers\") AND (\"Agência Lupa\" OR \"Aos Fatos\" OR \"Estadão Verifica\" OR \"Fato ou Fake\" OR Comprova) AND (interviews OR \"content analysis\" OR survey OR \"document analysis\")",
+   "language": "en",
+   "database": "OpenAlex"
+  },
+  {
+   "query": "(\"fact-checking\" OR \"fact-checkers\") AND (\"artificial intelligence\" OR automation OR \"automated fact-checking\" OR tools) AND (Brazil OR Latin America OR \"Global South\")",
+   "language": "en",
+   "database": "OpenAlex"
+  },
+  {
+   "query": "(\"fact-checking\" OR \"fact-checkers\") AND (international OR comparative OR \"cross-national\" OR \"Latin America\" OR \"IFCN\") AND (Brazil) AND (transparency OR funding OR \"business models\" OR sustainability OR methodology)",
+   "language": "en",
+   "database": "Crossref"
+  },
+  {
+   "query": "(checagem OR \"checagem de fatos\" OR \"agências de checagem\" OR \"fact-checking\") AND (Lupa OR \"Aos Fatos\" OR \"Estadão Verifica\" OR \"Fato ou Fake\" OR Comprova) AND (rotinas OR métodos OR critérios OR fontes OR transparência OR financiamento)",
+   "language": "pt",
+   "database": "SciELO"
+  },
+  {
+   "query": "(checagem OR \"agências de fact-checking\" OR \"jornalismo de verificação\") AND (\"inteligência artificial\" OR automação OR ferramentas OR algoritmos) AND Brasil",
+   "language": "pt",
+   "database": "SciELO"
+  },
+  {
+   "query": "\"agências de checagem\" brasileiras rotinas produtivas entrevistas OR \"análise de conteúdo\" OR \"análise documental\" artigo periódico 2018..2025",
+   "language": "pt",
+   "database": "busca na web"
+  },
+  {
+   "query": "(\"fact-checking\" OR \"fact-checkers\") (Brazil OR Brasil) journal article interviews with fact-checkers newsroom practices funding transparency 2018..2025",
+   "language": "en",
+   "database": "busca na web"
+  }
+ ],
+ "how_to_check": [
+  "Tema/organização brasileira: ler título, resumo e palavras-chave e confirmar que o objeto são organizações brasileiras de checagem (ou, em estudo comparativo, que o resumo ou a metodologia citam organizações do Brasil). Em caso de dúvida, abrir o texto completo para ver a lista de organizações analisadas.",
+  "Foco em rotinas/métodos/critérios/fontes/transparência/financiamento/IA: confirmar no resumo que ao menos um desses aspectos é o objeto de análise. Descartar se o foco for só desinformação em geral ou só o conteúdo das checagens sem tratar da prática.",
+  "Período: conferir o ano de publicação em OpenAlex/Crossref (publication_year, issued, date) e na página do periódico. Quando a edição for de ano diferente da publicação online, registrar o ano oficial do periódico e anotar a divergência.",
+  "Tipo de publicação: confirmar no Crossref/OpenAlex que type = journal-article e que há periódico (container-title). Verificar o site do periódico para a revisão por pares. Excluir preprints (SSRN, SocArXiv, arXiv), anais, capítulos, teses e resenhas.",
+  "Tipo de estudo empírico com dados próprios: no resumo e na metodologia, procurar entrevistas, questionário, análise de conteúdo ou análise documental com corpus próprio. Excluir revisões, meta-análises e ensaios teóricos, mesmo que citem organizações brasileiras.",
+  "Exclusões temáticas: procurar no título, resumo e palavras-chave os termos eleições/eleitoral/campanha, nomes de governos ou presidentes, COVID-19/pandemia/coronavírus, e efeito/recepção/correção de crenças/experimento com público. Se o corpus ou o foco principal for um desses, excluir. Menção apenas contextual não exclui.",
+  "Verificação do DOI: confirmar que o DOI resolve (doi.org ou Crossref) e que o título e os autores batem com o registro. Remover duplicatas (mesmo DOI, ou versão em outro idioma do mesmo artigo).",
+  "Campos extraídos do resumo: copiar a amostra exatamente como aparece (p. ex., 'n = 12 entrevistas', '1.200 checagens') ou escrever 'não informado no resumo'. Copiar o trecho literal entre aspas direto do resumo publicado, sem traduzir ou parafrasear, e conferir que ele sustenta o achado principal.",
+  "Contagem: manter uma tabela de candidatos com status (incluído/excluído e o critério que motivou a exclusão). Se após rodar todas as consultas houver menos de 25 aprovados, reportar o número real em vez de completar com itens que não cumprem os critérios, e sugerir consultas adicionais (outras organizações como Boatos.org, UOL Confere, Projeto Comprova, e a base Redalyc/DOAJ)."
+ ]
+}

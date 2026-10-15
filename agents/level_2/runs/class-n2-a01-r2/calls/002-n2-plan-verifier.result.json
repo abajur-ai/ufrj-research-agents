@@ -1,0 +1,32 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Tema coberto: o plano define o continued influence effect como uso continuado de informação falsa após correção/retratação, igual ao pedido.",
+      "Período coberto: 2018 a 2025 inclusive, com regra para usar o ano da versão final no periódico, não o online-first.",
+      "Tipo de publicação coberto: só artigo de periódico revisado por pares, com exclusão explícita de preprint, anais, capítulo, tese e resenha.",
+      "Tipo de estudo coberto: exige relato empírico com dados próprios e exclui revisão, meta-análise, ensaio teórico e comentário, como pedido.",
+      "Método coberto: experimento com participantes humanos medindo crença ou raciocínio após correção/retratação.",
+      "Recorte de materiais coberto: exige estímulos neutros (cenários fictícios, relatos inventados) e exclui política, eleitoral, vacinas, COVID-19, com regra adicional para estudos mistos ou de saúde.",
+      "Entregáveis cobertos: todos os nove campos do pedido estão listados (DOI, título, autores, ano, periódico, tipo de estudo e método, amostra como no resumo, achado, trecho literal entre aspas).",
+      "Meta coberta: 25 artigos, com regra de não preencher com itens inelegíveis e informar faltas, igual ao espírito do pedido.",
+      "Consultas em inglês: seis consultas usam a expressão exata \"continued influence effect\" e variantes com correção, retratação, inferência e raciocínio, adequadas à literatura do tema.",
+      "Consultas em português: há duas consultas pt com a tradução do termo e palavras-chave de desinformação, correção e experimento.",
+      "Como conferir: cada critério tem procedimento concreto, incluindo metadados OpenAlex/Crossref, resolução de DOI, verificação de amostra exata do resumo e cópia literal de trecho.",
+      "Sem violação: o plano não altera período, não amplia tema e não substitui nenhum critério do pedido."
+    ],
+    "issues": [],
+    "feedback": "Plano aprovado. Sugestões não bloqueantes: (1) as consultas em português provavelmente vão retornar poucos resultados, pois a literatura sobre CIE é quase toda em inglês; considere usar esses resultados apenas como complemento e priorizar as buscas em inglês. (2) Na checagem de trecho literal, vale registrar também a fonte da página do resumo (editor ou Crossref) para facilitar auditoria. (3) Na regra de materiais mistos, deixar explícito o passo de excluir quando houver qualquer estímulo político ou de saúde, mesmo em minoria, para reduzir subjetividade."
+  },
+  "text": "{\"approved\": true,\"checked\": [\"Tema coberto: o plano define o continued influence effect como uso continuado de informação falsa após correção/retratação, igual ao pedido.\", \"Período coberto: 2018 a 2025 inclusive, com regra para usar o ano da versão final no periódico, não o online-first.\", \"Tipo de publicação coberto: só artigo de periódico revisado por pares, com exclusão explícita de preprint, anais, capítulo, tese e resenha.\", \"Tipo de estudo coberto: exige relato empírico com dados próprios e exclui revisão, meta-análise, ensaio teórico e comentário, como pedido.\", \"Método coberto: experimento com participantes humanos medindo crença ou raciocínio após correção/retratação.\", \"Recorte de materiais coberto: exige estímulos neutros (cenários fictícios, relatos inventados) e exclui política, eleitoral, vacinas, COVID-19, com regra adicional para estudos mistos ou de saúde.\", \"Entregáveis cobertos: todos os nove campos do pedido estão listados (DOI, título, autores, ano, periódico, tipo de estudo e método, amostra como no resumo, achado, trecho literal entre aspas).\", \"Meta coberta: 25 artigos, com regra de não preencher com itens inelegíveis e informar faltas, igual ao espírito do pedido.\", \"Consultas em inglês: seis consultas usam a expressão exata \\\"continued influence effect\\\" e variantes com correção, retratação, inferência e raciocínio, adequadas à literatura do tema.\", \"Consultas em português: há duas consultas pt com a tradução do termo e palavras-chave de desinformação, correção e experimento.\", \"Como conferir: cada critério tem procedimento concreto, incluindo metadados OpenAlex/Crossref, resolução de DOI, verificação de amostra exata do resumo e cópia literal de trecho.\",\"Sem violação: o plano não altera período, não amplia tema e não substitui nenhum critério do pedido.\"],\"issues\": [],\"feedback\": \"Plano aprovado. Sugestões não bloqueantes: (1) as consultas em português provavelmente vão retornar poucos resultados, pois a literatura sobre CIE é quase toda em inglês; considere usar esses resultados apenas como complemento e priorizar as buscas em inglês. (2) Na checagem de trecho literal, vale registrar também a fonte da página do resumo (editor ou Crossref) para facilitar auditoria. (3) Na regra de materiais mistos, deixar explícito o passo de excluir quando houver qualquer estímulo político ou de saúde, mesmo em minoria, para reduzir subjetividade.\"}",
+  "usage": {
+    "input_tokens": 2149,
+    "output_tokens": 735,
+    "cost_usd": 0.00069
+  },
+  "duration_s": 7.13,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

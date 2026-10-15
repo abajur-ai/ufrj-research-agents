@@ -1,0 +1,30 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Tema: critério 1 cobre as organizações brasileiras citadas no pedido (Lupa, Aos Fatos, Estadão Verifica, Fato ou Fake, Comprova) e os aspectos exigidos (rotinas, métodos, critérios, fontes, transparência, financiamento, IA).",
+      "Período: critério 2 fixa 2018 a 2025 com datas exatas, e o how_to_check manda conferir o ano em OpenAlex/Crossref e na página do periódico.",
+      "Tipo de publicação: critério 3 restringe a artigo de periódico revisado por pares e repete as exclusões do pedido (preprints, anais, capítulos, teses, resenhas); o how_to_check pede type = journal-article no Crossref/OpenAlex.",
+      "Tipo de estudo: critério 4 exige estudo empírico com dados próprios (entrevistas, questionários, análise de conteúdo ou documental) e exclui revisões, meta-análises e ensaios teóricos.",
+      "Recorte: critério 5 admite comparativos internacionais só se incluírem organizações brasileiras, como no pedido.",
+      "Exclusões: critérios 6 a 9 cobrem eleições, governos específicos, COVID-19 e efeito no público, e o how_to_check define busca por termos de exclusão no título, resumo e palavras-chave, com regra de menção contextual.",
+      "Meta e campos: critério 10 exige 25 artigos com DOI, título, autores, ano, periódico, método, amostra como no resumo, achado em uma frase e trecho literal entre aspas.",
+      "Consultas em inglês: 4 consultas em inglês (OpenAlex e Crossref) cobrem fact-checking, nomes das organizações, IA, comparação internacional e financiamento.",
+      "Consultas em português: 2 consultas em SciELO e 2 buscas na web cobrem checagem, organizações nomeadas, IA e termos de método em português.",
+      "Conferência concreta: o how_to_check dá procedimento verificável para cada critério, incluindo resolução do DOI no doi.org, checagem de duplicatas, tabela de candidatos com status e regra de não completar a lista com itens fora dos critérios."
+    ],
+    "issues": [],
+    "feedback": "Plano aprovado. Sugestões para a execução: acrescente filtro de ano (2018 a 2025) diretamente nas consultas do OpenAlex e Crossref para reduzir triagem manual; considere ampliar a busca em português além do SciELO (as organizações de checagem brasileiras são mais cobertas por periódicos de comunicação indexados em outras bases, como Redalyc e DOAJ, que o plano só menciona como fallback); e lembre que periódicos brasileiros costumam publicar em português, então vale testar também os termos 'verificação de fatos' e 'jornalismo de checagem' nas consultas em português."
+  },
+  "text": "{\"approved\": true, \"checked\": [\"Tema: critério 1 cobre as organizações brasileiras citadas no pedido (Lupa, Aos Fatos, Estadão Verifica, Fato ou Fake, Comprova) e os aspectos exigidos (rotinas, métodos, critérios, fontes, transparência, financiamento, IA).\", \"Período: critério 2 fixa 2018 a 2025 com datas exatas, e o how_to_check manda conferir o ano em OpenAlex/Crossref e na página do periódico.\", \"Tipo de publicação: critério 3 restringe a artigo de periódico revisado por pares e repete as exclusões do pedido (preprints, anais, capítulos, teses, resenhas); o how_to_check pede type = journal-article no Crossref/OpenAlex.\", \"Tipo de estudo: critério 4 exige estudo empírico com dados próprios (entrevistas, questionários, análise de conteúdo ou documental) e exclui revisões, meta-análises e ensaios teóricos.\", \"Recorte: critério 5 admite comparativos internacionais só se incluírem organizações brasileiras, como no pedido.\", \"Exclusões: critérios 6 a 9 cobrem eleições, governos específicos, COVID-19 e efeito no público, e o how_to_check define busca por termos de exclusão no título, resumo e palavras-chave, com regra de menção contextual.\", \"Meta e campos: critério 10 exige 25 artigos com DOI, título, autores, ano, periódico, método, amostra como no resumo, achado em uma frase e trecho literal entre aspas.\", \"Consultas em inglês: 4 consultas em inglês (OpenAlex e Crossref) cobrem fact-checking, nomes das organizações, IA, comparação internacional e financiamento.\", \"Consultas em português: 2 consultas em SciELO e 2 buscas na web cobrem checagem, organizações nomeadas, IA e termos de método em português.\", \"Conferência concreta: o how_to_check dá procedimento verificável para cada critério, incluindo resolução do DOI no doi.org, checagem de duplicatas, tabela de candidatos com status e regra de não completar a lista com itens fora dos critérios.\"], \"issues\": [], \"feedback\": \"Plano aprovado. Sugestões para a execução: acrescente filtro de ano (2018 a 2025) diretamente nas consultas do OpenAlex e Crossref para reduzir triagem manual; considere ampliar a busca em português além do SciELO (as organizações de checagem brasileiras são mais cobertas por periódicos de comunicação indexados em outras bases, como Redalyc e DOAJ, que o plano só menciona como fallback); e lembre que periódicos brasileiros costumam publicar em português, então vale testar também os termos 'verificação de fatos' e 'jornalismo de checagem' nas consultas em português.\"}",
+  "usage": {
+    "input_tokens": 2450,
+    "output_tokens": 897,
+    "cost_usd": 0.00082
+  },
+  "duration_s": 8.11,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

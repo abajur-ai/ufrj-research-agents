@@ -1,0 +1,32 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Período extraído: 2018 a 2025, idêntico ao pedido do pesquisador.",
+      "Restrição de tipo de publicação: apenas artigos de periódico revisados por pares; revisões, meta-análises, ensaios teóricos, resenhas, preprints, anais de congresso, capítulos de livro e teses aparecem na lista de exclusão, igual ao pedido.",
+      "Restrição de dado empírico: critérios de inclusão exigem dados próprios de leitores ou usuários (experimento, survey, questionário, EEG, rastreamento ocular, cliques, engajamento), cobrindo os métodos citados no pedido.",
+      "Exclusão de modelos computacionais de detecção, classificação ou geração de clickbait presente, igual ao pedido.",
+      "Exclusão de análises apenas linguísticas sem dados de leitores presente, igual ao pedido.",
+      "Exclusão de recorte político ou eleitoral presente, com exemplos (campanhas, eleições, polarização, desinformação política) compatíveis com o pedido.",
+      "Foco temático dos critérios de inclusão (efeitos em atenção, credibilidade, confiança, clique, compartilhamento, emoção, compreensão, engajamento) corresponde ao tema do pedido.",
+      "Consulta em inglês cobre efeitos gerais, experimentos, rastreamento ocular, EEG, dados de cliques, survey, curiosity gap, compartilhamento, forward-referencing e confiança, refletindo os métodos e desdobramentos do pedido.",
+      "Consultas em português cobrem efeitos, experimento, credibilidade, engajamento, percepção do público e termos alternativos como títulos sensacionalistas.",
+      "Exclusão de clickbait fora do contexto de notícias (publicidade, marketing, entretenimento) é coerente com o tema do pedido, que é efeito sobre leitores e usuários de notícias.",
+      "Nenhuma restrição do pedido foi esquecida nas listas de inclusão e exclusão.",
+      "Quantidade de 25 artigos e campos de relatório por artigo (DOI, título, autores, ano, periódico, método, amostra, achado, trecho do resumo) não fazem parte dos critérios de seleção, mas são exigências de saída do pedido."
+    ],
+    "issues": [],
+    "feedback": "Sem correções obrigatórias. Sugestões: incluir no critério de saída a exigência dos campos por artigo (DOI, título, autores, ano, periódico, método, amostra exatamente como no resumo, achado principal e trecho literal entre aspas) e a meta de 25 artigos, para que o executor trate tudo como requisito verificável. Na inclusão, o termo entrevistas foi acrescentado além da lista do pedido; como a lista do pedido usa exemplos e entrevistas ainda são dados empíricos de leitores, não reprova, mas vale explicitar que é interpretação do executor. Nas buscas em português, vale acrescentar variantes como manchetes isca e título-isca, e em inglês sinônimos como sensational headlines e deception-based headlines, para ampliar a cobertura sem mudar os critérios."
+  },
+  "text": "{\n \"approved\": true,\n \"checked\": [\n  \"Período extraído: 2018 a 2025, idêntico ao pedido do pesquisador.\",\n  \"Restrição de tipo de publicação: apenas artigos de periódico revisados por pares; revisões, meta-análises, ensaios teóricos, resenhas, preprints, anais de congresso, capítulos de livro e teses aparecem na lista de exclusão, igual ao pedido.\",\n  \"Restrição de dado empírico: critérios de inclusão exigem dados próprios de leitores ou usuários (experimento, survey, questionário, EEG, rastreamento ocular, cliques, engajamento), cobrindo os métodos citados no pedido.\",\n  \"Exclusão de modelos computacionais de detecção, classificação ou geração de clickbait presente, igual ao pedido.\",\n  \"Exclusão de análises apenas linguísticas sem dados de leitores presente, igual ao pedido.\",\n  \"Exclusão de recorte político ou eleitoral presente, com exemplos (campanhas, eleições, polarização, desinformação política) compatíveis com o pedido.\",\n  \"Foco temático dos critérios de inclusão (efeitos em atenção, credibilidade, confiança, clique, compartilhamento, emoção, compreensão, engajamento) corresponde ao tema do pedido.\",\n  \"Consulta em inglês cobre efeitos gerais, experimentos, rastreamento ocular, EEG, dados de cliques, survey, curiosity gap, compartilhamento, forward-referencing e confiança, refletindo os métodos e desdobramentos do pedido.\",\n  \"Consultas em português cobrem efeitos, experimento, credibilidade, engajamento, percepção do público e termos alternativos como títulos sensacionalistas.\",\n  \"Exclusão de clickbait fora do contexto de notícias (publicidade, marketing, entretenimento) é coerente com o tema do pedido, que é efeito sobre leitores e usuários de notícias.\",\n  \"Nenhuma restrição do pedido foi esquecida nas listas de inclusão e exclusão.\",\n  \"Quantidade de 25 artigos e campos de relatório por artigo (DOI, título, autores, ano, periódico, método, amostra, achado, trecho do resumo) não fazem parte dos critérios de seleção, mas são exigências de saída do pedido.\"\n ],\n \"issues\": [],\n \"feedback\": \"Sem correções obrigatórias. Sugestões: incluir no critério de saída a exigência dos campos por artigo (DOI, título, autores, ano, periódico, método, amostra exatamente como no resumo, achado principal e trecho literal entre aspas) e a meta de 25 artigos, para que o executor trate tudo como requisito verificável. Na inclusão, o termo entrevistas foi acrescentado além da lista do pedido; como a lista do pedido usa exemplos e entrevistas ainda são dados empíricos de leitores, não reprova, mas vale explicitar que é interpretação do executor. Nas buscas em português, vale acrescentar variantes como manchetes isca e título-isca, e em inglês sinônimos como sensational headlines e deception-based headlines, para ampliar a cobertura sem mudar os critérios.\"\n}",
+  "usage": {
+    "input_tokens": 1209,
+    "output_tokens": 1665,
+    "cost_usd": 0.00101
+  },
+  "duration_s": 18.47,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

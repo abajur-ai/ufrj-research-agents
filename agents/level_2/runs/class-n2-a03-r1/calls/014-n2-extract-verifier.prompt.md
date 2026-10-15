@@ -1,0 +1,376 @@
+# Verificador da extração de dados
+Você é um verificador independente, com busca na web. Para CADA artigo da lista final: abra o resumo na página
+oficial e confira se o trecho entre aspas está no resumo, letra por letra (diferença só de aspas, pontuação ou
+espaço é aceitável); se a amostra informada aparece no resumo como escrita; se o método e o tipo de estudo estão
+certos; e se o achado principal diz o que o resumo diz, sem exagerar nem acrescentar. Confira também se DOI, título,
+ano e periódico continuam certos. Reprove qualquer citação parafraseada, número de amostra que não está no resumo ou
+achado que vai além do resumo, e diga em qual artigo.
+
+COMO RESPONDER
+- approved: false só por ERRO REAL que compromete o resultado (dado errado, critério do pedido violado ou
+  esquecido, fonte que não existe, citação que não está na fonte, afirmação que a fonte não sustenta).
+  Sugestão de melhoria, preferência de estilo ou cobertura que poderia ser maior não reprova: aprove e ponha a
+  sugestão em feedback.
+- checked: o que você conferiu, um item por linha, concreto (por exemplo: 'DOI 10.x abre e o título confere').
+- issues: cada problema numa frase curta que um estudante entenda: o que está errado ou faltou, e onde.
+- feedback: o que o executor precisa fazer na próxima tentativa.
+- Escreva em português do Brasil, sem travessão.
+
+PEDIDO DO PESQUISADOR:
+Encontre 25 artigos científicos revisados por pares, publicados em periódicos entre 2018 e 2025, sobre desinformação e educação midiática (ou competência em informação) em escolas e universidades brasileiras. Restrições: estudos empíricos feitos no Brasil com estudantes, professores, aulas, currículos ou livros didáticos (questionários, grupos focais, intervenções, relatos de experiência com coleta de dados ou análise documental); estudos comparativos internacionais valem se incluírem amostra brasileira; exclua estudos centrados em COVID-19, vacinas, eleições ou política partidária e estudos com públicos fora do ensino formal. Valem apenas artigos de periódico que relatem estudo empírico com dados próprios; não use revisões de literatura, meta-análises, ensaios teóricos, preprints, trabalhos de anais de congresso, capítulos de livro, teses ou resenhas. Para cada artigo, informe: DOI; título; autores; ano de publicação; periódico; tipo de estudo e método; tamanho da amostra exatamente como aparece no resumo (ou "não informado no resumo"); achado principal, em uma frase; e um trecho literal do resumo, entre aspas, que sustente o achado principal.
+
+LISTA FINAL A VERIFICAR:
+{
+ "items": [
+  {
+   "doi": "10.12957/teias.2025.83022",
+   "title": "Educação midiática no combate à desinformação: percepções e proposições de ação dos professores",
+   "authors": [
+    "Késsia Mileny de Paulo Moura",
+    "Luciana Silva Palmeira",
+    "Samantha Morais de Oliveira Sousa"
+   ],
+   "year": 2025,
+   "venue": "Revista Teias",
+   "study_type": "Estudo empírico qualitativo (pesquisa de campo), com parte teórica prévia",
+   "method": "Pesquisa de campo qualitativa com professores da rede básica de ensino; coleta por questionário online",
+   "sample_size": "não informado no resumo (apenas 'professores da rede básica de ensino')",
+   "main_finding": "Os professores percebem implicações pessoais, sociais e pedagógicas das fake news na escola e propõem ações de educação midiática descritas no resumo como convencionais, porém válidas.",
+   "abstract_quote": "percebem as implicações pessoais, sociais e pedagógicas da chegada da fake news na escola"
+  },
+  {
+   "doi": "10.59666/arete.1984-7505.v24.n38.5277",
+   "title": "Formação inicial de professores e a desinformação: o papel transformador da educação midiática",
+   "authors": [
+    "Igor Pereira dos Santos",
+    "José Ricardo e Souza Mafra"
+   ],
+   "year": 2025,
+   "venue": "Revista Areté | Revista Amazônica de Ensino de Ciências",
+   "study_type": "Estudo empírico qualitativo",
+   "method": "Pesquisa qualitativa com estudantes de Licenciatura em Informática Educacional (o resumo não detalha o instrumento de coleta)",
+   "sample_size": "não informado no resumo",
+   "main_finding": "A educação midiática na formação inicial de professores é apresentada como pilar fundamental para uma sociedade crítica e informada, embora a educação sozinha não resolva o problema da desinformação.",
+   "abstract_quote": "é pilar fundamental na construção de uma sociedade crítica e informada"
+  },
+  {
+   "doi": "10.35168/1980-5276.utp.interin.2025.vol30.n2.pp76-91",
+   "title": "Literacia midiática, cidadania e enfrentamento da desinformação entre os jovens paulistanos",
+   "authors": [
+    "Isabela Afonso Portas",
+    "Egle Müller Spinelli"
+   ],
+   "year": 2025,
+   "venue": "Interin",
+   "study_type": "Estudo empírico qualitativo",
+   "method": "Entrevistas em profundidade com protocolo de literacia midiática (acesso, avaliação e criação) com alunos do ensino médio",
+   "sample_size": "trinta e seis alunos de escolas públicas e privadas",
+   "main_finding": "Os jovens valorizam a checagem de informações, mas mostram pouco engajamento cívico nas redes, compreensão limitada dos algoritmos e uso restrito de mídia na escola.",
+   "abstract_quote": "a valorização da checagem de informações pelos jovens"
+  },
+  {
+   "doi": "10.17058/signo.v50i98.20198",
+   "title": "A literacia como ferramenta no combate a fake news: promovendo o pensamento crítico em estudantes do Ensino Médio",
+   "authors": [
+    "Pâmela Roman",
+    "Kári Lúcia Forneck"
+   ],
+   "year": 2025,
+   "venue": "Signo",
+   "study_type": "Intervenção quase-experimental",
+   "method": "Cinco oficinas com grupo experimental (1º ano) e grupo controle (2º ano), com avaliação inicial e final",
+   "sample_size": "não informado no resumo (apenas: 'Participaram dois grupos, sendo um experimental (1º ano) e outro o controle (2º ano)')",
+   "main_finding": "As oficinas não produziram a melhora esperada no reconhecimento de fake news, mas influenciaram positivamente a decisão de compartilhá-las.",
+   "abstract_quote": "influenciaram positivamente na decisão sobre o seu compartilhamento"
+  },
+  {
+   "doi": "10.22478/ufpb.2763-9398.2022v16n.61652",
+   "title": "A identificação de fake news por alunos e professores: um experimento em escolas públicas no Brasil",
+   "authors": [
+    "Diego de Deus",
+    "Adinan Nogueira"
+   ],
+   "year": 2022,
+   "venue": "Culturas Midiáticas",
+   "study_type": "Estudo exploratório e experimental",
+   "method": "Experimento com enquadramento persuasivo, com estudantes e professores de ensino médio de duas escolas públicas",
+   "sample_size": "não informado no resumo (apenas 'estudantes e professores de ensino médio de duas escolas públicas')",
+   "main_finding": "O enquadramento persuasivo e os fatores de literacia não se relacionaram à detecção de fake news, e há déficit entre o conhecimento declarado e a capacidade de detectar uma notícia teoricamente verdadeira.",
+   "abstract_quote": "Constatou-se que não há essa relação, mas que existe um déficit entre o que se declara de conhecimento"
+  },
+  {
+   "doi": "10.55738/alaic.v23i46.1118",
+   "title": "Literacias E Educação Midiática: A Identificação De Desinformação Por Alunos E Professores No Brasil",
+   "authors": [
+    "Diego de Deus",
+    "Adinan Nogueira",
+    "Ariely Masetti"
+   ],
+   "year": 2024,
+   "venue": "Revista Latinoamericana de Ciencias de la Comunicación",
+   "study_type": "Estudo empírico (identificação de desinformação e efeito de conteúdo educativo)",
+   "method": "Avaliação da capacidade de identificar fake news por professores e alunos do Ensino Médio de escolas públicas e privadas, com teste do efeito de conteúdo educativo sobre desinformação (o resumo não descreve o desenho nem os instrumentos)",
+   "sample_size": "não informado no resumo",
+   "main_finding": "Apenas explicar o que é informação falsa e como verificá-la é insuficiente; são necessários planos de longo prazo de pensamento crítico.",
+   "abstract_quote": "Os resultados apontam a insuficiência de apenas explicar o que é informação falsa e como verificar"
+  },
+  {
+   "doi": "10.26512/rici.v18.n2.2025.56629",
+   "title": "Competência para reconhecer desinformação nas redes sociais: diagnóstico com estudantes ingressantes em cursos de graduação",
+   "authors": [
+    "Nadi Helena Presser",
+    "Edla Barbosa de Santana",
+    "Ana Reyes Pacios Lozano"
+   ],
+   "year": 2025,
+   "venue": "Revista Ibero-Americana de Ciência da Informação",
+   "study_type": "Pesquisa diagnóstica quantitativa e descritiva",
+   "method": "Questionário aplicado a ingressantes de graduação de universidades públicas brasileiras, com análise descritiva",
+   "sample_size": "196 estudantes ingressantes de graduação de 10 universidades públicas do Brasil",
+   "main_finding": "A alta conectividade não torna os ingressantes hábeis em reconhecer informações falsas, e eles precisam de formação em competência crítica em informação.",
+   "abstract_quote": "os estudantes necessitam de qualificação em competência crítica em informação"
+  },
+  {
+   "doi": "10.58876/rbbd.2023.1911791",
+   "title": "Desenvolvimento da competência em informação e combate à desinformação nos currículos de Biblioteconomia das universidades federais do Brasil",
+   "authors": [
+    "Flávio Silva Teixeira",
+    "Júlia Schettino Jacob dos Santos",
+    "Marta Leandro da Mata"
+   ],
+   "year": 2023,
+   "venue": "Revista Brasileira de Biblioteconomia e Documentação",
+   "study_type": "Pesquisa documental e descritiva (análise curricular)",
+   "method": "Análise de ementas, projetos político-pedagógicos e planos de ensino dos cursos de Biblioteconomia de universidades federais, com análise de conteúdo de Bardin (qualitativa e quantitativa)",
+   "sample_size": "não informado no resumo (o número de cursos não aparece; o resumo registra 82 disciplinas identificadas na análise)",
+   "main_finding": "Nenhuma disciplina trata diretamente da desinformação e apenas oito tratam especificamente de competência em informação.",
+   "abstract_quote": "nenhuma das disciplinas trabalham diretamente a questão da desinformação"
+  },
+  {
+   "doi": "10.22409/rmc.v13i3.38091",
+   "title": "Educação midiática para notícias: histórico e mapeamento de iniciativas para combater a desinformação por meio da educação",
+   "authors": [
+    "Mônica Chaves",
+    "Luísa Melo"
+   ],
+   "year": 2019,
+   "venue": "Mídia e Cotidiano",
+   "study_type": "Estudo misto: histórico e mapeamento de iniciativas, mais pesquisa empírica com professores",
+   "method": "Mapeamento de iniciativas no Brasil e levantamento com professores de educação básica (o resumo não descreve o instrumento)",
+   "sample_size": "não informado no resumo (apenas 'professores/as de educação básica')",
+   "main_finding": "A preocupação com a educação midiática para notícias precisa ser apoiada pela comunidade escolar.",
+   "abstract_quote": "a preocupação em relação à educação midiática para notícias precisa ser apoiada pela comunidade escolar"
+  },
+  {
+   "doi": "10.47681/rca.v10i.63764",
+   "title": "Ações formativas para o enfrentamento da desinformação: reflexões a partir de uma experiência com estudantes",
+   "authors": [
+    "Daniela de Assis Silva",
+    "Gleise Brandão",
+    "Allana Beatriz Mouta",
+    "Laura Pita",
+    "Letícia Neiva"
+   ],
+   "year": 2025,
+   "venue": "Revista Conhecimento em Ação",
+   "study_type": "Relato de experiência (extensão universitária) com análise qualitativa de produção dos estudantes",
+   "method": "Roda de conversa e oficina em escola estadual de Salvador (BA); análise qualitativa das peças produzidas pelos estudantes",
+   "sample_size": "49 estudantes na roda de conversa e seis alunos na oficina",
+   "main_finding": "As seis peças de comunicação produzidas na oficina evidenciam um processo reflexivo dos jovens sobre a informação em contexto de desinformação.",
+   "abstract_quote": "seis peças de comunicação que evidenciam o processo reflexivo dos jovens"
+  },
+  {
+   "doi": "10.15847/obsOBS18520242435",
+   "title": "The perception of misinformation by young students from a Brazilian sociocultural context: reflections and clues for media education",
+   "authors": [
+    "Viviane Ongaro",
+    "Monica Fantin",
+    "José Douglas Alves dos Santos"
+   ],
+   "year": 2024,
+   "venue": "Observatorio (OBS*)",
+   "study_type": "Estudo empírico qualitativo exploratório",
+   "method": "Oficinas de educação midiática com estudantes; perfil do grupo traçado pelo Quadro Europeu de Competências Digitais",
+   "sample_size": "não informado no resumo (apenas 'young students from 14 to 21 years old in Curitiba and Colombo in Paraná, Brazil')",
+   "main_finding": "A análise das oficinas indicou caminhos para desenvolver competências midiáticas nas culturas juvenis e para a escola estimular a produção e o compartilhamento responsáveis de informação.",
+   "abstract_quote": "The workshop analyses suggested clues to build media competencies in the youth culture contexts."
+  },
+  {
+   "doi": "10.23860/jmle-2025-17-2-5",
+   "title": "Media and information literacy strategies: A joint reflection with teenagers in Brazilian public school",
+   "authors": [
+    "Fábio Henrique Pereira",
+    "Cristine Marquetto",
+    "Liliane Maria Macedo Machado",
+    "Nathália Coelho da Silva",
+    "Rafiza Varão",
+    "Mariana Fagundes Ausani"
+   ],
+   "year": 2025,
+   "venue": "Journal of Media Literacy Education",
+   "study_type": "Estudo empírico (projeto de extensão em escola pública)",
+   "method": "Survey e observação participante de oficina realizada em outubro de 2021",
+   "sample_size": "não informado no resumo",
+   "main_finding": "O estudo identifica estratégias para promover práticas de educação midiática e informacional e pensamento crítico, entre elas refletir sobre as próprias práticas informacionais e desnormalizar a desinformação.",
+   "abstract_quote": "encouraging them to reflect on their own information practices"
+  },
+  {
+   "doi": "10.5752/p.2358-3428.2021v25n54p235-264",
+   "title": "Competências em práticas letradas de estudantes de Ensino Médio no contexto da desordem informacional",
+   "authors": [
+    "Ana Cláudia Bertini Ciencia"
+   ],
+   "year": 2021,
+   "venue": "Scripta",
+   "study_type": "Estudo empírico qualitativo (Novos Estudos do Letramento)",
+   "method": "Análise de produções textuais de estudantes do Ensino Médio de uma escola pública, com referência à BNCC",
+   "sample_size": "105 produções textuais coletadas em uma escola pública de São José do Rio Preto",
+   "main_finding": "Os estudantes reconhecem informação falsa por critérios ligados à norma culta e pouco percebem as vozes e crenças que atravessam a desordem informacional.",
+   "abstract_quote": "são competentes em reconhecer informação falsa com base em critérios relacionados ao uso de norma culta"
+  },
+  {
+   "doi": "10.12957/redoc.2023.68237",
+   "title": "Letramento informacional no combate às fake news na educação",
+   "authors": [
+    "Iracema Cristina Fernandes",
+    "Terezinha Fernandes"
+   ],
+   "year": 2023,
+   "venue": "Revista Docência e Cibercultura",
+   "study_type": "Pesquisa-formação na cibercultura (estudo empírico qualitativo)",
+   "method": "Percursos formativos com estudantes de Licenciatura em Pedagogia a distância da UFMT",
+   "sample_size": "não informado no resumo (apenas 'estudantes do curso de Licenciatura em Pedagogia, modalidade à distância')",
+   "main_finding": "O letramento informacional é uma prática importante contra a desinformação na educação básica e estimula reflexão e pensamento crítico.",
+   "abstract_quote": "o letramento informacional é uma prática importante no combate à desinformação gerada pelas Fake News"
+  },
+  {
+   "doi": "10.36661/2595-4520.2025v8n1.15332",
+   "title": "Contribuições Formativas para Alfabetização Científica e Midiática: Percepções de Estudantes de Licenciatura em Ciências Exatas",
+   "authors": [
+    "Victoria Emilia Gomes Martins",
+    "Tiago Venturi",
+    "Roberta Chiesa Bartelmebs"
+   ],
+   "year": 2025,
+   "venue": "Revista Insignare Scientia",
+   "study_type": "Estudo de percepções de licenciandos (empírico)",
+   "method": "não informado no resumo",
+   "sample_size": "não informado no resumo",
+   "main_finding": "Os licenciandos veem as redes sociais como fontes rápidas de informação, mas vulneráveis a fake news, e a formação em alfabetização científica e midiática é fragmentada.",
+   "abstract_quote": "a formação ainda é fragmentada e limitada a experiências isoladas, em disciplinas específicas"
+  },
+  {
+   "doi": "10.22478/ufpb.1809-4775.2019v15n1.43786",
+   "title": "Bibliotecário escolar e fake news: evidências da contribuição da biblioteca escolar",
+   "authors": [
+    "Janaína Fialho",
+    "Martha Suzana Cabral Nunes",
+    "Paulo Roberto Fernandes Júnior",
+    "Giovana Gabrielli Rocha Gois",
+    "Maria Mirella Borges Santana",
+    "Raphaela Mota Pereira Veloso",
+    "Wictor Alexandre da Silva Santos"
+   ],
+   "year": 2019,
+   "venue": "Biblionline",
+   "study_type": "Relato de experiência com coleta de dados (quanti-qualitativo)",
+   "method": "Palestra para alunos do ensino médio de escola particular, com questionário fechado e uma questão aberta",
+   "sample_size": "A palestra para 45 alunos do ensino médio",
+   "main_finding": "A palestra foi esclarecedora para os alunos do ensino médio, que usam pouco a biblioteca escolar.",
+   "abstract_quote": "a palestra foi bastante esclarecedora para a turma"
+  },
+  {
+   "doi": "10.59616/cehd.v3i9.2715",
+   "title": "Letramento midiático e informacional nas aulas de língua portuguesa: os desafios e as possibilidades de estimular o novo ethos do aluno do Ensino Médio na era da desinformação",
+   "authors": [
+    "Angela Maria Silveira Batista",
+    "Rosekeyla de Araújo Costa"
+   ],
+   "year": 2025,
+   "venue": "Convergências: estudos em Humanidades Digitais",
+   "study_type": "Análise documental de material didático (sem participantes)",
+   "method": "Análise de conteúdo (Bardin, 2016) de atividades do Guia da Educação Midiática (Ferrari et al., 2020)",
+   "sample_size": "15 atividades do Guia da Educação Midiática",
+   "main_finding": "As atividades do guia sustentam o letramento midiático e informacional: 70% mostram concepção reflexiva de letramento digital.",
+   "abstract_quote": "70% das atividades propostas evidenciaram a concepção de LD quanto à reflexão"
+  },
+  {
+   "doi": "10.22409/rmc.v19i2.66810",
+   "title": "Educação midiática: o comportamento de estudantes nas redes sociais e a propagação de informações falsas",
+   "authors": [
+    "Paulo Henrique Soares Almeida",
+    "Ana Carolina Kalume Maranhão"
+   ],
+   "year": 2025,
+   "venue": "Mídia e Cotidiano",
+   "study_type": "Survey (estudo empírico quantitativo)",
+   "method": "Questionários estruturados aplicados a alunos do ensino médio de escolas públicas e particulares do Distrito Federal, entre novembro de 2023 e março de 2024",
+   "sample_size": "180 alunos de escolas públicas e particulares",
+   "main_finding": "Os estudantes apresentam deficiência expressiva em educação midiática, e o estudo defende abordagens mais críticas para avaliar e compartilhar conteúdo digital.",
+   "abstract_quote": "Os resultados revelam uma deficiência expressiva na educação midiática desses jovens."
+  },
+  {
+   "doi": "10.29146/eco-ps.v28i1.28441",
+   "title": "Letramento midiático em desertos de notícias: manual de checagem contra desinformação em Itaueira (PI)",
+   "authors": [
+    "Juliana Fernandes Teixeira",
+    "Cristiane Portela de Carvalho",
+    "Marta Thais Alencar"
+   ],
+   "year": 2025,
+   "venue": "Revista Eco-Pós",
+   "study_type": "Estudo de caso baseado em survey",
+   "method": "Aplicação de manual de checagem em salas de aula de Itaueira (PI) e survey com estudantes e professores",
+   "sample_size": "53 estudantes e professores",
+   "main_finding": "Quase metade dos participantes não tem o letramento necessário para compreender como a notícia é produzida.",
+   "abstract_quote": "quase metade não possui o letramento necessário para compreender o processo de produção da notícia"
+  },
+  {
+   "doi": "10.15847/obsOBS18520242446",
+   "title": "Perceptions of University Students in Communication about Disinformation: An Exploratory Analysis in Brazil, Colombia and Spain",
+   "authors": [
+    "Juliana Colussi",
+    "Paula de Souza Paes",
+    "Rainer Rubira-García",
+    "Thays Assunção Reis"
+   ],
+   "year": 2024,
+   "venue": "Observatorio (OBS*)",
+   "study_type": "Estudo comparativo internacional exploratório (inclui Brasil)",
+   "method": "Survey online aplicado de maio a julho de 2023 em 23 centros de ensino superior no Brasil, Colômbia e Espanha",
+   "sample_size": "answered by 231 students (total dos três países; o número de brasileiros não aparece no resumo)",
+   "main_finding": "Os estudantes de Comunicação sabem o que são fake news e a maioria sabe identificá-las, mas não há disciplina específica de educação midiática nos currículos.",
+   "abstract_quote": "university students are aware of what fake news are and most of them know how to identify disinformative content"
+  },
+  {
+   "doi": "10.17058/signo.v49i94.18842",
+   "title": "A BNCC e as garantias do direito à informação para o exercício da cidadania: aspectos centrais para a implementação do letramento midiático e informacional nas escolas brasileiras",
+   "authors": [
+    "Nathalie Resende de Carvalho"
+   ],
+   "year": 2024,
+   "venue": "Signo",
+   "study_type": "Análise documental de currículo (BNCC); o resumo não nomeia o método, então o enquadramento é inferido",
+   "method": "Análise do documento normativo BNCC quanto à previsão de letramento midiático e informacional (método não nomeado no resumo)",
+   "sample_size": "não informado no resumo (objeto: a BNCC, documento normativo nacional)",
+   "main_finding": "O direito à informação e ao exercício pleno da cidadania não é assegurado de forma sistemática na BNCC, e muitas escolas carecem de infraestrutura para o letramento midiático.",
+   "abstract_quote": "o direito à informação e ao exercício pleno da cidadania não são assegurados de forma sistemática na BNCC"
+  },
+  {
+   "doi": "10.5216/revufg.v20.65943",
+   "title": "É fato ou é fake? Notícias falsas e pós-verdade no ensino de língua portuguesa",
+   "authors": [
+    "Patrícia Graciela Rocha",
+    "Fabiana Biondo"
+   ],
+   "year": 2020,
+   "venue": "Revista UFG",
+   "study_type": "Análise documental de livros didáticos",
+   "method": "Análise de coleção de livros didáticos de Língua Portuguesa da rede municipal de Campo Grande (MS), com base em estudos sobre pós-verdade e letramentos críticos",
+   "sample_size": "coleção de Livros Didáticos de Língua Portuguesa dos anos finais do Ensino Fundamental (número de volumes não informado no resumo)",
+   "main_finding": "Os livros didáticos tratam as fake news de forma superficial e pouco engajada com os letramentos críticos.",
+   "abstract_quote": "uma abordagem superficial sobre o tema, pouco engajada com os letramentos críticos"
+  }
+ ],
+ "search_notes": "Entreguei 22 artigos, não os 25 do pedido original. Você instruiu \"Escolha 22 e extraia\", e a lista aprovada tinha só 22 candidatos. Não busquei os 3 artigos que faltam, e o pedido de 25 segue sem ser atendido.\n\nAbri a página oficial de todos os 22 itens nesta rodada. Os pontos que as reprovações anteriores deixaram em aberto ficaram assim:\n- RICI (Presser et al.): a página abriu e confirmou título, os três autores, ano 2025 e DOI. A ferramenta de leitura não devolve o resumo inteiro, só trechos de até cerca de 125 caracteres. Ela confirmou literalmente \"196 estudantes\" e \"os estudantes necessitam de qualificação em competência crítica em informação\". A menção a \"10 universidades públicas\" veio em paráfrase, então o texto completo do campo de amostra vem da lista de candidatos. PDF para conferência: https://periodicos.unb.br/index.php/RICI/article/view/56629/43533\n- Almeida e Maranhão: o DOI 10.22409/rmc.v19i2.66810 redireciona para a Mídia e Cotidiano (UFF), v. 19, n. 2, 2025, com os autores Almeida e Maranhão (UnB). Periódico e DOI estão corretos. Confirmei \"180 alunos\" e a citação.\n- ReDoC (Fernandes e Fernandes): a página confirmou as duas autoras (UFMT), v. 7, n. 2, 2023.\n- RBBD: a página não exibe o DOI, mas https://doi.org/10.58876/rbbd.2023.1911791 redireciona para a página do artigo, o que confirma o DOI. Registrei no campo de amostra que \"82 disciplinas\" é resultado da análise, e não o número de cursos.\n- Conhecimento em Ação e Biblionline: a página abriu com a lista completa de autores (5 e 7 nomes, respectivamente), que confere com a informada.\n- Revista UFG (Rocha e Biondo): a citação agora é \"uma abordagem superficial sobre o tema, pouco engajada com os letramentos críticos\", mais longa que a anterior.\n- Santos e Mafra (Areté): troquei a citação pelo trecho do resumo que sustenta o achado (\"é pilar fundamental na construção de uma sociedade crítica e informada\").\n- Teias: usei \"percebem as implicações pessoais, sociais e pedagógicas da chegada da fake news na escola\" como citação. A página confirmou os trechos \"percebem as implicações pessoais\" e \"vislumbram ações convencionais, porém válidas\". O resto da frase vem da lista de candidatos.\n- ALAIC 2024: corrigi o título para \"Literacias E Educação Midiática: A Identificação De Desinformação Por Alunos E Professores No Brasil\".\n\nItens limítrofes que mantive:\n- Convergências (Batista e Costa): é análise de conteúdo (Bardin) das 15 atividades do Guia da Educação Midiática. É análise documental de material didático de educação midiática, não de livro didático formal, e não tem participantes.\n- Mídia e Cotidiano 2019 (Chaves e Melo): é artigo misto, com histórico e mapeamento de iniciativas. O componente empírico é a pesquisa com professores de educação básica, citada no resumo, mas sem amostra nem instrumento descritos.\n- Signo 2024 (Carvalho, sobre a BNCC): o resumo não nomeia o método, e o enquadramento como análise documental é inferido. Pode ser lido como análise normativa, e é o item mais incerto quanto ao tipo de estudo.\n- Deus e Nogueira 2022 (Culturas Midiáticas) e Deus, Nogueira e Masetti 2024 (ALAIC): mesma dupla de autores, e pode haver sobreposição de dados.\n- Insignare Scientia: o resumo não informa método nem amostra.\n- Colussi et al.: a amostra de 231 estudantes soma Brasil, Colômbia e Espanha, e a parte brasileira não aparece no resumo.\n- Moura et al. e Presser et al. têm leitura parcial do resumo, como descrito acima.\n\nEm todos os itens, as citações são trechos literais do resumo e podem estar encurtadas. Os trechos da Roman et al., Fialho et al. e Convergências foram ajustados para as formas confirmadas na página. Nenhum item é centrado em COVID-19, vacinas, eleições ou política partidária. Em Scripta, a pandemia só aparece na discussão."
+}

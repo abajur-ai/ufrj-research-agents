@@ -1,0 +1,419 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Köbis et al.: abri o registro no Europe PMC (DOI 10.1016/j.isci.2021.103364): título, autores, iScience 2021 e N = 210 conferem; o trecho 'people cannot reliably detect deepfakes and (2) neither raising awareness nor introducing financial incentives improves their detection accuracy' aparece letra por letra no resumo; o achado (má detecção, conscientização e incentivos não ajudam, superestimam a própria capacidade) está no resumo.",
+      "Nightingale e Farid: abri o registro no Europe PMC (DOI 10.1073/pnas.2120481119): título, autores, PNAS 2022 conferem; o resumo traz 'faces that are indistinguishable-and more trustworthy-than real faces', que coincide com o trecho citado a menos de pontuação (hífen versus travessão, aceitável); o resumo não informa amostra, e o item marca 'não informado no resumo'; o achado (indistinguíveis e mais confiáveis) está no resumo.",
+      "Miller et al.: abri o registro no Europe PMC (DOI 10.1177/09567976231207095): título, autores, Psychological Science 2023 conferem; o resumo traz 'Experiment 1 (N = 124 adults)' e 'Experiment 2 (N = 610 adults)', iguais ao item; o trecho 'White AI faces are judged as human more often than actual human faces' aparece letra por letra; o achado inclui o efeito Dunning-Kruger, que está no resumo.",
+      "Mai et al.: abri a página do artigo na PLOS ONE (DOI 10.1371/journal.pone.0285333): título, autores, 2023 e PLOS ONE conferem; o resumo traz 'n = 529 individuals', igual ao item; o trecho 'Listeners only correctly spotted the deepfakes 73% of the time' aparece letra por letra; sem diferença entre inglês e mandarim e melhora pequena com exemplos estão no resumo.",
+      "Barrington et al.: abri a página na Nature (DOI 10.1038/s41598-025-94170-3): título, autores, Scientific Reports 2025 conferem; o resumo traz 'We find human participants cannot consistently identify recordings of AI-generated voices', letra por letra; o resumo descreve 'a series of perceptual studies' e não informa amostra, e o item registra isso corretamente.",
+      "Groh et al.: abri o registro no Europe PMC (DOI 10.1073/pnas.2110013119): título, autores, PNAS 2022 conferem; o trecho 'In two online studies with 15,016 participants, we present authentic videos and deepfakes' aparece letra por letra no resumo; o achado (humano e modelo com acurácia semelhante, erros diferentes, multidão informada melhor) está no resumo.",
+      "Tarchi et al.: abri o registro no Europe PMC (DOI 10.3390/brainsci13091233): título, autores, Brain Sciences 2023 conferem; o resumo traz '23 healthy participants' e EEG seco de 21 canais, iguais ao item; o trecho 'ERP analysis hinted at the possibility of discriminating between real and synthetic faces' aparece letra por letra; o achado não vai além do resumo.",
+      "Moshel et al.: abri o registro no Europe PMC (DOI 10.1016/j.visres.2022.108079): título, autores, Vision Research 2022 conferem; o trecho 'while at a group level people performed near chance classifying real and realistic fakes' aparece letra por letra; o resumo não informa amostra, e o item marca 'não informado no resumo'; o contraste cérebro distingue versus comportamento no acaso está no resumo.",
+      "Roswandowitz et al.: abri o registro no Europe PMC (DOI 10.1038/s42003-024-06372-6): título, autores, Communications Biology 2024 conferem; o resumo traz '25 participants', igual ao item; o trecho 'participants show intermediate performance with deepfake voices, indicating levels of deception and resistance to deepfake identity spoofing' aparece letra por letra; tarefa de correspondência de identidade e análises univariadas e multivariadas estão no resumo.",
+      "Eiserbeck et al.: abri o registro no Europe PMC (DOI 10.1038/s41598-023-42802-x): título, autores, Scientific Reports 2023 conferem; o resumo traz 'participants' (N = 30)', igual ao item; o trecho 'Smiling faces marked as fake appeared less positive, as reflected in expression ratings, and induced slower evaluations.' aparece letra por letra; o método (rostos reais rotulados como reais ou falsos) confere com o resumo e a ressalva do item está correta.",
+      "Lavan et al.: abri o registro no Europe PMC (DOI 10.1371/journal.pone.0332692): título, autores, PLOS ONE 2025 conferem; o trecho 'We find that voice clones can sound as real as human voices, making it difficult for listeners to distinguish between them.' aparece letra por letra; o resumo confirma ausência de hiper-realismo e não informa amostra, e o item marca isso; o método (clones, vozes de IA sem contraparte, traços sociais) está no resumo.",
+      "Gray et al.: abri o registro no Europe PMC (DOI 10.1098/rsos.250921): título, autores, Royal Society Open Science 2025 conferem; o trecho 'we found that SRs (total N = 283) were better at detecting and discriminating synthetic faces than controls (total N = 381)' aparece letra por letra; treino melhorou o desempenho e efeito de magnitude semelhante nos dois grupos estão no resumo.",
+      "Bruza et al.: abri o registro no Europe PMC (DOI 10.3390/e27080868): título, autores, Entropy 2025 conferem; o trecho 'bootstrap resampling (10,000 iterations per coin) revealed that nine trials demonstrated quantum-like contextuality' aparece letra por letra; o resumo descreve o experimento crowdsourced com 20 tentativas e Contextuality-by-Default, como no item; o resumo não informa amostra, e o item marca isso.",
+      "Högemann et al.: abri o registro no Europe PMC (DOI 10.3389/frai.2025.1707336): título, autores, Frontiers in Artificial Intelligence 2025 conferem; o resumo traz 'A total of 104 participants', 50 imagens (25 reais, 25 de IA) e o trecho 'participants correctly identified AI-generated images in 63.7% of cases overall' letra por letra; método misto com justificativas textuais e modelo hierárquico está no resumo.",
+      "Makowski et al.: abri o registro no Europe PMC (DOI 10.1016/j.actpsy.2024.104670): título, autores, Acta Psychologica 2025 conferem; o resumo traz '150 participants' e 109 fotos com atratividade, beleza, confiabilidade e familiaridade, iguais ao item; o trecho 'with faces rated as more attractive being classified as more real' aparece letra por letra; o método (todas as fotos reais, informados que algumas seriam de IA) confere com o resumo e a ressalva do item está correta.",
+      "Velásquez-Salamanca et al.: abri o registro no Europe PMC (DOI 10.3390/jimaging11070227): título, autores, Journal of Imaging 2025 conferem; o resumo traz 24 imagens de IA, 8 humanas e 161 participantes, iguais ao item; o trecho 'human-made images are perceived as both more realistic and more credible than AI-generated ones' aparece letra por letra; o achado confere.",
+      "Tucciarelli et al.: abri o registro no Europe PMC (DOI 10.1016/j.isci.2022.105441): título, autores, iScience 2022 conferem; o trecho 'GAN faces were more likely to be perceived as real than REAL faces' aparece no resumo (diferença só de pontuação final, aceitável); três estudos estão no resumo; 'knowledge about the presence of GAN faces eroded social trust' sustenta o achado sobre confiança social; o resumo não informa amostra, e o item marca isso.",
+      "Iacobucci et al.: abri o registro no Europe PMC (DOI 10.1089/cyber.2020.0149): título, autores, Cyberpsychology, Behavior, and Social Networking 2021 conferem; o trecho 'but only for people with a lower susceptibility to believe willfully misleading claims' aparece letra por letra no resumo; priming de informação, bullshit receptivity como moderadora e mediação serial estão no resumo; o resumo não informa amostra, e o item marca isso; o resumo não menciona política.",
+      "Lewis et al.: abri o registro no Europe PMC (DOI 10.1098/rsos.231214): título, autores, Royal Society Open Science 2023 conferem; o trecho 'only 21.6% of respondents correctly identify the deepfake as the only inauthentic video' aparece letra por letra; os percentuais 32,9% versus 34,1% no grupo sem aviso sustentam a parte do achado sobre não diferir do controle; o resumo não informa amostra, e o item marca isso.",
+      "Somoray e Miller: abri a página do repositório da JCU (researchonline.jcu.edu.au/79985), que reproduz o resumo oficial: título, autores, Computers in Human Behavior 2023, N = 454, 20 vídeos com 10 reais e 10 deepfakes e atribuição aleatória às estratégias ou controle conferem; o trecho 'The detection strategies intervention did not impact detection accuracy or detection confidence' aparece letra por letra; o achado confere.",
+      "Bray et al.: abri o registro no Crossref (DOI 10.1093/cybsec/tyad011), que traz o resumo oficial: título, autores, Journal of Cybersecurity 2023 conferem; o resumo traz N = 280, quatro grupos (controle e três intervenções), 20 imagens de um conjunto de 50 deepfakes e 50 reais, confiança e justificativa, iguais ao item; o trecho 'Overall detection accuracy was only just above chance and none of the interventions significantly improved this.' aparece letra por letra.",
+      "Nas e de Kleijn: abri a página da Leiden (scholarlypublications.universiteitleiden.nl/access/item:3729708/view), que reproduz o artigo com o resumo oficial: título, autores, Telematics and Informatics, volume 87 de 2024, DOI 10.1016/j.tele.2023.102093 conferem; o trecho 'humans perform better at recognizing deepfake videos of familiar persons compared to deepfakes of unfamiliar persons.' aparece letra por letra; a relação positiva de uso de redes sociais e pensamento conspiratório com o desempenho está no resumo; o resumo não informa amostra, e o item marca isso.",
+      "Rosi et al.: abri o registro no Semantic Scholar (DOI 10.1016/j.chbah.2025.100143), que traz o resumo oficial: título, autores, Computers in Human Behavior: Artificial Humans 2025 conferem; o resumo traz 'Forty-seven of these experimental participants (and 47 unfamiliar controls)', igual ao item; o trecho 'familiar listeners found clones to sound less (or similarly) trustworthy, attractive, and competent than recordings' aparece letra por letra; o método (vozes de pares conhecidos clonadas, auto e amigo, controles não familiares) confere; o achado sobre ouvintes não familiares avaliando clones melhor está no resumo.",
+      "Guo et al.: abri o registro no Europe PMC (DOI 10.1186/s41235-025-00648-z): título, autores, Cognitive Research: Principles and Implications 2025 conferem; o resumo confirma estudo pré-registrado com três condições (dicas específicas, gerais ou nenhuma); o trecho 'specific tips reduced belief in AIVM more than general tips' aparece letra por letra; o resumo não informa amostra, e o item marca isso.",
+      "Doss et al.: abri o registro no Europe PMC (DOI 10.1038/s41598-023-39944-3): título, autores, Scientific Reports 2023 conferem; o trecho 'We found that 27-50% of individuals cannot distinguish authentic videos from deepfakes.' aparece letra por letra; o resumo confirma survey com cinco populações, três nacionalmente representativas, ancorado em mudança climática, como no item; o resumo não informa amostra, e o item marca isso."
+    ],
+    "per_item": [
+      {
+        "doi": "10.1016/j.isci.2021.103364",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1073/pnas.2120481119",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1177/09567976231207095",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1371/journal.pone.0285333",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1038/s41598-025-94170-3",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1073/pnas.2110013119",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3390/brainsci13091233",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1016/j.visres.2022.108079",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1038/s42003-024-06372-6",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1038/s41598-023-42802-x",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1371/journal.pone.0332692",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1098/rsos.250921",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3390/e27080868",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3389/frai.2025.1707336",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1016/j.actpsy.2024.104670",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3390/jimaging11070227",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1016/j.isci.2022.105441",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1089/cyber.2020.0149",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1098/rsos.231214",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1016/j.chb.2023.107917",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1093/cybsec/tyad011",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1016/j.tele.2023.102093",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1016/j.chbah.2025.100143",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1186/s41235-025-00648-z",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1038/s41598-023-39944-3",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [],
+    "feedback": "Nenhum erro real encontrado: todos os 25 DOIs abrem, títulos, autores, anos e periódicos conferem, os trechos entre aspas aparecem nos resumos oficiais letra por letra (ou com diferença apenas de pontuação aceitável), as amostras informadas batem com os resumos e os achados não vão além do que os resumos sustentam. Sugestões de melhoria não reprovatórias: (1) no item de Nightingale e Farid, deixe explícito no campo de método que o desenho detalhado veio de fonte secundária, como o search_notes já admite, para o leitor não achar que veio do resumo; (2) no item de Makowski et al., o resumo fala em papel da atratividade dependente de gênero (gender-dependent), então vale citar essa nuance no achado principal; (3) no item de Lewis et al., o achado ficaria mais completo citando os percentuais 32,9% versus 34,1% do grupo sem aviso; (4) no item de Nas e de Kleijn, considere registrar a data online de dezembro de 2023 junto ao ano de 2024 do fascículo para evitar dúvida futura."
+  },
+  "text": "{\n \"approved\": true,\n \"checked\": [\n  \"Köbis et al.: abri o registro no Europe PMC (DOI 10.1016/j.isci.2021.103364): título, autores, iScience 2021 e N = 210 conferem; o trecho 'people cannot reliably detect deepfakes and (2) neither raising awareness nor introducing financial incentives improves their detection accuracy' aparece letra por letra no resumo; o achado (má detecção, conscientização e incentivos não ajudam, superestimam a própria capacidade) está no resumo.\",\n  \"Nightingale e Farid: abri o registro no Europe PMC (DOI 10.1073/pnas.2120481119): título, autores, PNAS 2022 conferem; o resumo traz 'faces that are indistinguishable-and more trustworthy-than real faces', que coincide com o trecho citado a menos de pontuação (hífen versus travessão, aceitável); o resumo não informa amostra, e o item marca 'não informado no resumo'; o achado (indistinguíveis e mais confiáveis) está no resumo.\",\n  \"Miller et al.: abri o registro no Europe PMC (DOI 10.1177/09567976231207095): título, autores, Psychological Science 2023 conferem; o resumo traz 'Experiment 1 (N = 124 adults)' e 'Experiment 2 (N = 610 adults)', iguais ao item; o trecho 'White AI faces are judged as human more often than actual human faces' aparece letra por letra; o achado inclui o efeito Dunning-Kruger, que está no resumo.\",\n  \"Mai et al.: abri a página do artigo na PLOS ONE (DOI 10.1371/journal.pone.0285333): título, autores, 2023 e PLOS ONE conferem; o resumo traz 'n = 529 individuals', igual ao item; o trecho 'Listeners only correctly spotted the deepfakes 73% of the time' aparece letra por letra; sem diferença entre inglês e mandarim e melhora pequena com exemplos estão no resumo.\",\n  \"Barrington et al.: abri a página na Nature (DOI 10.1038/s41598-025-94170-3): título, autores, Scientific Reports 2025 conferem; o resumo traz 'We find human participants cannot consistently identify recordings of AI-generated voices', letra por letra; o resumo descreve 'a series of perceptual studies' e não informa amostra, e o item registra isso corretamente.\",\n  \"Groh et al.: abri o registro no Europe PMC (DOI 10.1073/pnas.2110013119): título, autores, PNAS 2022 conferem; o trecho 'In two online studies with 15,016 participants, we present authentic videos and deepfakes' aparece letra por letra no resumo; o achado (humano e modelo com acurácia semelhante, erros diferentes, multidão informada melhor) está no resumo.\",\n  \"Tarchi et al.: abri o registro no Europe PMC (DOI 10.3390/brainsci13091233): título, autores, Brain Sciences 2023 conferem; o resumo traz '23 healthy participants' e EEG seco de 21 canais, iguais ao item; o trecho 'ERP analysis hinted at the possibility of discriminating between real and synthetic faces' aparece letra por letra; o achado não vai além do resumo.\",\n  \"Moshel et al.: abri o registro no Europe PMC (DOI 10.1016/j.visres.2022.108079): título, autores, Vision Research 2022 conferem; o trecho 'while at a group level people performed near chance classifying real and realistic fakes' aparece letra por letra; o resumo não informa amostra, e o item marca 'não informado no resumo'; o contraste cérebro distingue versus comportamento no acaso está no resumo.\",\n  \"Roswandowitz et al.: abri o registro no Europe PMC (DOI 10.1038/s42003-024-06372-6): título, autores, Communications Biology 2024 conferem; o resumo traz '25 participants', igual ao item; o trecho 'participants show intermediate performance with deepfake voices, indicating levels of deception and resistance to deepfake identity spoofing' aparece letra por letra; tarefa de correspondência de identidade e análises univariadas e multivariadas estão no resumo.\",\n  \"Eiserbeck et al.: abri o registro no Europe PMC (DOI 10.1038/s41598-023-42802-x): título, autores, Scientific Reports 2023 conferem; o resumo traz 'participants' (N = 30)', igual ao item; o trecho 'Smiling faces marked as fake appeared less positive, as reflected in expression ratings, and induced slower evaluations.' aparece letra por letra; o método (rostos reais rotulados como reais ou falsos) confere com o resumo e a ressalva do item está correta.\",\n  \"Lavan et al.: abri o registro no Europe PMC (DOI 10.1371/journal.pone.0332692): título, autores, PLOS ONE 2025 conferem; o trecho 'We find that voice clones can sound as real as human voices, making it difficult for listeners to distinguish between them.' aparece letra por letra; o resumo confirma ausência de hiper-realismo e não informa amostra, e o item marca isso; o método (clones, vozes de IA sem contraparte, traços sociais) está no resumo.\",\n  \"Gray et al.: abri o registro no Europe PMC (DOI 10.1098/rsos.250921): título, autores, Royal Society Open Science 2025 conferem; o trecho 'we found that SRs (total N = 283) were better at detecting and discriminating synthetic faces than controls (total N = 381)' aparece letra por letra; treino melhorou o desempenho e efeito de magnitude semelhante nos dois grupos estão no resumo.\",\n  \"Bruza et al.: abri o registro no Europe PMC (DOI 10.3390/e27080868): título, autores, Entropy 2025 conferem; o trecho 'bootstrap resampling (10,000 iterations per coin) revealed that nine trials demonstrated quantum-like contextuality' aparece letra por letra; o resumo descreve o experimento crowdsourced com 20 tentativas e Contextuality-by-Default, como no item; o resumo não informa amostra, e o item marca isso.\",\n  \"Högemann et al.: abri o registro no Europe PMC (DOI 10.3389/frai.2025.1707336): título, autores, Frontiers in Artificial Intelligence 2025 conferem; o resumo traz 'A total of 104 participants', 50 imagens (25 reais, 25 de IA) e o trecho 'participants correctly identified AI-generated images in 63.7% of cases overall' letra por letra; método misto com justificativas textuais e modelo hierárquico está no resumo.\",\n  \"Makowski et al.: abri o registro no Europe PMC (DOI 10.1016/j.actpsy.2024.104670): título, autores, Acta Psychologica 2025 conferem; o resumo traz '150 participants' e 109 fotos com atratividade, beleza, confiabilidade e familiaridade, iguais ao item; o trecho 'with faces rated as more attractive being classified as more real' aparece letra por letra; o método (todas as fotos reais, informados que algumas seriam de IA) confere com o resumo e a ressalva do item está correta.\",\n  \"Velásquez-Salamanca et al.: abri o registro no Europe PMC (DOI 10.3390/jimaging11070227): título, autores, Journal of Imaging 2025 conferem; o resumo traz 24 imagens de IA, 8 humanas e 161 participantes, iguais ao item; o trecho 'human-made images are perceived as both more realistic and more credible than AI-generated ones' aparece letra por letra; o achado confere.\",\n  \"Tucciarelli et al.: abri o registro no Europe PMC (DOI 10.1016/j.isci.2022.105441): título, autores, iScience 2022 conferem; o trecho 'GAN faces were more likely to be perceived as real than REAL faces' aparece no resumo (diferença só de pontuação final, aceitável); três estudos estão no resumo; 'knowledge about the presence of GAN faces eroded social trust' sustenta o achado sobre confiança social; o resumo não informa amostra, e o item marca isso.\",\n  \"Iacobucci et al.: abri o registro no Europe PMC (DOI 10.1089/cyber.2020.0149): título, autores, Cyberpsychology, Behavior, and Social Networking 2021 conferem; o trecho 'but only for people with a lower susceptibility to believe willfully misleading claims' aparece letra por letra no resumo; priming de informação, bullshit receptivity como moderadora e mediação serial estão no resumo; o resumo não informa amostra, e o item marca isso; o resumo não menciona política.\",\n  \"Lewis et al.: abri o registro no Europe PMC (DOI 10.1098/rsos.231214): título, autores, Royal Society Open Science 2023 conferem; o trecho 'only 21.6% of respondents correctly identify the deepfake as the only inauthentic video' aparece letra por letra; os percentuais 32,9% versus 34,1% no grupo sem aviso sustentam a parte do achado sobre não diferir do controle; o resumo não informa amostra, e o item marca isso.\",\n  \"Somoray e Miller: abri a página do repositório da JCU (researchonline.jcu.edu.au/79985), que reproduz o resumo oficial: título, autores, Computers in Human Behavior 2023, N = 454, 20 vídeos com 10 reais e 10 deepfakes e atribuição aleatória às estratégias ou controle conferem; o trecho 'The detection strategies intervention did not impact detection accuracy or detection confidence' aparece letra por letra; o achado confere.\",\n  \"Bray et al.: abri o registro no Crossref (DOI 10.1093/cybsec/tyad011), que traz o resumo oficial: título, autores, Journal of Cybersecurity 2023 conferem; o resumo traz N = 280, quatro grupos (controle e três intervenções), 20 imagens de um conjunto de 50 deepfakes e 50 reais, confiança e justificativa, iguais ao item; o trecho 'Overall detection accuracy was only just above chance and none of the interventions significantly improved this.' aparece letra por letra.\",\n  \"Nas e de Kleijn: abri a página da Leiden (scholarlypublications.universiteitleiden.nl/access/item:3729708/view), que reproduz o artigo com o resumo oficial: título, autores, Telematics and Informatics, volume 87 de 2024, DOI 10.1016/j.tele.2023.102093 conferem; o trecho 'humans perform better at recognizing deepfake videos of familiar persons compared to deepfakes of unfamiliar persons.' aparece letra por letra; a relação positiva de uso de redes sociais e pensamento conspiratório com o desempenho está no resumo; o resumo não informa amostra, e o item marca isso.\",\n  \"Rosi et al.: abri o registro no Semantic Scholar (DOI 10.1016/j.chbah.2025.100143), que traz o resumo oficial: título, autores, Computers in Human Behavior: Artificial Humans 2025 conferem; o resumo traz 'Forty-seven of these experimental participants (and 47 unfamiliar controls)', igual ao item; o trecho 'familiar listeners found clones to sound less (or similarly) trustworthy, attractive, and competent than recordings' aparece letra por letra; o método (vozes de pares conhecidos clonadas, auto e amigo, controles não familiares) confere; o achado sobre ouvintes não familiares avaliando clones melhor está no resumo.\",\n  \"Guo et al.: abri o registro no Europe PMC (DOI 10.1186/s41235-025-00648-z): título, autores, Cognitive Research: Principles and Implications 2025 conferem; o resumo confirma estudo pré-registrado com três condições (dicas específicas, gerais ou nenhuma); o trecho 'specific tips reduced belief in AIVM more than general tips' aparece letra por letra; o resumo não informa amostra, e o item marca isso.\",\n  \"Doss et al.: abri o registro no Europe PMC (DOI 10.1038/s41598-023-39944-3): título, autores, Scientific Reports 2023 conferem; o trecho 'We found that 27-50% of individuals cannot distinguish authentic videos from deepfakes.' aparece letra por letra; o resumo confirma survey com cinco populações, três nacionalmente representativas, ancorado em mudança climática, como no item; o resumo não informa amostra, e o item marca isso.\"\n ],\n \"per_item\": [\n  {\"doi\": \"10.1016/j.isci.2021.103364\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1073/pnas.2120481119\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1177/09567976231207095\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1371/journal.pone.0285333\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1038/s41598-025-94170-3\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1073/pnas.2110013119\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.3390/brainsci13091233\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1016/j.visres.2022.108079\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1038/s42003-024-06372-6\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1038/s41598-023-42802-x\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1371/journal.pone.0332692\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1098/rsos.250921\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.3390/e27080868\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.3389/frai.2025.1707336\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1016/j.actpsy.2024.104670\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.3390/jimaging11070227\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1016/j.isci.2022.105441\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1089/cyber.2020.0149\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1098/rsos.231214\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1016/j.chb.2023.107917\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1093/cybsec/tyad011\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1016/j.tele.2023.102093\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1016/j.chbah.2025.100143\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1186/s41235-025-00648-z\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1038/s41598-023-39944-3\", \"ok\": true, \"problem\": \"\"}\n ],\n \"issues\": [],\n \"feedback\": \"Nenhum erro real encontrado: todos os 25 DOIs abrem, títulos, autores, anos e periódicos conferem, os trechos entre aspas aparecem nos resumos oficiais letra por letra (ou com diferença apenas de pontuação aceitável), as amostras informadas batem com os resumos e os achados não vão além do que os resumos sustentam. Sugestões de melhoria não reprovatórias: (1) no item de Nightingale e Farid, deixe explícito no campo de método que o desenho detalhado veio de fonte secundária, como o search_notes já admite, para o leitor não achar que veio do resumo; (2) no item de Makowski et al., o resumo fala em papel da atratividade dependente de gênero (gender-dependent), então vale citar essa nuance no achado principal; (3) no item de Lewis et al., o achado ficaria mais completo citando os percentuais 32,9% versus 34,1% do grupo sem aviso; (4) no item de Nas e de Kleijn, considere registrar a data online de dezembro de 2023 junto ao ano de 2024 do fascículo para evitar dúvida futura.\"\n}",
+  "usage": {
+    "input_tokens": 369778,
+    "output_tokens": 9878,
+    "cost_usd": 0.01997
+  },
+  "duration_s": 95.93,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1016/j.isci.2021.103364"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1073/pnas.2120481119"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1177/09567976231207095"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1371/journal.pone.0285333"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1038/s41598-025-94170-3"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1016/j.isci.2021.103364%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1073/pnas.2120481119%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1177/09567976231207095%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1073/pnas.2110013119%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3390/brainsci13091233%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1016/j.visres.2022.108079%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1038/s42003-024-06372-6%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1038/s41598-023-42802-x%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1371/journal.pone.0332692%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1098/rsos.250921%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3390/e27080868%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3389/frai.2025.1707336%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1016/j.actpsy.2024.104670%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3390/jimaging11070227%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1016/j.isci.2022.105441%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1089/cyber.2020.0149%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1098/rsos.231214%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1016/j.chb.2023.107917%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1093/cybsec/tyad011%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1016/j.tele.2023.102093%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Somoray Miller \"Providing detection strategies to improve human detection of deepfakes\" abstract Computers in Human Behavior"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Bray Johnson Kleinberg \"Testing human ability to detect deepfake images of human faces\" abstract Journal of Cybersecurity"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Nas de Kleijn \"Conspiracy thinking and social media use are associated with ability to detect deepfakes\" abstract Telematics and Informatics"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1016/j.chbah.2025.100143%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1186/s41235-025-00648-z%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1038/s41598-023-39944-3%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Perception and social evaluation of cloned and recorded voices\" Rosi Soopramanien McGettigan abstract \"Computers in Human Behavior: Artificial Humans\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Conspiracy thinking and social media use are associated with ability to detect deepfakes\" \"abstract\" \"deepfake videos\""
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://academic.oup.com/cybersecurity/article/9/1/tyad011/7205694"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://researchonline.jcu.edu.au/79985/"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://scholarlypublications.universiteitleiden.nl/access/item:3729708/view"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/10206954/"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1093/cybsec/tyad011?fields=title,abstract,year,venue,externalIds,authors"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.chbah.2025.100143?fields=title,abstract,year,venue,externalIds,authors"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1093/cybsec/tyad011"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://ouci.dntb.gov.ua/en/works/7BGL1kp4/"
+      }
+    }
+  ],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

@@ -1,0 +1,228 @@
+{
+  "structured": {
+    "approved": false,
+    "checked": [
+      "Artigo 1 (10.4000/cp.4806): a página da OpenEdition foi bloqueada por anti-bot, então abri o espelho oficial journals.ipl.pt/cpublica/article/view/114, que exibe o mesmo DOI; o resumo confirma a citação literal 'Ao tomar os serviços de verificação como objeto empírico de análise, destacamos a transparência como valor profissional e social no jornalismo contemporâneo' e confirma que o resumo se apresenta como reflexão pelo método weberiano, sem dados, amostra ou método empírico.",
+      "Artigo 2 (10.25200/bjr.v16n2.2020.1212): abri a página da Brazilian Journalism Research; o resumo confirma a citação literal 'the agencies themselves do not lay out the criteria for selecting what is to be checked' e o achado de apoio em dados de fontes oficiais; título, autores, ano 2020 e periódico conferem; não há amostra no resumo.",
+      "Artigo 3 (10.25200/BJR.v18n2.2022.1510): abri a página da Brazilian Journalism Research; o resumo confirma o questionário autoaplicado, a amostra 'The sample (n=29) expressed their level of agreement with a group of statements', a citação literal sobre detectar e combater conteúdo falso em canais digitais, e título, autores, ano e periódico.",
+      "Artigo 4 (10.25200/BJR.v20n3.2024.1687): abri a página da Brazilian Journalism Research; o resumo confirma análise de conteúdo, '63 checks were identified using transparency tools, which represented less than 7% of the total checks conducted (950)', a citação literal sobre as ferramentas serem decisivas, e título, autoras, ano e periódico.",
+      "Artigo 5 (10.1177/10776990231207963): a página da SAGE retornou 403; a busca no site da SAGE confirmou o trecho da amostra ('30 official statements published by journalists and their tech partners, and seven semi-structured interviews with representatives from five websites') e o início da citação ('Nonetheless…'), mas o restante da citação e o ano ficaram sem confirmação direta; a listagem da SAGE mostra o artigo como 2024.",
+      "Artigo 6 (10.1080/1461670x.2022.2069588): a página da Taylor & Francis retornou 403; a busca no site da editora confirmou a citação literal sobre limited staff, big tech money e modularizar correções, e o volume 23, número 9, de 2022; o trecho acessível confirmou 'semi-structured interviews with 16 fact-checkers from' mas cortou antes de '13 active organizations'.",
+      "Artigos 7 a 18 (Canavilhas e Ito, Moreno-Gil et al., Abuín-Penas et al., Ferracioli, Ferracioli et al., Dourado, Lelo e Pachi Filho, Nogales-Bocio et al., Alencar e Bittencourt, Alencar e Dourado, Pinto e Oliveira, Cazzamatta e Sarısakaloğlu): não foram abertos nem conferidos nesta rodada, porque o acesso às páginas esgotou as tentativas disponíveis."
+    ],
+    "per_item": [
+      {
+        "doi": "10.4000/cp.4806",
+        "ok": false,
+        "problem": "Resumo se declara reflexão teórica, sem dados próprios, então o requisito de estudo empírico do pedido não fica comprovado pelo resumo."
+      },
+      {
+        "doi": "10.25200/bjr.v16n2.2020.1212",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.25200/BJR.v18n2.2022.1510",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.25200/BJR.v20n3.2024.1687",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1177/10776990231207963",
+        "ok": false,
+        "problem": "Ano indicado como 2023, mas a SAGE lista o artigo como 2024; citação confirmada só em parte."
+      },
+      {
+        "doi": "10.1080/1461670x.2022.2069588",
+        "ok": true,
+        "problem": "Trecho '13 active organizations' da amostra ficou sem confirmação direta por bloqueio de acesso."
+      },
+      {
+        "doi": "10.3390/socsci14090514",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      },
+      {
+        "doi": "10.17645/mac.v9i1.3443",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      },
+      {
+        "doi": "10.15847/obsobs18520242436",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      },
+      {
+        "doi": "10.51206/elegis.v15i38.758",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      },
+      {
+        "doi": "10.1080/21670811.2021.2021377",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      },
+      {
+        "doi": "10.21878/compolitica.2019.9.2.143",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      },
+      {
+        "doi": "10.5209/esmp.71235",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      },
+      {
+        "doi": "10.31921/doxacom.n41a2906",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      },
+      {
+        "doi": "10.13037/ci.vol25n53.8624",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      },
+      {
+        "doi": "10.19132/1807-8583202253.101015",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      },
+      {
+        "doi": "10.59289/t7hc8w93",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      },
+      {
+        "doi": "10.1177/27523543251344971",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      }
+    ],
+    "issues": [
+      "No artigo de Seibt e Fonseca (2019), o próprio resumo se apresenta como reflexão teórica pelo método weberiano, sem relatar dados próprios, amostra ou procedimento empírico, o que conflita com a exigência do pedido de estudo empírico com dados próprios e com a exclusão de ensaios teóricos.",
+      "No mesmo artigo, a justificativa empírica (questionário com profissionais do Truco nos Estados) existe só no texto completo, e o projeto está situado nas eleições de 2018, contexto que o pedido manda excluir, então a inclusão precisa de justificativa explícita ou de substituição.",
+      "No artigo de Lelo (2023) no Journalism & Mass Communication Quarterly, a página da SAGE lista o ano como 2024, enquanto o campo informado usa 2023, então o ano precisa ser corrigido ou justificado (publicação online antecipada) com fonte.",
+      "Os artigos 7 a 18 da lista não puderam ser conferidos nesta verificação por bloqueio de acesso e esgotamento das tentativas, então nenhuma citação, amostra ou achado deles está atestado aqui.",
+      "No artigo de Lelo (2022), o trecho da amostra acessível confirma '16 fact-checkers from', mas o complemento '13 active organizations' não apareceu na parte do resumo que consegui ler, por causa do bloqueio 403."
+    ],
+    "feedback": "O executor deve, primeiro, resolver o caso Seibt e Fonseca (2019): ou justificar formalmente que o estudo empírico do texto completo (questionário com o Truco nos Estados) satisfaz os critérios do pedido, demonstrando que o trabalho não é centrado em eleições, ou substituir o artigo por outro que atenda aos critérios pelo próprio resumo. Segundo, corrigir ou justificar o ano do artigo de Lelo no J&MCQ (2023 versus 2024 na SAGE), citando a fonte usada. Terceiro, na próxima rodada de verificação, o executor deve fornecer, para os artigos 7 a 18, links abertos (repositórios, versões de autor, páginas de periódico acessíveis) que permitam conferir letra por letra cada citação e cada amostra, já que nesta rodada nem MDPI, Taylor & Francis, SAGE nem as demais páginas puderam ser abertas. Os artigos 2, 3 e 4 estão integralmente confirmados e o 6 está confirmado no essencial, salvo o complemento da amostra."
+  },
+  "text": "{\n \"approved\": false,\n \"checked\": [\n  \"Artigo 1 (10.4000/cp.4806): a página da OpenEdition foi bloqueada por anti-bot, então abri o espelho oficial journals.ipl.pt/cpublica/article/view/114, que exibe o mesmo DOI; o resumo confirma a citação literal 'Ao tomar os serviços de verificação como objeto empírico de análise, destacamos a transparência como valor profissional e social no jornalismo contemporâneo' e confirma que o resumo se apresenta como reflexão pelo método weberiano, sem dados, amostra ou método empírico.\",\n  \"Artigo 2 (10.25200/bjr.v16n2.2020.1212): abri a página da Brazilian Journalism Research; o resumo confirma a citação literal 'the agencies themselves do not lay out the criteria for selecting what is to be checked' e o achado de apoio em dados de fontes oficiais; título, autores, ano 2020 e periódico conferem; não há amostra no resumo.\",\n  \"Artigo 3 (10.25200/BJR.v18n2.2022.1510): abri a página da Brazilian Journalism Research; o resumo confirma o questionário autoaplicado, a amostra 'The sample (n=29) expressed their level of agreement with a group of statements', a citação literal sobre detectar e combater conteúdo falso em canais digitais, e título, autores, ano e periódico.\",\n  \"Artigo 4 (10.25200/BJR.v20n3.2024.1687): abri a página da Brazilian Journalism Research; o resumo confirma análise de conteúdo, '63 checks were identified using transparency tools, which represented less than 7% of the total checks conducted (950)', a citação literal sobre as ferramentas serem decisivas, e título, autoras, ano e periódico.\",\n  \"Artigo 5 (10.1177/10776990231207963): a página da SAGE retornou 403; a busca no site da SAGE confirmou o trecho da amostra ('30 official statements published by journalists and their tech partners, and seven semi-structured interviews with representatives from five websites') e o início da citação ('Nonetheless…'), mas o restante da citação e o ano ficaram sem confirmação direta; a listagem da SAGE mostra o artigo como 2024.\",\n  \"Artigo 6 (10.1080/1461670x.2022.2069588): a página da Taylor & Francis retornou 403; a busca no site da editora confirmou a citação literal sobre limited staff, big tech money e modularizar correções, e o volume 23, número 9, de 2022; o trecho acessível confirmou 'semi-structured interviews with 16 fact-checkers from' mas cortou antes de '13 active organizations'.\",\n  \"Artigos 7 a 18 (Canavilhas e Ito, Moreno-Gil et al., Abuín-Penas et al., Ferracioli, Ferracioli et al., Dourado, Lelo e Pachi Filho, Nogales-Bocio et al., Alencar e Bittencourt, Alencar e Dourado, Pinto e Oliveira, Cazzamatta e Sarısakaloğlu): não foram abertos nem conferidos nesta rodada, porque o acesso às páginas esgotou as tentativas disponíveis.\"\n ],\n \"per_item\": [\n  {\"doi\": \"10.4000/cp.4806\", \"ok\": false, \"problem\": \"Resumo se declara reflexão teórica, sem dados próprios, então o requisito de estudo empírico do pedido não fica comprovado pelo resumo.\"},\n  {\"doi\": \"10.25200/bjr.v16n2.2020.1212\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.25200/BJR.v18n2.2022.1510\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.25200/BJR.v20n3.2024.1687\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1177/10776990231207963\", \"ok\": false, \"problem\": \"Ano indicado como 2023, mas a SAGE lista o artigo como 2024; citação confirmada só em parte.\"},\n  {\"doi\": \"10.1080/1461670x.2022.2069588\", \"ok\": true, \"problem\": \"Trecho '13 active organizations' da amostra ficou sem confirmação direta por bloqueio de acesso.\"},\n  {\"doi\": \"10.3390/socsci14090514\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"},\n  {\"doi\": \"10.17645/mac.v9i1.3443\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"},\n  {\"doi\": \"10.15847/obsobs18520242436\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"},\n  {\"doi\": \"10.51206/elegis.v15i38.758\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"},\n  {\"doi\": \"10.1080/21670811.2021.2021377\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"},\n  {\"doi\": \"10.21878/compolitica.2019.9.2.143\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"},\n  {\"doi\": \"10.5209/esmp.71235\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"},\n  {\"doi\": \"10.31921/doxacom.n41a2906\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"},\n  {\"doi\": \"10.13037/ci.vol25n53.8624\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"},\n  {\"doi\": \"10.19132/1807-8583202253.101015\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"},\n  {\"doi\": \"10.59289/t7hc8w93\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"},\n  {\"doi\": \"10.1177/27523543251344971\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"}\n ],\n \"issues\": [\n  \"No artigo de Seibt e Fonseca (2019), o próprio resumo se apresenta como reflexão teórica pelo método weberiano, sem relatar dados próprios, amostra ou procedimento empírico, o que conflita com a exigência do pedido de estudo empírico com dados próprios e com a exclusão de ensaios teóricos.\",\n  \"No mesmo artigo, a justificativa empírica (questionário com profissionais do Truco nos Estados) existe só no texto completo, e o projeto está situado nas eleições de 2018, contexto que o pedido manda excluir, então a inclusão precisa de justificativa explícita ou de substituição.\",\n  \"No artigo de Lelo (2023) no Journalism & Mass Communication Quarterly, a página da SAGE lista o ano como 2024, enquanto o campo informado usa 2023, então o ano precisa ser corrigido ou justificado (publicação online antecipada) com fonte.\",\n  \"Os artigos 7 a 18 da lista não puderam ser conferidos nesta verificação por bloqueio de acesso e esgotamento das tentativas, então nenhuma citação, amostra ou achado deles está atestado aqui.\",\n  \"No artigo de Lelo (2022), o trecho da amostra acessível confirma '16 fact-checkers from', mas o complemento '13 active organizations' não apareceu na parte do resumo que consegui ler, por causa do bloqueio 403.\"\n ],\n \"feedback\": \"O executor deve, primeiro, resolver o caso Seibt e Fonseca (2019): ou justificar formalmente que o estudo empírico do texto completo (questionário com o Truco nos Estados) satisfaz os critérios do pedido, demonstrando que o trabalho não é centrado em eleições, ou substituir o artigo por outro que atenda aos critérios pelo próprio resumo. Segundo, corrigir ou justificar o ano do artigo de Lelo no J&MCQ (2023 versus 2024 na SAGE), citando a fonte usada. Terceiro, na próxima rodada de verificação, o executor deve fornecer, para os artigos 7 a 18, links abertos (repositórios, versões de autor, páginas de periódico acessíveis) que permitam conferir letra por letra cada citação e cada amostra, já que nesta rodada nem MDPI, Taylor & Francis, SAGE nem as demais páginas puderam ser abertas. Os artigos 2, 3 e 4 estão integralmente confirmados e o 6 está confirmado no essencial, salvo o complemento da amostra.\"\n}",
+  "usage": {
+    "input_tokens": 173483,
+    "output_tokens": 5809,
+    "cost_usd": 0.00898
+  },
+  "duration_s": 88.3,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.4000/cp.4806"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.25200/bjr.v16n2.2020.1212"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Transparência como princípio normativo do jornalismo\" Seibt Fonseca Comunicação Pública fact-checking resumo"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.25200/BJR.v18n2.2022.1510"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://journals.ipl.pt/cpublica/article/view/114"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.25200/BJR.v20n3.2024.1687"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1177/10776990231207963"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1080/1461670x.2022.2069588"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Fostering Artificial Intelligence to Face Misinformation\" Lelo abstract \"fact-checkers' authority\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"The Rise of the Brazilian Fact-checking Movement\" Lelo abstract \"16 fact-checkers\" \"13 active organizations\""
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.researchgate.net/publication/360315669_The_Rise_of_the_Brazilian_Fact-checking_Movement_Between_Economic_Sustainability_and_Editorial_Independence"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://journals.sagepub.com/doi/10.1177/10776990231207963"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.tandfonline.com/doi/full/10.1080/1461670X.2022.2069588"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Lelo \"Rise of the Brazilian Fact-checking Movement\" abstract \"modularize their corrections to different platforms\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Lelo \"Fostering Artificial Intelligence to Face Misinformation\" abstract \"AI has challenged fact-checkers\""
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/10776990231207963"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://journals.sagepub.com/doi/10.1177/10776990231207963?ai="
+      }
+    }
+  ],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

@@ -1,0 +1,599 @@
+{
+ "run_id": "class-n3-a05-r1",
+ "level": "n3",
+ "item": "a05",
+ "status": "done",
+ "delivered": 24,
+ "correct": 21,
+ "requested": 25,
+ "yield": 0.84,
+ "precision": 0.875,
+ "not_found": 0,
+ "wrong_doi": 0,
+ "metadata_errors": 2,
+ "quote_fail": 0,
+ "no_abstract": 0,
+ "wall_seconds": 204.4,
+ "calls": 6,
+ "items": [
+  {
+   "doi": "10.1093/cybsec/tyad011",
+   "title": "Testing human ability to detect ‘deepfake’ images of human faces",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1371/journal.pone.0285333",
+   "title": "Warning: Humans cannot reliably detect speech deepfakes",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1016/j.isci.2021.103364",
+   "title": "Fooled twice: People cannot detect deepfakes but think they can",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1073/pnas.2110013119",
+   "title": "Deepfake detection by human crowds, machines, and machine-informed crowds",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1186/s41235-025-00683-w",
+   "title": "AI-generated images of familiar faces are indistinguishable from real photographs",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1073/pnas.2120481119",
+   "title": "AI-synthesized faces are indistinguishable from real faces and more trustworthy",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1177/09567976231207095",
+   "title": "AI Hyperrealism: Why AI Faces Are Perceived as More Real Than Human Ones",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1098/rsos.250921",
+   "title": "Training human super-recognizers’ detection and discrimination of AI-generated faces",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1002/acp.4245",
+   "title": "Crowds Improve Human Detection of <scp>AI</scp>‐Synthesised Faces",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1016/j.chb.2023.107917",
+   "title": "Providing detection strategies to improve human detection of deepfakes: An experimental study",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 1,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1098/rsos.231214",
+   "title": "Deepfake detection with and without content warnings",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.54501/jots.v2i2.144",
+   "title": "Effects of Browsing Conditions and Visual Alert Design on Human Susceptibility to Deepfakes",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1177/14614448231199664",
+   "title": "Assessing the perceived credibility of deepfakes: The impact of system-generated cues and video characteristics",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1007/s00146-025-02416-5",
+   "title": "Deciphering authenticity in the age of AI: how AI-generated disinformation images and AI detection tools influence judgements of authenticity",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": false,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": false
+  },
+  {
+   "doi": "10.1016/j.tele.2023.102093",
+   "title": "Conspiracy thinking and social media use are associated with ability to detect deepfakes",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 1,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1002/acp.70141",
+   "title": "Detecting Deepfakes Through Emotion?: Facial Expression and Emotional Contagion as Dual Indicators of Deepfake Credibility",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1038/s41598-023-42802-x",
+   "title": "Deepfake smiles matter less—the psychological and neural impact of presumed AI-generated faces",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.48009/2_iis_2024_108",
+   "title": "UNMASKING MEDIA ILLUSION: ANALYTICAL SURVEY OF DEEPFAKE VIDEO DETECTION AND EMOTIONAL INSIGHTS",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": false,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": false,
+   "correct": false,
+   "error_class": "metadata_error"
+  },
+  {
+   "doi": "10.56873/jpkm.v9i2.5873",
+   "title": "The Relationship of Digital Literacy, Exposure to AI-Generated Deepfake Videos, and the Ability to Identify Deepfakes in Generation X Hubungan Literasi Digital, Paparan Video Deepfake yang Dihasilkan AI, dan Kemampuan untuk Mengidentifikasi Deepfake pada Generasi X",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.70121/001c.132244",
+   "title": "Comparing AI and humans’ ability to recognize AI-generated images",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1145/3757588",
+   "title": "Effect of AI Performance, Risk Perception, and Trust on Human Dependence in Deepfake Detection AI System",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1080/10447318.2024.2384821",
+   "title": "Development and Validation of the Perceived Deepfake Trustworthiness Questionnaire (PDTQ) in Three Languages",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1016/j.foodqual.2024.105149",
+   "title": "Assessing the visual appeal of real/AI-generated food images",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 1,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.5294/pacla.2024.27.3.8",
+   "title": "De lo real a lo ficticio: evaluación de la credibilidad de noticias difundidas por humanos y por avatares creados con inteligencia artificial",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": false,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "on_topic": true,
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported"
+   },
+   "metadata_ok": false,
+   "correct": false,
+   "error_class": "metadata_error"
+  }
+ ],
+ "judge": "júri: DeepSeek V4 Pro, Qwen3.7 Plus, Gemini 3.1 Flash-Lite (maioria)"
+}

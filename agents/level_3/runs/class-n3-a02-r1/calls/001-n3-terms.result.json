@@ -1,0 +1,96 @@
+{
+  "structured": {
+    "year_from": 2018,
+    "year_to": 2025,
+    "queries_en": [
+      "Brazilian fact-checking organizations",
+      "fact-checking Brazil newsroom routines",
+      "Agência Lupa Aos Fatos fact-checkers",
+      "Brazil fact-checkers interviews methods",
+      "fact-checking agencies Brazil transparency funding",
+      "Comprova collaborative fact-checking Brazil",
+      "fact-checking artificial intelligence Brazil",
+      "fact-checking organizations Latin America comparative",
+      "Brazilian fact-checkers sources and verification criteria",
+      "content analysis Brazilian fact-checking agencies"
+    ],
+    "queries_pt": [
+      "agências de checagem de fatos brasileiras",
+      "jornalismo de checagem rotinas produtivas",
+      "Lupa Aos Fatos Estadão Verifica métodos",
+      "checagem de fatos inteligência artificial",
+      "fact-checking Brasil transparência financiamento",
+      "Fato ou Fake Comprova checagem análise"
+    ],
+    "include": [
+      "Artigo de periódico revisado por pares, publicado entre 2018 e 2025",
+      "Estudo empírico com dados próprios (entrevistas, questionários, análise de conteúdo ou análise documental)",
+      "Objeto: organizações brasileiras de checagem (Lupa, Aos Fatos, Estadão Verifica, Fato ou Fake, Comprova, etc.) e suas práticas",
+      "Temas: rotinas, métodos, critérios, fontes, transparência, financiamento, modelo de negócio ou uso de inteligência artificial/ferramentas",
+      "Estudos comparativos internacionais, desde que incluam organizações brasileiras na amostra"
+    ],
+    "exclude": [
+      "Estudos centrados em eleições ou campanhas eleitorais",
+      "Estudos centrados em governos específicos (ex.: governo Bolsonaro)",
+      "Estudos centrados na pandemia de COVID-19",
+      "Estudos sobre o efeito das checagens no público, recepção, correção de crenças ou comportamento de usuários",
+      "Revisões de literatura, meta-análises, ensaios teóricos, resenhas",
+      "Preprints, trabalhos de anais de congresso, capítulos de livro, livros, teses e dissertações",
+      "Estudos sem organizações brasileiras de checagem ou sem dados empíricos próprios",
+      "Estudos de desenvolvimento de algoritmos/detecção automática de desinformação sem análise da prática das organizações",
+      "Publicações fora do período 2018–2025"
+    ]
+  },
+  "text": "{\"year_from\":2018,\"year_to\":2025,\"queries_en\":[\"Brazilian fact-checking organizations\",\"fact-checking Brazil newsroom routines\",\"Agência Lupa Aos Fatos fact-checkers\",\"Brazil fact-checkers interviews methods\",\"fact-checking agencies Brazil transparency funding\",\"Comprova collaborative fact-checking Brazil\",\"fact-checking artificial intelligence Brazil\",\"fact-checking organizations Latin America comparative\",\"Brazilian fact-checkers sources and verification criteria\",\"content analysis Brazilian fact-checking agencies\"],\"queries_pt\":[\"agências de checagem de fatos brasileiras\",\"jornalismo de checagem rotinas produtivas\",\"Lupa Aos Fatos Estadão Verifica métodos\",\"checagem de fatos inteligência artificial\",\"fact-checking Brasil transparência financiamento\",\"Fato ou Fake Comprova checagem análise\"],\"include\":[\"Artigo de periódico revisado por pares, publicado entre 2018 e 2025\",\"Estudo empírico com dados próprios (entrevistas, questionários, análise de conteúdo ou análise documental)\",\"Objeto: organizações brasileiras de checagem (Lupa, Aos Fatos, Estadão Verifica, Fato ou Fake, Comprova, etc.) e suas práticas\",\"Temas: rotinas, métodos, critérios, fontes, transparência, financiamento, modelo de negócio ou uso de inteligência artificial/ferramentas\",\"Estudos comparativos internacionais, desde que incluam organizações brasileiras na amostra\"],\"exclude\":[\"Estudos centrados em eleições ou campanhas eleitorais\",\"Estudos centrados em governos específicos (ex.: governo Bolsonaro)\",\"Estudos centrados na pandemia de COVID-19\",\"Estudos sobre o efeito das checagens no público, recepção, correção de crenças ou comportamento de usuários\",\"Revisões de literatura, meta-análises, ensaios teóricos, resenhas\",\"Preprints, trabalhos de anais de congresso, capítulos de livro, livros, teses e dissertações\",\"Estudos sem organizações brasileiras de checagem ou sem dados empíricos próprios\",\"Estudos de desenvolvimento de algoritmos/detecção automática de desinformação sem análise da prática das organizações\",\"Publicações fora do período 2018–2025\"]}",
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 2128,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 968,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 2128,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 968,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 2128,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 2128
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 2,
+  "duration_s": 9.6,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "year_from": "2018",
+        "year_to": "2025",
+        "queries_en": "[\"Brazilian fact-checking organizations\", \"fact-checking Brazil newsroom routines\", \"Agência Lupa Aos Fatos fact-checkers\", \"Brazil fact-checkers interviews methods\", \"fact-checking agencies Brazil t…",
+        "queries_pt": "[\"agências de checagem de fatos brasileiras\", \"jornalismo de checagem rotinas produtivas\", \"Lupa Aos Fatos Estadão Verifica métodos\", \"checagem de fatos inteligência artificial\", \"fact-checking Brasi…",
+        "include": "[\"Artigo de periódico revisado por pares, publicado entre 2018 e 2025\", \"Estudo empírico com dados próprios (entrevistas, questionários, análise de conteúdo ou análise documental)\", \"Objeto: organiza…",
+        "exclude": "[\"Estudos centrados em eleições ou campanhas eleitorais\", \"Estudos centrados em governos específicos (ex.: governo Bolsonaro)\", \"Estudos centrados na pandemia de COVID-19\", \"Estudos sobre o efeito da…"
+      }
+    }
+  ]
+}

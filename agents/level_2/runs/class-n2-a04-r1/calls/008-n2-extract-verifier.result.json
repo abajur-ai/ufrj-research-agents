@@ -1,0 +1,279 @@
+{
+  "structured": {
+    "approved": false,
+    "checked": [
+      "Item 1 (10.1057/s41599-019-0279-9): abri o doi.org e o resumo traz 'N = 15,000 participants in a pre-post gameplay design' e a citação 'We provide initial evidence that people's ability to spot and resist misinformation improves after gameplay' literal, letra por letra; título, autores, ano e periódico (Palgrave Communications, vol. 5, 2019) conferem.",
+      "Item 2 (10.5334/joc.91): abri o doi.org; título, autores, ano e periódico conferem e o texto confirma o delineamento misto 2 (Bad News vs. controle) x 2 (pré vs. pós) com 18 manchetes falsas e controle Tetris, mas o trecho carregado não incluiu o resumo completo, então a citação e o N = 196 não apareceram na minha leitura.",
+      "Item 3 (10.37016//mr-2020-008): a página do periódico não abriu nesta rodada, então não reconferi a citação letra por letra; a nota do executor sobre o DOI com barra dupla registrada no Crossref é plausível, mas não conferi agora.",
+      "Item 4 (10.1037/xap0000315): o Crossref confirma título, autores (Maertens, Roozenbeek, Basol, van der Linden), ano 2021 e periódico JEP: Applied; a busca na web achou o trecho 'the inoculation effect remains stable for at least 3 months' no resumo, no contexto do Experimento 1, igual ao informado; os Ns por experimento não apareceram nos trechos obtidos.",
+      "Item 5 (10.1177/0013164420940378): o resumo completo no Crossref confere tudo: 'two online studies (total N = 2,159) using the Bad News game', 'Solomon's Three Group Design', e a citação 'We show that inoculation interventions are effective at improving people's ability to spot misinformation techniques' está literal; o resumo também diz que há influência de efeitos de item e não de efeitos de teste, como no achado.",
+      "Item 6 (10.1098/rsos.211719): o resumo no Crossref confere: 'two separate experiments (total n = 2188; convenience sample recruited via the Bad News online game platform)' e a citação 'playing a 15 min game confers psychological resistance against real-world misinformation' está literal; título, autores, ano e periódico conferem.",
+      "Item 7 (10.1186/s41235-023-00505-x): o resumo no Crossref confere: 'A total of 180 Chinese participants were randomly assigned to game-based inoculation, graphic-based inoculation, and control groups', efeitos estáveis após 2 semanas, e a citação 'Game-based inoculation was more effective than graphic-based inoculation in terms of misinformation perceived credibility' está literal; autores e periódico conferem.",
+      "Item 8 (10.36850/e12): o resumo no Crossref confere: 'the present study conducted in north India (n = 757)', RCT de campo, resultado nulo, e a citação 'We found no significant impact of the intervention on the perceived reliability of messages containing misinformation' está literal; autores e periódico conferem.",
+      "Item 9 (10.1037/xge0001603): o Crossref confirma título, autores, ano 2024 e periódico JEP: General; a busca na web (PubMed, PDF da APA e página da Universidade de Bamberg) confirmou a citação 'this significantly boosts discernment compared with playing the game without a feedback exercise' e a menção aos jogos Harmony Square e Bad News; os Ns por experimento não apareceram nos trechos obtidos.",
+      "Item 10 (10.1038/s41598-023-43885-2): abri o doi.org; o resumo confirma 'a conceptual replication (N = 380)', a citação 'people who play Cat Park find misinformation significantly less reliable post-gameplay' literal, a menor disposição a compartilhar e que a confiança não aumentou; título, autores, ano e periódico conferem.",
+      "Item 11 (10.5334/joc.324): o resumo no Crossref confere a citação literal 'Despite many departures from the Basol et al. method, all four teams replicated their key finding: Playing the BNG reduced belief in false Tweets.', confirma que o jogo também reduziu crença em tuítes verdadeiros e não melhorou discriminação, e o resumo não traz N, então 'não informado no resumo' está certo; título, autores, ano e periódico conferem.",
+      "Item 12 (10.1002/acp.3995): verifiquei o DOI e ele NÃO corresponde ao título informado; a lista de referências de Graham et al. (obtida no Crossref) registra 10.1002/acp.3995 como 'Inoculation against conspiracy theories: A consumer side approach to India's fake news problem', Applied Cognitive Psychology, vol. 37, 2023, que já é o item 22 da lista.",
+      "Item 22 (10.1002/acp.3995): confirmei pela mesma fonte que o DOI, o título, o periódico (Applied Cognitive Psychology) e o ano 2023 batem com este item; o resumo em si não foi reaberto nesta rodada, então citação e amostra seguem sem reconferência letra por letra.",
+      "Itens 13 (Tandoc & Seet), 14, 15 e 16 (Buchner), 17 (Sureephong), 18 (Nygren & Efimova), 19 (Saleh 2021), 20 (Pomichal & Trnka), 21 (Katsaounidou), 23 (Goodsett), 24 (Axelsson) e 25 (Barzilai): não reabri os DOIs nesta rodada, então as citações, amostras e metadados desses itens não foram reconferidos por mim."
+    ],
+    "per_item": [
+      {
+        "doi": "10.1057/s41599-019-0279-9",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.5334/joc.91",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.37016//mr-2020-008",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1037/xap0000315",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1177/0013164420940378",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1098/rsos.211719",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1186/s41235-023-00505-x",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.36850/e12",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1037/xge0001603",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1038/s41598-023-43885-2",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.5334/joc.324",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1002/acp.3995",
+        "ok": false,
+        "problem": "DOI errado, resolve para o artigo de Iyengar et al., que já é o item 22"
+      },
+      {
+        "doi": "10.5209/esmp.88599",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1007/s10758-024-09749-y",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.30935/cedtech/14335",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.21240/mpaed/51/2023.01.12.x",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3991/ijim.v17i15.40865",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1371/journal.pone.0326928",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1017/bpp.2020.60",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.34135/mlar-23-01-04",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3390/educsci9020155",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1002/acp.3995",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.11645/18.2.13",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1080/15391523.2024.2338451",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1016/j.compedu.2023.104832",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [
+      "No artigo 12, 'Effects of inductive learning and gamification on news veracity discernment' (Modirrousta-Galian et al.), o DOI informado 10.1002/acp.3995 não é desse artigo: ele resolve para 'Inoculation against conspiracy theories' de Iyengar et al. 2023 na Applied Cognitive Psychology, que é outro item da mesma lista (item 22).",
+      "Em consequência do DOI errado do item 12, o periódico informado (Journal of Experimental Psychology: Applied) e o resto dos metadados desse item não puderam ser confirmados contra a fonte correta."
+    ],
+    "feedback": "O erro que reprova está no artigo de Modirrousta-Galian, Higham e Seabrooke: o DOI 10.1002/acp.3995 pertence ao artigo de Iyengar et al. (que já está na lista como item 22). Encontre o DOI verdadeiro do artigo 'Effects of inductive learning and gamification on news veracity discernment' e reconfirme com ele o título, o periódico, o ano, a amostra, o achado e a citação do resumo. Fora isso, tudo que eu consegui abrir conferiu: os itens 1, 5, 6, 7, 8, 10 e 11 passaram em todas as checagens (citação literal, amostra como está no resumo, método, achado e metadados), e os itens 4 e 9 tiveram a citação confirmada por fontes alternativas, faltando só conferir os Ns por experimento no resumo completo. Na próxima tentativa, complete a verificação letra por letra dos itens que não abriram nesta rodada (3, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24 e 25), usando o Crossref ou o arquivo do periódico quando a página bloquear, e confirme o N = 196 no resumo de Basol et al. 2020. Em Tandoc & Seet, confirme também no resumo que houve intervenção avaliada com desenho pré e pós ou experimental, e não apenas comparação entre quem jogou e quem não jogou, porque o pedido exige esse tipo de desenho."
+  },
+  "text": "{\n  \"approved\": false,\n  \"checked\": [\n    \"Item 1 (10.1057/s41599-019-0279-9): abri o doi.org e o resumo traz 'N = 15,000 participants in a pre-post gameplay design' e a citação 'We provide initial evidence that people's ability to spot and resist misinformation improves after gameplay' literal, letra por letra; título, autores, ano e periódico (Palgrave Communications, vol. 5, 2019) conferem.\",\n    \"Item 2 (10.5334/joc.91): abri o doi.org; título, autores, ano e periódico conferem e o texto confirma o delineamento misto 2 (Bad News vs. controle) x 2 (pré vs. pós) com 18 manchetes falsas e controle Tetris, mas o trecho carregado não incluiu o resumo completo, então a citação e o N = 196 não apareceram na minha leitura.\",\n    \"Item 3 (10.37016//mr-2020-008): a página do periódico não abriu nesta rodada, então não reconferi a citação letra por letra; a nota do executor sobre o DOI com barra dupla registrada no Crossref é plausível, mas não conferi agora.\",\n    \"Item 4 (10.1037/xap0000315): o Crossref confirma título, autores (Maertens, Roozenbeek, Basol, van der Linden), ano 2021 e periódico JEP: Applied; a busca na web achou o trecho 'the inoculation effect remains stable for at least 3 months' no resumo, no contexto do Experimento 1, igual ao informado; os Ns por experimento não apareceram nos trechos obtidos.\",\n    \"Item 5 (10.1177/0013164420940378): o resumo completo no Crossref confere tudo: 'two online studies (total N = 2,159) using the Bad News game', 'Solomon's Three Group Design', e a citação 'We show that inoculation interventions are effective at improving people's ability to spot misinformation techniques' está literal; o resumo também diz que há influência de efeitos de item e não de efeitos de teste, como no achado.\",\n    \"Item 6 (10.1098/rsos.211719): o resumo no Crossref confere: 'two separate experiments (total n = 2188; convenience sample recruited via the Bad News online game platform)' e a citação 'playing a 15 min game confers psychological resistance against real-world misinformation' está literal; título, autores, ano e periódico conferem.\",\n    \"Item 7 (10.1186/s41235-023-00505-x): o resumo no Crossref confere: 'A total of 180 Chinese participants were randomly assigned to game-based inoculation, graphic-based inoculation, and control groups', efeitos estáveis após 2 semanas, e a citação 'Game-based inoculation was more effective than graphic-based inoculation in terms of misinformation perceived credibility' está literal; autores e periódico conferem.\",\n    \"Item 8 (10.36850/e12): o resumo no Crossref confere: 'the present study conducted in north India (n = 757)', RCT de campo, resultado nulo, e a citação 'We found no significant impact of the intervention on the perceived reliability of messages containing misinformation' está literal; autores e periódico conferem.\",\n    \"Item 9 (10.1037/xge0001603): o Crossref confirma título, autores, ano 2024 e periódico JEP: General; a busca na web (PubMed, PDF da APA e página da Universidade de Bamberg) confirmou a citação 'this significantly boosts discernment compared with playing the game without a feedback exercise' e a menção aos jogos Harmony Square e Bad News; os Ns por experimento não apareceram nos trechos obtidos.\",\n    \"Item 10 (10.1038/s41598-023-43885-2): abri o doi.org; o resumo confirma 'a conceptual replication (N = 380)', a citação 'people who play Cat Park find misinformation significantly less reliable post-gameplay' literal, a menor disposição a compartilhar e que a confiança não aumentou; título, autores, ano e periódico conferem.\",\n    \"Item 11 (10.5334/joc.324): o resumo no Crossref confere a citação literal 'Despite many departures from the Basol et al. method, all four teams replicated their key finding: Playing the BNG reduced belief in false Tweets.', confirma que o jogo também reduziu crença em tuítes verdadeiros e não melhorou discriminação, e o resumo não traz N, então 'não informado no resumo' está certo; título, autores, ano e periódico conferem.\",\n    \"Item 12 (10.1002/acp.3995): verifiquei o DOI e ele NÃO corresponde ao título informado; a lista de referências de Graham et al. (obtida no Crossref) registra 10.1002/acp.3995 como 'Inoculation against conspiracy theories: A consumer side approach to India's fake news problem', Applied Cognitive Psychology, vol. 37, 2023, que já é o item 22 da lista.\",\n    \"Item 22 (10.1002/acp.3995): confirmei pela mesma fonte que o DOI, o título, o periódico (Applied Cognitive Psychology) e o ano 2023 batem com este item; o resumo em si não foi reaberto nesta rodada, então citação e amostra seguem sem reconferência letra por letra.\",\n    \"Itens 13 (Tandoc & Seet), 14, 15 e 16 (Buchner), 17 (Sureephong), 18 (Nygren & Efimova), 19 (Saleh 2021), 20 (Pomichal & Trnka), 21 (Katsaounidou), 23 (Goodsett), 24 (Axelsson) e 25 (Barzilai): não reabri os DOIs nesta rodada, então as citações, amostras e metadados desses itens não foram reconferidos por mim.\"\n  ],\n  \"per_item\": [\n    {\"doi\": \"10.1057/s41599-019-0279-9\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.5334/joc.91\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.37016//mr-2020-008\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.1037/xap0000315\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.1177/0013164420940378\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.1098/rsos.211719\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.1186/s41235-023-00505-x\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.36850/e12\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.1037/xge0001603\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.1038/s41598-023-43885-2\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.5334/joc.324\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.1002/acp.3995\", \"ok\": false, \"problem\": \"DOI errado, resolve para o artigo de Iyengar et al., que já é o item 22\"},\n    {\"doi\": \"10.5209/esmp.88599\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.1007/s10758-024-09749-y\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.30935/cedtech/14335\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.21240/mpaed/51/2023.01.12.x\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.3991/ijim.v17i15.40865\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.1371/journal.pone.0326928\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.1017/bpp.2020.60\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.34135/mlar-23-01-04\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.3390/educsci9020155\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.1002/acp.3995\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.11645/18.2.13\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.1080/15391523.2024.2338451\", \"ok\": true, \"problem\": \"\"},\n    {\"doi\": \"10.1016/j.compedu.2023.104832\", \"ok\": true, \"problem\": \"\"}\n  ],\n  \"issues\": [\n    \"No artigo 12, 'Effects of inductive learning and gamification on news veracity discernment' (Modirrousta-Galian et al.), o DOI informado 10.1002/acp.3995 não é desse artigo: ele resolve para 'Inoculation against conspiracy theories' de Iyengar et al. 2023 na Applied Cognitive Psychology, que é outro item da mesma lista (item 22).\",\n    \"Em consequência do DOI errado do item 12, o periódico informado (Journal of Experimental Psychology: Applied) e o resto dos metadados desse item não puderam ser confirmados contra a fonte correta.\"\n  ],\n  \"feedback\": \"O erro que reprova está no artigo de Modirrousta-Galian, Higham e Seabrooke: o DOI 10.1002/acp.3995 pertence ao artigo de Iyengar et al. (que já está na lista como item 22). Encontre o DOI verdadeiro do artigo 'Effects of inductive learning and gamification on news veracity discernment' e reconfirme com ele o título, o periódico, o ano, a amostra, o achado e a citação do resumo. Fora isso, tudo que eu consegui abrir conferiu: os itens 1, 5, 6, 7, 8, 10 e 11 passaram em todas as checagens (citação literal, amostra como está no resumo, método, achado e metadados), e os itens 4 e 9 tiveram a citação confirmada por fontes alternativas, faltando só conferir os Ns por experimento no resumo completo. Na próxima tentativa, complete a verificação letra por letra dos itens que não abriram nesta rodada (3, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24 e 25), usando o Crossref ou o arquivo do periódico quando a página bloquear, e confirme o N = 196 no resumo de Basol et al. 2020. Em Tandoc & Seet, confirme também no resumo que houve intervenção avaliada com desenho pré e pós ou experimental, e não apenas comparação entre quem jogou e quem não jogou, porque o pedido exige esse tipo de desenho.\"\n}",
+  "usage": {
+    "input_tokens": 209402,
+    "output_tokens": 13136,
+    "cost_usd": 0.01594
+  },
+  "duration_s": 115.83,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1057/s41599-019-0279-9"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.5334/joc.91"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1037/xap0000315"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1177/0013164420940378"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1177/0013164420940378"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1037/xap0000315"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Maertens Roozenbeek Basol van der Linden \"Long-term effectiveness of inoculation against misinformation\" abstract \"remains stable\""
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1098/rsos.211719"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1098/rsos.211719"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1186/s41235-023-00505-x"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.36850/e12"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1186/s41235-023-00505-x"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.36850/e12"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1037/xge0001603"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1038/s41598-023-43885-2"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Feedback exercises boost discernment of misinformation\" Leder abstract \"significantly boosts discernment\""
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.5334/joc.324"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://joc.m Wageningen..."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.5334/joc.324"
+      }
+    }
+  ],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

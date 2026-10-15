@@ -1,0 +1,79 @@
+PEDIDO DO PESQUISADOR:
+Encontre 25 artigos científicos revisados por pares, publicados em periódicos entre 2018 e 2025, sobre desinformação e educação midiática (ou competência em informação) em escolas e universidades brasileiras. Restrições: estudos empíricos feitos no Brasil com estudantes, professores, aulas, currículos ou livros didáticos (questionários, grupos focais, intervenções, relatos de experiência com coleta de dados ou análise documental); estudos comparativos internacionais valem se incluírem amostra brasileira; exclua estudos centrados em COVID-19, vacinas, eleições ou política partidária e estudos com públicos fora do ensino formal. Valem apenas artigos de periódico que relatem estudo empírico com dados próprios; não use revisões de literatura, meta-análises, ensaios teóricos, preprints, trabalhos de anais de congresso, capítulos de livro, teses ou resenhas. Para cada artigo, informe: DOI; título; autores; ano de publicação; periódico; tipo de estudo e método; tamanho da amostra exatamente como aparece no resumo (ou "não informado no resumo"); achado principal, em uma frase; e um trecho literal do resumo, entre aspas, que sustente o achado principal.
+
+PLANO APROVADO:
+{
+ "criteria": [
+  "Tema: desinformação (fake news, notícias falsas, infodemia não relacionada a COVID, pós-verdade, desordem informacional) E educação midiática / alfabetização midiática / letramento midiático / educação para a mídia / competência em informação / letramento informacional / alfabetização informacional (media literacy, information literacy, MIL)",
+  "Contexto: escolas (educação básica, ensino fundamental e médio) e universidades/ensino superior brasileiros, ou seja, ensino formal; excluir públicos fora do ensino formal (público geral, idosos, redes sociais abertas, ONGs, projetos comunitários)",
+  "Recorte geográfico: estudo feito no Brasil; estudos comparativos internacionais só se incluírem amostra brasileira explícita",
+  "Período: publicado entre 2018 e 2025 (ano de publicação, de 01/01/2018 a 31/12/2025)",
+  "Tipo de publicação: artigo de periódico revisado por pares; excluir preprints, anais de congresso, capítulos de livro, teses/dissertações, resenhas",
+  "Tipo de estudo: empírico com dados próprios (questionário, entrevista, grupo focal, intervenção/experimento, relato de experiência com coleta de dados, análise documental de currículos, BNCC, livros didáticos); excluir revisões de literatura, meta-análises, revisões sistemáticas, ensaios teóricos",
+  "Objeto: estudantes, professores, aulas, currículos ou livros didáticos",
+  "Exclusões temáticas: estudos centrados em COVID-19, vacinas, eleições ou política partidária",
+  "Dados exigidos por artigo: DOI, título, autores, ano, periódico, tipo de estudo e método, tamanho da amostra exatamente como no resumo (ou 'não informado no resumo'), achado principal em uma frase, trecho literal do resumo que sustente o achado",
+  "Meta: 25 artigos que atendam a todos os critérios (buscar com margem, ~40-50 candidatos, para compensar descartes)"
+ ],
+ "queries": [
+  {
+   "query": "(disinformation OR misinformation OR \"fake news\") AND (\"media literacy\" OR \"information literacy\" OR \"media education\") AND Brazil* AND (school OR students OR teachers OR university)",
+   "language": "en",
+   "database": "OpenAlex"
+  },
+  {
+   "query": "(desinformação OR \"fake news\" OR \"notícias falsas\") AND (\"educação midiática\" OR \"letramento midiático\" OR \"alfabetização midiática\" OR \"competência em informação\" OR \"letramento informacional\") AND (escola OR estudantes OR professores OR universidade)",
+   "language": "pt",
+   "database": "OpenAlex"
+  },
+  {
+   "query": "disinformation \"media literacy\" Brazil students teachers empirical",
+   "language": "en",
+   "database": "Crossref"
+  },
+  {
+   "query": "desinformação educação midiática estudantes ensino médio Brasil",
+   "language": "pt",
+   "database": "Crossref"
+  },
+  {
+   "query": "desinformação AND (\"educação midiática\" OR \"competência em informação\" OR \"competência crítica em informação\" OR \"letramento midiático\")",
+   "language": "pt",
+   "database": "SciELO"
+  },
+  {
+   "query": "\"fake news\" OR \"notícias falsas\" AND (BNCC OR \"livro didático\" OR currículo OR \"formação de professores\") AND (\"educação midiática\" OR \"letramento\")",
+   "language": "pt",
+   "database": "SciELO"
+  },
+  {
+   "query": "(\"information literacy\" OR \"media and information literacy\") AND (fake news OR disinformation) AND Brazil AND (\"higher education\" OR undergraduate OR \"high school\") AND (survey OR intervention OR \"focus group\")",
+   "language": "en",
+   "database": "OpenAlex"
+  },
+  {
+   "query": "artigo periódico desinformação \"educação midiática\" escola brasileira intervenção OR questionário OR \"grupo focal\" OR \"relato de experiência\" 2018..2025 site:scielo.br OR site:periodicos.ufsc.br OR site:periodicos.ufmg.br OR site:seer.ufrgs.br",
+   "language": "pt",
+   "database": "busca na web"
+  }
+ ],
+ "how_to_check": [
+  "Tema: ler título e resumo; exigir que desinformação/fake news E educação midiática/competência em informação apareçam como foco, não apenas como menção periférica.",
+  "Ensino formal: conferir no resumo/metodologia que os participantes ou o material são de escola, universidade, professores, currículo ou livro didático; descartar se o público for geral, comunitário ou não escolar.",
+  "Brasil: verificar no resumo ou na seção de método o local do estudo (instituições, cidades, estados brasileiros); em estudos internacionais, confirmar amostra brasileira explícita.",
+  "Período: conferir o ano de publicação em Crossref/OpenAlex (published-print/online) e no site do periódico; incluir só 2018-2025; em caso de divergência entre ano online e ano do fascículo, registrar e usar o ano oficial de publicação do DOI.",
+  "Tipo de publicação: confirmar via metadados Crossref (type = journal-article) e página do periódico que é artigo revisado por pares, não preprint, anais, capítulo, tese ou resenha; verificar se o periódico tem processo de avaliação por pares.",
+  "Estudo empírico: ler o resumo e o método para confirmar coleta ou análise de dados próprios (questionário, entrevista, grupo focal, intervenção, análise documental de currículo/livro didático); descartar revisões, meta-análises, ensaios teóricos e relatos de experiência sem coleta de dados.",
+  "Exclusões temáticas: checar título, resumo e palavras-chave; descartar se o foco for COVID-19, vacinas, eleições ou política partidária.",
+  "DOI: verificar resolução do DOI (doi.org ou Crossref API) e que título/autores/ano batem com os metadados; não inventar DOI ausente, registrar como indisponível e substituir o candidato.",
+  "Amostra: copiar do resumo exatamente o número e a descrição dos participantes/documentos; se não houver, escrever 'não informado no resumo'; não buscar no corpo do texto.",
+  "Trecho literal: copiar entre aspas uma frase do resumo, sem alteração, que sustente o achado principal; conferir por comparação com o texto do resumo recuperado; o achado em uma frase deve decorrer desse trecho.",
+  "Deduplicação e contagem: remover duplicatas por DOI e por título; fechar com 25 artigos aprovados em todos os critérios; se faltarem, ampliar consultas (sinônimos como 'letramento digital crítico', 'checagem de fatos', 'pós-verdade') e registrar qualquer lacuna em vez de completar com itens não conformes."
+ ]
+}
+
+
+
+
+
+Entregue os candidatos.

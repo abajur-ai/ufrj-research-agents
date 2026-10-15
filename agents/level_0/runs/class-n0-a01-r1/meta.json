@@ -1,0 +1,18 @@
+{
+ "run_id": "class-n0-a01-r1",
+ "level": "n0",
+ "item": "a01",
+ "rep": 1,
+ "status": "done",
+ "wall_seconds": 576.2,
+ "calls": {
+  "single:anthropic": 1
+ },
+ "tokens": {
+  "anthropic:input_tokens": 46,
+  "anthropic:output_tokens": 54632,
+  "anthropic:cache_read": 1337504,
+  "anthropic:cache_write": 110299
+ },
+ "calls_total": 1
+}

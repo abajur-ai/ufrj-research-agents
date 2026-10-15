@@ -1,0 +1,33 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Período extraído: 2018 a 2025, exatamente igual ao pedido.",
+      "Consulta em inglês cobre inoculação (Bad News game, psychological inoculation, inoculation game manipulation techniques).",
+      "Consulta em inglês cobre prebunking (prebunking game misinformation experiment).",
+      "Consultas em inglês cobrem jogos educativos, jogos sérios, gamificação e jogo de tabuleiro (educational game, serious game, gamified intervention, board game).",
+      "Consultas em inglês cobrem desfechos de discernimento e desenhos pré e pós (misinformation discernment, pre-post).",
+      "Consultas em português cobrem jogo educativo, jogo sério, gamificação, jogo de tabuleiro e prebunking.",
+      "Critério de inclusão de artigo de periódico revisado por pares com estudo empírico e dados próprios presente.",
+      "Critérios de desenho (experimento, quase-experimento, RCT, pré e pós) presentes na inclusão, iguais ao pedido.",
+      "Exclusões do pedido todas presentes: intervenções não jogo, reanálises, COVID/vacinas/eleições/política partidária com exemplo Go Viral!, revisões e meta-análises, ensaios teóricos, preprints, anais, capítulos e teses, resenhas.",
+      "Exclusão de publicações fora do período é redundante com o campo de ano, mas não contradiz o pedido.",
+      "Exemplos de jogos citados no pedido (Bad News, Harmony Square, Cranky Uncle, Go Viral! como exclusão) aparecem nos critérios.",
+      "Nenhuma restrição adicionada que não esteja no pedido: escape room e exigência de resumo com trecho são coerentes com jogo e com o formato de saída solicitado.",
+      "Nenhuma restrição do pedido esquecida nos campos include e exclude."
+    ],
+    "issues": [],
+    "feedback": "Nada precisa ser corrigido. Sugestões opcionais para aumentar o alcance sem mudar os critérios: acrescentar consultas com nomes próprios dos jogos citados (Harmony Square, Cranky Uncle, Fake It to Make It, Factitious), já que buscas por nome do jogo costumam achar estudos que os termos genéricos perdem; acrescentar uma consulta em português com inoculação psicológica desinformação; e considerar a grafia fact checking ou checagem de fatos em alguma consulta, pois alguns estudos de avaliação de jogos usam esse termo no resumo."
+  },
+  "text": "{\"approved\": true, \"checked\": [\"Período extraído: 2018 a 2025, exatamente igual ao pedido.\", \"Consulta em inglês cobre inoculação (Bad News game, psychological inoculation, inoculation game manipulation techniques).\", \"Consulta em inglês cobre prebunking (prebunking game misinformation experiment).\", \"Consultas em inglês cobrem jogos educativos, jogos sérios, gamificação e jogo de tabuleiro (educational game, serious game, gamified intervention, board game).\", \"Consultas em inglês cobrem desfechos de discernimento e desenhos pré e pós (misinformation discernment, pre-post).\", \"Consultas em português cobrem jogo educativo, jogo sério, gamificação, jogo de tabuleiro e prebunking.\", \"Critério de inclusão de artigo de periódico revisado por pares com estudo empírico e dados próprios presente.\", \"Critérios de desenho (experimento, quase-experimento, RCT, pré e pós) presentes na inclusão, iguais ao pedido.\", \"Exclusões do pedido todas presentes: intervenções não jogo, reanálises, COVID/vacinas/eleições/política partidária com exemplo Go Viral!, revisões e meta-análises, ensaios teóricos, preprints, anais, capítulos e teses, resenhas.\", \"Exclusão de publicações fora do período é redundante com o campo de ano, mas não contradiz o pedido.\", \"Exemplos de jogos citados no pedido (Bad News, Harmony Square, Cranky Uncle, Go Viral! como exclusão) aparecem nos critérios.\", \"Nenhuma restrição adicionada que não esteja no pedido: escape room e exigência de resumo com trecho são coerentes com jogo e com o formato de saída solicitado.\", \"Nenhuma restrição do pedido esquecida nos campos include e exclude.\"], \"issues\": [], \"feedback\": \"Nada precisa ser corrigido. Sugestões opcionais para aumentar o alcance sem mudar os critérios: acrescentar consultas com nomes próprios dos jogos citados (Harmony Square, Cranky Uncle, Fake It to Make It, Factitious), já que buscas por nome do jogo costumam achar estudos que os termos genéricos perdem; acrescentar uma consulta em português com inoculação psicológica desinformação; e considerar a grafia fact checking ou checagem de fatos em alguma consulta, pois alguns estudos de avaliação de jogos usam esse termo no resumo.\"}",
+  "usage": {
+    "input_tokens": 1239,
+    "output_tokens": 1214,
+    "cost_usd": 0.00079
+  },
+  "duration_s": 34.49,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

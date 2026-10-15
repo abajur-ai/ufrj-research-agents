@@ -1,0 +1,696 @@
+{
+ "run_id": "class-n2-a05-r1",
+ "level": "n2",
+ "item": "a05",
+ "status": "done",
+ "delivered": 25,
+ "correct": 24,
+ "requested": 25,
+ "yield": 0.96,
+ "precision": 0.96,
+ "not_found": 0,
+ "wrong_doi": 0,
+ "metadata_errors": 0,
+ "quote_fail": 0,
+ "no_abstract": 0,
+ "wall_seconds": 1223.8,
+ "calls": 8,
+ "items": [
+  {
+   "doi": "10.1016/j.isci.2021.103364",
+   "title": "Fooled twice: People cannot detect deepfakes but think they can",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "Hyper-realistic manipulation of audio-visual content, i.e., deepfakes, presents a new challenge for establishing veracity of online content. Research on the human impact of deepfakes... people cannot reliably detect deepfakes... overestimate their own detection abilities.",
+    "on_topic": true,
+    "evidence_empirical": "In a pre-registered behavioral experiment ( N = 210), we show that...",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata da percepção e detecção humana de deepfakes, atendendo ao tema central do pedido e respeitando as restrições de exclusão (não aborda algoritmos de detecção automática, política ou saúde).\n2. empirical: O estudo coleta dados primários por meio de um experimento comportamental com participantes humanos (N=210), atendendo ao requisito de estudo empírico.\n3. method_ok: O tipo de estudo (experimento comportamental pré-registrado) e o método (avaliação de deepfakes, teste de conscientização, incentivos financeiros e autoconfiança) extraídos estão em total conformidade com o descrito no resumo.\n4. finding: O achado principal extraído é uma tradução fiel e integral dos resultados reportados no resumo (pontos a, b e d), sendo, portanto, totalmente sustentado pelo texto."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1073/pnas.2120481119",
+   "title": "AI-synthesized faces are indistinguishable from real faces and more trustworthy",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "Our evaluation of the photorealism of AI-synthesized faces indicates that synthesis engines have passed through the uncanny valley and are capable of creating faces that are indistinguishable-and more trustworthy-than real faces.",
+    "on_topic": true,
+    "evidence_empirical": "Our evaluation of the photorealism of AI-synthesized faces indicates that synthesis engines... are capable of creating faces that are indistinguishable-and more trustworthy-than real faces.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "on_topic: O artigo avalia a percepção (indistinguibilidade) e a credibilidade (confiabilidade) de rostos sintéticos gerados por IA, atendendo ao tema e não violando as exclusões (política, saúde). Trecho: 'Our evaluation of the photorealism of AI-synthesized faces indicates that synthesis engines have passed through the uncanny valley and are capable of creating faces that are indistinguishable-and more trustworthy-than real faces.'\n\nempirical: O estudo realiza uma avaliação empírica de atributos perceptuais e subjetivos (fotorrealismo, indistinguibilidade, confiabilidade), caracterizando coleta de dados próprios com humanos, e não se trata de revisão ou ensaio. Trecho: 'Our evaluation of the photorealism of AI-synthesized faces indicates that synthesis engines... are capable of creating faces that are indistinguishable-and more trustworthy-than real faces.'\n\nmethod_ok: O método descrito nos dados extraídos (participantes avaliando distinção e confiabilidade de rostos reais vs. sintéticos) está em total concordância com o relato do resumo. Trecho do resumo: '...capable of creating faces that are indistinguishable-and more trustworthy-than real faces.' Dado extraído: 'Participantes avaliaram rostos sintetizados por IA... e rostos reais quanto à distinção e à confiabilidade percebida'.\n\nfinding: O achado principal informado é uma paráfrase direta e precisa da conclusão apresentada no resumo, sendo integralmente sustentado por ele. Trecho: '...capable of creating faces that are indistinguishable-and more trustworthy-than real faces.' Dado extraído: 'Rostos sintetizados por IA são indistinguíveis de rostos reais pelos participantes e são avaliados como mais confiáveis.'"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1177/09567976231207095",
+   "title": "AI Hyperrealism: Why AI Faces Are Perceived as More Real Than Human Ones",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "AI-generated faces are now indistinguishable from human faces... White AI faces are judged as human more often than actual human faces... identify key facial attributes that distinguish AI from human faces but were misinterpreted by participants",
+    "on_topic": true,
+    "evidence_empirical": "In Experiment 1 ( N = 124 adults)... In Experiment 2 ( N = 610 adults)...",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata da percepção humana de rostos sintéticos gerados por IA, atendendo ao tema e às restrições (foco em participantes humanos, não é sobre algoritmos de detecção automática, política ou saúde).\n2. empirical: O estudo coleta dados próprios por meio de experimentos com participantes humanos.\n3. method_ok: O tipo de estudo (experimental) e o método (julgamentos humanos, teoria do espaço de rostos, relatos qualitativos) informados nos dados extraídos batem perfeitamente com o descrito no resumo.\n4. finding: O achado informado é integralmente sustentado pelo resumo, que afirma explicitamente que rostos de IA brancos são julgados como humanos com mais frequência e que os que mais erraram foram os mais confiantes."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1371/journal.pone.0285333",
+   "title": "Warning: Humans cannot reliably detect speech deepfakes",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Título: \"Warning: Humans cannot reliably detect speech deepfakes\". Resumo: \"Speech deepfakes are artificial voices generated by machine learning models... We presented genuine and deepfake audio to n = 529 individuals and asked them to identify the deepfakes.\"",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: \"We presented genuine and deepfake audio to n = 529 individuals and asked them to identify the deepfakes. We ran our experiments in English and Mandarin...\"",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata da detecção humana de deepfakes de áudio (voz sintética), atendendo ao tema do pedido e não se enquadra nas exclusões (não foca em algoritmos automáticos, política ou saúde).\n2. empirical: O estudo coleta dados primários por meio de um experimento com participantes humanos (teste de detecção).\n3. method_ok: O tipo de estudo e o método descritos nos dados extraídos correspondem exatamente ao que é relatado no resumo.\n4. finding: O achado principal extraído é integralmente sustentado e condiz exatamente com os resultados relatados no resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1038/s41598-025-94170-3",
+   "title": "People are poorly equipped to detect AI-powered voice clones",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "People are poorly equipped to detect AI-powered voice clones; realism of AI-generated voices in terms of identity matching and naturalness; human participants cannot consistently identify recordings of AI-generated voices.",
+    "on_topic": true,
+    "evidence_empirical": "Through a series of perceptual studies, we report on the realism of AI-generated voices... We find human participants cannot consistently identify recordings of AI-generated voices.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: Trecho: 'People are poorly equipped to detect AI-powered voice clones'; 'realism of AI-generated voices'; 'human participants cannot consistently identify recordings of AI-generated voices'. Decisão: Sim. O artigo trata da detecção de áudios sintéticos (clones de voz) por participantes humanos, publicado em 2025 no periódico Scientific Reports, atendendo ao tema, ao recorte temporal e às restrições (não é sobre algoritmos automáticos, política ou saúde).\n\n2. empirical: Trecho: 'Through a series of perceptual studies... We find human participants cannot consistently identify recordings of AI-generated voices.' Decisão: Sim. O estudo coleta e analisa dados próprios por meio de testes perceptivos com participantes humanos, caracterizando-se como um estudo empírico.\n\n3. method_ok: Trecho do resumo: 'Through a series of perceptual studies... human participants cannot consistently identify recordings...'. Dados extraídos: 'Estudo empírico (experimentos perceptivos com participantes)' e 'Série de estudos perceptivos em que participantes julgaram identidade e origem...'. Decisão: Sim. O tipo de estudo e o método informados nos dados extraídos batem perfeitamente com a descrição do resumo.\n\n4. finding: Trecho do resumo: 'We find human participants cannot consistently identify recordings of AI-generated voices.' Dado extraído: 'Os participantes humanos não conseguem identificar de forma consistente gravações de vozes geradas por IA.' Decisão: supported. O achado informado é uma tradução direta e integralmente sustentada pela afirmação central do resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1073/pnas.2110013119",
+   "title": "Deepfake detection by human crowds, machines, and machine-informed crowds",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "Título: 'Deepfake detection by human crowds, machines, and machine-informed crowds'; Resumo: 'Are humans or the leading machine learning model more capable of detecting algorithmic visual manipulations of videos?' e 'In two online studies with 15,016 participants, we present authentic videos and deepfakes and ask participants to identify which is which.'",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: 'In two online studies with 15,016 participants, we present authentic videos and deepfakes and ask participants to identify which is which.' e 'we evaluate the impact of preregistered randomized interventions on deepfake detection.'",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata da detecção de deepfakes por humanos, atendendo ao tema do pedido. O foco é na percepção e detecção humana (comparada a máquinas), sem centrar-se em políticos, eleições, propaganda ou saúde. 2. empirical: O estudo coleta dados próprios por meio de experimentos online com participantes humanos (15.016 participantes). 3. method_ok: O tipo de estudo (experimental online com intervenções randomizadas) e o método (distinção de vídeos autênticos vs. deepfakes comparando humanos e modelo) informados nos dados extraídos batem perfeitamente com o descrito no resumo. 4. finding: O achado extraído é integralmente sustentado pelo resumo, que afirma explicitamente que humanos e o modelo têm acurácia semelhante cometendo erros diferentes, e que a combinação (participantes informados pelo modelo) resulta em maior acurácia."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3390/brainsci13091233",
+   "title": "Real and Deepfake Face Recognition: An EEG Study on Cognitive and Emotive Implications",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "This study investigated healthy individuals' cognitive and emotional engagement in a visual discrimination task involving real and deepfake human faces",
+    "on_topic": true,
+    "evidence_empirical": "Electroencephalographic (EEG) data were collected from 23 healthy participants",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: Trecho: \"This study investigated healthy individuals' cognitive and emotional engagement in a visual discrimination task involving real and deepfake human faces\". Decisão: Sim. O artigo trata da percepção e detecção humana de rostos sintéticos (deepfakes), atendendo perfeitamente ao tema do pedido e ao recorte de estudos com participantes humanos.\n\n2. empirical: Trecho: \"Electroencephalographic (EEG) data were collected from 23 healthy participants\". Decisão: Sim. O estudo coleta dados próprios por meio de medidas fisiológicas (EEG) com participantes humanos, o que é exigido pelo pedido.\n\n3. method_ok: Trecho do resumo: \"using a 21-channel dry-EEG headset; power spectrum and event-related potential (ERP) analyses were performed\" e \"visual discrimination task involving real and deepfake human faces expressing positive, negative, or neutral emotions\". Trecho extraído: \"Estudo empírico com medida fisiológica (EEG)\", \"EEG seco de 21 canais (espectro de potência e potenciais relacionados a eventos) enquanto participantes viam rostos reais e deepfake com expressões positivas, negativas e neutras\". Decisão: Sim. O tipo de estudo e o método informados batem perfeitamente com o descrito no resumo.\n\n4. finding: Trecho do resumo: \"Results revealed statistically significant activations in specific brain areas depending on the authenticity... ERP analysis hinted at the possibility of discriminating between real and synthetic faces\". Trecho extraído: \"A atividade cerebral (EEG/ERP) difere entre rostos reais e deepfake, o que indica que é possível discriminá-los.\" Decisão: supported. O achado informado é integralmente sustentado pelo resumo, que aponta diferenças nas ativações cerebrais dependendo da autenticidade do rosto e sugere a possibilidade de discriminação entre eles."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1016/j.visres.2022.108079",
+   "title": "Are you for real? Decoding realistic AI-generated faces from neural activity",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 1,
+   "judge": {
+    "evidence_topic": "We investigated how the human brain encodes and interprets realistic artificially generated images using behaviour and brain imaging. [...] classifying real and realistic fakes",
+    "on_topic": true,
+    "evidence_empirical": "We investigated how the human brain encodes and interprets realistic artificially generated images using behaviour and brain imaging. [...] participants tended to interchange the labels",
+    "empirical": true,
+    "method_ok": false,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata da percepção e detecção de rostos sintéticos gerados por IA, atendendo ao tema e ao recorte do pedido.\n2. empirical: O estudo coleta dados próprios com participantes humanos por meio de medidas comportamentais e de neuroimagem.\n3. method_ok: O tipo de estudo e o método geral (tarefa comportamental e decodificação de atividade neural) batem com o resumo. No entanto, o dado extraído especifica 'EEG', termo que não aparece no resumo (o texto cita apenas 'brain imaging' e 'neural activity', o que poderia ser fMRI, MEG, etc.). Sendo estrito, a especificação de EEG é uma extrapolação não sustentada pelo texto fornecido.\n4. finding: O achado informado é totalmente sustentado pelo resumo, que afirma que a atividade neural decodifica os rostos de IA, mas o desempenho comportamental do grupo fica próximo ao acaso."
+   },
+   "metadata_ok": true,
+   "correct": false
+  },
+  {
+   "doi": "10.1038/s42003-024-06372-6",
+   "title": "Cortical-striatal brain network distinguishes deepfake from real speaker identity",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Here, we test the neurocognitive sensitivity of 25 participants to accept or reject person identities as recreated in audio deepfakes. We generate high-quality voice identity clones from natural speakers by using advanced deepfake technologies.",
+    "on_topic": true,
+    "evidence_empirical": "we test the neurocognitive sensitivity of 25 participants... During an identity matching task, participants show intermediate performance... univariate and multivariate analyses consistently reveal a central cortico-striatal network",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O trecho 'test the neurocognitive sensitivity of 25 participants to accept or reject person identities as recreated in audio deepfakes' e 'generate high-quality voice identity clones' demonstra que o artigo trata da percepção e detecção de áudios sintéticos (clones de voz) por humanos, sem focar em algoritmos automáticos, política ou saúde. Decisão: Sim, está dentro do tema e recorte.\n\n2. empirical: O trecho 'we test the neurocognitive sensitivity of 25 participants' e 'During an identity matching task, participants show...' comprova que o estudo coleta e analisa dados próprios por meio de um experimento com participantes humanos. Decisão: Sim, é um estudo empírico.\n\n3. method_ok: Os dados extraídos informam 'Estudo empírico com neuroimagem e tarefa comportamental' e 'Tarefa de correspondência de identidade... com análises univariadas e multivariadas de neuroimagem'. O resumo confirma isso ao citar 'test the neurocognitive sensitivity' (neuroimagem), 'identity matching task' (tarefa comportamental) e 'univariate and multivariate analyses'. Decisão: Sim, o tipo de estudo e o método extraídos batem com o resumo.\n\n4. finding: O achado extraído é 'Os humanos são parcialmente enganados por vozes deepfake, e uma rede córtico-estriatal distingue identidades deepfake de identidades naturais.' O resumo sustenta isso integralmente ao afirmar 'Humans can thus be partly tricked by deepfakes' e 'reveal a central cortico-striatal network that decoded... natural speaker identities... reveals neural sensitivity... when exposed to natural but not to deepfake identities'. Decisão: supported."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1038/s41598-023-42802-x",
+   "title": "Deepfake smiles matter less—the psychological and neural impact of presumed AI-generated faces",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "investigate the impact of the belief that depicted persons are real or deepfakes on psychological and neural measures of human face perception",
+    "on_topic": true,
+    "evidence_empirical": "Using EEG, we tracked participants’ (N = 30) brain responses to real faces showing positive, neutral, and negative expressions, after being informed that they are either real or fake.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo investiga o impacto da crença de que rostos são reais ou deepfakes na percepção humana, atendendo ao tema de como as pessoas percebem e avaliam rostos sintéticos/gerados por IA. Não há foco em política ou saúde.\n2. empirical: O estudo coleta dados primários por meio de um experimento com participantes humanos (N=30) utilizando medidas fisiológicas (EEG), cumprindo o requisito de estudo empírico.\n3. method_ok: O tipo de estudo e o método extraídos descrevem com exatidão o procedimento do resumo (experimento com EEG, rostos com expressões variadas rotulados como reais ou falsos, e escalas de avaliação). A observação sobre o 'caso limítrofe' (rostos reais rotulados como falsos) demonstra leitura precisa do texto.\n4. finding: O achado extraído é uma tradução direta e fiel da frase 'Smiling faces marked as fake appeared less positive, as reflected in expression ratings, and induced slower evaluations', sendo totalmente sustentado pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1371/journal.pone.0332692",
+   "title": "Voice clones sound realistic but not (yet) hyperrealistic",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "we need to examine how humans perceive them [AI-generated voices]... investigated the extent to which AI-generated voices sound real to human listeners, and whether listeners can accurately distinguish between human and AI-generated voices.",
+    "on_topic": true,
+    "evidence_empirical": "Here, we tested whether a 'hyperrealism effect' also exists for AI-generated voices... We tested these questions using AI-generated voices... We find that voice clones can sound as real as human voices...",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata da percepção e detecção de áudios sintéticos (clones de voz) por humanos, sem focar em algoritmos automáticos, política ou saúde, atendendo ao recorte do pedido.\n2. empirical: O estudo coleta dados próprios por meio de testes experimentais com ouvintes humanos, caracterizando-se como um estudo empírico.\n3. method_ok: O tipo de estudo e o método extraídos descrevem com precisão a metodologia relatada no resumo (avaliação de realismo, discriminação e traços sociais de clones de voz, vozes de IA e vozes humanas por ouvintes).\n4. finding: O achado informado é uma tradução fiel e integral do que está relatado no resumo, sendo totalmente sustentado pelo texto."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1098/rsos.250921",
+   "title": "Training human super-recognizers' detection and discrimination of AI-generated faces",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "Título: \"Training human super-recognizers’ detection and discrimination of AI-generated faces\"; Resumo: \"we investigate synthetic face detection and discrimination in super-recognizers (SRs; who have exceptional face recognition skills), and typical-ability control participants.\"",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: \"In two different experimental designs, we found that SRs (total N = 283) were better at detecting and discriminating synthetic faces than controls (total N = 381)...\"",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata da detecção humana de rostos sintéticos gerados por IA, atendendo ao tema central do pedido e respeitando as exclusões (não trata de algoritmos automáticos, política, eleições ou saúde).\n2. empirical: O estudo coleta dados próprios por meio de experimentos com participantes humanos (super-reconhecedores e controles), caracterizando-se como um estudo empírico válido.\n3. method_ok: O tipo de estudo e o método extraídos ('Estudo empírico experimental...' e 'Dois desenhos experimentais... comparando super-reconhecedores e controles antes e depois de um treino sobre artefatos de renderização') batem perfeitamente com o descrito no resumo ('In two different experimental designs... devised a training procedure which sought to highlight rendering artefacts').\n4. finding: O achado extraído é integralmente sustentado pelo resumo, que afirma explicitamente que os super-reconhecedores foram melhores que os controles ('SRs... were better at detecting and discriminating synthetic faces than controls') e que o treino melhorou o desempenho de ambos ('Trained SRs and controls had significantly better performance than those without training')."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3390/e27080868",
+   "title": "Are Human Judgments of Real and Fake Faces Quantum-like Contextual?",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "participants were asked to judge which of two simultaneously presented facial images (one real, one AI-generated) was fake.",
+    "on_topic": true,
+    "evidence_empirical": "This paper describes a crowdsourced experiment in which participants were asked to judge...",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic\nTrecho: \"participants were asked to judge which of two simultaneously presented facial images (one real, one AI-generated) was fake.\"\nDecisão: Sim. O artigo trata da detecção de rostos sintéticos gerados por IA por participantes humanos, atendendo ao tema e respeitando as restrições do pedido (não é focado em política, saúde ou algoritmos automáticos).\n\n2. empirical\nTrecho: \"This paper describes a crowdsourced experiment in which participants were asked to judge...\"\nDecisão: Sim. O estudo coleta dados próprios de participantes humanos por meio de um experimento (crowdsourcing).\n\n3. method_ok\nTrecho do resumo: \"judge which of two simultaneously presented facial images (one real, one AI-generated) was fake... applied Contextuality-by-Default (CbD) theory... Across 20 trials... bootstrap resampling\"\nTrecho extraído: \"Participantes viam pares de rostos (um real, um gerado por IA) e indicavam o falso; análise com a teoria Contextuality-by-Default e bootstrap em 20 tentativas\"\nDecisão: Sim. O tipo de estudo e o método informados batem perfeitamente com o descrito no resumo.\n\n4. finding\nTrecho do resumo: \"Across 20 trials... revealed that nine trials demonstrated quantum-like contextuality.\"\nTrecho extraído: \"Em nove das 20 tentativas os julgamentos humanos mostraram contextualidade de tipo quântico.\"\nDecisão: supported. O achado informado é integralmente sustentado pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3389/frai.2025.1707336",
+   "title": "What you see is not what you get anymore: a mixed-methods approach on human perception of AI-generated images",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "This study explores human perception and detection capabilities regarding AI-generated images of landscapes, architecture, and interiors using a mixed-methods approach.",
+    "on_topic": true,
+    "evidence_empirical": "A total of 104 participants took part in an online survey, classifying 50 images (25 real, 25 AI-generated) from five leading TTI models.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata da percepção e detecção humana de imagens geradas por IA, atendendo ao tema e respeitando as exclusões (não é sobre algoritmos automáticos, política ou saúde). 2. empirical: O estudo é empírico, coletando dados próprios por meio de um survey com 104 participantes humanos. 3. method_ok: O tipo de estudo (métodos mistos/survey) e o método (classificação de imagens, avaliação de confiança, análise qualitativa de justificativas e modelo hierárquico) extraídos batem perfeitamente com o resumo. 4. finding: O achado extraído é sustentado integralmente pelo resumo, que afirma explicitamente que os participantes identificaram corretamente as imagens em 63,7% dos casos."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1016/j.actpsy.2024.104670",
+   "title": "Too beautiful to be fake: Attractive faces are less likely to be judged as artificially generated",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "Título: \"Too beautiful to be fake: Attractive faces are less likely to be judged as artificially generated\"; Resumo: \"...some of them were AI-generated, and participants had to rate each image according to whether they believed them to be real or fake.\"",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: \"In this study, 150 participants rated 109 pictures of faces...\"",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata da percepção e detecção de rostos gerados por IA (estímulos sintéticos) por participantes humanos, sem focar em algoritmos, política ou saúde. Trecho: \"some of them were AI-generated, and participants had to rate each image according to whether they believed them to be real or fake.\" Decisão: Sim.\n2. empirical: O estudo coleta dados próprios por meio de uma tarefa experimental com participantes humanos. Trecho: \"In this study, 150 participants rated 109 pictures of faces...\" Decisão: Sim.\n3. method_ok: O tipo de estudo e o método extraídos batem perfeitamente com a descrição do resumo. Trecho extraído: \"Estudo empírico experimental\" e \"Participantes avaliaram 109 rostos (atratividade, beleza, confiabilidade, familiaridade) e depois julgaram cada rosto como real ou falso, informados de que alguns eram gerados por IA (todos eram fotos reais)\". Trecho do resumo: \"In this study, 150 participants rated 109 pictures of faces on 4 characteristics (attractiveness, beauty, trustworthiness, familiarity). The stimuli were then presented again with the new information that some of them were AI-generated, and participants had to rate each image according to whether they believed them to be real or fake. Despite all images being pictures of real faces...\" Decisão: Sim.\n4. finding: O achado informado é integralmente sustentado pelo resumo. Trecho extraído: \"Rostos avaliados como mais atraentes tendem a ser classificados como reais, de modo que a atratividade reduz a chance de um rosto ser julgado artificial.\" Trecho do resumo: \"Our results suggest a gender-dependent role of attractiveness on reality judgements, with faces rated as more attractive being classified as more real.\" Decisão: supported."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3390/jimaging11070227",
+   "title": "Interpretation of AI-Generated vs. Human-Made Images",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "examine whether image interpretation is influenced by the origin of the image (AI-generated vs. human-made)... evaluate each image based on the following: (1) the source they believed the image originated from... (3) the level of credibility they attributed to it.",
+    "on_topic": true,
+    "evidence_empirical": "we presented 24 AI-generated images... and 8 human-made images to 161 participants... A total of 5152 responses were collected for each question.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata da percepção, detecção (origem percebida) e avaliação de credibilidade de imagens geradas por IA, atendendo ao tema e às restrições (não é sobre algoritmos automáticos, política ou saúde). 2. empirical: O estudo coleta dados próprios por meio de um experimento com participantes humanos. 3. method_ok: O tipo de estudo ('Estudo empírico experimental') e o método ('Participantes... avaliaram 24 imagens de IA e 8 imagens feitas por humanos quanto à origem percebida, realismo e credibilidade') batem perfeitamente com o resumo ('presented 24 AI-generated images... and 8 human-made images to 161 participants... evaluate each image based on... source... realism... credibility'). 4. finding: O achado informado ('Imagens feitas por humanos são percebidas como mais realistas e mais críveis que imagens geradas por IA') é sustentado integralmente pelo resumo ('We also find that human-made images are perceived as both more realistic and more credible than AI-generated ones')."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1016/j.isci.2022.105441",
+   "title": "On the realness of people who do not exist: The social processing of artificial faces",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "Here, we focus on how people evaluate realistic-looking faces of non-existing people generated by generative adversarial networks (GANs). [...] In three studies, we investigated if and how participants can distinguish between GAN and REAL faces and the social consequences of their exposure to artificial faces.",
+    "on_topic": true,
+    "evidence_empirical": "In three studies, we investigated if and how participants can distinguish between GAN and REAL faces and the social consequences of their exposure to artificial faces.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata da percepção e detecção de rostos sintéticos gerados por IA (GANs). Embora o resumo mencione que a tecnologia é usada em 'propaganda política' como contexto de aplicação, o estudo em si não é centrado em políticos, eleições ou propaganda, focando na avaliação de rostos artificiais e suas consequências sociais gerais. Portanto, atende ao recorte do tema e não viola as exclusões.\n2. empirical: O estudo coleta dados próprios com participantes humanos por meio de testes de detecção e experimentos comportamentais.\n3. method_ok: O tipo de estudo ('Estudo empírico comportamental (três estudos)') e o método descrito nos dados extraídos batem perfeitamente com a descrição do resumo ('In three studies, we investigated...').\n4. finding: O achado extraído ('Rostos GAN foram percebidos como reais mais vezes que rostos reais, e saber da existência de rostos artificiais reduziu a confiança social') é integralmente sustentado pelas frases do resumo ('GAN faces were more likely to be perceived as real than REAL faces' e 'knowledge about the presence of GAN faces eroded social trust')."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1089/cyber.2020.0149",
+   "title": "Deepfakes Unmasked: The Effects of Information Priming and Bullshit Receptivity on Deepfake Recognition and Sharing Intention",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "The study aims to test whether simple priming of deepfake (DF) information significantly increases users' ability to recognize DF media.",
+    "on_topic": true,
+    "evidence_empirical": "The study aims to test whether simple priming of deepfake (DF) information significantly increases users' ability to recognize DF media. [...] through a serial mediation analysis, we show that DF recognition does, in turn, negatively impact users' sharing intention",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O trecho 'The study aims to test whether simple priming of deepfake (DF) information significantly increases users' ability to recognize DF media.' mostra que o artigo trata da detecção/reconhecimento de deepfakes por usuários, atendendo ao tema. 2. empirical: O trecho 'test whether simple priming... increases users' ability' e 'serial mediation analysis... impact users' sharing intention' indica coleta e análise de dados próprios com participantes humanos (experimento). 3. method_ok: O tipo de estudo (experimental) e o método (priming, bullshit receptivity como moderadora, mediação serial) extraídos batem perfeitamente com os trechos 'test whether simple priming', 'Does bullshit receptivity... moderate' e 'serial mediation analysis'. 4. finding: O achado extraído é sustentado integralmente pelo trecho 'Results indicate that the development of strategies to counter the deceitfulness of DFs from an educational and cultural perspective might work well, but only for people with a lower susceptibility to believe willfully misleading claims.', sendo uma tradução fiel do resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1098/rsos.231214",
+   "title": "Deepfake detection with and without content warnings",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "We conduct an experiment to measure people's alertness to and ability to detect a high-quality deepfake among a set of videos.",
+    "on_topic": true,
+    "evidence_empirical": "We conduct an experiment to measure people's alertness to and ability to detect a high-quality deepfake among a set of videos.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo atende a todos os critérios. O tema é a detecção humana de deepfakes (on_topic). É um estudo empírico com experimento envolvendo participantes humanos (empirical). O tipo de estudo e o método extraídos descrevem com precisão o experimento de grupo controle e aviso de conteúdo relatado no resumo (method_ok). O achado principal extraído é integralmente sustentado pelos dados percentuais e conclusões apresentados no resumo (finding: supported)."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1016/j.chb.2023.107917",
+   "title": "Providing detection strategies to improve human detection of deepfakes: An experimental study",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 1,
+   "judge": {
+    "evidence_topic": "Título: \"Providing detection strategies to improve human detection of deepfakes\"; Resumo: \"participants (N = 454...) categorize a series of 20 videos as either real or deepfake.\"",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: \"In this preregistered online experiment, participants (N = 454, Mage = 37.19, SDage = 13.25, males = 57.5%) categorize a series of 20 videos...\"",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic\nTrecho: Título: \"Providing detection strategies to improve human detection of deepfakes\"; Resumo: \"participants (N = 454...) categorize a series of 20 videos as either real or deepfake.\"\nDecisão: Sim. O artigo trata da detecção humana de deepfakes (vídeos sintéticos), atendendo perfeitamente ao tema do pedido e respeitando as restrições (não foca em algoritmos automáticos, política ou saúde).\n\n2. empirical\nTrecho: \"In this preregistered online experiment, participants (N = 454...)\"\nDecisão: Sim. O estudo coleta dados próprios por meio de um experimento online com participantes humanos.\n\n3. method_ok\nTrecho dos dados extraídos: \"Estudo empírico experimental (online, pré-registrado)\" e \"Participantes classificaram 20 vídeos (10 reais, 10 deepfake) e foram designados aleatoriamente a receber uma lista de estratégias de detecção por pistas visuais ou a um grupo controle\".\nTrecho do resumo: \"In this preregistered online experiment... categorize a series of 20 videos as either real or deepfake... randomly assigned to receive a list of strategies for detecting deepfakes based on visual cues... or to act as a control group.\"\nDecisão: Sim. O tipo de estudo e o método informados nos dados extraídos batem perfeitamente com o que é relatado no resumo.\n\n4. finding\nTrecho dos dados extraídos: \"A intervenção com estratégias de detecção não alterou a acurácia nem a confiança na detecção.\"\nTrecho do resumo: \"The detection strategies intervention did not impact detection accuracy or detection confidence, with the intervention and control groups performing similarly on the detection activity and showing similar levels of confidence.\"\nDecisão: supported. O achado informado é integralmente sustentado e reflete com precisão o resultado principal relatado no resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1093/cybsec/tyad011",
+   "title": "Testing human ability to detect 'deepfake' images of human faces",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "This study aims to assess human ability to identify image deepfakes of human faces... from a pool of non-deepfake images",
+    "on_topic": true,
+    "evidence_empirical": "Using an online survey, participants (N = 280) were randomly allocated to one of four groups... Each participant was shown a sequence of 20 images... Participants were asked whether each image was AI-generated or not",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: Trecho: 'This study aims to assess human ability to identify image deepfakes of human faces... from a pool of non-deepfake images' e título 'Testing human ability to detect ‘deepfake’ images of human faces'. Decisão: Sim. O artigo trata da detecção de deepfakes (imagens sintéticas) por seres humanos, enquadrando-se perfeitamente no tema do pedido, sem focar em políticos, eleições ou saúde.\n\n2. empirical: Trecho: 'Using an online survey, participants (N = 280) were randomly allocated to one of four groups... Each participant was shown a sequence of 20 images... Participants were asked whether each image was AI-generated or not'. Decisão: Sim. O estudo coleta dados próprios por meio de um experimento/survey com participantes humanos, atendendo ao requisito de estudo empírico.\n\n3. method_ok: Trecho extraído: 'Estudo empírico experimental (survey online com atribuição aleatória)' e 'Survey online com quatro grupos aleatórios (controle e três intervenções); cada participante julgou 20 imagens de um conjunto de 50 rostos StyleGAN2 e 50 reais, avaliou a confiança e explicou o raciocínio'. Trecho do resumo: 'Using an online survey, participants (N = 280) were randomly allocated to one of four groups: a control group, and three assistance interventions. Each participant was shown a sequence of 20 images randomly selected from a pool of 50 deepfake images of human faces and 50 images of real human faces. Participants were asked whether each image was AI-generated or not, to report their confidence, and to describe the reasoning behind each response.' Decisão: Sim. O tipo de estudo e o método informados batem perfeitamente com o descrito no resumo.\n\n4. finding: Trecho extraído: 'A acurácia de detecção ficou pouco acima do acaso e nenhuma intervenção a melhorou significativamente.' Trecho do resumo: 'Overall detection accuracy was only just above chance and none of the interventions significantly improved this.' Decisão: supported. O achado informado é integralmente sustentado pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1016/j.tele.2023.102093",
+   "title": "Conspiracy thinking and social media use are associated with ability to detect deepfakes",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 1,
+   "judge": {
+    "evidence_topic": "The aim of the current study was to investigate the predictors of human performance at recognizing deepfake videos.",
+    "on_topic": true,
+    "evidence_empirical": "Our findings show that humans perform better at recognizing deepfake videos of familiar persons compared to deepfakes of unfamiliar persons.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "on_topic: O artigo investiga a detecção humana de deepfakes, atendendo ao tema e respeitando as restrições (não é sobre algoritmos automáticos, políticos ou saúde). empirical: O estudo analisa dados próprios de desempenho humano em uma tarefa de detecção, configurando um estudo empírico com participantes humanos. method_ok: O tipo de estudo e o método informados nos dados extraídos estão alinhados com o resumo, que descreve uma investigação de preditores individuais no desempenho de detecção humana, ainda que o desenho metodológico exato não seja detalhado no resumo. finding: O achado principal informado é integralmente sustentado pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1016/j.chbah.2025.100143",
+   "title": "Perception and social evaluation of cloned and recorded voices: Effects of familiarity and self-relevance",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "Perception and social evaluation of cloned and recorded voices [...] investigated whether listeners' perception and social evaluation of state-of-the-art voice clones depend on whether the clone being heard is a replica of the self, a friend, or a total stranger.",
+    "on_topic": true,
+    "evidence_empirical": "In the present study, we investigated [...] We recorded and cloned the voices of familiar pairs of adult participants. Forty-seven of these experimental participants (and 47 unfamiliar controls) rated the Trustworthiness, Attractiveness, Competence, and Dominance of cloned and recorded samples of their own voice and their friend's voice.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "on_topic: O artigo trata da percepção e avaliação social de áudios sintéticos (clones de voz) por participantes humanos, atendendo ao tema e respeitando as restrições (não foca em política, saúde ou algoritmos de detecção automática). \n\nempirical: O estudo coleta dados próprios por meio de um experimento com participantes humanos avaliando estímulos de voz.\n\nmethod_ok: O tipo de estudo (empírico experimental) e o método descrito nos dados extraídos batem perfeitamente com o desenho experimental detalhado no resumo (gravação/clonagem de vozes e avaliação de traitos sociais por ouvintes familiares e não familiares).\n\nfinding: O achado extraído é integralmente sustentado pelo resumo, que afirma explicitamente que ouvintes familiares acharam os clones menos (ou igualmente) confiáveis/atrativos/competentes que as gravações, enquanto ouvintes não familiares tenderam a avaliar os clones mais alto."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1186/s41235-025-00648-z",
+   "title": "Specific media literacy tips improve AI-generated visual misinformation discernment",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "examine whether providing specific media literacy tips about how to spot AI-generated images can reduce susceptibility to AI-generated visual misinformation (AIVM)",
+    "on_topic": true,
+    "evidence_empirical": "In this preregistered study, we examine... Participants were randomly assigned to one of three conditions",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo avalia a detecção de imagens geradas por IA (on_topic), é um estudo experimental com participantes humanos (empirical), o método descrito nos dados extraídos corresponde exatamente ao resumo (method_ok), e o achado principal extraído é confirmado integralmente pelo texto do resumo (finding)."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1038/s41598-023-39944-3",
+   "title": "Deepfakes and scientific knowledge dissemination",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "understand the vulnerabilities of education stakeholders to science deepfakes... ground our study in climate change and survey individuals... cannot distinguish authentic videos from deepfakes.",
+    "on_topic": true,
+    "evidence_empirical": "We field the first study to understand... survey individuals from five populations... Our sample is nationally representative...",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo investiga como pessoas (estudantes, educadores e público) detectam deepfakes de vídeo no contexto de desinformação científica (mudanças climáticas). Atende ao tema e não incide nas exclusões (não trata de algoritmos de detecção automática, nem de políticos/eleições/propaganda, nem de saúde).\n2. empirical: O artigo relata a coleta de dados primários com participantes humanos por meio de um survey.\n3. method_ok: O tipo de estudo (survey) e o método descritos nos dados extraídos batem perfeitamente com o que é relatado no resumo (survey com 5 populações, 3 representativas, testando distinção de vídeos).\n4. finding: O achado informado ('Entre 27% e 50% das pessoas não conseguem distinguir vídeos autênticos de deepfakes') é integralmente sustentado pelo resumo ('We found that 27–50% of individuals cannot distinguish authentic videos from deepfakes'), sendo uma tradução direta do resultado central."
+   },
+   "metadata_ok": true,
+   "correct": true
+  }
+ ],
+ "judge": "Qwen3.7 Plus (Alibaba), esforço high"
+}

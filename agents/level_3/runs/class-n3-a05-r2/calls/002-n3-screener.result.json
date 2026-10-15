@@ -1,0 +1,701 @@
+{
+  "structured": {
+    "decisions": [
+      {
+        "id": "C01",
+        "include": false,
+        "reason": "Revisão (survey) de métodos de deepfake de áudio, sem dados com participantes."
+      },
+      {
+        "id": "C02",
+        "include": true,
+        "reason": "Experimentos com humanos (super-recognizers e controles, N=283 e N=381) sobre detecção de rostos sintéticos."
+      },
+      {
+        "id": "C03",
+        "include": false,
+        "reason": "Revisão sobre algoritmos de detecção."
+      },
+      {
+        "id": "C04",
+        "include": false,
+        "reason": "Centrado em discursos políticos."
+      },
+      {
+        "id": "C05",
+        "include": false,
+        "reason": "Revisão de literatura."
+      },
+      {
+        "id": "C06",
+        "include": false,
+        "reason": "Análise acústica de similaridade com ferramentas, sem participantes humanos."
+      },
+      {
+        "id": "C07",
+        "include": true,
+        "reason": "Experimentos de detecção humana de rostos gerados por IA (ChatGPT/DALL·E), fictícios e de celebridades."
+      },
+      {
+        "id": "C08",
+        "include": true,
+        "reason": "Dois experimentos com participantes julgando rostos sintéticos vs. reais (desempenho individual e de multidões)."
+      },
+      {
+        "id": "C09",
+        "include": false,
+        "reason": "Usa deepfake para criar estímulos de percepção de faces; não avalia credibilidade ou detecção de mídia sintética."
+      },
+      {
+        "id": "C10",
+        "include": false,
+        "reason": "Método algorítmico de detecção."
+      },
+      {
+        "id": "C11",
+        "include": false,
+        "reason": "Modelo de detecção por deep learning."
+      },
+      {
+        "id": "C12",
+        "include": true,
+        "reason": "Survey com 199 respondentes sobre capacidade de identificar vídeos deepfake."
+      },
+      {
+        "id": "C13",
+        "include": false,
+        "reason": "Ensaio sobre ética de datasets de detecção."
+      },
+      {
+        "id": "C14",
+        "include": false,
+        "reason": "Revisão sobre detecção automática."
+      },
+      {
+        "id": "C15",
+        "include": false,
+        "reason": "Revisão sobre detecção automática."
+      },
+      {
+        "id": "C16",
+        "include": false,
+        "reason": "Modelo de detecção automática; comparação com humanos é secundária."
+      },
+      {
+        "id": "C17",
+        "include": false,
+        "reason": "Revisão bibliográfica e análise de conteúdo, sem participantes."
+      },
+      {
+        "id": "C18",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C19",
+        "include": false,
+        "reason": "Algoritmo de detecção por piscadas."
+      },
+      {
+        "id": "C20",
+        "include": false,
+        "reason": "Algoritmo de detecção por piscadas."
+      },
+      {
+        "id": "C21",
+        "include": false,
+        "reason": "Modelo de detecção por deep learning."
+      },
+      {
+        "id": "C22",
+        "include": false,
+        "reason": "Proposta algorítmica/survey de detecção."
+      },
+      {
+        "id": "C23",
+        "include": false,
+        "reason": "Revisão sobre detecção de áudio deepfake."
+      },
+      {
+        "id": "C24",
+        "include": true,
+        "reason": "Estuda como humanos e máquinas distinguem fala parcialmente falsa de voz humana; humanos são enganados."
+      },
+      {
+        "id": "C25",
+        "include": true,
+        "reason": "Survey online experimental (N=280) sobre detecção humana de rostos StyleGAN2."
+      },
+      {
+        "id": "C26",
+        "include": false,
+        "reason": "Ensaio/obra artística, sem participantes."
+      },
+      {
+        "id": "C27",
+        "include": false,
+        "reason": "Ensaio filosófico."
+      },
+      {
+        "id": "C28",
+        "include": true,
+        "reason": "Experimento de survey sobre precisão percebida e compartilhamento de deepfakes de vídeo, áudio e cheap fakes."
+      },
+      {
+        "id": "C29",
+        "include": false,
+        "reason": "Análise jurídica doutrinária."
+      },
+      {
+        "id": "C30",
+        "include": false,
+        "reason": "Mapeamento bibliográfico."
+      },
+      {
+        "id": "C31",
+        "include": false,
+        "reason": "Centrado em atitudes políticas e político."
+      },
+      {
+        "id": "C32",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C33",
+        "include": false,
+        "reason": "Deepfakes políticos (Boris Johnson, Obama)."
+      },
+      {
+        "id": "C34",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C35",
+        "include": false,
+        "reason": "Ensaio filosófico."
+      },
+      {
+        "id": "C36",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C37",
+        "include": false,
+        "reason": "Eleições e análise teórica."
+      },
+      {
+        "id": "C38",
+        "include": false,
+        "reason": "Análise temática de tweets, sem participantes recrutados; contexto de guerra/política."
+      },
+      {
+        "id": "C39",
+        "include": false,
+        "reason": "Eleições e análise jurídica."
+      },
+      {
+        "id": "C40",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C41",
+        "include": true,
+        "reason": "Experimento com 46 usuários sobre percepção de autenticidade e detecção de falhas em persona deepfake."
+      },
+      {
+        "id": "C42",
+        "include": false,
+        "reason": "Survey sobre apoio à regulação, não sobre percepção/detecção de credibilidade da mídia; ligado a política pública."
+      },
+      {
+        "id": "C43",
+        "include": true,
+        "reason": "Estudo com 746 participantes sobre detecção humana de imagens de IA e vieses (impostor, automação)."
+      },
+      {
+        "id": "C44",
+        "include": true,
+        "reason": "Estudo com EEG (N=30) sobre avaliação de rostos presumidos como deepfake."
+      },
+      {
+        "id": "C45",
+        "include": false,
+        "reason": "Revisão bibliográfica."
+      },
+      {
+        "id": "C46",
+        "include": false,
+        "reason": "Teste de ferramentas automáticas, sem participantes."
+      },
+      {
+        "id": "C47",
+        "include": false,
+        "reason": "Análise de frequência por algoritmos."
+      },
+      {
+        "id": "C48",
+        "include": false,
+        "reason": "Análise jurídica."
+      },
+      {
+        "id": "C49",
+        "include": false,
+        "reason": "Fora do tema, técnico."
+      },
+      {
+        "id": "C50",
+        "include": false,
+        "reason": "Análise de contas e método de detecção, sem experimento com participantes sobre percepção."
+      },
+      {
+        "id": "C51",
+        "include": false,
+        "reason": "Pesquisa documental/bibliográfica."
+      },
+      {
+        "id": "C52",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C53",
+        "include": false,
+        "reason": "Simulação com algoritmo de emoção, sem participantes."
+      },
+      {
+        "id": "C54",
+        "include": false,
+        "reason": "Foco em lineups policiais, não em percepção de credibilidade de mídia sintética."
+      },
+      {
+        "id": "C55",
+        "include": true,
+        "reason": "Dois experimentos (N=124 e N=610) mostrando rostos de IA julgados mais humanos que reais."
+      },
+      {
+        "id": "C56",
+        "include": false,
+        "reason": "CNN de detecção."
+      },
+      {
+        "id": "C57",
+        "include": true,
+        "reason": "Experimento com n=529 sobre detecção humana de deepfakes de fala."
+      },
+      {
+        "id": "C58",
+        "include": true,
+        "reason": "Experimento com 292 participantes sobre julgamento de autenticidade de imagens geradas por IA e uso de ferramenta de detecção."
+      },
+      {
+        "id": "C59",
+        "include": false,
+        "reason": "Avaliação de detectores automáticos."
+      },
+      {
+        "id": "C60",
+        "include": false,
+        "reason": "Análise jurídica."
+      },
+      {
+        "id": "C61",
+        "include": false,
+        "reason": "Ensaio teórico."
+      },
+      {
+        "id": "C62",
+        "include": false,
+        "reason": "Análise jurídica."
+      },
+      {
+        "id": "C63",
+        "include": false,
+        "reason": "Ensaio sobre detecção algorítmica."
+      },
+      {
+        "id": "C64",
+        "include": true,
+        "reason": "Entrevistas com 8 magistrados sobre capacidade de detectar e credibilidade de deepfakes como prova; dados próprios, qualitativo (método menos central)."
+      },
+      {
+        "id": "C65",
+        "include": false,
+        "reason": "Análise jurídica."
+      },
+      {
+        "id": "C66",
+        "include": false,
+        "reason": "Avaliação de sistema automático de reconhecimento de locutor."
+      },
+      {
+        "id": "C67",
+        "include": false,
+        "reason": "Modelo CNN."
+      },
+      {
+        "id": "C68",
+        "include": false,
+        "reason": "Resumo de congresso publicado em suplemento do Journal of Vision (VSS), não artigo de periódico completo."
+      },
+      {
+        "id": "C69",
+        "include": false,
+        "reason": "Trabalho de anais (Proceedings of ASIS&T)."
+      },
+      {
+        "id": "C70",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C71",
+        "include": true,
+        "reason": "Dois estudos online com 15.016 participantes sobre detecção humana de deepfakes versus modelo."
+      },
+      {
+        "id": "C72",
+        "include": false,
+        "reason": "Método algorítmico."
+      },
+      {
+        "id": "C73",
+        "include": false,
+        "reason": "Método algorítmico."
+      },
+      {
+        "id": "C74",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C75",
+        "include": false,
+        "reason": "Método algorítmico."
+      },
+      {
+        "id": "C76",
+        "include": false,
+        "reason": "Método algorítmico."
+      },
+      {
+        "id": "C77",
+        "include": false,
+        "reason": "Revisão sistemática."
+      },
+      {
+        "id": "C78",
+        "include": false,
+        "reason": "Foco em algoritmo; resumo de congresso (VSS) no Journal of Vision."
+      },
+      {
+        "id": "C79",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C80",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C81",
+        "include": false,
+        "reason": "Trabalho de anais (Proceedings of ASIS&T)."
+      },
+      {
+        "id": "C82",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C83",
+        "include": false,
+        "reason": "Método algorítmico."
+      },
+      {
+        "id": "C84",
+        "include": false,
+        "reason": "Modelo de julgamentos de traços faciais, não credibilidade de mídia sintética."
+      },
+      {
+        "id": "C85",
+        "include": false,
+        "reason": "Visão geral."
+      },
+      {
+        "id": "C86",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C87",
+        "include": false,
+        "reason": "Sistema de detecção."
+      },
+      {
+        "id": "C88",
+        "include": false,
+        "reason": "Proposta algorítmica/survey."
+      },
+      {
+        "id": "C89",
+        "include": false,
+        "reason": "Machine learning de detecção."
+      },
+      {
+        "id": "C90",
+        "include": false,
+        "reason": "Ensaio teórico."
+      },
+      {
+        "id": "C91",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C92",
+        "include": false,
+        "reason": "Método algorítmico."
+      },
+      {
+        "id": "C93",
+        "include": false,
+        "reason": "XAI para detecção automática."
+      },
+      {
+        "id": "C94",
+        "include": true,
+        "reason": "Experimento pré-registrado (N=210) mostrando que pessoas não detectam deepfakes e superestimam sua habilidade."
+      },
+      {
+        "id": "C95",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C96",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C97",
+        "include": true,
+        "reason": "Survey online sobre desempenho e estratégias humanas para identificar vídeos deepfake."
+      },
+      {
+        "id": "C98",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C99",
+        "include": false,
+        "reason": "Deepfakes políticos."
+      },
+      {
+        "id": "C100",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C101",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C102",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C103",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C104",
+        "include": false,
+        "reason": "Método algorítmico."
+      },
+      {
+        "id": "C105",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C106",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C107",
+        "include": false,
+        "reason": "Foco metodológico no uso de deepfakes como ferramenta experimental (beleza do docente); a detecção é secundária."
+      },
+      {
+        "id": "C108",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C109",
+        "include": false,
+        "reason": "Observação online/análise de comentários de grupo, sem participantes em experimento ou survey."
+      },
+      {
+        "id": "C110",
+        "include": false,
+        "reason": "Análise de conteúdo sobre viés."
+      },
+      {
+        "id": "C111",
+        "include": true,
+        "reason": "Experimento sobre percepção de credibilidade e outras avaliações de personas deepfake."
+      },
+      {
+        "id": "C112",
+        "include": false,
+        "reason": "Ensaio teórico."
+      },
+      {
+        "id": "C113",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C114",
+        "include": false,
+        "reason": "Descrição de projeto e revisão de forense."
+      },
+      {
+        "id": "C115",
+        "include": false,
+        "reason": "Análise de conteúdo de imagens, sem participantes."
+      },
+      {
+        "id": "C116",
+        "include": false,
+        "reason": "Descrições de imagens por IA para cegos; não trata de credibilidade de mídia sintética."
+      },
+      {
+        "id": "C117",
+        "include": false,
+        "reason": "Sistema/visão geral de detecção."
+      },
+      {
+        "id": "C118",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C119",
+        "include": true,
+        "reason": "Avaliação subjetiva humana da autenticidade de imagens de IA sob compressão; acurácia humana cai com compressão (amostra não informada)."
+      },
+      {
+        "id": "C120",
+        "include": false,
+        "reason": "Centrado em desinformação visual sobre político."
+      },
+      {
+        "id": "C121",
+        "include": false,
+        "reason": "Resumo de congresso (VSS) publicado em suplemento do Journal of Vision, não artigo completo."
+      },
+      {
+        "id": "C122",
+        "include": false,
+        "reason": "Estudo de caso com análise de conteúdo, sem participantes."
+      },
+      {
+        "id": "C123",
+        "include": true,
+        "reason": "Estudo com survey, entrevistas e experimentos sobre percepção de credibilidade de notícias com deepfake; resumo vago e sem amostra (baixa prioridade)."
+      },
+      {
+        "id": "C124",
+        "include": false,
+        "reason": "Ensaio teórico."
+      },
+      {
+        "id": "C125",
+        "include": false,
+        "reason": "Ensaio, fora do tema."
+      }
+    ],
+    "selected": [
+      "C94",
+      "C71",
+      "C25",
+      "C55",
+      "C57",
+      "C07",
+      "C02",
+      "C08",
+      "C43",
+      "C58",
+      "C44",
+      "C97",
+      "C24",
+      "C28",
+      "C12",
+      "C41",
+      "C111",
+      "C119",
+      "C64",
+      "C123"
+    ]
+  },
+  "text": "{\"decisions\":[{\"id\":\"C01\",\"include\":false,\"reason\":\"Revisão (survey) de métodos de deepfake de áudio, sem dados com participantes.\"},{\"id\":\"C02\",\"include\":true,\"reason\":\"Experimentos com humanos (super-recognizers e controles, N=283 e N=381) sobre detecção de rostos sintéticos.\"},{\"id\":\"C03\",\"include\":false,\"reason\":\"Revisão sobre algoritmos de detecção.\"},{\"id\":\"C04\",\"include\":false,\"reason\":\"Centrado em discursos políticos.\"},{\"id\":\"C05\",\"include\":false,\"reason\":\"Revisão de literatura.\"},{\"id\":\"C06\",\"include\":false,\"reason\":\"Análise acústica de similaridade com ferramentas, sem participantes humanos.\"},{\"id\":\"C07\",\"include\":true,\"reason\":\"Experimentos de detecção humana de rostos gerados por IA (ChatGPT/DALL·E), fictícios e de celebridades.\"},{\"id\":\"C08\",\"include\":true,\"reason\":\"Dois experimentos com participantes julgando rostos sintéticos vs. reais (desempenho individual e de multidões).\"},{\"id\":\"C09\",\"include\":false,\"reason\":\"Usa deepfake para criar estímulos de percepção de faces; não avalia credibilidade ou detecção de mídia sintética.\"},{\"id\":\"C10\",\"include\":false,\"reason\":\"Método algorítmico de detecção.\"},{\"id\":\"C11\",\"include\":false,\"reason\":\"Modelo de detecção por deep learning.\"},{\"id\":\"C12\",\"include\":true,\"reason\":\"Survey com 199 respondentes sobre capacidade de identificar vídeos deepfake.\"},{\"id\":\"C13\",\"include\":false,\"reason\":\"Ensaio sobre ética de datasets de detecção.\"},{\"id\":\"C14\",\"include\":false,\"reason\":\"Revisão sobre detecção automática.\"},{\"id\":\"C15\",\"include\":false,\"reason\":\"Revisão sobre detecção automática.\"},{\"id\":\"C16\",\"include\":false,\"reason\":\"Modelo de detecção automática; comparação com humanos é secundária.\"},{\"id\":\"C17\",\"include\":false,\"reason\":\"Revisão bibliográfica e análise de conteúdo, sem participantes.\"},{\"id\":\"C18\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C19\",\"include\":false,\"reason\":\"Algoritmo de detecção por piscadas.\"},{\"id\":\"C20\",\"include\":false,\"reason\":\"Algoritmo de detecção por piscadas.\"},{\"id\":\"C21\",\"include\":false,\"reason\":\"Modelo de detecção por deep learning.\"},{\"id\":\"C22\",\"include\":false,\"reason\":\"Proposta algorítmica/survey de detecção.\"},{\"id\":\"C23\",\"include\":false,\"reason\":\"Revisão sobre detecção de áudio deepfake.\"},{\"id\":\"C24\",\"include\":true,\"reason\":\"Estuda como humanos e máquinas distinguem fala parcialmente falsa de voz humana; humanos são enganados.\"},{\"id\":\"C25\",\"include\":true,\"reason\":\"Survey online experimental (N=280) sobre detecção humana de rostos StyleGAN2.\"},{\"id\":\"C26\",\"include\":false,\"reason\":\"Ensaio/obra artística, sem participantes.\"},{\"id\":\"C27\",\"include\":false,\"reason\":\"Ensaio filosófico.\"},{\"id\":\"C28\",\"include\":true,\"reason\":\"Experimento de survey sobre precisão percebida e compartilhamento de deepfakes de vídeo, áudio e cheap fakes.\"},{\"id\":\"C29\",\"include\":false,\"reason\":\"Análise jurídica doutrinária.\"},{\"id\":\"C30\",\"include\":false,\"reason\":\"Mapeamento bibliográfico.\"},{\"id\":\"C31\",\"include\":false,\"reason\":\"Centrado em atitudes políticas e político.\"},{\"id\":\"C32\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C33\",\"include\":false,\"reason\":\"Deepfakes políticos (Boris Johnson, Obama).\"},{\"id\":\"C34\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C35\",\"include\":false,\"reason\":\"Ensaio filosófico.\"},{\"id\":\"C36\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C37\",\"include\":false,\"reason\":\"Eleições e análise teórica.\"},{\"id\":\"C38\",\"include\":false,\"reason\":\"Análise temática de tweets, sem participantes recrutados; contexto de guerra/política.\"},{\"id\":\"C39\",\"include\":false,\"reason\":\"Eleições e análise jurídica.\"},{\"id\":\"C40\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C41\",\"include\":true,\"reason\":\"Experimento com 46 usuários sobre percepção de autenticidade e detecção de falhas em persona deepfake.\"},{\"id\":\"C42\",\"include\":false,\"reason\":\"Survey sobre apoio à regulação, não sobre percepção/detecção de credibilidade da mídia; ligado a política pública.\"},{\"id\":\"C43\",\"include\":true,\"reason\":\"Estudo com 746 participantes sobre detecção humana de imagens de IA e vieses (impostor, automação).\"},{\"id\":\"C44\",\"include\":true,\"reason\":\"Estudo com EEG (N=30) sobre avaliação de rostos presumidos como deepfake.\"},{\"id\":\"C45\",\"include\":false,\"reason\":\"Revisão bibliográfica.\"},{\"id\":\"C46\",\"include\":false,\"reason\":\"Teste de ferramentas automáticas, sem participantes.\"},{\"id\":\"C47\",\"include\":false,\"reason\":\"Análise de frequência por algoritmos.\"},{\"id\":\"C48\",\"include\":false,\"reason\":\"Análise jurídica.\"},{\"id\":\"C49\",\"include\":false,\"reason\":\"Fora do tema, técnico.\"},{\"id\":\"C50\",\"include\":false,\"reason\":\"Análise de contas e método de detecção, sem experimento com participantes sobre percepção.\"},{\"id\":\"C51\",\"include\":false,\"reason\":\"Pesquisa documental/bibliográfica.\"},{\"id\":\"C52\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C53\",\"include\":false,\"reason\":\"Simulação com algoritmo de emoção, sem participantes.\"},{\"id\":\"C54\",\"include\":false,\"reason\":\"Foco em lineups policiais, não em percepção de credibilidade de mídia sintética.\"},{\"id\":\"C55\",\"include\":true,\"reason\":\"Dois experimentos (N=124 e N=610) mostrando rostos de IA julgados mais humanos que reais.\"},{\"id\":\"C56\",\"include\":false,\"reason\":\"CNN de detecção.\"},{\"id\":\"C57\",\"include\":true,\"reason\":\"Experimento com n=529 sobre detecção humana de deepfakes de fala.\"},{\"id\":\"C58\",\"include\":true,\"reason\":\"Experimento com 292 participantes sobre julgamento de autenticidade de imagens geradas por IA e uso de ferramenta de detecção.\"},{\"id\":\"C59\",\"include\":false,\"reason\":\"Avaliação de detectores automáticos.\"},{\"id\":\"C60\",\"include\":false,\"reason\":\"Análise jurídica.\"},{\"id\":\"C61\",\"include\":false,\"reason\":\"Ensaio teórico.\"},{\"id\":\"C62\",\"include\":false,\"reason\":\"Análise jurídica.\"},{\"id\":\"C63\",\"include\":false,\"reason\":\"Ensaio sobre detecção algorítmica.\"},{\"id\":\"C64\",\"include\":true,\"reason\":\"Entrevistas com 8 magistrados sobre capacidade de detectar e credibilidade de deepfakes como prova; dados próprios, qualitativo (método menos central).\"},{\"id\":\"C65\",\"include\":false,\"reason\":\"Análise jurídica.\"},{\"id\":\"C66\",\"include\":false,\"reason\":\"Avaliação de sistema automático de reconhecimento de locutor.\"},{\"id\":\"C67\",\"include\":false,\"reason\":\"Modelo CNN.\"},{\"id\":\"C68\",\"include\":false,\"reason\":\"Resumo de congresso publicado em suplemento do Journal of Vision (VSS), não artigo de periódico completo.\"},{\"id\":\"C69\",\"include\":false,\"reason\":\"Trabalho de anais (Proceedings of ASIS&T).\"},{\"id\":\"C70\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C71\",\"include\":true,\"reason\":\"Dois estudos online com 15.016 participantes sobre detecção humana de deepfakes versus modelo.\"},{\"id\":\"C72\",\"include\":false,\"reason\":\"Método algorítmico.\"},{\"id\":\"C73\",\"include\":false,\"reason\":\"Método algorítmico.\"},{\"id\":\"C74\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C75\",\"include\":false,\"reason\":\"Método algorítmico.\"},{\"id\":\"C76\",\"include\":false,\"reason\":\"Método algorítmico.\"},{\"id\":\"C77\",\"include\":false,\"reason\":\"Revisão sistemática.\"},{\"id\":\"C78\",\"include\":false,\"reason\":\"Foco em algoritmo; resumo de congresso (VSS) no Journal of Vision.\"},{\"id\":\"C79\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C80\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C81\",\"include\":false,\"reason\":\"Trabalho de anais (Proceedings of ASIS&T).\"},{\"id\":\"C82\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C83\",\"include\":false,\"reason\":\"Método algorítmico.\"},{\"id\":\"C84\",\"include\":false,\"reason\":\"Modelo de julgamentos de traços faciais, não credibilidade de mídia sintética.\"},{\"id\":\"C85\",\"include\":false,\"reason\":\"Visão geral.\"},{\"id\":\"C86\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C87\",\"include\":false,\"reason\":\"Sistema de detecção.\"},{\"id\":\"C88\",\"include\":false,\"reason\":\"Proposta algorítmica/survey.\"},{\"id\":\"C89\",\"include\":false,\"reason\":\"Machine learning de detecção.\"},{\"id\":\"C90\",\"include\":false,\"reason\":\"Ensaio teórico.\"},{\"id\":\"C91\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C92\",\"include\":false,\"reason\":\"Método algorítmico.\"},{\"id\":\"C93\",\"include\":false,\"reason\":\"XAI para detecção automática.\"},{\"id\":\"C94\",\"include\":true,\"reason\":\"Experimento pré-registrado (N=210) mostrando que pessoas não detectam deepfakes e superestimam sua habilidade.\"},{\"id\":\"C95\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C96\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C97\",\"include\":true,\"reason\":\"Survey online sobre desempenho e estratégias humanas para identificar vídeos deepfake.\"},{\"id\":\"C98\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C99\",\"include\":false,\"reason\":\"Deepfakes políticos.\"},{\"id\":\"C100\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C101\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C102\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C103\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C104\",\"include\":false,\"reason\":\"Método algorítmico.\"},{\"id\":\"C105\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C106\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C107\",\"include\":false,\"reason\":\"Foco metodológico no uso de deepfakes como ferramenta experimental (beleza do docente); a detecção é secundária.\"},{\"id\":\"C108\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C109\",\"include\":false,\"reason\":\"Observação online/análise de comentários de grupo, sem participantes em experimento ou survey.\"},{\"id\":\"C110\",\"include\":false,\"reason\":\"Análise de conteúdo sobre viés.\"},{\"id\":\"C111\",\"include\":true,\"reason\":\"Experimento sobre percepção de credibilidade e outras avaliações de personas deepfake.\"},{\"id\":\"C112\",\"include\":false,\"reason\":\"Ensaio teórico.\"},{\"id\":\"C113\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C114\",\"include\":false,\"reason\":\"Descrição de projeto e revisão de forense.\"},{\"id\":\"C115\",\"include\":false,\"reason\":\"Análise de conteúdo de imagens, sem participantes.\"},{\"id\":\"C116\",\"include\":false,\"reason\":\"Descrições de imagens por IA para cegos; não trata de credibilidade de mídia sintética.\"},{\"id\":\"C117\",\"include\":false,\"reason\":\"Sistema/visão geral de detecção.\"},{\"id\":\"C118\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C119\",\"include\":true,\"reason\":\"Avaliação subjetiva humana da autenticidade de imagens de IA sob compressão; acurácia humana cai com compressão (amostra não informada).\"},{\"id\":\"C120\",\"include\":false,\"reason\":\"Centrado em desinformação visual sobre político.\"},{\"id\":\"C121\",\"include\":false,\"reason\":\"Resumo de congresso (VSS) publicado em suplemento do Journal of Vision, não artigo completo.\"},{\"id\":\"C122\",\"include\":false,\"reason\":\"Estudo de caso com análise de conteúdo, sem participantes.\"},{\"id\":\"C123\",\"include\":true,\"reason\":\"Estudo com survey, entrevistas e experimentos sobre percepção de credibilidade de notícias com deepfake; resumo vago e sem amostra (baixa prioridade).\"},{\"id\":\"C124\",\"include\":false,\"reason\":\"Ensaio teórico.\"},{\"id\":\"C125\",\"include\":false,\"reason\":\"Ensaio, fora do tema.\"}],\"selected\":[\"C94\",\"C71\",\"C25\",\"C55\",\"C57\",\"C07\",\"C02\",\"C08\",\"C43\",\"C58\",\"C44\",\"C97\",\"C24\",\"C28\",\"C12\",\"C41\",\"C111\",\"C119\",\"C64\",\"C123\"]}",
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 64923,
+    "cache_read_input_tokens": 913,
+    "output_tokens": 7143,
+    "output_tokens_details": {
+      "thinking_tokens": 2297
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 64923,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 7143,
+        "cache_read_input_tokens": 913,
+        "cache_creation_input_tokens": 64923,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 64923
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 2,
+  "duration_s": 46.42,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "decisions": "[{\"id\": \"C01\", \"include\": false, \"reason\": \"Revisão (survey) de métodos de deepfake de áudio, sem dados com participantes.\"}, {\"id\": \"C02\", \"include\": true, \"reason\": \"Experimentos com humanos (super…",
+        "selected": "[\"C94\", \"C71\", \"C25\", \"C55\", \"C57\", \"C07\", \"C02\", \"C08\", \"C43\", \"C58\", \"C44\", \"C97\", \"C24\", \"C28\", \"C12\", \"C41\", \"C111\", \"C119\", \"C64\", \"C123\"]"
+      }
+    }
+  ]
+}

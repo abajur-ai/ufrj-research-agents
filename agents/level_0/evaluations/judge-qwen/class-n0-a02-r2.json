@@ -1,0 +1,678 @@
+{
+ "run_id": "class-n0-a02-r2",
+ "level": "n0",
+ "item": "a02",
+ "status": "done",
+ "delivered": 25,
+ "correct": 17,
+ "requested": 25,
+ "yield": 0.68,
+ "precision": 0.68,
+ "not_found": 1,
+ "wrong_doi": 0,
+ "metadata_errors": 0,
+ "quote_fail": 0,
+ "no_abstract": 0,
+ "wall_seconds": 687.5,
+ "calls": 1,
+ "items": [
+  {
+   "doi": "10.25200/bjr.v18n2.2022.1510",
+   "title": "The Brazilian factcheckers criteria: an analysis of the guiding purposes, principles, and routines of this journalistic practice",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Título: 'critérios dos fact-checkers brasileiros'; Resumo: 'Buscamos conhecer propósitos, motivações e rotinas da prática de fact-checking no Brasil... transparência em mostrar fontes e dados'",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: 'A pesquisa se baseia em questionário autogestionado, no qual 29 respondentes manifestaram seu grau de concordância...'",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata das rotinas, critérios e transparência de checadores de fatos no Brasil, atendendo ao tema e ao recorte de país, sem focar em eleições, governos, pandemia ou efeitos no público.\n2. empirical: O estudo coleta dados próprios por meio de um questionário (survey), atendendo ao requisito de estudo empírico.\n3. method_ok: O tipo de estudo e o método informados nos dados extraídos ('survey', 'Questionário autoadministrado... com concordância medida em escala') estão perfeitamente alinhados com o que é descrito no resumo ('questionário autogestionado... grau de concordância com um conjunto de afirmações').\n4. finding: O achado informado é uma paráfrase fiel e integral dos resultados relatados no resumo ('o principal propósito consiste em detectar e combater conteúdos falsos... e que a transparência em mostrar fontes e dados... é um valor fortemente compartilhado'), sendo, portanto, totalmente sustentado."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.25200/bjr.v16n2.2020.1212",
+   "title": "Journalism and fact-checking: typification of sources used for checking and criteria for selecting fact-checked material – an analysis by Agência Lupa and Aos Fatos",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Título: 'JOURNALISM AND FACT-CHECKING: typification of sources used for checking and criteria for selecting fact-checked material – an analysis by Agência Lupa and Aos Fatos'; Resumo: 'Esse artigo analisa a atuação de duas agências brasileiras de checagem, Aos Fatos e Agencia Lupa.'",
+    "on_topic": true,
+    "evidence_empirical": "Título: '...an analysis by Agência Lupa and Aos Fatos'; Resumo: 'Esse artigo analisa a atuação de duas agências brasileiras de checagem... Demonstramos que... as plataformas de fact-checking se valem, sobretudo, de dados e estudos fornecidos por fontes oficiais e instituições públicas...'",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo está no tema (on_topic), pois analisa Aos Fatos e Agência Lupa focando em fontes e critérios, sem focar em eleições, governos, pandemia ou efeitos no público. É empírico (empirical), pois realiza uma análise (documental/de conteúdo) das checagens produzidas pelas agências para tipificar fontes. O método (method_ok) descrito nos dados extraídos bate perfeitamente com o título e o resumo. O achado (finding) é 'supported', pois a frase extraída é uma paráfrase direta e fiel da conclusão explícita no resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1080/1461670x.2022.2069588",
+   "title": "The Rise of the Brazilian Fact-checking Movement: Between Economic Sustainability and Editorial Independence",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "\"This study addresses the expansion of Brazilian fact-checking enterprises, focusing on their funding sources and challenges to ensure editorial autonomy.\"",
+    "on_topic": true,
+    "evidence_empirical": "\"The research is mainly grounded in semi-structured interviews with 16 fact-checkers from 13 active organizations, and includes complementary data collected from the initiatives' websites.\"",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O achado extraído é integralmente sustentado pelo resumo. A dependência de big techs aparece literalmente em \"growing dependence on big tech money\"; as equipes pequenas em \"limited staff of most fact-checking initiatives\"; a presença em plataformas digitais em \"solid presence on digital platforms\"; e a pressão sobre a independência editorial em \"challenges to ensure editorial autonomy\" e \"dealing with power dynamics familiar to the journalism they want to reform\". Nenhum elemento do achado vai além do que o resumo afirma."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1080/17512786.2022.2088603",
+   "title": "When a Journalistic Truth-Seeking Tradition Thrives: Examining the Rise of the Brazilian Fact-Checking Movement",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "Title: \"Examining the Rise of the Brazilian Fact-Checking Movement\"; Abstract: \"addresses socio-political and professional factors driving the surge of the Brazilian fact-checking venture... delves into motivations that led journalists to put in motion their fact-checking firms... grants from foreign investors\".",
+    "on_topic": true,
+    "evidence_empirical": "Abstract: \"Drawing on a set of 16 semi-structured interviews with fact-checkers from 13 active initiatives\".",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo foca no surgimento, motivações e financiamento de organizações brasileiras de fact-checking. A menção aos ciclos eleitorais (2014-2018) serve apenas como contexto macro para explicar o ambiente propício (thriving landscape) para o surgimento dessas organizações, não sendo o estudo centrado na análise das eleições em si. Portanto, não viola a restrição. O estudo é empírico, baseado em entrevistas, e o método e o achado extraídos correspondem fielmente ao texto do resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1177/10776990231207963",
+   "title": "Fostering Artificial Intelligence to Face Misinformation: Discourses and Practices of Automated Fact-Checking in Brazil",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "This article examines the advancement of automated fact-checking in Brazil and investigates how artificial intelligence (AI) products shape publishers’ discourses and practices.",
+    "on_topic": true,
+    "evidence_empirical": "Next, it draws on 30 official statements published by journalists and their tech partners, and seven semi-structured interviews with representatives from five websites.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O achado informado é integralmente sustentado pelo resumo, que descreve um cenário emergente de automação sustentado pela indústria de tecnologia e o desafio da IA à autoridade dos checadores e à influência dos tecnólogos."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1177/27523543251344971",
+   "title": "AI-Generated Misinformation: A Case Study on Emerging Trends in Fact-Checking Practices Across Brazil, Germany, and the United Kingdom",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "Título: \"AI-Generated Misinformation: A Case Study on Emerging Trends in Fact-Checking Practices Across Brazil, Germany, and the United Kingdom\"; Resumo: \"This case study investigates emerging trends in fact-checking practices related to AI-generated misinformation across Brazil, Germany, and the United Kingdom.\"",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: \"Adopting a mixed-methods approach that combines a quantitative content analysis of 136 verification articles (2023–2024) and 13 expert interviews...\"",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "on_topic: O artigo trata de práticas de checagem de fatos (incluindo métodos e uso de IA) e é um estudo comparativo internacional que inclui o Brasil, atendendo ao recorte do pedido.\n\nempirical: O estudo coleta e analisa dados próprios por meio de análise de conteúdo e entrevistas, métodos empíricos aceitos pelo pedido.\n\nmethod_ok: O tipo de estudo e o método informados nos dados extraídos batem perfeitamente com a abordagem de métodos mistos (análise de conteúdo e entrevistas) descrita no resumo.\n\nfinding: O achado informado é totalmente sustentado pelo resumo, que afirma que o escopo de verificação é limitado, há potencial de disrupção e existem variações específicas por país."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3390/socsci14090514",
+   "title": "On Fact-Checking Service: Artificial Intelligence's Uses in Ibero-American Fact-Checkers",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": false
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "O pedido aceita estudos comparativos internacionais que incluam organizações brasileiras, e o artigo inclui a organização brasileira Aletheia, tratando do uso de IA em checagem de fatos, tema previsto no pedido.",
+    "on_topic": true,
+    "evidence_empirical": "\"in-depth interviews were conducted with representatives of four fact-checking organizations\"",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O achado extraído replica integralmente a conclusão do resumo: cada organização usa IA para necessidades específicas, com níveis de uso (do instrumental ao disruptivo) relacionados à estrutura humana e situação econômica."
+   },
+   "metadata_ok": true,
+   "correct": false
+  },
+  {
+   "doi": "10.1515/omgc-2022-0028",
+   "title": "Fact-checking initiatives in Portuguese language countries: checking methods and financing strategies",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Título: \"Fact-checking initiatives in Portuguese language countries...\"; Resumo: \"15 active fact-checking outlets in Brazil (13) and Portugal (2).\" e \"focusing on the verification methods and organizational models in use.\"",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: \"Based on Content Analysis, we collected manually 318 posts during June 2019 from each fact-checking outlets website\"",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic\nTrecho: Título: \"Fact-checking initiatives in Portuguese language countries...\"; Resumo: \"15 active fact-checking outlets in Brazil (13) and Portugal (2).\" e \"focusing on the verification methods and organizational models in use.\"\nDecisão: sim. O artigo inclui organizações brasileiras (13 delas) e aborda métodos, fontes, financiamento e modelos organizacionais, sem focar em eleições, governos específicos, pandemia ou efeitos no público.\n\n2. empirical\nTrecho: \"Based on Content Analysis, we collected manually 318 posts during June 2019 from each fact-checking outlets website\"\nDecisão: sim. O estudo coleta e analisa dados próprios por meio de análise de conteúdo.\n\n3. method_ok\nTrecho extraído: \"Estudo empírico quantitativo-qualitativo (análise de conteúdo)\", \"Análise de conteúdo de postagens coletadas em junho de 2019, codificadas por discurso, fontes, contexto, classificação, representação gráfica e financiamento\"\nTrecho do resumo: \"Based on Content Analysis, we collected manually 318 posts during June 2019... examined each post according to six general concepts: discourse, sources, context, classification, graphic representation, and financing.\"\nDecisão: sim. O tipo de estudo e o método informados batem perfeitamente com o que está descrito no resumo.\n\n4. finding\nTrecho extraído: \"A criatividade dos veículos se limita aos modelos de classificação e à representação gráfica, muitas checagens dependem de assessorias de imprensa e os veículos seguem ligados à mídia tradicional em organização e modelo de negócio.\"\nTrecho do resumo: \"Although there is room for inventiveness in fact-checking practices, it is restricted to the classification models adopted and the graphic representation demanded by them.\"; \"we noticed a large volume of posts relied only on sources came from contacts with press offices\"; \"fact-checking outlets is still tied to traditional media in terms of its organizational and institutional business model.\"\nDecisão: supported. O achado informado é integralmente sustentado pelos trechos do resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.22478/ufpb.1807-8931.2025v21n4.73367",
+   "title": "Desinformação e inteligência artificial: um estudo nas agências de fact-checking",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Título: \"Desinformação e inteligência artificial: um estudo nas agências de fact-checking\"; Resumo: \"...análise das informações verificadas pelas agências Lupa e Aos Fatos, abordando conteúdos falsos produzidos com ferramentas de IA...\"",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: \"A pesquisa utilizou métodos qualitativos, por meio de observação direta e análise das informações verificadas pelas agências Lupa e Aos Fatos... além de métodos quantitativos, analisando o volume de verificações realizadas conforme os filtros das agências.\"",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo está no tema (on_topic: sim), pois trata das agências brasileiras Lupa e Aos Fatos e do uso de IA, sem focar em eleições, governos, pandemia ou efeito no público. É empírico (empirical: sim), pois realiza observação direta e análise de conteúdo/documental das checagens. O método extraído bate com o resumo (method_ok: sim), descrevendo a abordagem mista, as agências e o recorte temporal. O achado extraído é totalmente sustentado pelo resumo (finding: supported), que menciona a identificação do volume e tipos de conteúdos falsos e a relevância do trabalho para destacar o papel das agências na validação de conteúdos de IA."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.22478/ufpb.2763-9398.2022v17n.63545",
+   "title": "Fact-checking e financiamento: os projetos da Agência Lupa no combate à desinformação",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Título: \"Fact-checking e financiamento\". Resumo: \"...el presente artículo se propone identificar, a través de un estudio de caso, las estrategias de la Agência Lupa para garantizar el financiamiento...\"",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: \"...a través de un estudio de caso... A partir de la identificación y análisis de las iniciativas desarrolladas a lo largo de 2020...\"",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo está no tema (on_topic) pois aborda a Agência Lupa e seu financiamento. É empírico (empirical) pois realiza um estudo de caso com análise de iniciativas (dados próprios). O método (method_ok) está correto, pois o estudo de caso e a análise das iniciativas de 2020 batem com o resumo. O achado (finding) é 'supported' (totalmente sustentado), pois o resumo afirma explicitamente que foram identificadas as potencialidades e limites da prática de financiamento por projetos especiais, o que corresponde exatamente à frase extraída."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1080/21670811.2021.2021377",
+   "title": "The Watchdog Role of Fact-Checkers in Different Media Systems",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "...content analysis of 2,792 fact-checks published by FactCheck.org (United States), Pagella Politica (Italy), Correctiv (Germany), and Lupa (Brazil).",
+    "on_topic": true,
+    "evidence_empirical": "Data regarding the perception of the watchdog role stem from the Worlds of Journalism Survey, whereas evidence concerning the presence of the watchdog function derives from a content analysis of 2,792 fact-checks...",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "on_topic: O artigo trata do tema e do recorte. O pedido permite estudos comparativos internacionais se incluírem organizações brasileiras. O resumo confirma a inclusão da 'Lupa (Brazil)' e o foco nas 'emerging practices in fact-checking' (práticas e rotinas). Não é centrado em eleições/governos (a menção a Trump é apenas um dado pontual da organização americana), nem em efeitos no público. empirical: O estudo coleta e analisa dados próprios do tipo exigido (survey e análise de conteúdo). method_ok: O tipo de estudo ('Estudo empírico comparativo internacional') e o método ('Dados de survey... combinados com análise de conteúdo...') extraídos batem perfeitamente com o trecho do resumo que descreve a metodologia ('Data regarding the perception... stem from the Worlds of Journalism Survey, whereas evidence... derives from a content analysis...'). finding: O achado extraído ('As concepções dos checadores sobre seu papel correspondem à postura de watchdog observada nas checagens, e a cultura profissional e o sistema de mídia moldam o trabalho.') é integralmente sustentado pelo trecho do resumo: 'There is correspondence between professionals’ conceptions about their role and the watchdog stance agencies perform in most cases. The manuscript also discusses how idiosyncrasies featuring each professional culture and specific traits of media systems influence fact-checkers’ work.'"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.51206/elegis.v15i38.758",
+   "title": "Jornalismo de checagem de fatos como intermediário da transparência pública: uma análise comparada entre países",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": false
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "A comparative investigation was carried out of four agents from different countries: Agência Lupa (Brazil)... understand how fact-checking agencies took advantage of public transparency resources",
+    "on_topic": true,
+    "evidence_empirical": "63.5% (Brazil)... of the texts used public data to support their conclusions.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo está no tema (on_topic) pois analisa a Agência Lupa (Brasil) e o uso de fontes/transparência. É empírico (empirical) pois realiza análise de conteúdo/documental dos textos de checagem para extrair percentuais de uso de dados públicos. O método (method_ok) descrito na extração (análise comparada das fontes) bate perfeitamente com o resumo ('comparative investigation'). O achado (finding) é 'supported' pois reflete integralmente os dados de 63,5% para o Brasil e a conclusão sobre a transparência ativa como fonte principal apresentados no resumo."
+   },
+   "metadata_ok": true,
+   "correct": false
+  },
+  {
+   "doi": "10.4000/cp.5348",
+   "title": "As fontes dos serviços de fact-checking luso-brasileiros",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "Título: 'As fontes dos serviços de fact-checking luso-brasileiros'; Resumo: 'investigar as características de fontes das iniciativas do Brasil (Truco, Lupa, e Aos Fatos) e de Portugal (o Fact Check do Observador)'",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: 'investigar as características de fontes das iniciativas... Os resultados obtidos foram devidamente detalhados... traz considerações interessantes sobre as características das fontes dos websites analisados'",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata de organizações brasileiras de fact-checking (Lupa, Aos Fatos, Truco) e de suas fontes, atendendo ao tema e ao recorte de país. A menção às eleições no início do resumo é apenas contextualização histórica, não sendo o foco do estudo, logo não viola a restrição de exclusão.\n2. empirical: O estudo analisa dados próprios (as fontes utilizadas nos websites de fact-checking), caracterizando uma análise de conteúdo/documental.\n3. method_ok: O método extraído ('Análise das características das fontes de Truco, Lupa, Aos Fatos e Fact Check do Observador...') bate perfeitamente com a descrição do resumo ('investigar as características de fontes das iniciativas do Brasil... e de Portugal...').\n4. finding: O achado informado ('Os serviços de checagem brasileiros e portugueses analisados concentram-se em três tipos de fontes de notícia') é sustentado integralmente pela frase final do resumo ('sendo um dos resultados que os serviços de fact-checking do Brasil e de Portugal se concentram em três tipos diferentes de fontes de notícia')."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.5209/esmp.71235",
+   "title": "Credibilidade em disputa no jornalismo digital: estratégias discursivas das agências de fact-checking brasileiras vinculadas aos conglomerados de mídia",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": false
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "han proliferado en Brasil varias iniciativas digitales de fact-checking... investigamos las estrategias discursivas adoptadas por los proyectos de fact-checking de la gran prensa... cinco agencias de fact-checking brasileñas",
+    "on_topic": true,
+    "evidence_empirical": "Nuestro estudio toma como corpus de análisis los textos de lanzamiento y de especificación de los métodos de trabajo de cinco agencias de fact-checking brasileñas... A través del análisis de lo discurso de línea francesa",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata de organizações brasileiras de fact-checking (ligadas a grandes grupos) e de seus métodos e apresentação, atendendo ao tema e ao recorte de país, sem focar em eleições, governos, pandemia ou efeitos no público.\n2. empirical: O estudo coleta e analisa dados próprios (documentos/textos) por meio de análise de corpus e análise de discurso, configurando um estudo empírico.\n3. method_ok: O tipo de estudo (análise documental/discurso) e o método (análise de discurso de linha francesa de textos de lançamento e métodos) extraídos batem perfeitamente com a descrição do corpus e da metodologia presentes no resumo.\n4. finding: O achado informado é integralmente sustentado pelo último período do resumo, que descreve exatamente a caracterização das sequências discursivas, a reivindicação de credibilidade e os sujeitos envolvidos."
+   },
+   "metadata_ok": true,
+   "correct": false
+  },
+  {
+   "doi": "10.1177/10776990241261725",
+   "title": "The Content Homogenization of Fact-Checking Through Platform Partnerships: A Comparison Between Eight Countries",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "thematic convergence across eight countries in Europe and Latin America. Based on audience reach, we collected links from various organizations (independent outlets, legacy media, or global news agencies).",
+    "on_topic": true,
+    "evidence_empirical": "we collected links from various organizations... A representative stratified sample of 25% resulted in 3,154 articles.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "on_topic: O artigo trata de organizações de checagem de fatos e suas práticas (vigilância de conteúdo, convergência temática) em um estudo comparativo internacional que inclui a América Latina. Conforme a regra, não se exige que o resumo repita o nome do país (Brasil) para validar o recorte geográfico, bastando o contexto de América Latina e o tema de fact-checking. \n\nempirical: O estudo coleta e analisa dados próprios (artigos de checagem) por meio de amostragem estratificada, caracterizando um estudo empírico de análise de conteúdo/documental. \n\nmethod_ok: O tipo de estudo (empírico quantitativo comparativo) e o método (análise de conteúdo de amostra estratificada) informados na extração batem perfeitamente com a descrição do resumo ('collected links', 'stratified sample of 25% resulted in 3,154 articles'). \n\nfinding: O achado informado é sustentado integralmente pelo resumo. A extração resume com precisão as conclusões de que a 'social media policing prevails across countries and organizations' e que 'Independent news-born fact-checking organizations follow a convergent path, sharing more similarities with their global counterparts than their national media peers'."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1080/1461670x.2025.2470177",
+   "title": "Decoding Correction Strategies: How Fact-Checkers Uncover Falsehoods Across Countries",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "Utilizing a dataset of 3,154 verification articles from 23 organizations in eight countries across Europe and Latin America",
+    "on_topic": false,
+    "evidence_empirical": "Utilizing a dataset of 3,154 verification articles from 23 organizations... identifies 17 distinct debunking techniques through both inductive and deductive approaches.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "Avaliação detalhada abaixo:\n\n**1. on_topic**\nTrecho: \"Utilizing a dataset of 3,154 verification articles from 23 organizations in eight countries across Europe and Latin America\" / Título: \"Decoding Correction Strategies: How Fact-Checkers Uncover Falsehoods Across Countries\" / Periódico: \"Journalism Studies\".\nDecisão: **Não atende**. O pedido exige estritamente o recorte de país (organizações brasileiras ou estudos comparativos que as incluam). O resumo menciona \"América Latina\" e \"oito países\", mas não cita explicitamente o Brasil. O título e o periódico também não fazem menção ao país. Como a regra determina usar apenas o texto fornecido e proíbe o uso de conhecimento próprio para inferir que o Brasil está entre os países da América Latina citados, não é possível confirmar que o recorte de país foi atendido.\n\n**2. empirical**\nTrecho: \"Utilizing a dataset of 3,154 verification articles from 23 organizations... identifies 17 distinct debunking techniques through both inductive and deductive approaches.\"\nDecisão: **Sim**. O estudo coleta e analisa dados próprios (um dataset de 3.154 artigos) por meio de análise de conteúdo/documental, atendendo ao requisito de estudo empírico.\n\n**3. method_ok**\nTrecho extraído: \"Estudo empírico quantitativo comparativo internacional...\" e \"Análise de conteúdo das técnicas de desmentido (17 técnicas identificadas) em matérias de verificação\".\nTrecho do resumo: \"systematically analyzes and compares verification strategies... Utilizing a dataset of 3,154 verification articles... identifies 17 distinct debunking techniques through both inductive and deductive approaches.\"\nDecisão: **Sim**. O tipo de estudo (comparativo internacional) e o método (análise de um dataset de matérias para identificar técnicas de desmentido) batem com o que é descrito no resumo.\n\n**4. finding**\nTrecho extraído: \"As técnicas de checagem variam conforme o alvo verificado (boatos online ou declarações de figuras públicas) e há diferenças substanciais entre países e organizações.\"\nTrecho do resumo: \"The findings reveal that... significant variation exists depending on the target. For online rumors... Conversely, verification of public figure statements... Additionally, the study highlights substantial differences in fact-checking strategies across countries and organizations...\"\nDecisão: **supported**. O achado informado é totalmente sustentado pelo resumo, resumindo com precisão as variações por alvo de verificação e as diferenças entre países e organizações descritas nos resultados."
+   },
+   "metadata_ok": true,
+   "correct": false
+  },
+  {
+   "doi": "10.21878/compolitica.2019.9.2.143",
+   "title": "Fact-checking como possibilidade de media accountability sobre o discurso político? Uma análise de conteúdo das iniciativas Aos Fatos, Lupa e Truco",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "O artigo investiga a experiência de fiscalização do discurso político dos projetos de checagens Aos Fatos, Lupa e Truco. [...] A análise mostrou que a ação de etiquetar não foi seguida à risca e a predominância de temas nacionais.",
+    "on_topic": true,
+    "evidence_empirical": "A análise mostrou que a ação de etiquetar não foi seguida à risca e a predominância de temas nacionais.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata de organizações brasileiras de checagem (Aos Fatos, Lupa) e analisa suas rotinas e métodos (ação de etiquetar, temas), atendendo ao recorte temático e geográfico. Não foca em eleições, governos específicos, pandemia ou nos efeitos das checagens no público.\n2. empirical: O estudo coleta e analisa dados próprios ao realizar uma análise das checagens produzidas pelas organizações.\n3. method_ok: O tipo de estudo e o método informados (análise de conteúdo focada em rotulação e temas) estão perfeitamente coerentes com a descrição do resumo, que menciona a análise da 'ação de etiquetar' e dos 'temas nacionais'.\n4. finding: O achado informado é totalmente sustentado pelo resumo, sendo uma paráfrase direta do trecho que relata os resultados da análise."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.13037/ci.vol25n53.8624",
+   "title": "Mercantilização da checagem nas agências Chequeado e Lupa na América Latina",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "O presente artigo aborda as estratégias e os negócios das duas principais agências de fact-checking na América Latina: Lupa (Brasil) e Chequeado (Argentina).",
+    "on_topic": true,
+    "evidence_empirical": "Partindo de um estudo comparativo das agências, o trabalho consiste em verificar a mercantilização da checagem para empresas de jornalismo e outras organizações.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O achado informado está integralmente sustentado pelo resumo, que afirma que o fact-checking na América Latina é um modelo de negócio que promove o empreendedorismo jornalístico e atua no combate à desinformação e na defesa da democracia."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.5902/2175497772211",
+   "title": "Algoritmos e desinformação: automação da checagem na América Latina",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "proyectos de fact-checking como Lupa, Aos Fatos y Chequeado trabajan con automatización de verificación",
+    "on_topic": true,
+    "evidence_empirical": "la investigación aplica una metodología con enfoques tanto teóricos como empíricos a partir de un estudio de caso múltiple, donde analiza los productos automatizados de las agencias",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo atende a todos os critérios. Trata de organizações brasileiras (Lupa, Aos Fatos) e do uso de automação/IA, dentro do recorte de estudos que incluem o Brasil (América Latina). É um estudo empírico (análise de produtos e laboratórios). O método e o tipo de estudo extraídos batem com o resumo. O achado principal está sustentado pelo resumo, que indica que o artigo descreve/aborda o processo de automação implementado por essas agências."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.22478/ufpb.1983-5930.2018v11n2.43545",
+   "title": "A caça à verdade: critérios, metodologias e selos do Fact-Checking brasileiro",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": false
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Título: 'A caça à verdade: critérios, metodologias e selos do Fact-Checking brasileiro'; Resumo: '...analisa alguns dos critérios, metodologias e selagens adotadas por três serviços de checagem de fatos brasileiros...'",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: 'A partir de revisão bibliográfica da construção do conceito de verdade e pós-verdade, conclui-se que...'; Dados extraídos (study_type): '...apoiada em revisão bibliográfica (estudo de base teórica; fronteira com o ensaio)'",
+    "empirical": false,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo trata do tema solicitado (on_topic: true). No entanto, falha no critério de ser um estudo empírico (empirical: false), pois o resumo e os dados extraídos indicam que se trata de um estudo de base teórica apoiado em revisão bibliográfica, o que é explicitamente excluído pelo pedido do pesquisador. O método extraído condiz com o resumo (method_ok: true) e o achado principal é totalmente sustentado pelo resumo (finding: supported)."
+   },
+   "metadata_ok": true,
+   "correct": false
+  },
+  {
+   "doi": "",
+   "title": "Estratégias das organizações de fact-checking brasileiras no contexto de desautorização da mediação jornalística",
+   "checks": {
+    "doi_exists": false
+   },
+   "error_class": "not_found",
+   "correct": false
+  },
+  {
+   "doi": "10.5281/zenodo.16594765",
+   "title": "Fact-checking como estratégia de credibilidade jornalística: uma análise sobre o caso Ilha de Marajó",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": false,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "Título: 'UMA ANÁLISE SOBRE O CASO ILHA DE MARAJÓ'; Resumo: 'analisar as estratégias de checagem utilizadas pelas agências Lupa e Aos Fatos'.",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: 'Este estudo será desenvolvido com base na análise de conteúdo, proposta por Bardin (1970)...'",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo atende ao pedido por focar em organizações brasileiras de fact-checking (Lupa e Aos Fatos) e em suas práticas (transparência e credibilidade), utilizando um método empírico válido (análise de conteúdo). Os dados extraídos (tipo de estudo, método, tamanho da amostra e achado principal) estão corretos, batem com o resumo e o achado é integralmente sustentado pelo texto."
+   },
+   "metadata_ok": true,
+   "correct": false
+  },
+  {
+   "doi": "10.19132/1807-8583202253.101015",
+   "title": "Credibilidade em jogo: o uso do fact-checking no portal G1 e a checagem colaborativa nas Organizações Globo",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Título: '...o uso do fact-checking no portal G1 e a checagem colaborativa nas Organizações Globo'; Resumo: '...analisa a checagem colaborativa do Fato ou Fake, serviço de monitoramento e checagem de conteúdos do Grupo Globo.'",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: '...o trabalho realiza um estudo de caso a partir das diretrizes contidas no Plano Editorial do Grupo e na seção Fato ou Fake do Portal G1...'",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata do tema do pedido. O título e o resumo indicam que o foco é o 'Fato ou Fake' (organização brasileira de fact-checking listada no pedido) e suas rotinas/estratégias de credibilidade, sem centrar em eleições, governos, pandemia ou efeitos no público.\n2. empirical: O estudo é empírico. O resumo informa que a pesquisa se baseia em 'diretrizes contidas no Plano Editorial do Grupo e na seção Fato ou Fake do Portal G1', o que configura análise documental, um método empírico aceito pelo pedido.\n3. method_ok: O tipo de estudo ('Estudo de caso') e o método ('a partir das diretrizes do Plano Editorial... e da seção Fato ou Fake') extraídos batem perfeitamente com a descrição do resumo ('realiza um estudo de caso a partir das diretrizes contidas no Plano Editorial do Grupo e na seção Fato ou Fake do Portal G1').\n4. finding: O achado informado ('As diretrizes do Grupo Globo apresentam a checagem colaborativa do Fato ou Fake como estratégia de credibilidade') é integralmente sustentado pelo resumo, que afirma que as diretrizes e a seção 'pontuam o fact-checking como estratégia de credibilidade'. Portanto, o rótulo é supported."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.17645/mac.v9i1.3443",
+   "title": "Fact-Checking Interventions as Counteroffensives to Disinformation Growth: Standards, Values, and Practices in Latin America and Spain",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": false
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Título: 'Fact-Checking Interventions as Counteroffensives to Disinformation Growth: Standards, Values, and Practices in Latin America and Spain'; Resumo: '...Agência Lupa (Brazil)...'",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: 'In-depth interviews were conducted with decision-makers of the following independent platforms...'",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata do tema do pedido (organizações de checagem de fatos e suas práticas/rotinas) e atende ao recorte de país, pois o título indica um estudo na América Latina e o resumo confirma explicitamente a inclusão da organização brasileira 'Agência Lupa'.\n2. empirical: O estudo coleta dados próprios por meio de entrevistas em profundidade com os responsáveis pelas plataformas, configurando-se como um estudo empírico.\n3. method_ok: O tipo de estudo (qualitativo) e o método (entrevistas em profundidade) extraídos batem perfeitamente com a descrição do resumo ('This qualitative approach...', 'In-depth interviews were conducted...').\n4. finding: O achado principal extraído é uma tradução e síntese precisa e integral dos resultados relatados no resumo, que menciona a capacidade notável das equipes pequenas, o uso de metodologias robustas, ferramentas digitais, participação do público e os três desafios centrais identificados."
+   },
+   "metadata_ok": true,
+   "correct": false
+  },
+  {
+   "doi": "10.1080/17512786.2022.2124434",
+   "title": "Purposes, Principles, and Difficulties of Fact-checking in Ibero-America: Journalists' Perceptions",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "This research analyzes the perceptions of fact-checkers in Ibero-America... 122 responses from fact-checkers in 17 countries.",
+    "on_topic": true,
+    "evidence_empirical": "Data were collected through a questionnaire that received 122 responses from fact-checkers in 17 countries.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O trecho 'This research analyzes the perceptions of fact-checkers in Ibero-America' e '122 responses from fact-checkers in 17 countries' indica que o estudo é um comparativo internacional na região ibero-americana. Como o pedido aceita estudos comparativos internacionais que incluam organizações brasileiras e instrui a não exigir que o resumo repita o nome do país (a Ibero-América inclui o Brasil), o artigo está dentro do recorte temático e geográfico.\n2. empirical: O trecho 'Data were collected through a questionnaire that received 122 responses' comprova que o estudo coleta dados primários por meio de um questionário (survey), atendendo ao requisito de estudo empírico.\n3. method_ok: Os dados extraídos informam 'Estudo empírico quantitativo (survey)' e 'Questionário a checadores', o que bate perfeitamente com o trecho do resumo 'Data were collected through a questionnaire' e a análise de percepções sobre 'purposes, principles, and challenges'.\n4. finding: O achado extraído afirma que 'Assinar o código de princípios da IFCN está associado a maior uso e análise de ferramentas de checagem, e checadores menos experientes tendem a ver o ativismo como propósito da checagem'. Isso é totalmente sustentado (supported) pelos trechos do resumo: 'Pledging to adhere to IFCN’s Code of Principles was found to facilitate the use and analysis of fact-checking tools' e 'Less-experienced fact-checkers were more likely to consider activism to be a purpose of fact-checking'."
+   },
+   "metadata_ok": true,
+   "correct": true
+  }
+ ],
+ "judge": "Qwen3.7 Plus (Alibaba), esforço high"
+}

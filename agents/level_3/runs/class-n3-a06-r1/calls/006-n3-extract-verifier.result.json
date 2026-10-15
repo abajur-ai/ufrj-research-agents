@@ -1,0 +1,161 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "C18: método do resumo confere (experimento, dilatação pupilar por eye tracking e SAM); amostra realmente não é informada no resumo; achado e citação literal batem com o resumo.",
+      "C03: experimento com dois grupos de manchetes e modelagem de equações estruturais confere; amostra não informada no resumo; achado e citação batem.",
+      "C27: dois experimentos online fatoriais 3x2 confere; N = 629 aparece no resumo (Estudo 1); citação literal está no resumo; achado corresponde.",
+      "C116: dois experimentos online com artigos originais e agregados confere; amostra não informada no resumo; achado e citação batem.",
+      "C115: experimento com 200 participantes (100 americanos e 100 indianos) confere; uso do Web is-Clickbait-17 confere; citação literal está no resumo.",
+      "C120: dois estudos (experimento de laboratório e teste de campo) confere; o resumo informa seleção de comportamento em nove sites de jornais; citação literal está no resumo.",
+      "C29: estudo experimental sobre credibilidade na Zâmbia e Tanzânia confere; amostra não informada no resumo; citação literal está no resumo.",
+      "C06: EEG com 32 participantes confere; tipos de clickbait (hipérbole, insinuação, retórica visual, enigma) confere; citação literal está no resumo.",
+      "C28: experimento de EEG/ERP baseado em N2b e P3a confere; amostra não informada no resumo; citação literal está no resumo.",
+      "C70: experimento entre participantes com N = 204 manipulando riqueza de informação confere; citação literal está no resumo; achado inclui também o efeito da miniatura, presente no resumo.",
+      "C16: teste de três formatos de manchete confere; amostra não informada no resumo; citação literal está no resumo.",
+      "C01: survey com 624 estudantes avaliando manchetes humanas e de ChatGPT confere; citação literal está no resumo; o achado também reflete os 54,5% de queda de confiança citados no resumo.",
+      "C87: survey com 600 participantes avaliando 100 trios de manchetes confere; citação literal está no resumo.",
+      "C20: survey com 113 respondentes por amostragem intencional confere; citação literal está no resumo.",
+      "C15: análise de mais de 4.400 posts de Facebook de 10 fontes confere; citação literal está no resumo; enquadramento como dados de engajamento atende às restrições do pedido.",
+      "C71: análise de conteúdo manual de 1.440 tweets confere; citação literal está no resumo; achado inclui o efeito adicional sobre retweets, presente no resumo.",
+      "C17: design de métodos mistos com análise de conteúdo e survey confere; o resumo informa survey de 81 consumidores; citação literal está no resumo.",
+      "C99: grupo focal confere; amostra não informada no resumo; citação literal em turco está no resumo e a tradução do achado é fiel.",
+      "C23: survey com 200 respondentes e escala Likert confere; citação literal está no resumo.",
+      "C12: estudo de caso qualitativo com oito informantes, observação, documentação e entrevistas confere; citação literal em indonésio está no resumo.",
+      "C45: survey descritivo com 100 respondentes via fórmula de Lemeshow confere; citação literal está no resumo.",
+      "C73: experimento com 300 estudantes do ensino médio avaliando confiabilidade de mensagens de saúde confere; citação literal está no resumo.",
+      "C66: survey com 150 leitores malaios por amostragem intencional confere; citação literal está no resumo.",
+      "Todos os 23 itens são estudos empíricos com dados de leitores ou usuários (experimentos, surveys, EEG/ERP, grupo focal, dados de engajamento), sem modelos de detecção computacional, sem análises apenas linguísticas e sem recorte político ou eleitoral, atendendo às restrições do pedido."
+    ],
+    "per_item": [
+      {
+        "id": "C18",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C03",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C27",
+        "ok": true,
+        "problem": "Campo sample_size registra apenas N = 629 do Estudo 1 e omite o N = 1.674 do Estudo 2, ambos presentes no resumo."
+      },
+      {
+        "id": "C116",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C115",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C120",
+        "ok": true,
+        "problem": "Campo sample_size usa nine local newspaper websites, que é a amostra de sites do Estudo 2; o número de participantes do experimento de laboratório não é dado no resumo."
+      },
+      {
+        "id": "C29",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C06",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C28",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C70",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C16",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C01",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C87",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C20",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C15",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C71",
+        "ok": true,
+        "problem": "Campo sample_size registra apenas os 1.440 tweets da análise manual e omite os 25.600 tweets da análise automatizada, ambos no resumo."
+      },
+      {
+        "id": "C17",
+        "ok": true,
+        "problem": "Campo sample_size registra apenas os 81 consumidores do survey e omite as 300 manchetes da análise de conteúdo, ambas no resumo."
+      },
+      {
+        "id": "C99",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C23",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C12",
+        "ok": true,
+        "problem": "Campo sample_size deixado em indonésio (delapan mahasiswa Ilmu Komunikasi) em vez de vertido para o português (oito estudantes de Comunicação)."
+      },
+      {
+        "id": "C45",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C73",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C66",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [],
+    "feedback": "Nenhum item precisa ser refeito. Melhorias opcionais para a próxima rodada: em C27 incluir também N = 1.674 do Estudo 2; em C71 incluir também os 25.600 tweets da análise automatizada; em C17 incluir também as 300 manchetes analisadas, ou indicar que os 81 respondentes se referem ao componente de survey; em C120 registrar que o resumo não informa o número de participantes do experimento de laboratório e citar os nove sites apenas no método; em C12 verter o tamanho da amostra para o português (oito estudantes de Comunicação)."
+  },
+  "text": "{\n \"approved\": true,\n \"checked\": [\n  \"C18: método do resumo confere (experimento, dilatação pupilar por eye tracking e SAM); amostra realmente não é informada no resumo; achado e citação literal batem com o resumo.\",\n  \"C03: experimento com dois grupos de manchetes e modelagem de equações estruturais confere; amostra não informada no resumo; achado e citação batem.\",\n  \"C27: dois experimentos online fatoriais 3x2 confere; N = 629 aparece no resumo (Estudo 1); citação literal está no resumo; achado corresponde.\",\n  \"C116: dois experimentos online com artigos originais e agregados confere; amostra não informada no resumo; achado e citação batem.\",\n  \"C115: experimento com 200 participantes (100 americanos e 100 indianos) confere; uso do Web is-Clickbait-17 confere; citação literal está no resumo.\",\n  \"C120: dois estudos (experimento de laboratório e teste de campo) confere; o resumo informa seleção de comportamento em nove sites de jornais; citação literal está no resumo.\",\n  \"C29: estudo experimental sobre credibilidade na Zâmbia e Tanzânia confere; amostra não informada no resumo; citação literal está no resumo.\",\n  \"C06: EEG com 32 participantes confere; tipos de clickbait (hipérbole, insinuação, retórica visual, enigma) confere; citação literal está no resumo.\",\n  \"C28: experimento de EEG/ERP baseado em N2b e P3a confere; amostra não informada no resumo; citação literal está no resumo.\",\n  \"C70: experimento entre participantes com N = 204 manipulando riqueza de informação confere; citação literal está no resumo; achado inclui também o efeito da miniatura, presente no resumo.\",\n  \"C16: teste de três formatos de manchete confere; amostra não informada no resumo; citação literal está no resumo.\",\n  \"C01: survey com 624 estudantes avaliando manchetes humanas e de ChatGPT confere; citação literal está no resumo; o achado também reflete os 54,5% de queda de confiança citados no resumo.\",\n  \"C87: survey com 600 participantes avaliando 100 trios de manchetes confere; citação literal está no resumo.\",\n  \"C20: survey com 113 respondentes por amostragem intencional confere; citação literal está no resumo.\",\n  \"C15: análise de mais de 4.400 posts de Facebook de 10 fontes confere; citação literal está no resumo; enquadramento como dados de engajamento atende às restrições do pedido.\",\n  \"C71: análise de conteúdo manual de 1.440 tweets confere; citação literal está no resumo; achado inclui o efeito adicional sobre retweets, presente no resumo.\",\n  \"C17: design de métodos mistos com análise de conteúdo e survey confere; o resumo informa survey de 81 consumidores; citação literal está no resumo.\",\n  \"C99: grupo focal confere; amostra não informada no resumo; citação literal em turco está no resumo e a tradução do achado é fiel.\",\n  \"C23: survey com 200 respondentes e escala Likert confere; citação literal está no resumo.\",\n  \"C12: estudo de caso qualitativo com oito informantes, observação, documentação e entrevistas confere; citação literal em indonésio está no resumo.\",\n  \"C45: survey descritivo com 100 respondentes via fórmula de Lemeshow confere; citação literal está no resumo.\",\n  \"C73: experimento com 300 estudantes do ensino médio avaliando confiabilidade de mensagens de saúde confere; citação literal está no resumo.\",\n  \"C66: survey com 150 leitores malaios por amostragem intencional confere; citação literal está no resumo.\",\n  \"Todos os 23 itens são estudos empíricos com dados de leitores ou usuários (experimentos, surveys, EEG/ERP, grupo focal, dados de engajamento), sem modelos de detecção computacional, sem análises apenas linguísticas e sem recorte político ou eleitoral, atendendo às restrições do pedido.\"\n ],\n \"per_item\": [\n  {\"id\": \"C18\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C03\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C27\", \"ok\": true, \"problem\": \"Campo sample_size registra apenas N = 629 do Estudo 1 e omite o N = 1.674 do Estudo 2, ambos presentes no resumo.\"},\n  {\"id\": \"C116\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C115\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C120\", \"ok\": true, \"problem\": \"Campo sample_size usa nine local newspaper websites, que é a amostra de sites do Estudo 2; o número de participantes do experimento de laboratório não é dado no resumo.\"},\n  {\"id\": \"C29\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C06\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C28\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C70\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C16\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C01\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C87\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C20\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C15\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C71\", \"ok\": true, \"problem\": \"Campo sample_size registra apenas os 1.440 tweets da análise manual e omite os 25.600 tweets da análise automatizada, ambos no resumo.\"},\n  {\"id\": \"C17\", \"ok\": true, \"problem\": \"Campo sample_size registra apenas os 81 consumidores do survey e omite as 300 manchetes da análise de conteúdo, ambas no resumo.\"},\n  {\"id\": \"C99\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C23\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C12\", \"ok\": true, \"problem\": \"Campo sample_size deixado em indonésio (delapan mahasiswa Ilmu Komunikasi) em vez de vertido para o português (oito estudantes de Comunicação).\"},\n  {\"id\": \"C45\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C73\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C66\", \"ok\": true, \"problem\": \"\"}\n ],\n \"issues\": [],\n \"feedback\": \"Nenhum item precisa ser refeito. Melhorias opcionais para a próxima rodada: em C27 incluir também N = 1.674 do Estudo 2; em C71 incluir também os 25.600 tweets da análise automatizada; em C17 incluir também as 300 manchetes analisadas, ou indicar que os 81 respondentes se referem ao componente de survey; em C120 registrar que o resumo não informa o número de participantes do experimento de laboratório e citar os nove sites apenas no método; em C12 verter o tamanho da amostra para o português (oito estudantes de Comunicação).\"\n}",
+  "usage": {
+    "input_tokens": 11094,
+    "output_tokens": 3082,
+    "cost_usd": 0.00321
+  },
+  "duration_s": 28.82,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

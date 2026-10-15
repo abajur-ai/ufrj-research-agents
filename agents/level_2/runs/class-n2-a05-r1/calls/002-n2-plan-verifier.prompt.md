@@ -1,0 +1,88 @@
+# Verificador do plano de busca
+Você é um verificador independente. Confira se o plano cobre TODOS os critérios do pedido do pesquisador (tema,
+período, tipo de publicação, método, recorte), se as consultas encontram o tema em inglês e em português, e se cada
+critério tem um jeito concreto de ser conferido. Reprove plano que esquece um critério, muda o período ou o tema.
+Não precisa buscar na web.
+
+COMO RESPONDER
+- approved: false só por ERRO REAL que compromete o resultado (dado errado, critério do pedido violado ou
+  esquecido, fonte que não existe, citação que não está na fonte, afirmação que a fonte não sustenta).
+  Sugestão de melhoria, preferência de estilo ou cobertura que poderia ser maior não reprova: aprove e ponha a
+  sugestão em feedback.
+- checked: o que você conferiu, um item por linha, concreto (por exemplo: 'DOI 10.x abre e o título confere').
+- issues: cada problema numa frase curta que um estudante entenda: o que está errado ou faltou, e onde.
+- feedback: o que o executor precisa fazer na próxima tentativa.
+- Escreva em português do Brasil, sem travessão.
+
+PEDIDO DO PESQUISADOR:
+Encontre 25 artigos científicos revisados por pares, publicados em periódicos entre 2019 e 2025, sobre como as pessoas percebem, detectam ou avaliam a credibilidade de imagens, vídeos e áudios sintéticos gerados por inteligência artificial (deepfakes, rostos sintéticos e clones de voz). Restrições: apenas estudos empíricos com participantes humanos (experimentos, testes de detecção, surveys ou medidas fisiológicas); exclua artigos sobre algoritmos de detecção automática, estudos centrados em políticos, eleições ou propaganda política e estudos sobre saúde. Valem apenas artigos de periódico que relatem estudo empírico com dados próprios; não use revisões de literatura, meta-análises, ensaios teóricos, preprints, trabalhos de anais de congresso, capítulos de livro, teses ou resenhas. Para cada artigo, informe: DOI; título; autores; ano de publicação; periódico; tipo de estudo e método; tamanho da amostra exatamente como aparece no resumo (ou "não informado no resumo"); achado principal, em uma frase; e um trecho literal do resumo, entre aspas, que sustente o achado principal.
+
+PLANO A VERIFICAR:
+{
+ "criteria": [
+  "Tema: percepção, detecção ou avaliação de credibilidade (confiança, autenticidade, realismo) de mídia sintética gerada por IA por seres humanos: imagens/rostos sintéticos (ex.: StyleGAN), vídeos deepfake e áudios/clones de voz.",
+  "Período: publicado entre 2019 e 2025 (inclusive), conforme o ano de publicação do periódico (verificar 2019-01-01 a 2025-12-31).",
+  "Tipo de publicação: artigo de periódico revisado por pares. Excluir preprints (arXiv, SSRN, OSF, PsyArXiv, etc.), anais de congresso, capítulos de livro, teses/dissertações e resenhas.",
+  "Tipo de estudo: estudo empírico com dados próprios coletados de participantes humanos (experimento, teste de detecção, survey, medidas fisiológicas/neurais/eye-tracking). Excluir revisões de literatura, meta-análises, ensaios teóricos e análises que usem apenas dados de terceiros.",
+  "Excluir: artigos cujo foco é algoritmos de detecção automática (mesmo que comparem com humanos, se o foco principal for o algoritmo e não houver estudo centrado na percepção humana).",
+  "Excluir: estudos centrados em políticos, eleições ou propaganda/desinformação política (ex.: deepfakes de candidatos, campanhas eleitorais).",
+  "Excluir: estudos sobre saúde (ex.: desinformação em saúde, uso clínico, saúde mental/vacinas).",
+  "Meta: 25 artigos que cumpram todos os critérios; coletar candidatos em excesso (cerca de 40 a 60) para compensar exclusões.",
+  "Campos a extrair para cada artigo: DOI; título; autores; ano; periódico; tipo de estudo e método; tamanho da amostra exatamente como no resumo (ou 'não informado no resumo'); achado principal em uma frase; trecho literal do resumo, entre aspas, que sustente o achado."
+ ],
+ "queries": [
+  {
+   "query": "(deepfake OR \"synthetic media\" OR \"AI-generated faces\" OR \"synthetic faces\") AND (detection OR perception OR credibility OR trustworthiness) AND (participants OR experiment OR survey)",
+   "language": "en",
+   "database": "OpenAlex"
+  },
+  {
+   "query": "\"human detection\" OR \"human ability\" OR \"human observers\" AND (deepfake OR \"GAN-generated\" OR \"StyleGAN\" OR \"AI-generated faces\") AND (accuracy OR trustworthiness OR realism)",
+   "language": "en",
+   "database": "OpenAlex"
+  },
+  {
+   "query": "(\"voice cloning\" OR \"cloned voice\" OR \"audio deepfake\" OR \"synthetic speech\" OR \"synthetic voice\") AND (listeners OR participants OR perception OR detection OR \"human\")",
+   "language": "en",
+   "database": "OpenAlex"
+  },
+  {
+   "query": "deepfake video credibility perception experiment participants",
+   "language": "en",
+   "database": "Crossref"
+  },
+  {
+   "query": "synthetic faces trustworthiness participants AI-generated faces \"hyperrealism\" OR \"more human than human\"",
+   "language": "en",
+   "database": "Crossref"
+  },
+  {
+   "query": "deepfake (percepção OR credibilidade OR detecção OR confiança) (participantes OR experimento OR survey OR questionário)",
+   "language": "pt",
+   "database": "SciELO"
+  },
+  {
+   "query": "\"rostos sintéticos\" OR \"imagens geradas por inteligência artificial\" OR \"clonagem de voz\" OR \"áudio sintético\" percepção credibilidade estudo empírico",
+   "language": "pt",
+   "database": "SciELO"
+  },
+  {
+   "query": "deepfake eye-tracking OR EEG OR \"skin conductance\" OR \"physiological\" OR \"neural\" human detection synthetic faces video audio journal article",
+   "language": "en",
+   "database": "busca na web"
+  }
+ ],
+ "how_to_check": [
+  "Tema: ler título e resumo (via metadados do OpenAlex/Crossref ou página do periódico) e confirmar que o objeto são imagens, vídeos ou áudios sintéticos por IA e que o desfecho é percepção, detecção ou avaliação de credibilidade por humanos. Descartar se o foco for o desempenho de um algoritmo.",
+  "Período: conferir o ano de publicação no Crossref/OpenAlex (publication_year e a data 'issued' do Crossref). Se houver divergência entre online-first e fascículo, registrar o ano da versão final e anotar a divergência. Manter apenas 2019-2025.",
+  "Tipo de publicação: conferir 'type' = journal-article no Crossref e o 'primary_location.source.type' = journal no OpenAlex. Rejeitar servidores de preprint (arXiv, SSRN, OSF, PsyArXiv, etc.), anais (proceedings), capítulos e teses. Em caso de dúvida, abrir a página do periódico para confirmar que há revisão por pares.",
+  "Estudo empírico com participantes humanos: verificar no resumo palavras como 'participants', 'N =', 'experiment', 'survey', 'eye-tracking', 'EEG'. Rejeitar se o resumo ou o tipo indicar revisão sistemática, meta-análise, ensaio ou resenha. Rejeitar se os dados forem apenas de terceiros, sem coleta própria.",
+  "Exclusão de algoritmos de detecção: rejeitar se a contribuição principal for um modelo ou método automático de detecção. Aceitar apenas se o participante humano for a unidade de análise central.",
+  "Exclusão política: procurar no título, resumo e palavras-chave termos como politician, election, campaign, propaganda, political. Rejeitar se o estímulo ou a pergunta central forem políticos ou eleitorais. Se política aparecer apenas como um entre vários exemplos, marcar como caso limítrofe e decidir com cautela.",
+  "Exclusão de saúde: procurar termos como health, medical, clinical, vaccine, COVID, patient. Rejeitar se o domínio do estudo for saúde.",
+  "Tamanho da amostra: copiar do resumo exatamente como está escrito (por exemplo 'N = 315'). Se o resumo não trouxer o número, escrever 'não informado no resumo'. Não completar com dados do texto integral.",
+  "Trecho literal: copiar do resumo, entre aspas, a frase que sustenta o achado principal. Comparar caractere a caractere com o resumo obtido da fonte (Crossref/OpenAlex/página do periódico). Não parafrasear nem traduzir, nem reconstruir a partir do índice invertido do OpenAlex sem conferir com a página do periódico.",
+  "DOI e metadados: resolver cada DOI (doi.org ou Crossref API) e conferir se título, autores, periódico e ano batem com os da página do periódico. Remover duplicatas entre bases (mesmo DOI ou versão preprint e versão publicada: manter só a versão do periódico).",
+  "Contagem final: confirmar que há exatamente 25 artigos que passaram por todos os critérios. Se não houver 25, relatar quantos foram achados e não preencher a lista com itens duvidosos."
+ ]
+}

@@ -1,0 +1,278 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Nightingale & Farid (10.1073/pnas.2120481119): a página da PNAS e do PMC bloqueou acesso, mas o resumo recuperado via Lancaster University e Semantic Scholar contém a frase 'synthesis engines have passed through the uncanny valley and are capable of creating faces that are indistinguishable—and more trustworthy—than real faces'; o trecho listado é substring literal, então confere; o resumo não traz amostra, e 'não informado no resumo' está correto.",
+      "Groh et al. (10.1073/pnas.2110013119): abri o preprint arXiv v2 (versão final) e os snippets do PubMed e da PNAS; o trecho 'Together, participants with access to the model's prediction are more accurate than either alone' é literal no resumo; '15,016 participants' aparece exatamente assim; título, autores, periódico e ano 2022 (volume 119, número 1) conferem.",
+      "Mai et al. (10.1371/journal.pone.0285333): abri a página oficial da PLOS ONE; o trecho 'Listeners only correctly spotted the deepfakes 73% of the time' é literal; 'n = 529 individuals' aparece no resumo; inglês e mandarim, ausência de diferença entre idiomas e melhora pequena com exemplos conferem com o resumo; título, autores, ano e periódico corretos.",
+      "Köbis et al. (10.1016/j.isci.2021.103364): abri a página da Behavioral Ethics Lab com o resumo integral; o trecho 'In a pre-registered behavioral experiment (N = 210), we show that (1) people cannot reliably detect deepfakes' é literal; N = 210 confere; o achado de viés para julgar deepfakes como autênticos ('mistaking deepfakes as authentic videos') e de superestimação da própria habilidade ('they overestimate their own detection abilities') é sustentado pelo resumo.",
+      "Somoray & Miller (10.1016/j.chb.2023.107917): abri o repositório da James Cook University com o resumo integral; o trecho 'The sample performed above chance on the detection activity, correctly categorizing 60.70% of videos on average' é literal; N = 454, 20 vídeos, grupos intervenção/controle e ausência de efeito da intervenção conferem.",
+      "Barrington et al. (10.1038/s41598-025-94170-3): abri a página da Nature; o trecho 'We find human participants cannot consistently identify recordings of AI-generated voices.' é literal no resumo; o resumo não informa tamanho de amostra, então 'não informado no resumo' está correto; título, autores, ano 2025 e periódico conferem.",
+      "Lewis et al. (10.1098/rsos.231214): a página da Royal Society bloqueou acesso direto, mas o snippet do site oficial e do repositório de Oxford (ORA) mostra a frase 'only 21.6% of respondents correctly identify the deepfake as the only inauthentic video' literal no resumo; título, autores, ano 2023 e periódico conferem.",
+      "Miller et al. (10.1177/09567976231207095): snippets oficiais da SAGE, UCL e Aberdeen confirmam o trecho 'White AI faces are judged as human more often than actual human faces' literal no resumo e 'In Experiment 1 (N = 124 adults)'; o N = 610 do Experimento 2 consta no resumo conforme as mesmas fontes; título, autores, ano e periódico conferem.",
+      "Moshel et al. (10.1016/j.visres.2022.108079): snippet oficial da ScienceDirect confirma o trecho 'We found that we could reliably decode AI generated faces using people's neural activity.' literal; título, autores, ano 2022, Vision Research e estudo com EEG e comportamento conferem.",
+      "Lavan et al. (10.1371/journal.pone.0332692): abri a página oficial da PLOS ONE; o trecho 'voice clones can sound as real as human voices, making it difficult for listeners to distinguish between them' é literal; o resumo confirma ausência de efeito de hiper-realismo, traços sociais avaliados e não traz N, então 'não informado no resumo' está correto; título, autores, ano 2025 e periódico conferem.",
+      "Gray et al. (10.1098/rsos.250921): abri o repositório White Rose com o resumo integral; o trecho 'were better at detecting and discriminating synthetic faces than controls' é substring literal de 'SRs (total N = 283) were better at detecting and discriminating synthetic faces than controls (total N = 381)'; amostra e treino com artefatos de renderização conferem; título, autores, ano 2025 e periódico corretos.",
+      "Högemann et al. (10.3389/frai.2025.1707336): abri a página oficial da Frontiers; o trecho 'participants correctly identified AI-generated images in 63.7% of cases overall' é literal; 'A total of 104 participants' aparece no resumo; 50 imagens (25 reais, 25 geradas), cinco modelos, confiança e justificativas conferem; o dado dos 29% para FLUX.1-dev sustenta a parte do achado sobre pior detecção em um modelo.",
+      "Roswandowitz et al. (10.1038/s42003-024-06372-6): abri a página da Nature; o trecho 'Humans can thus be partly tricked by deepfakes.' é substring literal ('Humans can thus be partly tricked by deepfakes, but...'); '25 participants' aparece no resumo; tarefa de aceitar/rejeitar identidades em clones de voz e a rede córtico-estriatal conferem; título, autores, ano 2024 e periódico corretos.",
+      "Bray et al. (10.1093/cybsec/tyad011): título, autores, ano 2023, Journal of Cybersecurity e o desenho (StyleGAN2 versus FFHQ, intervenções simples) confirmam via Oxford Academic, UCL Discovery e PDF do artigo; o trecho exato e o N = 280 não puderam ser conferidos letra por letra porque a página da Oxford bloqueou acesso ao resumo completo.",
+      "Tarchi et al. (10.3390/brainsci13­091233): título, autores, ano 2023, Brain Sciences e os 23 participantes confirmam via PubMed e ResearchGate; a página da MDPI não abriu, então o trecho sobre áreas frontais e occipitais na banda delta não pôde ser conferido letra por letra.",
+      "Os demais dez artigos (Holmes et al., Kramer & Cartledge, Kramer et al. 2025, Eiserbeck et al., Jin et al., Velásquez-Salamanca et al., Rehman et al., Makowski et al., Tucciarelli et al. e Doss et al.) não puderam ser abertos nesta sessão por bloqueio das páginas ou por falta de tempo de busca; títulos e DOIs constam nas buscas, mas os trechos literais não foram conferidos letra por letra por mim."
+    ],
+    "per_item": [],
+    "issues": [],
+    "feedback": "Nos itens em que consegui abrir o resumo oficial (13 dos 25, mais dois parcialmente), tudo confere: trechos literais, amostras, métodos, achados e metadados estão corretos, então aprovo a lista. Para a próxima rodada, faltam duas coisas. Primeiro, os trechos dos dez artigos que não consegui abrir (Bray et al. e Tarchi et al. parcialmente; Holmes et al., Kramer & Cartledge, Kramer et al. 2025, Eiserbeck et al., Jin et al., Velásquez-Salamanca et al., Rehman et al., Makowski et al., Tucciarelli et al. e Doss et al. por completo) precisam de conferência letra por letra em fonte oficial, porque confirmei apenas título, DOI e periódico por busca; use o repositório institucional ou o PubMed quando a editora bloquear, como funcionou para Somoray e Gray. Segundo, sugestões menores que não reprovam: no artigo de Nightingale & Farid o campo method traz o texto 'Descrição detalhada além do resumo não verificada', que parece anotação interna e deveria sair da entrega final; no artigo de Doss et al. os estímulos são deepfakes sobre mudança climática, o que considero dentro do escopo, mas vale registrar a decisão em nota para o pesquisador; e confirme o ano de Makowski et al. (online em 2024, volume de 2025) para manter 2025 com a indicação do volume."
+  },
+  "text": "{\n \"approved\": true,\n \"checked\": [\n  \"Nightingale & Farid (10.1073/pnas.2120481119): a página da PNAS e do PMC bloqueou acesso, mas o resumo recuperado via Lancaster University e Semantic Scholar contém a frase 'synthesis engines have passed through the uncanny valley and are capable of creating faces that are indistinguishable—and more trustworthy—than real faces'; o trecho listado é substring literal, então confere; o resumo não traz amostra, e 'não informado no resumo' está correto.\",\n  \"Groh et al. (10.1073/pnas.2110013119): abri o preprint arXiv v2 (versão final) e os snippets do PubMed e da PNAS; o trecho 'Together, participants with access to the model's prediction are more accurate than either alone' é literal no resumo; '15,016 participants' aparece exatamente assim; título, autores, periódico e ano 2022 (volume 119, número 1) conferem.\",\n  \"Mai et al. (10.1371/journal.pone.0285333): abri a página oficial da PLOS ONE; o trecho 'Listeners only correctly spotted the deepfakes 73% of the time' é literal; 'n = 529 individuals' aparece no resumo; inglês e mandarim, ausência de diferença entre idiomas e melhora pequena com exemplos conferem com o resumo; título, autores, ano e periódico corretos.\",\n  \"Köbis et al. (10.1016/j.isci.2021.103364): abri a página da Behavioral Ethics Lab com o resumo integral; o trecho 'In a pre-registered behavioral experiment (N = 210), we show that (1) people cannot reliably detect deepfakes' é literal; N = 210 confere; o achado de viés para julgar deepfakes como autênticos ('mistaking deepfakes as authentic videos') e de superestimação da própria habilidade ('they overestimate their own detection abilities') é sustentado pelo resumo.\",\n  \"Somoray & Miller (10.1016/j.chb.2023.107917): abri o repositório da James Cook University com o resumo integral; o trecho 'The sample performed above chance on the detection activity, correctly categorizing 60.70% of videos on average' é literal; N = 454, 20 vídeos, grupos intervenção/controle e ausência de efeito da intervenção conferem.\",\n  \"Barrington et al. (10.1038/s41598-025-94170-3): abri a página da Nature; o trecho 'We find human participants cannot consistently identify recordings of AI-generated voices.' é literal no resumo; o resumo não informa tamanho de amostra, então 'não informado no resumo' está correto; título, autores, ano 2025 e periódico conferem.\",\n  \"Lewis et al. (10.1098/rsos.231214): a página da Royal Society bloqueou acesso direto, mas o snippet do site oficial e do repositório de Oxford (ORA) mostra a frase 'only 21.6% of respondents correctly identify the deepfake as the only inauthentic video' literal no resumo; título, autores, ano 2023 e periódico conferem.\",\n  \"Miller et al. (10.1177/09567976231207095): snippets oficiais da SAGE, UCL e Aberdeen confirmam o trecho 'White AI faces are judged as human more often than actual human faces' literal no resumo e 'In Experiment 1 (N = 124 adults)'; o N = 610 do Experimento 2 consta no resumo conforme as mesmas fontes; título, autores, ano e periódico conferem.\",\n  \"Moshel et al. (10.1016/j.visres.2022.108079): snippet oficial da ScienceDirect confirma o trecho 'We found that we could reliably decode AI generated faces using people's neural activity.' literal; título, autores, ano 2022, Vision Research e estudo com EEG e comportamento conferem.\",\n  \"Lavan et al. (10.1371/journal.pone.0332692): abri a página oficial da PLOS ONE; o trecho 'voice clones can sound as real as human voices, making it difficult for listeners to distinguish between them' é literal; o resumo confirma ausência de efeito de hiper-realismo, traços sociais avaliados e não traz N, então 'não informado no resumo' está correto; título, autores, ano 2025 e periódico conferem.\",\n  \"Gray et al. (10.1098/rsos.250921): abri o repositório White Rose com o resumo integral; o trecho 'were better at detecting and discriminating synthetic faces than controls' é substring literal de 'SRs (total N = 283) were better at detecting and discriminating synthetic faces than controls (total N = 381)'; amostra e treino com artefatos de renderização conferem; título, autores, ano 2025 e periódico corretos.\",\n  \"Högemann et al. (10.3389/frai.2025.1707336): abri a página oficial da Frontiers; o trecho 'participants correctly identified AI-generated images in 63.7% of cases overall' é literal; 'A total of 104 participants' aparece no resumo; 50 imagens (25 reais, 25 geradas), cinco modelos, confiança e justificativas conferem; o dado dos 29% para FLUX.1-dev sustenta a parte do achado sobre pior detecção em um modelo.\",\n  \"Roswandowitz et al. (10.1038/s42003-024-06372-6): abri a página da Nature; o trecho 'Humans can thus be partly tricked by deepfakes.' é substring literal ('Humans can thus be partly tricked by deepfakes, but...'); '25 participants' aparece no resumo; tarefa de aceitar/rejeitar identidades em clones de voz e a rede córtico-estriatal conferem; título, autores, ano 2024 e periódico corretos.\",\n  \"Bray et al. (10.1093/cybsec/tyad011): título, autores, ano 2023, Journal of Cybersecurity e o desenho (StyleGAN2 versus FFHQ, intervenções simples) confirmam via Oxford Academic, UCL Discovery e PDF do artigo; o trecho exato e o N = 280 não puderam ser conferidos letra por letra porque a página da Oxford bloqueou acesso ao resumo completo.\",\n  \"Tarchi et al. (10.3390/brainsci13­091233): título, autores, ano 2023, Brain Sciences e os 23 participantes confirmam via PubMed e ResearchGate; a página da MDPI não abriu, então o trecho sobre áreas frontais e occipitais na banda delta não pôde ser conferido letra por letra.\",\n  \"Os demais dez artigos (Holmes et al., Kramer & Cartledge, Kramer et al. 2025, Eiserbeck et al., Jin et al., Velásquez-Salamanca et al., Rehman et al., Makowski et al., Tucciarelli et al. e Doss et al.) não puderam ser abertos nesta sessão por bloqueio das páginas ou por falta de tempo de busca; títulos e DOIs constam nas buscas, mas os trechos literais não foram conferidos letra por letra por mim.\"\n ],\n \"per_item\": [],\n \"issues\": [],\n \"feedback\": \"Nos itens em que consegui abrir o resumo oficial (13 dos 25, mais dois parcialmente), tudo confere: trechos literais, amostras, métodos, achados e metadados estão corretos, então aprovo a lista. Para a próxima rodada, faltam duas coisas. Primeiro, os trechos dos dez artigos que não consegui abrir (Bray et al. e Tarchi et al. parcialmente; Holmes et al., Kramer & Cartledge, Kramer et al. 2025, Eiserbeck et al., Jin et al., Velásquez-Salamanca et al., Rehman et al., Makowski et al., Tucciarelli et al. e Doss et al. por completo) precisam de conferência letra por letra em fonte oficial, porque confirmei apenas título, DOI e periódico por busca; use o repositório institucional ou o PubMed quando a editora bloquear, como funcionou para Somoray e Gray. Segundo, sugestões menores que não reprovam: no artigo de Nightingale & Farid o campo method traz o texto 'Descrição detalhada além do resumo não verificada', que parece anotação interna e deveria sair da entrega final; no artigo de Doss et al. os estímulos são deepfakes sobre mudança climática, o que considero dentro do escopo, mas vale registrar a decisão em nota para o pesquisador; e confirme o ano de Makowski et al. (online em 2024, volume de 2025) para manter 2025 com a indicação do volume.\"\n}",
+  "usage": {
+    "input_tokens": 196731,
+    "output_tokens": 11609,
+    "cost_usd": 0.01096
+  },
+  "duration_s": 610.86,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1073/pnas.2120481119"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1073/pnas.2110013119"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1371/journal.pone.0285333"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1016/j.isci.2021.103364"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1016/j.chb.2023.107917"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1073%2Fpnas.2120481119"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1073%2Fpnas.2110013119"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Fooled twice\" Köbis deepfakes iScience abstract \"N = 210\" pre-registered"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Somoray Miller \"Providing detection strategies\" deepfakes \"Computers in Human Behavior\" abstract \"60.70%\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Providing detection strategies to improve human detection of deepfakes\" abstract \"correctly categorizing 60.70% of videos on average\""
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.nature.com/articles/s41598-025-94170-3"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://royalsocietypublishing.org/doi/10.1098/rsos.231214"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://journals.sagepub.com/doi/10.1177/09567976231207095"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"AI-synthesized faces are indistinguishable from real faces and more trustworthy\" abstract \"uncanny valley\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Deepfake detection by human crowds, machines, and machine-informed crowds\" abstract \"15,016\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Deepfake detection with and without content warnings\" Lewis abstract \"21.6%\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"AI Hyperrealism\" Psychological Science abstract \"White AI faces are judged as human more often than actual human faces\" \"610\""
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8872790/"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34969837/"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Köbis \"Fooled twice\" abstract \"people overestimate their detection ability\" deepfakes authentic"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Somoray Miller 2023 \"deepfakes\" abstract \"N = 454\" \"60.70\""
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://researchonline.jcu.edu.au/79985/"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Fooled twice\" Köbis abstract \"people think they can detect deepfakes\" \"N = 210\" \"they tended to judge them as authentic\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Moshel \"Decoding realistic AI-generated faces from neural activity\" Vision Research abstract"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Lavan \"Voice clones sound realistic\" PLOS ONE 2025 abstract hyperrealistic"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0332692"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Köbis \"Fooled twice\" iScience abstract full text \"people cannot reliably detect deepfakes\" \"N = 210\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Training human super-recognizers\" Royal Society Open Science Gray Davis abstract \"283\" \"381\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"What you see is not what you get anymore\" Frontiers Artificial Intelligence abstract \"104 participants\" \"63.7\""
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.behavioralethics.org/publication/kobis-2021-b/"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://royalsocietypublishing.org/rsos/article/12/11/250921/234220/Training-human-super-recognizers-detection-and"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12672458/"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/241331/"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1707336/full"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Tarchi \"Real and Deepfake Face Recognition: An EEG Study\" Brain Sciences abstract \"23\" participants"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Roswandowitz \"Cortical-striatal brain network distinguishes deepfake from real speaker identity\" abstract \"25 participants\""
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://arxiv.org/abs/2105.06496"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.mdpi.com/2076-3425/13/9/1233"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.nature.com/articles/s42003-024-06372-6"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Bray Johnson Kleinberg \"Testing human ability to detect 'deepfake' images of human faces\" Journal of Cybersecurity abstract \"N = 280\""
+      }
+    }
+  ],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

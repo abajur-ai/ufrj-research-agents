@@ -1,0 +1,31 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Período 2019 a 2025 nos metadados confere exatamente com o período do pedido, sem ano errado nos dois lados.",
+      "Restrição a artigos de periódico revisados por pares está presente no critério de inclusão 1 e as exclusões de preprints, anais de congresso, capítulos, teses e resenhas traduzem o pedido sem omissão.",
+      "Exclusão de algoritmos de detecção automática (machine learning, deep learning, benchmarks) aparece na exclusão 1, igual ao pedido.",
+      "Exclusão de políticos, eleições, campanhas e propaganda política está na exclusão 2, igual ao pedido.",
+      "Exclusão de saúde/contexto médico está na exclusão 3, igual ao pedido.",
+      "Exigência de estudo empírico com participantes humanos (experimento, teste de detecção, survey, medidas fisiológicas) está na inclusão 2, e a exclusão 7 cobre estudos sem humanos ou sem dados próprios.",
+      "Tema do pedido (percepção, detecção ou avaliação de credibilidade de imagens, vídeos e áudios sintéticos: deepfakes, rostos sintéticos, clones de voz) está coberto na inclusão 3.",
+      "Campos solicitados por artigo (DOI, título, autores, ano, periódico, método, amostra, achado, trecho literal) não são objeto destes termos, que cobrem busca e critérios, mas a inclusão 4 já exige resumo com método e amostra, apoiando a coleta pedida.",
+      "As 10 queries em inglês cobrem os três formatos do tema: vídeo (deepfake), imagem (rostos sintéticos e imagens geradas por IA) e áudio (voice clone e audio deepfake), além de survey e medidas fisiológicas.",
+      "As 6 queries em português cobrem detecção por humanos, credibilidade, rostos sintéticos, clonagem de voz e imagens geradas por IA.",
+      "Nenhuma restrição foi acrescentada além do pedido; a menção a alertas e treinamento na inclusão 5 amplia a cobertura de estudos de detecção humana e não restringe o resultado."
+    ],
+    "issues": [],
+    "feedback": "Aprovado sem erros. Sugestões opcionais para a próxima busca: adicionar termos como synthetic media, manipulated media e voice cloning em inglês, e áudio sintético e mídia sintética em português, para ampliar a recuperação; ao aplicar os critérios, conferir com cuidado se artigos de detecção automática com pequeno componente humano são de fato excluídos, pois esse é o risco de viés mais provável neste tema."
+  },
+  "text": "{\"approved\": true, \"checked\": [\"Período 2019 a 2025 nos metadados confere exatamente com o período do pedido, sem ano errado nos dois lados.\", \"Restrição a artigos de periódico revisados por pares está presente no critério de inclusão 1 e as exclusões de preprints, anais de congresso, capítulos, teses e resenhas traduzem o pedido sem omissão.\", \"Exclusão de algoritmos de detecção automática (machine learning, deep learning, benchmarks) aparece na exclusão 1, igual ao pedido.\", \"Exclusão de políticos, eleições, campanhas e propaganda política está na exclusão 2, igual ao pedido.\", \"Exclusão de saúde/contexto médico está na exclusão 3, igual ao pedido.\", \"Exigência de estudo empírico com participantes humanos (experimento, teste de detecção, survey, medidas fisiológicas) está na inclusão 2, e a exclusão 7 cobre estudos sem humanos ou sem dados próprios.\", \"Tema do pedido (percepção, detecção ou avaliação de credibilidade de imagens, vídeos e áudios sintéticos: deepfakes, rostos sintéticos, clones de voz) está coberto na inclusão 3.\", \"Campos solicitados por artigo (DOI, título, autores, ano, periódico, método, amostra, achado, trecho literal) não são objeto destes termos, que cobrem busca e critérios, mas a inclusão 4 já exige resumo com método e amostra, apoiando a coleta pedida.\", \"As 10 queries em inglês cobrem os três formatos do tema: vídeo (deepfake), imagem (rostos sintéticos e imagens geradas por IA) e áudio (voice clone e audio deepfake), além de survey e medidas fisiológicas.\", \"As 6 queries em português cobrem detecção por humanos, credibilidade, rostos sintéticos, clonagem de voz e imagens geradas por IA.\", \"Nenhuma restrição foi acrescentada além do pedido; a menção a alertas e treinamento na inclusão 5 amplia a cobertura de estudos de detecção humana e não restringe o resultado.\"], \"issues\": [], \"feedback\": \"Aprovado sem erros. Sugestões opcionais para a próxima busca: adicionar termos como synthetic media, manipulated media e voice cloning em inglês, e áudio sintético e mídia sintética em português, para ampliar a recuperação; ao aplicar os critérios, conferir com cuidado se artigos de detecção automática com pequeno componente humano são de fato excluídos, pois esse é o risco de viés mais provável neste tema.\"}",
+  "usage": {
+    "input_tokens": 1149,
+    "output_tokens": 928,
+    "cost_usd": 0.00061
+  },
+  "duration_s": 11.87,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

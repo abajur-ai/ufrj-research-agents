@@ -1,0 +1,97 @@
+{
+  "structured": {
+    "year_from": 2018,
+    "year_to": 2025,
+    "queries_en": [
+      "media literacy Brazilian students misinformation",
+      "disinformation media education Brazil schools",
+      "information literacy fake news Brazil university",
+      "fake news teachers Brazil high school",
+      "critical media literacy Brazilian classroom intervention",
+      "misinformation textbooks Brazil analysis",
+      "digital literacy Brazilian undergraduate students fake news",
+      "Brazil teacher training media and information literacy",
+      "news literacy Brazilian adolescents school",
+      "fact-checking education Brazil students"
+    ],
+    "queries_pt": [
+      "desinformação educação midiática escola",
+      "competência em informação fake news estudantes",
+      "educação midiática professores ensino básico",
+      "desinformação ensino superior alfabetização midiática",
+      "fake news sala de aula intervenção pedagógica",
+      "letramento midiático informacional estudantes brasileiros"
+    ],
+    "include": [
+      "Artigo de periódico revisado por pares publicado entre 2018 e 2025",
+      "Estudo empírico com dados próprios (questionário, entrevista, grupo focal, intervenção, experimento, relato de experiência com coleta de dados, análise documental de currículos ou livros didáticos)",
+      "Realizado no Brasil, ou estudo comparativo internacional que inclua amostra brasileira explícita",
+      "Participantes ou objeto de análise: estudantes, professores, aulas, currículos ou livros didáticos da educação básica ou do ensino superior",
+      "Tema central: desinformação/fake news e educação midiática, alfabetização/letramento midiático ou competência em informação",
+      "Contexto de ensino formal (escolas, institutos federais, universidades)"
+    ],
+    "exclude": [
+      "Revisões de literatura, revisões sistemáticas, meta-análises",
+      "Ensaios teóricos, artigos de opinião sem dados empíricos próprios",
+      "Preprints, trabalhos de anais de congresso, capítulos de livro, livros, teses, dissertações, resenhas",
+      "Estudos centrados em COVID-19, pandemia, vacinas ou saúde",
+      "Estudos centrados em eleições, política partidária ou polarização política",
+      "Públicos fora do ensino formal (população geral, idosos, jornalistas, redes sociais sem vínculo escolar)",
+      "Estudos sem amostra brasileira ou realizados em outros países",
+      "Publicações fora do período 2018–2025",
+      "Estudos sobre desinformação sem componente educacional ou de ensino"
+    ]
+  },
+  "text": "{\"year_from\":2018,\"year_to\":2025,\"queries_en\":[\"media literacy Brazilian students misinformation\",\"disinformation media education Brazil schools\",\"information literacy fake news Brazil university\",\"fake news teachers Brazil high school\",\"critical media literacy Brazilian classroom intervention\",\"misinformation textbooks Brazil analysis\",\"digital literacy Brazilian undergraduate students fake news\",\"Brazil teacher training media and information literacy\",\"news literacy Brazilian adolescents school\",\"fact-checking education Brazil students\"],\"queries_pt\":[\"desinformação educação midiática escola\",\"competência em informação fake news estudantes\",\"educação midiática professores ensino básico\",\"desinformação ensino superior alfabetização midiática\",\"fake news sala de aula intervenção pedagógica\",\"letramento midiático informacional estudantes brasileiros\"],\"include\":[\"Artigo de periódico revisado por pares publicado entre 2018 e 2025\",\"Estudo empírico com dados próprios (questionário, entrevista, grupo focal, intervenção, experimento, relato de experiência com coleta de dados, análise documental de currículos ou livros didáticos)\",\"Realizado no Brasil, ou estudo comparativo internacional que inclua amostra brasileira explícita\",\"Participantes ou objeto de análise: estudantes, professores, aulas, currículos ou livros didáticos da educação básica ou do ensino superior\",\"Tema central: desinformação/fake news e educação midiática, alfabetização/letramento midiático ou competência em informação\",\"Contexto de ensino formal (escolas, institutos federais, universidades)\"],\"exclude\":[\"Revisões de literatura, revisões sistemáticas, meta-análises\",\"Ensaios teóricos, artigos de opinião sem dados empíricos próprios\",\"Preprints, trabalhos de anais de congresso, capítulos de livro, livros, teses, dissertações, resenhas\",\"Estudos centrados em COVID-19, pandemia, vacinas ou saúde\",\"Estudos centrados em eleições, política partidária ou polarização política\",\"Públicos fora do ensino formal (população geral, idosos, jornalistas, redes sociais sem vínculo escolar)\",\"Estudos sem amostra brasileira ou realizados em outros países\",\"Publicações fora do período 2018–2025\",\"Estudos sobre desinformação sem componente educacional ou de ensino\"]}",
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 392,
+    "cache_read_input_tokens": 1691,
+    "output_tokens": 950,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 392,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 950,
+        "cache_read_input_tokens": 1691,
+        "cache_creation_input_tokens": 392,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 392
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 2,
+  "duration_s": 8.62,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "year_from": "2018",
+        "year_to": "2025",
+        "queries_en": "[\"media literacy Brazilian students misinformation\", \"disinformation media education Brazil schools\", \"information literacy fake news Brazil university\", \"fake news teachers Brazil high school\", \"cri…",
+        "queries_pt": "[\"desinformação educação midiática escola\", \"competência em informação fake news estudantes\", \"educação midiática professores ensino básico\", \"desinformação ensino superior alfabetização midiática\", …",
+        "include": "[\"Artigo de periódico revisado por pares publicado entre 2018 e 2025\", \"Estudo empírico com dados próprios (questionário, entrevista, grupo focal, intervenção, experimento, relato de experiência com …",
+        "exclude": "[\"Revisões de literatura, revisões sistemáticas, meta-análises\", \"Ensaios teóricos, artigos de opinião sem dados empíricos próprios\", \"Preprints, trabalhos de anais de congresso, capítulos de livro, …"
+      }
+    }
+  ]
+}

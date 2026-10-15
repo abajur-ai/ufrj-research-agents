@@ -1,0 +1,2939 @@
+{
+ "refs": {
+  "anthropic_agents": {
+   "id": "anthropic_agents",
+   "kind": "web",
+   "expected": {
+    "title": "Building effective agents",
+    "authors": [
+     "Schluntz",
+     "Zhang"
+    ],
+    "year": 2024,
+    "venue": "Anthropic"
+   },
+   "texts": [
+    "web: https://simonwillison.net/2024/Dec/20/building-effective-agents/",
+    "web: https://eapad.dk/resource/building-effective-agents/",
+    "web: https://blog.naitive.cloud/building-effective-agents/"
+   ],
+   "found": {
+    "web": [
+     "https://simonwillison.net/2024/Dec/20/building-effective-agents/",
+     "https://eapad.dk/resource/building-effective-agents/",
+     "https://blog.naitive.cloud/building-effective-agents/"
+    ],
+    "search": "- building-effective-agents-with-pydantic-ai/README.md at main · intellectronica/building-effective-agents-with-pydantic-ai | https://github.com/intellectronica/building-effective-agents-with-pydantic-ai/blob/main/README.md | Code examples for the agentic AI patterns discussed in the excellent article Building Effective Agents by Erik Schluntz and Barry Zhang of Anthropic, inspired, ported and adapted from the code samples by the authors.\n- Building effective agents | https://simonwillison.net/2024/Dec/20/building-effective-agents/ | This outstanding piece by Erik Schluntz and Barry Zhang at Anthropic bucks that trend from the start, providing a clear definition that they then use throughout.\n- Building effective agents - The EA Pad | https://eapad.dk/resource/building-effective-agents/ | Barry Zhang, Erik Schluntz · Over the past year, we’ve worked with dozens of teams building large language model (LLM) agents across industries. Consistently, the most successful implementations weren’t using complex frameworks or specialized libraries. Instead, they were building with simple, comp…\n- Building Effective Agents | CandleKeep | https://getcandlekeep.com/marketplace/building-effective-agents-xd97cw | By Anthropic | Erik Schluntz and Barry Zhang Published December 19, 2024 · <strong>A comprehensive guide to building successful LLM agent implementations using simple, composable patterns rather than complex frameworks</strong>.\n- AI Agents — Day 3 | https://medium.com/@srideviaishw"
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": null
+  },
+  "russell_norvig": {
+   "id": "russell_norvig",
+   "kind": "book",
+   "expected": {
+    "title": "Artificial Intelligence: A Modern Approach",
+    "authors": [
+     "Russell",
+     "Norvig"
+    ],
+    "year": 2021,
+    "venue": "Pearson"
+   },
+   "texts": [
+    "web: https://swoft.ai/en/articles/qu-est-ce-qu-un-agent-ia-definition-academique-russell-wooldridge-ferber/",
+    "web: https://huyenchip.com/2025/01/07/agents.html",
+    "web: https://arxiv.org/html/2503.12687v1",
+    "web: https://mattrickard.com/norvigs-agent-definition"
+   ],
+   "found": {
+    "openlibrary": [
+     {
+      "title": "Artificial intelligence",
+      "authors": [
+       "Stuart J. Russell",
+       "Peter Norvig"
+      ],
+      "years": [],
+      "first_year": 1994,
+      "publishers": []
+     },
+     {
+      "title": "Statistical Relational Artificial Intelligence",
+      "authors": [
+       "Kristian Kersting",
+       "Stuart J. Russell",
+       "Leslie Pack Kaelbling",
+       "Alon Y. Levy",
+       "Sriraam Natarajan"
+      ],
+      "years": [],
+      "first_year": 2010,
+      "publishers": []
+     }
+    ]
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": false,
+   "venue_ok": false
+  },
+  "react": {
+   "id": "react",
+   "kind": "paper",
+   "expected": {
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "authors": [
+     "Yao"
+    ],
+    "year": 2023,
+    "venue": "ICLR"
+   },
+   "texts": [
+    "resumo (arXiv 2210.03629v3)",
+    "texto completo (arXiv 2210.03629v3)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "M2A: Synergizing Mathematical and Agentic Reasoning in Large Language Models",
+     "year": 2026,
+     "venue": "arXiv (Cornell University)",
+     "doi": "10.48550/arxiv.2605.09879"
+    },
+    "dblp": null,
+    "arxiv": {
+     "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+     "year": 2022,
+     "id": "2210.03629v3"
+    },
+    "crossref": {
+     "title": "Synergizing Large Language Models and Knowledge-Based Reasoning for Interpretable Feature Engineering",
+     "year": 2025,
+     "venue": "Proceedings of the ACM on Web Conference 2025",
+     "doi": "10.1145/3696410.3714720"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": false
+  },
+  "wang_survey": {
+   "id": "wang_survey",
+   "kind": "paper",
+   "expected": {
+    "title": "A survey on large language model based autonomous agents",
+    "authors": [
+     "Wang"
+    ],
+    "year": 2024,
+    "venue": "Frontiers of Computer Science"
+   },
+   "texts": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2308.11432v7)",
+    "texto completo (arXiv 2308.11432v7)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "A survey on large language model based autonomous agents",
+     "year": 2024,
+     "venue": "Frontiers of Computer Science",
+     "doi": "10.1007/s11704-024-40231-1"
+    },
+    "dblp": null,
+    "arxiv": {
+     "title": "A Survey on Large Language Model based Autonomous Agents",
+     "year": 2023,
+     "id": "2308.11432v7"
+    },
+    "crossref": {
+     "title": "Optimizing Collaboration of Large Language Model Based Agents for Autonomous Finite Element Analysis",
+     "year": 2025,
+     "venue": "",
+     "doi": "10.2139/ssrn.5107557"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "google_dr": {
+   "id": "google_dr",
+   "kind": "web",
+   "expected": {
+    "title": "Try Deep Research and our new experimental model in Gemini, your AI assistant",
+    "authors": [
+     "Citron"
+    ],
+    "year": 2024,
+    "venue": "Google The Keyword"
+   },
+   "texts": [
+    "web: https://blog.google/products/gemini/google-gemini-deep-research/"
+   ],
+   "found": {
+    "web": [
+     "https://blog.google/products/gemini/google-gemini-deep-research/"
+    ],
+    "search": "- Try Deep Research and our new experimental model in Gemini, your AI assistant | https://blog.google/products/gemini/google-gemini-deep-research/ | Try Deep Research, <strong>a new research assistant in Gemini Advanced, and a chat optimized version of Gemini 2.0 Flash Experimental</strong>.\n- Google Workspace Updates: Gemini Deep Research and experimental models now available to Google Workspace users in Gemini Advanced | https://workspaceupdates.googleblog.com/2025/02/deep-research-available-for-google-workspace-in-gemini-advanced.html?m=1 | <strong>Deep Research explores complex topics on your behalf and presents its findings in a comprehensive, easy-to-read report</strong>. Deep Research brings hours of research to your fingertips in mere minutes – some examples of how you can use Deep Research ...\n- Google Gemini on X: \"Introducing Deep Research, your personal agentic AI research assistant. Rolling out starting today in Gemini Advanced. With Deep Research, you can create in-depth research reports on complex topics, complete with source links, giving you hours of research at your fingertips in… / X | https://x.com/GeminiApp/status/1866873306818977945 | Try Deep Research and our new experimental model in Gemini, your AI assistant · From blog.google · 4 · 11 · 127 · 24K · Logan Kilpatrick · @OfficialLoganKDec 11, 2024 · Deep research is one of those experiences you really need to try, it actually blew me away."
+   },
+   "exists": true,
+   "author_ok": false,
+   "year_ok": false,
+   "venue_ok": null
+  },
+  "openai_dr": {
+   "id": "openai_dr",
+   "kind": "web",
+   "expected": {
+    "title": "Introducing deep research",
+    "authors": [
+     "OpenAI"
+    ],
+    "year": 2025,
+    "venue": "OpenAI"
+   },
+   "texts": [
+    "web: https://en.wikipedia.org/wiki/ChatGPT_Deep_Research"
+   ],
+   "found": {
+    "web": [
+     "https://en.wikipedia.org/wiki/ChatGPT_Deep_Research"
+    ],
+    "search": "- Introducing deep research | OpenAI | https://openai.com/index/introducing-deep-research/ | February 5, 2025 update: <strong>Deep research is now available to Pro users in the United Kingdom, Switzerland, and the European Economic Area</strong>.\n- February 2, 2025 Release Introducing deep research | https://cdn.openai.com/API/docs/deep_research_blog.pdf | Update on February 5, 2025: Deep research is now available to Pro users in the United · Kingdom, Switzerland, and the European Economic Area. 21/02/2025, 19:58 · Introducing deep research | OpenAI · https://openai.com/index/introducing-deep-research/ 23/38 ·\n- ChatGPT Deep Research - Wikipedia | https://en.wikipedia.org/wiki/ChatGPT_Deep_Research | In <strong>February</strong> 2026, <strong>OpenAI</strong> announced updates to <strong>Deep</strong> <strong>Research</strong> with a new GPT-5.2-based model, better steering, limiting scope to select sites, connecting additional data using MCP servers, along with better UI for the final reports. …\n- Understanding complex trends with deep research | OpenAI | https://openai.com/index/deep-research/ | February 2, 2025ChatGPT · <strong>Bain &amp; Company researcher Reem Anchassi uses OpenAI deep research to understand complex industry trends</strong>. Share · &quot;These kind of tools increase my personal capacity so that I can use my time doing other research tasks.&quot;\n- Open-source DeepResearch – Freeing our search agents | https://huggingface.co/blog/open-deep-research | i&#x"
+   },
+   "exists": false,
+   "author_ok": false,
+   "year_ok": false,
+   "venue_ok": null
+  },
+  "storm": {
+   "id": "storm",
+   "kind": "paper",
+   "expected": {
+    "title": "Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models",
+    "authors": [
+     "Shao"
+    ],
+    "year": 2024,
+    "venue": "NAACL"
+   },
+   "texts": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2402.14207v2)",
+    "texto completo (arXiv 2402.14207v2)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models",
+     "year": 2024,
+     "venue": "Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)",
+     "doi": "10.18653/v1/2024.naacl-long.347"
+    },
+    "dblp": null,
+    "arxiv": {
+     "title": "Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models",
+     "year": 2024,
+     "id": "2402.14207v2"
+    },
+    "crossref": {
+     "title": "Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models",
+     "year": 2024,
+     "venue": "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+     "doi": "10.18653/v1/2024.naacl-long.347"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "paperqa2": {
+   "id": "paperqa2",
+   "kind": "paper",
+   "expected": {
+    "title": "Language agents achieve superhuman synthesis of scientific knowledge",
+    "authors": [
+     "Skarlinski"
+    ],
+    "year": 2024,
+    "venue": "arXiv"
+   },
+   "texts": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2409.13740v2)",
+    "texto completo (arXiv 2409.13740v2)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "Language agents achieve superhuman synthesis of scientific knowledge",
+     "year": 2024,
+     "venue": "arXiv (Cornell University)",
+     "doi": "10.48550/arxiv.2409.13740"
+    },
+    "dblp": null,
+    "arxiv": {
+     "title": "Language agents achieve superhuman synthesis of scientific knowledge",
+     "year": 2024,
+     "id": "2409.13740v2"
+    },
+    "crossref": {
+     "title": "Distilling Knowledge from Catalysis Literature with Long-Context Large Language Model Agents",
+     "year": null,
+     "venue": "",
+     "doi": "10.1021/acscatal.5c06431.s001"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "kalai_2025": {
+   "id": "kalai_2025",
+   "kind": "paper",
+   "expected": {
+    "title": "Why Language Models Hallucinate",
+    "authors": [
+     "Kalai"
+    ],
+    "year": 2025,
+    "venue": "arXiv"
+   },
+   "texts": [
+    "resumo (Crossref 10.20944/preprints202601.1447.v1)",
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2509.04664v1)",
+    "texto completo (arXiv 2509.04664v1)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "The Unspoken Implications of Why Language Models Hallucinate",
+     "year": 2026,
+     "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+     "doi": "10.5281/zenodo.18578144"
+    },
+    "dblp": null,
+    "arxiv": {
+     "title": "Why Language Models Hallucinate",
+     "year": 2025,
+     "id": "2509.04664v1"
+    },
+    "crossref": {
+     "title": "Language Without Propositions: Why Large Language Models Hallucinate",
+     "year": 2026,
+     "venue": "",
+     "doi": "10.20944/preprints202601.1447.v1"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "sharma": {
+   "id": "sharma",
+   "kind": "paper",
+   "expected": {
+    "title": "Towards Understanding Sycophancy in Language Models",
+    "authors": [
+     "Sharma"
+    ],
+    "year": 2024,
+    "venue": "ICLR"
+   },
+   "texts": [
+    "resumo (arXiv 2310.13548v4)",
+    "texto completo (arXiv 2310.13548v4)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "Moral Sycophancy in Vision Language Models",
+     "year": 2026,
+     "venue": "arXiv (Cornell University)",
+     "doi": "10.48550/arxiv.2602.08311"
+    },
+    "dblp": null,
+    "arxiv": {
+     "title": "Towards Understanding Sycophancy in Language Models",
+     "year": 2023,
+     "id": "2310.13548v4"
+    },
+    "crossref": {
+     "title": "Inoculating citizens against sycophancy in large language models",
+     "year": 2026,
+     "venue": "",
+     "doi": "10.31234/osf.io/u4zj2_v1"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": false
+  },
+  "walters": {
+   "id": "walters",
+   "kind": "paper",
+   "expected": {
+    "title": "Fabrication and errors in the bibliographic citations generated by ChatGPT",
+    "authors": [
+     "Walters",
+     "Wilder"
+    ],
+    "year": 2023,
+    "venue": "Scientific Reports"
+   },
+   "texts": [
+    "resumo (Crossref 10.1038/s41598-023-41032-5)",
+    "resumo (OpenAlex)",
+    "página da editora (doi 10.1038/s41598-023-41032-5)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "Fabrication and errors in the bibliographic citations generated by ChatGPT",
+     "year": 2023,
+     "venue": "Scientific Reports",
+     "doi": "10.1038/s41598-023-41032-5"
+    },
+    "dblp": null,
+    "arxiv": null,
+    "crossref": {
+     "title": "Fabrication and errors in the bibliographic citations generated by ChatGPT",
+     "year": 2023,
+     "venue": "Scientific Reports",
+     "doi": "10.1038/s41598-023-41032-5"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "tow": {
+   "id": "tow",
+   "kind": "web",
+   "expected": {
+    "title": "AI Search Has A Citation Problem",
+    "authors": [
+     "Jaźwińska",
+     "Chandrasekar"
+    ],
+    "year": 2025,
+    "venue": "Columbia Journalism Review"
+   },
+   "texts": [
+    "web: https://www.bibsonomy.org/bibtex/2abbaf5add097db3ac04f2b55d9af6382/meneteqel",
+    "web: https://x.com/SciNewsRo/status/1900451264195973233",
+    "web: https://laurayost.substack.com/p/digital-wild-goose-chase-the-serious"
+   ],
+   "found": {
+    "web": [
+     "https://www.bibsonomy.org/bibtex/2abbaf5add097db3ac04f2b55d9af6382/meneteqel",
+     "https://x.com/SciNewsRo/status/1900451264195973233",
+     "https://laurayost.substack.com/p/digital-wild-goose-chase-the-serious"
+    ],
+    "search": "- AI Search Has a Citation Problem - Columbia Journalism Review | https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php | Building on our previous research, <strong>the Tow Center for Digital Journalism conducted tests on eight generative search tools with live search features to assess their abilities to accurately retrieve and cite news content, as well as how they behave when they cannot</strong>...\n- r/labrats on Reddit: AI Search Has A Citation Problem (from Columbia Journalism Review) | https://www.reddit.com/r/labrats/comments/1janqzv/ai_search_has_a_citation_problem_from_columbia/ | https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php Share ... Even Perplexity ... Well it suggests there is room for improvement over the next years, that&#x27;s the good thing. ... I feel AI tools are at the initial peak of the Dunning-Kruger curve,…\n- AI search engines fail to produce accurate citations in over 60% of tests, according to new Tow Center study | Nieman Journalism Lab | https://www.niemanlab.org/2025/03/ai-search-engines-fail-to-produce-accurate-citations-in-over-60-of-tests-according-to-new-tow-center-study/ | For their study “AI search has a citation problem,” they conducted 200 tests on eight different AI search engines: <strong>ChatGPT Search, Perplexity, Perplexity Pro, Gemini, DeepSeek Search, Grok-2 Search, Grok-3 Search, and Copilot</strong>.\n- AI search has a citation pr"
+   },
+   "exists": true,
+   "author_ok": false,
+   "year_ok": true,
+   "venue_ok": null
+  },
+  "kalai_vempala": {
+   "id": "kalai_vempala",
+   "kind": "paper",
+   "expected": {
+    "title": "Calibrated Language Models Must Hallucinate",
+    "authors": [
+     "Kalai",
+     "Vempala"
+    ],
+    "year": 2024,
+    "venue": "STOC"
+   },
+   "texts": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2311.14648v3)",
+    "texto completo (arXiv 2311.14648v3)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "Calibrated Language Models Must Hallucinate",
+     "year": 2024,
+     "venue": "ACM Symposium on Theory of Computing (STOC)",
+     "doi": "10.1145/3618260.3649777"
+    },
+    "dblp": null,
+    "arxiv": {
+     "title": "Calibrated Language Models Must Hallucinate",
+     "year": 2023,
+     "id": "2311.14648v3"
+    },
+    "crossref": {
+     "title": "Calibrated Language Models Must Hallucinate",
+     "year": 2024,
+     "venue": "Proceedings of the 56th Annual ACM Symposium on Theory of Computing",
+     "doi": "10.1145/3618260.3649777"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "pal": {
+   "id": "pal",
+   "kind": "paper",
+   "expected": {
+    "title": "PAL: Program-aided Language Models",
+    "authors": [
+     "Gao"
+    ],
+    "year": 2023,
+    "venue": "ICML"
+   },
+   "texts": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2211.10435v2)",
+    "texto completo (arXiv 2211.10435v2)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "PAL: Program-aided Language Models",
+     "year": 2022,
+     "venue": "arXiv (Cornell University)",
+     "doi": "10.48550/arxiv.2211.10435"
+    },
+    "dblp": null,
+    "arxiv": {
+     "title": "PAL: Program-aided Language Models",
+     "year": 2022,
+     "id": "2211.10435v2"
+    },
+    "crossref": {
+     "title": "Empowering Multi-step Reasoning across Languages via Program-Aided Language Models",
+     "year": 2024,
+     "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+     "doi": "10.18653/v1/2024.emnlp-main.678"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": false
+  },
+  "llm_modulo": {
+   "id": "llm_modulo",
+   "kind": "paper",
+   "expected": {
+    "title": "LLMs Can't Plan, But Can Help Planning in LLM-Modulo Frameworks",
+    "authors": [
+     "Kambhampati"
+    ],
+    "year": 2024,
+    "venue": "ICML"
+   },
+   "texts": [
+    "resumo (OpenAlex)",
+    "página da editora (doi 10.48550/arxiv.2402.01817)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "LLMs Can't Plan, But Can Help Planning in LLM-Modulo Frameworks",
+     "year": 2024,
+     "venue": "arXiv (Cornell University)",
+     "doi": "10.48550/arxiv.2402.01817"
+    },
+    "dblp": null,
+    "arxiv": null,
+    "crossref": {
+     "title": "Can LLMs Truly Plan? A Comprehensive Evaluation of Planning Capabilities",
+     "year": 2025,
+     "venue": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+     "doi": "10.18653/v1/2025.findings-emnlp.702"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": false
+  },
+  "nist": {
+   "id": "nist",
+   "kind": "web",
+   "expected": {
+    "title": "e-Handbook of Statistical Methods: Series model",
+    "authors": [
+     "NIST"
+    ],
+    "year": 2026,
+    "venue": "NIST"
+   },
+   "texts": [
+    "web: https://www.itl.nist.gov/div898/handbook/apr/apr_d.htm"
+   ],
+   "found": {
+    "web": [
+     "https://www.itl.nist.gov/div898/handbook/apr/apr_d.htm"
+    ],
+    "search": "- 8. Assessing Product Reliability | https://www.itl.nist.gov/div898/handbook/apr/apr_d.htm | Repairable systems, non-repairable populations and lifetime distribution models [8.1.2.1.] · What are some common difficulties with reliability data and how are they overcome? [8.1.3.] · What are the basic lifetime distribution models used for non-repairable populations? [8.1.6.]\n- NIST/SEMATECH Engineering Statistics Handbook Chapter 8: Reliability | NIST | https://www.nist.gov/publications/nistsematech-engineering-statistics-handbook-chapter-8-reliability | https://www.nist.gov/publications/nistsematech-engineering-statistics-handbook-chapter-8-reliability ... In today&#x27;s technological world nearly everyone depends upon the continued functioning of a wide array of complex machinery and equipment for their everyday health, safety, mobility and econ…\n- NIST/SEMATECH e-Handbook of Statistical Methods | https://www.itl.nist.gov/div898/handbook/ | NIST/SEMATECH e-Handbook of Statistical Methods · To view this document, you need a frames-compatible browser such as Netscape Navigator or Microsoft Internet Explorer\n- 8.1.8.2. Series model - Information Technology Laboratory | https://www.itl.nist.gov/div898/handbook/apr/section1/apr182.htm | The following three assumptions are needed. <strong>Each component operates or fails independently of every other one, at least until the first component failure occurs</strong>. The system fails when the first component failure occurs. Each of the"
+   },
+   "exists": false,
+   "author_ok": false,
+   "year_ok": false,
+   "venue_ok": null
+  },
+  "dziri": {
+   "id": "dziri",
+   "kind": "paper",
+   "expected": {
+    "title": "Faith and Fate: Limits of Transformers on Compositionality",
+    "authors": [
+     "Dziri"
+    ],
+    "year": 2023,
+    "venue": "NeurIPS"
+   },
+   "texts": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2305.18654v3)",
+    "texto completo (arXiv 2305.18654v3)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "Faith and Fate: Limits of Transformers on Compositionality",
+     "year": 2023,
+     "venue": "neural information processing systems",
+     "doi": "10.52202/075280-3081"
+    },
+    "dblp": null,
+    "arxiv": {
+     "title": "Faith and Fate: Limits of Transformers on Compositionality",
+     "year": 2023,
+     "id": "2305.18654v3"
+    },
+    "crossref": {
+     "title": "Faith and Fate: Limits of Transformers on Compositionality",
+     "year": 2023,
+     "venue": "Advances in Neural Information Processing Systems 36",
+     "doi": "10.52202/075280-3081"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "huang": {
+   "id": "huang",
+   "kind": "paper",
+   "expected": {
+    "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+    "authors": [
+     "Huang"
+    ],
+    "year": 2024,
+    "venue": "ICLR"
+   },
+   "texts": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2310.01798v2)",
+    "texto completo (arXiv 2310.01798v2)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+     "year": 2023,
+     "venue": "arXiv (Cornell University)",
+     "doi": "10.48550/arxiv.2310.01798"
+    },
+    "dblp": null,
+    "arxiv": {
+     "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+     "year": 2023,
+     "id": "2310.01798v2"
+    },
+    "crossref": {
+     "title": "When Correct Isn't Enough: Deconstructing Legal Causal Reasoning Capability in Large Language Models",
+     "year": 2025,
+     "venue": "",
+     "doi": "10.2139/ssrn.5774579"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": false
+  },
+  "lightman": {
+   "id": "lightman",
+   "kind": "paper",
+   "expected": {
+    "title": "Let's Verify Step by Step",
+    "authors": [
+     "Lightman"
+    ],
+    "year": 2024,
+    "venue": "ICLR"
+   },
+   "texts": [
+    "resumo (OpenAlex)",
+    "página da editora (doi 10.48550/arxiv.2305.20050)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "Let's Verify Step by Step",
+     "year": 2023,
+     "venue": "arXiv (Cornell University)",
+     "doi": "10.48550/arxiv.2305.20050"
+    },
+    "dblp": null,
+    "arxiv": null,
+    "crossref": {
+     "title": "How Do I Verify KYC in Kraken? Step by Step 2026",
+     "year": 2026,
+     "venue": "",
+     "doi": "10.55277/researchhub.omx6q5yq"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": false
+  },
+  "stechly": {
+   "id": "stechly",
+   "kind": "paper",
+   "expected": {
+    "title": "On the Self-Verification Limitations of Large Language Models on Reasoning and Planning Tasks",
+    "authors": [
+     "Stechly",
+     "Valmeekam",
+     "Kambhampati"
+    ],
+    "year": 2025,
+    "venue": "ICLR"
+   },
+   "texts": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2402.08115v2)",
+    "texto completo (arXiv 2402.08115v2)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "On the Self-Verification Limitations of Large Language Models on Reasoning and Planning Tasks",
+     "year": 2024,
+     "venue": "arXiv (Cornell University)",
+     "doi": "10.48550/arxiv.2402.08115"
+    },
+    "dblp": null,
+    "arxiv": {
+     "title": "On the Self-Verification Limitations of Large Language Models on Reasoning and Planning Tasks",
+     "year": 2024,
+     "id": "2402.08115v2"
+    },
+    "crossref": {
+     "title": "Self-verification of large language models for math word problems",
+     "year": null,
+     "venue": "",
+     "doi": "10.14711/thesis-991013246559203412"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": false
+  },
+  "panickssery": {
+   "id": "panickssery",
+   "kind": "paper",
+   "expected": {
+    "title": "LLM Evaluators Recognize and Favor Their Own Generations",
+    "authors": [
+     "Panickssery",
+     "Bowman",
+     "Feng"
+    ],
+    "year": 2024,
+    "venue": "NeurIPS"
+   },
+   "texts": [
+    "resumo (arXiv 2404.13076v1)",
+    "texto completo (arXiv 2404.13076v1)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "LLM Evaluators Recognize and Favor Their Own Generations",
+     "year": 2024,
+     "venue": "neural information processing systems",
+     "doi": "10.52202/079017-2197"
+    },
+    "dblp": null,
+    "arxiv": {
+     "title": "LLM Evaluators Recognize and Favor Their Own Generations",
+     "year": 2024,
+     "id": "2404.13076v1"
+    },
+    "crossref": {
+     "title": "LLM Evaluators Recognize and Favor Their Own Generations",
+     "year": 2024,
+     "venue": "Advances in Neural Information Processing Systems 37",
+     "doi": "10.52202/079017-2197"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "cnpq": {
+   "id": "cnpq",
+   "kind": "web",
+   "expected": {
+    "title": "Portaria CNPq nº 2.664, de 6 de março de 2026",
+    "authors": [
+     "CNPq"
+    ],
+    "year": 2026,
+    "venue": "Diário Oficial da União"
+   },
+   "texts": [
+    "web: https://ppgartes.unespar.edu.br/nova-portaria-do-cnpq-define-limites-para-o-uso-de-inteligencia-artificial-na-pesquisa-academica",
+    "web: https://www4.ifsc.usp.br/biblioteca/cnpq-institui-politica-de-integridade-na-atividade-cientifica-portaria-cnpq-no-2-664-de-6-de-marco-de-2026/",
+    "web: https://portalpadrao.ufma.br/ageufma/noticias/noticias-gerais/cnpq-institui-nova-politica-de-integridade-na-atividade-cientifica-com-diretrizes-para-uso-de-inteligencia-artificial"
+   ],
+   "found": {
+    "web": [
+     "https://ppgartes.unespar.edu.br/nova-portaria-do-cnpq-define-limites-para-o-uso-de-inteligencia-artificial-na-pesquisa-academica",
+     "https://www4.ifsc.usp.br/biblioteca/cnpq-institui-politica-de-integridade-na-atividade-cientifica-portaria-cnpq-no-2-664-de-6-de-marco-de-2026/",
+     "https://portalpadrao.ufma.br/ageufma/noticias/noticias-gerais/cnpq-institui-nova-politica-de-integridade-na-atividade-cientifica-com-diretrizes-para-uso-de-inteligencia-artificial"
+    ],
+    "search": "- Nova portaria do CNPq define limites para o uso de inteligência artificial — Programa de Pós-Graduação em Artes PPGARTES | https://ppgartes.unespar.edu.br/nova-portaria-do-cnpq-define-limites-para-o-uso-de-inteligencia-artificial-na-pesquisa-academica | O Conselho Nacional de Desenvolvimento ... de Integridade na Atividade Científica e <strong>estabelece, pela primeira vez no Brasil, diretrizes nacionais sobre o uso de inteligência artificial generativa (IAG) em pesquisas acadêmicas</strong>....\n- CNPq institui Política de Integridade na Atividade Científica – PORTARIA CNPq Nº 2.664, DE 6 DE MARÇO DE 2026 | https://www4.ifsc.usp.br/biblioteca/cnpq-institui-politica-de-integridade-na-atividade-cientifica-portaria-cnpq-no-2-664-de-6-de-marco-de-2026/ | Também é vedada a submissão ... ou imprecisões geradas pela ferramenta utilizada. <strong>O uso da inteligência artificial na elaboração de pareceres científicos não é recomendado pela política publicada</strong>....\n- Portaria CNPq nº 2.664 | https://www.in.gov.br/en/web/dou | Portal da Imprensa Nacional do Brasil. Diário Oficial da União.\n- PORTARIA CNPq Nº 2.664, DE 6 DE MARÇO DE 2026 | http://memoria2.cnpq.br/web/guest/view/-/journal_content/56_INSTANCE_0oED/10157/23142775 | <strong>Institui a Política de Integridade na Atividade Científica do CNPq</strong>. O Presidente do CONSELHO NACIONAL DE DESENVOLVIMENTO CIENTÍFICO ETECNOLÓGICO - CNPq, no uso das atribuições que lhe são conferidas pelo Estatuto aprovado pelo Decreto n"
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": null
+  },
+  "parasuraman": {
+   "id": "parasuraman",
+   "kind": "paper",
+   "expected": {
+    "title": "Complacency and Bias in Human Use of Automation: An Attentional Integration",
+    "authors": [
+     "Parasuraman",
+     "Manzey"
+    ],
+    "year": 2010,
+    "venue": "Human Factors"
+   },
+   "texts": [
+    "resumo (Crossref 10.1177/0018720810376055)",
+    "resumo (OpenAlex)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "Complacency and Bias in Human Use of Automation: An Attentional Integration",
+     "year": 2010,
+     "venue": "Human Factors The Journal of the Human Factors and Ergonomics Society",
+     "doi": "10.1177/0018720810376055"
+    },
+    "dblp": null,
+    "arxiv": null,
+    "crossref": {
+     "title": "Complacency and Bias in Human Use of Automation: An Attentional Integration",
+     "year": 2010,
+     "venue": "Human Factors: The Journal of the Human Factors and Ergonomics Society",
+     "doi": "10.1177/0018720810376055"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "verga": {
+   "id": "verga",
+   "kind": "paper",
+   "expected": {
+    "title": "Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models",
+    "authors": [
+     "Verga"
+    ],
+    "year": 2024,
+    "venue": "arXiv"
+   },
+   "texts": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2404.18796v2)",
+    "texto completo (arXiv 2404.18796v2)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models",
+     "year": 2024,
+     "venue": "arXiv (Cornell University)",
+     "doi": "10.48550/arxiv.2404.18796"
+    },
+    "dblp": null,
+    "arxiv": {
+     "title": "Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models",
+     "year": 2024,
+     "id": "2404.18796v2"
+    },
+    "crossref": {
+     "title": "On Evaluating LLM Alignment by Evaluating LLMs as Judges",
+     "year": 2025,
+     "venue": "Advances in Neural Information Processing Systems 38",
+     "doi": "10.52202/085713-5051"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "fact_score": {
+   "id": "fact_score",
+   "kind": "paper",
+   "expected": {
+    "title": "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation",
+    "authors": [
+     "Min"
+    ],
+    "year": 2023,
+    "venue": "EMNLP"
+   },
+   "texts": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2305.14251v2)",
+    "texto completo (arXiv 2305.14251v2)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation",
+     "year": 2023,
+     "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+     "doi": "10.18653/v1/2023.emnlp-main.741"
+    },
+    "dblp": null,
+    "arxiv": {
+     "title": "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation",
+     "year": 2023,
+     "id": "2305.14251v2"
+    },
+    "crossref": {
+     "title": "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation",
+     "year": 2023,
+     "venue": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+     "doi": "10.18653/v1/2023.emnlp-main.741"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "nosek": {
+   "id": "nosek",
+   "kind": "paper",
+   "expected": {
+    "title": "The preregistration revolution",
+    "authors": [
+     "Nosek"
+    ],
+    "year": 2018,
+    "venue": "Proceedings of the National Academy of Sciences"
+   },
+   "texts": [
+    "resumo (Crossref 10.31219/osf.io/2dxu5)",
+    "resumo (OpenAlex)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "The preregistration revolution",
+     "year": 2018,
+     "venue": "Proceedings of the National Academy of Sciences",
+     "doi": "10.1073/pnas.1708274114"
+    },
+    "dblp": null,
+    "arxiv": null,
+    "crossref": {
+     "title": "The Preregistration Revolution",
+     "year": 2017,
+     "venue": "",
+     "doi": "10.31219/osf.io/2dxu5"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "holm": {
+   "id": "holm",
+   "kind": "paper",
+   "expected": {
+    "title": "A Simple Sequentially Rejective Multiple Test Procedure",
+    "authors": [
+     "Holm"
+    ],
+    "year": 1979,
+    "venue": "Scandinavian Journal of Statistics"
+   },
+   "texts": [
+    "resumo (OpenAlex)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "A Simple Sequentially Rejective Multiple Test Procedure",
+     "year": 1979,
+     "venue": "Scandinavian Journal of Statistics",
+     "doi": "10.2307/4615733"
+    },
+    "dblp": null,
+    "arxiv": null,
+    "crossref": {
+     "title": "Sequentially Rejective Bonferroni Test",
+     "year": 2013,
+     "venue": "Encyclopedia of Systems Biology",
+     "doi": "10.1007/978-1-4419-9863-7_101337"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "cameron_miller": {
+   "id": "cameron_miller",
+   "kind": "paper",
+   "expected": {
+    "title": "A Practitioner's Guide to Cluster-Robust Inference",
+    "authors": [
+     "Cameron",
+     "Miller"
+    ],
+    "year": 2015,
+    "venue": "Journal of Human Resources"
+   },
+   "texts": [
+    "página da editora (doi 10.3368/jhr.50.2.317)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "Cluster-robust inference: A guide to empirical practice",
+     "year": 2022,
+     "venue": "Journal of Econometrics",
+     "doi": "10.1016/j.jeconom.2022.04.001"
+    },
+    "dblp": null,
+    "arxiv": null,
+    "crossref": {
+     "title": "A Practitioner’s Guide to Cluster-Robust Inference",
+     "year": 2015,
+     "venue": "Journal of Human Resources",
+     "doi": "10.3368/jhr.50.2.317"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "zheng": {
+   "id": "zheng",
+   "kind": "paper",
+   "expected": {
+    "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+    "authors": [
+     "Zheng"
+    ],
+    "year": 2023,
+    "venue": "NeurIPS"
+   },
+   "texts": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2306.05685v4)",
+    "texto completo (arXiv 2306.05685v4)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+     "year": 2023,
+     "venue": "neural information processing systems",
+     "doi": "10.52202/075280-2020"
+    },
+    "dblp": null,
+    "arxiv": {
+     "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+     "year": 2023,
+     "id": "2306.05685v4"
+    },
+    "crossref": {
+     "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+     "year": 2023,
+     "venue": "Advances in Neural Information Processing Systems 36",
+     "doi": "10.52202/075280-2020"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "wu_hitl": {
+   "id": "wu_hitl",
+   "kind": "paper",
+   "expected": {
+    "title": "A survey of human-in-the-loop for machine learning",
+    "authors": [
+     "Wu"
+    ],
+    "year": 2022,
+    "venue": "Future Generation Computer Systems"
+   },
+   "texts": [
+    "resumo (arXiv 2108.00941v3)",
+    "texto completo (arXiv 2108.00941v3)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "A survey of human-in-the-loop for machine learning",
+     "year": 2022,
+     "venue": "Future Generation Computer Systems",
+     "doi": "10.1016/j.future.2022.05.014"
+    },
+    "dblp": null,
+    "arxiv": {
+     "title": "A Survey of Human-in-the-loop for Machine Learning",
+     "year": 2021,
+     "id": "2108.00941v3"
+    },
+    "crossref": {
+     "title": "Human-in-the-Loop Machine Learning Systems",
+     "year": 2025,
+     "venue": "Iconic Research and Engineering Journals",
+     "doi": "10.64388/irev9i5-1711956"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "jergas": {
+   "id": "jergas",
+   "kind": "paper",
+   "expected": {
+    "title": "Quotation accuracy in medical journal articles-a systematic review and meta-analysis",
+    "authors": [
+     "Jergas",
+     "Baethge"
+    ],
+    "year": 2015,
+    "venue": "PeerJ"
+   },
+   "texts": [
+    "resumo (Crossref 10.7717/peerj.1364)",
+    "resumo (OpenAlex)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "Quotation accuracy in medical journal articles —a systematic review and meta-analysis",
+     "year": 2015,
+     "venue": "PeerJ",
+     "doi": "10.7717/peerj.1364"
+    },
+    "dblp": null,
+    "arxiv": null,
+    "crossref": {
+     "title": "Quotation accuracy in medical journal articles —a systematic review and meta-analysis",
+     "year": 2015,
+     "venue": "PeerJ",
+     "doi": "10.7717/peerj.1364"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "messeri": {
+   "id": "messeri",
+   "kind": "paper",
+   "expected": {
+    "title": "Artificial intelligence and illusions of understanding in scientific research",
+    "authors": [
+     "Messeri",
+     "Crockett"
+    ],
+    "year": 2024,
+    "venue": "Nature"
+   },
+   "texts": [
+    "página da editora (doi 10.1038/s41586-024-07146-0)"
+   ],
+   "found": {
+    "openalex": {
+     "title": "Artificial intelligence and illusions of understanding in scientific research",
+     "year": 2024,
+     "venue": "Nature",
+     "doi": "10.1038/s41586-024-07146-0"
+    },
+    "dblp": null,
+    "arxiv": null,
+    "crossref": {
+     "title": "Artificial intelligence and illusions of understanding in scientific research",
+     "year": 2024,
+     "venue": "Nature",
+     "doi": "10.1038/s41586-024-07146-0"
+    }
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": true
+  },
+  "nature_2023": {
+   "id": "nature_2023",
+   "kind": "web",
+   "expected": {
+    "title": "Tools such as ChatGPT threaten transparent science; here are our ground rules for their use",
+    "authors": [
+     "Nature"
+    ],
+    "year": 2023,
+    "venue": "Nature"
+   },
+   "texts": [
+    "web: https://www.nature.com/articles/d41586-023-00191-1",
+    "web: https://x.com/Nature/status/1617942047293411329"
+   ],
+   "found": {
+    "web": [
+     "https://www.nature.com/articles/d41586-023-00191-1",
+     "https://x.com/Nature/status/1617942047293411329"
+    ],
+    "search": "- Tools such as ChatGPT threaten transparent science; here are our ground rules for their use | https://www.nature.com/articles/d41586-023-00191-1 | Tools such as ChatGPT threaten ... the brave new world of advanced AI chatbots, <strong>publishers need to acknowledge their legitimate uses and lay down clear guidelines to avoid abuse</strong>....\n- [PDF] Tools such as ChatGPT threaten transparent science; here are our ground rules for their use | Semantic Scholar | https://www.semanticscholar.org/paper/Tools-such-as-ChatGPT-threaten-transparent-science;/0d25a53184a9c56084416b292de9a8fef4b27347 | @article{2023ToolsSA, title={Tools such as ChatGPT threaten transparent science; here are our ground rules for their use}, author={}, journal={Nature}, year={2023}, volume={613}, pages={612}, url={https://api.semanticscholar.org/CorpusID:256229858} }\n- nature on X: \"Editorial: Tools such as ChatGPT threaten transparent science; here are our ground rules for their use https://t.co/jqkeuddflJ\" / X | https://x.com/Nature/status/1617942047293411329 | Editorial: Tools such as ChatGPT threaten transparent science; <strong>here are our ground rules for their use</strong> https://t.co/jqkeuddflJ\n- Tools such as ChatGPT threaten transparent science; here are our ground rules for their use - PubMed | https://pubmed.ncbi.nlm.nih.gov/36694020/ | Add to Search . 2023 Jan;613(7945):612. doi: 10.1038/d41586-023-00191-1. ... No authors listed. Nature.\n- Could ChatGPT help you to write your next scient"
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": null
+  },
+  "unesco": {
+   "id": "unesco",
+   "kind": "web",
+   "expected": {
+    "title": "Recommendation on the Ethics of Artificial Intelligence",
+    "authors": [
+     "UNESCO"
+    ],
+    "year": 2021,
+    "venue": "UNESCO"
+   },
+   "texts": [
+    "web: https://dig.watch/resource/unesco-recommendation-on-the-ethics-of-artificial-intelligence",
+    "web: https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
+    "web: https://www.geoethics.org/_files/ugd/5195a5_56fc787932864ee199e73208ee6784ec.pdf?index=true"
+   ],
+   "found": {
+    "web": [
+     "https://dig.watch/resource/unesco-recommendation-on-the-ethics-of-artificial-intelligence",
+     "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
+     "https://www.geoethics.org/_files/ugd/5195a5_56fc787932864ee199e73208ee6784ec.pdf?index=true"
+    ],
+    "search": "- Recommendation on the Ethics of Artificial Intelligence | UNESCO | https://en.unesco.org/about-us/legal-affairs/recommendation-ethics-artificial-intelligence | It may be the case that sometimes ... to AI systems in decision-making and acting, but <strong>an AI system can never replace ultimate human responsibility and accountability</strong>....\n- UNESCO Recommendation on the ethics of artificial intelligence | Digital Watch Observatory | https://dig.watch/resource/unesco-recommendation-on-the-ethics-of-artificial-intelligence | It may be the case that sometimes ... humans, as humans can resort to AI systems in decision-making and acting, but <strong>an AI system can never replace ultimate human responsibility and accountability</strong>....\n- Recommendation on the Ethics of Artificial Intelligence - Legal Affairs | https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence | It may be the case that sometimes ... humans, as humans can resort to AI systems in decision-making and acting, but <strong>an AI system can never replace ultimate human responsibility and accountability</strong>....\n- Recommendation on - the Ethics of Artificial Intelligence | https://www.geoethics.org/_files/ugd/5195a5_56fc787932864ee199e73208ee6784ec.pdf?index=true | decision-making and acting, but <strong>an AI system can never · replace ultimate human responsibility and accountability</strong>. As a rule, life and death decisions should not be ceded to · AI systems. Tran"
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": null
+  },
+  "anthropic_pricing": {
+   "id": "anthropic_pricing",
+   "kind": "web",
+   "expected": {
+    "title": "Pricing",
+    "authors": [
+     "Anthropic"
+    ],
+    "year": 2026,
+    "venue": "Claude Developer Platform"
+   },
+   "texts": [
+    "web: https://platform.claude.com/docs/en/about-claude/pricing",
+    "web: https://benchlm.ai/anthropic/api-pricing",
+    "web: https://www.sentra.app/articles/claude-api-pricing",
+    "web: https://emergent.sh/learn/claude-sonnet-5-5-pricing"
+   ],
+   "found": {
+    "web": [
+     "https://platform.claude.com/docs/en/about-claude/pricing",
+     "https://benchlm.ai/anthropic/api-pricing",
+     "https://www.sentra.app/articles/claude-api-pricing",
+     "https://emergent.sh/learn/claude-sonnet-5-5-pricing"
+    ],
+    "search": "- Pricing - Claude Platform Docs | https://platform.claude.com/docs/en/about-claude/pricing | On Claude Opus 5.5 and Claude Sonnet 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens on Claude Opus 5.5, <strong>$0.10 USD</strong> on Claude Sonnet 5.5). These multipliers stack with other pricing modifiers, including the ...\n- Claude API Pricing (October 2026): $1–$50 per 1M Tokens | BenchLM.ai | https://benchlm.ai/anthropic/api-pricing | Current Claude API pricing is $4/$20 per million input/output tokens for Claude Opus 5.5, $5/$25 for Claude Opus 5, <strong>$2/$10</strong> for Sonnet 5.5 and Sonnet 5, $1/$5 for Haiku 4.5, and $10/$50 for Fable 5.1. Fable 5.1 cache reads cost $0.25/M and Opus ...\n- Claude API Pricing (Oct 2026): Haiku $1, Sonnet $2, Opus $4 · Sentra | https://www.sentra.app/articles/claude-api-pricing | TL;DRAs of October 2026, the Claude API costs $4 per million input tokens and $20 per million output tokens on Claude Opus 5.5, <strong>$2 and $10</strong> on Claude Sonnet 5.5, $1 and $5 on Claude Haiku 4.5, and $10 and $50 on Claude Fable 5.1, according to ...\n- Claude Sonnet 5.5 Pricing: API Rates, Plans, and What a Task Really Costs | https://emergent.sh/learn/claude-sonnet-5-5-pricing | Claude Sonnet 5.5 pricing explained: <strong>$2 input and $10 output per 1M tokens</strong>, 50% batch savings, caching math, plan prices, and what 4 everyday tasks cost.\n- Claude Sonnet 5.5 Developer Guide: Pricing and API Changes | https:/"
+   },
+   "exists": true,
+   "author_ok": true,
+   "year_ok": true,
+   "venue_ok": null
+  }
+ },
+ "claims": [
+  {
+   "id": "c01",
+   "page": 6,
+   "refs": [
+    "anthropic_agents"
+   ],
+   "claim": "Um agente recebe uma tarefa, planeja e opera de forma independente, decide os próprios passos e usa ferramentas até concluir.",
+   "needles": [
+    "dynamically direct their own processes and tool usage",
+    "plan and operate independently"
+   ],
+   "needles_found": {
+    "dynamically direct their own processes and tool usage": "web: https://simonwillison.net/2024/Dec/20/building-effective-agents/",
+    "plan and operate independently": "web: https://simonwillison.net/2024/Dec/20/building-effective-agents/"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "Agents begin their work with either a command from, or interactive discussion with, the human user. Once the task is clear, agents plan and operate independently, potentially returning to the human for further information or judgement. During execution, it's crucial for the agents to gain “ground truth” from the environment at each step (such as tool call results or code execution) to assess its progress. Agents can then pause for human feedback at checkpoints or when encountering blockers. The task often terminates upon completion, but it’s also common to include stopping conditions (such as a maximum number of iterations) to maintain control.",
+     "reason": "O slide afirma que o agente opera de forma independente e decide os próprios passos até concluir, mas o trecho da fonte indica que o agente pode retornar ao humano para mais informações ou julgamento, pausar para feedback e que a tarefa frequentemente termina ao ser concluída, mas também é comum incluir condições de parada. Portanto, o slide omite a interação humana e as condições de parada, exagerando a autonomia e a conclusão garantida.",
+     "verdict": "sustenta_em_parte"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "Agents begin their work with either a command from, or interactive discussion with, the human user. Once the task is clear, agents plan and operate independently [...] where the LLMs 'dynamically direct their own processes and tool usage' [...] The task often terminates upon completion",
+     "verdict": "sustenta",
+     "reason": "O slide parafraseia com precisão a definição de agentes apresentada no texto, cobrindo o recebimento da tarefa (comando ou discussão), o planejamento e operação independente, a direção dinâmica dos próprios processos e uso de ferramentas, e a conclusão da tarefa."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "Agents begin their work with either a command from, or interactive discussion with, the human user. Once the task is clear, agents plan and operate independently... agents 'dynamically direct their own processes and tool usage'... The task often terminates upon completion",
+     "verdict": "sustenta",
+     "reason": "A fonte descreve os agentes como entidades que recebem comandos ou discutem com humanos, planejam e operam de forma independente, direcionam dinamicamente seus processos e uso de ferramentas, e encerram a tarefa após a conclusão, o que valida integralmente a afirmação do slide."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "web: https://simonwillison.net/2024/Dec/20/building-effective-agents/",
+    "web: https://eapad.dk/resource/building-effective-agents/",
+    "web: https://blog.naitive.cloud/building-effective-agents/"
+   ]
+  },
+  {
+   "id": "c02",
+   "page": 7,
+   "refs": [
+    "anthropic_agents"
+   ],
+   "claim": "Citação traduzida: \"O modelo de linguagem dirige dinamicamente o próprio processo e o uso de ferramentas.\"",
+   "needles": [
+    "dynamically direct their own processes and tool usage"
+   ],
+   "needles_found": {
+    "dynamically direct their own processes and tool usage": "web: https://simonwillison.net/2024/Dec/20/building-effective-agents/"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "They discuss 'agentic systems' as a parent term, then define a distinction between 'workflows' - systems where multiple LLMs are orchestrated together using pre-defined patterns - and 'agents', where the LLMs 'dynamically direct their own processes and tool usage'.",
+     "reason": "O slide cita literalmente a definição de agentes fornecida pela fonte, com tradução fiel. A fonte afirma exatamente que os LLMs 'dynamically direct their own processes and tool usage', o que corresponde à citação traduzida.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "...and \"agents\", where the LLMs \"dynamically direct their own processes and tool usage\".",
+     "verdict": "sustenta",
+     "reason": "O trecho da fonte contém exatamente a afirmação entre aspas (\"dynamically direct their own processes and tool usage\"), referindo-se aos agentes onde os LLMs (modelos de linguagem) atuam. A tradução apresentada no slide é fiel ao original em inglês."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "define a distinction between 'workflows' - systems where multiple LLMs are orchestrated together using pre-defined patterns - and 'agents', where the LLMs 'dynamically direct their own processes and tool usage'.",
+     "verdict": "sustenta",
+     "reason": "O trecho da fonte define explicitamente 'agents' como sistemas onde os LLMs 'dynamically direct their own processes and tool usage', o que corresponde exatamente à afirmação do slide."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "web: https://simonwillison.net/2024/Dec/20/building-effective-agents/",
+    "web: https://eapad.dk/resource/building-effective-agents/",
+    "web: https://blog.naitive.cloud/building-effective-agents/"
+   ]
+  },
+  {
+   "id": "c03",
+   "page": 7,
+   "refs": [
+    "russell_norvig"
+   ],
+   "claim": "Definição clássica de agente: tudo o que pode ser visto como percebendo o seu ambiente por sensores e agindo sobre ele por atuadores (Russell e Norvig, 4. ed., 2021).",
+   "needles": [
+    "perceiving its environment through sensors and acting upon that environment through actuators"
+   ],
+   "extra": [
+    "Russell Norvig \"Artificial Intelligence: A Modern Approach\" 4th edition 2021 \"anything that can be viewed as perceiving its environment through sensors\""
+   ],
+   "needles_found": {
+    "perceiving its environment through sensors and acting upon that environment through actuators": "web: https://swoft.ai/en/articles/qu-est-ce-qu-un-agent-ia-definition-academique-russell-wooldridge-ferber/"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "\"The book is organized around a single definition of agent: 'An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators.'\"",
+     "reason": "Os trechos fornecidos reproduzem exatamente a definição em inglês que o slide traduz fielmente para o português. Atribuem-na explicitamente a Russell & Norvig, AIMA, obra que segue em sua 4ª edição (2021) sem alteração nessa definição clássica.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators.",
+     "verdict": "sustenta_em_parte",
+     "reason": "A definição apresentada no slide ('tudo o que pode ser visto como percebendo o seu ambiente por sensores e agindo sobre ele por atuadores') é uma tradução fiel e é integralmente sustentada pelos trechos, que a atribuem a Russell e Norvig. Contudo, os trechos fornecidos referem-se exclusivamente à primeira edição da obra, publicada em 1995 ('AIMA, 1995', 'Artificial Intelligence: A Modern Approach (1995)'). Como não há menção à 4. edição de 2021 nos trechos, a citação da edição específica no slide vai além do que é estritamente comprovado pelo texto fornecido, caracterizando 'sustenta_em_parte'."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "An agent is anything that can be viewed as perceiving its environment through sensors and acting upon that environment through actuators.",
+     "verdict": "sustenta",
+     "reason": "A definição apresentada no slide é uma tradução fiel da definição de agente encontrada na obra de Russell e Norvig, conforme confirmado pelos trechos fornecidos. A autoria e a natureza da definição estão corretamente representadas."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "web: https://swoft.ai/en/articles/qu-est-ce-qu-un-agent-ia-definition-academique-russell-wooldridge-ferber/",
+    "web: https://huyenchip.com/2025/01/07/agents.html",
+    "web: https://arxiv.org/html/2503.12687v1",
+    "web: https://mattrickard.com/norvigs-agent-definition"
+   ]
+  },
+  {
+   "id": "c04",
+   "page": 9,
+   "refs": [
+    "react"
+   ],
+   "claim": "O ciclo do agente alterna raciocínio (pensar), ação (usar uma ferramenta, como busca) e observação do resultado, e repete.",
+   "needles": [
+    "interleaved",
+    "reasoning traces",
+    "actions"
+   ],
+   "needles_found": {
+    "interleaved": "resumo (arXiv 2210.03629v3)",
+    "reasoning traces": "resumo (arXiv 2210.03629v3)",
+    "actions": "resumo (arXiv 2210.03629v3)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner... while actions allow it to interface with external sources, such as knowledge bases or environments, to gather additional information.",
+     "reason": "O trecho afirma que o modelo gera raciocínio e ações de forma intercalada, e que as ações permitem obter informações adicionais de fontes externas. Isso corresponde a alternar raciocínio, ação e observação do resultado. A repetição está implícita no caráter intercalado e na atualização de planos de ação mencionada no resumo.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "In this paper, we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action plans as well as handle exceptions, while actions allow it to interface with external sources, such as knowledge bases or environments, to gather additional information.",
+     "verdict": "sustenta",
+     "reason": "O texto afirma que o modelo gera 'reasoning traces' (raciocínio) e 'task-specific actions' (ação) de maneira intercalada ('interleaved manner', o que implica o ciclo que se repete), e que as ações permitem interagir com fontes externas (como a API do Wikipedia, citada adiante) para 'gather additional information' (observação do resultado). Isso sustenta a afirmação do slide sobre o ciclo de raciocínio, ação e observação."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "In this paper, we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action plans as well as handle exceptions, while actions allow it to interface with external sources, such as knowledge bases or environments, to gather additional information.",
+     "verdict": "sustenta",
+     "reason": "O texto descreve o método ReAct como a geração de 'reasoning traces' (raciocínio) e 'task-specific actions' (ações) de forma 'interleaved' (intercalada). A menção de que as ações permitem interagir com fontes externas para 'gather additional information' (obter informações adicionais) sustenta a ideia de observação do resultado, e a natureza do método (intercalado para resolver tarefas) implica a repetição do ciclo."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (arXiv 2210.03629v3)",
+    "texto completo (arXiv 2210.03629v3)"
+   ]
+  },
+  {
+   "id": "c05",
+   "page": 8,
+   "refs": [
+    "wang_survey"
+   ],
+   "claim": "Agentes baseados em LLM têm quatro módulos: perfil, memória, planejamento e ação.",
+   "needles": [
+    "profiling module",
+    "memory module",
+    "planning module",
+    "action module"
+   ],
+   "needles_found": {
+    "profiling module": "texto completo (arXiv 2308.11432v7)",
+    "memory module": "texto completo (arXiv 2308.11432v7)",
+    "planning module": "texto completo (arXiv 2308.11432v7)",
+    "action module": "texto completo (arXiv 2308.11432v7)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "structure of our framework is illustrated in Figure 2, which is composed of a profiling module, a memory module, a planning module, and an action module.",
+     "reason": "O trecho da fonte declara explicitamente que o framework unificado é composto por um módulo de perfil (profiling), memória (memory), planejamento (planning) e ação (action), correspondendo exatamente aos quatro módulos mencionados no slide.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "...structure of our framework is illustrated in Figure 2, which is composed of a profiling module, a memory module, a planning module, and an action module.",
+     "verdict": "sustenta",
+     "reason": "O texto afirma explicitamente que a estrutura do framework é composta por um módulo de perfil (profiling module), um módulo de memória (memory module), um módulo de planejamento (planning module) e um módulo de ação (action module), o que corresponde exatamente à afirmação do slide."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "structure of our framework is illustrated in Figure 2, which is composed of a profiling module, a memory module, a planning module, and an action module.",
+     "verdict": "sustenta",
+     "reason": "O texto afirma explicitamente que o framework proposto para agentes baseados em LLM é composto por quatro módulos: profiling (perfil), memory (memória), planning (planejamento) e action (ação)."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2308.11432v7)",
+    "texto completo (arXiv 2308.11432v7)"
+   ]
+  },
+  {
+   "id": "c06",
+   "page": 10,
+   "refs": [
+    "google_dr"
+   ],
+   "claim": "Deep Research do Google (dez. 2024): pesquisa em várias etapas, navega pela web, lê as páginas e devolve um relatório com as fontes.",
+   "needles": [
+    "Deep Research",
+    "report"
+   ],
+   "needles_found": {
+    "Deep Research": "web: https://blog.google/products/gemini/google-gemini-deep-research/",
+    "report": "web: https://blog.google/products/gemini/google-gemini-deep-research/"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "After you enter your question, it creates a multi-step research plan for you to either revise or approve. Once you approve, it begins deeply analyzing relevant information from across the web on your behalf. Over the course of a few minutes, Gemini continuously refines its analysis, browsing the web the way you do: searching, finding interesting pieces of information and then starting a new search based on what it’s learned. It repeats this process multiple times and, once complete, generates a comprehensive report of the key findings, which you can export into a Google Doc. It’s neatly organized with links to the original sources, connecting you to relevant websites and businesses or organizations you might not have found otherwise so you can easily dive deeper to learn more.",
+     "reason": "O trecho menciona explicitamente: plano de pesquisa em várias etapas (multi-step research plan), navegação pela web (browsing the web), análise profunda das informações (lê as páginas) e geração de relatório com links para as fontes originais. Todos os elementos da afirmação do slide estão presentes.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "After you enter your question, it creates a multi-step research plan... it begins deeply analyzing relevant information from across the web... browsing the web the way you do... generates a comprehensive report of the key findings... neatly organized with links to the original sources",
+     "verdict": "sustenta",
+     "reason": "Os trechos confirmam que a ferramenta cria um \"plano de pesquisa em várias etapas\" (multi-step research plan), \"navega pela web\" (browsing the web) para \"analisar profundamente informações relevantes\" (deeply analyzing relevant information, o que equivale a ler as páginas) e gera um \"relatório abrangente\" organizado com \"links para as fontes originais\" (comprehensive report... neatly organized with links to the original sources)."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "After you enter your question, it creates a multi-step research plan for you to either revise or approve. Once you approve, it begins deeply analyzing relevant information from across the web on your behalf. Over the course of a few minutes, Gemini continuously refines its analysis, browsing the web the way you do: searching, finding interesting pieces of information and then starting a new search based on what it’s learned. It repeats this process multiple times and, once complete, generates a comprehensive report of the key findings... It’s neatly organized with links to the original sources",
+     "verdict": "sustenta",
+     "reason": "A fonte descreve exatamente o funcionamento do Deep Research: a criação de um plano de pesquisa de várias etapas, a navegação pela web para encontrar e analisar informações, e a geração de um relatório final que inclui links para as fontes originais."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "web: https://blog.google/products/gemini/google-gemini-deep-research/"
+   ]
+  },
+  {
+   "id": "c07",
+   "page": 10,
+   "refs": [
+    "openai_dr"
+   ],
+   "claim": "Deep research da OpenAI (fev. 2025): pesquisa em várias etapas na internet e devolve um relatório com as fontes.",
+   "needles": [
+    "multi-step research",
+    "deep research",
+    "February"
+   ],
+   "prefer": "openai.com",
+   "needles_found": {
+    "multi-step research": null,
+    "deep research": "web, busca dirigida: https://en.wikipedia.org/wiki/ChatGPT_Deep_Research",
+    "February": "web, busca dirigida: https://en.wikipedia.org/wiki/ChatGPT_Deep_Research"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "Deep Research is an AI agent integrated into ChatGPT, which generates cited reports on a user-specified topic by autonomously browsing the web for 5 to 30 minutes. [...] an internal 'agentic framework' which guide the LLM to use tools like web search and organize its actions in steps.",
+     "reason": "Os trechos afirmam que o Deep Research gera relatórios citados (com fontes) ao navegar autonomamente na web, e que seu framework organiza as ações em etapas (steps). Isso corresponde exatamente ao que o slide afirma: pesquisa em várias etapas na internet e devolve um relatório com as fontes. A data de lançamento (fevereiro de 2025) também é confirmada pela fonte.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "Deep Research is an AI agent integrated into ChatGPT, which generates cited reports on a user-specified topic by autonomously browsing the web for 5 to 30 minutes. [...] Deep Research was introduced in February 2025. [...] organize its operations in a series of steps.",
+     "verdict": "sustenta",
+     "reason": "Os trechos confirmam que o Deep Research foi introduzido em fevereiro de 2025, que ele navega na internet (\"browsing the web\") organizando suas operações em uma série de etapas (\"organize its operations in a series of steps\") e gera relatórios com citações/fontes (\"generates cited reports\")."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "Deep Research is an AI agent integrated into ChatGPT, which generates cited reports on a user-specified topic by autonomously browsing the web for 5 to 30 minutes. ... Deep Research was introduced in February 2025. ... DeepResearch is composed of an LLM ... and an internal 'agentic framework' which guide the LLM to use tools like web search and organize its actions in steps.",
+     "verdict": "sustenta",
+     "reason": "Os trechos confirmam que o Deep Research foi lançado pela OpenAI em fevereiro de 2025, que ele realiza pesquisas na internet de forma autônoma (organizando ações em etapas) e que gera relatórios com citações (fontes)."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "web, busca dirigida: https://en.wikipedia.org/wiki/ChatGPT_Deep_Research",
+    "web, busca dirigida: https://huggingface.co/blog/open-deep-research",
+    "web: https://en.wikipedia.org/wiki/ChatGPT_Deep_Research"
+   ]
+  },
+  {
+   "id": "c08",
+   "page": 10,
+   "refs": [
+    "storm"
+   ],
+   "claim": "STORM escreve artigos no formato da Wikipédia a partir de perguntas feitas de várias perspectivas.",
+   "needles": [
+    "perspective",
+    "Wikipedia"
+   ],
+   "needles_found": {
+    "perspective": "resumo (arXiv 2402.14207v2)",
+    "Wikipedia": "resumo (arXiv 2402.14207v2)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "We study how to apply large language models to write grounded and organized long-form articles from scratch, with comparable breadth and depth to Wikipedia pages. ... We propose STORM, a writing system for the Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking. STORM models the pre-writing stage by (1) discovering diverse perspectives in researching the given topic, (2) simulating conversations where writers carrying different perspectives pose questions to a topic expert grounded on trusted Internet sources, (3) curating the collected information to create an outline.",
+     "reason": "O trecho afirma que o STORM gera artigos longos comparáveis a páginas da Wikipédia e que seu processo de pré-escrita inclui simular conversas com perguntas feitas a partir de diferentes perspectivas. Isso corresponde exatamente ao que o slide afirma: escrever artigos no formato da Wikipédia a partir de perguntas de várias perspectivas.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "We study how to apply large language models to write grounded and organized long-form articles from scratch, with comparable breadth and depth to Wikipedia pages. [...] We propose STORM, a writing system for the Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking. STORM models the pre-writing stage by (1) discovering diverse perspectives in researching the given topic, (2) simulating conversations where writers carrying different perspectives pose questions to a topic expert grounded on trusted Internet sources",
+     "verdict": "sustenta",
+     "reason": "O texto afirma que o STORM escreve artigos longos com 'comparable breadth and depth to Wikipedia pages' (alinhado com 'artigos no formato da Wikipédia', também refletido no título da obra como 'Wikipedia-like Articles') e que o sistema é baseado em 'Multi-perspective Question Asking', simulando conversas onde 'writers carrying different perspectives pose questions'. Isso sustenta diretamente a afirmação do slide."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "We propose STORM, a writing system for the Synthesis of Topic Outlines through Retrieval and Multi-perspective Question Asking. STORM models the pre-writing stage by (1) discovering diverse perspectives in researching the given topic, (2) simulating conversations where writers carrying different perspectives pose questions to a topic expert grounded on trusted Internet sources, (3) curating the collected information to create an outline.",
+     "verdict": "sustenta",
+     "reason": "O texto descreve o STORM como um sistema que utiliza 'Multi-perspective Question Asking' (perguntas de múltiplas perspectivas) para pesquisar tópicos e criar artigos longos com profundidade e abrangência comparáveis às páginas da Wikipédia."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2402.14207v2)",
+    "texto completo (arXiv 2402.14207v2)"
+   ]
+  },
+  {
+   "id": "c09",
+   "page": 10,
+   "refs": [
+    "paperqa2"
+   ],
+   "claim": "PaperQA2 busca e lê artigos científicos e responde com citações; superou doutorandos e pós-doutores em duas de três tarefas, segundo os autores (preprint).",
+   "needles": [
+    "PhD",
+    "postdoc",
+    "superhuman"
+   ],
+   "needles_found": {
+    "PhD": "texto completo (arXiv 2409.13740v2)",
+    "postdoc": "texto completo (arXiv 2409.13740v2)",
+    "superhuman": "texto completo (arXiv 2409.13740v2)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "PaperQA2 ... exceeds the performance of PhD students and postdocs on the retrieval and summarization tasks.",
+     "reason": "O trecho da fonte afirma explicitamente que o PaperQA2 supera o desempenho de doutorandos e pós‑doutores em duas das três tarefas (recuperação e sumarização), exatamente como o slide indica. Além disso, a descrição de que o sistema escreve resumos citados corrobora a primeira parte da afirmação (busca, leitura e resposta com citações).",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "We show that PaperQA2, a frontier language model agent optimized for improved factuality, matches or exceeds subject matter expert performance on three realistic literature research tasks... PaperQA2 writes cited, Wikipedia-style summaries of scientific topics... exceeds the performance of PhD students and postdocs on the retrieval and summarization tasks.",
+     "verdict": "sustenta",
+     "reason": "O slide afirma que o sistema busca/lê artigos, responde com citações e supera doutorandos/pós-doutores em duas de três tarefas. Os trechos confirmam que o PaperQA2 realiza tarefas de busca e resumo com citações (\"writes cited, Wikipedia-style summaries\"), que foram avaliadas três tarefas (recuperação, sumarização e detecção de contradições) e que o sistema superou o desempenho de doutorandos e pós-doutores especificamente nas tarefas de recuperação e sumarização (\"exceeds the performance of PhD students and postdocs on the retrieval and summarization tasks\"), o que corresponde a duas das três citadas."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "PaperQA2 writes cited, Wikipedia-style summaries of scientific topics... we explored multiple designs leading to a system we call PaperQA2 (Figure 1A), which exceeds the performance of PhD students and postdocs on the retrieval and summarization tasks.",
+     "verdict": "sustenta",
+     "reason": "O texto confirma que o PaperQA2 realiza busca e resumo com citações, e afirma explicitamente que o sistema supera doutorandos e pós-doutores nas tarefas de recuperação (retrieval) e sumarização, que compõem duas das três tarefas avaliadas (sendo a terceira a detecção de contradições)."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2409.13740v2)",
+    "texto completo (arXiv 2409.13740v2)"
+   ]
+  },
+  {
+   "id": "c10",
+   "page": 11,
+   "refs": [
+    "kalai_2025"
+   ],
+   "claim": "Modelos aprenderam a chutar: os testes que avaliam os modelos premiam o acerto e não premiam a dúvida, então chutar rende mais pontos que dizer não sei.",
+   "needles": [
+    "guessing",
+    "uncertainty"
+   ],
+   "needles_found": {
+    "guessing": "resumo (arXiv 2509.04664v1)",
+    "uncertainty": "resumo (OpenAlex)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "We argue that language models hallucinate because the training and evaluation procedures reward guessing over acknowledging uncertainty, and we analyze the statistical causes of hallucinations in the modern training pipeline. ... We then argue that hallucinations persist due to the way most evaluations are graded -- language models are optimized to be good test-takers, and guessing when uncertain improves test performance.",
+     "reason": "O trecho afirma explicitamente que os procedimentos de treinamento e avaliação recompensam o chute em vez de admitir incerteza, e que chutar quando incerto melhora o desempenho nos testes. Isso corresponde integralmente à afirmação do slide, sem distorção ou exagero.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "We argue that language models hallucinate because the training and evaluation procedures reward guessing over acknowledging uncertainty... We then argue that hallucinations persist due to the way most evaluations are graded -- language models are optimized to be good test-takers, and guessing when uncertain improves test performance.",
+     "verdict": "sustenta",
+     "reason": "O slide afirma que os modelos aprendem a chutar porque os testes premiam o acerto e não a dúvida, fazendo com que chutar renda mais pontos do que dizer 'não sei'. O texto da fonte sustenta exatamente essa ideia ao afirmar que os procedimentos de treinamento e avaliação recompensam o 'chute' (guessing) em detrimento do reconhecimento da incerteza (acknowledging uncertainty), e que a forma como as avaliações são pontuadas faz com que chutar melhore o desempenho no teste (improves test performance), caracterizando uma 'epidemia' de penalização de respostas incertas."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "We then argue that hallucinations persist due to the way most evaluations are graded -- language models are optimized to be good test-takers, and guessing when uncertain improves test performance.",
+     "verdict": "sustenta",
+     "reason": "O texto afirma explicitamente que os modelos são otimizados para serem bons realizadores de testes e que o ato de 'chutar' (guessing) quando há incerteza melhora o desempenho nos testes, confirmando a premissa de que os métodos de avaliação recompensam o chute em vez de premiar o reconhecimento da dúvida."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (Crossref 10.20944/preprints202601.1447.v1)",
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2509.04664v1)",
+    "texto completo (arXiv 2509.04664v1)"
+   ]
+  },
+  {
+   "id": "c11",
+   "page": 11,
+   "refs": [
+    "sharma"
+   ],
+   "claim": "Bajulação: pessoas (e modelos de preferência) tendem a preferir respostas que concordam com elas, e isso ajuda a moldar o modelo a concordar.",
+   "needles": [
+    "sycophan",
+    "preference"
+   ],
+   "needles_found": {
+    "sycophan": "resumo (arXiv 2310.13548v4)",
+    "preference": "resumo (arXiv 2310.13548v4)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "We find that when a response matches a user's views, it is more likely to be preferred. Moreover, both humans and preference models (PMs) prefer convincingly-written sycophantic responses over correct ones a non-negligible fraction of the time. Optimizing model outputs against PMs also sometimes sacrifices truthfulness in favor of sycophancy.",
+     "verdict": "sustenta",
+     "reason": "O slide afirma que pessoas e modelos de preferência tendem a preferir respostas concordantes, e que isso molda o modelo a concordar. Os trechos mostram exatamente isso: respostas que batem com a visão do usuário são preferidas; humanos e PMs preferem respostas bajuladoras; e otimizar contra PMs sacrifica veracidade em favor da bajulação. A tradução 'bajulação' é fiel ao termo 'sycophancy'."
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "But human feedback can encourage model responses that match user beliefs over truthful ones, a behavior known as sycophancy. [...] We find that when a response matches a user's views, it is more likely to be preferred. Moreover, both humans and preference models (PMs) prefer convincingly-written sycophantic responses over correct ones a non-negligible fraction of the time. Optimizing model outputs against PMs also sometimes sacrifices truthfulness in favor of sycophancy. Overall, our results indicate that sycophancy is a general behavior of state-of-the-art AI assistants, likely driven in part by human preference judgments favoring sycophantic responses.",
+     "verdict": "sustenta",
+     "reason": "O texto afirma explicitamente que o feedback humano pode encorajar respostas do modelo que correspondem às crenças do usuário (bajulação). Além disso, os trechos indicam que tanto humanos quanto modelos de preferência (PMs) tendem a preferir respostas bajuladoras que concordam com as visões do usuário, e que a otimização contra esses modelos de preferência impulsiona o comportamento de bajulação no modelo, o que sustenta integralmente a afirmação do slide."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "We find that when a response matches a user's views, it is more likely to be preferred. Moreover, both humans and preference models (PMs) prefer convincingly-written sycophantic responses over correct ones a non-negligible fraction of the time. [...] Human feedback is commonly utilized to finetune AI assistants. But human feedback may also encourage model responses that match user beliefs over truthful ones, a behaviour known as sycophancy.",
+     "verdict": "sustenta",
+     "reason": "O texto confirma explicitamente que tanto humanos quanto modelos de preferência tendem a preferir respostas que concordam com as visões do usuário (bajulação) e que o uso desse feedback no ajuste fino (finetuning) incentiva o modelo a adotar esse comportamento."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (arXiv 2310.13548v4)",
+    "texto completo (arXiv 2310.13548v4)"
+   ]
+  },
+  {
+   "id": "c12",
+   "page": 12,
+   "refs": [
+    "walters"
+   ],
+   "claim": "55% das referências do ChatGPT-3.5 eram inventadas; 18% no ChatGPT-4, no mesmo teste; 636 referências somando os dois modelos.",
+   "needles": [
+    "55%",
+    "18%",
+    "636"
+   ],
+   "needles_found": {
+    "55%": "resumo (Crossref 10.1038/s41598-023-41032-5)",
+    "18%": "resumo (Crossref 10.1038/s41598-023-41032-5)",
+    "636": "resumo (Crossref 10.1038/s41598-023-41032-5)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "Within this set of documents, 55% of the GPT-3.5 citations but just 18% of the GPT-4 citations are fabricated. ... compiling data on the 636 bibliographic citations (references) found in the 84 papers.",
+     "reason": "O trecho afirma exatamente as porcentagens (55% e 18%) e o total de 636 citações analisadas, que corresponde à soma das referências dos dois modelos. A tradução 'inventadas' para 'fabricated' é fiel.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "compiling data on the 636 bibliographic citations (references) found in the 84 papers. [...] Within this set of documents, 55% of the GPT-3.5 citations but just 18% of the GPT-4 citations are fabricated.",
+     "verdict": "sustenta",
+     "reason": "O slide reproduz com exatidão os dados numéricos e o contexto apresentados no resumo do artigo. O texto confirma o total de 636 referências analisadas, bem como as taxas de 55% de citações inventadas para o GPT-3.5 e 18% para o GPT-4. Não há distorções, exageros ou omissões que alterem o sentido da fonte."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "We used ChatGPT-3.5 and ChatGPT-4 to produce short literature reviews on 42 multidisciplinary topics, compiling data on the 636 bibliographic citations (references) found in the 84 papers. [...] Within this set of documents, 55% of the GPT-3.5 citations but just 18% of the GPT-4 citations are fabricated.",
+     "verdict": "sustenta",
+     "reason": "O slide reflete com precisão os dados apresentados na fonte: a porcentagem de citações fabricadas para cada modelo (55% para GPT-3.5 e 18% para GPT-4) e o número total de referências analisadas (636)."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (Crossref 10.1038/s41598-023-41032-5)",
+    "resumo (OpenAlex)",
+    "página da editora (doi 10.1038/s41598-023-41032-5)"
+   ]
+  },
+  {
+   "id": "c13",
+   "page": 12,
+   "refs": [
+    "tow"
+   ],
+   "claim": "Mais de 60% das respostas de oito buscadores com IA erraram a matéria original de um trecho de notícia (Tow Center, CJR, mar. 2025).",
+   "needles": [
+    "60 percent",
+    "eight"
+   ],
+   "prefer": "cjr.org",
+   "needles_found": {
+    "60 percent": "web, busca dirigida: https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php",
+    "eight": "web, busca dirigida: https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "Overall, the chatbots often failed to retrieve the correct articles. Collectively, they provided incorrect answers to more than 60 percent of queries.",
+     "reason": "O slide afirma que mais de 60% das respostas de oito buscadores com IA erraram a matéria original de um trecho de notícia. Os trechos fornecidos mostram que o estudo testou oito ferramentas de busca generativas (\"We compared eight AI search engines\") e que, coletivamente, elas forneceram respostas incorretas a mais de 60% das consultas (\"incorrect answers to more than 60 percent of queries\"). Isso sustenta integralmente a afirmação do slide, tratando-se de citação literal com tradução fiel.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "Overall, the chatbots often failed to retrieve the correct articles. Collectively, they provided incorrect answers to more than 60 percent of queries.",
+     "verdict": "sustenta",
+     "reason": "O texto afirma explicitamente que, coletivamente, os buscadores forneceram respostas incorretas em mais de 60% das consultas e que falharam em recuperar os artigos corretos, o que sustenta a afirmação do slide sobre a taxa de erro e a natureza da falha (errar a matéria original/artigo correto). A autoria e a data também conferem."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "Collectively, they provided incorrect answers to more than 60 percent of queries.",
+     "verdict": "sustenta",
+     "reason": "O texto confirma que, coletivamente, os oito buscadores testados pelo Tow Center forneceram respostas incorretas em mais de 60% das consultas sobre a recuperação e citação de notícias."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "web, busca dirigida: https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php",
+    "web, busca dirigida: https://x.com/SciNewsRo/status/1900451264195973233",
+    "web: https://www.bibsonomy.org/bibtex/2abbaf5add097db3ac04f2b55d9af6382/meneteqel",
+    "web: https://x.com/SciNewsRo/status/1900451264195973233",
+    "web: https://laurayost.substack.com/p/digital-wild-goose-chase-the-serious"
+   ]
+  },
+  {
+   "id": "c14",
+   "page": 13,
+   "refs": [
+    "kalai_vempala"
+   ],
+   "claim": "Mesmo um modelo de linguagem bem calibrado alucina: há uma taxa mínima de fatos inventados, ligada aos fatos que aparecem raramente nos dados de treino.",
+   "needles": [
+    "hallucinat",
+    "calibrat",
+    "arbitrary facts"
+   ],
+   "needles_found": {
+    "hallucinat": "resumo (OpenAlex)",
+    "calibrat": "resumo (OpenAlex)",
+    "arbitrary facts": "resumo (OpenAlex)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "This work shows that there is an inherent statistical lower-bound on the rate that pretrained language models hallucinate certain types of facts... For 'arbitrary' facts whose veracity cannot be determined from the training data, we show that hallucinations must occur at a certain rate for language models that satisfy a statistical calibration condition... the probability of generating a hallucination is close to the fraction of facts that occur exactly once in the training data (a 'Good-Turing' estimate).",
+     "reason": "A fonte afirma explicitamente que modelos de linguagem calibrados têm uma taxa mínima de alucinações em certos fatos, e que a probabilidade de alucinar é próxima à fração de fatos que aparecem exatamente uma vez (i.e., raramente) nos dados de treino. Portanto, o slide é fiel ao conteúdo.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "This work shows that there is an inherent statistical lower-bound on the rate that pretrained language models hallucinate certain types of facts... For “arbitrary” facts... we show that hallucinations must occur at a certain rate for language models that satisfy a statistical calibration condition... the probability of generating a hallucination is close to the fraction of facts that occur exactly once in the training data",
+     "verdict": "sustenta",
+     "reason": "O slide afirma que modelos calibrados alucinam com uma taxa mínima ligada a fatos que aparecem raramente no treino. Os trechos sustentam exatamente isso: mostram um \"lower-bound\" (taxa mínima) de alucinação para modelos que satisfazem uma \"statistical calibration condition\" (modelo bem calibrado), e que essa probabilidade é próxima da fração de fatos que ocorrem exatamente uma vez no treino (fatos que aparecem raramente)."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "This work shows that there is an inherent statistical lower-bound on the rate that pretrained language models hallucinate certain types of facts... we show that the probability of generating a hallucination is close to the fraction of facts that occur exactly once in the training data... One conclusion is that models pretrained to be sufficiently good predictors (i.e., calibrated) may require post-training to mitigate hallucinations",
+     "verdict": "sustenta",
+     "reason": "A fonte afirma explicitamente que existe um limite inferior estatístico inerente para alucinações em modelos calibrados e conecta essa taxa à fração de fatos que ocorrem exatamente uma vez nos dados de treinamento."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2311.14648v3)",
+    "texto completo (arXiv 2311.14648v3)"
+   ]
+  },
+  {
+   "id": "c15",
+   "page": 13,
+   "refs": [
+    "pal"
+   ],
+   "claim": "PAL: o modelo escreve o programa e o cálculo é feito por código (interpretador), no lugar do cálculo da IA.",
+   "needles": [
+    "interpreter",
+    "program"
+   ],
+   "needles_found": {
+    "interpreter": "resumo (OpenAlex)",
+    "program": "resumo (OpenAlex)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "\"In this paper, we present Program-Aided Language models (PAL): a novel approach that uses the LLM to read natural language problems and generate programs as the intermediate reasoning steps, but offloads the solution step to a runtime such as a Python interpreter.\" (presente em todos os trechos fornecidos).",
+     "reason": "sustenta",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "In this paper, we present Program-Aided Language models (PAL): a novel approach that uses the LLM to read natural language problems and generate programs as the intermediate reasoning steps, but offloads the solution step to a runtime such as a Python interpreter. With PAL, decomposing the natural language problem into runnable steps remains the only learning task for the LLM, while solving is delegated to the interpreter.",
+     "verdict": "sustenta",
+     "reason": "Os trechos afirmam explicitamente que o PAL utiliza o LLM para gerar programas ('generate programs', ou seja, o modelo escreve o programa) e transfere a etapa de resolução para um ambiente de execução como um interpretador Python ('offloads the solution step to a runtime such as a Python interpreter', ou seja, o cálculo é feito pelo interpretador). Além disso, o texto reforça que a tarefa de resolver é delegada ao interpretador ('solving is delegated to the interpreter'), confirmando que o cálculo não é feito pela própria IA, mas sim pelo código, exatamente como o slide afirma."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "In this paper, we present Program-Aided Language models (PAL): a novel approach that uses the LLM to read natural language problems and generate programs as the intermediate reasoning steps, but offloads the solution step to a runtime such as a Python interpreter. With PAL, decomposing the natural language problem into runnable steps remains the only learning task for the LLM, while solving is delegated to the interpreter.",
+     "verdict": "sustenta",
+     "reason": "A fonte confirma explicitamente que o PAL utiliza o LLM para gerar programas e delega a etapa de solução (cálculo) para um interpretador, substituindo a execução do cálculo pelo próprio LLM."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2211.10435v2)",
+    "texto completo (arXiv 2211.10435v2)"
+   ]
+  },
+  {
+   "id": "c16",
+   "page": 13,
+   "refs": [
+    "llm_modulo"
+   ],
+   "claim": "Verificadores externos e sólidos, em laço com quem gera, dão garantia ao resultado; LLMs sozinhos não planejam nem se verificam.",
+   "needles": [
+    "verifier",
+    "LLM-Modulo"
+   ],
+   "needles_found": {
+    "verifier": "resumo (OpenAlex)",
+    "LLM-Modulo": "resumo (OpenAlex)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "We argue that auto-regressive LLMs cannot, by themselves, do planning or self-verification (which is after all a form of reasoning) [...] We present a vision of LLM-Modulo Frameworks that combine the strengths of LLMs with external model-based verifiers in a tighter bi-directional interaction regime.",
+     "reason": "O slide afirma que 'LLMs sozinhos não planejam nem se verificam', o que é diretamente sustentado pelo trecho. Contudo, a afirmação de que verificadores externos em laço 'dão garantia ao resultado' não aparece nos excertos; o texto propõe uma integração mais estreita como uma abordagem melhor, mas não menciona garantia. Portanto, o slide vai além do que a fonte diz, caracterizando sustentação parcial.",
+     "verdict": "sustenta_em_parte"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "We argue that auto-regressive LLMs cannot, by themselves, do planning or self-verification... We present a vision of LLM-Modulo Frameworks that combine the strengths of LLMs with external model-based verifiers in a tighter bi-directional interaction regime.",
+     "verdict": "sustenta",
+     "reason": "O slide resume fielmente a tese central do artigo apresentada nos trechos. A afirmação de que 'LLMs sozinhos não planejam nem se verificam' corresponde literalmente a 'LLMs cannot, by themselves, do planning or self-verification'. A proposta de 'Verificadores externos... em laço' corresponde à visão de 'LLM-Modulo Frameworks' com 'external model-based verifiers' em 'bi-directional interaction regime'. A menção à 'garantia' refere-se à função dos verificadores baseados em modelo (model-based) de assegurar a correção, suprindo a incapacidade de autoverificação do LLM, o que é o cerne da solução proposta no texto."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "We argue that auto-regressive LLMs cannot, by themselves, do planning or self-verification (which is after all a form of reasoning)... We present a vision of LLM-Modulo Frameworks that combine the strengths of LLMs with external model-based verifiers in a tighter bi-directional interaction regime.",
+     "verdict": "sustenta",
+     "reason": "O texto afirma explicitamente que LLMs sozinhos não conseguem planejar nem se verificar. Além disso, propõe o 'LLM-Modulo Framework' como uma solução que combina LLMs com verificadores externos baseados em modelos em um regime de interação bidirecional, o que sustenta a afirmação do slide sobre a estrutura e a necessidade desses verificadores para o sucesso da tarefa."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (OpenAlex)",
+    "página da editora (doi 10.48550/arxiv.2402.01817)"
+   ]
+  },
+  {
+   "id": "c17",
+   "page": 14,
+   "refs": [
+    "nist"
+   ],
+   "claim": "Num sistema em série com componentes independentes, a confiabilidade é o produto das confiabilidades (regra do produto).",
+   "needles": [
+    "multiply reliabilities",
+    "independently"
+   ],
+   "prefer": "itl.nist.gov",
+   "needles_found": {
+    "multiply reliabilities": "web, busca dirigida: https://www.itl.nist.gov/div898/handbook/apr/section1/apr182.htm",
+    "independently": "web, busca dirigida: https://www.itl.nist.gov/div898/handbook/apr/section1/apr182.htm"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "When the Series Model assumptions hold we have: R_S(t) = ∏_{i=1}^n R_i(t). Each component operates or fails independently of every other one, at least until the first component failure occurs.",
+     "reason": "O trecho apresenta explicitamente a fórmula da confiabilidade do sistema em série como o produto das confiabilidades dos componentes, sob a suposição de independência.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "Add failure rates and multiply reliabilities in the Series Model | When the Series Model assumptions hold we have: $$ \\begin{eqnarray} R_S(t) & = & \\prod_{i=1}^n R_i(t) ... Note that the above holds for any arbitrary component life distribution models, as long as \"independence\" and \"first component failure causes the system to fail\" both hold.",
+     "verdict": "sustenta",
+     "reason": "O texto afirma explicitamente que, sob as premissas do modelo em série (incluindo a independência dos componentes e a falha do sistema na primeira falha de componente), a confiabilidade do sistema é o produto das confiabilidades dos componentes, apresentando inclusive a fórmula matemática correspondente ($R_S(t) = \\prod_{i=1}^n R_i(t)$)."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "Each component operates or fails independently of every other one... When the Series Model assumptions hold we have: $$ R_S(t) = \textstyle \\prod_{i=1}^n R_i(t) $$",
+     "verdict": "sustenta",
+     "reason": "A fonte confirma explicitamente a premissa de independência dos componentes e apresenta a fórmula matemática onde a confiabilidade do sistema (Rs) é o produto das confiabilidades dos componentes individuais (Ri), validando a regra do produto citada no slide."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "web, busca dirigida: https://www.itl.nist.gov/div898/handbook/apr/apr_d.htm",
+    "web, busca dirigida: https://www.itl.nist.gov/div898/handbook/apr/section1/apr182.htm",
+    "web, busca dirigida: https://www.itl.nist.gov/div898/handbook/dtoc.htm",
+    "web, busca dirigida: https://www.itl.nist.gov/div898/handbook/apr/section1/apr1.htm",
+    "web: https://www.itl.nist.gov/div898/handbook/apr/apr_d.htm"
+   ]
+  },
+  {
+   "id": "c18",
+   "page": 14,
+   "refs": [
+    "dziri"
+   ],
+   "claim": "Em tarefas composicionais de vários passos, os erros se acumulam e o desempenho cai à medida que a tarefa cresce.",
+   "needles": [
+    "compositional",
+    "error"
+   ],
+   "needles_found": {
+    "compositional": "resumo (OpenAlex)",
+    "error": "resumo (OpenAlex)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "To round off our empirical study, we provide theoretical arguments on abstract multi-step reasoning problems that highlight how autoregressive generations' performance can rapidly decay with increased task complexity.",
+     "reason": "O trecho afirma que o desempenho decai rapidamente com o aumento da complexidade da tarefa, o que sustenta a segunda parte do slide ('o desempenho cai à medida que a tarefa cresce'). No entanto, não há menção explícita de que 'os erros se acumulam', apenas que o desempenho decai. O slide, portanto, vai além do que o trecho diz, acrescentando uma explicação (acumulação de erros) não presente na fonte.",
+     "verdict": "sustenta_em_parte"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "To round off our empirical study, we provide theoretical arguments on abstract multi-step reasoning problems that highlight how autoregressive generations' performance can rapidly decay with increased task complexity.",
+     "verdict": "sustenta",
+     "reason": "O trecho afirma explicitamente que, em problemas de raciocínio de múltiplos passos, o desempenho das gerações autoregressivas pode decair rapidamente com o aumento da complexidade da tarefa. Isso sustenta diretamente a afirmação do slide de que, em tarefas composicionais de vários passos, o desempenho cai à medida que a tarefa cresce (o que, no contexto do artigo, ocorre porque o modelo não desenvolve habilidades sistemáticas de resolução de problemas, fazendo com que os erros se propaguem e acumulem ao longo dos sub-passos)."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "To round off our empirical study, we provide theoretical arguments on abstract multi-step reasoning problems that highlight how autoregressive generations' performance can rapidly decay with increased task complexity.",
+     "verdict": "sustenta",
+     "reason": "O texto afirma explicitamente que o desempenho das gerações autorregressivas pode decair rapidamente com o aumento da complexidade da tarefa em problemas de raciocínio de vários passos, o que sustenta a afirmação do slide."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2305.18654v3)",
+    "texto completo (arXiv 2305.18654v3)"
+   ]
+  },
+  {
+   "id": "c19",
+   "page": 15,
+   "refs": [
+    "huang"
+   ],
+   "claim": "Sem retorno de fora, o modelo tem dificuldade em corrigir o próprio raciocínio, e às vezes piora depois da autocorreção.",
+   "needles": [
+    "self-correct",
+    "external feedback"
+   ],
+   "needles_found": {
+    "self-correct": "resumo (OpenAlex)",
+    "external feedback": "resumo (OpenAlex)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "In the context of reasoning, our research indicates that LLMs struggle to self-correct their responses without external feedback, and at times, their performance even degrades after self-correction.",
+     "reason": "O slide afirma exatamente o que o resumo diz: dificuldade em corrigir o próprio raciocío ('struggle to self-correct') e piora do desempenho ('performance degrades') sem retorno externo ('without external feedback').",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "Central to our investigation is the notion of intrinsic self-correction, whereby an LLM attempts to correct its initial responses based solely on its inherent capabilities, without the crutch of external feedback. In the context of reasoning, our research indicates that LLMs struggle to self-correct their responses without external feedback, and at times, their performance even degrades after self-correction.",
+     "verdict": "sustenta",
+     "reason": "O slide é uma tradução fiel e direta das conclusões centrais apresentadas no resumo do artigo. A expressão 'sem retorno de fora' corresponde a 'without external feedback'; 'tem dificuldade em corrigir o próprio raciocínio' corresponde a 'In the context of reasoning... LLMs struggle to self-correct'; e 'às vezes piora depois da autocorreção' corresponde exatamente a 'at times, their performance even degrades after self-correction'. Não há exageros, distorções ou omissões de contexto."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "In the context of reasoning, our research indicates that LLMs struggle to self-correct their responses without external feedback, and at times, their performance even degrades after self-correction.",
+     "verdict": "sustenta",
+     "reason": "O texto da fonte afirma explicitamente que, no contexto de raciocínio, os LLMs têm dificuldade em se autocorrigir sem feedback externo e que, por vezes, o desempenho piora após a autocorreção, o que corresponde exatamente ao que o slide afirma."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2310.01798v2)",
+    "texto completo (arXiv 2310.01798v2)"
+   ]
+  },
+  {
+   "id": "c20",
+   "page": 15,
+   "refs": [
+    "lightman"
+   ],
+   "claim": "Conferir passo a passo (supervisão de processo) funciona melhor do que conferir só o resultado final.",
+   "needles": [
+    "process supervision",
+    "outcome supervision"
+   ],
+   "needles_found": {
+    "process supervision": "resumo (OpenAlex)",
+    "outcome supervision": "resumo (OpenAlex)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "finding that process supervision significantly outperforms outcome supervision for training models to solve problems from the challenging MATH dataset",
+     "reason": "O trecho afirma explicitamente que a supervisão de processo supera significativamente a supervisão de resultado, o que corresponde à afirmação do slide de que funciona melhor.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "we can turn either to outcome supervision, which provides feedback for a final result, or process supervision, which provides feedback for each intermediate reasoning step. [...] We conduct our own investigation, finding that process supervision significantly outperforms outcome supervision",
+     "verdict": "sustenta",
+     "reason": "O resumo define explicitamente a 'supervisão de resultado' (outcome supervision) como o feedback dado apenas para o resultado final, e a 'supervisão de processo' (process supervision) como o feedback dado para cada passo intermediário do raciocínio. Em seguida, o texto afirma categoricamente que a supervisão de processo supera significativamente a supervisão de resultado ('process supervision significantly outperforms outcome supervision'), o que sustenta exatamente a afirmação do slide."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "We conduct our own investigation, finding that process supervision significantly outperforms outcome supervision for training models to solve problems from the challenging MATH dataset.",
+     "verdict": "sustenta",
+     "reason": "O texto afirma explicitamente que a supervisão de processo (process supervision) supera significativamente a supervisão de resultado (outcome supervision) no treinamento de modelos para resolver problemas do dataset MATH, o que valida a afirmação do slide."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (OpenAlex)",
+    "página da editora (doi 10.48550/arxiv.2305.20050)"
+   ]
+  },
+  {
+   "id": "c21",
+   "page": 15,
+   "refs": [
+    "stechly"
+   ],
+   "claim": "No GPT-4, a autocrítica derrubou o desempenho; um verificador externo e sólido trouxe grandes ganhos.",
+   "needles": [
+    "GPT-4",
+    "sound",
+    "verifier"
+   ],
+   "needles_found": {
+    "GPT-4": "resumo (OpenAlex)",
+    "sound": "resumo (OpenAlex)",
+    "verifier": "resumo (OpenAlex)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "We observe significant performance collapse with self-critique and significant performance gains with sound external verification.",
+     "reason": "O trecho afirma diretamente, em estudo com GPT-4, que houve colapso significativo de desempenho com autocrítica e ganhos significativos com verificação externa sólida. Isso corresponde exatamente ao que o slide afirma.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "We present a principled empirical study of the performance of GPT-4 in three domains: Game of 24, Graph Coloring, and STRIPS planning. [...] We observe significant performance collapse with self-critique and significant performance gains with sound external verification.",
+     "verdict": "sustenta",
+     "reason": "O texto afirma explicitamente que, no estudo empírico com o GPT-4, a autocrítica ('self-critique') resultou em um colapso significativo de desempenho ('significant performance collapse'), enquanto a verificação externa sólida ('sound external verification') trouxe ganhos significativos de desempenho ('significant performance gains'). A formulação do slide é uma tradução fiel e precisa das conclusões apresentadas no resumo do artigo."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "We observe significant performance collapse with self-critique and significant performance gains with sound external verification.",
+     "verdict": "sustenta",
+     "reason": "O texto da fonte afirma explicitamente que observaram um colapso significativo no desempenho com a autocrítica e ganhos significativos com a verificação externa sólida, o que corrobora exatamente o que o slide afirma."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2402.08115v2)",
+    "texto completo (arXiv 2402.08115v2)"
+   ]
+  },
+  {
+   "id": "c22",
+   "page": 15,
+   "refs": [
+    "panickssery"
+   ],
+   "claim": "Modelos avaliadores reconhecem e tendem a preferir as próprias respostas.",
+   "needles": [
+    "self-preference",
+    "recogni"
+   ],
+   "needles_found": {
+    "self-preference": "resumo (arXiv 2404.13076v1)",
+    "recogni": "resumo (arXiv 2404.13076v1)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "O título do artigo é 'LLM Evaluators Recognize and Favor Their Own Generations'. O resumo afirma: 'One such bias is self-preference, where an LLM evaluator scores its own outputs higher than others' while human annotators consider them of equal quality.' E também: 'We discover that, out of the box, LLMs such as GPT-4 and Llama 2 have non-trivial accuracy at distinguishing themselves from other LLMs and humans.'",
+     "reason": "Os trechos indicam explicitamente que os modelos avaliadores reconhecem suas próprias gerações (self-recognition) e que existe um viés de autopreferência (self-preference), no qual eles avaliam suas próprias respostas como superiores. A afirmação do slide é uma tradução fiel desses achados.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "LLM Evaluators Recognize and Favor Their Own Generations... One such bias is self-preference, where an LLM evaluator scores its own outputs higher than others'... We discover that, out of the box, LLMs such as GPT-4 and Llama 2 have non-trivial accuracy at distinguishing themselves...",
+     "verdict": "sustenta",
+     "reason": "O título do artigo e o resumo confirmam explicitamente que os avaliadores LLM reconhecem suas próprias gerações (\"distinguishing themselves\") e as favorecem (\"scores its own outputs higher\")."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "One such bias is self-preference, where an LLM evaluator scores its own outputs higher than others' while human annotators consider them of equal quality. [...] We discover that, out of the box, LLMs such as GPT-4 and Llama 2 have non-trivial accuracy at distinguishing themselves from other LLMs and humans.",
+     "verdict": "sustenta",
+     "reason": "O texto confirma explicitamente que os modelos possuem capacidade de reconhecimento de suas próprias gerações ('self-recognition') e que exibem um viés de preferência ('self-preference'), atribuindo notas mais altas às suas próprias respostas em comparação com as de outros modelos."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (arXiv 2404.13076v1)",
+    "texto completo (arXiv 2404.13076v1)"
+   ]
+  },
+  {
+   "id": "c24",
+   "page": 41,
+   "refs": [
+    "cnpq"
+   ],
+   "claim": "Portaria CNPq nº 2.664/2026, art. 9º, I: c) declarar o uso de IA generativa, com a ferramenta e a finalidade; d) vedado submeter conteúdo gerado por IA como de autoria humana; e) vedado inserir projetos de terceiros em IA para pareceres; f) quem pesquisa responde pelo conteúdo final, inclusive plágios ou imprecisões da IA. Publicada no DOU, seção 1, p. 4, em 11/03/2026.",
+   "needles": [
+    "2.664",
+    "inteligência artificial",
+    "pareceres"
+   ],
+   "prefer": "in.gov.br",
+   "extra": [
+    "\"PORTARIA CNPq Nº 2.664\" \"6 DE MARÇO DE 2026\" in.gov.br",
+    "Portaria CNPq 2.664 2026 integridade científica texto integral artigo 9"
+   ],
+   "needles_found": {
+    "2.664": "web, busca dirigida: https://psto.unb.br/wp-content/uploads/2026/04/PORTARIA-CNPq-No-2.664-DE-6-DE-MARCO-DE-2026-PORTARIA-CNPq-No-2.664-DE-6-DE-MARCO-DE-2026-DOU-Imprensa-Nacional.pdf",
+    "inteligência artificial": "web, busca dirigida: https://psto.unb.br/wp-content/uploads/2026/04/PORTARIA-CNPq-No-2.664-DE-6-DE-MARCO-DE-2026-PORTARIA-CNPq-No-2.664-DE-6-DE-MARCO-DE-2026-DOU-Imprensa-Nacional.pdf",
+    "pareceres": "web, busca dirigida: https://psto.unb.br/wp-content/uploads/2026/04/PORTARIA-CNPq-No-2.664-DE-6-DE-MARCO-DE-2026-PORTARIA-CNPq-No-2.664-DE-6-DE-MARCO-DE-2026-DOU-Imprensa-Nacional.pdf"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "Art. 9º São diretrizes de integridade na pesquisa apoiada pelo CNPq:\nI - na atividade de pesquisa científica:\n...\nd) é vedada a submissão de conteúdo gerado por IAG como se fosse de autoria humana, sendo os autores integralmente responsáveis pelo conteúdo final, inclusive por eventuais plágios ou imprecisões geradas pela IAG;\ne) é vedada a inserção de projetos de pesquisa de terceiros em ferramentas de IAG para elaboração de pareceres científicos;\nf) responsabilizar-se integralmente pelo conteúdo final da pesquisa, inclusive por eventuais plágios ou imprecisões geradas pela IAG;",
+     "reason": "O slide reproduz de forma fiel as alíneas c, d, e e f do artigo 9, I, da Portaria CNPq nº 2.664/2026. A alínea c exige declarar o uso de IA generativa, especificando ferramenta e finalidade; as alíneas d e e contêm as vedações mencionadas; a alínea f estabelece a responsabilização integral do pesquisador. Ademais, o cabeçalho do documento confirma a publicaçao no DOU, seçao 1, pág.4, em 11/03/2026.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "c) declarar o uso de ferramentas de Inteligência Artificial Generativa - IAG, de qualquer espécie e em qualquer fase do desenvolvimento da pesquisa (concepção, redação, análise de dados, submissão) especificando nos respectivos textos e exposições eletrônicas, a ferramenta utilizada e a finalidade; d) é vedada a submissão de conteúdo gerado por IAG como se fosse de autoria humana, sendo os autores integralmente responsáveis pelo conteúdo final, inclusive por eventuais plágios ou imprecisões geradas pela IAG; e) é vedada a inserção de projetos de pesquisa de terceiros em ferramentas de IAG para elaboração de pareceres científicos; f) responsabilizar-se integralmente pelo conteúdo final da pesquisa, inclusive por eventuais plágios ou imprecisões geradas pela IAG; ... Publicado em: 11/03/2026 | Edição: 47 | Seção: 1 | Página: 4",
+     "verdict": "sustenta",
+     "reason": "O slide reproduz fielmente o teor dos incisos c, d, e e f do art. 9º da Portaria CNPq nº 2.664/2026, bem como os dados de publicação (DOU, seção 1, página 4, em 11/03/2026). A única diferença é a omissão, no slide, da expressão 'de qualquer espécie e em qualquer fase do desenvolvimento da pesquisa (concepção, redação, análise de dados, submissão)' presente no inciso c, o que não descaracteriza a fidelidade do resumo apresentado."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "Art. 9º [...] I - na atividade de pesquisa científica: [...] c) declarar o uso de ferramentas de Inteligência Artificial Generativa - IAG [...] especificando nos respectivos textos e exposições eletrônicas, a ferramenta utilizada e a finalidade; d) é vedada a submissão de conteúdo gerado por IAG como se fosse de autoria humana [...] e) é vedada a inserção de projetos de pesquisa de terceiros em ferramentas de IAG para elaboração de pareceres científicos; f) responsabilizar-se integralmente pelo conteúdo final da pesquisa, inclusive por eventuais plágios ou imprecisões geradas pela IAG.",
+     "verdict": "sustenta",
+     "reason": "O slide descreve corretamente as alíneas 'c', 'd', 'e' e 'f' do inciso I do Art. 9º da Portaria CNPq nº 2.664/2026, bem como os dados de publicação (DOU, 11/03/2026, Seção 1, p. 4)."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "web, busca dirigida: https://www.in.gov.br/en/web/dou",
+    "web, busca dirigida: https://psto.unb.br/wp-content/uploads/2026/04/PORTARIA-CNPq-No-2.664-DE-6-DE-MARCO-DE-2026-PORTARIA-CNPq-No-2.664-DE-6-DE-MARCO-DE-2026-DOU-Imprensa-Nacional.pdf",
+    "web, busca dirigida: https://www.gov.br/museugoeldi/pt-br/a-instituicao/pesquisa/comite-de-etica-em-pesquisa/portaria-cnpq-no-2-664-de-6-de-marco-de-2026-portaria-cnpq-no-2-664-de-6-de.pdf/@@display-file/file",
+    "web, busca dirigida: https://www.gov.br/museugoeldi/pt-br/a-instituicao/pesquisa/comite-de-etica-em-pesquisa/portaria-cnpq-no-2-664-de-6-de-marco-de-2026-portaria-cnpq-no-2-664-de-6-de.pdf",
+    "web, busca dirigida: https://pos.uel.br/cienciasdasaude/wp-content/uploads/2026/03/Portaria-2664.2026-Poli%CC%81tica-de-Integridade-na-Atividade-Cienti%CC%81fica-do-CNPq-1.pdf",
+    "web, busca dirigida: https://www4.ifsc.usp.br/biblioteca/cnpq-institui-politica-de-integridade-na-atividade-cientifica-portaria-cnpq-no-2-664-de-6-de-marco-de-2026/",
+    "web, busca dirigida: https://ppgartes.unespar.edu.br/nova-portaria-do-cnpq-define-limites-para-o-uso-de-inteligencia-artificial-na-pesquisa-academica",
+    "web, busca dirigida: https://portalpadrao.ufma.br/ageufma/noticias/noticias-gerais/cnpq-institui-nova-politica-de-integridade-na-atividade-cientifica-com-diretrizes-para-uso-de-inteligencia-artificial",
+    "web: https://ppgartes.unespar.edu.br/nova-portaria-do-cnpq-define-limites-para-o-uso-de-inteligencia-artificial-na-pesquisa-academica",
+    "web: https://www4.ifsc.usp.br/biblioteca/cnpq-institui-politica-de-integridade-na-atividade-cientifica-portaria-cnpq-no-2-664-de-6-de-marco-de-2026/",
+    "web: https://portalpadrao.ufma.br/ageufma/noticias/noticias-gerais/cnpq-institui-nova-politica-de-integridade-na-atividade-cientifica-com-diretrizes-para-uso-de-inteligencia-artificial"
+   ]
+  },
+  {
+   "id": "c34",
+   "page": 38,
+   "refs": [
+    "parasuraman"
+   ],
+   "claim": "Com um assistente automático, a pessoa aceita a resposta e deixa de conferir, seja novata ou especialista; treino e instrução não bastam para evitar.",
+   "needles": [
+    "complacency",
+    "automation bias",
+    "experts"
+   ],
+   "needles_found": {
+    "complacency": "resumo (Crossref 10.1177/0018720810376055)",
+    "automation bias": "resumo (Crossref 10.1177/0018720810376055)",
+    "experts": null
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "Automation bias results in making both omission and commission errors when decision aids are imperfect. Automation bias occurs in both naive and expert participants, cannot be prevented by training or instructions, and can affect decision making in individuals as well as in teams.",
+     "reason": "O slide afirma que, com um assistente automático, a pessoa aceita a resposta e deixa de conferir, seja novata ou especialista, e que treino e instrução não bastam para evitar. Os trechos sustentam isso para o fenômeno de automation bias: ele ocorre em participantes novatos e especialistas, não pode ser prevenido por treinamento ou instruções, e resulta em erros de omissão (deixar de agir/conferir) quando os auxílios à decisão são imperfeitos. A afirmação do slide é uma condensação fiel desses achados.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "Automation complacency is found in both naive and expert participants and cannot be overcome with simple practice. [...] Automation bias occurs in both naive and expert participants, cannot be prevented by training or instructions",
+     "verdict": "sustenta",
+     "reason": "O slide afirma que o viés/complacência ocorre tanto em novatos quanto em especialistas e que treino e instrução não são suficientes para evitá-lo. O resumo do artigo sustenta exatamente isso ao afirmar que a complacência e o viés de automação ocorrem em participantes tanto ingênuos (novatos) quanto especialistas, e que não podem ser superados com prática simples nem prevenidos por treinamento ou instruções."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "Automation bias occurs in both naive and expert participants, cannot be prevented by training or instructions, and can affect decision making in individuals as well as in teams.",
+     "verdict": "sustenta",
+     "reason": "O texto confirma explicitamente que o viés de automação (que leva à aceitação da resposta do sistema e erros de omissão/comissão) ocorre tanto em novatos quanto em especialistas e que não pode ser evitado por meio de treinamento ou instruções."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (Crossref 10.1177/0018720810376055)",
+    "resumo (OpenAlex)"
+   ]
+  },
+  {
+   "id": "c35",
+   "page": 30,
+   "refs": [
+    "verga"
+   ],
+   "claim": "Um painel de juízes de famílias de modelos diferentes, agregado por voto (para julgamentos binários, o voto da maioria), avalia melhor e com menos viés que um único juiz grande.",
+   "needles": [
+    "panel",
+    "max voting",
+    "intra-model bias"
+   ],
+   "needles_found": {
+    "panel": "resumo (OpenAlex)",
+    "max voting": "texto completo (arXiv 2404.18796v2)",
+    "intra-model bias": "resumo (OpenAlex)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "using a PoLL composed of a larger number of smaller models outperforms a single large judge, exhibits less intra-model bias due to its composition of disjoint model families",
+     "reason": "Os trechos da fonte confirmam que um painel de modelos menores de famílias disjuntas (PoLL) supera um juiz único grande e apresenta menos viés intramodelo. No entanto, não especificam o método de agregação por voto majoritário para julgamentos binários mencionado no slide, portanto o slide é sustentado apenas em parte.",
+     "verdict": "sustenta_em_parte"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "We propose instead to evaluate models using a Panel of LLm evaluators (PoLL). Across three distinct judge settings and spanning six different datasets, we find that using a PoLL composed of a larger number of smaller models outperforms a single large judge, exhibits less intra-model bias due to its composition of disjoint model families",
+     "verdict": "sustenta_em_parte",
+     "reason": "O slide afirma que o painel é \"agregado por voto (para julgamentos binários, o voto da maioria)\". Embora os trechos fornecidos (que consistem apenas no resumo do artigo) sustentem que o painel é composto por famílias de modelos disjuntas (\"disjoint model families\"), que avalia melhor (\"outperforms a single large judge\") e com menos viés (\"exhibits less intra-model bias\"), eles não mencionam em nenhum momento o método de agregação por voto ou voto da maioria para julgamentos binários. Portanto, o slide vai além do que é dito nos trechos fornecidos."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "We propose instead to evaluate models using a Panel of LLm evaluators (PoLL). Across three distinct judge settings and spanning six different datasets, we find that using a PoLL composed of a larger number of smaller models outperforms a single large judge, exhibits less intra-model bias due to its composition of disjoint model families",
+     "verdict": "sustenta_em_parte",
+     "reason": "A fonte sustenta que o painel (PoLL) supera um juiz único e apresenta menos viés devido à composição de famílias de modelos distintas. Contudo, os trechos fornecidos não mencionam o método de agregação por voto (voto da maioria para julgamentos binários), tornando a afirmação parcialmente sustentada."
+    }
+   ],
+   "verdict": "sustenta_em_parte",
+   "sources_read": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2404.18796v2)",
+    "texto completo (arXiv 2404.18796v2)"
+   ]
+  },
+  {
+   "id": "c36",
+   "page": 31,
+   "refs": [
+    "fact_score"
+   ],
+   "claim": "FActScore avalia a precisão factual item a item: quebra o texto em fatos atômicos e confere cada um contra uma fonte.",
+   "needles": [
+    "atomic facts"
+   ],
+   "needles_found": {
+    "atomic facts": "resumo (arXiv 2305.14251v2)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "we introduce FACTSCORE, a new evaluation that breaks a generation into a series of atomic facts and computes the percentage of atomic facts supported by a reliable knowledge source.",
+     "reason": "sustenta",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "In this paper, we introduce FACTSCORE, a new evaluation that breaks a generation into a series of atomic facts and computes the percentage of atomic facts supported by a reliable knowledge source.",
+     "verdict": "sustenta",
+     "reason": "O trecho afirma explicitamente que o FActScore quebra a geração em uma série de fatos atômicos e calcula a porcentagem de fatos atômicos suportados por uma fonte de conhecimento confiável. Isso corresponde exatamente à afirmação do slide de que a métrica avalia a precisão factual item a item, decompondo o texto em fatos atômicos e conferindo cada um contra uma fonte."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "In this paper, we introduce FACTSCORE, a new evaluation that breaks a generation into a series of atomic facts and computes the percentage of atomic facts supported by a reliable knowledge source.",
+     "verdict": "sustenta",
+     "reason": "O trecho da fonte descreve exatamente o funcionamento do FACTSCORE como uma avaliação que divide a geração em fatos atômicos e calcula a porcentagem desses fatos suportados por uma fonte de conhecimento confiável, o que valida a afirmação do slide."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2305.14251v2)",
+    "texto completo (arXiv 2305.14251v2)"
+   ]
+  },
+  {
+   "id": "m01",
+   "page": 30,
+   "refs": [
+    "nosek"
+   ],
+   "claim": "Registrar hipótese, métodos e análise antes de ver os dados (pré-registro) separa o teste confirmatório da exploração e protege contra ajustar a análise ao resultado.",
+   "needles": [
+    "preregistration",
+    "confirmatory",
+    "exploratory"
+   ],
+   "needles_found": {
+    "preregistration": "resumo (Crossref 10.31219/osf.io/2dxu5)",
+    "confirmatory": null,
+    "exploratory": null
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "An effective solution is to define the research questions and analysis plan prior to observing the research outcomes--a process called preregistration. Preregistration distinguishes analyses and outcomes that result from predictions from those that result from postdictions.",
+     "reason": "A fonte define claramente o pré-registro como a definição das questões de pesquisa e plano de análise antes da observação dos dados. Ela afirma que o pré-registro distingue análises e resultados decorrentes de predições (teste confirmatório) daqueles decorrentes de postdições (exploração), e que isso evita o viés retrospectivo responsável por ajustar a análise ao resultado. Portanto, o slide reflete fielmente o texto.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "Progress in science relies in part on generating hypotheses with existing observations and testing hypotheses with new observations. This distinction between postdiction and prediction is appreciated conceptually but is not respected in practice. Mistaking generation of postdictions with testing of predictions reduces the credibility of research findings. However, ordinary biases in human reasoning, such as hindsight bias, make it hard to avoid this mistake. An effective solution is to define the research questions and analysis plan before observing the research outcomes-a process called preregistration. Preregistration distinguishes analyses and outcomes that result from predictions from those that result from postdictions. A variety of practical strategies are available to make the best possible use of preregistration in circumstances that fall short of the ideal application, such as when the data are preexisting. Services are now available for preregistration across all disciplines, facilitating a rapid increase in the practice. Widespread adoption of preregistration will increase distinctiveness between hypothesis generation and hypothesis testing and will improve the credibility of research findings.",
+     "verdict": "sustenta",
+     "reason": "O slide afirma que o pré-registro consiste em registrar hipóteses, métodos e análise antes de ver os dados, o que é sustentado por 'define the research questions and analysis plan before observing the research outcomes-a process called preregistration'. A separação entre teste confirmatório e exploração é sustentada por 'increase distinctiveness between hypothesis generation and hypothesis testing' e 'distinguishes analyses and outcomes that result from predictions from those that result from postdictions'. Por fim, a proteção contra ajustar a análise ao resultado é sustentada ao apresentar o pré-registro como 'An effective solution' para o erro de 'Mistaking generation of postdictions with testing of predictions' (causado por vieses de raciocínio). A tradução e adaptação dos conceitos para o português no slide são fiéis ao texto original."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "An effective solution is to define the research questions and analysis plan prior to observing the research outcomes--a process called preregistration. Preregistration distinguishes analyses and outcomes that result from predictions from those that result from postdictions. Widespread adoption of preregistration will increase distinctiveness between hypothesis generation and hypothesis testing and will improve the credibility of research findings.",
+     "verdict": "sustenta",
+     "reason": "O texto da fonte confirma que o pré-registro envolve definir questões de pesquisa e planos de análise antes de observar os resultados. Além disso, estabelece que esse processo distingue predições (testes confirmatórios) de pós-dições (geração de hipóteses/exploração), o que mitiga vieses de raciocínio (como o viés de retrospectiva) que levam ao ajuste indevido da análise aos dados."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (Crossref 10.31219/osf.io/2dxu5)",
+    "resumo (OpenAlex)"
+   ]
+  },
+  {
+   "id": "m04",
+   "page": 35,
+   "refs": [
+    "holm"
+   ],
+   "claim": "O procedimento de Holm é um teste múltiplo sequencial que controla o erro do tipo I entre várias comparações feitas ao mesmo tempo.",
+   "needles": [
+    "sequentially rejective",
+    "multiple test",
+    "type I"
+   ],
+   "needles_found": {
+    "sequentially rejective": "resumo (OpenAlex)",
+    "multiple test": "resumo (OpenAlex)",
+    "type I": null
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "This paper presents a simple and widely applicable multiple test procedure of the sequentially rejective type, i.e. hypotheses are rejected one at a time until no further rejections can be done. It is shown that the test has a prescribed level of significance protection against error of the first kind for any combination of true hypotheses.",
+     "reason": "O trecho descreve um procedimento de teste múltiplo do tipo sequencialmente rejectivo, que controla o erro do tipo I (primeira espécie) em um nível de significância prescrito, exatamente como afirma o slide: um teste múltiplo sequencial que controla o erro do tipo I em várias comparações.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "This paper presents a simple and widely ap- plicable multiple test procedure of the sequentially rejective type, i.e. hypotheses are rejected one at a tine until no further rejections can be done. It is shown that the test has a prescribed level of significance protection against error of the first kind for any combination of true hypotheses.",
+     "verdict": "sustenta",
+     "reason": "O trecho afirma explicitamente que o artigo apresenta um 'multiple test procedure of the sequentially rejective type' (procedimento de teste múltiplo de tipo sequencialmente rejeitivo) e que o teste possui 'protection against error of the first kind' (proteção contra o erro do primeiro tipo, ou seja, erro do tipo I) para qualquer combinação de hipóteses verdadeiras (várias comparações). A afirmação do slide é uma tradução e paráfrase fiel do conteúdo do resumo."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "This paper presents a simple and widely applicable multiple test procedure of the sequentially rejective type... It is shown that the test has a prescribed level of significance protection against error of the first kind for any combination of true hypotheses.",
+     "verdict": "sustenta",
+     "reason": "O trecho confirma que o procedimento é um teste múltiplo do tipo sequencial e que ele garante proteção contra o erro do tipo I para qualquer combinação de hipóteses, o que sustenta a afirmação de controle de erro em comparações múltiplas."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (OpenAlex)"
+   ]
+  },
+  {
+   "id": "m05",
+   "page": 35,
+   "refs": [
+    "cameron_miller"
+   ],
+   "claim": "Quando as observações de um mesmo grupo (por exemplo, os artigos de uma mesma rodada) não são independentes, o erro-padrão agrupado por grupo corrige a inferência.",
+   "needles": [
+    "cluster",
+    "robust"
+   ],
+   "needles_found": {
+    "cluster": "página da editora (doi 10.3368/jhr.50.2.317)",
+    "robust": "página da editora (doi 10.3368/jhr.50.2.317)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "In such settings, default standard errors can greatly overstate estimator precision. Instead, if the number of clusters is large, statistical inference after OLS should be based on cluster-robust standard errors.",
+     "reason": "A fonte afirma que, quando há correlação entre observações dentro de clusters, os erros-padrão comuns superestimam a precisão do estimador, e a inferência deve ser baseada em erros-padrão cluster-robustos. Isso sustenta plenamente a afirmação do slide de que o erro-padrão agrupado por grupo corrige a inferência quando as observações do grupo não são independentes.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "We consider statistical inference for regression when data are grouped into clusters, with regression model errors independent across clusters but correlated within clusters. [...] In such settings, default standard errors can greatly overstate estimator precision. Instead, if the number of clusters is large, statistical inference after OLS should be based on cluster-robust standard errors.",
+     "verdict": "sustenta",
+     "reason": "O trecho do abstract do artigo afirma exatamente que, quando os dados são agrupados em clusters e os erros do modelo de regressão são correlacionados dentro dos clusters (ou seja, as observações de um mesmo grupo não são independentes), os erros-padrão padrão superestimam a precisão e a inferência estatística deve ser baseada em erros-padrão robustos a clusters (cluster-robust standard errors), o que corrige a inferência. A afirmação do slide reflete fielmente essa premissa e conclusão do artigo."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "We consider statistical inference for regression when data are grouped into clusters, with regression model errors independent across clusters but correlated within clusters. [...] In such settings, default standard errors can greatly overstate estimator precision. Instead, if the number of clusters is large, statistical inference after OLS should be based on cluster-robust standard errors.",
+     "verdict": "sustenta",
+     "reason": "O texto confirma que, quando os dados estão agrupados (o que implica correlação dentro dos grupos e falta de independência), os erros-padrão padrão podem superestimar a precisão, sendo necessário utilizar erros-padrão robustos por cluster para a inferência estatística."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "página da editora (doi 10.3368/jhr.50.2.317)"
+   ]
+  },
+  {
+   "id": "m08",
+   "page": 31,
+   "refs": [
+    "zheng"
+   ],
+   "claim": "Usar um modelo de linguagem como juiz funciona, mas o juiz tem vieses conhecidos, como preferir as próprias respostas e ser influenciado pela posição e pela extensão da resposta.",
+   "needles": [
+    "self-enhancement",
+    "position bias",
+    "verbosity"
+   ],
+   "needles_found": {
+    "self-enhancement": "resumo (OpenAlex)",
+    "position bias": "texto completo (arXiv 2306.05685v4)",
+    "verbosity": "resumo (OpenAlex)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "We examine the usage and limitations of LLM-as-a-judge, including position, verbosity, and self-enhancement biases [...] Our results reveal that strong LLM judges like GPT-4 can match both controlled and crowdsourced human preferences well, achieving over 80% agreement [...] Hence, LLM-as-a-judge is a scalable and explainable way to approximate human preferences",
+     "reason": "O slide afirma que usar LLM como juiz funciona (sustentado pela alta concordância com preferências humanas) e que há vieses de posição, extensão e preferência pelas próprias respostas. Os resumos listam exatamente esses três vieses (position, verbosity, self-enhancement) e confirmam a eficácia do método. A tradução dos termos é fiel.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "We examine the usage and limitations of LLM-as-a-judge, including position, verbosity, and self-enhancement biases, as well as limited reasoning ability, and propose solutions to mitigate some of them. [...] Our results reveal that strong LLM judges like GPT-4 can match both controlled and crowdsourced human preferences well, achieving over 80% agreement, the same level of agreement between humans. Hence, LLM-as-a-judge is a scalable and explainable way to approximate human preferences",
+     "verdict": "sustenta",
+     "reason": "O slide afirma que usar um LLM como juiz funciona, mas apresenta vieses como preferir as próprias respostas (self-enhancement), posição (position) e extensão (verbosity). O resumo do artigo confirma explicitamente que o método funciona para aproximar preferências humanas e lista exatamente esses três vieses (position, verbosity, and self-enhancement biases) como limitações examinadas."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "We examine the usage and limitations of LLM-as-a-judge, including position, verbosity, and self-enhancement biases... Our results reveal that strong LLM judges like GPT-4 can match both controlled and crowdsourced human preferences well",
+     "verdict": "sustenta",
+     "reason": "O texto confirma que o uso de LLMs como juízes funciona (atingindo alta concordância com humanos) e lista explicitamente os vieses de posição (position), verbosidade (extensão da resposta) e auto-enaltecimento (self-enhancement, que se refere a preferir as próprias respostas)."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2306.05685v4)",
+    "texto completo (arXiv 2306.05685v4)"
+   ]
+  },
+  {
+   "id": "n01",
+   "page": 38,
+   "refs": [
+    "wu_hitl"
+   ],
+   "claim": "Human in the loop: pessoas atuam dentro do fluxo de um sistema de aprendizado de máquina e fazem as tarefas difíceis para o computador, com a ajuda da máquina.",
+   "needles": [
+    "human-in-the-loop",
+    "hard for computers"
+   ],
+   "needles_found": {
+    "human-in-the-loop": "resumo (arXiv 2108.00941v3)",
+    "hard for computers": "resumo (arXiv 2108.00941v3)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "Humans can provide training data for machine learning applications and directly accomplish tasks that are hard for computers in the pipeline with the help of machine-based approaches.",
+     "reason": "O trecho afirma explicitamente que humanos realizam tarefas difíceis para computadores no pipeline, com a ajuda de abordagens baseadas em máquina, em total acordo com o slide.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "Humans can provide training data for machine learning applications and directly accomplish tasks that are hard for computers in the pipeline with the help of machine-based approaches.",
+     "verdict": "sustenta",
+     "reason": "O slide traduz e parafraseia fielmente a definição apresentada no resumo do artigo. O texto original afirma que os humanos podem realizar tarefas difíceis para os computadores no pipeline (fluxo) com a ajuda de abordagens baseadas em máquina ('directly accomplish tasks that are hard for computers in the pipeline with the help of machine-based approaches'), o que corresponde exatamente à afirmação do slide."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "Humans can provide training data for machine learning applications and directly accomplish tasks that are hard for computers in the pipeline with the help of machine-based approaches.",
+     "verdict": "sustenta",
+     "reason": "O slide reflete fielmente a definição apresentada no texto, que afirma que humanos podem realizar tarefas difíceis para computadores dentro do fluxo (pipeline) com o auxílio de abordagens baseadas em máquina."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (arXiv 2108.00941v3)",
+    "texto completo (arXiv 2108.00941v3)"
+   ]
+  },
+  {
+   "id": "n02",
+   "page": 39,
+   "refs": [
+    "jergas"
+   ],
+   "claim": "Em artigos de revistas médicas, 25% das citações têm erro e 12% têm erro grave (revisão sistemática e meta-análise).",
+   "needles": [
+    "25.4",
+    "11.9",
+    "11,9"
+   ],
+   "needles_found": {
+    "25.4": "resumo (Crossref 10.7717/peerj.1364)",
+    "11.9": null,
+    "11,9": "resumo (Crossref 10.7717/peerj.1364)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "estimated major, minor and total quotation error rates of 11,9%, 95% CI [8.4, 16.6] 11.5% [8.3, 15.7], and 25.4% [19.5, 32.4].",
+     "verdict": "sustenta",
+     "reason": "O slide afirma 25% de citações com erro e 12% com erro grave. O resumo reporta taxa total de erro de citação de 25,4% e taxa de erro grave (major) de 11,9%. Os valores do slide são arredondamentos fiéis (25% ≈ 25,4%; 12% ≈ 11,9%) e a fonte é de fato uma revisão sistemática e meta-análise. Portanto, o slide é sustentado pelos trechos."
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "Out of 559 studies screened we included 28 in the main analysis, and estimated major, minor and total quotation error rates of 11,9%, 95% CI [8.4, 16.6] 11.5% [8.3, 15.7], and 25.4% [19.5, 32.4].",
+     "verdict": "sustenta",
+     "reason": "O slide afirma que 25% das citações têm erro e 12% têm erro grave. O resumo da fonte apresenta exatamente esses dados: taxa de erro total ('total quotation error rates') de 25,4% e taxa de erro grave ('major quotation error rates') de 11,9%. O arredondamento para números inteiros (25% e 12%) é uma prática padrão e aceitável em slides, não configurando exagero ou distorção. A tradução de 'major' para 'grave' é fiel ao contexto. Além disso, o contexto do estudo (artigos de revistas médicas, revisão sistemática e meta-análise) está perfeitamente alinhado com o título e o texto da obra."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "estimated major, minor and total quotation error rates of 11,9%, 95% CI [8.4, 16.6] 11.5% [8.3, 15.7], and 25.4% [19.5, 32.4].",
+     "verdict": "sustenta",
+     "reason": "O slide apresenta os valores de 25% para o total de erros e 12% para erros graves, que correspondem aos valores de 25,4% e 11,9% reportados na fonte, respectivamente, após arredondamento."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (Crossref 10.7717/peerj.1364)",
+    "resumo (OpenAlex)"
+   ]
+  },
+  {
+   "id": "n03",
+   "page": 40,
+   "refs": [
+    "messeri"
+   ],
+   "claim": "Citação traduzida: \"A proliferação de ferramentas de IA na ciência arrisca inaugurar uma fase da pesquisa científica em que produzimos mais, mas entendemos menos.\"",
+   "needles": [
+    "produce more but understand less"
+   ],
+   "needles_found": {
+    "produce more but understand less": "página da editora (doi 10.1038/s41586-024-07146-0)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "The proliferation of AI tools in science risks introducing a phase of scientific enquiry in which we produce more but understand less.",
+     "reason": "A frase original em inglês, localizada nos trechos fornecidos, corresponde exatamente à afirmação traduzida no slide. A tradução é fiel.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "The proliferation of AI tools in science risks introducing a phase of scientific enquiry in which we produce more but understand less.",
+     "verdict": "sustenta",
+     "reason": "A citação traduzida no slide corresponde exatamente ao trecho original em inglês. A tradução é fiel ('risks introducing' para 'arrisca inaugurar', 'scientific enquiry' para 'pesquisa científica', etc.)."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "The proliferation of AI tools in science risks introducing a phase of scientific enquiry in which we produce more but understand less.",
+     "verdict": "sustenta",
+     "reason": "O trecho da fonte é idêntico à afirmação do slide, sendo uma tradução fiel e direta."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "página da editora (doi 10.1038/s41586-024-07146-0)"
+   ]
+  },
+  {
+   "id": "n04",
+   "page": 40,
+   "refs": [
+    "unesco"
+   ],
+   "claim": "Citação traduzida da Recomendação da UNESCO sobre a Ética da IA (2021), § 36: \"Um sistema de IA nunca pode substituir a responsabilidade e a prestação de contas humanas finais.\"",
+   "needles": [
+    "never replace ultimate human responsibility"
+   ],
+   "prefer": "unesco.org",
+   "needles_found": {
+    "never replace ultimate human responsibility": "web, busca dirigida: https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "36. It may be the case that sometimes humans would choose to rely on AI systems for reasons of efficacy, but the decision to cede control in limited contexts remains that of humans, as humans can resort to AI systems in decision-making and acting, but an AI system can never replace ultimate human responsibility and accountability.",
+     "verdict": "sustenta",
+     "reason": "O trecho do § 36 contém exatamente a afirmação traduzida: 'an AI system can never replace ultimate human responsibility and accountability'. A tradução para o português ('Um sistema de IA nunca pode substituir a responsabilidade e a prestação de contas humanas finais') é fiel, e o número do parágrafo está correto."
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "but an AI system can never replace ultimate human responsibility and accountability.",
+     "verdict": "sustenta",
+     "reason": "O trecho do parágrafo 36 da fonte original diz exatamente \"but an AI system can never replace ultimate human responsibility and accountability\". A tradução apresentada no slide (\"Um sistema de IA nunca pode substituir a responsabilidade e a prestação de contas humanas finais\") é fiel ao texto original, mantendo o sentido e a terminologia adequados (\"accountability\" traduzido como \"prestação de contas\" e \"ultimate\" como \"finais\")."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "an AI system can never replace ultimate human responsibility and accountability.",
+     "verdict": "sustenta",
+     "reason": "A tradução apresentada no slide é fiel ao texto original do parágrafo 36 da Recomendação da UNESCO, que afirma explicitamente que um sistema de IA nunca pode substituir a responsabilidade e a prestação de contas humanas finais."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "web, busca dirigida: https://en.unesco.org/about-us/legal-affairs/recommendation-ethics-artificial-intelligence",
+    "web, busca dirigida: https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
+    "web, busca dirigida: https://dig.watch/resource/unesco-recommendation-on-the-ethics-of-artificial-intelligence",
+    "web, busca dirigida: https://www.geoethics.org/_files/ugd/5195a5_56fc787932864ee199e73208ee6784ec.pdf?index=true",
+    "web: https://dig.watch/resource/unesco-recommendation-on-the-ethics-of-artificial-intelligence",
+    "web: https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
+    "web: https://www.geoethics.org/_files/ugd/5195a5_56fc787932864ee199e73208ee6784ec.pdf?index=true"
+   ]
+  },
+  {
+   "id": "n05",
+   "page": 40,
+   "refs": [
+    "nature_2023"
+   ],
+   "claim": "Citação traduzida do editorial da Nature (2023): \"Qualquer atribuição de autoria traz consigo a responsabilidade pelo trabalho, e ferramentas de IA não podem assumir tal responsabilidade.\"",
+   "needles": [
+    "accountability for the work",
+    "cannot take such responsibility"
+   ],
+   "prefer": "nature.com",
+   "needles_found": {
+    "accountability for the work": "web, busca dirigida: https://www.nature.com/articles/d41586-023-00191-1",
+    "cannot take such responsibility": "web, busca dirigida: https://www.nature.com/articles/d41586-023-00191-1"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "First, no LLM tool will be accepted as a credited author on a research paper. That is because any attribution of authorship carries with it accountability for the work, and AI tools cannot take such responsibility.",
+     "reason": "A citação traduzida reproduz exatamente o conteúdo do trecho original em inglês. A tradução é fiel: 'qualquer atribuição de autoria traz consigo a responsabilidade pelo trabalho' corresponde a 'any attribution of authorship carries with it accountability for the work', e 'ferramentas de IA não podem assumir tal responsabilidade' corresponde a 'AI tools cannot take such responsibility'.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "That is because any attribution of authorship carries with it accountability for the work, and AI tools cannot take such responsibility.",
+     "verdict": "sustenta",
+     "reason": "O slide apresenta uma tradução fiel da frase encontrada no texto original."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "That is because any attribution of authorship carries with it accountability for the work, and AI tools cannot take such responsibility.",
+     "verdict": "sustenta",
+     "reason": "A tradução apresentada no slide é fiel ao texto original da fonte, que afirma explicitamente que a atribuição de autoria implica responsabilidade pelo trabalho e que ferramentas de IA não podem assumir essa responsabilidade."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "web, busca dirigida: https://www.nature.com/articles/d41586-023-00191-1",
+    "web, busca dirigida: https://www.nature.com/articles/d41586-023-00500-8",
+    "web: https://www.nature.com/articles/d41586-023-00191-1",
+    "web: https://x.com/Nature/status/1617942047293411329"
+   ]
+  },
+  {
+   "id": "n06",
+   "page": 33,
+   "refs": [
+    "anthropic_pricing"
+   ],
+   "claim": "Preço público da API do Claude Sonnet 5.5: US$ 2 por milhão de tokens de entrada e US$ 10 por milhão de tokens de saída; buscas na web a US$ 10 por mil.",
+   "needles": [
+    "Sonnet 5.5",
+    "$10"
+   ],
+   "prefer": "platform.claude.com",
+   "needles_found": {
+    "Sonnet 5.5": "web, busca dirigida: https://platform.claude.com/docs/en/about-claude/pricing",
+    "$10": "web, busca dirigida: https://platform.claude.com/docs/en/about-claude/pricing"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "Current Claude API pricing is $4/$20 per million input/output tokens for Claude Opus 5.5, $5/$25 for Claude Opus 5, $2/$10 for Sonnet 5.5 and Sonnet 5, $1/$5 for Haiku 4.5, and $10/$50 for Fable 5.1. [...] Web search is available on the Claude API for $10 per 1,000 searches, plus standard token costs for search-generated content.",
+     "reason": "O trecho da benchlm.ai afirma explicitamente que o preço do Sonnet 5.5 é US$ 2 por milhão de tokens de entrada e US$ 10 por milhão de tokens de saída. O trecho oficial da Anthropic confirma que buscas na web custam US$ 10 por mil (1.000) buscas. Ambos os valores coincidem exatamente com o slide.",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "On Claude Opus 5.5 and Claude Sonnet 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens on Claude Opus 5.5, $0.10 USD on Claude Sonnet 5.5).",
+     "verdict": "sustenta",
+     "reason": "Os trechos confirmam que o preço de entrada do Claude Sonnet 5.5 é US$ 2 por milhão de tokens (pois 5% desse valor = US$ 0,10, conforme dito explicitamente), o preço de saída é US$ 10 por milhão (conforme a tabela de preços do site externo que lista $2/$10 para Sonnet 5.5), e que buscas na web custam US$ 10 por 1.000 buscas. Todos os três valores afirmados no slide são sustentados pelos trechos."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "Current Claude API pricing is $4/$20 per million input/output tokens for Claude Opus 5.5, $5/$25 for Claude Opus 5, $2/$10 for Sonnet 5.5 and Sonnet 5... Web search is available on the Claude API for $10 per 1,000 searches",
+     "verdict": "sustenta",
+     "reason": "Os trechos da fonte confirmam explicitamente os valores de US$ 2 por milhão de tokens de entrada e US$ 10 por milhão de tokens de saída para o modelo Claude Sonnet 5.5, bem como o custo de US$ 10 por 1.000 buscas na web."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "web, busca dirigida: https://platform.claude.com/docs/en/about-claude/pricing",
+    "web, busca dirigida: https://benchlm.ai/anthropic/api-pricing",
+    "web, busca dirigida: https://www.sentra.app/articles/claude-api-pricing",
+    "web, busca dirigida: https://emergent.sh/learn/claude-sonnet-5-5-pricing",
+    "web, busca dirigida: https://www.developersdigest.tech/blog/claude-sonnet-5-5-release-guide-2026",
+    "web: https://platform.claude.com/docs/en/about-claude/pricing",
+    "web: https://benchlm.ai/anthropic/api-pricing",
+    "web: https://www.sentra.app/articles/claude-api-pricing",
+    "web: https://emergent.sh/learn/claude-sonnet-5-5-pricing"
+   ]
+  },
+  {
+   "id": "n07",
+   "page": 39,
+   "refs": [
+    "kalai_vempala"
+   ],
+   "claim": "Mesmo bem calibrado, um modelo de linguagem inventa parte dos fatos raros: o erro faz parte do método.",
+   "needles": [
+    "calibrated",
+    "hallucinat"
+   ],
+   "needles_found": {
+    "calibrated": "resumo (OpenAlex)",
+    "hallucinat": "resumo (OpenAlex)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "For “arbitrary” facts whose veracity cannot be determined from the training data, we show that hallucinations must occur at a certain rate for language models that satisfy a statistical calibration condition appropriate for generative language models. Specifically, if the maximum probability of any fact is bounded, we show that the probability of generating a hallucination is close to the fraction of facts that occur exactly once in the training data (a “Good-Turing” estimate), even assuming ideal training data without errors.",
+     "reason": "sustenta",
+     "verdict": "sustenta"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "For “arbitrary” facts whose veracity cannot be determined from the training data, we show that hallucinations must occur at a certain rate for language models that satisfy a statistical calibration condition appropriate for generative language models. Specifically, if the maximum probability of any fact is bounded, we show that the probability of generating a hallucination is close to the fraction of facts that occur exactly once in the training data (a “Good-Turing” estimate), even assuming ideal training data without errors.",
+     "verdict": "sustenta",
+     "reason": "O slide resume corretamente a tese central do artigo. O texto afirma que modelos calibrados ('satisfy a statistical calibration condition') têm um limite inferior estatístico inerente ('inherent statistical lower-bound') para a taxa de alucinação de fatos arbitrários e raros ('fraction of facts that occur exactly once in the training data'), o que equivale a dizer que o erro (alucinação) é uma consequência inevitável do método de calibração para esses fatos."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "For “arbitrary” facts whose veracity cannot be determined from the training data, we show that hallucinations must occur at a certain rate for language models that satisfy a statistical calibration condition appropriate for generative language models.",
+     "verdict": "sustenta",
+     "reason": "O texto afirma explicitamente que modelos de linguagem que satisfazem uma condição de calibração estatística possuem um limite inferior inerente para a taxa de alucinação em fatos 'arbitrários' (que ocorrem raramente, como uma vez no conjunto de treinamento), confirmando que o erro é uma consequência estatística do método de calibração."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2311.14648v3)",
+    "texto completo (arXiv 2311.14648v3)"
+   ]
+  },
+  {
+   "id": "n08",
+   "page": 34,
+   "refs": [
+    "llm_modulo",
+    "huang",
+    "stechly"
+   ],
+   "claim": "Código onde dá e IA com conferência onde precisa é o verificador externo e sólido de Kambhampati; IA conferindo IA tem limites (Huang et al.; Stechly et al.).",
+   "needles": [
+    "verifier",
+    "self-correct",
+    "self-critique"
+   ],
+   "needles_found": {
+    "verifier": "resumo (OpenAlex)",
+    "self-correct": "resumo (OpenAlex)",
+    "self-critique": "resumo (OpenAlex)"
+   },
+   "votes": [
+    {
+     "judge": "DeepSeek V4 Pro",
+     "evidence": "We observe significant performance collapse with self-critique and significant performance gains with sound external verification. [...] LLMs struggle to self-correct their responses without external feedback [...] LLM-Modulo Frameworks that combine the strengths of LLMs with external model-based verifiers.",
+     "reason": "Os trechos sustentam que verificação externa sólida traz ganhos e que autoavaliação/autocorreção de LLMs tem limites. Porém, a formulação do slide 'código onde dá e IA com conferência onde precisa' não aparece nos trechos; a fonte fala em 'external model-based verifiers', sem mencionar código ou a divisão específica proposta no slide.",
+     "verdict": "sustenta_em_parte"
+    },
+    {
+     "judge": "Qwen3.7 Plus",
+     "evidence": "We argue that auto-regressive LLMs cannot, by themselves, do planning or self-verification... We present a vision of LLM-Modulo Frameworks that combine the strengths of LLMs with external model-based verifiers... LLMs struggle to self-correct their responses without external feedback... We observe significant performance collapse with self-critique and significant performance gains with sound external verification.",
+     "verdict": "sustenta",
+     "reason": "Os trechos de Kambhampati sustentam a proposta de um verificador externo (\"external model-based verifiers\", \"sound external verification\") em contraste com a auto-verificação. Os demais trechos (que correspondem aos trabalhos de Huang et al. e Stechly et al. citados) sustentam que a IA conferindo a si mesma (\"self-correction\", \"self-critique\") tem limites e pode até degradar o desempenho sem feedback externo, corroborando perfeitamente a afirmação do slide sobre os limites da \"IA conferindo IA\" e a necessidade do verificador externo sólido."
+    },
+    {
+     "judge": "Gemini 3.1 Flash-Lite",
+     "evidence": "We present a vision of LLM-Modulo Frameworks that combine the strengths of LLMs with external model-based verifiers in a tighter bi-directional interaction regime. In the context of reasoning, our research indicates that LLMs struggle to self-correct their responses without external feedback, and at times, their performance even degrades after self-correction. We observe significant performance collapse with self-critique and significant performance gains with sound external verification.",
+     "verdict": "sustenta",
+     "reason": "O texto de Kambhampati defende o uso de 'external model-based verifiers' (verificadores externos, tipicamente simbólicos ou baseados em código) para complementar LLMs, o que sustenta a primeira parte do slide. Os trechos adicionais confirmam que a auto-correção (IA conferindo IA) é ineficaz e pode causar degradação de desempenho, validando a segunda parte do slide sobre os limites da auto-verificação."
+    }
+   ],
+   "verdict": "sustenta",
+   "sources_read": [
+    "resumo (OpenAlex)",
+    "página da editora (doi 10.48550/arxiv.2402.01817)",
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2310.01798v2)",
+    "texto completo (arXiv 2310.01798v2)",
+    "resumo (OpenAlex)",
+    "resumo (arXiv 2402.08115v2)",
+    "texto completo (arXiv 2402.08115v2)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,907 @@
+PEDIDO DO PESQUISADOR:
+Encontre 25 artigos científicos revisados por pares, publicados em periódicos entre 2018 e 2025, sobre desinformação e educação midiática (ou competência em informação) em escolas e universidades brasileiras. Restrições: estudos empíricos feitos no Brasil com estudantes, professores, aulas, currículos ou livros didáticos (questionários, grupos focais, intervenções, relatos de experiência com coleta de dados ou análise documental); estudos comparativos internacionais valem se incluírem amostra brasileira; exclua estudos centrados em COVID-19, vacinas, eleições ou política partidária e estudos com públicos fora do ensino formal. Valem apenas artigos de periódico que relatem estudo empírico com dados próprios; não use revisões de literatura, meta-análises, ensaios teóricos, preprints, trabalhos de anais de congresso, capítulos de livro, teses ou resenhas. Para cada artigo, informe: DOI; título; autores; ano de publicação; periódico; tipo de estudo e método; tamanho da amostra exatamente como aparece no resumo (ou "não informado no resumo"); achado principal, em uma frase; e um trecho literal do resumo, entre aspas, que sustente o achado principal.
+
+CRITÉRIOS APROVADOS:
+{
+ "include": [
+  "Artigo de periódico revisado por pares publicado entre 2018 e 2025",
+  "Estudo empírico com dados próprios (questionário, entrevista, grupo focal, intervenção, experimento, relato de experiência com coleta de dados, análise documental de currículos ou livros didáticos)",
+  "Tema central: desinformação/fake news/notícias falsas e educação midiática, letramento midiático ou competência em informação",
+  "Realizado no Brasil, com estudantes, professores, aulas, currículos ou livros didáticos em escolas ou universidades (ensino formal)",
+  "Estudos comparativos internacionais somente se incluírem amostra brasileira",
+  "Resumo disponível e permite identificar método e achado principal"
+ ],
+ "exclude": [
+  "Revisões de literatura, revisões sistemáticas, meta-análises",
+  "Ensaios teóricos ou artigos puramente conceituais sem dados empíricos",
+  "Preprints, trabalhos de anais de congresso, capítulos de livro, livros, teses, dissertações, resenhas",
+  "Estudos centrados em COVID-19, vacinas, eleições ou política partidária",
+  "Públicos fora do ensino formal (população geral, idosos, jornalistas, redes sociais abertas sem contexto escolar)",
+  "Estudos sem amostra brasileira ou realizados fora do Brasil",
+  "Publicações fora do período 2018–2025",
+  "Estudos sobre desinformação sem componente educacional (ex.: detecção automática, análise de redes)"
+ ]
+}
+
+CANDIDATOS:
+[
+ {
+  "id": "C01",
+  "title": "Media Education and Media Literacy as a Factor in Combating Disinformation",
+  "year": 2025,
+  "venue": "Journalism and Media",
+  "abstract": "This article explores the crucial role of media education and media literacy as effective tools in combating disinformation. In the context of the growing influence of digital media and the increasing spread of fake news, propaganda, and manipulative content, the authors examine the level of awareness among young people regarding key media-related concepts such as media literacy, fake news, propaganda, and disinformation. A sociological survey was conducted among students from two Ukrainian higher education institutions—Ivan Franko National University of Lviv and Lviv Polytechnic National University—involving 277 respondents. The research aimed to evaluate the depth of understanding and preparedness of youth to critically assess media content and recognize signs of manipulative information. The findings indicate a clear trend: media awareness and critical thinking skills improve progressively from secondary school students to university students. This article emphasizes the importance of integrating media literacy into formal education systems as a long-term strategy to build a more informed and resilient society. The authors highlight the need for systematic educational initiatives and practical training in media literacy to empower young audiences in navigating the complex media environment and resisting the impact of disinformation."
+ },
+ {
+  "id": "C02",
+  "title": "Adolescents, Media Literacy, and Misinformation: The Cognitive Challenges of Fake News Detection",
+  "year": 2025,
+  "venue": "Media Literacy and Academic Research",
+  "abstract": "The spread of misinformation on social media among adolescents presents a critical societal challenge due to their cognitive vulnerabilities. This study examines whether analytical thinking influences fake news detection and whether this relationship is shaped by awareness of fact-checkers, following fact-checkers, and perceived credibility of fact-checkers. Using a quantitative approach, we surveyed 162 adolescents. The findings indicate a pronounced floor effect, with most participants exhibiting very low analytical reasoning and poor misinformation discernment. The lack of variance in these cognitive dimensions suggests that adolescents may rely more on heuristic processing rather than analytical reasoning when dealing and evaluating misinformation. This pattern raises concerns about their ability to critically assess online content, emphasizing the importance of cognitive skills in digital media literacy. These results highlight a systemic challenge in adolescent engagement with misinformation, reinforcing the need to address analytical reasoning deficits in educational contexts. Targeted educational interventions are needed to bridge these cognitive skills gaps and enhance misinformation resilience among adolescents."
+ },
+ {
+  "id": "C03",
+  "title": "Educação e desinformação",
+  "year": 2022,
+  "venue": "ETD - Educação Temática Digital",
+  "abstract": "A desinformação é um problema que tem se acentuado com o aumento no acesso à internet por meio das redes sociais e aplicativos de mensagens instantâneas e tem impactado na diminuição da confiança pública, na polarização da sociedade e no aumento do negacionismo científico. Neste ensaio serão abordadas 3 frentes onde a educação pode atuar para combater a desinformação: letramento midiático, confiança na ciência e a promoção de diálogo para lidar com a polarização. O letramento midiático pode fomentar uma leitura crítica da mídia para que fiquem claras as estratégias de manipulação presentes nas redes de desinformação. Para lidar com o negacionismo científico é preciso uma melhoria nas condições para o ensino de ciências nas escolas brasileiras, com mais laboratórios e uma adequação da formação docente. Uma divulgação científica popular que se aproxime do cotidiano dos alunos explorando a importância do método científico também pode contribuir para uma maior confiança na ciência. Diante da polarização da sociedade, incentivada por uma divisão política e por uma radicalização, a escola pode se contrapor com diálogo, solidariedade e tolerância. Neste cenário é preciso manter uma comunicação efetiva, muitas vezes utilizando a afetividade entre professor e aluno para melhorar a motivação e a receptividade dos questionamentos discentes. Diante de tantas mentiras, polarização e negacionismo científico promovido principalmente pelo movimento conservador de ultradireita, faz-se necessário lutar para que a escola brasileira continue sendo um espaço de promoção da ciência, do diálogo e da democracia."
+ },
+ {
+  "id": "C04",
+  "title": "Curbing Misinformation / Fake News Through Media Literacy Education of Students in Nigeria",
+  "year": 2022,
+  "venue": "IASL Annual Conference Proceedings",
+  "abstract": "Social media is a major source of information among both adults and young people. It is essential in the quick dissemination of information. Through social media people receive educational, health, social, economic, and political news which help them to make informed decisions. However, it is unfortunate to note that some information/news in social media are fake news and have caused fear, death, riot and disharmony among various ethnic groups. It is believed that because of the high level of confidence in information on social media, there is the likelihood of sharing the information without authentication. This lacuna/loophole has resulted in unfortunate situations. People have knowingly or unknowingly shared fake news that have created problems and making of wrong decisions that have disastrous consequences on the people. It has also caused lack of trust in government activities, hate speech, riots, and mayhem. It has also made the youths develop unwholesome habits like taking hard drugs, self-medication, joining cults, dropping out of school, depression, and suicide. It has become necessary to teach youths how to distinguish correct news from fake ones for their well-being and the development of the country."
+ },
+ {
+  "id": "C05",
+  "title": "Educação midiática no combate à desinformação:",
+  "year": 2025,
+  "venue": "Revista TEIAS",
+  "abstract": "Este artigo discute a educação midiática no combate à desinformação. Sua relevância está em refletir sobre o modo como as tecnologias digitais de informação e comunicação se fazem presente de forma negativa em nosso cotidiano e como a educação midiática pode ser inserida e aplicada no contexto escolar. Assim, tem como objetivo situar em que termos, na percepção dos professores, a desinformação tem chegado na escola, e quais proposições têm sido desenvolvidas com vistas a combatê-las, na perspectiva de uma educação midiática. Trata-se de uma pesquisa de natureza qualitativa. Inicialmente discutiu-se teoricamente as fake news como um fenômeno midiático presente no tempo e espaço atual de forma mais consubstancial e, em vista disso, a educação midiática como um caminho possível. Em seguida, realizou-se uma pesquisa de campo com professores da rede básica de ensino, utilizando questionário online como instrumento de produção dos dados. Como resultados, os professores percebem as implicações pessoais, sociais e pedagógicas da chegada da fake news na escola e vislumbram ações convencionais, porém válidas, na promoção de uma educação para/com/sobre as mídias."
+ },
+ {
+  "id": "C06",
+  "title": "Disinformation and misinformation triangle",
+  "year": 2019,
+  "venue": "Journal of Documentation",
+  "abstract": "Purpose The purpose of this paper is to treat disinformation and misinformation (intentionally deceptive and unintentionally inaccurate misleading information, respectively) as a socio-cultural technology-enabled epidemic in digital news, propagated via social media. Design/methodology/approach The proposed disinformation and misinformation triangle is a conceptual model that identifies the three minimal causal factors occurring simultaneously to facilitate the spread of the epidemic at the societal level. Findings Following the epidemiological disease triangle model, the three interacting causal factors are translated into the digital news context: the virulent pathogens are falsifications, clickbait, satirical “fakes” and other deceptive or misleading news content; the susceptible hosts are information-overloaded, time-pressed news readers lacking media literacy skills; and the conducive environments are polluted poorly regulated social media platforms that propagate and encourage the spread of various “fakes.” Originality/value The three types of interventions – automation, education and regulation – are proposed as a set of holistic measures to reveal, and potentially control, predict and prevent further proliferation of the epidemic. Partial automated solutions with natural language processing, machine learning and various automated detection techniques are currently available, as exemplified here briefly. Automated solutions assist (but not replace) human judgments about whether news is truthful and credible. Information literacy efforts require further in-depth understanding of the phenomenon and interdisciplinary collaboration outside of the traditional library and information science, incorporating media studies, journalism, interpersonal psychology and communi"
+ },
+ {
+  "id": "C07",
+  "title": "Digital literacy, fake news and education",
+  "year": 2018,
+  "venue": "Culture and Education",
+  "abstract": "Digital Literacy, Fake News and EducationThe COST IS1401 report on Digital Literacy and Education (Brites, 2017) addressed, across Europe, a set of fundamental questions:A revolution is going on at the very moment you read these words and you are repeatedly participating in it every time you log in.As with every revolution, the digital one started from a passion, a vision, an urgency to spread, and the promise of qualitative changes to come.One such change was the recent declaration of the United Nations (2016) on considering internet access a basic human right.How spread is this right across Europe?Is it the case that the digital is fundamentally changing literacy?What is the landscape of digital literacy and education interactions across European countries?What challenges does digital literacy pose to education in Europe?(Brites, 2017) Since the report was published, the issue of 'fake news' has been high on the agenda for media and digital literacy academics, teachers, journalists and researchers.The need for education to offer a preventative antidote to the dangers of fake news has been in the public discourse.Recently, the European Commission (EC) published a report on effective media literacy education practices to address disinformation) (McDougall, Zezulkova, van Driel and Sternadel, 2018) and shared the findings in Brussels at a policy-facing event on 'Strengthening Common European Values through Education'.In the same time-frame, UNESCO produced a handbook for journalism education (Ireton and Prosetti, 2018) on the same theme and convened a panel at the end of the year at the Reuters Institute at Oxford University."
+ },
+ {
+  "id": "C08",
+  "title": "Data citizenship: rethinking data literacy in the age of disinformation, misinformation, and malinformation",
+  "year": 2020,
+  "venue": "Internet Policy Review",
+  "abstract": "In this paper we examine what data literacy means in the age of dis-/mis-/mal-information. We examine theoretical and methodological challenges researchers face when examining these two fields and how we can move forward by sharing our own experience in designing a survey to understand UK citizens data literacies."
+ },
+ {
+  "id": "C09",
+  "title": "Media and Information Literacy (MIL) and Disinformation: perspectives in Ibero-America",
+  "year": 2025,
+  "venue": "Journal of Latin American Communication Research",
+  "abstract": "Media and Information Literacy (MIL) has contributed to the understanding and adaptation to the major evolutionary and cultural changes of the digital transformation. This research aims to focus on the challenges of ensuring digital citizenship with critical thinking and skills that can reduce the negative effects of disinformation. The study uses documentary analysis to examine theoretical elements on the topic and consults Ibero-American researchers and experts who have worked on it. Among the main results, elements associated with misinformation that should be strengthened in MIL programs are focused. These components would contribute to fostering skills and a digital culture that allows for critically addressing the disinformation processes that are generated today in the media and public sector."
+ },
+ {
+  "id": "C10",
+  "title": "Public Universities in Brazil Today: Fake News, Attacks on Autonomy and Bolsonarization",
+  "year": 2023,
+  "venue": "Revista de Sociología de la Educación-RASE",
+  "abstract": "In this article, we seek to analyze the context of public universities in Brazil based on two phenomena: a) the growing wave of attacks, mainly those based on fake news, against the public university, even from the federal government; b) the process of bolsonarization of the public university which reflects a broader phenomenon of adherence to the bolsonarist grammar. Based on the analysis of reports, official pronouncements by Jair Bolsonaro and his education ministers, it can be seen that education has become one of the main fields of dispute in bolsonarist rhetoric to combat \"gender ideology\" and \"cultural Marxism\"."
+ },
+ {
+  "id": "C11",
+  "title": "Fake News Explosion in Portugal and Brazil the Pandemic and Journalists’ Testimonies on Disinformation",
+  "year": 2022,
+  "venue": "Journalism and Media",
+  "abstract": "Orchestrated manipulations spread lies and can create an environment of uncertainty in society, leading to concerns from politicians, scholars, educators, and journalists, among others. In this paper we explore what the emergence of fake news (understood as false news) represents for journalists, trying to answer the following question: Does false news pose a threat to the credibility of good journalism, causing a disruption of the traditional work? To answer it, we interviewed a sample of journalists from various media organizations in Portugal and Brazil. Among the main findings, journalists are aware that fake news is a problem to be faced, as the blame for the dissemination of false news erroneously lies with the profession. They are conscious that something must be done and agree that the best way to fight against fake news is to invest in media literacy. Most of the journalists of our sample think they must be also more cautious to check sources for veracity and for political motivations. The results show that there is a resolve to reinforce the role of journalism in society."
+ },
+ {
+  "id": "C12",
+  "title": "Fake news and misinformation in Brazil: critical analyses regarding scientific information in pandemic times",
+  "year": 2023,
+  "venue": "Journal of Human Growth and Development",
+  "abstract": "Introduction: fake news is one of the most frequently discussed subjects in the media, a problem that has become more evident with the rise of social and digital networks assuming the role of main information disseminators. From this perspective, it is important to be connected to a simple, fast communication vehicle that reaches many people. Media may also damage quality of scientific health communication with a negative impact on citizens’ lives. Objective: in this context, this article aims to reflect on fake news and the coronavirus disease (COVID-19) pandemic, which has devastated the world since the beginning of 2020, particularly in Brazil. Methods: countless actions have been taken to contain what the World Health Organization (WHO) calls an “infodemic” that is present in everyday life, invading houses, mobile phones, and computers, in a time of social isolation and working from home. In this scenario, it is up to journalists, communicators, scientists, and health professionals jointly to share important information and to communicate about health and science in a responsible way. Conclusion: in a crisis it becomes essential that information reaches a large number of people and community leaders in order to influence people positively, which might help to save lives."
+ },
+ {
+  "id": "C13",
+  "title": "Alfabetização midiática e informacional no combate à desinformação e à violência nas escolas: uma proposta de agenda",
+  "year": 2023,
+  "venue": "Comunicação & Educação",
+  "abstract": "O artigo discute a relação entre desinformação e violência nas escolas do Brasil e articula uma contribuição para o debate público sobre a construção de proposta de agenda de políticas públicas para o Ministério da Educação, a fim de se promover a alfabetização midiática e informacional nas escolas em todos os níveis de ensino, em acordo com as competências da Base Nacional Comum Curricular (BNCC). Para tanto, o texto apresenta documentos de referência internacional, experiências brasileiras que constituem inspiração para novas iniciativas em escala nacional e um conjunto de cinco eixos de propostas, que contemplam o fomento à participação pública, a formação de professores, a produção de conteúdos audiovisuais e o incentivo à gestão democrática nas escolas."
+ },
+ {
+  "id": "C14",
+  "title": "Saberes necessários da educação midiática na era da desinformação",
+  "year": 2019,
+  "venue": "Revista Mídia e Cotidiano",
+  "abstract": "Este artigo propõe reflexões sobre a implementação do campo jornalístico-midiático da Base Nacional Curricular Comum (BNCC) diante do grave cenário de desinformação que assola o Brasil. A pesquisa bibliográfica parte do pressuposto de que a formação em educação midiática proporciona conhecimentos, habilidades, atitudes e competências fundamentais para o século XXI e os saberes necessários para a educação do futuro. (BUCKINGHAM, 2019; MORIN, 2000; FREIRE, 2014). Com base nos trabalhos realizados em Portugal, que definiu como estratégia análise de cenário, diagnóstico e construção de um referencial específico para educação midiática, sugerimos que o tema merece discussões mais aprofundadas e o envolvimento de diversos atores no Brasil, em um esforço orquestrado para formar um cidadão ativo, crítico e preparado para lidar com a avalanche de informações da nossa era."
+ },
+ {
+  "id": "C15",
+  "title": "Media and Information Literacy",
+  "year": 2021,
+  "venue": "DESIDOC Journal of Library & Information Technology",
+  "abstract": "Information literacy emphasizes to the access, evaluation and use of information. Media literacy emphasizes the ability to understand, evaluate and use media as a leading source and producer of information. Thus, UNESCO considered information literacy and media literacy together as Media Information Literacy (MIL), which is essential to empower people with critical knowledge about media functions, information systems, and their content. In the beginning, information literacy and media literacies were discussed separately as distinct fields. After technological developments and a fair amount of interdisciplinary research work in these areas were carried out, based on which UNESCO made considerable effort to bring these fields together as media and information literate. Today’s students and researchers need a different set of competencies like knowledge, skills and attitude are necessary for their work. This bibliography is prepared to bring out a special issue on media and information literacy to help readers who intend to do the research work in this area will get benefitted. This is a comprehensive bibliography covering all areas of media and information literacy comprising information literacy and media literacy, from its origin to the end of February 2021 collected from all sources including online indexing, full-text and digital theses and dissertations databases. Primarily covers journal articles, books, book chapters, conference proceedings, papers published in conference proceedings, reports, book reviews, and Ph.D. Theses on media and information literacy."
+ },
+ {
+  "id": "C16",
+  "title": "Can high school students check the veracity of information about COVID-19? A case study on critical media literacy in Brazilian ESL classes",
+  "year": 2022,
+  "venue": "Journal of Media Literacy Education",
+  "abstract": "In a globalized world, critical media literacy is imperative when selecting the content we consume amid countless offers. Therefore, the purpose of this case study is to analyze which resources 3rd year high school students (16-17 years old) from an English as a Second Language class in Brazil use in the construction of authorial journalistic articles demystifying fake news about COVID-19 and if the interventions conducted previous to the task were helpful in their process of developing critical media literacy. To this end, firstly students analyzed news about COVID-19 from international websites; secondly, they discussed aspects of a video that circulated widely in WhatsApp chat groups; and, finally, they produced journalistic articles demystifying popular fake news about COVID-19 in Brazil. The findings suggest a great capacity of students to justify their perceptions about what is fact and what is fake once they were provoked to do so, showing the development of critical media literacy and news literacy through the arguments presented in their articles."
+ },
+ {
+  "id": "C17",
+  "title": "Letramento e educação midiática: abordagens a respeito de fake news em escolas públicas de Curitiba",
+  "year": 2024,
+  "venue": "EntreAções diálogos em extensão",
+  "abstract": "O projeto “Letramento e Educação Midiática: Abordagens sobre Fake News em Escolas Públicas de Curitiba” promove, desde o primeiro semestre de 2022, oficinas na Escola Estadual Monsenhor lvo Zanlorenzi, localizada no bairro Campo Comprido, em Curitiba/PR. As oficinas trabalham conceitos de informação e desinformação, por meio da aplicação de uma metodologia com dinâmicas, debates e recursos audiovisuais. A ação beneficia a comunidade escolar e seu entorno, por fortalecer a compreensão sobre conteúdos enganosos e fomentar o pensamento crítico. Ao mesmo tempo em que os estudantes matriculados nas turmas atendidas aprendem a discernir intenções e verificar fontes, os extensionistas se beneficiam academicamente devido à interação com a sociedade. O projeto contribui para metas de educação de qualidade, estimulando a formação cidadã, consciente e ética Os participantes extensionistas têm experimentado impactos notáveis em sua formação, resultando em debates enriquecedores e ampliação de perspectivas, enquanto a capacidade de adaptação e o estímulo ao pensamento crítico moldaram os estudantes como agentes conscientes de disseminação de conhecimentos, alcançando, assim, o objetivo do projeto de educar, capacitar e forjar cidadãos capazes e questionadores no contexto midiático. A faixa etária das turmas atendidas, ademais, contribuiu para que os conteúdos abordados alcancem os familiares e espalhem para áreas mais amplas da sociedade os cuidados contra fake news."
+ },
+ {
+  "id": "C18",
+  "title": "Political Preferences, Knowledge, and Misinformation About COVID-19: The Case of Brazil",
+  "year": 2021,
+  "venue": "Frontiers in Political Science",
+  "abstract": "The COVID-19 pandemic has led to a vast research agenda focusing on how citizens acquire knowledge about the virus and the health expert guidelines to protect themselves and their close ones against it. While many countries and regions have been accounted for, there still remains a substantial gap with respect to public opinion about the virus in Latin America, most notably in Brazil, which currently has the second highest in number of fatalities in the world. In this article, we employ a national survey of Brazilians ( n = 2,771) to measure and explain knowledge and misinformation about the coronavirus and its illness, COVID-19. Our focus concerns the role of political preferences in a context of high elite polarization with a sitting government that has systematically downplayed the risks associated with the coronavirus and its illness. Our findings are clear: political preferences play a substantial role in explaining differences in knowledge about the coronavirus and COVID-19, more than conventional determinants of learning like motivation, ability, and opportunities. Specifically, we find that supporters of President Jair Bolsonaro—an avid science and COVID-19 denier—know significantly less about the coronavirus and its illness and are more likely to believe in a conspiracy theory that claims that the coronavirus was purposefully created in a Chinese laboratory to promote China's economic power, when compared to Brazilians who are less supportive of him and his government. Our findings carry important implications for how Brazilians take informational cues from political elites in that—even in a major event like a global pandemic—supporters of the president are as likely as ever to “follow their leader” and deny expert-backed scientific evidence."
+ },
+ {
+  "id": "C19",
+  "title": "Media and information literacy in secondary students: Diagnosis and assessment",
+  "year": 2023,
+  "venue": "Journal of Technology and Science Education",
+  "abstract": "In the information and knowledge society, technology and the COVID-19 pandemic have added to the debate on Media and Information Literacy (MIL). In Peru, in spite of the recommendations from international institutions, proper attention has not been given, generating gaps in the study curricula. From this perspective, the study investigates the level of development of MIL in students studying the last cycle of intermediate education. In order to determine this, the AMI-Peru-21 survey was designed and validated, based on the UNESCO proposals. This research is of a quantitative, descriptive and cross-curricular nature, which made it possible to diagnose the relationship of the socioformative factors with the levels of MIL achievement, based on a sample made up by 1250 students from the province of Arequipa. The results evidence the validity and reliability of the instrument (α=0.96) in order to measure the level of MIL, from the perspective of student self-perception, as well as the association of certain socioformative factors with MIL (p<0.000), among them, progress with age, i.e., older ages are associated with greater the levels of achievement, and females make more progress than males. It is also verified that access to basic services, such as electricity and the Internet, and the type of educational institution are correlated with higher levels of MIL achievement. From the evidence that is generated, in order to ensure the education of critical, ethical and responsible citizens, a set of initiatives is suggested to further the evolution of MIL in education."
+ },
+ {
+  "id": "C20",
+  "title": "Todos contra a desinformação",
+  "year": 2025,
+  "venue": "INTERIN",
+  "abstract": "O artigo aborda uma intervenção pedagógica (Damiani et al., 2013) focada na educação midiática para o Ensino Médio, realizada em uma escola pública no Espírito Santo, Brasil. O contexto está relacionado à crescente preocupação com a desinformação, um fenômeno amplificado pela hiperconexão digital e que desafia a capacidade dos jovens de distinguir fatos de opiniões, ou mesmo de identificar informações falsas. O objetivo principal foi formar leitores críticos e conscientes. O plano de ação da intervenção pedagógica incluiu metodologias ativas como aprendizagem em equipes e investigação por meio de estudo dirigido, explorando textos diversos e recursos audiovisuais. Durante a intervenção, os alunos participaram de debates e estudo de caso. Os resultados mostraram progresso na compreensão sobre desinformação e habilidades de interpretação textual, embora alguns desafios, como engajamento desigual, tenham sido observados. A intervenção destacou a importância de estratégias inovadoras no ensino de Língua Portuguesa, conectando teoria e prática à realidade social dos alunos."
+ },
+ {
+  "id": "C21",
+  "title": "Literacias E Educação Midiática",
+  "year": 2024,
+  "venue": "Revista Latinoamericana de Ciencias de la Comunicación",
+  "abstract": "Analisou-se a habilidade de professores e alunos do Ensino Médio, de escolas públicas e privadas no Brasil, em identificar fake news. Observou-se também o possível impacto que conteúdos educativos relacionados à desinformação podem oferecer aos respondetes ao analisar informações potencialmente falsas. Os resultados apontam a insuficiência de apenas explicar o que é informação falsa e como verificar, e sugere a necessidade de elaboração de planos a longo prazo que estimulem o pensamento crítico sobre o papel da mídia e do consumo de informações."
+ },
+ {
+  "id": "C22",
+  "title": "Educação midiática para notícias: histórico e mapeamento de iniciativas para combater a desinformação por meio da educação",
+  "year": 2019,
+  "venue": "Revista Mídia e Cotidiano",
+  "abstract": "Este artigo discute o conceito de educação midiática à luz dos problemas trazidos pela disseminação de conteúdos falsos no ambiente digital. Além disso, apresenta um histórico da educação midiática nos Estados Unidos e um mapeamento de ações no Brasil, e apresenta achados de uma pesquisa realizada com professores/as de educação básica. Conclui-se que a preocupação em relação à educação midiática para notícias precisa ser apoiada pela comunidade escolar, sob pena de as futuras gerações viverem em uma sociedade em que as ciências como conhecimento compartilhado sejam desacreditadas, bem como a própria escola como instância em que este conhecimento é ensinado."
+ },
+ {
+  "id": "C23",
+  "title": "FORMAÇÃO INICIAL DE PROFESSORES E A DESINFORMAÇÃO: O PAPEL TRANSFORMADOR DA EDUCAÇÃO MIDIÁTICA",
+  "year": 2025,
+  "venue": "Areté.",
+  "abstract": "O presente artigo disserta sobre o impacto da era digital na disseminação da desinformação e destaca o papel da educação, especialmente na formação inicial de professores, como recurso de enfrentamento desse fenômeno. A partir de uma pesquisa qualitativa com estudantes de Licenciatura em Informática Educacional, o estudo teve como objetivo verificar ambientes, na formação inicial de professores, que promovessem práticas e estudos sobre o contexto da sociedade permeada por informações falsas, manipuladas e/ou descontextualizadas e de como as mídias digitais favorecem a circulação desse tipo de conteúdo. O artigo propõe a educação midiática como estratégia essencial, defendendo a capacitação crítica e colaborativa dos professores em formação. Conclui-se que a educação, embora não resolva sozinha o problema, é pilar fundamental na construção de uma sociedade crítica e informada."
+ },
+ {
+  "id": "C24",
+  "title": "Implicações da alfabetização midiática e informacional no contexto da desinformação",
+  "year": 2025,
+  "venue": "Brazilian Journal of Development",
+  "abstract": "O avanço das tecnologias digitais e a proliferação de dispositivos de comunicação transformaram as práticas sociais, políticas e econômicas. Desde que a desinformação ganhou espaço no cenário mundial, a agenda de pesquisa se mobiliza para compreender a influência das tecnologias digitais sob o comportamento humano nas esferas virtuais, bem como em desenvolver estratégias de combate a desinformação através da formação docente. A exemplo da Organização das Nações Unidas para a Educação, a Ciência e a Cultura (UNESCO) que de forma seminal articulou o conceito de Alfabetização Midiática e Informacional (AMI). Parte de um estudo dissertativo maior em andamento, este trabalho faz um recorte a partir do objetivo central de analisar a aplicação do conceito AMI na formação docente (UNESCO, 2016; Maturana, 2002; Aragão, 2007, 2023). Alinhado a esses princípios teóricos, realizamos uma revisão da literatura no Periódico da CAPES disponíveis entre os anos de 2018 a 2024, a partir das palavras-chave: Alfabetização midiática informacional; AMI; formação docente e prática pedagógica. Os resultados indicam a necessidade de formar professores para o uso das mídias e plataformas digitais, ao mesmo tempo que apresentam a perspectiva instrumentalizadora da AMI. Nesse sentido, os artigos não exploram a formação crítica dos professores a partir da compreensão da inter-relação estudante-professor, tecnologias digitais, linguagem e emoção, fatores que se entrelaçam por trás das práticas de uso de tecnologias digitais e que impactam a formação docente (Maturana, 2002; Aragão, 2023)."
+ },
+ {
+  "id": "C25",
+  "title": "Desinformação e Ensino Superior: o papel das fake news na imagem das Instituições Federais de Ensino Superior (Ifes)",
+  "year": 2025,
+  "venue": "Ciência &amp; Educação (Bauru)",
+  "abstract": "Resumo As notícias falsas têm capacidade de provocar prejuízos a diferentes segmentos da sociedade, em especial, à difamação da imagem de pessoas e organizações. Nos últimos anos, observaram-se diversas manchetes com informações falsas que questionaram a relevância das universidades públicas no Brasil. Diante de tal fato, este estudo buscou compreender em que medida as fake news têm impactado a reputação das Instituições Federais de Ensino Superior (Ifes). Para tal, fez-se uma investigação quantitativa com 307 estudantes do terceiro ano do Ensino Médio. Os resultados apresentaram associação estatisticamente significativa entre acreditar em fake news e a avaliação negativa das universidades públicas. A análise revelou ainda que a intensidade da adesão às notícias falsas indica forte magnitude na escolha de não cursar o Ensino Superior nas Ifes. As conclusões reforçam a importância da aprovação de legislações regulatórias da internet, bem como da inclusão do letramento informacional e midiático nos currículos escolares."
+ },
+ {
+  "id": "C26",
+  "title": "The Role of Libraries in Improving Digital Literacy and Preventing Misinformation Among Students",
+  "year": 2025,
+  "venue": "Bibliogia",
+  "abstract": "The development of digital technology presents challenges for students in accessing valid information while increasing the risk of exposure to misinformation. This study aims to describe the role of libraries in improving digital literacy and their efforts to prevent misinformation among students. The research method used is descriptive qualitative with data collection techniques through in-depth interviews, observation, and documentation. Research informants include students as users of library services and librarians as service providers. Data analysis was conducted using the Miles and Huberman model through the stages of data reduction, data presentation, and drawing conclusions. The results show that libraries play a strategic role in supporting students' digital literacy by providing access to verified academic sources, digital literacy training, and facilitation by librarians. In terms of preventing misinformation, libraries provide education on information verification, provide valid content, and conduct information literacy campaigns. Despite challenges such as limited resources and low student participation, libraries still have opportunities to develop innovative digital services, strengthen collaboration with lecturers, and optimize digital literacy programs."
+ },
+ {
+  "id": "C27",
+  "title": "The Role of Libraries in Improving Digital Literacy and Preventing Misinformation Among Students",
+  "year": 2025,
+  "venue": "Bibliogia",
+  "abstract": "The development of digital technology presents challenges for students in accessing valid information while increasing the risk of exposure to misinformation. This study aims to describe the role of libraries in improving digital literacy and their efforts to prevent misinformation among students. The research method used is descriptive qualitative with data collection techniques through in-depth interviews, observation, and documentation. Research informants include students as users of library services and librarians as service providers. Data analysis was conducted using the Miles and Huberman model through the stages of data reduction, data presentation, and drawing conclusions. The results show that libraries play a strategic role in supporting students' digital literacy by providing access to verified academic sources, digital literacy training, and facilitation by librarians. In terms of preventing misinformation, libraries provide education on information verification, provide valid content, and conduct information literacy campaigns. Despite challenges such as limited resources and low student participation, libraries still have opportunities to develop innovative digital services, strengthen collaboration with lecturers, and optimize digital literacy programs."
+ },
+ {
+  "id": "C28",
+  "title": "A competência crítica em informação na web para o combate à fake news",
+  "year": 2025,
+  "venue": "Biblionline",
+  "abstract": "O artigo relata e analisa a aplicação do Projeto de Ação na Escola (PAE), desenvolvido no âmbito do curso de especialização em Tecnologias da Informação e Comunicação na Educação da Universidade Federal do Rio Grande. O objetivo central da iniciativa foi fomentar o desenvolvimento da competência crítica em informação na web, com base em uma metodologia construtivista apoiada por recursos tecnológicos. A atividade foi realizada com 20 estudantes do ensino médio, na biblioteca de uma escola pública no interior do RS, articulando plataformas digitais como Google Classroom, Kahoot e Canva, além de dispositivos como computadores e smartphones. A proposta pedagógica, organizada na forma de Unidade de Aprendizagem, possibilitou a construção dialógica do conhecimento e o estímulo à análise crítica das informações veiculadas na internet. Os dados obtidos, por meio de questionários, atividades gamificadas e observações, revelaram dificuldades iniciais dos alunos em distinguir informações verídicas de fake news. Contudo, após a aplicação do projeto, observou-se significativo aprimoramento na capacidade de checagem e avaliação crítica de conteúdos, com 80% dos participantes declarando ter desenvolvido sua competência crítica em informação. Os resultados indicam que a metodologia adotada contribuiu para o engajamento, a autonomia e o protagonismo dos estudantes no processo de aprendizagem. As conclusões reforçam o papel das bibliotecas como espaços formativos e a importância de metodologias ativas aliadas às tecnologias digitais para o enfrentamento da desinformação e a promoção de uma cultura informacional crítica."
+ },
+ {
+  "id": "C29",
+  "title": "Pesquisas internacionais sobre fake news e competência em informação no campo da biblioteconomia e ciência da informação",
+  "year": 2022,
+  "venue": "Comunicação & Informação",
+  "abstract": "O objetivo deste artigo é refletir sobre a literatura do campo da Biblioteconomia e Ciência da Informação no que se refere as competências em informação no contexto das fakes news. Trata-se de um trabalho de cunho reflexivo e exploratório que busca contribuir com as discussões postas no cenário internacional sobre a urgência da participação dos bibliotecários no combate efetivo das fakes news por meio da competência em informação. A Base de Dados LISA (Library Information Science Abstract) da Plafatorma Proquest foi utilizada como fonte de informação. O corpus de análise constitui-se de 34 artigos que foram categorizados por temáticas. Embora os resultados denotem uma série de discussões que permeiam os estudos, destacam-se duas formas pelas quais é possível o engajamento dos bibliotecários no combate às fakes news: 1) propondo ações e/ou programas que busquem o desenvolvimento de competências em informação dos estudantes e demais cidadãos e; 2) desenvolvendo ações e/ou programas de mediação que permitam diminuir o déficit dos usuários em relação aos processos de busca e avaliação de fontes de informação. Entretanto, deve-se reconhecer as limitações contextuais e conjunturais que se interpõem a essa tarefa, e que envolvem desde o contexto das políticas educacionais, variáveis de região para região, até aspectos que incluem a arquitetura de informação que foi sendo forjadas pelas redes sociais em seu desenvolvimento e que se mostrou favorável à difusão das fake news."
+ },
+ {
+  "id": "C30",
+  "title": "Competência em Informação, fake news e desinformação: análise das pesquisas no contexto brasileiro",
+  "year": 2023,
+  "venue": "Em Questão",
+  "abstract": "Resumo: Foram analisadas as principais abordagens e autores das produções sobre Competência em Informação relacionadas à fake news e desinformação indexadas nas bases de dados Base de Dados Referenciais de Artigos de Periódicos em Ciência da Informação, Biblioteca Digital Brasileira de Teses e Dissertações e Catálogo de Teses e Dissertações CAPES até 2021. O corpus de análise se constituiu de 32 itens. O estudo demonstra uma tendência crescente da quantidade de publicações sobre a temática a partir de 2018. Em relação ao conteúdo, as publicações foram agrupadas em sete categorias e a categoria com a maior quantidade de trabalhos abrange questões relacionadas à informação e saúde no contexto das fake news e desinformação sob o viés da Competência em Informação. Evidenciou-se o cunho complexo em relação às abordagens distintas da Competência em Informação no tratamento dos fenômenos igualmente complexos de desinformação e fake news, revelando que é uma temática de estudo emergente na área, contribuindo de através de estudos teóricos e aplicados a diferentes grupos, para a mitigação dos efeitos das fake news e da desinformação."
+ },
+ {
+  "id": "C31",
+  "title": "Letramento midiático em desertos de notícias",
+  "year": 2025,
+  "venue": "Revista ECO-Pós",
+  "abstract": "O Nordeste é a região com o maior número de desertos de notícias no Brasil, com o Piauí e do Rio Grande do Norte liderando em municípios classificados como vazios noticiosos. A ausência dessa cobertura local favorece a (re)circulação de conteúdos não verificados, tornando iniciativas como a COAR Notícias ( de fact-checking de incentivo ao letramento midiático) necessárias e urgentes. Este artigo objetiva aplicar o Arriégua: Manual de Checagem Nordestina em salas de aula da cidade de Itaueira (Piauí), categorizada como um deserto de notícias. Para tanto, foi realizado um estudo deste caso a partir de uma pesquisa survey com 53 estudantes e professores deste município. O estudo revelou que quase metade não possui o letramento necessário para compreender o processo de produção da notícia, a importância de ferramentas acessíveis de checagem, sobretudo em coberturas locais."
+ },
+ {
+  "id": "C32",
+  "title": "Mediação da informação e competência crítica em informação: reflexões acerca do papel social do bibliotecário frente a propagação de fake news",
+  "year": 2024,
+  "venue": "Chasqui Revista Latinoamericana de Comunicación",
+  "abstract": "Introdução: O presente trabalho propõe uma discussão quanto a relação entre competência crítica em informação, mediação da informação e pedagogia crítica acerca do papel social do bibliotecário mediante a falta de confiabilidade da informação em rede propiciada pelo uso, mesmo que desigual, de redes sociais e aplicativos de mensagem instantânea. Método: De abordagem qualitativa, o estudo foi realizado a partir de pesquisa bibliográfica na Base de Dados em Ciência da Informação (BRAPCI). Resultados: Apresenta discussões, reflexões e aproximações teóricas acerca da competência crítica em informação e da mediação da informação fazendo inferências aos estudos de Paulo Freire de pedagogia crítica juntamente com o pensamento complexo de Edgar Morin. Conclusão: Evidencia-se a interferência como ponto de ação em comum, bem como o apontamento da não neutralidade da informação. Espera-se que esta análise possa servir de subsídio aos profissionais da informação, especialmente bibliotecários, para uma prática reflexiva quanto às estruturas de poder que sustentam a produção e disseminação da informação."
+ },
+ {
+  "id": "C33",
+  "title": "Special Issue (2024) Media Literacy to Tackle Disinformation",
+  "year": 2024,
+  "venue": "Observatorio (OBS*)",
+  "abstract": "This OBS* Special Issue has been developed under IBERIFIER, Iberian Media Research and Fact-Checking, project funded by the EC under the European Digital Media Observatory initiative, CEF-TC-2020-2, grant number 2020-EU-IA-0252."
+ },
+ {
+  "id": "C34",
+  "title": "Competência em informação, sobrecarga de informação e vulnerabilidade em informação em estudantes de cursos pré-vestibular públicos e gratuitos",
+  "year": 2022,
+  "venue": "Em Questão",
+  "abstract": "Este trabalho tem como objetivo compreender a sobrecarga de informação em alunos de cursos pré-vestibular públicos, gratuitos e comunitários, identificando relações e princípios norteadores da competência em informação do público-alvo. Com relação à metodologia, a pesquisa teve abordagem qualitativa e ênfase na fenomenologia. A investigação foi realizada por meio de pesquisas bibliográfica e documental, além de entrevistas com 38 estudantes de quatro cursos pré-vestibulares, abordando seus sentimentos e experiências relacionados à competência em informação, sobrecarga de informação e vulnerabilidade em informação. Os resultados apontam que alguns estudantes apresentam percepções tácitas da competência em informação, alinhadas aos conceitos da literatura. Na maior parte, eles se sentem inseguros quanto a aspectos como a confiabilidade da informação, métodos de organização pessoal e técnicas de estudo mais eficientes. Mesmo reconhecendo a sobrecarga de informação e relatando os sintomas psicossomáticos, em maior número os estudantes não se consideram prejudicados pelo fenômeno. Eles também reportam situações em que se sentiram vulneráveis, em especial por causa de fatores como baixa autoestima e dificuldades de compreender conteúdos. Concluiu-se que os entrevistados reconhecem a importância da informação para suas vidas e para a sociedade. Mesmo sem conhecer os fundamentos da competência em informação, os entrevistados apresentam reflexões pertinentes sobre o tema."
+ },
+ {
+  "id": "C35",
+  "title": "ARQUIVOLOGIA E COMPETÊNCIA EM INFORMAÇÃO",
+  "year": 2024,
+  "venue": "Archeion Online",
+  "abstract": "A pesquisa apresenta a interlocução entre a Competência em Informação e a Arquivologia a partir de três eixos: 1) Competência em informação e aprendizagem no contexto arquivístico; 2) Competência em informação e o fazer arquivístico; e 3) Fenômenos Informacionais na Arquivologia. O Estudo se configura como a segunda fase de uma pesquisa e tem como objetivo investigar as possíveis relações da díade Arquivologia – Competência em informação com os preceitos da Teoria Crítica da informação e da Competência Crítica da Informação. Metodologicamente, a pesquisa adota a Revisão Bibliográfica Sistemática para coleta de dados. Os resultados foram analisados por meio da Análise comparativa e apresentados em um mapa conceitual. Os resultados obtidos evidenciaram a relação entre os aspectos teóricos investigados, sublinhando a Competência Crítica em Informação como ferramenta de transformação social, que auxilia nos processos de produção, uso, destinação e acesso à informação, de forma eficaz, ética e responsável incluindo todos os atores sociais envolvidos nesse processo. Os temas abordados nesta pesquisa ainda são pouco explorados na comunidade arquivística, tornando-se essencial a continuidade deste estudo, bem como o desenvolvimento de outras pesquisas acerca dos temas, com o intuito de ampliar a discussão e a aplicação desses conceitos no campo arquivístico, visando novas e significativas contribuições para a área."
+ },
+ {
+  "id": "C36",
+  "title": "Fake news, moral panic, and polarization in Brazil",
+  "year": 2022,
+  "venue": "Linguistic Frontiers",
+  "abstract": "This paper aims to discuss the motivations and effects of the production, distribution and interpretation of fake news stories, which draw on moral panics in contemporary Brazilian society. To do so, the article combines recent research on fake news, mainly from Media Studies, Sociology and Political Science, with the Critical Discourse Analysis perspective on meaning-making. The main hypothesis advanced is that this kind of fake news story lies in the tension between the evident and the absurd, as they seem to be oriented towards eliciting different readings and reactions from the endo and the exogroup. In terms of the endogroup, they may function as a means both to foster social cohesion and induce affective responses that intensify the dichotomization of identities. Regarding the exogroup, they may act as a means of drawing antagonism towards progressive groups and political parties, in a process that aims at diverting public debate to topics that not only keep the polarization aflame, but also shift the focus of attention away from the issues and policies that the neoconservative agenda deems problematic."
+ },
+ {
+  "id": "C37",
+  "title": "What Is (Fake) News? Analyzing News Values (and More) in Fake Stories",
+  "year": 2021,
+  "venue": "Media and Communication",
+  "abstract": "‘Fake news’ has been a topic of controversy during and following the 2016 U.S. presidential election. Much of the scholarship on it to date has focused on the ‘fakeness’ of fake news, illuminating the kinds of deception involved and the motivations of those who deceive. This study looks at the ‘newsness’ of fake news by examining the extent to which it imitates the characteristics and conventions of traditional journalism. Through a content analysis of 886 fake news articles, we find that in terms of news values, topic, and formats, articles published by fake news sites look very much like traditional—and real—news. Most of their articles included the news values of timeliness, negativity, and prominence; were about government and politics; and were written in an inverted pyramid format. However, one point of departure is in terms of objectivity, operationalized as the absence of the author’s personal opinion. The analysis found that the majority of articles analyzed included the opinion of their author or authors."
+ },
+ {
+  "id": "C38",
+  "title": "Fake news and real news: What are their characteristics and how to identify them in a school and in COVID-19 pandemic context? A proposal for scientific literacy adapted to emergency remote education",
+  "year": 2021,
+  "venue": "Research Society and Development",
+  "abstract": "This case study aimed to apply, adapt and then evaluate a didactic approach to combat fake news, through scientific literacy in the context of emergency remote education (ERE) with a focus on COVID-19. For this, virtual workshops were held in 2020 with high school students from two public schools in the state of Maranhão, Brazil. All the ethical guidelines of Resolution CNS 510/2016 were followed. In the workshops, the students were exposed to the situation-problem of differentiating fake news from reliable news by identifying typical characteristics of either type of information. There were 18 characteristics for fake news and 18 characteristics for reliable news, of which 50% and 83.3% are unpublished, respectively. In addition, four fake news features and four reliable news features were observed by the students exclusively related to COVID-19. Thus, the adaptation to ERE that is proposed in the present study proved effective and could subsidize any work that aims to prepare students to better understand what is true and what is untrue in the world of the Internet, especially regards to in social media."
+ },
+ {
+  "id": "C39",
+  "title": "Media and information literacy strategies: A joint reflection with teenagers in Brazilian public school",
+  "year": 2025,
+  "venue": "Journal of Media Literacy Education",
+  "abstract": "This article presents the findings from a Media and Information Literacy (MIL) project developed by journalism professors from University of Brasilia and conducted on elementary school students in Brazil. It examines teenagers' information practices and discusses the challenges of introducing MIL practices in the current state of information disorder. This study involves a survey and participant observation from a workshop conducted with these students in October 2021. The major strategies used to promote MIL practices and critical thinking among the students were: a) encouraging them to reflect on their own information practices; b) drawing on their experiences to help them reflect on the quality of the information; and c) de-normalizing disinformation and the problems it causes by stressing the consequences they have on society. This study emphasizes the importance of more organic MIL actions that could help avoid any prejudiced or condescending interpretations of teenagers’ information practices."
+ },
+ {
+  "id": "C40",
+  "title": "Competência em Informação em prol do desenvolvimento sustentável",
+  "year": 2024,
+  "venue": "Tendências da Pesquisa Brasileira em Ciência da Informação",
+  "abstract": "Reflete sobre o perfil do bibliotecário para a promoção da Competência em Informação no exercício da profissão para combater a desinformação e auxiliar o alcance dos objetivos sustentáveis da Agenda 2030. Analisa os atributos desejados para o profissional utilizando método qualitativo de cunho bibliográfico e documental, e discute como as bibliotecas e os bibliotecários podem contribuir para alcançar os objetivos sustentáveis da Agenda 2030. Através de um levantamento bibliográfico sobre a presença de disciplinas sobre a temática nos cursos de graduação, observa que é necessário rever o currículo para incluir a temática nas ementas disciplinares, de forma que o estudante possa conhecer e desenvolver habilidades técnicas e pessoais para o futuro profissional. A análise reflexiva aponta a importância da elaboração de declarações e manifestos, uma vez que estes fornecem direcionamentos para o desenvolvimento de ações e políticas, no entanto, é necessário repensar sobre o perfil do profissional e as oportunidades que estão sendo ofertadas em sua formação acadêmica para o desenvolvimento deste perfil."
+ },
+ {
+  "id": "C41",
+  "title": "Social Media and the Influence of Fake News on Global Health Interventions: Implications for a Study on Dengue in Brazil",
+  "year": 2023,
+  "venue": "International Journal of Environmental Research and Public Health",
+  "abstract": "Social media usage is growing globally, with an exponential increase in low- and middle-income countries. Social media changes the ways in which information-sharing occurs, intensifying the population's exposure to misinformation, including fake news. This has important repercussions for global health. The spread of fake news can undermine the implementation of evidence-based interventions and weaken the credibility of scientific expertise. This is particularly worrisome in countries, such as Brazil, in a sociopolitical context characterized by a lack of popular trust in public institutions. In this project report, we describe our experience with the spread of fake news through the social media platform WhatsApp during the implementation of a cluster randomized controlled trial aimed at reducing dengue incidence in children in Fortaleza (Brazil). During initial visits to selected clusters, the research team was met with resistance. Then, soon after data collection started, fake news began circulating about the study. As a result, the research team developed strategies to dispel suspicion and further promote the study. However, the climate of violence and mistrust, coupled with the COVID-19 pandemic, forced the interruption of the study in 2019. The lessons learned from our experience in Fortaleza can be useful to other researchers and practitioners implementing large-scale interventions in this era of health-related misinformation."
+ },
+ {
+  "id": "C42",
+  "title": "Desinformação, desinfodemia e letramento midiático e informacional – um estudo do processo estruturado no Brasil sob o governo Jair Bolsonaro e as formas de enfrentamento",
+  "year": 2021,
+  "venue": "Scripta",
+  "abstract": "O objetivo deste artigo é discutir como se consolidou um processo de desinfodemia no Brasil a partir de um sistemático processo de desinformação que envolve a disseminação de fake news e o falseamento de notícias científicas a partir da manifestação e do suporte de instâncias públicas federais e de veículos de comunicação aliados às prerrogativas bolsonaristas. A desinfodemia é uma pandemia de desinformação sobre a Covid-19, de acordo com estudo divulgado pela Organização das Nações Unidas para a Educação, a Ciência e a Cultura (Unesco). Nesse sentido, visamos a uma sistematização do processo de desinformação no Brasil em tempos da pandemia a partir da suposição de que tal processo reverbera em comportamentos, da população em geral, comportamentos esses de desconsideração ou não respeito a recomendações médicas e técnicas e de questionamento em relação aos fatores de contágio e de tratamento da Covid, o que pode ser observado preliminarmente a partir das reiteradas matérias jornalísticas que mostram a população nas ruas das principais cidades sem os devidos cuidados de prevenção em relação, por exemplo, ao uso de máscaras. Buscamos, a partir desse levantamento de dados e consequente análise, propor um diálogo com base nas ferramentas de letramento midiático e informacional e criar regularmente conteúdos que possam auxiliar na promoção de uma cultura midiática mais participativa e na melhor compreensão dos processos de desinformação, auxiliando na prevenção mais efetiva da COVID-19 no Brasil."
+ },
+ {
+  "id": "C43",
+  "title": "The perception of misinformation by young students from a Brazilian sociocultural context: reflections and clues for media education",
+  "year": 2024,
+  "venue": "Observatorio (OBS*)",
+  "abstract": "Based on a doctoral study developed in the Brazilian sociocultural context, the article reflects on the perception of misinformation among young students from public and private schools. In a society permeated by the digital world in the broader context of socio-materiality, the complexity of the terms Misinformation, Fake News, and Post-truth shows the difficulty of understanding true and false nowadays. In the capitalism of data, algorithms, control, and vigilance, misinformation is an increasingly discussed theme in digital culture due to the problems created in the political, economic, social, cultural, and political spheres. The implications of this phenomenon reverberate throughout the educational ecosystem, the teaching-learning interactions and relations in the school, and other informal and non-formal educational spaces. Grounded on the dialogue between cultural studies, media-education, and youth cultures, we seek to identify young students' perceptions of misinformation to create a formative path in the media-education perspective. The qualitative and exploratory research involved an empirical dimension conducted with young students from 14 to 21 years old in Curitiba and Colombo in Paraná, Brazil. We traced the group's profile through the European Framework for Digital competencies during workshops on media education, aiming to identify and reflect on how young students receive, understand, analyze, check, and share information. The workshop analyses suggested clues to build media competencies in the youth culture contexts and how schools can/should develop a work in the perspective of media education to build a better understanding of oneself, the other, and the world, producing and sharing messages and information with more responsibility in the perspectiv"
+ },
+ {
+  "id": "C44",
+  "title": "Media and Information Literacy in Latin America and the Caribbean: Introduction and Reflections",
+  "year": 2025,
+  "venue": "Journal of Latin American Communication Research",
+  "abstract": "This monograph is part of a special issue co-organized by the Latin American Journal of Communication - Chasqui and the Journal of Latin American Communication Research, dedicated to Media and Information Literacy (MIL) in Latin America and the Caribbean. This is the result of a strategic alliance between CIESPAL, ALAIC, the Latin American and Caribbean Regional Representation of the Global Alliance for MIL promoted by UNESCO, Las Otras Voces - Communication for Democracy, and UNIMINUTO. Their common goal is to identify, highlight, and articulate initiatives from Latin America in a context of accelerated transformations in a region marked by inequality. The issue brings together research conducted in Argentina, Brazil, Mexico, Paraguay, Cuba, and other countries to showcase the diversity of experiences and approaches on the topic. MIL is addressed as a multidimensional field that combines critical media education, technological appropriation, disinformation prevention, citizenship empowerment, and public policy development. The text offers a cross-sectional reading of the articles, placing them in dialogue with international literature and highlighting their contributions in areas such as democracy, health, youth, and pedagogical innovation. Based on these experiences, it recognizes both the progress and the challenges the region faces in consolidating a robust, articulated, and sustainable MIL ecosystem. The special issue thus aims to make a significant contribution to Ibero-American academic cooperation and to the design of educational and social strategies that respond to the challenges of the 21st century."
+ },
+ {
+  "id": "C45",
+  "title": "An analysis of literacy differences related to the identification and dissemination of misinformation in Japan",
+  "year": 2025,
+  "venue": "Global Knowledge, Memory and Communication",
+  "abstract": "Purpose This study aims to examine the relationship between various types of literacy on one hand and identification of misinformation and dissemination of such information on the other, in search for better countermeasures against misinformation. Design/methodology/approach Based on data from a large-scale survey, models are constructed and analyzed to assess the relationships of literacy with both the identification of inaccuracies and dissemination behavior. Findings Regarding the identification of misinformation, individuals with high critical thinking attitudes (subjective literacy) are less likely to recognize misinformation, while other objective literacies do not have a significant relationship. Regarding dissemination behavior, individuals with high information literacy, media literacy and critical thinking scores tend not to disseminate misinformation, whereas those with high critical thinking attitudes are more likely to disseminate such information. Originality/value First, it quantitatively elucidates the relationships various literacies have with the accuracy judgment and dissemination behavior of misinformation. This highlights the effectiveness of objective indicators of literacies and the need for caution regarding subjective literacy – i.e. self-confidence in their own literacy. Second, it provides a cross-disciplinary analysis of the relationships, covering not only oft-studied politics and health care but also various other fields, thereby identifying comprehensive literacy strategies against misinformation. Third, it addresses differences in dissemination methods and offers insights into more practical countermeasures."
+ },
+ {
+  "id": "C46",
+  "title": "Critical Information Literacy as a Path to Resist “Fake News”: Understanding Disinformation as the Root Problem",
+  "year": 2019,
+  "venue": "Open Information Science",
+  "abstract": "Abstract This paper proposes to discuss the problem of Fake News, its root problem disinformation and the path to resist it, critical information literacy. It initially distinguishes the concepts of fake news and disinformation through the views of authors as Allcott & Gentzkow (2017), Chomsky (2014), Serrano (2010) and Volkoff (1999). Our perspective considers that none of these phenomena are new or recent, and we do not consider the “combat” of fake news to be a simple task, considering that it involves issues related to the limits of freedom of speech and media censorship. Fake News are understood as intentionally and verifiably false articles created to manipulate people and disinformation as a bigger ensemble of techniques to manipulate public opinion for political gain with perverted (but not only false) information. One way to deal with these matters goes through a more complex process: the development of critical information literacy in the society as a whole. This concept is studied from the work of Downey (2016), Elmborg (2012), Freire (1967;1970) and others. Freire’s critical pedagogy helps the self-construction of subjects aware of their position and their social role, and it is a basic key for the formation of autonomous, critical and responsible individuals. Based on that, critical information literacy is a state of vigilance towards information that enables people to understand that information is socially constructed and to use it to produce new information in a creative and contextualized way. It concludes that critical information literacy is a consistent tool of resistance to Fake News as it allows people not only survive the informational flood but mainly to build a more ethical society in the use of information."
+ },
+ {
+  "id": "C47",
+  "title": "A Scientometric Study of Digital Literacy, ICT Literacy, Information Literacy, and Media Literacy",
+  "year": 2020,
+  "venue": "Journal of Data and Information Science",
+  "abstract": "Abstract Purpose Digital literacy and related fields have received interests from scholars and practitioners for more than 20 years; nonetheless, academic communities need to systematically review how the fields have developed. This study aims to investigate the research trends of digital literacy and related concepts since the year of 2000, especially in education. Design/methodology/approach The current study analyzes keywords, co-authorship, and cited publications in digital literacy through the scientometric method. The journal articles have been retrieved from the WoS (Web of Science) using four keywords: “Digital literacy,” “ICT literacy,” “information literacy,” and “media literacy.” Further, keywords, publications, and co-authorship are examined and further classified into clusters for more in-depth investigation. Findings Digital literacy is a multidisciplinary field that widely embraces literacy, ICT, the Internet, computer skill proficiency, science, nursing, health, and language education. The participants, or study subjects, in digital literacy research range from primary students to professionals, and the co-authorship clusters are distinctive by countries in America and Europe. Research limitations This paper analyzes one fixed chunk of a dataset obtained by searching for all four keywords at once. Further studies will retrieve the data from diverse disciplines and will trace the change of the leading research themes by time spans. Practical implications To shed light on the findings, using customized digital literacy curriculums and technology is critical for learners at different ages to nurture digital literacy according to their learning aims. They need to cultivate their understanding of the social impact of exploiting technology and computational th"
+ },
+ {
+  "id": "C48",
+  "title": "Exploring fake news awareness and trust in the age of social media among university student TikTok users",
+  "year": 2024,
+  "venue": "Cogent Social Sciences",
+  "abstract": "this study explores the awareness of fake news and trust dynamics among university students on tiktok.utilizing qualitative research through semi-structured interviews with university students in Vietnam, the findings reveal a generally acknowledged presence of fake news on tiktok, accompanied by varying levels of trust in the platform's content.Key factors influencing trust include content creator credibility, user engagement, and familiarity with creators.Beyond academic implications, this research offers practical insights into the digital literacy, information consumption habits, and susceptibility to fake news among university students.the study advocates for heightened digital literacy education, encouraging critical evaluation of online content, not only benefiting the university demographic but contributing to broader public awareness. IMPACT STATEMENTin our research, we delve into the fascinating world of tiktok, one of the most popular social media platforms, to investigate the critical intersection of fake news awareness and trust among university student tiktok users.as misinformation proliferates online, understanding how young adults navigate and perceive information is paramount.this study investigates the unique dynamics within the tiktok community, shedding light on the susceptibility to false narratives and the factors influencing trust in news sources.By unraveling the complexities of fake news awareness in this context, we aim to empower users with insights that enhance their media literacy and resilience against misinformation.in an age where information shapes perceptions, this research contributes to fostering a more discerning and informed public, ultimately strengthening the foundations of trust in the digital age."
+ },
+ {
+  "id": "C49",
+  "title": "Dynamics of social corrections to peers sharing COVID-19 misinformation on WhatsApp in Brazil",
+  "year": 2021,
+  "venue": "Journal of the American Medical Informatics Association",
+  "abstract": "OBJECTIVE: Online COVID-19 misinformation is a serious concern in Brazil, home to the second-largest WhatsApp user base and the second-highest number of COVID-19 deaths. We examined the extent to which WhatsApp users might be willing to correct their peers who might share COVID-19 misinformation. MATERIALS AND METHODS: We conducted a cross-sectional online survey using Qualtrics among 726 Brazilian adults to identify the types of social correction behaviors (SCBs) and health and technological factors that shape the performance of these behaviors. RESULTS: Brazil's WhatsApp users expressed medium to high levels of willingness to engage in SCBs. We discovered 3 modes of SCBs: correction to the group, correction to the sender only, and passive or no correction. WhatsApp users with lower levels of educational attainment and from younger age groups were less inclined to provide corrections. Lastly, the perceived severity of COVID-19 and the ability to critically evaluate a message were positively associated with providing corrections to either the group or the sender. DISCUSSION: The demographic analyses point to the need to strengthen information literacy among population groups that are younger with lower levels of educational attainment. These efforts could facilitate individual-level contributions to the global fight against misinformation by the World Health Organization in collaboration with member states, social media companies, and civil society. CONCLUSION: Our study suggests that Brazil's WhatsApp users might be willing to actively respond with feedback when exposed to COVID-19 misinformation by their peers on small-world networks like WhatsApp groups."
+ },
+ {
+  "id": "C50",
+  "title": "Can older people stop sharing? An ethnographic study on fake news and active aging in Brazil",
+  "year": 2022,
+  "venue": "Online Media and Global Communication",
+  "abstract": "Abstract Purpose An association between age and misinformation is frequently found in literature, which contributes to a moral panic about older people’s participation in the dissemination of fake news. This qualitative study adds context to this discussion by investigating why older people are motivated to engage with online information and why sharing matters in old age. Design/methodology/approach A 16-month ethnographic study was conducted with a group of older adults in São Paulo, Brazil. Participant observation was complemented by in-depth interviews in order to approach participant strategies to evaluate online content and health information. Findings Participants were connected in multiple WhatsApp groups in which they shared content associated with active aging. Sharing helped them to craft their identity as third-agers at the same time that their work as curators was motivated by the local work-oriented ethics. An indirect system of influences impacted the participants’ decisions to trust and share content. Content was evaluated based on long-term interpersonal trust, while health information was validated by expertise in the healthcare area. “Doctor friends” provided medical guidance by warming the health information that the participants found online. Practical implication Regardless of their level of education, older adults need expert friends to warm health information. This dependency impacts active aging and challenges the idea that the internet could empower health decision-making. Social implications This study provides information for policymakers and industries to understand how older adults can access health information and obtain medical guidance. Originality/value This paper shows how sharing behavior can be influenced by local cultural contexts a"
+ },
+ {
+  "id": "C51",
+  "title": "Transforming Disinformation on Minorities Into a Pedagogical Resource: Towards a Critical Intercultural News Literacy",
+  "year": 2022,
+  "venue": "Media and Communication",
+  "abstract": "Intercultural competence and diversity awareness are relevant to handling “fake news” related to minorities and migrants, thus preventing “othering” and stereotyping of vulnerable populations. Teachers and schools can play a central role in preventing the spread of far-right ideologies and the dissemination of false information and hate discourse. For that, bringing together intercultural competence and news literacy, conceptualised as “critical intercultural news literacy,” is needed to navigate disinformation related to minorities and their connection to polarising themes. In this article, we focus on false or misleading information published on online platforms that brings together two salient topics: the Covid-19 pandemic and minorities. We discuss the issues of concern around the transformation of such material into a didactic resource for the school context and we question whether such practice can (paradoxically) lead to reinforcing or reproducing its undesirable content, i.e., to the othering of school populations that are targeted by false or manipulative information. This leads us to discuss potential problems associated with the pedagogical use of false information by teachers and, in resonance with the theme of this thematic issue, we claim that inclusive media education should also be an education for diversity and inclusion, through the development of critical intercultural news literacy."
+ },
+ {
+  "id": "C52",
+  "title": "A Continent to be Known - A comparative perspective between two Civil Society Organizations dedicated to Media and Information Literacy (MIL) in Latin America",
+  "year": 2024,
+  "venue": "Journal of Latin American Communication Research",
+  "abstract": "This article compares two Latin American civil society organizations dedicated to media and information literacy (MIL): Movilizatorio in Colombia and A Mí No Me La Hacen in Peru. Both face challenges such as the digital divide and the lack of educational policies on media, but they have achieved significant progress in their respective contexts. Movilizatorio stands out for its regional presence and strategic partnerships, while A Mí No Me La Hacen offers an innovative perspective through its multidisciplinary approach. The article concludes with recommendations to strengthen MIL in Latin America, emphasizing the need for systematic research and regional collaborations."
+ },
+ {
+  "id": "C53",
+  "title": "The small effects of short user corrections on misinformation in Brazil, India, and the United Kingdom",
+  "year": 2025,
+  "venue": "Harvard Kennedy School Misinformation Review",
+  "abstract": "How effective are user corrections in combatting misinformation on social media, and does adding a link to a fact check improve their effectiveness? We conducted a pre-registered online experiment on representative samples of the online population in Brazil, India, and the United Kingdom (Nparticipants = 3,000, Nobservations = 24,000). We found that in India and Brazil, short user corrections slightly, but often not significantly, reduced belief in misinformation and participants’ willingness to share it. In the United Kingdom, these effects were even smaller and not significant. We found little evidence that fact-check links made user corrections more effective. Overall, our results suggest that short user corrections have small effects and that adding a fact-check link is unlikely to make user corrections much more effective."
+ },
+ {
+  "id": "C54",
+  "title": "Infodemic and Digital Literacy: The Role of Digital Literacy in Combating Misinformation of COVID-19 on Facebook",
+  "year": 2021,
+  "venue": "المجلة العربية لبحوث الاعلام والاتصال",
+  "abstract": "Amid the spreading of COVID-19 globally since March 2020, Facebook has played a vital role in spreading information about the virus, its effects, and its consequences. However, the viral nature of Facebook and its ease of spreading the information helped in circulating the misinformation about the virus and made it hard for its users to seek the correct sources of information about COVID-19 Pandemic among the millions of misinformed posts and content on it. Hence, large populations of our world were facing a the COVID-19 and an infodemic along with it. This is where digital literacy shows up as a vital skill to be possessed by the users of Facebook to find and evaluate information about COVID-19 Pandemic to help them understand the current situations and consequences of the ongoing pandemic. The paper tackles the role of digital literacy as a skill possessed by Egyptian users in combating misinformation of COVID-19 Pandemic on Facebook amid the breakthrough of the pandemic since March 2021. The paper also sheds light on the relevance of the topic on SDG no.3 (Good Health and Well-being) and SDG no.4 (Quality Education). A survey was conducted to collect primary data to test the hypotheses of the paper’s suggested model."
+ },
+ {
+  "id": "C55",
+  "title": "Digital Social and Emotional Literacy Intervention for Vulnerable Children in Brazil: Participants’ Experiences",
+  "year": 2022,
+  "venue": "International Journal of Mental Health Promotion",
+  "abstract": "Social emotional literacy (SEL) interventions are widely implemented through schools, with growing evidence for a range of positive child outcomes. Increasingly, such interventions are delivered on online platforms. To date, there is limited evidence about digital SEL interventions in low- and middle-income countries (LMIC). The aim of this study was to explore the perceptions and experiences of children, parents and facilitator of the potential value of addressing SEL via tailored digital intervention. The intervention was designed to help children, in Brazil, to cope during the first COVID-19 pandemic lockdown. The intervention was delivered via a digital platform to groups of three children for 45 min per week for nine. Thirteen children, nine parents and nine facilitators were interviewed following the completion of the intervention. The data was analysed through a codebook thematic approach, which led to three themes: empowerment, participatory aspects of the intervention and digital adaptation. Overall, children’s SEL development was reported to be supported during the COVID-19 pandemic, by the application of new skills outside the sessions. Children reported a number of empowering factors such as being heard and belonging. A range of useful participatory tools were identified including storytelling, games, drawings and videos. Blended SEL interventions involving both face-to-face and web-based facilitation could be developed within a tiered model of universal mental health promotion and targeted prevention. Access to online platforms would increase reach to large numbers of children in LMIC, especially in contexts of disadvantage."
+ },
+ {
+  "id": "C56",
+  "title": "School as Learning Communities: An Effective Alternative for Adult Education and Literacy in Brazil",
+  "year": 2018,
+  "venue": "Frontiers in Education",
+  "abstract": "Women and men, young and adult, who have reached youth or adult life without elementary schooling are part of an important and vulnerable group in Latin America, as for instance Brazil. Integrating the studies that seek to contribute to a qualitative change in Brazilian Adult Education, as a means for overcoming inequalities and in support of most vulnerable groups within the population, this article regards the case of the first Adult Education School in Brazil to transform the learning community. The research was developed between 2014 and 2016 and refers to a qualitative case study using the communicative approach, guaranteed by the use of the Communicative Methodology. Data was collected using four techniques pertaining to the Communicative Methodology: communicative in-depth interview with the school’s Adult Learning and Education coordination; communicative daily-life story with students and volunteers; communicative focus groups with students, volunteers and teachers; and communicative observation in Successful Educational Actions. The results indicate transformative and excluding elements that emerged in the following categories: the school’s characteristics studied, work and life conditions and access to schooling and continuity in school, and interaction within the learning community. Comparing the results that indicate positive aspects of the Adult Learning and Education school transformed into learning communities to results in other studies about other successful Adult Learning and Education schools in Brazil, it can be established that they coincide in some aspects and go beyond others. Although coincidence between studies was observed, they were more intensely noticed in the learning community regarding the following aspects: a) school management oriented"
+ },
+ {
+  "id": "C57",
+  "title": "A utilização dos vídeos como promotores da educação midiática e da alfabetização científica no ensino de química",
+  "year": 2023,
+  "venue": "Dialogia",
+  "abstract": "Torna-se necessária a promoção da educação midiática e da alfabetização científica no contexto educacional, visto que há um aumento da crença em informações sem fundamentos científicos e que essas são difundidas em contextos midiáticos dentro do vasto mundo digital, fato que ficou notório após a ascensão da pandemia do novo coronavírus. O objetivo dessa pesquisa é analisar se os vídeos vêm sendo utilizados para a promoção da educação midiática (EM) no ensino de ciências, especialmente no ensino de química, utilizando a pesquisa bibliográfica como instrumento de pesquisa. Essa pesquisa é de natureza qualitativa, com objetivo exploratório e empregou-se a pesquisa bibliográfica como instrumento. O número de trabalhos retornados foi baixo, sendo que a maior parte deles tratava do ensino médio. Ainda, foi possível observar que em alguns deles o vídeo é utilizado para promover a alfabetização científica e educação midiática, enquanto em outros, apesar do contexto favorável, não ficou tão evidente."
+ },
+ {
+  "id": "C58",
+  "title": "Social Networking and Misinformation Challenges: Moroccan Students in Tertirary Education as a Case Study",
+  "year": 2023,
+  "venue": "European Scientific Journal ESJ",
+  "abstract": "This paper focuses on examining how Moroccan university students approach the various social networking sites, including their self-perceived capacities to critically analyze and evaluate digital content in general and online news and information more specifically. The paper poses several research questions that all aim to investigate the issue under examination. This empirical endeavor used the survey as a research instrument to gather data, and presented a number of conclusions and recommendations for the Moroccan policy makers, stakeholders, and all concerned parties. The study further reported that most respondents advance by critically evaluating social media content and largely deploying various efficient verification measures and techniques. In the same vein, the majority of respondents highly rated their digital media perceived self-efficacy. Almost two thirds of the participants postulate that higher educational institutions should incorporate digital literacy skills in their curricula and syllabi."
+ },
+ {
+  "id": "C59",
+  "title": "Desafios de universitários autistas: Da inclusão e adaptação ao adoecimento no ensino superior uma revisão de literatura",
+  "year": 2025,
+  "venue": "Cuadernos de Educación y Desarrollo",
+  "abstract": "O ingresso no ensino superior exige dos discentes inúmeras adaptações, sejam elas acadêmicas, sociais ou comportamentais. Para jovens autistas essas adaptações podem ser ainda mais desafiadoras em função das particularidades do autismo, bem como dificuldades de inclusão e adequações por parte das instituições de ensino. O presente trabalho teve como objetivo investigar, a partir de uma revisão de literatura, os principais desafios de autistas para inclusão e adaptação no ambiente acadêmico, tal como fontes de adoecimento no ensino superior. A partir do levantamento de dados e seleção dos materiais, analisou-se as principais considerações sobre a inserção de jovens autistas no ensino superior e os principais desafios de inclusão de discentes autistas. Os resultados indicam um aumento na presença de estudantes autistas no ensino superior, impulsionado por políticas de inclusão, avanços na detecção precoce e maior acesso à educação básica, contudo, persiste a baixa representatividade desses estudantes e a prevalência de desafios significativos para sua permanência e sucesso acadêmico. Dessa forma, evidencia-se a necessidade de não somente maiores estudos na área, mas especialmente maiores movimentos de inclusão e adaptação por partes das universidades para receber estudante autistas e contribuir para sua permanência e conclusão no ensino superior."
+ },
+ {
+  "id": "C60",
+  "title": "Past, present and future of information literacy in Latin America",
+  "year": 2024,
+  "venue": "Journal of Information Literacy",
+  "abstract": "This article synthesised the origin, evolution, current state, and future trends of information literacy (IL) in Latin America. This study employed a quantitative and qualitative review of documents published by Latin American authors to map out IL's development in the region, which was structured around four pivotal moments: 1) beginnings (1997-2007), marking the initial phase of IL's introduction and early development in Latin America, characterised by foundational texts and the organisation of critical events that set the stage for IL's growth in the region; 2) advances-positioning (2008-2019) pre-pandemic, it reflects a period of significant growth and establishment of IL, with the emergence of digital platforms, the creation of regional declarations, and the integration of IL into educational curricula, indicating a broader acceptance and institutionalisation of IL practices; 3) main trends (2020-2023), it focuses on the adaptation and innovation in IL practices influenced by the COVID-19 pandemic, highlighting the shift toward critical thinking, addressing misinformation, and integrating IL with other competencies in response to digital advancements; and 4) some perspectives (2024-…), which includes future directions for IL in Latin America, emphasising the need to adapt IL training to new technological realities such as generative artificial intelligence, and proposing IL as a dynamic research area poised for further integration with global educational and societal goals. The article emphasises the necessity of IL's continuous evolution in Latin America, advocating for its adaptation to technological advancements and its critical role in promoting informed citizenship and lifelong learning. Through the lens of these moments, the study offers a comprehensive overv"
+ },
+ {
+  "id": "C61",
+  "title": "A Review on Usage of Digital Health Literacy to Combat Antibiotic Misuse and Misinformation in Nigeria",
+  "year": 2025,
+  "venue": "Journal of Pharma Insights and Research.",
+  "abstract": "Nigeria faces a critical public health challenge due to widespread antibiotic misuse, driven by misinformation and inadequate digital health literacy. The proliferation of social media platforms, online health forums, and unregulated digital pharmacies has created an environment where inaccurate health information spreads rapidly, leading to dangerous self-medication practices. Many Nigerians struggle to differentiate between credible medical sources and misleading online content, particularly regarding antibiotic use for viral infections. While digital platforms contribute to misinformation, they also present opportunities for effective health education when properly regulated. Mobile health applications, e-pharmacies, and social media channels can serve as valuable tools for promoting responsible antibiotic use. National eHealth initiatives, partnerships with social media companies, healthcare professional engagement, and culturally adapted education programs offer promising strategies to enhance digital health literacy. However, significant barriers persist, including limited internet access, language diversity, economic constraints, and distrust in formal healthcare systems. It is essential to overcome these challenges through policy reforms, digital inclusion programs, and educational curricula. Strengthening digital health literacy empowers individuals to evaluate online health information critically, reduce antibiotic misuse, and mitigate the growing threat of antimicrobial resistance in Nigeria"
+ },
+ {
+  "id": "C62",
+  "title": "Information reliability: criteria to identify misinformation in the digital environment",
+  "year": 2020,
+  "venue": "Investigación Bibliotecológica Archivonomía Bibliotecología e Información",
+  "abstract": "El artículo presenta criterios de fiabilidad informativa para identificar la desinformación y sus representaciones (fake news, posverdad, hechos alternativos, deepfake) en el escenario actual caracterizado por el entorno digital. Contextualiza los conceptos de lectura crítica y pensamiento crítico, que son esenciales en la formulación conceptual de la fiabilidad informativa. A partir de ahí, elabora sus criterios para verificar la fiabilidad de las informaciones difundidas en la web. Utiliza para ello los criterios de evaluación de las fuentes de información desarrollados por Tomaél, Alcará y Silva (2008), el análisis crítico de argumentos de Carraher (1983), el concepto de informatividad y el mapa de conceptos informativos de Floridi (2010 y 2011). El artículo concluye que los criterios pueden auxiliar en acciones de combate a la desinformación y estimular procesos de lectura y pensamiento crítico en el individuo, pero que no sean una solución final dirigida a este objetivo."
+ },
+ {
+  "id": "C63",
+  "title": "Misinformation about Sunscreens on Brazilian Social Networks: A Risk to Public Health",
+  "year": 2024,
+  "venue": "Trends in Medical Research",
+  "abstract": "This study examines the pervasive issue of misinformation about sunscreens on Brazilian social networks and its implications for public health.Despite the well-established effectiveness of sunscreens in preventing skin cancer, a growing wave of false information has been spreading across platforms like Instagram, Facebook and TikTok.This misinformation ranges from claims that sunscreens are ineffective to assertions that they are harmful and could even cause cancer.Such narratives are particularly dangerous in Brazil, where skin cancer is the most prevalent form of cancer due to the country's high levels of ultraviolet (UV) radiation.The study aims to understand the origins and impact of these misleading messages, with a focus on the role of health professionals who, rather alarmingly, contribute to the dissemination of these falsehoods.Through a qualitative analysis of social media content, scientific literature and public health reports, this research identifies the key sources of misinformation and examines their potential to influence public behavior.The findings reveal that misinformation is often driven by conspiracy theories and a lack of scientific literacy among both the public and some health professionals.The study also highlights the critical need for enhanced media literacy education and stricter regulations on the dissemination of health-related content on digital platforms.The author argues that combating this misinformation is essential for maintaining public trust in evidence-based medicine and for ensuring that effective preventive measures, like sunscreen use, are widely adopted.The research concludes by advocating for international collaboration and robust public health campaigns to counteract the spread of harmful misinformation and protect public h"
+ },
+ {
+  "id": "C64",
+  "title": "Literacia Midiática e o Combate à Desinformação",
+  "year": 2025,
+  "venue": "Revista ECO-Pós",
+  "abstract": "Os desafios sociais tais como as mudanças climáticas, a sobrecarga de sistemas de saúde, as disparidades de acesso à educação, a precarização do trabalho, entre outros, são agravados pela desinformação, que compromete a interpretação dos fatos e a tomada de decisões. Esta investigação propõe um estudo comparativo entre Brasil e Portugal, realizado por meio de revisão integrativa da literatura, a fim de compreender o conceito de literacia midiática, analisando iniciativas para minimizar as implicações da desinformação, um dos maiores desafios sociais da atualidade. Os resultados mostram diversidade nas estratégias e recursos utilizados, destacando um consenso: apenas uma postura crítica torna a sociedade mais resistente às manipulações que favorecem interesses ilegítimos."
+ },
+ {
+  "id": "C65",
+  "title": "EDUCAÇÃO DIGITAL E ALFABETIZAÇÃO MIDIÁTICA COMO FERRAMENTAS DE COMBATE AO DISCURSO DE ÓDIO",
+  "year": 2025,
+  "venue": "Revista Ibero-Americana de Humanidades, Ciências e Educação",
+  "abstract": "O artigo analisa o potencial da educação digital e da alfabetização midiática e informacional (AMI) como ferramentas estratégicas para o combate à proliferação do discurso de ódio no ambiente online. Inicialmente, contextualiza-se o discurso de ódio na era digital, destacando como a velocidade de disseminação, o anonimato e a arquitetura algorítmica das redes sociais amplificam narrativas de intolerância, causando impactos psicológicos, sociais e democráticos. Em seguida, o texto define a educação digital como o desenvolvimento de competências para o uso crítico e responsável das tecnologias, e a AMI como o conjunto de habilidades para acessar, analisar, avaliar e criar conteúdo de forma consciente. Argumenta-se que, ao contrário de medidas puramente punitivas, essas abordagens educacionais atuam de forma preventiva, capacitando os cidadãos a identificar e resistir a conteúdos odiosos, desinformação e manipulação. O artigo explora a implementação de programas de educação digital e AMI em diversas esferas, como escolas, universidades e sociedade civil, apontando para a importância de políticas públicas robustas para superar desafios como a falta de infraestrutura e a formação de educadores. Conclui-se que o investimento nessas áreas é fundamental para fortalecer a resiliência dos indivíduos e construir uma internet mais segura, inclusiva e democrática."
+ },
+ {
+  "id": "C66",
+  "title": "A Brief Overview of Literacy Studies and Education in Brazil",
+  "year": 2018,
+  "venue": "International Journal of Transmedia Literacy (IJTL)",
+  "abstract": "In this paper, we present a brief overview of literacy and multiliteracies studies in Brazil, in particular research dealing with the relationships among reading, text production, multimodality, media and education. We also present comments on the results of recent research on literacy skills of the Brazilian population, such as the National Indicator of Functional Literacy and the National Examination of Secondary Education. We conclude arguing that those who work in Brazilian education and literacy practices still have a long way to go until they manage successful practices to improve and foster literacy widely."
+ },
+ {
+  "id": "C67",
+  "title": "LEITURA CRÍTICA E COMBATE À DESINFORMAÇÃO: PRÁTICAS DE ANÁLISE DE FAKE NEWS NO ENSINO MÉDIO",
+  "year": 2025,
+  "venue": "INTERNATIONAL INTEGRALIZE SCIENTIFIC",
+  "abstract": "O presente artigo aborda as práticas pedagógicas voltadas ao desenvolvimento da leitura crítica e à análise de fake news no Ensino Médio, à luz da crescente propagação da desinformação entre jovens em idade escolar. O objetivo foi investigar, por meio de uma revisão bibliográfica sistemática, quais estratégias têm sido adotadas em redes públicas de ensino para promover a consciência crítica e a autonomia interpretativa dos estudantes diante de conteúdos manipuladores. A metodologia adotada fundamentou-se em uma abordagem qualitativa, com análise de 17 obras publicadas entre 2022 e 2025, extraídas de periódicos indexados e documentos institucionais. Os resultados demonstraram que oficinas temáticas, sequências didáticas interdisciplinares e o uso de ferramentas digitais interativas têm se mostrado eficazes na formação de sujeitos críticos e conscientes. Observou-se também que a integração da educação midiática ao currículo e a formação docente continuada são fatores determinantes para o enfrentamento da desinformação na escola. Conclui-se que o desenvolvimento da leitura crítica, aliado à educação midiática, fortalece a cidadania, promove o pensamento reflexivo e prepara os estudantes para o uso ético da informação no contexto digital."
+ },
+ {
+  "id": "C68",
+  "title": "Os desafios jurídicos da limitação da liberdade de expressão nas redes sociais frente à disseminação de fake news no Brasil The legal challenges of limiting free speech on social media amidst the spread of fake news in Brazil",
+  "year": 2025,
+  "venue": "RCMOS - Revista Científica Multidisciplinar O Saber",
+  "abstract": "This work analyzes the legal challenges related to limiting freedom of expression on social media in the face of the dissemination of fake news in Brazil, a relevant and current topic in the context of digital expansion and the debate on internet regulation. The study aims to understand how it is possible to reconcile the protection of the essential core of freedom of expression with the need to combat disinformation in the digital environment, in light of the jurisprudence of the Supreme Federal Court and Bill No. 2,630/2020. To this end, a qualitative, deductive approach was adopted, based on bibliographic and documentary research, drawing on doctrine, scientific articles, the 1988 Federal Constitution, Bill No. 2,630/2020, and the jurisprudence of the Supreme Federal Court, with the purpose of constructing a critical and well-founded reflection on the legal challenges involved. It was found that freedom of expression, although broadly guaranteed by the Constitution, is not absolute, allowing restrictions when necessary to protect other fundamental rights and democratic values. These restrictions are fundamental to reducing the danger to social stability. It is concluded that the fight against fake news must occur through mechanisms of subsequent accountability, capable of ensuring the free debate of ideas, avoiding prior censorship, and strengthening democracy."
+ },
+ {
+  "id": "C69",
+  "title": "A urgência da educação midiática na era da desinformação: um estudo de caso na periferia paulistana",
+  "year": 2024,
+  "venue": "MLS Communication journal.",
+  "abstract": "Este estudo investiga a urgência da integração da educação midiática na capacitação profissional de jovens e adultos em contextos periféricos, utilizando o Centro Municipal de Capacitação e Treinamento (CMCT) do Itaim Paulista como estudo de caso, onde buscou não apenas identificar as lacunas de conhecimento e habilidades em relação à mídia e informação, mas também propor estratégias para o desenvolvimento de um curso de qualificação em educação midiática adaptado às necessidades locais. A pesquisa emprega uma metodologia qualitativa, incluindo grupos focais com 21 participantes, observação participante e análise documental. Os resultados revelam lacunas na alfabetização midiática, com dependência excessiva da autoridade da fonte para avaliar a credibilidade das informações. Contudo, há um alto interesse (91% dos participantes) em educação midiática, onde na discussão enfatizamos a urgência da educação midiática. O estudo conclui propondo a implementação de um curso de qualificação em educação midiática adaptado às necessidades locais, visando promover cidadania digital ativa e combater a desinformação. Recomenda-se a implantação de um curso de qualificação profissional em educação midiática, que não apenas ensine práticas de produção de mídia, mas também técnicas de fact-checking e a construção de uma dieta midiática melhor balanceada, bem como a formação de educadores e parcerias institucionais para enfrentar os desafios identificados e capitalizar o interesse demonstrado pelos participantes."
+ },
+ {
+  "id": "C70",
+  "title": "A EDUCAÇÃO MIDIÁTICA E O COMBATE AS FAKE NEWS",
+  "year": 2022,
+  "venue": "Revista Ibero-Americana de Humanidades, Ciências e Educação",
+  "abstract": "O presente artigo analisa e descreve a influência das competências midiáticas com habilidade de identificar as “Fake News”. Enfatiza o quanto é primordial compreender o grande impacto que as famosas notícias falsas estão desencadeando nos tempos atuais. Além disso, destaca que o docente ainda deve desenvolver uma prática pedagógica voltada para a alfabetização midiática, com o propósito de combater qualquer tipo de notícia inverídica. Diante disso, esta pesquisa tem como objetivo apresentar as possibilidades para que os estudantes desenvolvam um senso crítico de modo a analisar todas as informações que o cercam. Metodologicamente está pesquisa desenvolveu-se por meio da pesquisa bibliográfica com abordagem qualitativa e exploratória, a partir de Faustino (2010), Rais (2020), Rodrigues (2022) e Valente (2014), foi possível concluir a importância da educação midiática para o combate da desinformação sendo necessário avaliar todas as informações antes de compartilhar, bem como refletir sobre o impacto que tais “fake News” ocasionam."
+ },
+ {
+  "id": "C71",
+  "title": "A escola com um olhar voltado para a educação midiática: reflexão sobre as fake news",
+  "year": 2022,
+  "venue": "Educationis",
+  "abstract": "O presente artigo descreve e analisa a influência das competências midiáticas com habilidade de analisar e identificar as fake news. Destaca o quanto é primordial compreender o grande impacto que as famosas notícias falsas vêm desencadeando nos tempos atuais. Enfatiza que o docente ainda deve desenvolver uma prática pedagógica voltada para a alfabetização midiática, com a finalidade de combater qualquer tipo de notícia inverídica."
+ },
+ {
+  "id": "C72",
+  "title": "EDUCAÇÃO MIDIÁTICA: o combate à pós-verdade e à desinformação no tráfico de mulheres e meninas",
+  "year": 2020,
+  "venue": "Revista Observatório",
+  "abstract": "Análises de dados e reflexões discursivas e metodológicas, nos campos da Comunicação Social e da Educação, sob a ótica dos estudos feministas e de gênero, pela alfabetização midiática para a cidadania sensibilizada no combate ao tráfico de mulheres e meninas. Questionar a violência de gênero na desinformação, falsas notícias (fake news), pós-verdades, e intenções maliciosas. Alfabetização midiática, co-educação e conscientização coletiva funcionam como estratégias de ação no combate ao tráfico de (jovens) mulheres, que atinge graus alarmantes no século 21, inclusive, durante a pandemia mundial do COVID-19.&#x0D; PALAVRAS-CHAVE: Mídia; Educação; Tráfico; Mulheres; Pós-Verdade."
+ },
+ {
+  "id": "C73",
+  "title": "On Fact-Checking Service: Artificial Intelligence’s Uses in Ibero-American Fact-Checkers",
+  "year": 2025,
+  "venue": "Social Sciences",
+  "abstract": "To fight disinformation, fact-checking initiatives have used artificial intelligence tools as part of the investigation process, whether to monitor false narratives, to assist in the construction of content, or to allocate verifications more effectively. In this theoretical and empirical study, in-depth interviews were conducted with representatives of four fact-checking organizations: Polígrafo (Portugal), Chequeado (Argentina), Maldita (Spain), and Aletheia (Brazil). Our aim was to find out how they use AI in the fact-checking process, and it was concluded that each organization uses these technologies to respond to specific needs. This is why different levels of use were identified, from tooling (simple) to disruptive (advanced), which are related to their human structure and economic situation. The most developed Ibero-American organizations are on a par with their global counterparts."
+ },
+ {
+  "id": "C74",
+  "title": "Chaos creator",
+  "year": 2024,
+  "venue": "Journal of Information Literacy",
+  "abstract": "Combating the spread of misinformation is a struggle that has inspired considerable research in the fields of psychology, education, political science, and information science, among others. Such research has found that “prebunking” or “inoculation” techniques—strategies that reduce the acceptance of misinformation before one has encountered it—have had marked success. However, there is little evidence that librarians are deliberately employing inoculation techniques in their information literacy (IL) instruction. Via a quasi-experimental study, this research explores the effect of prebunking techniques in an IL instruction session on undergraduate students’ ability to recognise misinformation. The prebunking techniques are delivered through a competitive game called Chaos Creator, based on the Bad News game developed by researchers at Cambridge University. Results of the study show that misinformation inoculation techniques are more effective than the popular source evaluation tool, the CRAP test, in helping students identify misinformation. However, misinformation inoculation techniques can backfire, causing students to become overly sceptical of trustworthy messages."
+ },
+ {
+  "id": "C75",
+  "title": "JOURNALISM AND FACT-CHECKING: typification of sources used for checking and criteria for selecting fact-checked material – an analysis by Agência Lupa and Aos Fatos",
+  "year": 2020,
+  "venue": "Brazilian Journalism Research",
+  "abstract": "Fact-checking was initially used to verify the factuality of information given by political agents. However, the proliferation of false information on social networks and concerns about the political use of spreading lies have led to fact-checking methodologies also being used to combat fake news. In terms of a cognitive and behavioral approach, Lazer et al. (2018) suggest there are some doubts as to how effective this methodology is. This article analyzes the performance of two Brazilian checking agencies, Aos Fatos and Agência Lupa. We demonstrate that, although checking discourse is directly related to the credibility of organizations, the agencies themselves do not lay out the criteria for selecting what is to be checked. The platforms that use this form of fact-checking mainly rely on data and studies provided by official sources and public institutions, once again compromising the credibility of the process.A prática de fact-checking foi iniciada para verificar a factualidade das informações nos discursos de agentes políticos. Mas a proliferação de informações falsas nas redes sociais da internet, e a preocupação com a disseminação de mentiras como instrumento político, fez com que as metodologias de fact-checking também fossem utilizadas para combater fake news. Levando em consideração uma abordagem cognitiva e comportamental, Lazer et al. (2018) alertam que existem dúvidas quanto à eficácia dessa utilização. Esse artigo analisa a atuação de duas agências brasileiras de checagem, Aos Fatos e Agência Lupa. Demonstramos que, apesar da checagem de discursos ter relação direta com a credibilidade das organizações, as próprias agências não explicitam os critérios que orientam a seleção do que é checado. E que nessa modalidade de checagem, as plataformas de fact-checki"
+ },
+ {
+  "id": "C76",
+  "title": "DESINFORMAÇÃO E LITERACIA MIDIÁTICA DISINFORMATION AND MEDIA LITERACY DESINFORMACIÓN Y ALFABETIZACIÓN MEDIÁTICA",
+  "year": 2024,
+  "venue": "Revista Ibero-Americana de Humanidades, Ciências e Educação",
+  "abstract": "Literacia midiática é a área de pesquisa associada ao debate acadêmico e à intervenção social que incorpora elementos de alfabetização midiática, visando o estímulo ao pensamento crítico. Seu objetivo é oferecer reflexões e instrumentos para que cidadãos possam interpretar e produzir informações e conhecimento de forma crítica e ética. Esta pesquisa visa avaliar os níveis de literacia de um grupo de alunos e professores de Minas Gerais (MG). Um questionário online de múltipla escolha foi utilizado para coleta de dados. Correlações significativas foram encontradas entre literacia midiática e Fake News, “fonte confiável” e “informação confiável”. As mídias preferidas foram X-Twitter, Instagram e YouTube. Quanto à identificação de notícias falsas, temas científicos, como vacinação, mudança climática e efeito estufa tiveram maior destaque. As questões levantadas nesta pesquisa se relacionam à importância da literacia midiática, não apenas como antídoto ao vírus das Fake News, mas como forma de desenvolver o pensamento crítico em alunos e professores. Isto significa dizer que a educação crítica midiática transcende a mera habilitação em Tecnologias da Informação e Comunicação, envolvendo a identificação de conteúdo falso, a avaliação de notícias tendenciosas e a confiabilidade das informações veiculadas nas redes sociais."
+ },
+ {
+  "id": "C77",
+  "title": "The Relationship between Media Literacy, Information Literacy, and the Ability to Recognize Political Misinformation in High School Students",
+  "year": 2025,
+  "venue": "Mimbar Ilmu",
+  "abstract": "The rapid flow of political information on social media has made it increasingly difficult to control the spread of misinformation. This situation heightens students’ vulnerability to political misinformation due to limited critical thinking skills in evaluating the authenticity and accuracy of information sources. The uneven levels of media literacy, information literacy, and news literacy further weaken students’ capacity to assess and verify political content. This study aims to analyze the relationship and influence of media literacy, information literacy, and news literacy on high school students’ ability to recognize political misinformation. A quantitative approach using a survey method was applied to 100 high school students who actively access political content on social media platforms. A validated questionnaire was used to measure literacy levels and misinformation recognition ability. Data were analyzed using logistic regression to estimate the contribution of each literacy variable to the accuracy of misinformation identification. The findings reveal that all three types of literacy have a positive and significant effect on students’ ability to recognize political misinformation. The combined model substantially improved classification accuracy, confirming the essential role of integrated digital literacy in strengthening students’ cognitive resilience against misleading information. The implications highlight the need to integrate contextual digital literacy learning into the curriculum through authentic political case studies, fact-checking exercises, and school policies that promote an informed and responsible digital culture."
+ },
+ {
+  "id": "C78",
+  "title": "Redes sociais, política e desinformação: Uma análise da circulação de Fake News entre universitários brasileiros Social Networks, Politics, and Disinformation: An Analysis of the Circulation of Fake News among Brazilian University Students",
+  "year": 2025,
+  "venue": "RCMOS - Revista Científica Multidisciplinar O Saber",
+  "abstract": "This article examines the circulation of fake news among Brazilian university students, considering the role of social networks, political polarization, and contemporary dynamics of disinformation. Although they have higher levels of education and broad access to information, students are also exposed to algorithms that reinforce digital echo chambers and to the emotional appeal of conspiracy theories. The study adopts an exploratory-descriptive approach, combining a literature review with a survey conducted through snowball sampling. The questionnaire investigated informational habits, exposure to false content, self-reported sharing of misleading news, and adherence to conspiracy narratives. The results indicate strong dependence on social networks as a primary source of news, distrust of traditional media, and the influence of factors such as political positioning and religiosity on the propensity to believe or disseminate disinformation. The study highlights the need to strengthen media literacy and critical information skills to confront disinformation within the university environment."
+ },
+ {
+  "id": "C79",
+  "title": "Cognitive diagnosis of media and digital literacy knowledge schema in Mexican high school students",
+  "year": 2025,
+  "venue": "Journal of Media Literacy Education",
+  "abstract": "This research explored the mental representation of media and digital literacy (MDL) in 242 Mexican high school students through a definitional task based on the natural semantic networks technique. The participants defined ten target concepts related to MDL, using verbs, nouns, and adjectives as definers, and then they rated each definer with a scale from 1 to 10. The smaller the number, the lower the quality of the definer to conceptualize the target, while the higher the rating, the higher the quality of the definer to define it. The participants showed a beginner level in MDL despite their daily navigation through the media space and using some digital devices. These results suggest that simple exposure to information and media technologies does not guarantee the knowledge necessary to use them appropriately and with critical thinking, which points out the need to promote MDL programs in this population, which will empower students to use media and digital tools, with repercussions awareness that its use entails in their academic and social environment."
+ },
+ {
+  "id": "C80",
+  "title": "A Review: Situation Report on Media literacy, disinformation and misinformation in the English and Dutch Speaking Caribbean and the Action Plan for Combatting Disinformation",
+  "year": 2024,
+  "venue": "Journal of Latin American Communication Research",
+  "abstract": "This article analyzes the \"Situation Report on Media Literacy, Disinformation, and Misinformation in the Caribbean\" and the proposed action plan to combat disinformation in the region. The report, supported by UNESCO and developed by the Media Institute of the Caribbean (MIC) and the Association of Caribbean Media Workers (ACM), covers research conducted in eight Caribbean countries. The report highlights the region's challenges, the need for further research on media trust, and proposes collaborations between governments, media outlets, and civil organizations to promote media literacy. The action plan includes recommendations to improve journalism and strengthen public trust in the media."
+ },
+ {
+  "id": "C81",
+  "title": "Vaccination: a look at the social representations of Brazilian children",
+  "year": 2024,
+  "venue": "Frontiers in Public Health",
+  "abstract": "Introduction: The pandemic caused by COVID-19 has accentuated the debate on the need for vaccination and called into question the need to increasingly bring this topic, which is widely disseminated in the scientific world, to school classes at all schooling phases. In this scenario, science education plays a key role in disseminating knowledge about the importance of vaccination and the impacting factors of a lack of immunization. In order to better understand this movement, it is necessary to understand the representations of individuals as a way of broadening paths to change this scenario. Objectives: This study aimed to identify and analyse Brazilian primary school children's social representations of vaccination. Methods: Using the free word recall technique, the term \"vaccination\" was applied to evoke children's ideas. The analysis of co-occurrences of evocations permitted us to identify their representations' centrality. Results: The results showed that the centralizing elements guiding these children's social representations were \"needle,\" \"pain,\" and \"health center.\" Conclusion: These results show the need to prevent the phobia of needles that arises in the first vaccination experiences and reinforce the importance of discussing the subject of vaccination in science teaching. This issue is even more critical, given the spread and impact of \"fake news\" on social media. There is an increasing need to emphasize the importance of vaccination, not only as a factor of individual protection but also as a commitment to collective health. This study also showed that the school, as usual, must become an ally in tackling this reality with children and their families."
+ },
+ {
+  "id": "C82",
+  "title": "Stumble on information or misinformation? Examining the interplay of incidental news exposure, narcissism, and new media literacy in misinformation engagement",
+  "year": 2022,
+  "venue": "Internet Research",
+  "abstract": "Purpose In the current media landscape where misinformation circulation becomes a primary threat to public health and society's intellectual well-being, incidental news exposure's role in influencing misperceptions and misinformation engagement remains under-explored. Moreover, less is known regarding how and to what extent personal factors such as personality and media literacy may drive the sharing of misinformation. Design/methodology/approach Under the theoretical guidance of the stimulus-organism-response (S-O-R) model, the authors surveyed 546 college students aged 18 and above to explore the relationship between incidental news exposure and misinformation sharing. Findings Findings buttressed the hypothesized relationship built on the S-O-R model and revealed a path from incidental online news exposure to misinformation sharing, mediated by misperceptions. The mediated path was further moderated by narcissism and media literacy. Specifically, narcissists have higher misperceptions when they encounter online news more often; higher misperceptions in turn give rise to greater misinformation sharing behaviors. The ability to critically consume new media information only decreases misinformation sharing behavior for narcissists with lower misperceptions. Originality/value Guided by the S-O-R framework, this study takes the first step in examining the link between incidental news exposure and misinformation sharing and accounts for the moderating influences of personality and media literacy factors. Findings provide a theoretical foundation and practical implications for future interventions to combat misinformation."
+ },
+ {
+  "id": "C83",
+  "title": "Roles of journalists in media literacy initiatives: trainees and trainers. Continuity, collaboration, and sustainability of media literacy trainings to mitigate disinformation in Portugal",
+  "year": 2023,
+  "venue": "El Profesional de la información",
+  "abstract": "This paper aims to foster the debate on Media Literacy (ML) projects with a focus on disinformation. We analyse initiatives carried out locally in Portugal, considering the principles of ML, the necessary development of skills and competences, as well as the importance of the journalistic action and the consequences of platformization on professional practices. Mixed methods are applied to collect and analyse quali-quantitative data from ML projects and trainings involving multiple stakeholders. Inquiring three independent samples (editors-in-chief, journalists trained in ML, teachers trained by journalists in ML) the research questions address the importance of journalists’ participation in ML within different roles, as well as the training quality and projects’ assessment. Findings show a lack of specialised knowledge, practical tools, and continuous training as well the need for more tailor-made programs and evaluation resources that allow for the creation and promotion of more effective ML training programs. This contribution is therefore two-folded: a) it aims to enhance the operational aspects of media training in the field, based on a continuous improvement logic and b) it explores a specific evaluative example on how the feedback from training can help improve research efforts in the media literacy field. Conclusions systematise the assumptions, stemming from an articulation of ML stakeholders’ perspectives, that guide the implementation, improvement, and assessment of training: collaboration, continuity, and sustainability. These inductive categories allow for the development of theoretical-practical dimensions of the processes for evaluating innovative training against disinformation which may in turn have an inoculation role in the wider public sphere. We sug"
+ },
+ {
+  "id": "C84",
+  "title": "Social Media Literacy and Misinformation: The Significance of Consuming Reliable Information in Relation to Shopper Buying Behavior",
+  "year": 2022,
+  "venue": "KINFORMS",
+  "abstract": "Social media marketing is vital, and it is among the best devices and strategies in each promotion. Social media has provided opportunities to engage in social interaction on the internet. With the rise of social media, shoppers can easily share, know, and access information everywhere. However, there is a lack of studies here in the Philippines on how social media literacy and misinformation affect the shoppers' online buying behavior, specifically on a Facebook platform. This paper aims to identify how Filipino online shoppers differ between the online shops they will trust and the shops they will not count. It also determines how shoppers' reviews help potential shoppers to trust a particular online shop. The study used a quantitative method to investigate the relationship between variables that can be measured using statistical methods to test theories. In particular, the descriptive-correlational design has been utilized to test the relationship of variables. The researchers have identified the factors that influence or affect the shoppers’ buying behavior. The results revealed that social media literacy, credibility, misinformation, and product knowledge significantly impact shoppers’ buying behavior. Among all the variables, credibility was found to be positively associated with the shoppers’ buying behavior. The regression result indicates that respondents are less likely to engage in online shopping the more critical or discerning they are towards the information they are finding online. Whereas aspects like social media literacy and product knowledge may encourage respondents to make purchases online, discernment towards the credibility of information is a negative force - urging respondents to reconsider their decision to purchase something rather than encour"
+ },
+ {
+  "id": "C85",
+  "title": "A Thai Junior High School Students’ 21st Century Information Literacy, Media Literacy, and ICT Literacy Skills Factor Analysis",
+  "year": 2018,
+  "venue": "International Journal of Emerging Technologies in Learning (iJET)",
+  "abstract": "As Thailand moves through the 21st Century, the education system and resultant labour force must be prepared for the rapid changes in Thailand’s society, culture, politics, economy, and technologies. Previously, the 21st century framework has identified crucial elements to their future success as information literacy, media literacy, and information and communication technology (ICT) literacy skills. Given this priority, by use of multistage clustering sampling, 600 Thai junior high school students were selected, from which a five-level, 73-item Likert type agreement scale questionnaire was used to collect data from October 2017 to December 2017. The analysis of the student’s skills in information literacy, media literacy, and ICT literacy was conducted with the use of SPSS Version 24 and mean (¯(x )), standard deviation (S.D.), the Kaiser-Meyer-Olkin (KMO) test, and Bartlett's test of sphericity for analysis. Furthermore, a second-order confirmatory factor analysis was undertaken in which AMOS Version 24 software was used. Based on the second order CFA, it was found that the Information, Media and Technology Skills (IMTS) model was composed of three components that corresponded to the empirical data, with the most important element being ICT literacy, followed by media literacy, and finally, information literacy."
+ },
+ {
+  "id": "C86",
+  "title": "Fake news pra quê? FAKE NEWS FOR WHAT? PERFORMANCE OF THE SCHOOL LIBRARY IN THE PROJECT TO COMBAT FAKE NEWS",
+  "year": 2024,
+  "venue": "BIBLOS",
+  "abstract": "A pesquisa consiste em apresentar o resultado da aplicação do projeto “Fake News pra quê?” realizado com alunos do 8º ano de uma escola básica municipal da cidade de Biguaçu, estado de Santa Catarina. O projeto, elaborado pela bibliotecária da escola, autora deste artigo, foi implementado em parceria com a professora de português da escola. Neste sentido o artigo demonstra o papel do bibliotecário escolar no enfrentamento às fake news. O projeto aconteceu em 8 (oito) etapas, correspondentes a oito aulas, nas quais a bibliotecária teve participação ativa nas discussões e nos momentos de pesquisa. Finalizado o projeto, foi possível observar o comprometimento e interesse dos alunos pela temática apresentada e ao realizar as atividades propostas. O projeto proporcionou aos alunos o contato com informações falsas e suas consequências, permitiu a leitura e escrita e ainda trabalhou a competência em informação dos alunos."
+ },
+ {
+  "id": "C87",
+  "title": "Using misinformation as a political weapon: COVID-19 and Bolsonaro in Brazil",
+  "year": 2020,
+  "venue": "Harvard Kennedy School Misinformation Review",
+  "abstract": "With over 30,000 confirmed cases, Brazil is currently the country most affected by COVID-19 in Latin America, and ranked 12th worldwide (John Hopkins University &amp; Medicine, 2020). Despite all evidence, a strong rhetoric undermining risks associated to COVID-19 has been endorsed at the highest levels of the Brazilian government, making President Jair Bolsonaro the leader of the “coronavirus-denial movement” (Friedman, 2020. To support this strategy, different forms of misinformation and disinformation2 have been leveraged to lead a dangerous crusade against scientific and evidence-based recommendations (Ireton &amp; Posetti, 2018)."
+ },
+ {
+  "id": "C88",
+  "title": "Fostering Artificial Intelligence to Face Misinformation: Discourses and Practices of Automated Fact-Checking in Brazil",
+  "year": 2023,
+  "venue": "Journalism &amp; Mass Communication Quarterly",
+  "abstract": "This article examines the advancement of automated fact-checking in Brazil and investigates how artificial intelligence (AI) products shape publishers’ discourses and practices. First, it maps the field to identify how it has evolved throughout the years. Next, it draws on 30 official statements published by journalists and their tech partners, and seven semi-structured interviews with representatives from five websites. This article shows an emerging automation landscape in the Brazilian fact-checking venture supported by the tech industry. Nonetheless, AI has challenged fact-checkers’ authority and increased the technologists’ influence over journalism."
+ },
+ {
+  "id": "C89",
+  "title": "AI-Generated Misinformation: A Case Study on Emerging Trends in Fact-Checking Practices Across Brazil, Germany, and the United Kingdom",
+  "year": 2025,
+  "venue": "Emerging Media",
+  "abstract": "Given the rapid rise of (generative) artificial intelligence (AI) and the global proliferation of AI-generated misinformation, research on how deceptive narratives are created, disseminated, and addressed has become increasingly urgent. This case study investigates emerging trends in fact-checking practices related to AI-generated misinformation across Brazil, Germany, and the United Kingdom. Adopting a mixed-methods approach that combines a quantitative content analysis of 136 verification articles (2023–2024) and 13 expert interviews, this study (1) maps emerging trends in AI-generated misinformation, (2) examines current detection methods and debunking strategies employed by fact-checkers, and (3) explores how fact-checkers assess the spread of AI-generated misinformation and respond to its challenges. While the overall scope of verified AI-generated misinformation remains limited, the findings underscore its growing potential to disrupt the information ecosystem. The results revealed notable country-specific variations in topics, targets, intentions, AI elements, generative models, detection methods, and debunking strategies."
+ },
+ {
+  "id": "C90",
+  "title": "LETRAMENTO MIDIÁTICO E INFORMACIONAL NAS AULAS DE LÍNGUA PORTUGUESA",
+  "year": 2025,
+  "venue": "Convergências estudos em Humanidades Digitais",
+  "abstract": "Nesta pesquisa, refletimos sobre metodologias pautadas no letramento midiático e informacional (LMI) e o desenvolvimento de um novo ethos nos estudantes do Ensino Médio, a partir dos estudos de Koch (2017), Han (2020), Lankshear e Knobel (2007), Lopes (2012), Melo e França-Carvalho (2019). Adotamos a metodologia da Análise de Conteúdo (Bardin, 2016) e nos baseamos no estudo proposto por Costa (2021), para definirmos nossas categorias de análise. Analisamos as 15 atividades do Guia da Educ-ação Midiática (Ferrari et al., 2020), buscando estabelecer relação entre as concepções de Letramento Digital e o LMI. O resultado da análise demonstrou que tais atividades estão comprometidas com o desenvolvimento do LMI, à medida que 70% das atividades propostas evidenciaram a concepção de LD quanto à reflexão."
+ },
+ {
+  "id": "C91",
+  "title": "Alfabetização midiática",
+  "year": 2025,
+  "venue": "Revista ECO-Pós",
+  "abstract": "Este artigo objetiva realizar uma revisão sistemática da literatura (RSL) de trabalhos publicados de 2016 até 07/02/2025 acerca da Alfabetização Midiática (AM). Utilizou-se bases de dados “Portal de Periódicos da CAPES” e “SciELO” e o descritor “alfabetização midiática”. Com base nos critérios de exclusão e inclusão, foram selecionados nove artigos para a RSL. As análises apontam como enfoques dos estudos: a importância para a formação dos professores, o consumo consciente de mídia, o combate à desinformação, o exercício da cidadania e a leitura feminista da mídia. E o uso dos termos AM e alfabetização midiática e informacional (AMI) com sentidos quase parecidos para abranger todas as dimensões da mídia. Os resultados destacam a importância da AM para a formação de cidadãos críticos e participativos na sociedade mediada pela mídia e a necessidade do esforço conjunto de diferentes atores sociais para a implementação da AM no contexto escolar ou não."
+ },
+ {
+  "id": "C92",
+  "title": "Fake news no WhatsApp: um estudo da percepção dos efeitos em terceiros",
+  "year": 2020,
+  "venue": "Comunicação & Sociedade",
+  "abstract": "Apresenta a relação entre a percepção de um usuário da informação sobre sua competência informacional e sua percepção sobre o compartilhamento de fake news no WhatsApp. Os dados foram coletados por meio de questionário on-line, com um grupo de estudantes de uma especialização em letramento informacional e uma amostra geral. A percepção individual sobre o próprio comportamento informacional está positivamente relacionada à confiança da mídia, e não à sua competência informacional. Os participantes percebem que outras pessoas são mais suscetíveis a ser influenciadas e compartilhar fake news que eles mesmos – família, amigos, colegas e os brasileiros em geral. Eles percebem que o compartilhamento de fake news no WhatsApp é muito prejudicial e não consideram que quem compartilha desinformação o faz por querer, mas sim, por falta de competências em informação. Não se identificou ações corretivas. Embora os participantes digam preocupar-se com os efeitos do compartilhamento das fake news no WhatsApp e tomar atitudes para os combater, não é possível identificar, de fato, estas ações. Conclui-se que os participantes parecem considerar que quem compartilha conteúdos falsos é vítima e não tem interesse na circulação de informações falsas. Por último, os participantes desconsideram a economia das fake news, os mecanismos que permitem sua reprodução e a dimensão técnica da circulação da informação – o modo como algoritmos reestruturam o fluxo de informações na internet, a existência de bots, dentre outros."
+ },
+ {
+  "id": "C93",
+  "title": "Perceptions of University Students in Communication about Disinformation:",
+  "year": 2024,
+  "venue": "Observatorio (OBS*)",
+  "abstract": "This exploratory research is framed in the context of information disorders and its main objective is to identify the perception of Communication students in Brazil, Colombia and Spain about disinformation, their information consumption practices and aspects of their university education on media literacy. In order to carry out this study, an online survey was conducted between May and July 2023 in 23 higher education centers in the three countries, answered by 231 students. The main findings indicate that university students are aware of what fake news are and most of them know how to identify disinformative content, despite the fact that the development of the necessary skills for a critical reading of the media and the fight against disinformation takes place transversally in different subjects according to the students' perception, which shows the absence of a specific subject on media literacy in the curricula of the Communication degrees in the institutions assessed in the three countries."
+ },
+ {
+  "id": "C94",
+  "title": "ALFABETIZAÇÃO CIENTÍFICA, ALFABETIZAÇÃO MIDIÁTICA E ILHOTAS INTERDISCIPLINARES DE RACIONALIDADE: UMA VIVÊNCIA EM DIDÁTICA DAS CIÊNCIAS",
+  "year": 2022,
+  "venue": "Revista Vitruvian Cogitationes",
+  "abstract": "O presente artigo objetiva narrar, de forma descritiva e analítica, a vivência em uma oficina didática em que foi desenvolvida a estratégia teórico-metodológica, denominada Ilhota Interdisciplinar de Racionalidade, em uma disciplina de Didática das Ciências, de um curso de formação inicial de professores em Ciências Exatas. O desenvolvimento decorre da necessidade de formar professores com conhecimentos profissionais que lhes permitam atuar no contexto atual, de pandemia e pós-pandemia, em que notícias falsas, as fake news, desinformam as pessoas. Ao analisar, com um olhar qualitativo, os diários de campo de uma das licenciandas participantes, observou-se como a metodologia pode contribuir para a formação de professores e em prol da alfabetização científica e midiática na Educação em Ciências. As atividades foram realizadas de forma remota, utilizando plataformas virtuais para o desenvolvimento das atividades. Apesar das dificuldades e limitações do distanciamento social, infere-se que a prática metodológica permitiu o desenvolvimento de autonomia docente, reflexão didático - pedagógica e compreensões acerca das relações entre alfabetização científica e interdisciplinaridade."
+ },
+ {
+  "id": "C95",
+  "title": "COMPETÊNCIA EM INFORMAÇÃO",
+  "year": 2023,
+  "venue": "Código 31 .",
+  "abstract": "O texto apresenta uma breve reflexão a respeito da Competência em Informação como um ativo para uma sociedade em constante transformação digital. Para tanto discorreremos sobre seu breve histórico, para destacar sua importância de enfoque com o tempo e a partir de sua conceituação apresentamos o viés no qual consideramos que ela pode ser tida como um ativo para a sociedade contemporânea. Para concretizar esta proposta, metodologicamente, realizamos uma pesquisa aplicada e qualitativa, a partir da sua natureza e abordagem do problema. Do ponto de vista dos objetivos, realizamos uma pesquisa exploratória e, a partir dos seus procedimentos técnicos, empreendemos uma pesquisa bibliográfica, que embasa a discussão que discorremos a seguir. Concluímos ressaltando que ainda temos muito o que fazer relacionado as questões práticas da CoInfo, para que se efetive como um ativo, em especial estudos para vê-la como política pública no país."
+ },
+ {
+  "id": "C96",
+  "title": "Competência em Informação na Educação Profissional",
+  "year": 2021,
+  "venue": "Liinc em Revista",
+  "abstract": "The information literacy assessment is an essential instrument and uses standards, models and indicators to be successfully done. In Vocational Education and Training, authors like Santos (2017) and Oliveira and Silva (2018) affirms the validity of ACRL’s Information Literacy Competency Standards in the assessment of the future workers’ information literacy. In this context, this work aims assess the acquisition of Information Literacy of students graduating a technical course integrated to high school. It used a questionnaire with multiple choice questions oriented by the Conceptual Framework Oliveira e Silva (2020), applied to the group intended. It identified that the students believe in the fact that information is present in all aspects of the live and that them have specific abilities to identify their information needs, access, evaluate and use information, and comprehend the issues which surround information. It concludes that the students have good information skills, but that they need to access an education that introduce them to understand how information is produced and identify fake news. It also considers the need to create indicators which must be specifically applied to Vocational Education and Training in Brazil and in according to the Information Literacy studies"
+ },
+ {
+  "id": "C97",
+  "title": "A importância da alfabetização científica no combate a disseminação de notícias falsas",
+  "year": 2024,
+  "venue": "Contribuciones a las Ciencias Sociales",
+  "abstract": "A divulgação de notícias falsas, existe em todos os períodos históricos, porém no Brasil teve seu maior enfrentamento no período das eleições de 2018 e 2022 intercalada pela pandemia do Covid 19. Coincidentemente, nos últimos anos as alterações na LDB vêm trazendo a importância da alfabetização científica, desde os anos iniciais da educação básica. Com o objetivo em compreender a relação da alfabetização na detecção e no combate das notícias falsas, desenvolveu-se o presente estudo. Para isso, foram selecionadas duas escolas, uma pública e uma privada e as três turmas do ensino médio, onde um questionário foi aplicado para 51 alunos de cada escola, com a finalidade de perceber uma relação da modalidade de ensino, idade e realidades socioeconômicas distintas à detecção e combate de fake news. Foi verificado que a frequência de notícias falsas era maior na escola privada do que na pública, porém a busca pela informação correta independe entre as séries e entre as escolas. Sugerindo um reflexo positivo da alfabetização científica no combate à fake news."
+ },
+ {
+  "id": "C98",
+  "title": "Alfabetização Midiática e Informacional na formação do professor",
+  "year": 2020,
+  "venue": "Pesquisa e Ensino",
+  "abstract": "O artigo apresenta o conceito da Alfabetização Midiática e Informacional, tendo como referência as funções do uso das mídias e das tecnologias, compreendidas como possibilidades na construção do conhecimento. Apresenta o contexto socioeconômico, as tendências de mercado e as políticas públicas, como fatores importantes para apresentar as novas mídias e sua utilização nos ambientes escolares, bem como seus desdobramentos na relação ensino-aprendizagem e na formação de professores. Foi realizado um estudo exploratório a fim de conhecer as impressões dos participantes sobre o uso das plataformas educacionais e jogos digitais em ambientes de aprendizagem. Inferimos que os sujeitos envolvidos na pesquisa mostraram uma atitude positiva frente ao emprego de recursos tecnológicos em sala de aula e compreendendo a necessidade de adequação aos recursos utilizados, ainda que haja limitações de seu uso devido à falta de infraestrutura, mas que as dificuldades precisam ser superadas. Palavras-chave: Formação de professores. Alfabetização midiática e informacional. Plataformas educacionais."
+ },
+ {
+  "id": "C99",
+  "title": "Fake News and vaccine hesitancy in the COVID-19 pandemic in Brazil",
+  "year": 2022,
+  "venue": "Ciência & Saúde Coletiva",
+  "abstract": "Abstract This paper presents the evolution of fake news disseminated about vaccines and the SARS-CoV-2 virus and its adverse impacts on the current Brazilian health crisis. This quantitative, empirical study is based on the notifications received by the Eu Fiscalizo app, through which the Instagram, Facebook, Twitter, and WhatsApp platforms were identified as the principal means for disseminating and sharing rumors and misinformation about COVID-19. We observed large-scale circulation of fake news about vaccines directly related to the Brazilian political polarization, which became prevalent four months after the first COVID-19 case was recorded in the country. We can conclude that this phenomenon was crucial in discouraging the adherence of segments of the Brazilian population to social distancing and vaccination campaigns."
+ },
+ {
+  "id": "C100",
+  "title": "Arquitetura da informação, usabilidade e competência informacional: breve análise sobre desafios para as unidades de informação na era da desinformação",
+  "year": 2025,
+  "venue": "Cadernos Cajuína",
+  "abstract": "O texto discute duas áreas centrais da Biblioteconomia contemporânea: a arquitetura da informação e usabilidade em unidades de informação, e a avaliação de fontes aliada à competência informacional, em um contexto marcado pela desinformação. Na primeira parte, enfatiza-se a satisfação do usuário como fundamento da existência dos serviços de informação, especialmente em bibliotecas universitárias. A análise, apoiada na escala SERVQUAL e nos princípios de usabilidade de Fleming, evidencia a relevância de sistemas fáceis de aprender, consistentes, com feedback adequado e que ofereçam alternativas de navegação, considerando a diversidade de perfis e a dependência de estudantes de menor poder aquisitivo das instalações físicas, do acervo e dos recursos tecnológicos. Na segunda parte, retoma-se a discussão sobre critérios de qualidade de fontes na internet, a partir de Tomaél, destacando a permanência de sua pertinência frente a mudanças tecnológicas, à volatilidade de páginas e à proliferação de fake news. São apresentadas iniciativas de fact-checking, como a Agência Lupa, a International Fact-Checking Network e projetos jornalísticos como “Fato ou Fake”. Conclui-se que a alfabetização digital e a competência informacional constituem instrumentos essenciais de intervenção social dos profissionais da informação no enfrentamento à desinformação."
+ },
+ {
+  "id": "C101",
+  "title": "Competência em informação em perspectiva histórica",
+  "year": 2024,
+  "venue": "Biblionline",
+  "abstract": "Avalia o surgimento da competência em informação a partir da história do seu surgimento e desenvolvimento por intelectuais da Biblioteconomia. Pela pesquisa documental apresenta seu surgimento no contexto de um acesso sem precedentes à informação e o uso de novas tecnologias. Apresenta teóricos estadunidenses e australianos que aprimoraram o conceito e declarações oficiais sobre o tema por associações profissionais e o governo dos Estados Unidos. Aborda a recepção do conceito entre bibliotecários brasileiros e as facetas que recebeu por parte deles. Antevê um novo desenvolvimento do conceito, estendendo-se a aspectos da vida humana em que o bom uso das informações é crucial, como em questões financeiras."
+ },
+ {
+  "id": "C102",
+  "title": "Competência crítica em informação em saúde",
+  "year": 2022,
+  "venue": "Asklepion Informação em Saúde",
+  "abstract": "Na Ciência da Informação, o termo information literacy, foi utilizado pela primeira vez em 1974, por um bibliotecário estadunidense, chamado Paul Zurkowski, em um relatório intitulado: The information service environment relationships and priorities. Há certos setores que regem nossas vidas, os quais precisamos ter o mínimo de competência em informação para podermos ter uma existência mais digna, sendo os cuidados com a saúde um destes aspectos que merece capacidade crítica de análise de todos os seres humanos. Portanto, educação e saúde são conceitos diretamente relacionados no que tange à prevenção de doenças. Posto isto, temos como objetivo relacionar competência em informação, competência crítica em informação e informação em saúde e aferir, para tanto, a título de exemplo, a importância dessa relação pra minimizar o risco de contágio de doenças graves, como a Sindrome da Imunodeficiência Adquirida (AIDS) em grupos vulneráveis, como o dos refugiados. Metodologicamente, trata-se de uma pesquisa pautada na revisão da literatura acerca da temática, com aspectos exploratórios, no que tange na relação entre competência crítica em informação em saúde com a situação de vulnerabilidade de refugiados ante os riscos de contaminação com HIV e o desenvolvimento da AIDS. Concluimos que reflexão crítica, competência em informação e comportamento informacional formam um tripé indissociável, o qual é a chave para a reivindicação dos direitos humanos, incluindo o acesso à saúde."
+ },
+ {
+  "id": "C103",
+  "title": "Competência em informação no cenário arquivístico",
+  "year": 2020,
+  "venue": "Archeion Online",
+  "abstract": "O objetivo deste artigo é apresentar as pesquisas desenvolvidas acerca da díade Arquivologia – Competência em Informação, desde o desenvolvimento da pesquisa de tese às produções do Grupo de Pesquisa Arquivologia e Competência em Informação da Universidade Federal do Pará. A Pesquisa bibliográfica configurou-se como ferramenta para execução da revisão bibliográfica. Os resultados indicam que a relação temática, bem como a produção bibliográfica, ainda é incipiente diante de um universo de possibilidades e que a presença da Competência em Informação na Arquivologia não se configura como um modismo científico e sim como um caminho para consolidação de novas teorias, ruptura de paradigmas e o início de uma nova geração de arquivistas com pensamentos e ações direcionados à perspectiva crítica, com foco no processo de emancipação humana, visando a mobilização de conhecimentos, habilidades e atitudes relacionadas ao universo da informação para empoderamento e protagonismo social."
+ },
+ {
+  "id": "C104",
+  "title": "Education, Fake News and Post-Democracy in Brazil: A Discursive Analysis of PISA in Focus",
+  "year": 2023,
+  "venue": "",
+  "abstract": "The aim of this article is to discursively analyze the qualitative results of PISA (Programme for International Student Assessment) in order to better understand the educational context in Brazil referred to fake news and post democracy and to point out how these results can help us to undertake public policies to improve education issues in Brazil. Theoretically, we rely on the Foucauldian concept of discourse. The corpus consists of discourses of PISA in Focus, short texts available on the OECD website and also on INEP-Brazil on the qualitative results of the answers to the questionnaires applied to the students. For the analysis it was chosen PISA in Focus 113 that intended to answer the following question: Are 15-year-olds prepared to deal with fake news and misinformation? The analysis, conducted by discursive lenses, demonstrates the importance of understanding the order of fake news discourse by teachers in a way of providing students with mechanisms to distinguish between fake news and truths. We concluded that Brazil has yet a long way to advance in relation to other countries in terms of an education that enables students to distinguish between fake and true news. These results can help us to direct public policies to better prepare students for reading in the virtual world in a way to prepare them to be well-informed citizens and to preserve democratic values."
+ },
+ {
+  "id": "C105",
+  "title": "Desinformação e competência em informação: discussões e possibilidades na Arquivologia",
+  "year": 2019,
+  "venue": "CIÊNCIA DA INFORMAÇÃO EM REVISTA",
+  "abstract": "A presente pesquisa teve como objetivo mapear as possíveis interseções entre o fenômeno Desinformação, a temática Competência em Informação e a Arquivologia no cenário nacional. O estudo foi desenvolvido por meio da Revisão Bibliográfica Sistemática na Base de Dados Referenciais de Artigos de Periódicos em Ciência da Informação – BRAPCI. Os resultados identificaram escassez de produção acadêmico-cientifica relacionando a Competência em Informação com a Arquivologia e no que tange à tríade Desinformação, Competência em Informação e Arquivologia não foi identificada nenhuma ocorrência, contudo evidencia-se a relação existente entre a Competência em Informação e a Desinformação no âmbito da Ciência da Informação. O resultado desta pesquisa pode contribuir de forma significativa tanto para a Arquivologia e Ciência da Informação como para a sociedade em geral, considerando que o fenômeno Desinformação ainda é pouco compreendido e vem de maneira genérica assolando a sociedade. Os resultados obtidos foram relevantes para confirmar que os preceitos da Competência em Informação, especialmente na perspectiva crítica, configuram-se como uma possibilidade tanto de combate, como de redução da desinformação na sociedade e no contexto arquivístico, sendo que a disseminação e a preservação de fake news bem como de outras formas de desinformação, poderão acarretar danos irreparáveis para a sociedade futura."
+ },
+ {
+  "id": "C106",
+  "title": "Understanding Fake News Consumption: A Review",
+  "year": 2020,
+  "venue": "Social Sciences",
+  "abstract": "Combating the spread of fake news remains a difficult problem. For this reason, it is increasingly urgent to understand the phenomenon of fake news. This review aims to see why fake news is widely shared on social media and why some people believe it. The presentation of its structure (from the images chosen, the format of the titles and the language used in the text) can explain the reasons for going viral and what factors are associated with the belief in fake news. We show that fake news explores all possible aspects to attract the reader’s attention, from the formation of the title to the language used throughout the body of the text. The proliferation and success of fake news are associated with its characteristics (more surreal, exaggerated, impressive, emotional, persuasive, clickbait, shocking images), which seem to be strategically thought out and exploited by the creators of fake news. This review shows that fake news continues to be widely shared and consumed because that is the main objective of its creators. Although some studies do not support these correlations, it appears that conservatives, right-wing people, the elderly and less educated people are more likely to believe and spread fake news."
+ },
+ {
+  "id": "C107",
+  "title": "Abordagens temáticas da competência em informação",
+  "year": 2022,
+  "venue": "Em Questão",
+  "abstract": "Aborda o desenvolvimento da pesquisa sobre Competência em Informação, por meio de análise temporal das temáticas da produção científica sobre o tema. O universo do estudo é composto pelos documentos sobre Competência em Informação indexados na coleção principal da Web of Science entre 1974 e 2019. A análise das temáticas é baseada nas palavras-chave atribuídas pelos autores. Foram identificadas 6.108 palavras-chave, somando 15.289 menções, em 2.918 documentos. Os descritores foram associados as fases de desenvolvimento do movimento da Competência em Informação, de 1974-1989, 1990-1999, 2000-2009, 2010-2019. A análise temporal indica diminuição da variabilidade terminológica, apontando a consolidação de temas de estudo e de consenso terminológico no decorrer dos anos. Foram identificados termos associados à Biblioteconomia e ensino desde a primeira fase, com a inclusão gradativa de descritores associados as tecnologias a partir de 1990. Estudos incluindo públicos específicos, notadamente vinculados ao ensino superior e aos usuários de bibliotecas incorporam-se posteriormente, agregando movimentos adjuntos associados a estas temáticas. Na última fase há a manutenção da ênfase nas especialidades e público já incorporados e o desenvolvimento de uma perspectiva crítica nesse contexto. Os resultados sugerem, a partir da fase inicial, períodos de consolidação, desenvolvimento e expansão da Competência em Informação, que podem ser utilizados para demarcação do desenvolvimento da área."
+ },
+ {
+  "id": "C108",
+  "title": "Fake news no Facebook",
+  "year": 2020,
+  "venue": "Biblionline",
+  "abstract": "No século XXI, o sentido do termo “fake news” tem forte relação com a propagação rápida de informação na internet feita, principalmente, por meio das redes sociais. Com base nisso, o objetivo deste trabalho foi verificar se os acadêmicos da Universidade Federal do Rio Grande (FURG), ao se depararem com uma informação, na rede social Facebook, recorrem a fontes de informação para se certificar sobre sua veracidade. Os objetivos específicos, por sua vez, foram os seguintes: a) identificar a frequência de acesso na rede social Facebook dos acadêmicos da FURG; b) verificar o número médio de compartilhamento de informações; c) especificar em que casos os usuários do Facebook verificam as informações recebidas, quanto à veracidade; d) investigar os critérios de escolha de fonte de informação. Quanto aos procedimentos metodológicos, o presente estudo teve como campo empírico a FURG e, como instrumento de pesquisa, seus universitários. Trata-se de um estudo de caso, de abordagem qualitativa, de natureza básica e caráter descritivo. Para a coleta de dados, foi utilizado o questionário impresso, com seis perguntas fechadas e quatro perguntas abertas e que foi aplicado na Biblioteca Central, localizada no Campus Carreiros. Com relação ao referencial teórico, foram apresentados conceitos e exemplos sobre fake news dentro das redes sociais, principalmente no Facebook, rede social aqui estudada. Os resultados mostram que um número significativo de universitários utiliza o Facebook como fonte de informação e que costumam fazer compartilhamentos. Porém, não se certificam das informações, quanto à veracidade, confiando apenas em fontes tradicionais de informação. Além disso, eles não se informam por meio das mídias independentes e portais informais. Diante disso, conclui-se que embora a"
+ },
+ {
+  "id": "C109",
+  "title": "Sobre fake news e fake History",
+  "year": 2021,
+  "venue": "Revista Mídia e Cotidiano",
+  "abstract": "Este trabalho apresenta a tradução para português de uma compilação de palestras do professor Jason Steinhauer sobre o tema das fake news e seu correlato, a fake History, conceito criado pelo autor para dar conta da força com que o obscurantismo tem atingido e moldado a visão sobre o passado e a competência em História do público em geral. O artigo analisa correlações entre as duas questões, que enfraquecem sobremaneira a capacidade do público de distinguir informações falsas das reais, e propõe uma estratégia comunicacional proativa por parte dos historiadores, a comunicação histórica, elemento vital para o combate ao discurso falseador e anticientífico presente nos principais meios de divulgação – especialmente nas novas tecnologias, portais de notícias e mídias sociais – que associa acriticamente História e passado."
+ },
+ {
+  "id": "C110",
+  "title": "PROMOTION OF MEDIA AND INFORMATION LITERACY IN THE EMERGING CONTEXT OF DISINFORMATION: PROPOSAL FOR ELEMENTARY EDUCATION",
+  "year": 2020,
+  "venue": "Revista Observatório",
+  "abstract": "Information literacy is an area that has always been concerned with the credibility of information, and today it is gaining more and more attention.Based on this context, the article presents research that seeks to link information literacy to media literacy.With the support of emerging curriculum, such as the one proposed by Unesco, pedagogical approaches for Elementary Education are presented, within the guidelines of the Common National Curricular Base (BNCC).It shows how it is possible to articulate the most common skills of the two literacy fields, and to relate them in applied works.The proposal can be a path for the development of autonomy in the face of the contemporary disinformation environment and responsible engagement in the new digital sphere, which requires the training of critical readers and ethical producers."
+ },
+ {
+  "id": "C111",
+  "title": "O bibliotecário e as fake news",
+  "year": 2019,
+  "venue": "Informa&ccedil &atilde o em Pauta",
+  "abstract": "A excessiva quantidade de informação não é um fenômeno do século XXI, assim como também não é a criação de notícias falsas. Em meio a esse contexto, vincula-se a sociedade da informação, que diante da expressiva produção de fake news (notícias falsas), contribui para o fortalecimento da pós-verdade, resultando na desinformação em diferentes âmbitos e em escala global. Esta pesquisa relaciona-se o tema das fake news ao profissional da informação, elucidando suas competências e conduta ética. Dessa forma, convoca-se os autores que abordam sobre o perfil do bibliotecário, sobretudo como mediador. O estudo tem como objetivo geral analisar a percepção dos egressos do curso de Biblioteconomia da Universidade Federal do Rio Grande do Norte quanto as suas competências no combate a disseminação das fake news. Como instrumento de coleta de informações recorreu-se ao questionário composto por perguntas fechadas e abertas. Percebeu-se que os egressos conhecem acerca das notícias falsas e seus desdobramentos, buscando em determinadas situações combater o uso e a propagação das fake news. Sugere-se a ampliação da pesquisa com outros egressos, envolvendo as temáticas da ética e da competência frente as notícias falsas e seus correlatos: pós-verdade e desinformação."
+ },
+ {
+  "id": "C112",
+  "title": "Mitigating infodemics: The relationship between news exposure and trust and belief in COVID-19 fake news and social media spreading",
+  "year": 2021,
+  "venue": "PLoS ONE",
+  "abstract": "INTRODUCTION: Misinformation surrounding COVID-19 poses a global public health problem that adversely affects governments' abilities to mitigate the disease and causes accidental deaths and self-harm due to false beliefs about the virus, prevention measures, vaccines and cures. We aim to examine the relationship between exposure to and trust in COVID-19 news (from Television, social media, interpersonal communication) and information sources (healthcare experts, government, clerics) and belief in COVID-19 myths and false information, as well as critical verification practices before posting on social media. METHODS: We use a cross-sectional researcher-administered phone survey of adults living in Lebanon between March 27 and April 23, 2020. RESULTS: The sample included 56.1% men and 43.9% women, 37.9% with a university degree, 63.0% older than 30, and 7% with media literacy training. Those who trust COVID-19 news from social media [95%CI:(1.05-1.52)] and interpersonal communication [95%CI:(1.25-1.82)], and those who trust information from clerics [95%CI:(1.25-1.82)] were more likely to believe in COVID-19 myths and false information. University graduates [95%CI:(0.25-0.51)] and those who trust information from government [95%CI:(0.65-0.89] were less likely to believe in myths and false information. Those who believe in COVID-19 myths and false information [95%CI:(0.25-0.70)] were less likely to engage in critical social media posting practices. Only those who underwent media literacy training [95%CI:(1.24-6.55)] were more likely to engage in critical social media posting practices. CONCLUSION: Higher education and trust in information from government contributed to decreasing belief in COVID-19 myths and false information. Trust in news from social media, interpersonal "
+ },
+ {
+  "id": "C113",
+  "title": "Fake News and International Law",
+  "year": 2018,
+  "venue": "European Journal of International Law",
+  "abstract": "In light of current efforts at addressing the dangers of fake news, this article will revisit the international law relevant to the phenomenon – in particular, the prohibition of intervention, the 1936 International Convention on the Use of Broadcasting in the Cause of Peace and the 1953 Convention on the International Right of Correction. It will be argued that important lessons can be learned from the League of Nations’ efforts in the interwar period and the United Nations’ (UN) activities in the immediate post-World War II era, while taking into account the new challenges that arise from modern communication technology. Taking up the League of Nations’ and UN’s distinction between false and distorted news, the international legal framework will be tested, in particular, against the coverage of the 2016 ‘Lisa case’ by Russian government-funded media. This coverage is widely considered to be fake news aimed at destabilizing Germany’s society and institutions. The article argues that false news can be subject to repressive regulation in a sensible manner. Distorted news, however, will have to be tolerated legally since prohibitions in this regard would be too prone to abuse. A free and pluralist media, complemented by an appropriate governmental information policy, remains the best answer to fake news in all of its forms. Due diligence obligations of fact-checking, transparency and remedies that are effective despite difficulties in attribution, and despite a lack of universal acceptance, could likewise be conducive."
+ },
+ {
+  "id": "C114",
+  "title": "Hosting and healing: A framework for critical media literacy pedagogy",
+  "year": 2019,
+  "venue": "Journal of Media Literacy Education",
+  "abstract": "In this paper, through an exploration into our experiences as educators concerned with marginalized populations of learners in secondary and post-secondary settings, we argue for a pedagogy that brings together the realities of 21st century literacy practices with critical media literacy. We present a framework for teaching critical media literacy that addresses the complex facets of equity in 21st century literacy practices."
+ },
+ {
+  "id": "C115",
+  "title": "Comunicação, Consumo e Educação: alfabetização midiática para cidadania",
+  "year": 2021,
+  "venue": "Intercom Revista Brasileira de Ciências da Comunicação",
+  "abstract": "Resumo Este artigo propõe uma reflexão sobre o potencial de alfabetização midiática presente nos âmbitos do acesso, da avaliação e da criação, para a formação de senso crítico e reflexivo que promova a atuação autônoma no exercício da liberdade e cidadania. Por meio de pesquisa bibliográfica sobre alfabetização midiática, comunicação, consumo e educação, propõe-se a compilação de parâmetros teóricos e metodológicos que auxiliem na composição de indicadores de competências midiáticas para a constituição de uma identidade cidadã e participativa, que possam ser explorados em projetos e pesquisas que envolvam alfabetização midiática, tanto na educação formal como informal."
+ },
+ {
+  "id": "C116",
+  "title": "Fake news knowledge profile in Brazil during the COVID-19 pandemic",
+  "year": 2021,
+  "venue": "Research Society and Development",
+  "abstract": "During the COVID-19 pandemic, a lot of false information spread through social networks, reaching different community groups, and contributing to the failure in the prevention and correct treatment of the disease. This study aimed to outline the profile of people who received fake news related to health during the SARS-CoV-2 pandemic in 2020. This is a descriptive study with a quantitative approach carried out by health academics through a self-administered questionnaire made on Google Forms. A sample of 501 participants was obtained to analyze the participant sociodemographic profile, the content, and the most used ways of receiving fake news. The results indicate that the most received content by the participants was about health, followed by politics. According to the study, traditional communication media are the most reliable source in the search for information among participants, while WhatsApp and Facebook were cited as the most used social media in the dissemination of fake news, with the least reliable news. There is a need for further studies on this topic, to demonstrate which sociodemographic factors, influence the sharing of fake news."
+ },
+ {
+  "id": "C117",
+  "title": "POLICY IMPLICATIONS OF DIGITAL MEDIA LITERACY IN DEVELOPING COUNTRIES",
+  "year": 2025,
+  "venue": "Global Media and Social Sciences Research Journal",
+  "abstract": "As digital platforms continue to play an increasingly important role in communication, education, and political engagement, digital media literacy has become a critical skill for citizens to navigate the complexities of the digital age. In developing countries, where access to technology is expanding rapidly, digital media literacy is essential to empowering individuals, promoting informed decision-making, and safeguarding against the harmful effects of misinformation and digital manipulation. This article explores the policy implications of promoting digital media literacy in developing countries, analyzing the challenges and opportunities that arise in these contexts. It examines the role of governments, educational institutions, and civil society in fostering digital media literacy programs, and the importance of integrating these initiatives into national education policies. By reviewing case studies from countries such as India, Kenya, and Brazil, the article highlights successful strategies and offers recommendations for policymakers to enhance digital media literacy in developing regions, with a focus on inclusivity, equity, and the protection of democratic values."
+ },
+ {
+  "id": "C118",
+  "title": "Competência Crítica em Informação e Educomunicação: proposta interdominial no combate à desinformação",
+  "year": 2022,
+  "venue": "Palabra clave",
+  "abstract": "Hiperinformação, teoria da conspiração, algoritmos, notícias falsas, ciência falsa, falso profundo , pós-verdadeiro, cultura odium, sabemos que faz parte de um centro de informação atualizado que não diz respeito à desinformação, sem contexto e processo mediador da contemporaneidade . Em conjunto, várias esferas da sociedade são desafiadas a conduzir relações e processos contrários a essa realidade. Destacam-se, nessa missão, escolas, universidades e outros centros educativos, que têm um papel preponderante para o desenvolvimento do sentido crítico que norteia uma opinião pública marcada pelo compromisso comum com a ética, com liberdade de racionalidade, capaz de enfrentar a desinformação.Nesse sentido, são apresentados a uma realidade de desvalorização profissional, baixos salários e perda de abastecimento de embarcações, os professores cumprem um importante papel de mediadores ou de conhecimento das pessoas, capacitando ou fortalecendo a cidadania. A partir dessa realidade, diferentes áreas do conhecimento têm trazido contribuições que não fazem sentido para compreender esse potencial de enfrentar uma combinação de desinformação no ambiente escolar e acadêmico com a participação ativa de dois professores. Embora parecia discutir este fenômeno sob diferentes perspectivas, alguns domínios teóricos capazes de abordagens conceituais e epistemológicas complementares.Assim, é nosso objetivo com este estudo, e discutir as possibilidades de utilização de um construto interdominial entre Competição Crítica em Informação (CCI) e Educomunicação de ambito não educacional; Oferece uma sequência de atividades educacionais e de comunicação para a formação de professores."
+ },
+ {
+  "id": "C119",
+  "title": "Contribuições da alfabetização midiática para a credibilidade do jornalismo",
+  "year": 2025,
+  "venue": "Revista ECO-Pós",
+  "abstract": "O artigo parte do cenário comunicacional atual, em que o ecossistema da desinformação afeta a credibilidade dos meios de comunicação profissionais, para discutir as contribuições da alfabetização midiática para reconstruir a confiança no jornalismo. Fundamentado nos conceitos de news literacy e na reflexão teórica sobre a credibilidade e confiança no jornalismo, o texto toma como base as duas dimensões da credibilidade (constituída e percebida) propostas por Lisboa e Benetti (2015, 2017), para propor uma terceira dimensão (a da credibilidade construída), resultado do processo de alfabetização jornalística. Nessa proposta, sugere-se interconectar indicadores aparentemente desconexos — os de credibilidade, do The Trust Project, e os de literacia midiática elaborados por Ferrés e Piscitelli (2012) —, como caminho para incrementar a credibilidade jornalística."
+ },
+ {
+  "id": "C120",
+  "title": "Real ou Fake: desenvolvimento e aplicação de um jogo de cartas para o combate à desinformação no interior do Pará",
+  "year": 2023,
+  "venue": "Revista Contracampo",
+  "abstract": "Este artigo tem como objetivo refletir sobre o uso de materiais didáticos no combate à desinformação para o ensino básico como apoio a ações de educação e letramento midiático. A dinâmica parte de uma pesquisa-ação desenvolvida na Escola de Ensino Médio Dionísio Bentes de Carvalho, em Rondon do Pará/PA, na Amazônia Oriental, local considerado como deserto de notícias devido à escassez de informação jornalística local. A partir de uma pesquisa sobre o consumo de mídia por parte dos jovens do terceiro ano, foi produzido um jogo de cartas chamado Real ou Fake, posteriormente aplicado a esses estudantes. Os resultados evidenciam que o jogo pode ser uma oportunidade de se trabalhar em sala de aula conteúdos atuais e de interesse dos estudantes para que desenvolvam competência crítica em relação à mídia."
+ },
+ {
+  "id": "C121",
+  "title": "Taking corrective action when exposed to fake news: The role of fake news literacy",
+  "year": 2022,
+  "venue": "Journal of Media Literacy Education",
+  "abstract": "Fake news poses a threat to democracy. The rise of social media and its lax content regulation have facilitated a dynamic environment where mis- and disinformation are spread. However, social media is also the place where false information may be corrected. Initial scholarly efforts begin to highlight what is needed for citizens to take corrective action when exposed to fake news on social media. This study is a further step in that direction by introducing the construct of ‘fake news media literacy’. Relying on survey data from the U.S. (N = 1338), we show that news media literacy in terms of media locus of control and need for cognition might not be sufficient to take corrective action; individuals rather need to develop specific fake news literacy. Implications for media literacy initiatives are discussed."
+ },
+ {
+  "id": "C122",
+  "title": "Sentiment Analysis for Fake News Detection",
+  "year": 2021,
+  "venue": "Electronics",
+  "abstract": "In recent years, we have witnessed a rise in fake news, i.e., provably false pieces of information created with the intention of deception. The dissemination of this type of news poses a serious threat to cohesion and social well-being, since it fosters political polarization and the distrust of people with respect to their leaders. The huge amount of news that is disseminated through social media makes manual verification unfeasible, which has promoted the design and implementation of automatic systems for fake news detection. The creators of fake news use various stylistic tricks to promote the success of their creations, with one of them being to excite the sentiments of the recipients. This has led to sentiment analysis, the part of text analytics in charge of determining the polarity and strength of sentiments expressed in a text, to be used in fake news detection approaches, either as a basis of the system or as a complementary element. In this article, we study the different uses of sentiment analysis in the detection of fake news, with a discussion of the most relevant elements and shortcomings, and the requirements that should be met in the near future, such as multilingualism, explainability, mitigation of biases, or treatment of multimedia elements."
+ },
+ {
+  "id": "C123",
+  "title": "Competência em Informação como Fator de Inovação Social",
+  "year": 2022,
+  "venue": "Brazilian Journal of Information Science research trends",
+  "abstract": "O presente artigo propõe-se a analisar a competência em informação como sendo um fator de promoção de inovação social, tendo-se em vista uma possível correlação entre as matrizes teóricas dessas duas temáticas. A inovação social visa à transformação social por meio de mudanças nas práticas sociais, satisfazendo necessidades humanas e promovendo inclusão social, com uma consequente mudança de relações de poder, uma vez que o próprio conhecimento pode ser considerado inovação social. A competência em informação é considerada base para a aprendizagem ao longo da vida pois se trata de uma meta-competência capaz de auxiliar o indivíduo a lidar com necessidades informacionais e a compreender, criar e utilizar criticamente a informação nos mais variados contextos. O presente trabalho tem por objetivo delinear o alinhamento dos temas inovação social e competência em informação, realizando uma análise sobre como a perspectiva transformacional de estudos primários realizados na literatura sobre competência em informação pode ser correlacionada à inovação social em uma perspectiva de inclusão e emancipação sociais."
+ },
+ {
+  "id": "C124",
+  "title": "DE MEMES A FAKE NEWS",
+  "year": 2020,
+  "venue": "Educação em Foco",
+  "abstract": "O presente artigo é uma análise dos achados de uma pesquisa- -formação que acontece no programa de pós-graduação em educação da UFRRJ, que tem como campo de pesquisa o cotidiano da disciplina de “Informática na Educação” do curso de Licenciatura em Pedagogia a distância pela UERJ/CEDERJ/UAB. Nosso objetivo era compreender quais os usos que os praticantes culturais fazem de seus dispositivos móveis e como são instituídas as práticas de App-Learning em seu cotidiano para formar docentes na Cibercultura. Partimos desse contexto para pesquisar a emergência das fake news e suas repercussões na sociedade, inclusive na educação, para propor estratégias e metodologias de pesquisa-formação em tempos de pós-verdade (SANTAELLA)."
+ },
+ {
+  "id": "C125",
+  "title": "Como identificar Fake News",
+  "year": 2020,
+  "venue": "Grau Zero – Revista de Crítica Cultural",
+  "abstract": "Os variados gêneros discursivos são propagados nas redes sociais, como o Twitter, e, muitas vezes, emprestam sua estrutura composicional para outros gêneros que se enquadram no que tem se chamado como fake news. Esta pesquisa objetiva identificar características constitutivas de fake news, à luz do remix, no perfil Falha de São Paulo, do Twitter, em comparação com o gênero notícia. Para atender a este objetivo, selecionamos um corpus de 30 tweets, no qual elencamos as características composicionais, estilísticas e conteudísticas dos gêneros que ali se manifestam. Fundamentamo-nos em Knobel e Lankshear (2008), Navas (2010), Buzato (2013), para o conceito de remix; e em Bakhtin ([1979] 2011), para o conceito de gênero discursivo. Os resultados obtidos demonstram que o ensino através das redes sociais, como o Twitter, pode proporcionar um ensino mais dinâmico e mais próximo da realidade dos alunos. [Recebido: 29 jun. 2020 – Aceito: 8 ago. 2020]"
+ }
+]
+
+
+
+Decida cada um e escolha até 25.

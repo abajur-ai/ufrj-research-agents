@@ -1,0 +1,453 @@
+{
+ "run_id": "class-n2-a01-r2",
+ "level": "n2",
+ "item": "a01",
+ "status": "done",
+ "delivered": 16,
+ "correct": 15,
+ "requested": 25,
+ "yield": 0.6,
+ "precision": 0.9375,
+ "not_found": 0,
+ "wrong_doi": 0,
+ "metadata_errors": 0,
+ "quote_fail": 0,
+ "no_abstract": 0,
+ "wall_seconds": 831.6,
+ "calls": 13,
+ "items": [
+  {
+   "doi": "10.3758/s13421-021-01232-8",
+   "title": "The role of discomfort in the continued influence effect of misinformation",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 1,
+   "judge": {
+    "evidence_topic": "Research examining the continued influence effect (CIE) of misinformation has reliably found that belief in misinformation persists even after the misinformation has been retracted.",
+    "on_topic": true,
+    "evidence_empirical": "The present research tested the prediction that retractions of misinformation produce feelings of psychological discomfort... Studies 1 and 2 found that retractions of misinformation elicit psychological discomfort, and this discomfort predicts continued belief in and use of misinformation.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O resumo confirma que o estudo é experimental (menciona três estudos e manipulação) e sustenta o achado principal sobre a relação entre desconforto e a persistência da crença na desinformação."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3758/s13421-022-01374-3",
+   "title": "The independent effects of source expertise and trustworthiness on retraction believability: The moderating role of vested interest",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "Study 1 demonstrated that retractions from an expert source are believed more and lead to less continued belief in misinformation than retractions from an inexpert source while controlling for perceptions of trustworthiness.",
+    "on_topic": true,
+    "evidence_empirical": "Study 1 demonstrated that retractions from an expert source are believed more and lead to less continued belief in misinformation than retractions from an inexpert source while controlling for perceptions of trustworthiness. Additionally, Study 1 demonstrated that this only occurs when the source had no vested interest in issuing the retraction. Study 2 found similar effects using a design containing manipulations of both expertise and trustworthiness.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo investiga o efeito de influência continuada (CIE) através de experimentos com participantes humanos, utilizando cenários de retratação de desinformação, o que se alinha ao pedido. Os métodos descritos no resumo (estudos experimentais) corroboram os dados extraídos. O achado principal está diretamente sustentado pelo texto do resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3758/s13421-022-01354-7",
+   "title": "Does explaining the origins of misinformation improve the effectiveness of a given correction?",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Misinformation often has a continuing influence on event-related reasoning even when it is clearly and credibly corrected; this is referred to as the continued influence effect.",
+    "on_topic": true,
+    "evidence_empirical": "In two experiments, we examined whether a correction that explained misinformation as originating either from intentional deception or an unintentional error was more effective than a correction that only identified the misinformation as false.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo investiga o efeito de influência continuada (CIE) através de experimentos com cenários neutros, atendendo aos critérios. O achado principal extraído é corroborado pelo resumo, que afirma que explicar a origem da desinformação não foi mais eficaz do que apenas corrigi-la."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3758/s13421-020-01129-y",
+   "title": "Can you believe it? An investigation into the impact of retraction source credibility on the continued influence effect",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "The continued influence effect refers to the finding that people often continue to rely on misinformation in their reasoning even if the information has been retracted.",
+    "on_topic": true,
+    "evidence_empirical": "In two experiments, we found that source trustworthiness but not source expertise indeed influences retraction effectiveness",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo é um estudo empírico experimental publicado em periódico revisado por pares dentro do período solicitado. O resumo confirma a realização de dois experimentos e os achados sobre a influência da confiabilidade da fonte na eficácia da retratação, alinhando-se ao tema e às restrições de conteúdo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1371/journal.pone.0282202",
+   "title": "Effective mitigation of the belief perseverance bias after the retraction of misinformation: Awareness training and counter-speech",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "This paper contributes to research on mitigating the belief perseverance bias after the retraction of misinformation by proposing counter-speech and awareness-training techniques and comparing them in terms of effectiveness to the existing counter-explanation technique in an experiment with N = 251 participants.",
+    "on_topic": true,
+    "evidence_empirical": "in an experiment with N = 251 participants.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo trata da persistência da crença após retratação (CIE) e é um estudo empírico experimental. O achado principal sobre a eficácia da técnica CS é sustentado pelo resumo: 'The CS technique, with a very large effect size, is the most effective among the three techniques.' O método (experimento, 4 medições) é sustentado pelo resumo: 'we measure participants' opinions four times in the experiment by using Likert items and phi-coefficient measures.' O detalhe sobre 'bombeiros' não consta no resumo, mas o método descrito está correto."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1037/mac0000057",
+   "title": "Listening to Misinformation while Driving: Cognitive Load and the Effectiveness of (Repeated) Corrections",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "Corrected misinformation can continue to influence inferential reasoning.",
+    "on_topic": true,
+    "evidence_empirical": "We tested whether familiarity backfire may occur if corrections are processed under cognitive load. ... Participants listened to corrections that repeated misinformation while in a driving simulator.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo é um estudo empírico experimental que investiga o efeito de influência continuada (CIE) utilizando um simulador de direção e tarefas de carga cognitiva, o que se enquadra nos critérios de neutralidade e metodologia exigidos pelo pesquisador."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1186/s41235-021-00335-9",
+   "title": "Exploring factors that mitigate the continued influence of misinformation",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Across three studies, we evaluated the relative contribution of three factors (i.e., targeting the misinformation, providing an alternative explanation, and relative importance of the misinformation content) to the reduction of the CIE.",
+    "on_topic": true,
+    "evidence_empirical": "Across three studies, we evaluated the relative contribution of three factors (i.e., targeting the misinformation, providing an alternative explanation, and relative importance of the misinformation content) to the reduction of the CIE.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve três estudos experimentais com participantes humanos que investigam o efeito de influência continuada (CIE) utilizando cenários fictícios (conforme metadados), o que atende aos critérios de neutralidade e método. O achado principal sobre a eficácia da explicação alternativa na redução do CIE é explicitamente sustentado pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3758/s13428-018-1066-z",
+   "title": "Comparing the use of open and closed questions for Web-based measures of the continued-influence effect",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "We compared the data quality obtained using open and closed response formats using the continued-influence effect (CIE), in which participants read a series of statements about an unfolding event, one of which is unambiguously corrected later.",
+    "on_topic": true,
+    "evidence_empirical": "We implemented this basic procedure online (Exp. 1A, n = 78), comparing standard open-ended responses to an alternative procedure using closed-ended responses (Exp. 1B, n = 75). Finally, we replicated these findings in a larger preregistered study (Exps. 2A and 2B, n = 323).",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo é um estudo empírico experimental sobre o efeito de influência continuada (CIE) utilizando cenários fictícios (eventos em desenvolvimento), atendendo aos critérios de neutralidade e metodologia. O achado principal está diretamente sustentado pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1371/journal.pone.0271566",
+   "title": "Examining the role of information integration in the continued influence effect using an event segmentation approach",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Misinformation regarding the cause of an event often continues to influence an individual's event-related reasoning, even after they have received a retraction. This is known as the continued influence effect (CIE).",
+    "on_topic": true,
+    "evidence_empirical": "Experiments 1 and 2 employed spatial event segmentation boundaries in an attempt to manipulate the ease with which a retraction can be integrated into a participant's mental event model.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo investiga o efeito de influência continuada (CIE) utilizando experimentos com cenários neutros, sem abordar temas proibidos (política, vacinas, etc.). O estudo é empírico e os dados extraídos estão corretos e sustentados pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3389/fpsyg.2024.1487146",
+   "title": "The inhibitory impact of collaboration on the continued influence effect of misinformation",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "The continued influence effect (CIE) of misinformation refers to the persistence of misinformation's impact on memory and inference even when individuals are aware of a retraction. This study examined whether collaborative processes affect the CIE and investigated the underlying mechanisms through three experiments.",
+    "on_topic": true,
+    "evidence_empirical": "This study examined whether collaborative processes affect the CIE and investigated the underlying mechanisms through three experiments.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo é um estudo empírico experimental (três experimentos) sobre o efeito de influência continuada (CIE), alinhado ao tema. O achado extraído reflete fielmente o resultado descrito no resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1371/journal.pone.0322045",
+   "title": "Did he or didn't he? Mixed evidence for the continued influence of retracted misinformation on person impressions",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Here we report three experiments that tested for the continued influence of retracted misinformation on person impressions... Participants formed an impression of a fictitious person based on a series of behaviour statements.",
+    "on_topic": true,
+    "evidence_empirical": "Here we report three experiments that tested for the continued influence of retracted misinformation on person impressions",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve três experimentos empíricos sobre o efeito de influência continuada usando cenários fictícios neutros, atendendo aos critérios. O achado reportado reflete fielmente o resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1371/journal.pone.0283951",
+   "title": "Executive function and the continued influence of misinformation: A latent-variable analysis",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Misinformation can continue to influence reasoning after correction; this is known as the continued influence effect (CIE). ... The current study investigated whether individual differences in EF could predict individual differences in CIE susceptibility.",
+    "on_topic": true,
+    "evidence_empirical": "Participants completed several measures of EF subcomponents, including those of updating and inhibition, as well as set shifting, and a standard CIE task. The relationship between EF and CIE was then assessed using a correlation analysis of the EF and CIE measures, as well as structural equation modelling of the EF-subcomponent latent variable and CIE latent variable.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo é um estudo empírico que utiliza uma tarefa padrão de CIE e medidas de função executiva, com análise de correlação e modelagem de equações estruturais. O achado principal sobre a predição da suscetibilidade ao CIE pela função executiva é sustentado diretamente pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3758/s13421-023-01402-w",
+   "title": "Mechanisms in continued influence: The impact of misinformation corrections on source perceptions",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 1,
+   "judge": {
+    "evidence_topic": "Research on the continued influence effect (CIE) of misinformation has demonstrated that misinformation continues to influence people’s beliefs and judgments even after it has been corrected.",
+    "on_topic": true,
+    "evidence_empirical": "Study 1 demonstrated that an external correction (i.e., a new source labeling misinformation as false) influences perceptions of the misinformation source... Study 2 replicated the results of Study 1... Study 3 was a preregistered replication of previous results using new methodology.",
+    "empirical": true,
+    "method_ok": false,
+    "finding": "supported",
+    "reason": "O artigo é empírico e trata do tema solicitado (CIE). No entanto, o método extraído contém detalhes (incêndio fictício em galpão, uso de MTurk) que não estão presentes no resumo, tornando a descrição do método não totalmente sustentada pelo texto fornecido."
+   },
+   "metadata_ok": true,
+   "correct": false
+  },
+  {
+   "doi": "10.3758/s13421-024-01520-z",
+   "title": "How do forewarnings and post-warnings affect misinformation reliance? The impact of warnings on the continued influence effect and belief regression",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 1,
+   "judge": {
+    "evidence_topic": "People often continue to rely on certain information in their reasoning, even if this information has been retracted; this is called the continued influence effect (CIE) of misinformation.",
+    "on_topic": true,
+    "evidence_empirical": "In two experiments (N = 337), we found that while a forewarning did reduce reliance on misinformation",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo investiga o efeito de influência continuada (CIE) por meio de experimentos com participantes humanos, utilizando materiais neutros, conforme solicitado. Os achados extraídos estão alinhados com o resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3758/s13421-020-01046-0",
+   "title": "Is it smart to read on your phone? The impact of reading format and culture on the continued influence of misinformation",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 1,
+   "judge": {
+    "evidence_topic": "Participants read pairs of short newspaper-style articles containing a critical piece of information that was either retracted or not retracted",
+    "on_topic": true,
+    "evidence_empirical": "Participants read pairs of short newspaper-style articles containing a critical piece of information that was either retracted or not retracted, and were later assessed on their memory for critical and general details",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um experimento com participantes humanos sobre o efeito de influência continuada (CIE) utilizando materiais de leitura (artigos estilo jornal) que não violam as restrições de conteúdo (política, saúde, etc.). O achado extraído é sustentado pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1016/j.cognition.2024.106000",
+   "title": "Relative source credibility affects the continued influence effect: Evidence of rationality in the CIE",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "Participants read a fictitious news report in which original information and a retraction were each presented by either a source with high credibility or a source with low credibility.",
+    "on_topic": true,
+    "evidence_empirical": "In two experiments ( N = 151, N = 146), informant credibility and retractor credibility were independently manipulated.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo é um estudo empírico experimental publicado em periódico revisado por pares que investiga o efeito de influência continuada (CIE) utilizando cenários fictícios neutros, atendendo a todos os critérios de inclusão e exclusão. Os dados extraídos refletem corretamente o método e os achados descritos no resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  }
+ ],
+ "judge": "Gemini 3.1 Flash-Lite (Google), esforço high"
+}

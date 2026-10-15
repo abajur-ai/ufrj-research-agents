@@ -1,0 +1,245 @@
+{
+  "structured": {
+    "items": [
+      {
+        "id": "C02",
+        "study_type": "Estudo empírico experimental (survey online com alocação aleatória)",
+        "method": "Participantes classificaram imagens de rostos como geradas por IA (StyleGAN2) ou reais, com relato de confiança, em quatro grupos (controle e três intervenções de auxílio).",
+        "sample_size": "N = 280",
+        "main_finding": "A acurácia na detecção de rostos deepfake ficou pouco acima do acaso, nenhuma intervenção a melhorou, e a confiança dos participantes era alta e não relacionada à acurácia.",
+        "abstract_quote": "Overall detection accuracy was only just above chance and none of the interventions significantly improved this."
+      },
+      {
+        "id": "C14",
+        "study_type": "Estudo empírico experimental (teste de detecção)",
+        "method": "Participantes ouviram áudios genuínos e deepfake em inglês e mandarim e identificaram os deepfakes; testou-se também o efeito de apresentar exemplos de deepfakes.",
+        "sample_size": "n = 529 individuals",
+        "main_finding": "Os ouvintes detectaram corretamente os deepfakes de fala em apenas 73% das vezes, sem diferença entre os idiomas.",
+        "abstract_quote": "Listeners only correctly spotted the deepfakes 73% of the time, and there was no difference in detectability between the two languages."
+      },
+      {
+        "id": "C55",
+        "study_type": "Experimento comportamental pré-registrado",
+        "method": "Experimento comportamental de detecção de deepfakes em vídeo, manipulando conscientização e incentivos financeiros e medindo viés e autoconfiança.",
+        "sample_size": "N = 210",
+        "main_finding": "As pessoas não detectam deepfakes de forma confiável, tendem a tomá-los por autênticos e superestimam a própria capacidade de detecção.",
+        "abstract_quote": "we show that (a) people cannot reliably detect deepfakes, and (b) neither raising awareness nor introducing financial incentives improves their detection accuracy."
+      },
+      {
+        "id": "C33",
+        "study_type": "Estudos empíricos online (experimentos randomizados pré-registrados)",
+        "method": "Dois estudos online em que participantes identificaram vídeos autênticos e deepfakes, comparados a um modelo de detecção e a intervenções randomizadas.",
+        "sample_size": "15,016 participants",
+        "main_finding": "Observadores humanos comuns tiveram acurácia semelhante à do principal modelo de detecção, com erros de tipos diferentes, e manipulações que perturbam o processamento visual de rostos prejudicaram os humanos.",
+        "abstract_quote": "We compare the performance of ordinary human observers with the leading computer vision deepfake detection model and find them similarly accurate, while making different kinds of mistakes."
+      },
+      {
+        "id": "C09",
+        "study_type": "Estudo empírico experimental (múltiplos experimentos)",
+        "method": "Quatro experimentos de discriminação entre imagens faciais geradas por ChatGPT/DALL·E (identidades fictícias e celebridades) e fotografias reais, com e sem fotos reais de comparação.",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Rostos gerados por IA, fictícios ou de celebridades, não puderam ser distinguidos de fotografias reais pelos observadores humanos.",
+        "abstract_quote": "Our results demonstrated that generated images of both fictional (Experiment 1) and celebrity identities (Experiment 2) could not be distinguished from real photographs."
+      },
+      {
+        "id": "C18",
+        "study_type": "Estudo empírico de avaliação perceptiva",
+        "method": "Avaliação do fotorrealismo e da confiabilidade de rostos sintetizados por IA em comparação com rostos reais.",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Rostos sintetizados por IA são indistinguíveis de rostos reais e avaliados como mais confiáveis.",
+        "abstract_quote": "synthesis engines have passed through the uncanny valley and are capable of creating faces that are indistinguishable-and more trustworthy-than real faces."
+      },
+      {
+        "id": "C39",
+        "study_type": "Estudo empírico experimental (dois experimentos e reanálise de dados)",
+        "method": "Experimento 1 de julgamento humano vs. IA de rostos, com reanálise de dados publicados; Experimento 2 com teoria do espaço facial, relatos qualitativos e aprendizado de máquina.",
+        "sample_size": "N = 124 adults",
+        "main_finding": "Rostos brancos gerados por IA são julgados como humanos mais vezes do que rostos humanos reais (hiper-realismo da IA), e os participantes com mais erros eram os mais confiantes.",
+        "abstract_quote": "we showed that White AI faces are judged as human more often than actual human faces—a phenomenon we term AI hyperrealism."
+      },
+      {
+        "id": "C56",
+        "study_type": "Estudo empírico experimental (dois delineamentos, com treinamento)",
+        "method": "Comparação entre super-reconhecedores de faces e controles na detecção e discriminação de rostos sintéticos (GAN), com e sem procedimento de treinamento sobre artefatos de renderização.",
+        "sample_size": "total N = 283",
+        "main_finding": "Super-reconhecedores detectaram e discriminaram rostos sintéticos melhor que os controles, e o treinamento aumentou o desempenho em ambos os grupos.",
+        "abstract_quote": "we found that SRs (total N = 283) were better at detecting and discriminating synthetic faces than controls (total N = 381), where control participants were below chance without training."
+      },
+      {
+        "id": "C69",
+        "study_type": "Estudo empírico experimental (dois experimentos)",
+        "method": "Participantes julgaram se rostos eram sintéticos ou reais (escala 1–7 e resposta binária com confiança); comparou-se desempenho individual, \"multidão interna\" e \"multidão externa\" com diferentes métodos de agregação.",
+        "sample_size": "não informado no resumo",
+        "main_finding": "O desempenho na detecção de rostos sintéticos aumentou com o tamanho da multidão externa, enquanto a multidão interna trouxe pouco benefício.",
+        "abstract_quote": "we found increases in performance with increasing sizes of outer crowd"
+      },
+      {
+        "id": "C103",
+        "study_type": "Experimento online pré-registrado",
+        "method": "Participantes categorizaram 20 vídeos (10 reais, 10 deepfake) como reais ou deepfake, com ou sem lista de estratégias de detecção, e relataram confiança.",
+        "sample_size": "N = 454",
+        "main_finding": "Os participantes classificaram corretamente cerca de 60,7% dos vídeos, e fornecer estratégias de detecção não alterou acurácia nem confiança.",
+        "abstract_quote": "The detection strategies intervention did not impact detection accuracy or detection confidence, with the intervention and control groups performing similarly on the detection activity and showing similar levels of confidence."
+      },
+      {
+        "id": "C118",
+        "study_type": "Estudo empírico experimental",
+        "method": "Experimento medindo a atenção e a capacidade de detectar um deepfake de alta qualidade em um conjunto de vídeos, com e sem aviso de conteúdo.",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Sem aviso, quem viu o deepfake não o percebeu mais do que o grupo controle, e, com aviso, só 21,6% identificaram corretamente o único vídeo falso.",
+        "abstract_quote": "only 21.6% of respondents correctly identify the deepfake as the only inauthentic video"
+      },
+      {
+        "id": "C51",
+        "study_type": "Estudos empíricos online (série de experimentos)",
+        "method": "Série de experimentos online com quatro condições de navegação (baixa prevalência, apresentação breve, baixa qualidade de vídeo, atenção dividida) e teste de alertas visuais com assistência de IA.",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Todas as condições de navegação reduziram a detecção de deepfakes, e alertas visuais que amplificam artefatos aumentaram a detecção mais que prompts em texto.",
+        "abstract_quote": "found in a series of online experiments that all conditions lowered detection relative to baseline"
+      },
+      {
+        "id": "C100",
+        "study_type": "Experimentos randomizados controlados (2 × 2 × 2)",
+        "method": "Dois experimentos fatoriais manipulando pistas heurísticas do sistema (seguidores, popularidade, descrição) e características do vídeo (definição, duração, edição) sobre a credibilidade percebida de deepfakes.",
+        "sample_size": "N = 518",
+        "main_finding": "O número de seguidores da fonte e a popularidade do vídeo associaram-se positivamente à credibilidade percebida, e deepfakes em alta definição enganam mais.",
+        "abstract_quote": "the number of the source’s followers and the video’s popularity are positively associated with perceived credibility"
+      },
+      {
+        "id": "C65",
+        "study_type": "Estudo experimental",
+        "method": "Participantes julgaram a autenticidade de imagens de desinformação geradas ou não por IA, variando realismo estético e saliência emocional, e depois receberam o veredito de uma ferramenta de detecção de IA.",
+        "sample_size": "292 UK-based participants",
+        "main_finding": "Imagens geradas por IA com aparência mais realista foram mais julgadas como autênticas, porém com menor confiança; a saliência emocional não previu os julgamentos.",
+        "abstract_quote": "participants were more likely to judge realistic-looking AI-generated images as being authentic compared with less realistic-looking AI-generated images, but did so with less confidence in their decision."
+      },
+      {
+        "id": "C119",
+        "study_type": "Estudo empírico correlacional/de detecção",
+        "method": "Investigação dos preditores do desempenho humano no reconhecimento de vídeos deepfake (familiaridade, uso de redes sociais, pensamento conspiratório, idade e gênero).",
+        "sample_size": "não informado no resumo",
+        "main_finding": "O desempenho foi melhor para deepfakes de pessoas familiares e se associou positivamente ao tempo em redes sociais e ao pensamento conspiratório, mas não à idade ou ao gênero.",
+        "abstract_quote": "Our findings show that humans perform better at recognizing deepfake videos of familiar persons compared to deepfakes of unfamiliar persons."
+      },
+      {
+        "id": "C37",
+        "study_type": "Estudo empírico (análise computacional de expressões faciais e análise de resposta da audiência)",
+        "method": "Análise computacional das expressões emocionais em vídeos deepfake de troca de rosto e autênticos, seguida de análise das reações emocionais e da credibilidade percebida pelos espectadores.",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Deepfakes exibem menos emoções que vídeos autênticos, e a menor resposta emocional da audiência a eles associou-se a maior credibilidade percebida.",
+        "abstract_quote": "Notably, audiences' reduced emotional responses to deepfakes were associated with higher perceived credibility."
+      },
+      {
+        "id": "C54",
+        "study_type": "Estudo experimental com EEG e medidas psicológicas",
+        "method": "Registro de EEG e avaliações de participantes ao verem rostos reais com expressões positivas, neutras e negativas, informados de que eram reais ou falsos.",
+        "sample_size": "N = 30",
+        "main_finding": "Sorrisos tidos como deepfake pareceram menos positivos, foram avaliados mais lentamente e não mostraram os efeitos neurais típicos de emoção dos sorrisos tidos como reais.",
+        "abstract_quote": "Smiling faces marked as fake appeared less positive, as reflected in expression ratings, and induced slower evaluations."
+      },
+      {
+        "id": "C42",
+        "study_type": "Estudo exploratório por survey",
+        "method": "Survey com vídeos deepfake e genuínos medindo fatores psicológicos, cognitivos, letramento digital, demografia, acurácia e confiança, analisado com técnicas de aprendizado de máquina.",
+        "sample_size": "71 participants",
+        "main_finding": "Letramento digital e vieses cognitivos correlacionaram-se significativamente com o desempenho na detecção de deepfakes.",
+        "abstract_quote": "revealing significant correlations between digital literacy, cognitive biases, and deepfake detection performance"
+      },
+      {
+        "id": "C27",
+        "study_type": "Survey quantitativo",
+        "method": "Survey com amostragem aleatória de internautas da Geração X na Indonésia, com análise descritiva e inferencial de letramento digital, exposição a deepfakes e capacidade de identificá-los.",
+        "sample_size": "199 respondents",
+        "main_finding": "A capacidade de identificar deepfakes foi baixa e não foi significativamente influenciada pelo letramento digital nem pela exposição a deepfakes.",
+        "abstract_quote": "the ability to identify deepfakes was found to be low"
+      },
+      {
+        "id": "C52",
+        "study_type": "Estudo empírico experimental comparativo humanos vs. IA",
+        "method": "Humanos e modelos de IA classificaram 80 imagens de quatro categorias (animal, arquitetura, paisagem, veículo) como reais ou geradas.",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Humanos e máquinas reconheceram melhor imagens reais que geradas, com desempenho similar nas geradas, e limitações dos modelos de geração (letras, reflexos nos olhos) ajudaram os humanos.",
+        "abstract_quote": "Experiment results show that both machines and humans performed better in recognizing real images than generated images."
+      },
+      {
+        "id": "C15",
+        "study_type": "Experimento online com participantes humanos",
+        "method": "Experimento online variando o desempenho de uma IA de detecção de deepfakes para examinar confiança, risco percebido e dependência humana da IA.",
+        "sample_size": "400 participants",
+        "main_finding": "Os participantes calibram sua dependência da IA conforme o risco percebido e os resultados de predição fornecidos pela IA.",
+        "abstract_quote": "Our findings indicate how participants calibrate their dependence on AI based on their perceived risk and the prediction results provided by AI."
+      },
+      {
+        "id": "C63",
+        "study_type": "Estudo de desenvolvimento e validação de questionário (transversal)",
+        "method": "Desenvolvimento de itens, avaliação por especialistas e estudo transversal em três idiomas com análises fatoriais exploratória e confirmatória.",
+        "sample_size": "N = 733",
+        "main_finding": "O PDTQ é um instrumento confiável, invariante e válido para avaliar a confiabilidade percebida de vídeos deepfake, com dois fatores (conteúdo e apresentação).",
+        "abstract_quote": "the PDTQ is a reliable, measurement invariant, and valid tool for comprehensive exploration of individuals’ perception of deepfake videos."
+      },
+      {
+        "id": "C125",
+        "study_type": "Experimentos online (dois estudos)",
+        "method": "Estudo 1 de identificação de imagens de alimentos reais vs. geradas por IA; Estudo 2 sobre o efeito da divulgação da origem da imagem no apelo visual.",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Os participantes reconheceram com facilidade as imagens de alimentos geradas por IA, e a divulgação da origem alterou o apelo das imagens.",
+        "abstract_quote": "The participants in Study 1 found it very easy to recognize the AI-generated images, particularly in the case of ultra-processed foods."
+      },
+      {
+        "id": "C72",
+        "study_type": "Estudo experimental entre sujeitos (3 x 1)",
+        "method": "Estudantes viram um vídeo de uma notícia apresentada por um humano, um avatar de IA muito realista ou um avatar de aparência ficcional, e avaliaram a credibilidade (ANOVA e testes post-hoc).",
+        "sample_size": "150 estudiantes universitarios",
+        "main_finding": "A credibilidade foi significativamente maior para o apresentador humano que para o avatar realista, sem diferença significativa entre o humano e o avatar ficcional.",
+        "abstract_quote": "Los datos revelaron que existen diferencias estadísticamente significativas en la credibilidad otorgada a la condición humana y a la del avatar realista, a favor del humano."
+      }
+    ]
+  },
+  "text": "{\"items\":[{\"id\":\"C02\",\"study_type\":\"Estudo empírico experimental (survey online com alocação aleatória)\",\"method\":\"Participantes classificaram imagens de rostos como geradas por IA (StyleGAN2) ou reais, com relato de confiança, em quatro grupos (controle e três intervenções de auxílio).\",\"sample_size\":\"N = 280\",\"main_finding\":\"A acurácia na detecção de rostos deepfake ficou pouco acima do acaso, nenhuma intervenção a melhorou, e a confiança dos participantes era alta e não relacionada à acurácia.\",\"abstract_quote\":\"Overall detection accuracy was only just above chance and none of the interventions significantly improved this.\"},{\"id\":\"C14\",\"study_type\":\"Estudo empírico experimental (teste de detecção)\",\"method\":\"Participantes ouviram áudios genuínos e deepfake em inglês e mandarim e identificaram os deepfakes; testou-se também o efeito de apresentar exemplos de deepfakes.\",\"sample_size\":\"n = 529 individuals\",\"main_finding\":\"Os ouvintes detectaram corretamente os deepfakes de fala em apenas 73% das vezes, sem diferença entre os idiomas.\",\"abstract_quote\":\"Listeners only correctly spotted the deepfakes 73% of the time, and there was no difference in detectability between the two languages.\"},{\"id\":\"C55\",\"study_type\":\"Experimento comportamental pré-registrado\",\"method\":\"Experimento comportamental de detecção de deepfakes em vídeo, manipulando conscientização e incentivos financeiros e medindo viés e autoconfiança.\",\"sample_size\":\"N = 210\",\"main_finding\":\"As pessoas não detectam deepfakes de forma confiável, tendem a tomá-los por autênticos e superestimam a própria capacidade de detecção.\",\"abstract_quote\":\"we show that (a) people cannot reliably detect deepfakes, and (b) neither raising awareness nor introducing financial incentives improves their detection accuracy.\"},{\"id\":\"C33\",\"study_type\":\"Estudos empíricos online (experimentos randomizados pré-registrados)\",\"method\":\"Dois estudos online em que participantes identificaram vídeos autênticos e deepfakes, comparados a um modelo de detecção e a intervenções randomizadas.\",\"sample_size\":\"15,016 participants\",\"main_finding\":\"Observadores humanos comuns tiveram acurácia semelhante à do principal modelo de detecção, com erros de tipos diferentes, e manipulações que perturbam o processamento visual de rostos prejudicaram os humanos.\",\"abstract_quote\":\"We compare the performance of ordinary human observers with the leading computer vision deepfake detection model and find them similarly accurate, while making different kinds of mistakes.\"},{\"id\":\"C09\",\"study_type\":\"Estudo empírico experimental (múltiplos experimentos)\",\"method\":\"Quatro experimentos de discriminação entre imagens faciais geradas por ChatGPT/DALL·E (identidades fictícias e celebridades) e fotografias reais, com e sem fotos reais de comparação.\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Rostos gerados por IA, fictícios ou de celebridades, não puderam ser distinguidos de fotografias reais pelos observadores humanos.\",\"abstract_quote\":\"Our results demonstrated that generated images of both fictional (Experiment 1) and celebrity identities (Experiment 2) could not be distinguished from real photographs.\"},{\"id\":\"C18\",\"study_type\":\"Estudo empírico de avaliação perceptiva\",\"method\":\"Avaliação do fotorrealismo e da confiabilidade de rostos sintetizados por IA em comparação com rostos reais.\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Rostos sintetizados por IA são indistinguíveis de rostos reais e avaliados como mais confiáveis.\",\"abstract_quote\":\"synthesis engines have passed through the uncanny valley and are capable of creating faces that are indistinguishable-and more trustworthy-than real faces.\"},{\"id\":\"C39\",\"study_type\":\"Estudo empírico experimental (dois experimentos e reanálise de dados)\",\"method\":\"Experimento 1 de julgamento humano vs. IA de rostos, com reanálise de dados publicados; Experimento 2 com teoria do espaço facial, relatos qualitativos e aprendizado de máquina.\",\"sample_size\":\"N = 124 adults\",\"main_finding\":\"Rostos brancos gerados por IA são julgados como humanos mais vezes do que rostos humanos reais (hiper-realismo da IA), e os participantes com mais erros eram os mais confiantes.\",\"abstract_quote\":\"we showed that White AI faces are judged as human more often than actual human faces—a phenomenon we term AI hyperrealism.\"},{\"id\":\"C56\",\"study_type\":\"Estudo empírico experimental (dois delineamentos, com treinamento)\",\"method\":\"Comparação entre super-reconhecedores de faces e controles na detecção e discriminação de rostos sintéticos (GAN), com e sem procedimento de treinamento sobre artefatos de renderização.\",\"sample_size\":\"total N = 283\",\"main_finding\":\"Super-reconhecedores detectaram e discriminaram rostos sintéticos melhor que os controles, e o treinamento aumentou o desempenho em ambos os grupos.\",\"abstract_quote\":\"we found that SRs (total N = 283) were better at detecting and discriminating synthetic faces than controls (total N = 381), where control participants were below chance without training.\"},{\"id\":\"C69\",\"study_type\":\"Estudo empírico experimental (dois experimentos)\",\"method\":\"Participantes julgaram se rostos eram sintéticos ou reais (escala 1–7 e resposta binária com confiança); comparou-se desempenho individual, \\\"multidão interna\\\" e \\\"multidão externa\\\" com diferentes métodos de agregação.\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"O desempenho na detecção de rostos sintéticos aumentou com o tamanho da multidão externa, enquanto a multidão interna trouxe pouco benefício.\",\"abstract_quote\":\"we found increases in performance with increasing sizes of outer crowd\"},{\"id\":\"C103\",\"study_type\":\"Experimento online pré-registrado\",\"method\":\"Participantes categorizaram 20 vídeos (10 reais, 10 deepfake) como reais ou deepfake, com ou sem lista de estratégias de detecção, e relataram confiança.\",\"sample_size\":\"N = 454\",\"main_finding\":\"Os participantes classificaram corretamente cerca de 60,7% dos vídeos, e fornecer estratégias de detecção não alterou acurácia nem confiança.\",\"abstract_quote\":\"The detection strategies intervention did not impact detection accuracy or detection confidence, with the intervention and control groups performing similarly on the detection activity and showing similar levels of confidence.\"},{\"id\":\"C118\",\"study_type\":\"Estudo empírico experimental\",\"method\":\"Experimento medindo a atenção e a capacidade de detectar um deepfake de alta qualidade em um conjunto de vídeos, com e sem aviso de conteúdo.\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Sem aviso, quem viu o deepfake não o percebeu mais do que o grupo controle, e, com aviso, só 21,6% identificaram corretamente o único vídeo falso.\",\"abstract_quote\":\"only 21.6% of respondents correctly identify the deepfake as the only inauthentic video\"},{\"id\":\"C51\",\"study_type\":\"Estudos empíricos online (série de experimentos)\",\"method\":\"Série de experimentos online com quatro condições de navegação (baixa prevalência, apresentação breve, baixa qualidade de vídeo, atenção dividida) e teste de alertas visuais com assistência de IA.\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Todas as condições de navegação reduziram a detecção de deepfakes, e alertas visuais que amplificam artefatos aumentaram a detecção mais que prompts em texto.\",\"abstract_quote\":\"found in a series of online experiments that all conditions lowered detection relative to baseline\"},{\"id\":\"C100\",\"study_type\":\"Experimentos randomizados controlados (2 × 2 × 2)\",\"method\":\"Dois experimentos fatoriais manipulando pistas heurísticas do sistema (seguidores, popularidade, descrição) e características do vídeo (definição, duração, edição) sobre a credibilidade percebida de deepfakes.\",\"sample_size\":\"N = 518\",\"main_finding\":\"O número de seguidores da fonte e a popularidade do vídeo associaram-se positivamente à credibilidade percebida, e deepfakes em alta definição enganam mais.\",\"abstract_quote\":\"the number of the source’s followers and the video’s popularity are positively associated with perceived credibility\"},{\"id\":\"C65\",\"study_type\":\"Estudo experimental\",\"method\":\"Participantes julgaram a autenticidade de imagens de desinformação geradas ou não por IA, variando realismo estético e saliência emocional, e depois receberam o veredito de uma ferramenta de detecção de IA.\",\"sample_size\":\"292 UK-based participants\",\"main_finding\":\"Imagens geradas por IA com aparência mais realista foram mais julgadas como autênticas, porém com menor confiança; a saliência emocional não previu os julgamentos.\",\"abstract_quote\":\"participants were more likely to judge realistic-looking AI-generated images as being authentic compared with less realistic-looking AI-generated images, but did so with less confidence in their decision.\"},{\"id\":\"C119\",\"study_type\":\"Estudo empírico correlacional/de detecção\",\"method\":\"Investigação dos preditores do desempenho humano no reconhecimento de vídeos deepfake (familiaridade, uso de redes sociais, pensamento conspiratório, idade e gênero).\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"O desempenho foi melhor para deepfakes de pessoas familiares e se associou positivamente ao tempo em redes sociais e ao pensamento conspiratório, mas não à idade ou ao gênero.\",\"abstract_quote\":\"Our findings show that humans perform better at recognizing deepfake videos of familiar persons compared to deepfakes of unfamiliar persons.\"},{\"id\":\"C37\",\"study_type\":\"Estudo empírico (análise computacional de expressões faciais e análise de resposta da audiência)\",\"method\":\"Análise computacional das expressões emocionais em vídeos deepfake de troca de rosto e autênticos, seguida de análise das reações emocionais e da credibilidade percebida pelos espectadores.\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Deepfakes exibem menos emoções que vídeos autênticos, e a menor resposta emocional da audiência a eles associou-se a maior credibilidade percebida.\",\"abstract_quote\":\"Notably, audiences' reduced emotional responses to deepfakes were associated with higher perceived credibility.\"},{\"id\":\"C54\",\"study_type\":\"Estudo experimental com EEG e medidas psicológicas\",\"method\":\"Registro de EEG e avaliações de participantes ao verem rostos reais com expressões positivas, neutras e negativas, informados de que eram reais ou falsos.\",\"sample_size\":\"N = 30\",\"main_finding\":\"Sorrisos tidos como deepfake pareceram menos positivos, foram avaliados mais lentamente e não mostraram os efeitos neurais típicos de emoção dos sorrisos tidos como reais.\",\"abstract_quote\":\"Smiling faces marked as fake appeared less positive, as reflected in expression ratings, and induced slower evaluations.\"},{\"id\":\"C42\",\"study_type\":\"Estudo exploratório por survey\",\"method\":\"Survey com vídeos deepfake e genuínos medindo fatores psicológicos, cognitivos, letramento digital, demografia, acurácia e confiança, analisado com técnicas de aprendizado de máquina.\",\"sample_size\":\"71 participants\",\"main_finding\":\"Letramento digital e vieses cognitivos correlacionaram-se significativamente com o desempenho na detecção de deepfakes.\",\"abstract_quote\":\"revealing significant correlations between digital literacy, cognitive biases, and deepfake detection performance\"},{\"id\":\"C27\",\"study_type\":\"Survey quantitativo\",\"method\":\"Survey com amostragem aleatória de internautas da Geração X na Indonésia, com análise descritiva e inferencial de letramento digital, exposição a deepfakes e capacidade de identificá-los.\",\"sample_size\":\"199 respondents\",\"main_finding\":\"A capacidade de identificar deepfakes foi baixa e não foi significativamente influenciada pelo letramento digital nem pela exposição a deepfakes.\",\"abstract_quote\":\"the ability to identify deepfakes was found to be low\"},{\"id\":\"C52\",\"study_type\":\"Estudo empírico experimental comparativo humanos vs. IA\",\"method\":\"Humanos e modelos de IA classificaram 80 imagens de quatro categorias (animal, arquitetura, paisagem, veículo) como reais ou geradas.\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Humanos e máquinas reconheceram melhor imagens reais que geradas, com desempenho similar nas geradas, e limitações dos modelos de geração (letras, reflexos nos olhos) ajudaram os humanos.\",\"abstract_quote\":\"Experiment results show that both machines and humans performed better in recognizing real images than generated images.\"},{\"id\":\"C15\",\"study_type\":\"Experimento online com participantes humanos\",\"method\":\"Experimento online variando o desempenho de uma IA de detecção de deepfakes para examinar confiança, risco percebido e dependência humana da IA.\",\"sample_size\":\"400 participants\",\"main_finding\":\"Os participantes calibram sua dependência da IA conforme o risco percebido e os resultados de predição fornecidos pela IA.\",\"abstract_quote\":\"Our findings indicate how participants calibrate their dependence on AI based on their perceived risk and the prediction results provided by AI.\"},{\"id\":\"C63\",\"study_type\":\"Estudo de desenvolvimento e validação de questionário (transversal)\",\"method\":\"Desenvolvimento de itens, avaliação por especialistas e estudo transversal em três idiomas com análises fatoriais exploratória e confirmatória.\",\"sample_size\":\"N = 733\",\"main_finding\":\"O PDTQ é um instrumento confiável, invariante e válido para avaliar a confiabilidade percebida de vídeos deepfake, com dois fatores (conteúdo e apresentação).\",\"abstract_quote\":\"the PDTQ is a reliable, measurement invariant, and valid tool for comprehensive exploration of individuals’ perception of deepfake videos.\"},{\"id\":\"C125\",\"study_type\":\"Experimentos online (dois estudos)\",\"method\":\"Estudo 1 de identificação de imagens de alimentos reais vs. geradas por IA; Estudo 2 sobre o efeito da divulgação da origem da imagem no apelo visual.\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Os participantes reconheceram com facilidade as imagens de alimentos geradas por IA, e a divulgação da origem alterou o apelo das imagens.\",\"abstract_quote\":\"The participants in Study 1 found it very easy to recognize the AI-generated images, particularly in the case of ultra-processed foods.\"},{\"id\":\"C72\",\"study_type\":\"Estudo experimental entre sujeitos (3 x 1)\",\"method\":\"Estudantes viram um vídeo de uma notícia apresentada por um humano, um avatar de IA muito realista ou um avatar de aparência ficcional, e avaliaram a credibilidade (ANOVA e testes post-hoc).\",\"sample_size\":\"150 estudiantes universitarios\",\"main_finding\":\"A credibilidade foi significativamente maior para o apresentador humano que para o avatar realista, sem diferença significativa entre o humano e o avatar ficcional.\",\"abstract_quote\":\"Los datos revelaron que existen diferencias estadísticamente significativas en la credibilidad otorgada a la condición humana y a la del avatar realista, a favor del humano.\"}]}",
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 12452,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 8029,
+    "output_tokens_details": {
+      "thinking_tokens": 2447
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 12452,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 8029,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 12452,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 12452
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 2,
+  "duration_s": 46.47,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "items": "[{\"id\": \"C02\", \"study_type\": \"Estudo empírico experimental (survey online com alocação aleatória)\", \"method\": \"Participantes classificaram imagens de rostos como geradas por IA (StyleGAN2) ou reais, …"
+      }
+    }
+  ]
+}

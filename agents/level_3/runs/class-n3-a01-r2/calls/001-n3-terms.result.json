@@ -1,0 +1,98 @@
+{
+  "structured": {
+    "year_from": 2018,
+    "year_to": 2025,
+    "queries_en": [
+      "continued influence effect misinformation",
+      "continued influence effect retraction",
+      "continued influence of misinformation correction",
+      "reliance on retracted information inferential reasoning",
+      "misinformation retraction fictional event report experiment",
+      "correction of false information event memory",
+      "continued influence effect explanations",
+      "belief updating after misinformation correction",
+      "retraction of misinformation causal inference",
+      "misinformation corrections reasoning fictional scenario"
+    ],
+    "queries_pt": [
+      "efeito de influência continuada da desinformação",
+      "influência continuada informação falsa correção",
+      "retratação de informação falsa raciocínio",
+      "persistência da crença após correção",
+      "efeito de continuidade da influência retratação"
+    ],
+    "include": [
+      "Artigo de periódico revisado por pares com estudo empírico e dados próprios",
+      "Publicado entre 2018 e 2025",
+      "Experimento com participantes humanos",
+      "Mede crença, memória ou raciocínio inferencial após uma correção ou retratação de informação falsa",
+      "Investiga o efeito de influência continuada (continued influence effect) ou persistência da dependência de informação corrigida",
+      "Materiais neutros: cenários fictícios, relatos de eventos inventados ou alegações sem conotação política ou de saúde",
+      "Resumo disponível que permita extrair achado principal e trecho literal"
+    ],
+    "exclude": [
+      "Revisões de literatura, revisões sistemáticas e meta-análises",
+      "Ensaios teóricos, comentários, editoriais e resenhas",
+      "Preprints, trabalhos de anais de congresso, capítulos de livro, teses e dissertações",
+      "Desinformação política ou eleitoral",
+      "Desinformação sobre vacinas, saúde ou COVID-19",
+      "Estudos sem correção ou retratação (apenas exposição à desinformação ou detecção de notícias falsas)",
+      "Estudos com modelos computacionais ou algoritmos sem participantes humanos",
+      "Estudos sobre fake news em redes sociais sem medida de crença após correção",
+      "Estudos fora do período 2018 a 2025",
+      "Artigos sem resumo ou sem dados empíricos próprios"
+    ]
+  },
+  "text": "{\"year_from\":2018,\"year_to\":2025,\"queries_en\":[\"continued influence effect misinformation\",\"continued influence effect retraction\",\"continued influence of misinformation correction\",\"reliance on retracted information inferential reasoning\",\"misinformation retraction fictional event report experiment\",\"correction of false information event memory\",\"continued influence effect explanations\",\"belief updating after misinformation correction\",\"retraction of misinformation causal inference\",\"misinformation corrections reasoning fictional scenario\"],\"queries_pt\":[\"efeito de influência continuada da desinformação\",\"influência continuada informação falsa correção\",\"retratação de informação falsa raciocínio\",\"persistência da crença após correção\",\"efeito de continuidade da influência retratação\"],\"include\":[\"Artigo de periódico revisado por pares com estudo empírico e dados próprios\",\"Publicado entre 2018 e 2025\",\"Experimento com participantes humanos\",\"Mede crença, memória ou raciocínio inferencial após uma correção ou retratação de informação falsa\",\"Investiga o efeito de influência continuada (continued influence effect) ou persistência da dependência de informação corrigida\",\"Materiais neutros: cenários fictícios, relatos de eventos inventados ou alegações sem conotação política ou de saúde\",\"Resumo disponível que permita extrair achado principal e trecho literal\"],\"exclude\":[\"Revisões de literatura, revisões sistemáticas e meta-análises\",\"Ensaios teóricos, comentários, editoriais e resenhas\",\"Preprints, trabalhos de anais de congresso, capítulos de livro, teses e dissertações\",\"Desinformação política ou eleitoral\",\"Desinformação sobre vacinas, saúde ou COVID-19\",\"Estudos sem correção ou retratação (apenas exposição à desinformação ou detecção de notícias falsas)\",\"Estudos com modelos computacionais ou algoritmos sem participantes humanos\",\"Estudos sobre fake news em redes sociais sem medida de crença após correção\",\"Estudos fora do período 2018 a 2025\",\"Artigos sem resumo ou sem dados empíricos próprios\"]}",
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 392,
+    "cache_read_input_tokens": 1705,
+    "output_tokens": 823,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 392,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 823,
+        "cache_read_input_tokens": 1705,
+        "cache_creation_input_tokens": 392,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 392
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 2,
+  "duration_s": 8.09,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "year_from": "2018",
+        "year_to": "2025",
+        "queries_en": "[\"continued influence effect misinformation\", \"continued influence effect retraction\", \"continued influence of misinformation correction\", \"reliance on retracted information inferential reasoning\", \"…",
+        "queries_pt": "[\"efeito de influência continuada da desinformação\", \"influência continuada informação falsa correção\", \"retratação de informação falsa raciocínio\", \"persistência da crença após correção\", \"efeito de…",
+        "include": "[\"Artigo de periódico revisado por pares com estudo empírico e dados próprios\", \"Publicado entre 2018 e 2025\", \"Experimento com participantes humanos\", \"Mede crença, memória ou raciocínio inferencial…",
+        "exclude": "[\"Revisões de literatura, revisões sistemáticas e meta-análises\", \"Ensaios teóricos, comentários, editoriais e resenhas\", \"Preprints, trabalhos de anais de congresso, capítulos de livro, teses e diss…"
+      }
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "structured": {
+    "approved": false,
+    "checked": [
+      "Artigo 1 (Seibt e Fonseca, 2019): abri journals.ipl.pt/cpublica/article/view/114 (espelho oficial de journals.openedition.org/cp/4806, que bloqueou o robô): DOI 10.4000/cp.4806, título, autoras e resumo conferem; a citação 'Ao tomar os serviços de verificação como objeto empírico de análise, destacamos a transparência como valor profissional e social no jornalismo contemporâneo.' está no resumo letra por letra; o resumo não informa amostra; o resumo se apresenta como 'reflexão' pelo método weberiano, e a pesquisa empírica (questionário do Truco, observação e entrevistas) só aparece no texto completo, como a executora já declarou.",
+      "Artigo 2 (Damasceno e Patrício, 2020): abri doi.org/10.25200/bjr.v16n2.2020.1212: título, autores, ano 2020, periódico Brazilian Journalism Research e resumo conferem; a citação 'the agencies themselves do not lay out the criteria for selecting what is to be checked.' está exata no resumo; o achado sobre fontes oficiais corresponde ao resumo ('se valem, sobretudo, de dados e estudos fornecidos por fontes oficiais e instituições públicas'); o resumo não informa amostra.",
+      "Artigo 3 (Rodríguez-Pérez e Seibt, 2022): abri doi.org/10.25200/BJR.v18n2.2022.1510: o resumo confirma questionário autoaplicado, 'The sample (n=29)' e a citação 'The results show the central purpose is to detect and combat false and misleading content on digital channels.' exata; o achado corresponde ao resumo.",
+      "Artigo 4 (Nascimento, Lycarião e Nocrato, 2024): abri doi.org/10.25200/BJR.v20n3.2024.1687: título, periódico e ano 2024 conferem; o resumo confirma análise de conteúdo, '63 checks were identified using transparency tools, which represented less than 7% of the total checks conducted (950)' e a citação 'However, such tools proved decisive for verifications involving subjects, agents, and public authorities.' exata; o achado corresponde.",
+      "Artigo 5 (Lelo, 2023): a página da SAGE retornou 403; via resultados de busca do próprio site da SAGE confirmei a amostra ('30 official statements published by journalists and their tech partners, and seven semi-structured interviews with representatives from five websites') e a citação 'Nonetheless, AI has challenged fact-checkers' authority and increased the technologists' influence over journalism.' exata; o achado corresponde ao trecho 'an emerging automation landscape in the Brazilian fact-checking venture supported by the tech industry'; a SAGE exibe 2024 (vol. 101, n. 2, impresso) e o DOI carrega 2023 (online first).",
+      "Artigo 6 (Lelo, 2022): a T&F retornou 403; snippets de tandfonline.com e ResearchGate confirmam 'semi-structured interviews with 16 fact-checkers' e a citação até 'have led them to modularize their corrections'; o trecho final 'to different platforms' não apareceu em nenhuma fonte aberta que consegui abrir.",
+      "Artigo 7 (Canavilhas e Ito, 2025): snippets de mdpi.com e ResearchGate confirmam 'in-depth interviews were conducted with representatives of four fact-checking organizations: Polígrafo (Portugal), Chequeado (Argentina), Maldita (Spain), and Aletheia (Brazil)' e 'from tooling (simple) to disruptive (advanced), which are related to their human structure and economic situation'; o trecho inicial da citação ('This is why different levels of use were identified,') ficou oculto pela elipse dos snippets e não pude confirmar por inteiro.",
+      "Artigo 8 (Moreno-Gil, Ramon e Rodríguez-Martínez, 2021): abri cogitatiopress.com/mediaandcommunication/article/view/3443: DOI, título, autoras, ano 2021 e periódico Media and Communication conferem; o campo de amostra é idêntico ao resumo; a citação 'Interviewees identified three core challenges in fact-checking practice: difficulties in accessing public data, limited resources, and the need to reach wider audiences.' está exata; o achado corresponde.",
+      "Artigos 9 a 18 (Abuín-Penas et al.; Ferracioli E-Legis; Ferracioli, Kniess e Marques; Dourado; Lelo e Pachi Filho; Nogales-Bocio et al.; Alencar e Bittencourt; Alencar e Dourado; Pinto e Oliveira; Cazzamatta e Sarısakaloğlu): não abri os DOIs nesta sessão, então não pude confirmar independentemente as citações, amostras e metadados desses dez itens; confio aqui apenas na documentação da executora."
+    ],
+    "per_item": [
+      {
+        "doi": "10.4000/cp.4806",
+        "ok": true,
+        "problem": "nenhum erro de dado; inclusão limítrofe declarada"
+      },
+      {
+        "doi": "10.25200/bjr.v16n2.2020.1212",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.25200/BJR.v18n2.2022.1510",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.25200/BJR.v20n3.2024.1687",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1177/10776990231207963",
+        "ok": true,
+        "problem": "ano ambíguo 2023/2024, declarado"
+      },
+      {
+        "doi": "10.1080/1461670x.2022.2069588",
+        "ok": true,
+        "problem": "final da citação não confirmado em fonte aberta"
+      },
+      {
+        "doi": "10.3390/socsci14090514",
+        "ok": true,
+        "problem": "início da citação não confirmado por inteiro"
+      },
+      {
+        "doi": "10.17645/mac.v9i1.3443",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.15847/obsobs18520242436",
+        "ok": false,
+        "problem": "não verificado nesta sessão"
+      },
+      {
+        "doi": "10.51206/elegis.v15i38.758",
+        "ok": false,
+        "problem": "não verificado nesta sessão"
+      },
+      {
+        "doi": "10.1080/21670811.2021.2021377",
+        "ok": false,
+        "problem": "achado sobre rótulo 'true' da Lupa não é sustentado pela citação do resumo"
+      },
+      {
+        "doi": "10.21878/compolitica.2019.9.2.143",
+        "ok": false,
+        "problem": "não verificado nesta sessão"
+      },
+      {
+        "doi": "10.5209/esmp.71235",
+        "ok": false,
+        "problem": "não verificado nesta sessão"
+      },
+      {
+        "doi": "10.31921/doxacom.n41a2906",
+        "ok": false,
+        "problem": "resumo sem resultados e achado informado é o objetivo"
+      },
+      {
+        "doi": "10.13037/ci.vol25n53.8624",
+        "ok": false,
+        "problem": "não verificado nesta sessão"
+      },
+      {
+        "doi": "10.19132/1807-8583202253.101015",
+        "ok": false,
+        "problem": "não verificado nesta sessão"
+      },
+      {
+        "doi": "10.59289/t7hc8w93",
+        "ok": false,
+        "problem": "natureza de periódico duvidosa e citação com vírgula solta no fim"
+      },
+      {
+        "doi": "10.1177/27523543251344971",
+        "ok": false,
+        "problem": "não verificado nesta sessão"
+      }
+    ],
+    "issues": [
+      "No artigo 11 (Ferracioli, Kniess e Marques, Digital Journalism), o achado 'na Lupa o rótulo mais usado é true' não é sustentado pela citação do resumo, que só diz 'There is correspondence between professionals' conceptions about their role', e a própria executora admite que viu apenas fragmentos do resumo, então o achado pode ir além do resumo, o que o pedido manda reprovar.",
+      "No artigo 11, o campo sample_size mistura o texto do resumo com comentário editorial da executora ('o trecho que li não deixa claro...'), em vez de trazer o tamanho da amostra exatamente como aparece no resumo.",
+      "No artigo 14 (Nogales-Bocio et al., Doxa Comunicación), o campo de achado principal não traz achado nenhum, só o objetivo do estudo, porque o resumo não apresenta resultados, e a citação sustenta o método, não o achado; o pedido exige um achado principal para cada artigo.",
+      "No artigo 17 (Pinto e Oliveira), o periódico 'Tendências da Pesquisa Brasileira em Ciência da Informação' parece ser coletânea editada pelo IBICT e não periódico revisado por pares; se for livro ou coletânea, o artigo viola a restrição de 'apenas artigos de periódico' e precisa ser trocado.",
+      "No artigo 17, a citação termina em vírgula solta ('Ainda e cedo pra dizer,'), o que sugere truncamento que precisa ser conferido no resumo original.",
+      "No artigo 6 (Lelo, Journalism Studies), o trecho final da citação ('to different platforms') não pôde ser confirmado em nenhuma fonte aberta, porque o site da T&F bloqueou o acesso e os snippets cortam antes disso.",
+      "No artigo 7 (Canavilhas e Ito), o trecho inicial da citação ('This is why different levels of use were identified,') ficou oculto pelas elipses dos snippets e não foi confirmado por inteiro.",
+      "No artigo 5 (Lelo, J&MCQ), há divergência de ano: a SAGE exibe 2024 (vol. 101, n. 2) e a entrega usa 2023 (online first); é defensável, mas o campo deveria registrar explicitamente a edição de 2024.",
+      "Os artigos 9, 10, 12, 13, 15, 16 e 18 não puderam ser conferidos por mim nesta sessão porque os DOIs não foram abertos, então as citações e amostras desses itens seguem com verificação apenas pela executora."
+    ],
+    "feedback": "Corrija primeiro o artigo 11: abra o resumo completo em doi.org/10.1080/21670811.2021.2021377, limpe o campo sample_size deixando só o texto do resumo e substitua o achado por algo que a citação do resumo sustente; se o rótulo 'true' da Lupa não estiver no resumo, tire esse detalhe ou troque o artigo. No artigo 14, complete o achado principal a partir do texto completo, marcando claramente que vem do texto e não do resumo, ou substitua o artigo por outro estudo empírico que caiba nos critérios. No artigo 17, confirme se Tendências da Pesquisa Brasileira em Ciência da Informação é periódico revisado por pares e refaça a citação sem truncamento; se for livro ou coletânea, substitua o artigo. Nos artigos 6 e 7, confirme no texto completo os trechos da citação que ficaram cortados nos snippets ('to different platforms' e 'This is why different levels of use were identified,'). No artigo 5, registre no campo a edição impressa de 2024 além do online first de 2023. Na próxima entrega, reabra os DOIs dos artigos 9, 10, 12, 13, 15, 16 e 18 e garanta que cada citação possa ser conferida em fonte aberta, pois hoje só existe a palavra da executora para esses itens. Sobre o artigo 1, mantenha a ressalva já declarada e ofereça ao pesquisador a opção de troca por um artigo inequivocamente empírico, já que o resumo se apresenta como reflexão teórica."
+  },
+  "text": "{\n \"approved\": false,\n \"checked\": [\n  \"Artigo 1 (Seibt e Fonseca, 2019): abri journals.ipl.pt/cpublica/article/view/114 (espelho oficial de journals.openedition.org/cp/4806, que bloqueou o robô): DOI 10.4000/cp.4806, título, autoras e resumo conferem; a citação 'Ao tomar os serviços de verificação como objeto empírico de análise, destacamos a transparência como valor profissional e social no jornalismo contemporâneo.' está no resumo letra por letra; o resumo não informa amostra; o resumo se apresenta como 'reflexão' pelo método weberiano, e a pesquisa empírica (questionário do Truco, observação e entrevistas) só aparece no texto completo, como a executora já declarou.\",\n  \"Artigo 2 (Damasceno e Patrício, 2020): abri doi.org/10.25200/bjr.v16n2.2020.1212: título, autores, ano 2020, periódico Brazilian Journalism Research e resumo conferem; a citação 'the agencies themselves do not lay out the criteria for selecting what is to be checked.' está exata no resumo; o achado sobre fontes oficiais corresponde ao resumo ('se valem, sobretudo, de dados e estudos fornecidos por fontes oficiais e instituições públicas'); o resumo não informa amostra.\",\n  \"Artigo 3 (Rodríguez-Pérez e Seibt, 2022): abri doi.org/10.25200/BJR.v18n2.2022.1510: o resumo confirma questionário autoaplicado, 'The sample (n=29)' e a citação 'The results show the central purpose is to detect and combat false and misleading content on digital channels.' exata; o achado corresponde ao resumo.\",\n  \"Artigo 4 (Nascimento, Lycarião e Nocrato, 2024): abri doi.org/10.25200/BJR.v20n3.2024.1687: título, periódico e ano 2024 conferem; o resumo confirma análise de conteúdo, '63 checks were identified using transparency tools, which represented less than 7% of the total checks conducted (950)' e a citação 'However, such tools proved decisive for verifications involving subjects, agents, and public authorities.' exata; o achado corresponde.\",\n  \"Artigo 5 (Lelo, 2023): a página da SAGE retornou 403; via resultados de busca do próprio site da SAGE confirmei a amostra ('30 official statements published by journalists and their tech partners, and seven semi-structured interviews with representatives from five websites') e a citação 'Nonetheless, AI has challenged fact-checkers' authority and increased the technologists' influence over journalism.' exata; o achado corresponde ao trecho 'an emerging automation landscape in the Brazilian fact-checking venture supported by the tech industry'; a SAGE exibe 2024 (vol. 101, n. 2, impresso) e o DOI carrega 2023 (online first).\",\n  \"Artigo 6 (Lelo, 2022): a T&F retornou 403; snippets de tandfonline.com e ResearchGate confirmam 'semi-structured interviews with 16 fact-checkers' e a citação até 'have led them to modularize their corrections'; o trecho final 'to different platforms' não apareceu em nenhuma fonte aberta que consegui abrir.\",\n  \"Artigo 7 (Canavilhas e Ito, 2025): snippets de mdpi.com e ResearchGate confirmam 'in-depth interviews were conducted with representatives of four fact-checking organizations: Polígrafo (Portugal), Chequeado (Argentina), Maldita (Spain), and Aletheia (Brazil)' e 'from tooling (simple) to disruptive (advanced), which are related to their human structure and economic situation'; o trecho inicial da citação ('This is why different levels of use were identified,') ficou oculto pela elipse dos snippets e não pude confirmar por inteiro.\",\n  \"Artigo 8 (Moreno-Gil, Ramon e Rodríguez-Martínez, 2021): abri cogitatiopress.com/mediaandcommunication/article/view/3443: DOI, título, autoras, ano 2021 e periódico Media and Communication conferem; o campo de amostra é idêntico ao resumo; a citação 'Interviewees identified three core challenges in fact-checking practice: difficulties in accessing public data, limited resources, and the need to reach wider audiences.' está exata; o achado corresponde.\",\n  \"Artigos 9 a 18 (Abuín-Penas et al.; Ferracioli E-Legis; Ferracioli, Kniess e Marques; Dourado; Lelo e Pachi Filho; Nogales-Bocio et al.; Alencar e Bittencourt; Alencar e Dourado; Pinto e Oliveira; Cazzamatta e Sarısakaloğlu): não abri os DOIs nesta sessão, então não pude confirmar independentemente as citações, amostras e metadados desses dez itens; confio aqui apenas na documentação da executora.\"\n ],\n \"per_item\": [\n  {\"doi\": \"10.4000/cp.4806\", \"ok\": true, \"problem\": \"nenhum erro de dado; inclusão limítrofe declarada\"},\n  {\"doi\": \"10.25200/bjr.v16n2.2020.1212\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.25200/BJR.v18n2.2022.1510\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.25200/BJR.v20n3.2024.1687\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1177/10776990231207963\", \"ok\": true, \"problem\": \"ano ambíguo 2023/2024, declarado\"},\n  {\"doi\": \"10.1080/1461670x.2022.2069588\", \"ok\": true, \"problem\": \"final da citação não confirmado em fonte aberta\"},\n  {\"doi\": \"10.3390/socsci14090514\", \"ok\": true, \"problem\": \"início da citação não confirmado por inteiro\"},\n  {\"doi\": \"10.17645/mac.v9i1.3443\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.15847/obsobs18520242436\", \"ok\": false, \"problem\": \"não verificado nesta sessão\"},\n  {\"doi\": \"10.51206/elegis.v15i38.758\", \"ok\": false, \"problem\": \"não verificado nesta sessão\"},\n  {\"doi\": \"10.1080/21670811.2021.2021377\", \"ok\": false, \"problem\": \"achado sobre rótulo 'true' da Lupa não é sustentado pela citação do resumo\"},\n  {\"doi\": \"10.21878/compolitica.2019.9.2.143\", \"ok\": false, \"problem\": \"não verificado nesta sessão\"},\n  {\"doi\": \"10.5209/esmp.71235\", \"ok\": false, \"problem\": \"não verificado nesta sessão\"},\n  {\"doi\": \"10.31921/doxacom.n41a2906\", \"ok\": false, \"problem\": \"resumo sem resultados e achado informado é o objetivo\"},\n  {\"doi\": \"10.13037/ci.vol25n53.8624\", \"ok\": false, \"problem\": \"não verificado nesta sessão\"},\n  {\"doi\": \"10.19132/1807-8583202253.101015\", \"ok\": false, \"problem\": \"não verificado nesta sessão\"},\n  {\"doi\": \"10.59289/t7hc8w93\", \"ok\": false, \"problem\": \"natureza de periódico duvidosa e citação com vírgula solta no fim\"},\n  {\"doi\": \"10.1177/27523543251344971\", \"ok\": false, \"problem\": \"não verificado nesta sessão\"}\n ],\n \"issues\": [\n  \"No artigo 11 (Ferracioli, Kniess e Marques, Digital Journalism), o achado 'na Lupa o rótulo mais usado é true' não é sustentado pela citação do resumo, que só diz 'There is correspondence between professionals' conceptions about their role', e a própria executora admite que viu apenas fragmentos do resumo, então o achado pode ir além do resumo, o que o pedido manda reprovar.\",\n  \"No artigo 11, o campo sample_size mistura o texto do resumo com comentário editorial da executora ('o trecho que li não deixa claro...'), em vez de trazer o tamanho da amostra exatamente como aparece no resumo.\",\n  \"No artigo 14 (Nogales-Bocio et al., Doxa Comunicación), o campo de achado principal não traz achado nenhum, só o objetivo do estudo, porque o resumo não apresenta resultados, e a citação sustenta o método, não o achado; o pedido exige um achado principal para cada artigo.\",\n  \"No artigo 17 (Pinto e Oliveira), o periódico 'Tendências da Pesquisa Brasileira em Ciência da Informação' parece ser coletânea editada pelo IBICT e não periódico revisado por pares; se for livro ou coletânea, o artigo viola a restrição de 'apenas artigos de periódico' e precisa ser trocado.\",\n  \"No artigo 17, a citação termina em vírgula solta ('Ainda e cedo pra dizer,'), o que sugere truncamento que precisa ser conferido no resumo original.\",\n  \"No artigo 6 (Lelo, Journalism Studies), o trecho final da citação ('to different platforms') não pôde ser confirmado em nenhuma fonte aberta, porque o site da T&F bloqueou o acesso e os snippets cortam antes disso.\",\n  \"No artigo 7 (Canavilhas e Ito), o trecho inicial da citação ('This is why different levels of use were identified,') ficou oculto pelas elipses dos snippets e não foi confirmado por inteiro.\",\n  \"No artigo 5 (Lelo, J&MCQ), há divergência de ano: a SAGE exibe 2024 (vol. 101, n. 2) e a entrega usa 2023 (online first); é defensável, mas o campo deveria registrar explicitamente a edição de 2024.\",\n  \"Os artigos 9, 10, 12, 13, 15, 16 e 18 não puderam ser conferidos por mim nesta sessão porque os DOIs não foram abertos, então as citações e amostras desses itens seguem com verificação apenas pela executora.\"\n ],\n \"feedback\": \"Corrija primeiro o artigo 11: abra o resumo completo em doi.org/10.1080/21670811.2021.2021377, limpe o campo sample_size deixando só o texto do resumo e substitua o achado por algo que a citação do resumo sustente; se o rótulo 'true' da Lupa não estiver no resumo, tire esse detalhe ou troque o artigo. No artigo 14, complete o achado principal a partir do texto completo, marcando claramente que vem do texto e não do resumo, ou substitua o artigo por outro estudo empírico que caiba nos critérios. No artigo 17, confirme se Tendências da Pesquisa Brasileira em Ciência da Informação é periódico revisado por pares e refaça a citação sem truncamento; se for livro ou coletânea, substitua o artigo. Nos artigos 6 e 7, confirme no texto completo os trechos da citação que ficaram cortados nos snippets ('to different platforms' e 'This is why different levels of use were identified,'). No artigo 5, registre no campo a edição impressa de 2024 além do online first de 2023. Na próxima entrega, reabra os DOIs dos artigos 9, 10, 12, 13, 15, 16 e 18 e garanta que cada citação possa ser conferida em fonte aberta, pois hoje só existe a palavra da executora para esses itens. Sobre o artigo 1, mantenha a ressalva já declarada e ofereça ao pesquisador a opção de troca por um artigo inequivocamente empírico, já que o resumo se apresenta como reflexão teórica.\"\n}",
+  "usage": {
+    "input_tokens": 177219,
+    "output_tokens": 11742,
+    "cost_usd": 0.018
+  },
+  "duration_s": 192.03,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.4000/cp.4806"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.25200/bjr.v16n2.2020.1212"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Transparência como princípio normativo do jornalismo\" fact-checking Brasil Seibt Fonseca Comunicação Pública resumo"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.25200/BJR.v18n2.2022.1510"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://journals.ipl.pt/cpublica/article/view/114"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.25200/BJR.v20n3.2024.1687"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1177/10776990231207963"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1080/1461670x.2022.2069588"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Fostering Artificial Intelligence to Face Misinformation\" Lelo abstract \"30 official statements\" \"seven semi-structured interviews\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"The Rise of the Brazilian Fact-checking Movement\" Lelo abstract \"16 fact-checkers from 13 active organizations\""
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.researchgate.net/publication/360315669_The_Rise_of_the_Brazilian_Fact-checking_Movement_Between_Economic_Sustainability_and_Editorial_Independence"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://journals.sagepub.com/doi/10.1177/10776990231207963"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Lelo \"Fostering Artificial Intelligence to Face Misinformation\" \"AI has challenged fact-checkers\" authority abstract"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Lelo \"Rise of the Brazilian Fact-checking Movement\" abstract \"modularize their corrections\" \"big tech money\""
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.tandfonline.com/doi/full/10.1080/1461670X.2022.2069588"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"On Fact-Checking Service\" Canavilhas Ito Social Sciences 2025 abstract \"Polígrafo\" \"Chequeado\" \"Maldita\" \"Aletheia\" \"tooling\" \"disruptive\""
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.mdpi.com/2076-0760/14/9/514"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Fact-Checking Interventions as Counteroffensives\" Moreno-Gil Ramon abstract \"accessing public data, limited resources\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "mdpi socsci14090514 abstract \"representatives of four fact-checking organizations\" \"Aletheia\" \"Polígrafo\" \"Chequeado\" \"Maldita\""
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.cogitatiopress.com/mediaandcommunication/article/view/3443"
+      }
+    }
+  ],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

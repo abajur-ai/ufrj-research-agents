@@ -1,0 +1,700 @@
+{
+  "structured": {
+    "decisions": [
+      {
+        "id": "C01",
+        "include": false,
+        "reason": "Estudo com estudantes ucranianos, sem amostra brasileira."
+      },
+      {
+        "id": "C02",
+        "include": false,
+        "reason": "O resumo não indica amostra brasileira, e o estudo trata de raciocínio analítico, sem ligação com escola ou currículo no Brasil."
+      },
+      {
+        "id": "C03",
+        "include": false,
+        "reason": "Ensaio teórico sem dados empíricos."
+      },
+      {
+        "id": "C04",
+        "include": false,
+        "reason": "Trabalho de anais de congresso, sobre a Nigéria."
+      },
+      {
+        "id": "C05",
+        "include": true,
+        "reason": "Pesquisa de campo com questionário online aplicado a professores da educação básica brasileira sobre desinformação na escola e educação midiática."
+      },
+      {
+        "id": "C06",
+        "include": false,
+        "reason": "Modelo conceitual, sem dados empíricos nem contexto brasileiro."
+      },
+      {
+        "id": "C07",
+        "include": false,
+        "reason": "Editorial/texto de opinião sobre a Europa."
+      },
+      {
+        "id": "C08",
+        "include": false,
+        "reason": "Estudo com cidadãos do Reino Unido, sem componente brasileiro."
+      },
+      {
+        "id": "C09",
+        "include": false,
+        "reason": "Análise documental teórica e consulta a especialistas ibero-americanos, sem foco em escolas ou universidades brasileiras."
+      },
+      {
+        "id": "C10",
+        "include": false,
+        "reason": "Análise política (bolsonarismo) sem componente de educação midiática."
+      },
+      {
+        "id": "C11",
+        "include": false,
+        "reason": "Entrevistas com jornalistas, que são público fora do ensino formal."
+      },
+      {
+        "id": "C12",
+        "include": false,
+        "reason": "Reflexão sobre COVID-19, sem dados empíricos."
+      },
+      {
+        "id": "C13",
+        "include": false,
+        "reason": "Proposta de agenda de políticas públicas, sem coleta de dados empíricos."
+      },
+      {
+        "id": "C14",
+        "include": false,
+        "reason": "Pesquisa bibliográfica e reflexão teórica."
+      },
+      {
+        "id": "C15",
+        "include": false,
+        "reason": "Bibliografia, não é estudo empírico."
+      },
+      {
+        "id": "C16",
+        "include": false,
+        "reason": "Estudo brasileiro em sala de aula, mas centrado em notícias falsas sobre COVID-19, o que é critério de exclusão."
+      },
+      {
+        "id": "C17",
+        "include": false,
+        "reason": "Relato de projeto de extensão cujo resumo não menciona coleta de dados, e o método e o achado não são identificáveis."
+      },
+      {
+        "id": "C18",
+        "include": false,
+        "reason": "Pesquisa nacional sobre COVID-19 e preferências políticas, com população geral."
+      },
+      {
+        "id": "C19",
+        "include": false,
+        "reason": "Estudo realizado no Peru."
+      },
+      {
+        "id": "C20",
+        "include": true,
+        "reason": "Intervenção pedagógica em educação midiática e desinformação com alunos do Ensino Médio de escola pública brasileira."
+      },
+      {
+        "id": "C21",
+        "include": true,
+        "reason": "Estudo com professores e alunos do Ensino Médio de escolas brasileiras sobre identificação de fake news e conteúdo educativo."
+      },
+      {
+        "id": "C22",
+        "include": true,
+        "reason": "Mapeamento de iniciativas e pesquisa com professores da educação básica brasileira sobre educação midiática para notícias falsas. A parte empírica é menos detalhada."
+      },
+      {
+        "id": "C23",
+        "include": true,
+        "reason": "Pesquisa qualitativa com licenciandos brasileiros sobre desinformação e educação midiática na formação inicial."
+      },
+      {
+        "id": "C24",
+        "include": false,
+        "reason": "Revisão de literatura."
+      },
+      {
+        "id": "C25",
+        "include": true,
+        "reason": "Estudo quantitativo com 307 estudantes brasileiros do Ensino Médio sobre fake news, com recomendação de letramento midiático. O componente educacional é menos central."
+      },
+      {
+        "id": "C26",
+        "include": false,
+        "reason": "Estudo sobre bibliotecas, sem indicação de amostra brasileira."
+      },
+      {
+        "id": "C27",
+        "include": false,
+        "reason": "Duplicata de C26, sem amostra brasileira."
+      },
+      {
+        "id": "C28",
+        "include": true,
+        "reason": "Projeto com 20 estudantes do ensino médio de escola pública do RS sobre competência crítica em informação e fake news, com questionários e atividades."
+      },
+      {
+        "id": "C29",
+        "include": false,
+        "reason": "Revisão de literatura."
+      },
+      {
+        "id": "C30",
+        "include": false,
+        "reason": "Análise bibliométrica/revisão da literatura."
+      },
+      {
+        "id": "C31",
+        "include": true,
+        "reason": "Survey com estudantes e professores de uma cidade do Piauí sobre letramento midiático e checagem em sala de aula."
+      },
+      {
+        "id": "C32",
+        "include": false,
+        "reason": "Pesquisa bibliográfica."
+      },
+      {
+        "id": "C33",
+        "include": false,
+        "reason": "Apresentação de edição especial, sem estudo empírico."
+      },
+      {
+        "id": "C34",
+        "include": false,
+        "reason": "O tema central é sobrecarga de informação, não desinformação."
+      },
+      {
+        "id": "C35",
+        "include": false,
+        "reason": "Revisão bibliográfica sistemática, sem foco em desinformação."
+      },
+      {
+        "id": "C36",
+        "include": false,
+        "reason": "Análise discursiva sobre polarização, sem componente educacional."
+      },
+      {
+        "id": "C37",
+        "include": false,
+        "reason": "Análise de conteúdo de sites de fake news dos EUA."
+      },
+      {
+        "id": "C38",
+        "include": false,
+        "reason": "Estudo brasileiro, mas centrado em COVID-19."
+      },
+      {
+        "id": "C39",
+        "include": true,
+        "reason": "Survey e observação participante em oficina de alfabetização midiática com adolescentes de escola pública brasileira em um contexto de desinformação."
+      },
+      {
+        "id": "C40",
+        "include": false,
+        "reason": "Reflexão bibliográfica sobre o perfil do bibliotecário, sem dados empíricos próprios."
+      },
+      {
+        "id": "C41",
+        "include": false,
+        "reason": "Relato sobre dengue e saúde, sem contexto escolar."
+      },
+      {
+        "id": "C42",
+        "include": false,
+        "reason": "Centrado em COVID-19 e política (governo Bolsonaro), sem dados escolares."
+      },
+      {
+        "id": "C43",
+        "include": true,
+        "reason": "Pesquisa qualitativa com oficinas de educação midiática com jovens estudantes de escolas públicas e privadas no Paraná sobre percepção da desinformação."
+      },
+      {
+        "id": "C44",
+        "include": false,
+        "reason": "Introdução de número especial, sem estudo empírico."
+      },
+      {
+        "id": "C45",
+        "include": false,
+        "reason": "Estudo realizado no Japão."
+      },
+      {
+        "id": "C46",
+        "include": false,
+        "reason": "Ensaio conceitual."
+      },
+      {
+        "id": "C47",
+        "include": false,
+        "reason": "Estudo cientométrico."
+      },
+      {
+        "id": "C48",
+        "include": false,
+        "reason": "Estudo realizado no Vietnã."
+      },
+      {
+        "id": "C49",
+        "include": false,
+        "reason": "Centrado em COVID-19, com adultos em geral."
+      },
+      {
+        "id": "C50",
+        "include": false,
+        "reason": "Estudo com idosos, fora do ensino formal."
+      },
+      {
+        "id": "C51",
+        "include": false,
+        "reason": "Texto conceitual centrado em COVID-19 e minorias, sem amostra brasileira."
+      },
+      {
+        "id": "C52",
+        "include": false,
+        "reason": "Comparação de organizações da sociedade civil, fora do ensino formal."
+      },
+      {
+        "id": "C53",
+        "include": false,
+        "reason": "Experimento com a população online, sem contexto escolar."
+      },
+      {
+        "id": "C54",
+        "include": false,
+        "reason": "Estudo no Egito, centrado em COVID-19."
+      },
+      {
+        "id": "C55",
+        "include": false,
+        "reason": "Fora do tema (alfabetização socioemocional, COVID-19)."
+      },
+      {
+        "id": "C56",
+        "include": false,
+        "reason": "Fora do tema (educação de adultos), sem desinformação."
+      },
+      {
+        "id": "C57",
+        "include": false,
+        "reason": "Pesquisa bibliográfica."
+      },
+      {
+        "id": "C58",
+        "include": false,
+        "reason": "Estudo no Marrocos."
+      },
+      {
+        "id": "C59",
+        "include": false,
+        "reason": "Fora do tema; revisão de literatura."
+      },
+      {
+        "id": "C60",
+        "include": false,
+        "reason": "Revisão de documentos."
+      },
+      {
+        "id": "C61",
+        "include": false,
+        "reason": "Revisão sobre a Nigéria."
+      },
+      {
+        "id": "C62",
+        "include": false,
+        "reason": "Artigo conceitual com critérios, sem dados empíricos."
+      },
+      {
+        "id": "C63",
+        "include": false,
+        "reason": "Análise de redes sociais sobre saúde, sem contexto escolar."
+      },
+      {
+        "id": "C64",
+        "include": false,
+        "reason": "Revisão integrativa."
+      },
+      {
+        "id": "C65",
+        "include": false,
+        "reason": "Análise teórica sobre discurso de ódio."
+      },
+      {
+        "id": "C66",
+        "include": false,
+        "reason": "Visão geral sem foco em desinformação."
+      },
+      {
+        "id": "C67",
+        "include": false,
+        "reason": "Revisão bibliográfica sistemática."
+      },
+      {
+        "id": "C68",
+        "include": false,
+        "reason": "Pesquisa jurídica bibliográfica."
+      },
+      {
+        "id": "C69",
+        "include": false,
+        "reason": "Centro de capacitação profissional para jovens e adultos, que não é ensino formal escolar ou universitário."
+      },
+      {
+        "id": "C70",
+        "include": false,
+        "reason": "Pesquisa bibliográfica."
+      },
+      {
+        "id": "C71",
+        "include": false,
+        "reason": "Reflexão teórica, sem dados empíricos."
+      },
+      {
+        "id": "C72",
+        "include": false,
+        "reason": "Reflexão sobre tráfico de mulheres, fora do ensino formal."
+      },
+      {
+        "id": "C73",
+        "include": false,
+        "reason": "Entrevistas com agências de checagem, que são profissionais de mídia e não ensino."
+      },
+      {
+        "id": "C74",
+        "include": false,
+        "reason": "O resumo não indica amostra brasileira."
+      },
+      {
+        "id": "C75",
+        "include": false,
+        "reason": "Análise de agências de checagem, sem componente educacional."
+      },
+      {
+        "id": "C76",
+        "include": true,
+        "reason": "Questionário online com alunos e professores de Minas Gerais sobre literacia midiática e fake news."
+      },
+      {
+        "id": "C77",
+        "include": false,
+        "reason": "Estudo na Indonésia, sobre desinformação política."
+      },
+      {
+        "id": "C78",
+        "include": true,
+        "reason": "Survey com universitários brasileiros sobre circulação de fake news, com conclusão voltada à literacia midiática. O foco educacional é secundário e o tema envolve política."
+      },
+      {
+        "id": "C79",
+        "include": false,
+        "reason": "Estudo no México."
+      },
+      {
+        "id": "C80",
+        "include": false,
+        "reason": "Relatório de revisão sobre o Caribe."
+      },
+      {
+        "id": "C81",
+        "include": false,
+        "reason": "Centrado em vacinas, sem foco em educação midiática."
+      },
+      {
+        "id": "C82",
+        "include": false,
+        "reason": "Estudo com amostra de fora do Brasil."
+      },
+      {
+        "id": "C83",
+        "include": false,
+        "reason": "Estudo em Portugal."
+      },
+      {
+        "id": "C84",
+        "include": false,
+        "reason": "Estudo nas Filipinas, sobre consumo."
+      },
+      {
+        "id": "C85",
+        "include": false,
+        "reason": "Estudo na Tailândia."
+      },
+      {
+        "id": "C86",
+        "include": true,
+        "reason": "Projeto com alunos do 8º ano em escola municipal de Biguaçu (SC) sobre fake news e competência em informação, conduzido pela bibliotecária escolar."
+      },
+      {
+        "id": "C87",
+        "include": false,
+        "reason": "Centrado em COVID-19 e política."
+      },
+      {
+        "id": "C88",
+        "include": false,
+        "reason": "Verificação automatizada por jornalistas, sem componente educacional."
+      },
+      {
+        "id": "C89",
+        "include": false,
+        "reason": "Estudo sobre checagem profissional, sem ensino."
+      },
+      {
+        "id": "C90",
+        "include": false,
+        "reason": "O resumo não trata de desinformação, e o foco é o letramento digital."
+      },
+      {
+        "id": "C91",
+        "include": false,
+        "reason": "Revisão sistemática."
+      },
+      {
+        "id": "C92",
+        "include": false,
+        "reason": "Inclui amostra geral além de estudantes, sem foco no ensino formal."
+      },
+      {
+        "id": "C93",
+        "include": true,
+        "reason": "Survey com 231 estudantes de Comunicação do Brasil, Colômbia e Espanha, o que inclui amostra brasileira, sobre desinformação e formação em literacia midiática."
+      },
+      {
+        "id": "C94",
+        "include": true,
+        "reason": "Relato de oficina em disciplina de formação de professores, com análise de diários de campo, sobre alfabetização científica e midiática diante de fake news. O contexto pandêmico não é o foco."
+      },
+      {
+        "id": "C95",
+        "include": false,
+        "reason": "Reflexão bibliográfica."
+      },
+      {
+        "id": "C96",
+        "include": false,
+        "reason": "A desinformação não é central; o foco é competência em informação em geral."
+      },
+      {
+        "id": "C97",
+        "include": true,
+        "reason": "Questionário com alunos do ensino médio de escola pública e privada sobre detecção de fake news e alfabetização científica. A ligação com letramento midiático é indireta."
+      },
+      {
+        "id": "C98",
+        "include": false,
+        "reason": "Não trata de desinformação."
+      },
+      {
+        "id": "C99",
+        "include": false,
+        "reason": "Centrado em vacinas e COVID-19."
+      },
+      {
+        "id": "C100",
+        "include": false,
+        "reason": "Texto de discussão, sem dados empíricos."
+      },
+      {
+        "id": "C101",
+        "include": false,
+        "reason": "Histórico conceitual."
+      },
+      {
+        "id": "C102",
+        "include": false,
+        "reason": "Revisão de literatura sobre saúde."
+      },
+      {
+        "id": "C103",
+        "include": false,
+        "reason": "Revisão bibliográfica."
+      },
+      {
+        "id": "C104",
+        "include": false,
+        "reason": "Análise discursiva de documento da OCDE/PISA, sem dados próprios nem periódico identificado."
+      },
+      {
+        "id": "C105",
+        "include": false,
+        "reason": "Revisão sistemática."
+      },
+      {
+        "id": "C106",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C107",
+        "include": false,
+        "reason": "Estudo bibliométrico."
+      },
+      {
+        "id": "C108",
+        "include": true,
+        "reason": "Questionário com universitários da FURG sobre verificação de informações no Facebook e fake news. A relação com competência em informação é moderada."
+      },
+      {
+        "id": "C109",
+        "include": false,
+        "reason": "Tradução de palestras, sem dados empíricos."
+      },
+      {
+        "id": "C110",
+        "include": false,
+        "reason": "Proposta pedagógica, sem coleta de dados."
+      },
+      {
+        "id": "C111",
+        "include": false,
+        "reason": "Egressos de Biblioteconomia, que são profissionais e não estudantes em atividade."
+      },
+      {
+        "id": "C112",
+        "include": false,
+        "reason": "Estudo no Líbano, centrado em COVID-19."
+      },
+      {
+        "id": "C113",
+        "include": false,
+        "reason": "Análise de direito internacional."
+      },
+      {
+        "id": "C114",
+        "include": false,
+        "reason": "Quadro conceitual, sem desinformação."
+      },
+      {
+        "id": "C115",
+        "include": false,
+        "reason": "Pesquisa bibliográfica."
+      },
+      {
+        "id": "C116",
+        "include": false,
+        "reason": "Centrado em COVID-19, com população geral."
+      },
+      {
+        "id": "C117",
+        "include": false,
+        "reason": "Análise de políticas, sem estudo empírico."
+      },
+      {
+        "id": "C118",
+        "include": false,
+        "reason": "Proposta conceitual, sem dados empíricos."
+      },
+      {
+        "id": "C119",
+        "include": false,
+        "reason": "Ensaio teórico."
+      },
+      {
+        "id": "C120",
+        "include": true,
+        "reason": "Pesquisa-ação com estudantes do 3º ano do ensino médio no Pará, com jogo de cartas contra a desinformação e levantamento do consumo de mídia."
+      },
+      {
+        "id": "C121",
+        "include": false,
+        "reason": "Estudo nos EUA."
+      },
+      {
+        "id": "C122",
+        "include": false,
+        "reason": "Detecção automática, revisão."
+      },
+      {
+        "id": "C123",
+        "include": false,
+        "reason": "Fora do tema, texto conceitual."
+      },
+      {
+        "id": "C124",
+        "include": true,
+        "reason": "Pesquisa-formação em disciplina de Pedagogia a distância sobre fake news e formação docente. O resumo descreve o método de forma vaga."
+      },
+      {
+        "id": "C125",
+        "include": false,
+        "reason": "Análise de tweets, sem estudantes ou escola."
+      }
+    ],
+    "selected": [
+      "C28",
+      "C20",
+      "C120",
+      "C39",
+      "C43",
+      "C21",
+      "C76",
+      "C86",
+      "C31",
+      "C93",
+      "C05",
+      "C23",
+      "C22",
+      "C25",
+      "C108",
+      "C94",
+      "C97",
+      "C124",
+      "C78"
+    ]
+  },
+  "text": "{\"decisions\":[{\"id\":\"C01\",\"include\":false,\"reason\":\"Estudo com estudantes ucranianos, sem amostra brasileira.\"},{\"id\":\"C02\",\"include\":false,\"reason\":\"O resumo não indica amostra brasileira, e o estudo trata de raciocínio analítico, sem ligação com escola ou currículo no Brasil.\"},{\"id\":\"C03\",\"include\":false,\"reason\":\"Ensaio teórico sem dados empíricos.\"},{\"id\":\"C04\",\"include\":false,\"reason\":\"Trabalho de anais de congresso, sobre a Nigéria.\"},{\"id\":\"C05\",\"include\":true,\"reason\":\"Pesquisa de campo com questionário online aplicado a professores da educação básica brasileira sobre desinformação na escola e educação midiática.\"},{\"id\":\"C06\",\"include\":false,\"reason\":\"Modelo conceitual, sem dados empíricos nem contexto brasileiro.\"},{\"id\":\"C07\",\"include\":false,\"reason\":\"Editorial/texto de opinião sobre a Europa.\"},{\"id\":\"C08\",\"include\":false,\"reason\":\"Estudo com cidadãos do Reino Unido, sem componente brasileiro.\"},{\"id\":\"C09\",\"include\":false,\"reason\":\"Análise documental teórica e consulta a especialistas ibero-americanos, sem foco em escolas ou universidades brasileiras.\"},{\"id\":\"C10\",\"include\":false,\"reason\":\"Análise política (bolsonarismo) sem componente de educação midiática.\"},{\"id\":\"C11\",\"include\":false,\"reason\":\"Entrevistas com jornalistas, que são público fora do ensino formal.\"},{\"id\":\"C12\",\"include\":false,\"reason\":\"Reflexão sobre COVID-19, sem dados empíricos.\"},{\"id\":\"C13\",\"include\":false,\"reason\":\"Proposta de agenda de políticas públicas, sem coleta de dados empíricos.\"},{\"id\":\"C14\",\"include\":false,\"reason\":\"Pesquisa bibliográfica e reflexão teórica.\"},{\"id\":\"C15\",\"include\":false,\"reason\":\"Bibliografia, não é estudo empírico.\"},{\"id\":\"C16\",\"include\":false,\"reason\":\"Estudo brasileiro em sala de aula, mas centrado em notícias falsas sobre COVID-19, o que é critério de exclusão.\"},{\"id\":\"C17\",\"include\":false,\"reason\":\"Relato de projeto de extensão cujo resumo não menciona coleta de dados, e o método e o achado não são identificáveis.\"},{\"id\":\"C18\",\"include\":false,\"reason\":\"Pesquisa nacional sobre COVID-19 e preferências políticas, com população geral.\"},{\"id\":\"C19\",\"include\":false,\"reason\":\"Estudo realizado no Peru.\"},{\"id\":\"C20\",\"include\":true,\"reason\":\"Intervenção pedagógica em educação midiática e desinformação com alunos do Ensino Médio de escola pública brasileira.\"},{\"id\":\"C21\",\"include\":true,\"reason\":\"Estudo com professores e alunos do Ensino Médio de escolas brasileiras sobre identificação de fake news e conteúdo educativo.\"},{\"id\":\"C22\",\"include\":true,\"reason\":\"Mapeamento de iniciativas e pesquisa com professores da educação básica brasileira sobre educação midiática para notícias falsas. A parte empírica é menos detalhada.\"},{\"id\":\"C23\",\"include\":true,\"reason\":\"Pesquisa qualitativa com licenciandos brasileiros sobre desinformação e educação midiática na formação inicial.\"},{\"id\":\"C24\",\"include\":false,\"reason\":\"Revisão de literatura.\"},{\"id\":\"C25\",\"include\":true,\"reason\":\"Estudo quantitativo com 307 estudantes brasileiros do Ensino Médio sobre fake news, com recomendação de letramento midiático. O componente educacional é menos central.\"},{\"id\":\"C26\",\"include\":false,\"reason\":\"Estudo sobre bibliotecas, sem indicação de amostra brasileira.\"},{\"id\":\"C27\",\"include\":false,\"reason\":\"Duplicata de C26, sem amostra brasileira.\"},{\"id\":\"C28\",\"include\":true,\"reason\":\"Projeto com 20 estudantes do ensino médio de escola pública do RS sobre competência crítica em informação e fake news, com questionários e atividades.\"},{\"id\":\"C29\",\"include\":false,\"reason\":\"Revisão de literatura.\"},{\"id\":\"C30\",\"include\":false,\"reason\":\"Análise bibliométrica/revisão da literatura.\"},{\"id\":\"C31\",\"include\":true,\"reason\":\"Survey com estudantes e professores de uma cidade do Piauí sobre letramento midiático e checagem em sala de aula.\"},{\"id\":\"C32\",\"include\":false,\"reason\":\"Pesquisa bibliográfica.\"},{\"id\":\"C33\",\"include\":false,\"reason\":\"Apresentação de edição especial, sem estudo empírico.\"},{\"id\":\"C34\",\"include\":false,\"reason\":\"O tema central é sobrecarga de informação, não desinformação.\"},{\"id\":\"C35\",\"include\":false,\"reason\":\"Revisão bibliográfica sistemática, sem foco em desinformação.\"},{\"id\":\"C36\",\"include\":false,\"reason\":\"Análise discursiva sobre polarização, sem componente educacional.\"},{\"id\":\"C37\",\"include\":false,\"reason\":\"Análise de conteúdo de sites de fake news dos EUA.\"},{\"id\":\"C38\",\"include\":false,\"reason\":\"Estudo brasileiro, mas centrado em COVID-19.\"},{\"id\":\"C39\",\"include\":true,\"reason\":\"Survey e observação participante em oficina de alfabetização midiática com adolescentes de escola pública brasileira em um contexto de desinformação.\"},{\"id\":\"C40\",\"include\":false,\"reason\":\"Reflexão bibliográfica sobre o perfil do bibliotecário, sem dados empíricos próprios.\"},{\"id\":\"C41\",\"include\":false,\"reason\":\"Relato sobre dengue e saúde, sem contexto escolar.\"},{\"id\":\"C42\",\"include\":false,\"reason\":\"Centrado em COVID-19 e política (governo Bolsonaro), sem dados escolares.\"},{\"id\":\"C43\",\"include\":true,\"reason\":\"Pesquisa qualitativa com oficinas de educação midiática com jovens estudantes de escolas públicas e privadas no Paraná sobre percepção da desinformação.\"},{\"id\":\"C44\",\"include\":false,\"reason\":\"Introdução de número especial, sem estudo empírico.\"},{\"id\":\"C45\",\"include\":false,\"reason\":\"Estudo realizado no Japão.\"},{\"id\":\"C46\",\"include\":false,\"reason\":\"Ensaio conceitual.\"},{\"id\":\"C47\",\"include\":false,\"reason\":\"Estudo cientométrico.\"},{\"id\":\"C48\",\"include\":false,\"reason\":\"Estudo realizado no Vietnã.\"},{\"id\":\"C49\",\"include\":false,\"reason\":\"Centrado em COVID-19, com adultos em geral.\"},{\"id\":\"C50\",\"include\":false,\"reason\":\"Estudo com idosos, fora do ensino formal.\"},{\"id\":\"C51\",\"include\":false,\"reason\":\"Texto conceitual centrado em COVID-19 e minorias, sem amostra brasileira.\"},{\"id\":\"C52\",\"include\":false,\"reason\":\"Comparação de organizações da sociedade civil, fora do ensino formal.\"},{\"id\":\"C53\",\"include\":false,\"reason\":\"Experimento com a população online, sem contexto escolar.\"},{\"id\":\"C54\",\"include\":false,\"reason\":\"Estudo no Egito, centrado em COVID-19.\"},{\"id\":\"C55\",\"include\":false,\"reason\":\"Fora do tema (alfabetização socioemocional, COVID-19).\"},{\"id\":\"C56\",\"include\":false,\"reason\":\"Fora do tema (educação de adultos), sem desinformação.\"},{\"id\":\"C57\",\"include\":false,\"reason\":\"Pesquisa bibliográfica.\"},{\"id\":\"C58\",\"include\":false,\"reason\":\"Estudo no Marrocos.\"},{\"id\":\"C59\",\"include\":false,\"reason\":\"Fora do tema; revisão de literatura.\"},{\"id\":\"C60\",\"include\":false,\"reason\":\"Revisão de documentos.\"},{\"id\":\"C61\",\"include\":false,\"reason\":\"Revisão sobre a Nigéria.\"},{\"id\":\"C62\",\"include\":false,\"reason\":\"Artigo conceitual com critérios, sem dados empíricos.\"},{\"id\":\"C63\",\"include\":false,\"reason\":\"Análise de redes sociais sobre saúde, sem contexto escolar.\"},{\"id\":\"C64\",\"include\":false,\"reason\":\"Revisão integrativa.\"},{\"id\":\"C65\",\"include\":false,\"reason\":\"Análise teórica sobre discurso de ódio.\"},{\"id\":\"C66\",\"include\":false,\"reason\":\"Visão geral sem foco em desinformação.\"},{\"id\":\"C67\",\"include\":false,\"reason\":\"Revisão bibliográfica sistemática.\"},{\"id\":\"C68\",\"include\":false,\"reason\":\"Pesquisa jurídica bibliográfica.\"},{\"id\":\"C69\",\"include\":false,\"reason\":\"Centro de capacitação profissional para jovens e adultos, que não é ensino formal escolar ou universitário.\"},{\"id\":\"C70\",\"include\":false,\"reason\":\"Pesquisa bibliográfica.\"},{\"id\":\"C71\",\"include\":false,\"reason\":\"Reflexão teórica, sem dados empíricos.\"},{\"id\":\"C72\",\"include\":false,\"reason\":\"Reflexão sobre tráfico de mulheres, fora do ensino formal.\"},{\"id\":\"C73\",\"include\":false,\"reason\":\"Entrevistas com agências de checagem, que são profissionais de mídia e não ensino.\"},{\"id\":\"C74\",\"include\":false,\"reason\":\"O resumo não indica amostra brasileira.\"},{\"id\":\"C75\",\"include\":false,\"reason\":\"Análise de agências de checagem, sem componente educacional.\"},{\"id\":\"C76\",\"include\":true,\"reason\":\"Questionário online com alunos e professores de Minas Gerais sobre literacia midiática e fake news.\"},{\"id\":\"C77\",\"include\":false,\"reason\":\"Estudo na Indonésia, sobre desinformação política.\"},{\"id\":\"C78\",\"include\":true,\"reason\":\"Survey com universitários brasileiros sobre circulação de fake news, com conclusão voltada à literacia midiática. O foco educacional é secundário e o tema envolve política.\"},{\"id\":\"C79\",\"include\":false,\"reason\":\"Estudo no México.\"},{\"id\":\"C80\",\"include\":false,\"reason\":\"Relatório de revisão sobre o Caribe.\"},{\"id\":\"C81\",\"include\":false,\"reason\":\"Centrado em vacinas, sem foco em educação midiática.\"},{\"id\":\"C82\",\"include\":false,\"reason\":\"Estudo com amostra de fora do Brasil.\"},{\"id\":\"C83\",\"include\":false,\"reason\":\"Estudo em Portugal.\"},{\"id\":\"C84\",\"include\":false,\"reason\":\"Estudo nas Filipinas, sobre consumo.\"},{\"id\":\"C85\",\"include\":false,\"reason\":\"Estudo na Tailândia.\"},{\"id\":\"C86\",\"include\":true,\"reason\":\"Projeto com alunos do 8º ano em escola municipal de Biguaçu (SC) sobre fake news e competência em informação, conduzido pela bibliotecária escolar.\"},{\"id\":\"C87\",\"include\":false,\"reason\":\"Centrado em COVID-19 e política.\"},{\"id\":\"C88\",\"include\":false,\"reason\":\"Verificação automatizada por jornalistas, sem componente educacional.\"},{\"id\":\"C89\",\"include\":false,\"reason\":\"Estudo sobre checagem profissional, sem ensino.\"},{\"id\":\"C90\",\"include\":false,\"reason\":\"O resumo não trata de desinformação, e o foco é o letramento digital.\"},{\"id\":\"C91\",\"include\":false,\"reason\":\"Revisão sistemática.\"},{\"id\":\"C92\",\"include\":false,\"reason\":\"Inclui amostra geral além de estudantes, sem foco no ensino formal.\"},{\"id\":\"C93\",\"include\":true,\"reason\":\"Survey com 231 estudantes de Comunicação do Brasil, Colômbia e Espanha, o que inclui amostra brasileira, sobre desinformação e formação em literacia midiática.\"},{\"id\":\"C94\",\"include\":true,\"reason\":\"Relato de oficina em disciplina de formação de professores, com análise de diários de campo, sobre alfabetização científica e midiática diante de fake news. O contexto pandêmico não é o foco.\"},{\"id\":\"C95\",\"include\":false,\"reason\":\"Reflexão bibliográfica.\"},{\"id\":\"C96\",\"include\":false,\"reason\":\"A desinformação não é central; o foco é competência em informação em geral.\"},{\"id\":\"C97\",\"include\":true,\"reason\":\"Questionário com alunos do ensino médio de escola pública e privada sobre detecção de fake news e alfabetização científica. A ligação com letramento midiático é indireta.\"},{\"id\":\"C98\",\"include\":false,\"reason\":\"Não trata de desinformação.\"},{\"id\":\"C99\",\"include\":false,\"reason\":\"Centrado em vacinas e COVID-19.\"},{\"id\":\"C100\",\"include\":false,\"reason\":\"Texto de discussão, sem dados empíricos.\"},{\"id\":\"C101\",\"include\":false,\"reason\":\"Histórico conceitual.\"},{\"id\":\"C102\",\"include\":false,\"reason\":\"Revisão de literatura sobre saúde.\"},{\"id\":\"C103\",\"include\":false,\"reason\":\"Revisão bibliográfica.\"},{\"id\":\"C104\",\"include\":false,\"reason\":\"Análise discursiva de documento da OCDE/PISA, sem dados próprios nem periódico identificado.\"},{\"id\":\"C105\",\"include\":false,\"reason\":\"Revisão sistemática.\"},{\"id\":\"C106\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C107\",\"include\":false,\"reason\":\"Estudo bibliométrico.\"},{\"id\":\"C108\",\"include\":true,\"reason\":\"Questionário com universitários da FURG sobre verificação de informações no Facebook e fake news. A relação com competência em informação é moderada.\"},{\"id\":\"C109\",\"include\":false,\"reason\":\"Tradução de palestras, sem dados empíricos.\"},{\"id\":\"C110\",\"include\":false,\"reason\":\"Proposta pedagógica, sem coleta de dados.\"},{\"id\":\"C111\",\"include\":false,\"reason\":\"Egressos de Biblioteconomia, que são profissionais e não estudantes em atividade.\"},{\"id\":\"C112\",\"include\":false,\"reason\":\"Estudo no Líbano, centrado em COVID-19.\"},{\"id\":\"C113\",\"include\":false,\"reason\":\"Análise de direito internacional.\"},{\"id\":\"C114\",\"include\":false,\"reason\":\"Quadro conceitual, sem desinformação.\"},{\"id\":\"C115\",\"include\":false,\"reason\":\"Pesquisa bibliográfica.\"},{\"id\":\"C116\",\"include\":false,\"reason\":\"Centrado em COVID-19, com população geral.\"},{\"id\":\"C117\",\"include\":false,\"reason\":\"Análise de políticas, sem estudo empírico.\"},{\"id\":\"C118\",\"include\":false,\"reason\":\"Proposta conceitual, sem dados empíricos.\"},{\"id\":\"C119\",\"include\":false,\"reason\":\"Ensaio teórico.\"},{\"id\":\"C120\",\"include\":true,\"reason\":\"Pesquisa-ação com estudantes do 3º ano do ensino médio no Pará, com jogo de cartas contra a desinformação e levantamento do consumo de mídia.\"},{\"id\":\"C121\",\"include\":false,\"reason\":\"Estudo nos EUA.\"},{\"id\":\"C122\",\"include\":false,\"reason\":\"Detecção automática, revisão.\"},{\"id\":\"C123\",\"include\":false,\"reason\":\"Fora do tema, texto conceitual.\"},{\"id\":\"C124\",\"include\":true,\"reason\":\"Pesquisa-formação em disciplina de Pedagogia a distância sobre fake news e formação docente. O resumo descreve o método de forma vaga.\"},{\"id\":\"C125\",\"include\":false,\"reason\":\"Análise de tweets, sem estudantes ou escola.\"}],\"selected\":[\"C28\",\"C20\",\"C120\",\"C39\",\"C43\",\"C21\",\"C76\",\"C86\",\"C31\",\"C93\",\"C05\",\"C23\",\"C22\",\"C25\",\"C108\",\"C94\",\"C97\",\"C124\",\"C78\"]}",
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 62126,
+    "cache_read_input_tokens": 913,
+    "output_tokens": 8312,
+    "output_tokens_details": {
+      "thinking_tokens": 2742
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 62126,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 8312,
+        "cache_read_input_tokens": 913,
+        "cache_creation_input_tokens": 62126,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 62126
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 2,
+  "duration_s": 52.94,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "decisions": "[{\"id\": \"C01\", \"include\": false, \"reason\": \"Estudo com estudantes ucranianos, sem amostra brasileira.\"}, {\"id\": \"C02\", \"include\": false, \"reason\": \"O resumo não indica amostra brasileira, e o estudo …",
+        "selected": "[\"C28\", \"C20\", \"C120\", \"C39\", \"C43\", \"C21\", \"C76\", \"C86\", \"C31\", \"C93\", \"C05\", \"C23\", \"C22\", \"C25\", \"C108\", \"C94\", \"C97\", \"C124\", \"C78\"]"
+      }
+    }
+  ]
+}

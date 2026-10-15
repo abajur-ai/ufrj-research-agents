@@ -1,0 +1,672 @@
+{
+ "run_id": "class-n0-a04-r2",
+ "level": "n0",
+ "item": "a04",
+ "status": "done",
+ "delivered": 25,
+ "correct": 22,
+ "requested": 25,
+ "yield": 0.88,
+ "precision": 0.88,
+ "not_found": 0,
+ "wrong_doi": 1,
+ "metadata_errors": 1,
+ "quote_fail": 1,
+ "no_abstract": 1,
+ "wall_seconds": 511.5,
+ "calls": 1,
+ "items": [
+  {
+   "doi": "10.1080/13669877.2018.1443491",
+   "title": "The fake news game: actively inoculating against the risk of misinformation",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 1,
+   "judge": {
+    "evidence_topic": "we developed a ‘fake news game’ in which participants are actively tasked with creating a news article about a strongly politicized issue (the European refugee crisis) using misleading tactics",
+    "on_topic": true,
+    "evidence_empirical": "we conducted a randomized field study (N = 95) in a public high school setting.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "The article describes an empirical study (randomized field study) evaluating an inoculation game (the 'fake news game') on a relevant topic (misinformation). The study design and findings are consistent with the researcher's requirements."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1057/s41599-019-0279-9",
+   "title": "Fake news game confers psychological resistance against online misinformation",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "In a novel attempt to address this issue, we designed a psychological intervention in the form of an online browser game. In the game, players take on the role of a fake news producer and learn to master six documented techniques commonly used in the production of misinformation",
+    "on_topic": true,
+    "evidence_empirical": "We conducted a large-scale evaluation of the game with N = 15,000 participants in a pre-post gameplay design.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um jogo de inoculação (Bad News) e um estudo empírico pré-pós com 15.000 participantes, o que está em total conformidade com o pedido do pesquisador."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.5334/joc.91",
+   "title": "Good News about Bad News: Gamified Inoculation Boosts Confidence and Cognitive Immunity Against Fake News",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "We present a replication and extension into the effectiveness of Bad News as an anti-misinformation intervention.",
+    "on_topic": true,
+    "evidence_empirical": "Using a 2 (treatment vs. control) × 2 (pre vs. post) mixed design (N = 196) we measure participants’ ability to spot misinformation techniques in 18 fake headlines before and after playing Bad News.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo avalia o jogo Bad News, que é explicitamente citado como exemplo permitido no pedido. O estudo é empírico (experimento com delineamento misto), não aborda os temas excluídos (COVID-19, vacinas, eleições ou política partidária) e os dados extraídos refletem corretamente o método e os resultados apresentados no resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.37016/mr-2020-008",
+   "title": "Prebunking interventions based on the psychological theory of “inoculation” can reduce susceptibility to misinformation across cultures",
+   "checks": {
+    "doi_exists": false
+   },
+   "error_class": "wrong_doi_real_article",
+   "correct": false
+  },
+  {
+   "doi": "10.1177/0013164420940378",
+   "title": "Disentangling Item and Testing Effects in Inoculation Research on Online Misinformation: Solomon Revisited",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "This study addresses two unanswered methodological questions about a widely adopted online “fake news” inoculation game, Bad News.",
+    "on_topic": true,
+    "evidence_empirical": "We investigate both item and testing effects in two online studies (total N = 2,159) using the Bad News game.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo trata do jogo Bad News, que é um jogo de inoculação contra desinformação, atendendo ao tema. O estudo é empírico (dois estudos online) e utiliza um delineamento experimental (Solomon's Three Group Design), o que é adequado. O achado principal extraído reflete fielmente o que está escrito no resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1037/xap0000315",
+   "title": "Long-term effectiveness of inoculation against misinformation: Three longitudinal experiments",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "we tested the effectiveness of Bad News, a real-world intervention in which participants develop resistance against misinformation through exposure to weakened doses of misinformation techniques.",
+    "on_topic": true,
+    "evidence_empirical": "Using 3 longitudinal experiments (2 preregistered), we tested the effectiveness of Bad News... In 3 experiments (NExp1 = 151, NExp2 = 194, NExp3 = 170), participants played either Bad News (inoculation group) or Tetris (gamified control group)",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um estudo empírico (três experimentos) sobre o jogo Bad News, que é uma intervenção de inoculação contra desinformação. O estudo não foca nos temas excluídos (COVID-19, vacinas, eleições ou política partidária). Os achados sobre a eficácia da inoculação e sua longevidade são sustentados pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1098/rsos.211719",
+   "title": "Technique-based inoculation against real-world misinformation",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "In this study, we address two open questions related to technique-based inoculation in two separate experiments (total n = 2188; convenience sample recruited via the Bad News online game platform)",
+    "on_topic": true,
+    "evidence_empirical": "In this study, we address two open questions related to technique-based inoculation in two separate experiments",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve dois experimentos utilizando o jogo Bad News para testar a inoculação contra técnicas de desinformação. O tamanho da amostra e os achados estão corretamente refletidos nos dados extraídos. O estudo não se concentra nos temas excluídos (COVID-19, vacinas, eleições)."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1037/xge0001603",
+   "title": "Feedback exercises boost discernment of misinformation for gamified inoculation interventions",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "Gamification is a promising approach to reducing misinformation susceptibility. Previous research has found that 'inoculation' games such as Bad News and Harmony Square help build cognitive resistance against misinformation.",
+    "on_topic": true,
+    "evidence_empirical": "We address these issues in two preregistered lab experiments (N1 = 191, N2 = 321) and four quasi-experimental in-game surveys implemented in Harmony Square (N3 = 559) and Bad News (N4 = 2,558, N5 = 419, N6 = 882).",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo aborda jogos de inoculação (Bad News e Harmony Square) contra desinformação, utilizando métodos empíricos (experimentos e quase-experimentos) sem tratar dos temas excluídos (COVID-19, vacinas, eleições). Os dados extraídos sobre o método e os achados estão em total conformidade com o resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1080/15391523.2024.2338451",
+   "title": "Bad News in the civics classroom: How serious gameplay fosters teenagers' ability to discern misinformation techniques",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "Although the serious game Bad News has been used to inoculate citizens against misinformation... evaluated its impact on 516 upper-secondary Swedish students... Results show that students improved their ability to discern manipulation techniques in social media posts.",
+    "on_topic": true,
+    "evidence_empirical": "We therefore evaluated its impact on 516 upper-secondary Swedish students playing individually, paired, or with the whole class.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo trata de um jogo de inoculação (Bad News) em contexto educacional, sem abordar os temas excluídos. O estudo é empírico e o método descrito no resumo (pré e pós-intervenção) condiz com o extraído. O achado principal é sustentado pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1186/s41235-023-00505-x",
+   "title": "Game-based inoculation versus graphic-based inoculation to combat misinformation: a randomized controlled trial",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "This study employed inoculation theory and developed an interactive game to help the public counter misinformation.",
+    "on_topic": true,
+    "evidence_empirical": "A total of 180 Chinese participants were randomly assigned to game-based inoculation, graphic-based inoculation, and control groups.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um ensaio controlado randomizado (RCT) que avalia um jogo de inoculação contra desinformação, sem focar nos temas excluídos (COVID-19, vacinas, eleições ou política partidária). Os dados extraídos sobre o método e o achado principal estão corretos e sustentados pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1038/s41598-023-43885-2",
+   "title": "How to “inoculate” against multimodal misinformation: A conceptual replication of Roozenbeek and van der Linden (2020)",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "We developed a game called Cat Park , in which players learn about five manipulation techniques (trolling, emotional manipulation, amplification, polarization, and conspiracism), and how misinformation can spread through images.",
+    "on_topic": true,
+    "evidence_empirical": "To test the game’s efficacy, we conducted a conceptual replication ( N = 380) of Roozenbeek and van der Linden’s 2020 study about Harmony Square , with the same study design, item set, and hypotheses.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um estudo empírico (experimento) sobre um jogo de inoculação (Cat Park) contra desinformação, atendendo aos critérios de inclusão. Os achados extraídos estão totalmente sustentados pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.5334/joc.324",
+   "title": "Mixed News about the Bad News Game",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Basol et al. (2020) tested the “the Bad News Game” (BNG), an app designed to improve ability to spot false claims on social media.",
+    "on_topic": true,
+    "evidence_empirical": "Here, four teams of undergraduate psychology students each attempted an extended replication of Basol et al., using updated versions of the original Bad News game.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um estudo empírico (replicação) sobre o jogo Bad News, que se enquadra no tema de jogos de inoculação contra desinformação. O método descrito (experimento com pré e pós-teste) é compatível com o resumo. O achado principal está totalmente sustentado pelo texto do resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.30935/cedtech/14335",
+   "title": "Can pre-service teachers learn about fake news by playing an augmented reality escape game?",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "The aim of this study is to address this gap by examining whether pre-service teachers can learn about fake news using the augmented reality escape game Escape Fake.",
+    "on_topic": true,
+    "evidence_empirical": "To investigate this question, a pre-/post-test design was conducted with 45 pre-service teachers",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um estudo empírico (pré/pós-teste) utilizando um jogo educativo (Escape Fake) para ensinar sobre fake news, o que está alinhado com o pedido. O achado extraído reflete precisamente os resultados relatados no resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1007/s10758-024-09749-y",
+   "title": "Playing an Augmented Reality Escape Game Promotes Learning About Fake News",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "In this study, we focus on Escape Fake , an augmented reality (AR) escape game developed for use in media literacy education.",
+    "on_topic": true,
+    "evidence_empirical": "we conducted a field study using a pretest-posttest research design. A total of 28 students (14 girls, mean age = 14.71 years) participated.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um estudo empírico (pré-teste/pós-teste) sobre um jogo educativo (Escape Fake) para letramento midiático, alinhado ao tema. O método e o achado principal estão corretamente descritos e sustentados pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1057/s41599-024-03172-5",
+   "title": "Design and analysis of personalized serious games for information literacy: catering to introverted and extraverted individuals through game elements",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "This paper delves into a study on a personalized serious game that utilizes suitable game elements tailored to students’ personality traits, focusing on the dimensions of introversion and extraversion. To evaluate the impact of personalized serious games, a comparative experiment was conducted. The study involved both a Control group (Non-personalized game-based approach) and an Experimental group (Personalized game-based approach). Participants were assessed using pre-post tests measuring knowledge acquisition and retention in information literacy for source evaluation",
+    "on_topic": true,
+    "evidence_empirical": "To evaluate the impact of personalized serious games, a comparative experiment was conducted. The study involved both a Control group (Non-personalized game-based approach) and an Experimental group (Personalized game-based approach). Participants were assessed using pre-post tests measuring knowledge acquisition and retention in information literacy for source evaluation, as well as intrinsic motivation measured through the IMI questionnaire.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo trata de jogos sérios para letramento informacional (avaliação de fontes), o que se enquadra no tema de combate à desinformação. O estudo é empírico (experimento comparativo) e o achado extraído reflete corretamente os resultados apresentados no resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3390/su14095438",
+   "title": "Developing Resilience to Disinformation: A Game-Based Method for Future Communicators",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": false,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "This paper analyzes the outcomes of a game-based educational process aiming to strengthen resilience to fake news... using as a topic of inquiry the refugee crisis of 2021 in Romania.",
+    "on_topic": true,
+    "evidence_empirical": "Cognitive learning outcomes as well as learning dynamics were assessed using pre- and end-of game surveys.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um estudo empírico utilizando questionários pré e pós-jogo para avaliar resultados de aprendizagem, o que está alinhado com o método informado. O tema (desinformação sobre crise de refugiados) não está entre as exclusões do pedido, e o achado principal é sustentado diretamente pelo resumo."
+   },
+   "metadata_ok": false,
+   "correct": false,
+   "error_class": "metadata_error"
+  },
+  {
+   "doi": "10.1016/j.compedu.2023.104832",
+   "title": "Misinformation Is Contagious: Middle school students learn how to evaluate and share information responsibly through a digital game",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": false,
+    "sample_ok": false
+   },
+   "abstract_sources": 0,
+   "judge": null,
+   "metadata_ok": true,
+   "correct": false,
+   "error_class": "no_abstract"
+  },
+  {
+   "doi": "10.1016/j.compedu.2024.105210",
+   "title": "Learning to Evaluate (Mis)information in an Online Game: Strategies Matter!",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 1,
+   "judge": {
+    "evidence_topic": "Digital games can help students learn how to cope with misinformation. ... the aim of this study was to clarify how misinformation games promote learning by examining the effects of two promising misinformation game mechanics",
+    "on_topic": true,
+    "evidence_empirical": "The participants were 132 8th and 9th-grade students who played different versions of a misinformation game that either simulated evaluation strategies or did not simulate them and either included misinformation explanations or did not include them.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um experimento com 132 estudantes testando mecânicas de um jogo de desinformação, o que se enquadra nos critérios de estudo empírico e tópico. O método e o achado estão corretamente descritos e sustentados pelo resumo, sem abordar os temas excluídos (COVID, vacinas, política)."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1007/s44217-023-00074-7",
+   "title": "Gamification as a methodology to enhance analytical and sustainable engagement on social media",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "This research examines the impact of gamification on the development of critical thinking skills to counter misinformation... An educational Escape Room was implemented",
+    "on_topic": true,
+    "evidence_empirical": "Involving 107 university students, this study employs an experimental pretest–posttest methodology.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo trata de um jogo educativo (Escape Room) para combater desinformação, sem violar as restrições de tema (política, vacinas, etc.). O estudo é empírico (pré/pós-teste), o método descrito no resumo condiz com o extraído, e o achado principal é sustentado pelo texto do resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.34135/mlar-23-01-04",
+   "title": "With Games Against Fake News – Developing Critical Thinking with the Help of the Card Game Follow Me",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "This study aims to validate the contribution of the game Follow me in building resilience to fake news through an experiment on a sample of 130 secondary school students from six different schools.",
+    "on_topic": true,
+    "evidence_empirical": "This study aims to validate the contribution of the game Follow me in building resilience to fake news through an experiment on a sample of 130 secondary school students from six different schools.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um experimento empírico com um jogo educativo ('Follow me') para combater fake news, atendendo aos critérios. O achado principal está explicitamente presente no resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3991/ijim.v17i15.40865",
+   "title": "Enhancing Information Literacy for Spotting Fake News: A Study on the Efficacy of a Serious Game for M-Learning Across Different Age Groups",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "the goal of this research is to propose a serious game design for learning to evaluate sources using the CRAAP test. In the game, players take on the role of librarians who must evaluate news from social media and newspapers, determine whether it is fake or true",
+    "on_topic": true,
+    "evidence_empirical": "To evaluate the game, we did a randomized online field study, including quantitative research based on pre-posttests involving 351 participants.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um estudo empírico (estudo de campo randomizado) sobre um jogo sério para alfabetização informacional contra desinformação, sem abordar os temas excluídos (política, vacinas, etc.). Os dados extraídos estão corretos e sustentados pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1002/acp.3995",
+   "title": "Inoculation against conspiracy theories: A consumer side approach to India's fake news problem",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "We attempt to replicate Roozenbeek and van der Linden's Western‐based study in India by employing the Bad News Game , an online game, in which players take on the role of a misinformation tycoon. They are exposed to weakened doses of the strategies employed in conspiracy and fake news production with the aim to cognitively inoculate them against misinformation.",
+    "on_topic": true,
+    "evidence_empirical": "We test the game's impact on an Indian sample ( n = 1002) using a within‐subject design.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um estudo empírico utilizando o jogo Bad News para testar a inoculação contra desinformação em uma amostra indiana, utilizando um desenho intra-sujeitos. O tema e o método estão alinhados com o pedido, e o achado principal é sustentado pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.5209/esmp.88599",
+   "title": "Winning the game against fake news? Using games to inoculate adolescents and young adults in Singapore against fake news",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "este estudio probó el impacto en estudiantes universitarios (n = 84) y de secundaria y preparatoria (n = 30) de una noticia falsa. juego de computadora desarrollado en Singapur.",
+    "on_topic": true,
+    "evidence_empirical": "este estudio probó el impacto en estudiantes universitarios (n = 84) y de secundaria y preparatoria (n = 30) de una noticia falsa. juego de computadora desarrollado en Singapur.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um estudo empírico com participantes (estudantes) utilizando um jogo de computador para combater desinformação, alinhando-se ao tema e aos critérios metodológicos solicitados. O achado extraído é corroborado pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.36850/e12",
+   "title": "Gamified Inoculation Against Misinformation in India: A Randomized Control Trial",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "We report the results of a game-based intervention against misinformation in India.",
+    "on_topic": true,
+    "evidence_empirical": "The present study conducted in north India (n = 757) did not replicate earlier findings.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um ensaio controlado randomizado (RCT) de uma intervenção baseada em jogo de inoculação contra desinformação, atendendo aos critérios de inclusão. Os dados extraídos (tipo de estudo, método, amostra e achado) estão corretos e sustentados pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1371/journal.pone.0326928",
+   "title": "Investigating the long-term impact of misinformation interventions in upper secondary education",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "we tested three types of interventions: prebunking through the Bad News game",
+    "on_topic": true,
+    "evidence_empirical": "Using an experimental design with 459 students in authentic classroom settings",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um experimento com 459 estudantes testando o jogo Bad News para avaliar a capacidade de identificar desinformação, sem focar nos temas proibidos (COVID, vacinas, eleições, política). O achado principal reflete corretamente o resultado do resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  }
+ ],
+ "judge": "Gemini 3.1 Flash-Lite (Google), esforço high"
+}

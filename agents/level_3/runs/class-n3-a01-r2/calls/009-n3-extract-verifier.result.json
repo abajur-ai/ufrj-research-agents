@@ -1,0 +1,178 @@
+{
+  "structured": {
+    "approved": false,
+    "checked": [
+      "Verificado o total: 25 itens extraídos para 25 resumos fornecidos, sem duplicatas nem omissões",
+      "C11: método (dois experimentos, confiabilidade e expertise da fonte da retratação) confere com o resumo; amostra realmente não aparece no resumo; achado e citação literal conferem",
+      "C48: tamanhos N = 151 e N = 146 conferem com o resumo; método com notícia fictícia e grupo controle confere; achado, incluindo a exceção do Exp. 2 com credibilidade igual, confere; citação confere",
+      "C22: método (correção com explicação de origem versus correção simples) confere; amostra não informada no resumo; achado confere; citação confere",
+      "C23: método (desacreditação da fonte versus correção da mensagem) confere; achado confere com o resumo, mas a citação escolhida cobre só a eficácia geral, não a comparação com a correção",
+      "C07: N = 441 confere; método (alternativa mais aviso prévio ou inoculação, reteste após 7 dias) confere; achado sobre proteção não sustentada confere; citação confere",
+      "C01: método (inoculação mais confiabilidade da fonte da correção) confere; amostra não informada no resumo; achado confere; citação confere",
+      "C09: dois experimentos com fronteiras espaciais de evento confere; achado (sem efeito no Exp. 1, redução no Exp. 2) confere; citação confere",
+      "C08: três estudos e três fatores confere; achado sobre alternativa e eliminação em certas condições confere; citação confere, mas cobre só a primeira parte do achado",
+      "C14: tamanhos n = 78, n = 75 e n = 323 conferem com o resumo; método online aberto versus fechado confere; achado e citação conferem",
+      "C04: três experimentos e condições de revezamento e colaboração livre confere; achado e citação conferem",
+      "C21: método (simulador de direção, número de correções, tarefa de matemática como carga) confere; achado inclui ausência de backfire, presente no resumo; citação confere",
+      "C26: dois experimentos e delineamento confere; achado confere, mas a citação cobre só o caso sem exposição prévia",
+      "C02: quatro experimentos e formação dinâmica de impressão confere; achado de descarte total confere; citação confere",
+      "C18: três experimentos e tarefa não dinâmica confere; achado de evidência mista confere; citação confere",
+      "C46: método com alegação retratada e variação do nome confere; achado confere, incluindo o indício tênue na medida indireta; citação confere",
+      "C03: estudo exploratório com ERP confere; achado sobre diferenças de potenciais confere; citação confere",
+      "C13: método correlacional com tarefas de função executiva e modelagem de equações estruturais confere; achado confere; citação confere",
+      "C80: método com formas paralelas a 4 semanas, ICC e análise fatorial confirmatória confere; achado confere; citação confere",
+      "C16: achado sobre lacuna causal em histórias confere; citação confere; amostra não informada no resumo",
+      "C29: dois experimentos com ruminadores depressivos confere; achado e citação conferem",
+      "C30: delineamento 2x2x2 intrassujeitos confere; achado e citação conferem",
+      "C42: N = 84 de estudantes confere exatamente como no resumo; método papel versus tela confere; achado e citação conferem",
+      "C43: tarefas de Stroop, alternância e n-back confere; achado de efeito somente da inibição confere; citação confere",
+      "C94: método com executivo central e atualização, alta e baixa relevância confere; achado e citação conferem",
+      "C40: 61 participantes e quatro cenários militares confere; achado de ausência de CIE e supercorreção confere; citação confere",
+      "Restrições do pedido: todos os itens usam cenários fictícios sem conotação política, eleitoral, de vacinas ou COVID-19 nos resumos; todos são estudos empíricos com dados próprios, sem revisões ou meta-análises; nenhum resumo indica desinformação política ou de saúde"
+    ],
+    "per_item": [
+      {
+        "id": "C11",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C48",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C22",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C23",
+        "ok": true,
+        "problem": "citação literal não sustenta o achado completo; um trecho melhor existe no próprio resumo"
+      },
+      {
+        "id": "C07",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C01",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C09",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C08",
+        "ok": true,
+        "problem": "citação cobre só a redução pela alternativa, não a eliminação mencionada no achado"
+      },
+      {
+        "id": "C14",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C04",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C21",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C26",
+        "ok": true,
+        "problem": "citação cobre só o resultado sem exposição prévia; a primeira metade do achado está em outra frase do resumo"
+      },
+      {
+        "id": "C02",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C18",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C46",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C03",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C13",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C80",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C16",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C29",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C30",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C42",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C43",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C94",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C40",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [
+      "C23: o trecho citado (Discreditations were effective for both types of sources) sustenta só a eficácia geral, mas o achado diz também que a desacreditação foi menos eficaz que a correção e que a combinação foi a mais eficaz; o resumo tem frase que cobre tudo isso no Experimento 1",
+      "C08: o trecho citado sustenta a redução pela alternativa, mas o achado menciona também a eliminação do efeito na combinação com refutação direta, que está em outra frase do resumo",
+      "C26: o trecho citado sustenta só o aumento de menções sem exposição prévia; a redução com exposição prévia está na frase anterior do resumo"
+    ],
+    "feedback": "Nenhuma reprovação: os dados podem ser usados como estão. Para a próxima tentativa, apenas ajuste as citações literais de C23, C08 e C26 para trechos que cubram o achado principal completo (em C23, use a frase do Experimento 1 sobre desacreditação eficaz, porém menos que a correção, com a combinação mais eficaz; em C08, inclua a frase sobre eliminação na combinação; em C26, inclua também a frase sobre redução de menções com exposição prévia). Sugestão menor: em C13, C80, C43 e C94, os estudos são de diferenças individuais com tarefa de influência continuada embutida, e não experimentos com manipulação de correção; se o pesquisador exigir manipulação experimental estrita, confirme com ele se esses quatro itens permanecem na lista."
+  },
+  "text": "{\"approved\": false, \"checked\": [\"Verificado o total: 25 itens extraídos para 25 resumos fornecidos, sem duplicatas nem omissões\", \"C11: método (dois experimentos, confiabilidade e expertise da fonte da retratação) confere com o resumo; amostra realmente não aparece no resumo; achado e citação literal conferem\", \"C48: tamanhos N = 151 e N = 146 conferem com o resumo; método com notícia fictícia e grupo controle confere; achado, incluindo a exceção do Exp. 2 com credibilidade igual, confere; citação confere\", \"C22: método (correção com explicação de origem versus correção simples) confere; amostra não informada no resumo; achado confere; citação confere\", \"C23: método (desacreditação da fonte versus correção da mensagem) confere; achado confere com o resumo, mas a citação escolhida cobre só a eficácia geral, não a comparação com a correção\", \"C07: N = 441 confere; método (alternativa mais aviso prévio ou inoculação, reteste após 7 dias) confere; achado sobre proteção não sustentada confere; citação confere\", \"C01: método (inoculação mais confiabilidade da fonte da correção) confere; amostra não informada no resumo; achado confere; citação confere\", \"C09: dois experimentos com fronteiras espaciais de evento confere; achado (sem efeito no Exp. 1, redução no Exp. 2) confere; citação confere\", \"C08: três estudos e três fatores confere; achado sobre alternativa e eliminação em certas condições confere; citação confere, mas cobre só a primeira parte do achado\", \"C14: tamanhos n = 78, n = 75 e n = 323 conferem com o resumo; método online aberto versus fechado confere; achado e citação conferem\", \"C04: três experimentos e condições de revezamento e colaboração livre confere; achado e citação conferem\", \"C21: método (simulador de direção, número de correções, tarefa de matemática como carga) confere; achado inclui ausência de backfire, presente no resumo; citação confere\", \"C26: dois experimentos e delineamento confere; achado confere, mas a citação cobre só o caso sem exposição prévia\", \"C02: quatro experimentos e formação dinâmica de impressão confere; achado de descarte total confere; citação confere\", \"C18: três experimentos e tarefa não dinâmica confere; achado de evidência mista confere; citação confere\", \"C46: método com alegação retratada e variação do nome confere; achado confere, incluindo o indício tênue na medida indireta; citação confere\", \"C03: estudo exploratório com ERP confere; achado sobre diferenças de potenciais confere; citação confere\", \"C13: método correlacional com tarefas de função executiva e modelagem de equações estruturais confere; achado confere; citação confere\", \"C80: método com formas paralelas a 4 semanas, ICC e análise fatorial confirmatória confere; achado confere; citação confere\", \"C16: achado sobre lacuna causal em histórias confere; citação confere; amostra não informada no resumo\", \"C29: dois experimentos com ruminadores depressivos confere; achado e citação conferem\", \"C30: delineamento 2x2x2 intrassujeitos confere; achado e citação conferem\", \"C42: N = 84 de estudantes confere exatamente como no resumo; método papel versus tela confere; achado e citação conferem\", \"C43: tarefas de Stroop, alternância e n-back confere; achado de efeito somente da inibição confere; citação confere\", \"C94: método com executivo central e atualização, alta e baixa relevância confere; achado e citação conferem\", \"C40: 61 participantes e quatro cenários militares confere; achado de ausência de CIE e supercorreção confere; citação confere\", \"Restrições do pedido: todos os itens usam cenários fictícios sem conotação política, eleitoral, de vacinas ou COVID-19 nos resumos; todos são estudos empíricos com dados próprios, sem revisões ou meta-análises; nenhum resumo indica desinformação política ou de saúde\"], \"per_item\": [{\"id\": \"C11\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C48\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C22\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C23\", \"ok\": true, \"problem\": \"citação literal não sustenta o achado completo; um trecho melhor existe no próprio resumo\"}, {\"id\": \"C07\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C01\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C09\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C08\", \"ok\": true, \"problem\": \"citação cobre só a redução pela alternativa, não a eliminação mencionada no achado\"}, {\"id\": \"C14\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C04\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C21\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C26\", \"ok\": true, \"problem\": \"citação cobre só o resultado sem exposição prévia; a primeira metade do achado está em outra frase do resumo\"}, {\"id\": \"C02\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C18\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C46\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C03\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C13\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C80\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C16\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C29\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C30\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C42\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C43\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C94\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C40\", \"ok\": true, \"problem\": \"\"}], \"issues\": [\"C23: o trecho citado (Discreditations were effective for both types of sources) sustenta só a eficácia geral, mas o achado diz também que a desacreditação foi menos eficaz que a correção e que a combinação foi a mais eficaz; o resumo tem frase que cobre tudo isso no Experimento 1\", \"C08: o trecho citado sustenta a redução pela alternativa, mas o achado menciona também a eliminação do efeito na combinação com refutação direta, que está em outra frase do resumo\", \"C26: o trecho citado sustenta só o aumento de menções sem exposição prévia; a redução com exposição prévia está na frase anterior do resumo\"], \"feedback\": \"Nenhuma reprovação: os dados podem ser usados como estão. Para a próxima tentativa, apenas ajuste as citações literais de C23, C08 e C26 para trechos que cubram o achado principal completo (em C23, use a frase do Experimento 1 sobre desacreditação eficaz, porém menos que a correção, com a combinação mais eficaz; em C08, inclua a frase sobre eliminação na combinação; em C26, inclua também a frase sobre redução de menções com exposição prévia). Sugestão menor: em C13, C80, C43 e C94, os estudos são de diferenças individuais com tarefa de influência continuada embutida, e não experimentos com manipulação de correção; se o pesquisador exigir manipulação experimental estrita, confirme com ele se esses quatro itens permanecem na lista.\"}",
+  "usage": {
+    "input_tokens": 11085,
+    "output_tokens": 3994,
+    "cost_usd": 0.00312
+  },
+  "duration_s": 53.13,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

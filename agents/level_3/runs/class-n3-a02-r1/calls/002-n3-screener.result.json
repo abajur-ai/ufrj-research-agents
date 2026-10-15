@@ -1,0 +1,703 @@
+{
+  "structured": {
+    "decisions": [
+      {
+        "id": "C01",
+        "include": true,
+        "reason": "Entrevistas com 4 checadoras, incluindo a brasileira Aletheia, sobre uso de IA na checagem."
+      },
+      {
+        "id": "C02",
+        "include": true,
+        "reason": "Analisa fontes e critérios de seleção de Lupa e Aos Fatos."
+      },
+      {
+        "id": "C03",
+        "include": false,
+        "reason": "Corpus definido pelos governos Bolsonaro e Lula, o que cai na exclusão de estudos centrados em governos."
+      },
+      {
+        "id": "C04",
+        "include": false,
+        "reason": "Centrado na eleição de 2022."
+      },
+      {
+        "id": "C05",
+        "include": true,
+        "reason": "Análise de conteúdo e entrevistas sobre práticas de checagem de desinformação gerada por IA em Brasil, Alemanha e Reino Unido."
+      },
+      {
+        "id": "C06",
+        "include": false,
+        "reason": "Ensaio teórico."
+      },
+      {
+        "id": "C07",
+        "include": false,
+        "reason": "Análise histórica sem organizações brasileiras explícitas."
+      },
+      {
+        "id": "C08",
+        "include": false,
+        "reason": "Peru, sem organizações brasileiras; contexto eleitoral."
+      },
+      {
+        "id": "C09",
+        "include": false,
+        "reason": "Experimento sobre efeito no público, na Argentina."
+      },
+      {
+        "id": "C10",
+        "include": false,
+        "reason": "Trabalho de anais (AoIR) e Brasil não explícito."
+      },
+      {
+        "id": "C11",
+        "include": false,
+        "reason": "China."
+      },
+      {
+        "id": "C12",
+        "include": false,
+        "reason": "Experimento sobre efeito no público."
+      },
+      {
+        "id": "C13",
+        "include": false,
+        "reason": "Conjunto de dados para detecção, sem análise da prática das organizações."
+      },
+      {
+        "id": "C14",
+        "include": false,
+        "reason": "Não trata de checagem brasileira."
+      },
+      {
+        "id": "C15",
+        "include": false,
+        "reason": "Projetos governamentais e Covid-19."
+      },
+      {
+        "id": "C16",
+        "include": false,
+        "reason": "Laboratório universitário, não organização de checagem."
+      },
+      {
+        "id": "C17",
+        "include": false,
+        "reason": "Brasil não aparece explicitamente na amostra do resumo."
+      },
+      {
+        "id": "C18",
+        "include": false,
+        "reason": "Indonésia."
+      },
+      {
+        "id": "C19",
+        "include": true,
+        "reason": "Análise de conteúdo de métodos e financiamento em 15 checadoras de países lusófonos, 13 delas brasileiras."
+      },
+      {
+        "id": "C20",
+        "include": false,
+        "reason": "México e recepção do público."
+      },
+      {
+        "id": "C21",
+        "include": false,
+        "reason": "Organizações dos EUA e da Austrália."
+      },
+      {
+        "id": "C22",
+        "include": true,
+        "reason": "Análise de conteúdo do uso de ferramentas de transparência por Lupa e Aos Fatos."
+      },
+      {
+        "id": "C23",
+        "include": false,
+        "reason": "Proposta didática, sem estudo das organizações."
+      },
+      {
+        "id": "C24",
+        "include": false,
+        "reason": "Proposta teórica de tipologia."
+      },
+      {
+        "id": "C25",
+        "include": false,
+        "reason": "Centrado em discursos de Bolsonaro e na Covid-19."
+      },
+      {
+        "id": "C26",
+        "include": true,
+        "reason": "Análise documental dos textos de apresentação e métodos de 5 checadoras brasileiras ligadas a grupos de mídia."
+      },
+      {
+        "id": "C27",
+        "include": false,
+        "reason": "Agências europeias, sem Brasil."
+      },
+      {
+        "id": "C28",
+        "include": true,
+        "reason": "Entrevistas e análise documental sobre checagem automatizada e IA no Brasil."
+      },
+      {
+        "id": "C29",
+        "include": false,
+        "reason": "Centrado na Covid-19."
+      },
+      {
+        "id": "C30",
+        "include": false,
+        "reason": "Noruega e eleição."
+      },
+      {
+        "id": "C31",
+        "include": false,
+        "reason": "Trata de Trump, não do Brasil."
+      },
+      {
+        "id": "C32",
+        "include": true,
+        "reason": "Análise documental de verificações e guias do Aos Fatos, com foco em recursos pedagógicos; relação com os temas é mais fraca."
+      },
+      {
+        "id": "C33",
+        "include": false,
+        "reason": "Anais de congresso."
+      },
+      {
+        "id": "C34",
+        "include": false,
+        "reason": "Estudo teórico."
+      },
+      {
+        "id": "C35",
+        "include": false,
+        "reason": "Sem organizações brasileiras; guerra Rússia-Ucrânia."
+      },
+      {
+        "id": "C36",
+        "include": true,
+        "reason": "Entrevistas com decisores de checadoras latino-americanas e espanholas, incluindo a Agência Lupa, sobre padrões e práticas."
+      },
+      {
+        "id": "C37",
+        "include": false,
+        "reason": "Brasil não explícito no resumo."
+      },
+      {
+        "id": "C38",
+        "include": false,
+        "reason": "Índia."
+      },
+      {
+        "id": "C39",
+        "include": true,
+        "reason": "Analisa a prática de checagem do discurso político por Aos Fatos, Lupa e Truco; relação com eleições incerta."
+      },
+      {
+        "id": "C40",
+        "include": false,
+        "reason": "Centrado na pandemia de Covid-19."
+      },
+      {
+        "id": "C41",
+        "include": true,
+        "reason": "Análise documental das metodologias e etiquetas de 5 agências brasileiras."
+      },
+      {
+        "id": "C42",
+        "include": false,
+        "reason": "Ensaio teórico."
+      },
+      {
+        "id": "C43",
+        "include": true,
+        "reason": "Estudo comparado que inclui a Lupa e mede o uso de dados públicos como fonte."
+      },
+      {
+        "id": "C44",
+        "include": false,
+        "reason": "Centrado na pandemia."
+      },
+      {
+        "id": "C45",
+        "include": true,
+        "reason": "Levantamento nos sites das agências sobre o funcionamento da checagem; método frágil."
+      },
+      {
+        "id": "C46",
+        "include": false,
+        "reason": "Centrado na CoronaVac e na pandemia."
+      },
+      {
+        "id": "C47",
+        "include": false,
+        "reason": "Vacina contra Covid-19."
+      },
+      {
+        "id": "C48",
+        "include": false,
+        "reason": "Checadores marginais; o caso brasileiro não é uma organização de checagem reconhecida."
+      },
+      {
+        "id": "C49",
+        "include": false,
+        "reason": "Pandemia e reação dos usuários às correções."
+      },
+      {
+        "id": "C50",
+        "include": false,
+        "reason": "Caso único sobre Covid-19."
+      },
+      {
+        "id": "C51",
+        "include": true,
+        "reason": "Estudo de caso do financiamento da Agência Lupa."
+      },
+      {
+        "id": "C52",
+        "include": false,
+        "reason": "Desenvolvimento de ferramenta e eleições."
+      },
+      {
+        "id": "C53",
+        "include": false,
+        "reason": "Organizações europeias."
+      },
+      {
+        "id": "C54",
+        "include": false,
+        "reason": "Brasil não explícito no resumo."
+      },
+      {
+        "id": "C55",
+        "include": false,
+        "reason": "Etiópia e Mali."
+      },
+      {
+        "id": "C56",
+        "include": true,
+        "reason": "Entrevistas com checadores sul-americanos, incluindo o Aos Fatos, sobre letramento midiático."
+      },
+      {
+        "id": "C57",
+        "include": false,
+        "reason": "Brasil não explícito no resumo."
+      },
+      {
+        "id": "C58",
+        "include": true,
+        "reason": "Questionário com 29 checadores brasileiros sobre rotinas e critérios."
+      },
+      {
+        "id": "C59",
+        "include": false,
+        "reason": "Centrado na Covid-19."
+      },
+      {
+        "id": "C60",
+        "include": false,
+        "reason": "EUA."
+      },
+      {
+        "id": "C61",
+        "include": false,
+        "reason": "Verificadores médicos do Facebook, sem Brasil."
+      },
+      {
+        "id": "C62",
+        "include": false,
+        "reason": "Brasil não explícito no resumo."
+      },
+      {
+        "id": "C63",
+        "include": false,
+        "reason": "Plataformas europeias."
+      },
+      {
+        "id": "C64",
+        "include": false,
+        "reason": "Centrado na Covid-19."
+      },
+      {
+        "id": "C65",
+        "include": false,
+        "reason": "Revisão sistemática."
+      },
+      {
+        "id": "C66",
+        "include": false,
+        "reason": "Ensaio jurídico, sem dados."
+      },
+      {
+        "id": "C67",
+        "include": false,
+        "reason": "Pesquisa bibliográfica e crítica, sem dados próprios claros."
+      },
+      {
+        "id": "C68",
+        "include": false,
+        "reason": "Foco no ensino de química."
+      },
+      {
+        "id": "C69",
+        "include": true,
+        "reason": "Análise documental da seção 'Nosso Método' do Aos Fatos."
+      },
+      {
+        "id": "C70",
+        "include": false,
+        "reason": "Resumo truncado, sem indicação de Brasil ou de dados."
+      },
+      {
+        "id": "C71",
+        "include": false,
+        "reason": "Centrado na Covid-19."
+      },
+      {
+        "id": "C72",
+        "include": false,
+        "reason": "Análise discursiva sem escopo claro de organizações."
+      },
+      {
+        "id": "C73",
+        "include": false,
+        "reason": "Eleições dos EUA."
+      },
+      {
+        "id": "C74",
+        "include": true,
+        "reason": "Análise do modelo de negócio da Agência Lupa."
+      },
+      {
+        "id": "C75",
+        "include": false,
+        "reason": "Brasil não explícito no resumo."
+      },
+      {
+        "id": "C76",
+        "include": false,
+        "reason": "Centrado nas eleições de 2018 e 2022."
+      },
+      {
+        "id": "C77",
+        "include": false,
+        "reason": "Espanha."
+      },
+      {
+        "id": "C78",
+        "include": false,
+        "reason": "Brasil não explícito no resumo."
+      },
+      {
+        "id": "C79",
+        "include": false,
+        "reason": "Centrado na Covid-19."
+      },
+      {
+        "id": "C80",
+        "include": false,
+        "reason": "Centrado em vacina contra Covid-19."
+      },
+      {
+        "id": "C81",
+        "include": true,
+        "reason": "Comparação Brasil-Alemanha com 13.498 checagens e entrevistas."
+      },
+      {
+        "id": "C82",
+        "include": false,
+        "reason": "Inovação centrada na resposta à pandemia."
+      },
+      {
+        "id": "C83",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C84",
+        "include": false,
+        "reason": "Serviço governamental e Covid-19."
+      },
+      {
+        "id": "C85",
+        "include": false,
+        "reason": "Eleições municipais."
+      },
+      {
+        "id": "C86",
+        "include": false,
+        "reason": "Itália e Espanha."
+      },
+      {
+        "id": "C87",
+        "include": false,
+        "reason": "Financiamento de plataformas ao jornalismo em geral, não à checagem."
+      },
+      {
+        "id": "C88",
+        "include": false,
+        "reason": "Centrado nas eleições de 2014."
+      },
+      {
+        "id": "C89",
+        "include": false,
+        "reason": "Eleições."
+      },
+      {
+        "id": "C90",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C91",
+        "include": false,
+        "reason": "Estônia."
+      },
+      {
+        "id": "C92",
+        "include": false,
+        "reason": "Avaliação de ferramentas de IA, sem organizações brasileiras."
+      },
+      {
+        "id": "C93",
+        "include": false,
+        "reason": "Centrado na Covid-19."
+      },
+      {
+        "id": "C94",
+        "include": true,
+        "reason": "Análise documental das estratégias de checagem e letramento midiático da Agência Lupa."
+      },
+      {
+        "id": "C95",
+        "include": false,
+        "reason": "Centrado na Covid-19."
+      },
+      {
+        "id": "C96",
+        "include": false,
+        "reason": "IA no jornalismo em geral, não checagem."
+      },
+      {
+        "id": "C97",
+        "include": false,
+        "reason": "Brasil não explícito; foco em ciência e saúde."
+      },
+      {
+        "id": "C98",
+        "include": false,
+        "reason": "Ensaio teórico."
+      },
+      {
+        "id": "C99",
+        "include": false,
+        "reason": "Brasil não explícito no resumo."
+      },
+      {
+        "id": "C100",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C101",
+        "include": false,
+        "reason": "Espanha."
+      },
+      {
+        "id": "C102",
+        "include": false,
+        "reason": "EUA."
+      },
+      {
+        "id": "C103",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C104",
+        "include": false,
+        "reason": "Oriente Médio."
+      },
+      {
+        "id": "C105",
+        "include": false,
+        "reason": "Organizações ocidentais, sem Brasil."
+      },
+      {
+        "id": "C106",
+        "include": false,
+        "reason": "Centrado em Bolsonaro e na pandemia."
+      },
+      {
+        "id": "C107",
+        "include": false,
+        "reason": "Países mediterrâneos."
+      },
+      {
+        "id": "C108",
+        "include": false,
+        "reason": "Covid-19 e dados secundários."
+      },
+      {
+        "id": "C109",
+        "include": false,
+        "reason": "Reino Unido, França e Espanha."
+      },
+      {
+        "id": "C110",
+        "include": true,
+        "reason": "Análise de como Lupa e Aos Fatos verificam conteúdos falsos gerados por IA."
+      },
+      {
+        "id": "C111",
+        "include": false,
+        "reason": "Debates eleitorais."
+      },
+      {
+        "id": "C112",
+        "include": false,
+        "reason": "Letônia e anais de congresso."
+      },
+      {
+        "id": "C113",
+        "include": false,
+        "reason": "Covid-19 e aplicativo de denúncias, não organização de checagem."
+      },
+      {
+        "id": "C114",
+        "include": false,
+        "reason": "Brasil não explícito no resumo."
+      },
+      {
+        "id": "C115",
+        "include": true,
+        "reason": "Análise de conteúdo e entrevistas com agências de checagem, Brasil incluído, sobre o uso do TikTok; relação com os temas é mais fraca."
+      },
+      {
+        "id": "C116",
+        "include": false,
+        "reason": "Espanha."
+      },
+      {
+        "id": "C117",
+        "include": false,
+        "reason": "Editorial, sem dados próprios."
+      },
+      {
+        "id": "C118",
+        "include": false,
+        "reason": "Península Ibérica."
+      },
+      {
+        "id": "C119",
+        "include": false,
+        "reason": "Países nórdicos."
+      },
+      {
+        "id": "C120",
+        "include": false,
+        "reason": "EUA e eleição."
+      },
+      {
+        "id": "C121",
+        "include": false,
+        "reason": "Brasil não explícito no resumo."
+      },
+      {
+        "id": "C122",
+        "include": false,
+        "reason": "Revisão integrativa."
+      },
+      {
+        "id": "C123",
+        "include": false,
+        "reason": "Eleições."
+      },
+      {
+        "id": "C124",
+        "include": false,
+        "reason": "Espanha."
+      },
+      {
+        "id": "C125",
+        "include": false,
+        "reason": "Anais de congresso e Covid-19."
+      }
+    ],
+    "selected": [
+      "C58",
+      "C28",
+      "C01",
+      "C19",
+      "C36",
+      "C81",
+      "C02",
+      "C22",
+      "C26",
+      "C41",
+      "C51",
+      "C43",
+      "C05",
+      "C74",
+      "C69",
+      "C110",
+      "C56",
+      "C94",
+      "C45",
+      "C39",
+      "C115",
+      "C32"
+    ]
+  },
+  "text": "{\"decisions\":[{\"id\":\"C01\",\"include\":true,\"reason\":\"Entrevistas com 4 checadoras, incluindo a brasileira Aletheia, sobre uso de IA na checagem.\"},{\"id\":\"C02\",\"include\":true,\"reason\":\"Analisa fontes e critérios de seleção de Lupa e Aos Fatos.\"},{\"id\":\"C03\",\"include\":false,\"reason\":\"Corpus definido pelos governos Bolsonaro e Lula, o que cai na exclusão de estudos centrados em governos.\"},{\"id\":\"C04\",\"include\":false,\"reason\":\"Centrado na eleição de 2022.\"},{\"id\":\"C05\",\"include\":true,\"reason\":\"Análise de conteúdo e entrevistas sobre práticas de checagem de desinformação gerada por IA em Brasil, Alemanha e Reino Unido.\"},{\"id\":\"C06\",\"include\":false,\"reason\":\"Ensaio teórico.\"},{\"id\":\"C07\",\"include\":false,\"reason\":\"Análise histórica sem organizações brasileiras explícitas.\"},{\"id\":\"C08\",\"include\":false,\"reason\":\"Peru, sem organizações brasileiras; contexto eleitoral.\"},{\"id\":\"C09\",\"include\":false,\"reason\":\"Experimento sobre efeito no público, na Argentina.\"},{\"id\":\"C10\",\"include\":false,\"reason\":\"Trabalho de anais (AoIR) e Brasil não explícito.\"},{\"id\":\"C11\",\"include\":false,\"reason\":\"China.\"},{\"id\":\"C12\",\"include\":false,\"reason\":\"Experimento sobre efeito no público.\"},{\"id\":\"C13\",\"include\":false,\"reason\":\"Conjunto de dados para detecção, sem análise da prática das organizações.\"},{\"id\":\"C14\",\"include\":false,\"reason\":\"Não trata de checagem brasileira.\"},{\"id\":\"C15\",\"include\":false,\"reason\":\"Projetos governamentais e Covid-19.\"},{\"id\":\"C16\",\"include\":false,\"reason\":\"Laboratório universitário, não organização de checagem.\"},{\"id\":\"C17\",\"include\":false,\"reason\":\"Brasil não aparece explicitamente na amostra do resumo.\"},{\"id\":\"C18\",\"include\":false,\"reason\":\"Indonésia.\"},{\"id\":\"C19\",\"include\":true,\"reason\":\"Análise de conteúdo de métodos e financiamento em 15 checadoras de países lusófonos, 13 delas brasileiras.\"},{\"id\":\"C20\",\"include\":false,\"reason\":\"México e recepção do público.\"},{\"id\":\"C21\",\"include\":false,\"reason\":\"Organizações dos EUA e da Austrália.\"},{\"id\":\"C22\",\"include\":true,\"reason\":\"Análise de conteúdo do uso de ferramentas de transparência por Lupa e Aos Fatos.\"},{\"id\":\"C23\",\"include\":false,\"reason\":\"Proposta didática, sem estudo das organizações.\"},{\"id\":\"C24\",\"include\":false,\"reason\":\"Proposta teórica de tipologia.\"},{\"id\":\"C25\",\"include\":false,\"reason\":\"Centrado em discursos de Bolsonaro e na Covid-19.\"},{\"id\":\"C26\",\"include\":true,\"reason\":\"Análise documental dos textos de apresentação e métodos de 5 checadoras brasileiras ligadas a grupos de mídia.\"},{\"id\":\"C27\",\"include\":false,\"reason\":\"Agências europeias, sem Brasil.\"},{\"id\":\"C28\",\"include\":true,\"reason\":\"Entrevistas e análise documental sobre checagem automatizada e IA no Brasil.\"},{\"id\":\"C29\",\"include\":false,\"reason\":\"Centrado na Covid-19.\"},{\"id\":\"C30\",\"include\":false,\"reason\":\"Noruega e eleição.\"},{\"id\":\"C31\",\"include\":false,\"reason\":\"Trata de Trump, não do Brasil.\"},{\"id\":\"C32\",\"include\":true,\"reason\":\"Análise documental de verificações e guias do Aos Fatos, com foco em recursos pedagógicos; relação com os temas é mais fraca.\"},{\"id\":\"C33\",\"include\":false,\"reason\":\"Anais de congresso.\"},{\"id\":\"C34\",\"include\":false,\"reason\":\"Estudo teórico.\"},{\"id\":\"C35\",\"include\":false,\"reason\":\"Sem organizações brasileiras; guerra Rússia-Ucrânia.\"},{\"id\":\"C36\",\"include\":true,\"reason\":\"Entrevistas com decisores de checadoras latino-americanas e espanholas, incluindo a Agência Lupa, sobre padrões e práticas.\"},{\"id\":\"C37\",\"include\":false,\"reason\":\"Brasil não explícito no resumo.\"},{\"id\":\"C38\",\"include\":false,\"reason\":\"Índia.\"},{\"id\":\"C39\",\"include\":true,\"reason\":\"Analisa a prática de checagem do discurso político por Aos Fatos, Lupa e Truco; relação com eleições incerta.\"},{\"id\":\"C40\",\"include\":false,\"reason\":\"Centrado na pandemia de Covid-19.\"},{\"id\":\"C41\",\"include\":true,\"reason\":\"Análise documental das metodologias e etiquetas de 5 agências brasileiras.\"},{\"id\":\"C42\",\"include\":false,\"reason\":\"Ensaio teórico.\"},{\"id\":\"C43\",\"include\":true,\"reason\":\"Estudo comparado que inclui a Lupa e mede o uso de dados públicos como fonte.\"},{\"id\":\"C44\",\"include\":false,\"reason\":\"Centrado na pandemia.\"},{\"id\":\"C45\",\"include\":true,\"reason\":\"Levantamento nos sites das agências sobre o funcionamento da checagem; método frágil.\"},{\"id\":\"C46\",\"include\":false,\"reason\":\"Centrado na CoronaVac e na pandemia.\"},{\"id\":\"C47\",\"include\":false,\"reason\":\"Vacina contra Covid-19.\"},{\"id\":\"C48\",\"include\":false,\"reason\":\"Checadores marginais; o caso brasileiro não é uma organização de checagem reconhecida.\"},{\"id\":\"C49\",\"include\":false,\"reason\":\"Pandemia e reação dos usuários às correções.\"},{\"id\":\"C50\",\"include\":false,\"reason\":\"Caso único sobre Covid-19.\"},{\"id\":\"C51\",\"include\":true,\"reason\":\"Estudo de caso do financiamento da Agência Lupa.\"},{\"id\":\"C52\",\"include\":false,\"reason\":\"Desenvolvimento de ferramenta e eleições.\"},{\"id\":\"C53\",\"include\":false,\"reason\":\"Organizações europeias.\"},{\"id\":\"C54\",\"include\":false,\"reason\":\"Brasil não explícito no resumo.\"},{\"id\":\"C55\",\"include\":false,\"reason\":\"Etiópia e Mali.\"},{\"id\":\"C56\",\"include\":true,\"reason\":\"Entrevistas com checadores sul-americanos, incluindo o Aos Fatos, sobre letramento midiático.\"},{\"id\":\"C57\",\"include\":false,\"reason\":\"Brasil não explícito no resumo.\"},{\"id\":\"C58\",\"include\":true,\"reason\":\"Questionário com 29 checadores brasileiros sobre rotinas e critérios.\"},{\"id\":\"C59\",\"include\":false,\"reason\":\"Centrado na Covid-19.\"},{\"id\":\"C60\",\"include\":false,\"reason\":\"EUA.\"},{\"id\":\"C61\",\"include\":false,\"reason\":\"Verificadores médicos do Facebook, sem Brasil.\"},{\"id\":\"C62\",\"include\":false,\"reason\":\"Brasil não explícito no resumo.\"},{\"id\":\"C63\",\"include\":false,\"reason\":\"Plataformas europeias.\"},{\"id\":\"C64\",\"include\":false,\"reason\":\"Centrado na Covid-19.\"},{\"id\":\"C65\",\"include\":false,\"reason\":\"Revisão sistemática.\"},{\"id\":\"C66\",\"include\":false,\"reason\":\"Ensaio jurídico, sem dados.\"},{\"id\":\"C67\",\"include\":false,\"reason\":\"Pesquisa bibliográfica e crítica, sem dados próprios claros.\"},{\"id\":\"C68\",\"include\":false,\"reason\":\"Foco no ensino de química.\"},{\"id\":\"C69\",\"include\":true,\"reason\":\"Análise documental da seção 'Nosso Método' do Aos Fatos.\"},{\"id\":\"C70\",\"include\":false,\"reason\":\"Resumo truncado, sem indicação de Brasil ou de dados.\"},{\"id\":\"C71\",\"include\":false,\"reason\":\"Centrado na Covid-19.\"},{\"id\":\"C72\",\"include\":false,\"reason\":\"Análise discursiva sem escopo claro de organizações.\"},{\"id\":\"C73\",\"include\":false,\"reason\":\"Eleições dos EUA.\"},{\"id\":\"C74\",\"include\":true,\"reason\":\"Análise do modelo de negócio da Agência Lupa.\"},{\"id\":\"C75\",\"include\":false,\"reason\":\"Brasil não explícito no resumo.\"},{\"id\":\"C76\",\"include\":false,\"reason\":\"Centrado nas eleições de 2018 e 2022.\"},{\"id\":\"C77\",\"include\":false,\"reason\":\"Espanha.\"},{\"id\":\"C78\",\"include\":false,\"reason\":\"Brasil não explícito no resumo.\"},{\"id\":\"C79\",\"include\":false,\"reason\":\"Centrado na Covid-19.\"},{\"id\":\"C80\",\"include\":false,\"reason\":\"Centrado em vacina contra Covid-19.\"},{\"id\":\"C81\",\"include\":true,\"reason\":\"Comparação Brasil-Alemanha com 13.498 checagens e entrevistas.\"},{\"id\":\"C82\",\"include\":false,\"reason\":\"Inovação centrada na resposta à pandemia.\"},{\"id\":\"C83\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C84\",\"include\":false,\"reason\":\"Serviço governamental e Covid-19.\"},{\"id\":\"C85\",\"include\":false,\"reason\":\"Eleições municipais.\"},{\"id\":\"C86\",\"include\":false,\"reason\":\"Itália e Espanha.\"},{\"id\":\"C87\",\"include\":false,\"reason\":\"Financiamento de plataformas ao jornalismo em geral, não à checagem.\"},{\"id\":\"C88\",\"include\":false,\"reason\":\"Centrado nas eleições de 2014.\"},{\"id\":\"C89\",\"include\":false,\"reason\":\"Eleições.\"},{\"id\":\"C90\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C91\",\"include\":false,\"reason\":\"Estônia.\"},{\"id\":\"C92\",\"include\":false,\"reason\":\"Avaliação de ferramentas de IA, sem organizações brasileiras.\"},{\"id\":\"C93\",\"include\":false,\"reason\":\"Centrado na Covid-19.\"},{\"id\":\"C94\",\"include\":true,\"reason\":\"Análise documental das estratégias de checagem e letramento midiático da Agência Lupa.\"},{\"id\":\"C95\",\"include\":false,\"reason\":\"Centrado na Covid-19.\"},{\"id\":\"C96\",\"include\":false,\"reason\":\"IA no jornalismo em geral, não checagem.\"},{\"id\":\"C97\",\"include\":false,\"reason\":\"Brasil não explícito; foco em ciência e saúde.\"},{\"id\":\"C98\",\"include\":false,\"reason\":\"Ensaio teórico.\"},{\"id\":\"C99\",\"include\":false,\"reason\":\"Brasil não explícito no resumo.\"},{\"id\":\"C100\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C101\",\"include\":false,\"reason\":\"Espanha.\"},{\"id\":\"C102\",\"include\":false,\"reason\":\"EUA.\"},{\"id\":\"C103\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C104\",\"include\":false,\"reason\":\"Oriente Médio.\"},{\"id\":\"C105\",\"include\":false,\"reason\":\"Organizações ocidentais, sem Brasil.\"},{\"id\":\"C106\",\"include\":false,\"reason\":\"Centrado em Bolsonaro e na pandemia.\"},{\"id\":\"C107\",\"include\":false,\"reason\":\"Países mediterrâneos.\"},{\"id\":\"C108\",\"include\":false,\"reason\":\"Covid-19 e dados secundários.\"},{\"id\":\"C109\",\"include\":false,\"reason\":\"Reino Unido, França e Espanha.\"},{\"id\":\"C110\",\"include\":true,\"reason\":\"Análise de como Lupa e Aos Fatos verificam conteúdos falsos gerados por IA.\"},{\"id\":\"C111\",\"include\":false,\"reason\":\"Debates eleitorais.\"},{\"id\":\"C112\",\"include\":false,\"reason\":\"Letônia e anais de congresso.\"},{\"id\":\"C113\",\"include\":false,\"reason\":\"Covid-19 e aplicativo de denúncias, não organização de checagem.\"},{\"id\":\"C114\",\"include\":false,\"reason\":\"Brasil não explícito no resumo.\"},{\"id\":\"C115\",\"include\":true,\"reason\":\"Análise de conteúdo e entrevistas com agências de checagem, Brasil incluído, sobre o uso do TikTok; relação com os temas é mais fraca.\"},{\"id\":\"C116\",\"include\":false,\"reason\":\"Espanha.\"},{\"id\":\"C117\",\"include\":false,\"reason\":\"Editorial, sem dados próprios.\"},{\"id\":\"C118\",\"include\":false,\"reason\":\"Península Ibérica.\"},{\"id\":\"C119\",\"include\":false,\"reason\":\"Países nórdicos.\"},{\"id\":\"C120\",\"include\":false,\"reason\":\"EUA e eleição.\"},{\"id\":\"C121\",\"include\":false,\"reason\":\"Brasil não explícito no resumo.\"},{\"id\":\"C122\",\"include\":false,\"reason\":\"Revisão integrativa.\"},{\"id\":\"C123\",\"include\":false,\"reason\":\"Eleições.\"},{\"id\":\"C124\",\"include\":false,\"reason\":\"Espanha.\"},{\"id\":\"C125\",\"include\":false,\"reason\":\"Anais de congresso e Covid-19.\"}],\"selected\":[\"C58\",\"C28\",\"C01\",\"C19\",\"C36\",\"C81\",\"C02\",\"C22\",\"C26\",\"C41\",\"C51\",\"C43\",\"C05\",\"C74\",\"C69\",\"C110\",\"C56\",\"C94\",\"C45\",\"C39\",\"C115\",\"C32\"]}",
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 62969,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 9119,
+    "output_tokens_details": {
+      "thinking_tokens": 4410
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 62969,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 9119,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 62969,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 62969
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 2,
+  "duration_s": 56.72,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "decisions": "[{\"id\": \"C01\", \"include\": true, \"reason\": \"Entrevistas com 4 checadoras, incluindo a brasileira Aletheia, sobre uso de IA na checagem.\"}, {\"id\": \"C02\", \"include\": true, \"reason\": \"Analisa fontes e cr…",
+        "selected": "[\"C58\", \"C28\", \"C01\", \"C19\", \"C36\", \"C81\", \"C02\", \"C22\", \"C26\", \"C41\", \"C51\", \"C43\", \"C05\", \"C74\", \"C69\", \"C110\", \"C56\", \"C94\", \"C45\", \"C39\", \"C115\", \"C32\"]"
+      }
+    }
+  ]
+}

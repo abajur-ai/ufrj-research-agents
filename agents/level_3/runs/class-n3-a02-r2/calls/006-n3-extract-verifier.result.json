@@ -1,0 +1,136 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "C02: a citação 'the agencies themselves do not lay out the criteria for selecting what is to be checked' está no resumo; a amostra 'two Brazilian checking agencies' confere; o achado (critérios não explicitados e dependência de fontes oficiais) corresponde ao que o resumo demonstra.",
+      "C36: a citação 'This article shows an emerging automation landscape...' está no resumo; a amostra (30 declarações e 7 entrevistas com representantes de 5 sites) confere; o achado inclui também a segunda parte do resumo (IA desafiou a autoridade dos checadores), que está no texto.",
+      "C01: a citação 'each organization uses these technologies to respond to specific needs' está no resumo; a amostra (4 organizações, incluindo Aletheia do Brasil) confere; o achado sobre níveis de uso ligados à estrutura humana e econômica está no resumo.",
+      "C06: a citação sobre dependência de assessorias de imprensa está no resumo; a amostra de 318 posts coletados em junho de 2019 confere; o achado resume corretamente os resultados de padronização, ligação com mídia tradicional e fontes.",
+      "C07: a citação dos três desafios centrais está no resumo; o resumo não traz número, apenas a lista das plataformas; o achado (equipes pequenas, metodologias robustas, três desafios) corresponde ao texto.",
+      "C30: a citação em português com 63 checagens, menos de 7% e total de 950 está no resumo; o achado inclui a ressalva de que as ferramentas foram decisivas em assuntos públicos, que também está no resumo.",
+      "C39: a citação 'As Agências possuem metodologias e suas etiquetas variam' é substring exata do resumo; a amostra de cinco agências brasileiras confere; o achado sobre metodologias próprias e etiquetas variadas é o que o resumo informa.",
+      "C13: a citação sobre variações entre países está no resumo; a amostra (136 artigos de 2023-2024 e 13 entrevistas) confere; o achado combina corretamente alcance limitado e variações nacionais; estudo comparado inclui o Brasil, atendendo à restrição.",
+      "C61: a citação sobre transparência ativa como principal fonte está no resumo; a amostra de quatro agências (incluindo Agência Lupa) confere; as porcentagens por país (63,5 / 53,4 / 52,7 / 29,2) conferem com o resumo.",
+      "C47: a citação sobre estudo de caso das estratégias de financiamento da Lupa está no resumo; o resumo não informa tamanho de amostra e a extração marcou 'não informado no resumo', correto; o achado inclui potencialidades e limites, como no resumo.",
+      "C41: a citação sobre fact-checking como modelo de negócio é substring exata do resumo; a amostra de duas agências (Lupa e Chequeado) confere; o achado sobre empreendedorismo jornalístico e combate à desinformação está no resumo.",
+      "C93: a citação final sobre automação da verificação está no resumo; o resumo não informa tamanho de amostra; o texto indica estudo de casos múltiplos teórico-empírico, condizente com a extração.",
+      "C21: a citação sobre sequências discursivas e análise da linha francesa está no resumo; a amostra de cinco organizações brasileiras ligadas a conglomerados de mídia confere; o achado é descritivo e não exagera.",
+      "C33: a citação sobre o objetivo da análise do discurso do Aos Fatos está no resumo; a extração informa honestamente que o resumo não relata resultados; a amostra não é numerada no resumo e a extração marcou 'não informado no resumo'.",
+      "C84: a citação sobre volume e tipos de conteúdos falsos entre março de 2023 e março de 2024 está no resumo; o método misto (observação direta, análise qualitativa e quantitativa) confere; o resumo não informa tamanho de amostra.",
+      "C38: a citação sobre etiquetagem não seguida à risca e predominância de temas nacionais está no resumo; o resumo não informa número de itens analisados, apenas os três projetos; o achado inclui o risco de despolitização, presente no resumo.",
+      "C66: a citação sobre media literacy como estratégia fundamental está no resumo; o resumo não informa número de entrevistados, apenas as quatro agências (incluindo Aos Fatos); o achado sobre ações variadas (oficinas, guias, ferramentas) está no resumo.",
+      "C63: a citação sobre contribuição da Lupa para a media literacy no Brasil está no resumo; o método (levantamento bibliográfico e documental e análise descritiva) confere; o resumo não informa tamanho de amostra.",
+      "Restrições do pedido: todos os itens são estudos empíricos (entrevistas, análise de conteúdo, análise documental ou estudo de caso) e os comparativos internacionais (C01, C07, C13, C61, C66, C93) incluem organizações brasileiras; nenhum resumo indica foco exclusivo em eleições, governo específico, pandemia ou efeito no público."
+    ],
+    "per_item": [
+      {
+        "id": "C02",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C36",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C01",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C06",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C07",
+        "ok": true,
+        "problem": "amostra: o resumo nomeia 8 plataformas; 'não informado no resumo' é defensável, mas a extração perde essa informação"
+      },
+      {
+        "id": "C30",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C39",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C13",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C61",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C47",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C41",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C93",
+        "ok": true,
+        "problem": "achado: o resumo não apresenta resultado, e o texto extraído repete o objetivo do artigo"
+      },
+      {
+        "id": "C21",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C33",
+        "ok": true,
+        "problem": "achado: o resumo não relata resultado; a extração preencheu com objetivo e enquadramento teórico"
+      },
+      {
+        "id": "C84",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C38",
+        "ok": true,
+        "problem": "amostra: o resumo nomeia 3 projetos (Aos Fatos, Lupa e Truco); 'não informado no resumo' perde essa informação"
+      },
+      {
+        "id": "C66",
+        "ok": true,
+        "problem": "amostra: o resumo nomeia 4 agências; 'não informado no resumo' perde essa informação"
+      },
+      {
+        "id": "C63",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [
+      "Em C07, C38 e C66 o campo de amostra diz 'não informado no resumo', mas o resumo nomeia as organizações estudadas (8 plataformas em C07, 3 projetos em C38, 4 agências em C66), enquanto em C02, C01, C39 e C41 a extração usou a descrição da amostra do resumo; o tratamento foi inconsistente.",
+      "Em C93 o campo de achado principal repete o objetivo do artigo, porque o resumo não apresenta resultado; o campo fica sem achado de fato.",
+      "Em C33 o resumo não relata resultado e a extração o reconhece, mas o campo de achado acabou descrevendo objetivo e referencial teórico em vez de um achado.",
+      "Em C63 o estudo é bibliográfico e documental com análise descritiva; o resumo não deixa claro que haja dados empíricos próprios além da análise documental, o que pode ficar frágil diante da restrição do pedido."
+    ],
+    "feedback": "Nenhum item precisa ser refeito por erro que comprometa o resultado. Para a próxima rodada, padronize o campo de amostra: quando o resumo não der número mas nomear os casos, copie a descrição do resumo (por exemplo 'oito plataformas nomeadas no resumo: Chequeado, UYCheck, Maldita.es, Newtral, Fact Checking CL, Agência Lupa, Ecuador Chequea e ColombiaCheck' em C07) em vez de 'não informado no resumo'. Em C93 e C33, onde o resumo não traz resultado, indique explicitamente no campo de achado algo como 'o resumo não relata achado, apenas objetivo', para o pesquisador decidir se mantém o artigo. Em C63, verifique na próxima verificação mais profunda se a análise documental da Lupa caracteriza dado empírico próprio suficiente para a restrição do pedido."
+  },
+  "text": "{\n \"approved\": true,\n \"checked\": [\n  \"C02: a citação 'the agencies themselves do not lay out the criteria for selecting what is to be checked' está no resumo; a amostra 'two Brazilian checking agencies' confere; o achado (critérios não explicitados e dependência de fontes oficiais) corresponde ao que o resumo demonstra.\",\n  \"C36: a citação 'This article shows an emerging automation landscape...' está no resumo; a amostra (30 declarações e 7 entrevistas com representantes de 5 sites) confere; o achado inclui também a segunda parte do resumo (IA desafiou a autoridade dos checadores), que está no texto.\",\n  \"C01: a citação 'each organization uses these technologies to respond to specific needs' está no resumo; a amostra (4 organizações, incluindo Aletheia do Brasil) confere; o achado sobre níveis de uso ligados à estrutura humana e econômica está no resumo.\",\n  \"C06: a citação sobre dependência de assessorias de imprensa está no resumo; a amostra de 318 posts coletados em junho de 2019 confere; o achado resume corretamente os resultados de padronização, ligação com mídia tradicional e fontes.\",\n  \"C07: a citação dos três desafios centrais está no resumo; o resumo não traz número, apenas a lista das plataformas; o achado (equipes pequenas, metodologias robustas, três desafios) corresponde ao texto.\",\n  \"C30: a citação em português com 63 checagens, menos de 7% e total de 950 está no resumo; o achado inclui a ressalva de que as ferramentas foram decisivas em assuntos públicos, que também está no resumo.\",\n  \"C39: a citação 'As Agências possuem metodologias e suas etiquetas variam' é substring exata do resumo; a amostra de cinco agências brasileiras confere; o achado sobre metodologias próprias e etiquetas variadas é o que o resumo informa.\",\n  \"C13: a citação sobre variações entre países está no resumo; a amostra (136 artigos de 2023-2024 e 13 entrevistas) confere; o achado combina corretamente alcance limitado e variações nacionais; estudo comparado inclui o Brasil, atendendo à restrição.\",\n  \"C61: a citação sobre transparência ativa como principal fonte está no resumo; a amostra de quatro agências (incluindo Agência Lupa) confere; as porcentagens por país (63,5 / 53,4 / 52,7 / 29,2) conferem com o resumo.\",\n  \"C47: a citação sobre estudo de caso das estratégias de financiamento da Lupa está no resumo; o resumo não informa tamanho de amostra e a extração marcou 'não informado no resumo', correto; o achado inclui potencialidades e limites, como no resumo.\",\n  \"C41: a citação sobre fact-checking como modelo de negócio é substring exata do resumo; a amostra de duas agências (Lupa e Chequeado) confere; o achado sobre empreendedorismo jornalístico e combate à desinformação está no resumo.\",\n  \"C93: a citação final sobre automação da verificação está no resumo; o resumo não informa tamanho de amostra; o texto indica estudo de casos múltiplos teórico-empírico, condizente com a extração.\",\n  \"C21: a citação sobre sequências discursivas e análise da linha francesa está no resumo; a amostra de cinco organizações brasileiras ligadas a conglomerados de mídia confere; o achado é descritivo e não exagera.\",\n  \"C33: a citação sobre o objetivo da análise do discurso do Aos Fatos está no resumo; a extração informa honestamente que o resumo não relata resultados; a amostra não é numerada no resumo e a extração marcou 'não informado no resumo'.\",\n  \"C84: a citação sobre volume e tipos de conteúdos falsos entre março de 2023 e março de 2024 está no resumo; o método misto (observação direta, análise qualitativa e quantitativa) confere; o resumo não informa tamanho de amostra.\",\n  \"C38: a citação sobre etiquetagem não seguida à risca e predominância de temas nacionais está no resumo; o resumo não informa número de itens analisados, apenas os três projetos; o achado inclui o risco de despolitização, presente no resumo.\",\n  \"C66: a citação sobre media literacy como estratégia fundamental está no resumo; o resumo não informa número de entrevistados, apenas as quatro agências (incluindo Aos Fatos); o achado sobre ações variadas (oficinas, guias, ferramentas) está no resumo.\",\n  \"C63: a citação sobre contribuição da Lupa para a media literacy no Brasil está no resumo; o método (levantamento bibliográfico e documental e análise descritiva) confere; o resumo não informa tamanho de amostra.\",\n  \"Restrições do pedido: todos os itens são estudos empíricos (entrevistas, análise de conteúdo, análise documental ou estudo de caso) e os comparativos internacionais (C01, C07, C13, C61, C66, C93) incluem organizações brasileiras; nenhum resumo indica foco exclusivo em eleições, governo específico, pandemia ou efeito no público.\"\n ],\n \"per_item\": [\n  {\"id\": \"C02\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C36\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C01\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C06\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C07\", \"ok\": true, \"problem\": \"amostra: o resumo nomeia 8 plataformas; 'não informado no resumo' é defensável, mas a extração perde essa informação\"},\n  {\"id\": \"C30\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C39\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C13\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C61\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C47\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C41\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C93\", \"ok\": true, \"problem\": \"achado: o resumo não apresenta resultado, e o texto extraído repete o objetivo do artigo\"},\n  {\"id\": \"C21\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C33\", \"ok\": true, \"problem\": \"achado: o resumo não relata resultado; a extração preencheu com objetivo e enquadramento teórico\"},\n  {\"id\": \"C84\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C38\", \"ok\": true, \"problem\": \"amostra: o resumo nomeia 3 projetos (Aos Fatos, Lupa e Truco); 'não informado no resumo' perde essa informação\"},\n  {\"id\": \"C66\", \"ok\": true, \"problem\": \"amostra: o resumo nomeia 4 agências; 'não informado no resumo' perde essa informação\"},\n  {\"id\": \"C63\", \"ok\": true, \"problem\": \"\"}\n ],\n \"issues\": [\n  \"Em C07, C38 e C66 o campo de amostra diz 'não informado no resumo', mas o resumo nomeia as organizações estudadas (8 plataformas em C07, 3 projetos em C38, 4 agências em C66), enquanto em C02, C01, C39 e C41 a extração usou a descrição da amostra do resumo; o tratamento foi inconsistente.\",\n  \"Em C93 o campo de achado principal repete o objetivo do artigo, porque o resumo não apresenta resultado; o campo fica sem achado de fato.\",\n  \"Em C33 o resumo não relata resultado e a extração o reconhece, mas o campo de achado acabou descrevendo objetivo e referencial teórico em vez de um achado.\",\n  \"Em C63 o estudo é bibliográfico e documental com análise descritiva; o resumo não deixa claro que haja dados empíricos próprios além da análise documental, o que pode ficar frágil diante da restrição do pedido.\"\n ],\n \"feedback\": \"Nenhum item precisa ser refeito por erro que comprometa o resultado. Para a próxima rodada, padronize o campo de amostra: quando o resumo não der número mas nomear os casos, copie a descrição do resumo (por exemplo 'oito plataformas nomeadas no resumo: Chequeado, UYCheck, Maldita.es, Newtral, Fact Checking CL, Agência Lupa, Ecuador Chequea e ColombiaCheck' em C07) em vez de 'não informado no resumo'. Em C93 e C33, onde o resumo não traz resultado, indique explicitamente no campo de achado algo como 'o resumo não relata achado, apenas objetivo', para o pesquisador decidir se mantém o artigo. Em C63, verifique na próxima verificação mais profunda se a análise documental da Lupa caracteriza dado empírico próprio suficiente para a restrição do pedido.\"\n}",
+  "usage": {
+    "input_tokens": 9290,
+    "output_tokens": 3933,
+    "cost_usd": 0.00336
+  },
+  "duration_s": 75.66,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

@@ -1,0 +1,157 @@
+{
+  "structured": {
+    "approved": false,
+    "checked": [
+      "C58: estudo empírico com questionário (n=29) sobre rotinas, critérios e transparência de checadores brasileiros; atende aos critérios.",
+      "C28: 30 declarações oficiais analisadas e 7 entrevistas com representantes de cinco sites; IA e práticas da checagem no Brasil; atende.",
+      "C01: entrevistas em profundidade com quatro organizações, incluindo a brasileira Aletheia; uso de IA; comparativo internacional com organização brasileira; atende.",
+      "C19: análise de conteúdo de 318 posts de 15 checadoras, sendo 13 brasileiras; métodos e financiamento; atende.",
+      "C36: entrevistas com decisores de oito plataformas, incluindo a Agência Lupa (Brasil); padrões, valores e práticas; atende.",
+      "C81: desenho misto com análise de conteúdo de 11 organizações e 13.498 checagens mais 10 entrevistas; comparação Brasil-Alemanha; atende.",
+      "C02: análise de fontes e critérios de seleção de Aos Fatos e Agência Lupa; objeto e tema atendem; método não fica explícito no resumo, mas a análise das agências indica dados próprios.",
+      "C22: análise de conteúdo de 63 checagens (de 950) com ferramentas de transparência em Lupa e Aos Fatos; atende.",
+      "C26: análise documental/discurso dos textos de apresentação e métodos de cinco checadoras brasileiras ligadas a grupos de mídia; atende.",
+      "C41: coleta documental nos sites de cinco agências brasileiras (Lupa, Aos Fatos, E-farsas, UOL Confere, Estadão Verifica) sobre metodologias e etiquetas; atende.",
+      "C51: estudo de caso com análise das iniciativas de financiamento da Agência Lupa em 2020; atende.",
+      "C43: estudo comparado com análise de textos, incluindo a Agência Lupa; fontes e transparência; atende.",
+      "C05: análise de conteúdo de 136 artigos de verificação mais 13 entrevistas, com Brasil na amostra; práticas de checagem frente a desinformação por IA; atende.",
+      "C69: análise de discurso com corpus da seção Nosso Método do Aos Fatos; análise documental com dados próprios; atende.",
+      "C110: observação direta e análise das verificações de Lupa e Aos Fatos sobre conteúdo gerado por IA, com dados quantitativos de volume; atende.",
+      "C56: entrevistas semiestruturadas com checadores de quatro países, incluindo Aos Fatos (Brasil), sobre letramento midiático e estratégias publicadas nos sites; atende como prática das organizações.",
+      "C94: pesquisa com levantamento documental e análise descritiva das estratégias de fact-checking e media literacy da Agência Lupa; atende.",
+      "C45: levantamento documental nos sites das agências em abril e maio de 2022; é empírico com dados próprios, embora o método seja simples; atende.",
+      "C39: análise da prática de checagem do discurso político por Aos Fatos, Lupa e Truco, com resultados sobre etiquetagem e temas; centrado em discurso político, não em eleições; atende.",
+      "C74: o resumo não relata coleta ou análise de dados empíricos; a formulação 'objetivo analisar... a fim de promover uma reflexão' sugere ensaio teórico de economia política.",
+      "C115: o resumo analisa desinformação no TikTok em quatro países e não nomeia as agências entrevistadas nem confirma participação de organizações brasileiras; o foco é a plataforma, não as práticas das checadoras.",
+      "Quantidade: foram incluídos 22 artigos para um pedido de 25; entregar menos que o pedido é correto se os demais não atendem a todos os critérios."
+    ],
+    "per_item": [
+      {
+        "id": "C58",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C28",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C01",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C19",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C36",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C81",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C02",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C22",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C26",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C41",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C51",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C43",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C05",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C74",
+        "ok": false,
+        "problem": "C74: o resumo não sustenta que seja estudo empírico com dados próprios; parece ensaio teórico de economia política sobre a Lupa."
+      },
+      {
+        "id": "C69",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C110",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C56",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C94",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C45",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C39",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C115",
+        "ok": false,
+        "problem": "C115: o resumo não confirma organizações brasileiras de checagem na amostra e o foco é a desinformação no TikTok, não as práticas das agências."
+      },
+      {
+        "id": "C32",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [
+      "C74 (AGÊNCIA LUPA: FACT-CHECKING COMO MODELO DE NEGÓCIO NA INTERNET): o resumo não descreve coleta nem análise de dados próprios (sem entrevistas, questionário, análise de conteúdo ou documental explícita) e usa linguagem de ensaio ('promover uma reflexão'); não dá para confirmar o critério de estudo empírico.",
+      "C115 (Beyond challenges and viral dance moves...): o resumo indica análise de conteúdo de publicações de desinformação no TikTok e entrevistas com 'fact-checking agencies' sem identificar quais; não se confirma que organizações brasileiras estejam na amostra e o foco do estudo é a rede social, não as rotinas ou práticas das checadoras."
+    ],
+    "feedback": "Substitua ou remova dois artigos para corrigir os problemas: primeiro, C74 precisa de verificação de que o texto relata dados empíricos próprios (por exemplo, análise documental das checagens comercializadas ou contratos); se for ensaio teórico, retire e troque por outro artigo que atenda a todos os critérios. Segundo, C115 precisa de confirmação de que agências brasileiras de checagem estão na amostra e de que o foco do artigo inclui as práticas delas; se o resumo não sustentar isso, retire e troque. Não inclua artigos que não atendam a todos os critérios apenas para chegar a 25; entregar 20 artigos que atendem é correto. Mantenha em cada ficha o tipo de estudo e método e o tamanho da amostra exatamente como aparecem no resumo; em C02, por exemplo, registre que o método não está explícito no resumo, se for o caso."
+  },
+  "text": "{\n  \"approved\": false,\n  \"checked\": [\n    \"C58: estudo empírico com questionário (n=29) sobre rotinas, critérios e transparência de checadores brasileiros; atende aos critérios.\",\n    \"C28: 30 declarações oficiais analisadas e 7 entrevistas com representantes de cinco sites; IA e práticas da checagem no Brasil; atende.\",\n    \"C01: entrevistas em profundidade com quatro organizações, incluindo a brasileira Aletheia; uso de IA; comparativo internacional com organização brasileira; atende.\",\n    \"C19: análise de conteúdo de 318 posts de 15 checadoras, sendo 13 brasileiras; métodos e financiamento; atende.\",\n    \"C36: entrevistas com decisores de oito plataformas, incluindo a Agência Lupa (Brasil); padrões, valores e práticas; atende.\",\n    \"C81: desenho misto com análise de conteúdo de 11 organizações e 13.498 checagens mais 10 entrevistas; comparação Brasil-Alemanha; atende.\",\n    \"C02: análise de fontes e critérios de seleção de Aos Fatos e Agência Lupa; objeto e tema atendem; método não fica explícito no resumo, mas a análise das agências indica dados próprios.\",\n    \"C22: análise de conteúdo de 63 checagens (de 950) com ferramentas de transparência em Lupa e Aos Fatos; atende.\",\n    \"C26: análise documental/discurso dos textos de apresentação e métodos de cinco checadoras brasileiras ligadas a grupos de mídia; atende.\",\n    \"C41: coleta documental nos sites de cinco agências brasileiras (Lupa, Aos Fatos, E-farsas, UOL Confere, Estadão Verifica) sobre metodologias e etiquetas; atende.\",\n    \"C51: estudo de caso com análise das iniciativas de financiamento da Agência Lupa em 2020; atende.\",\n    \"C43: estudo comparado com análise de textos, incluindo a Agência Lupa; fontes e transparência; atende.\",\n    \"C05: análise de conteúdo de 136 artigos de verificação mais 13 entrevistas, com Brasil na amostra; práticas de checagem frente a desinformação por IA; atende.\",\n    \"C69: análise de discurso com corpus da seção Nosso Método do Aos Fatos; análise documental com dados próprios; atende.\",\n    \"C110: observação direta e análise das verificações de Lupa e Aos Fatos sobre conteúdo gerado por IA, com dados quantitativos de volume; atende.\",\n    \"C56: entrevistas semiestruturadas com checadores de quatro países, incluindo Aos Fatos (Brasil), sobre letramento midiático e estratégias publicadas nos sites; atende como prática das organizações.\",\n    \"C94: pesquisa com levantamento documental e análise descritiva das estratégias de fact-checking e media literacy da Agência Lupa; atende.\",\n    \"C45: levantamento documental nos sites das agências em abril e maio de 2022; é empírico com dados próprios, embora o método seja simples; atende.\",\n    \"C39: análise da prática de checagem do discurso político por Aos Fatos, Lupa e Truco, com resultados sobre etiquetagem e temas; centrado em discurso político, não em eleições; atende.\",\n    \"C74: o resumo não relata coleta ou análise de dados empíricos; a formulação 'objetivo analisar... a fim de promover uma reflexão' sugere ensaio teórico de economia política.\",\n    \"C115: o resumo analisa desinformação no TikTok em quatro países e não nomeia as agências entrevistadas nem confirma participação de organizações brasileiras; o foco é a plataforma, não as práticas das checadoras.\",\n    \"Quantidade: foram incluídos 22 artigos para um pedido de 25; entregar menos que o pedido é correto se os demais não atendem a todos os critérios.\"\n  ],\n  \"per_item\": [\n    { \"id\": \"C58\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C28\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C01\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C19\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C36\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C81\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C02\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C22\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C26\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C41\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C51\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C43\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C05\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C74\", \"ok\": false, \"problem\": \"C74: o resumo não sustenta que seja estudo empírico com dados próprios; parece ensaio teórico de economia política sobre a Lupa.\" },\n    { \"id\": \"C69\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C110\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C56\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C94\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C45\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C39\", \"ok\": true, \"problem\": \"\" },\n    { \"id\": \"C115\", \"ok\": false, \"problem\": \"C115: o resumo não confirma organizações brasileiras de checagem na amostra e o foco é a desinformação no TikTok, não as práticas das agências.\" },\n    { \"id\": \"C32\", \"ok\": true, \"problem\": \"\" }\n  ],\n  \"issues\": [\n    \"C74 (AGÊNCIA LUPA: FACT-CHECKING COMO MODELO DE NEGÓCIO NA INTERNET): o resumo não descreve coleta nem análise de dados próprios (sem entrevistas, questionário, análise de conteúdo ou documental explícita) e usa linguagem de ensaio ('promover uma reflexão'); não dá para confirmar o critério de estudo empírico.\",\n    \"C115 (Beyond challenges and viral dance moves...): o resumo indica análise de conteúdo de publicações de desinformação no TikTok e entrevistas com 'fact-checking agencies' sem identificar quais; não se confirma que organizações brasileiras estejam na amostra e o foco do estudo é a rede social, não as rotinas ou práticas das checadoras.\"\n  ],\n  \"feedback\": \"Substitua ou remova dois artigos para corrigir os problemas: primeiro, C74 precisa de verificação de que o texto relata dados empíricos próprios (por exemplo, análise documental das checagens comercializadas ou contratos); se for ensaio teórico, retire e troque por outro artigo que atenda a todos os critérios. Segundo, C115 precisa de confirmação de que agências brasileiras de checagem estão na amostra e de que o foco do artigo inclui as práticas delas; se o resumo não sustentar isso, retire e troque. Não inclua artigos que não atendam a todos os critérios apenas para chegar a 25; entregar 20 artigos que atendem é correto. Mantenha em cada ficha o tipo de estudo e método e o tamanho da amostra exatamente como aparecem no resumo; em C02, por exemplo, registre que o método não está explícito no resumo, se for o caso.\"\n}",
+  "usage": {
+    "input_tokens": 9130,
+    "output_tokens": 5147,
+    "cost_usd": 0.00394
+  },
+  "duration_s": 49.66,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

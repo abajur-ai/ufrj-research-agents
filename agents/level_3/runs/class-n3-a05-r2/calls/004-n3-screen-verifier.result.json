@@ -1,0 +1,147 @@
+{
+  "structured": {
+    "approved": false,
+    "checked": [
+      "C94 Fooled twice: resumo relata experimento pré-registrado com N=210 sobre detecção humana de deepfakes; atende tema, tipo empírico e recorte.",
+      "C71 PNAS: resumo relata dois estudos online com 15.016 participantes comparando detecção humana e por modelo; foco no desempenho humano, atende.",
+      "C25 Journal of Cybersecurity: survey online N=280 sobre detecção de rostos StyleGAN2; atende.",
+      "C55 Psychological Science: dois experimentos (N=124 e N=610) sobre julgamento de rostos de IA vs. humanos; atende.",
+      "C57 PLoS ONE: experimento com n=529 sobre detecção de deepfakes de fala; atende.",
+      "C07 Cognitive Research: experimentos sobre detecção humana de rostos gerados por IA; atende; amostra não aparece no resumo, o que é aceitável se relatado como não informado.",
+      "C02 Royal Society Open Science: experimentos com super-reconhecedores e controles (N=283 e N=381) sobre detecção de rostos sintéticos; atende.",
+      "C08 Applied Cognitive Psychology: dois experimentos com participantes julgando rostos sintéticos vs. reais; atende.",
+      "C43 Human Behavior and Emerging Technologies: estudo com 746 participantes sobre detecção de imagens de IA e vieses cognitivos; atende.",
+      "C58 AI & SOCIETY: experimento com 292 participantes sobre julgamento de autenticidade de imagens geradas por IA; atende.",
+      "C44 Scientific Reports: estudo com EEG (N=30) sobre processamento de rostos presumidos como deepfake; medidas fisiológicas, atende.",
+      "C97 Information Research: survey online com jovens adultos sobre desempenho e estratégias de identificação de deepfakes; atende; número de participantes não aparece no resumo.",
+      "C24 Journal of Cybersecurity and Privacy: resumo indica que humanos foram testados contra fala parcialmente falsa e foram enganados; foco parcial em humanos, aceitei com ressalva.",
+      "C28 Heliyon: experimento de survey sobre precisão percebida e intenção de compartilhamento de deepfakes em diferentes modalidades; atende.",
+      "C12 Jurnal Pekommas: survey com 199 respondentes sobre capacidade de identificar deepfakes; atende.",
+      "C41 Computers in Human Behavior Artificial Humans: experimento com 46 usuários sobre percepção e detecção de personas deepfake; atende.",
+      "C111 International Journal of Human-Computer Studies: experimento sobre percepção de credibilidade de personas deepfake; atende; amostra não aparece no resumo.",
+      "C119 Scientific Reports: avaliação subjetiva humana da autenticidade de imagens de IA sob compressão; atende; amostra não aparece no resumo.",
+      "C64 Novos Estudos Jurídicos: NÃO atende; detalhes em issues.",
+      "C123 Komunika Jurnal Ilmiah Komunikasi: NÃO atende; detalhes em issues.",
+      "Quantidade: 20 artigos incluídos para um pedido de 25; entregar menos é correto quando os demais não atendem."
+    ],
+    "per_item": [
+      {
+        "id": "C94",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C71",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C25",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C55",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C57",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C07",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C02",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C08",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C43",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C58",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C44",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C97",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C24",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C28",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C12",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C41",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C111",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C119",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C64",
+        "ok": false,
+        "problem": "O estudo é qualitativo, por entrevistas semiestruturadas com 8 magistrados sobre valoração de prova digital em violência doméstica. O pedido aceita apenas experimentos, testes de detecção, surveys ou medidas fisiológicas, e o recorte é jurídico, não a percepção, detecção ou avaliação de credibilidade de mídia sintética por participantes comuns."
+      },
+      {
+        "id": "C123",
+        "ok": false,
+        "problem": "O resumo lista quatro métodos de coleta de forma genérica sem identificar qual foi usado, não informa amostra nem participantes humanos, e o foco é o impacto no jornalismo e na credibilidade de notícias, não como pessoas percebem, detectam ou avaliam credibilidade de mídia sintética."
+      }
+    ],
+    "issues": [
+      "C64: o estudo é uma pesquisa jurídica qualitativa com entrevistas a 8 magistrados sobre prova digital em violência doméstica; entrevistas não estão entre os tipos de estudo aceitos pelo pedido (experimento, teste de detecção, survey ou medidas fisiológicas) e o recorte é de direito penal, fora do foco pedido.",
+      "C123: o resumo não permite identificar o método real (menciona surveys, entrevistas, experimentos de campo e observação de modo genérico), não informa amostra nem evidencia participantes humanos, violando o critério de que o resumo deve permitir identificar o método, e o foco é a credibilidade do jornalismo, não a percepção de mídia sintética pelas pessoas.",
+      "C24 (sugestão, não reprova): o resumo mistura humanos e máquinas sem detalhar a parte humana; ao reportar, deixe claro se o teste com participantes humanos está confirmado no texto."
+    ],
+    "feedback": "Remova C64 e C123 da lista de incluídos e entregue os 18 artigos restantes, que atendem a todos os critérios. Não substitua por artigos que não atendam apenas para chegar a 25. Para C24, C07, C97, C111 e C119, se o tamanho da amostra não estiver no resumo, registre exatamente 'não informado no resumo', conforme pedido."
+  },
+  "text": "{\"approved\": false, \"checked\": [\"C94 Fooled twice: resumo relata experimento pré-registrado com N=210 sobre detecção humana de deepfakes; atende tema, tipo empírico e recorte.\", \"C71 PNAS: resumo relata dois estudos online com 15.016 participantes comparando detecção humana e por modelo; foco no desempenho humano, atende.\", \"C25 Journal of Cybersecurity: survey online N=280 sobre detecção de rostos StyleGAN2; atende.\", \"C55 Psychological Science: dois experimentos (N=124 e N=610) sobre julgamento de rostos de IA vs. humanos; atende.\", \"C57 PLoS ONE: experimento com n=529 sobre detecção de deepfakes de fala; atende.\", \"C07 Cognitive Research: experimentos sobre detecção humana de rostos gerados por IA; atende; amostra não aparece no resumo, o que é aceitável se relatado como não informado.\", \"C02 Royal Society Open Science: experimentos com super-reconhecedores e controles (N=283 e N=381) sobre detecção de rostos sintéticos; atende.\", \"C08 Applied Cognitive Psychology: dois experimentos com participantes julgando rostos sintéticos vs. reais; atende.\", \"C43 Human Behavior and Emerging Technologies: estudo com 746 participantes sobre detecção de imagens de IA e vieses cognitivos; atende.\", \"C58 AI & SOCIETY: experimento com 292 participantes sobre julgamento de autenticidade de imagens geradas por IA; atende.\", \"C44 Scientific Reports: estudo com EEG (N=30) sobre processamento de rostos presumidos como deepfake; medidas fisiológicas, atende.\", \"C97 Information Research: survey online com jovens adultos sobre desempenho e estratégias de identificação de deepfakes; atende; número de participantes não aparece no resumo.\", \"C24 Journal of Cybersecurity and Privacy: resumo indica que humanos foram testados contra fala parcialmente falsa e foram enganados; foco parcial em humanos, aceitei com ressalva.\", \"C28 Heliyon: experimento de survey sobre precisão percebida e intenção de compartilhamento de deepfakes em diferentes modalidades; atende.\", \"C12 Jurnal Pekommas: survey com 199 respondentes sobre capacidade de identificar deepfakes; atende.\", \"C41 Computers in Human Behavior Artificial Humans: experimento com 46 usuários sobre percepção e detecção de personas deepfake; atende.\", \"C111 International Journal of Human-Computer Studies: experimento sobre percepção de credibilidade de personas deepfake; atende; amostra não aparece no resumo.\", \"C119 Scientific Reports: avaliação subjetiva humana da autenticidade de imagens de IA sob compressão; atende; amostra não aparece no resumo.\", \"C64 Novos Estudos Jurídicos: NÃO atende; detalhes em issues.\", \"C123 Komunika Jurnal Ilmiah Komunikasi: NÃO atende; detalhes em issues.\", \"Quantidade: 20 artigos incluídos para um pedido de 25; entregar menos é correto quando os demais não atendem.\"], \"per_item\": [{\"id\": \"C94\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C71\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C25\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C55\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C57\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C07\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C02\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C08\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C43\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C58\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C44\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C97\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C24\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C28\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C12\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C41\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C111\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C119\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C64\", \"ok\": false, \"problem\": \"O estudo é qualitativo, por entrevistas semiestruturadas com 8 magistrados sobre valoração de prova digital em violência doméstica. O pedido aceita apenas experimentos, testes de detecção, surveys ou medidas fisiológicas, e o recorte é jurídico, não a percepção, detecção ou avaliação de credibilidade de mídia sintética por participantes comuns.\"}, {\"id\": \"C123\", \"ok\": false, \"problem\": \"O resumo lista quatro métodos de coleta de forma genérica sem identificar qual foi usado, não informa amostra nem participantes humanos, e o foco é o impacto no jornalismo e na credibilidade de notícias, não como pessoas percebem, detectam ou avaliam credibilidade de mídia sintética.\"}], \"issues\": [\"C64: o estudo é uma pesquisa jurídica qualitativa com entrevistas a 8 magistrados sobre prova digital em violência doméstica; entrevistas não estão entre os tipos de estudo aceitos pelo pedido (experimento, teste de detecção, survey ou medidas fisiológicas) e o recorte é de direito penal, fora do foco pedido.\", \"C123: o resumo não permite identificar o método real (menciona surveys, entrevistas, experimentos de campo e observação de modo genérico), não informa amostra nem evidencia participantes humanos, violando o critério de que o resumo deve permitir identificar o método, e o foco é a credibilidade do jornalismo, não a percepção de mídia sintética pelas pessoas.\", \"C24 (sugestão, não reprova): o resumo mistura humanos e máquinas sem detalhar a parte humana; ao reportar, deixe claro se o teste com participantes humanos está confirmado no texto.\"], \"feedback\": \"Remova C64 e C123 da lista de incluídos e entregue os 18 artigos restantes, que atendem a todos os critérios. Não substitua por artigos que não atendam apenas para chegar a 25. Para C24, C07, C97, C111 e C119, se o tamanho da amostra não estiver no resumo, registre exatamente 'não informado no resumo', conforme pedido.\"}",
+  "usage": {
+    "input_tokens": 8019,
+    "output_tokens": 4902,
+    "cost_usd": 0.00365
+  },
+  "duration_s": 32.3,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

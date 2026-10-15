@@ -1,0 +1,326 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Abri 10.1016/j.isci.2021.103364 no Crossref: o título é 'Fooled twice: People cannot detect deepfakes but think they can', autores Köbis, Doležalová e Soraperra, iScience, 2021, journal-article.",
+      "Abri 10.1073/pnas.2120481119 no Crossref: título 'AI-synthesized faces are indistinguishable from real faces and more trustworthy', autores Nightingale e Farid, PNAS, 2022, e o resumo contém literalmente 'indistinguishable—and more trustworthy—than real faces'.",
+      "Abri 10.1177/09567976231207095 no Crossref: título 'AI Hyperrealism', seis autores conferem, Psychological Science, online 2023-11-13, e o resumo traz N = 124 no Experimento 1, N = 610 no Experimento 2 e a frase 'White AI faces are judged as human more often than actual human faces'.",
+      "Abri 10.1371/journal.pone.0285333 no Crossref: título sobre detecção de deepfakes de fala, autores Mai, Bray, Davies e Griffin, PLOS ONE, 2023, e o resumo traz 'n = 529 individuals' e 'Listeners only correctly spotted the deepfakes 73% of the time'.",
+      "Abri 10.1038/s41598-025-94170-3 no Crossref: título sobre clones de voz, autores Barrington, Cooper e Farid, Scientific Reports, 2025-03-31, e o resumo traz 'We find human participants cannot consistently identify recordings of AI-generated voices'.",
+      "Abri 10.1073/pnas.2110013119 no Crossref: título sobre detecção por multidões humanas e máquinas, autores Groh, Epstein, Firestone e Picard, PNAS, impresso 2022-01-05 e online 2021-12-28, journal-article, ano 2022 correto.",
+      "Abri 10.3390/brainsci13091233 no Crossref: título do estudo de EEG sobre faces reais e deepfake, autores Tarchi, Lanini, Frassineti e Lanatà, Brain Sciences, 2023-08-23, e o resumo traz '23 healthy participants' e 'ERP analysis hinted at the possibility of discriminating between real and synthetic faces'.",
+      "Abri 10.1016/j.visres.2022.108079 no Crossref: título sobre decodificação de rostos de IA, autores Moshel, Robinson, Carlson e Grootswagers, Vision Research, volume de 2022-10, journal-article.",
+      "Abri 10.1038/s42003-024-06372-6 no Crossref: título sobre rede córtico-estriatal e identidade de falante, autores Roswandowitz e colegas, Communications Biology, 2024-06-11, e o resumo traz '25 participants' e 'participants show intermediate performance with deepfake voices'.",
+      "Abri 10.1038/s41598-023-42802-x no Crossref: título sobre sorrisos deepfake, autores Eiserbeck, Maier, Baum e Abdel Rahman, Scientific Reports, 2023-09-26, e o resumo traz '(N = 30)' e 'Smiling faces marked as fake appeared less positive'.",
+      "Abri 10.1371/journal.pone.0332692 no Crossref: título sobre clones de voz, autores Lavan, Mairi Irvine (nome correto), Rosi e McGettigan, PLOS ONE, 2025-09-24, e o resumo contém 'voice clones can sound as real as human voices, making it difficult for listeners to distinguish between them'.",
+      "Abri 10.1098/rsos.250921 no Crossref: título sobre treino de super-reconhecedores, autores Gray, Davis, Carl Bunce (nome correto), Noyes e Ritchie, Royal Society Open Science, novembro de 2025, e o resumo traz 'SRs (total N = 283)', 'controls (total N = 381)' e a frase sobre SRs melhores que controles.",
+      "Abri 10.3390/e27080868 no Crossref: título sobre julgamentos de faces reais e falsas, autores Bruza, Aaron Lee e Pamela Hoyte (nomes corretos), Entropy, 2025-08-15, e o resumo traz 'nine trials demonstrated quantum-like contextuality' e descreve a tarefa com 'one real, one AI-generated'.",
+      "Abri 10.3389/frai.2025.1707336 no Crossref: título sobre percepção humana de imagens de IA, autores Malte Högemann, Jonas Betke e Thomas (nomes corretos), Frontiers in Artificial Intelligence, 2025-11-19, e o resumo traz 'A total of 104 participants' e '63.7% of cases overall'.",
+      "Abri 10.1016/j.actpsy.2024.104670 no Crossref: título sobre rostos atraentes julgados como reais, autores Makowski, An Shu Te, Ana Neves (nome correta), Kirk, Ngoi Zi Liang (nome correta), Mavros e Chen, Acta Psychologica, impresso 2025-02, journal-article.",
+      "Abri 10.3390/jimaging11070227 no Crossref: título sobre interpretação de imagens de IA versus humanas, autores Velásquez-Salamanca, Martín-Pascual e Andreu-Sánchez, Journal of Imaging, 2025-07-07, e o resumo traz '161 participants' e 'human-made images are perceived as both more realistic and more credible than AI-generated ones'.",
+      "Abri 10.1016/j.isci.2022.105441 no Crossref: título sobre o processamento social de faces artificiais, autores Raffaele Tucciarelli, Neza Vehar, Shamil Chandaria e Manos Tsakiris (todos corretos), iScience, volume de 2022-12, journal-article.",
+      "Abri 10.1089/cyber.2020.0149 no Crossref: título sobre priming de informação e deepfake recognition, autores Iacobucci, De Cicco, Michetti, Palumbo e Pagliaro, Cyberpsychology, Behavior, and Social Networking, 2021-03-01, journal-article.",
+      "Abri 10.1098/rsos.231214 no Crossref: título sobre detecção de deepfake com e sem avisos, autores Lewis, Vu, Duch e Chowdhury, Royal Society Open Science, novembro de 2023, e o resumo traz 'only 21.6% of respondents correctly identify the deepfake as the only inauthentic video'.",
+      "Abri 10.1016/j.chb.2023.107917 no Crossref: título sobre estratégias de detecção de deepfakes, autores Somoray e Miller, Computers in Human Behavior, impresso 2023-12, journal-article.",
+      "Abri 10.1093/cybsec/tyad011 no Crossref: título sobre detecção de imagens deepfake de faces, autores Bray, Johnson e Kleinberg, Journal of Cybersecurity, 2023, e o resumo traz 'participants (N = 280)' e 'Overall detection accuracy was only just above chance and none of the interventions significantly improved this'.",
+      "Abri 10.1016/j.tele.2023.102093 no Crossref: título sobre pensamento conspiratório e detecção de deepfakes, autores Nas e de Kleijn, Telematics and Informatics, volume 87, impresso 2024-03, journal-article, ano 2024 correto.",
+      "Abri 10.1016/j.chbah.2025.100143 no Crossref: título sobre percepção e avaliação social de vozes clonadas, autores Victor Rosi, Emma Soopramanien e Carolyn McGettigan, Computers in Human Behavior: Artificial Humans, impresso 2025-05, journal-article.",
+      "Abri 10.1186/s41235-025-00648-z no Crossref: título sobre dicas de alfabetização midiática para desinformação visual de IA, autores Guo, Swire-Thompson e Hu, Cognitive Research: Principles and Implications, 2025-07-03, e o resumo contém 'Both media literacy interventions reduced belief in AIVM compared to control' e 'but specific tips reduced belief in AIVM more than general tips'.",
+      "Abri 10.1038/s41598-023-39944-3 no Crossref: título sobre deepfakes e difusão de conhecimento científico, oito autores conferem, Scientific Reports, 2023-08-18, e o resumo traz 'We found that 27–50% of individuals cannot distinguish authentic videos from deepfakes'.",
+      "Conferi os critérios do pedido em cada candidato: todos são journal-article, publicados entre 2021 e 2025 (dentro da janela 2019 a 2025), relatam estudos empíricos com participantes humanos (experimentos, surveys, testes de detecção ou medidas fisiológicas como EEG) e tratam de percepção, detecção ou avaliação de credibilidade de mídia sintética.",
+      "Conferi as restrições de exclusão: nenhum candidato é centrado em algoritmo de detecção automática (nos casos com modelo, como Groh, o modelo é só comparador), em políticos, eleições ou propaganda política, ou em saúde; nos casos limítrofes anotados pelo executor (Eiserbeck, Makowski, Tucciarelli, Doss, Guo, Tarchi) a justificativa registrada é consistente com o que li nos resumos.",
+      "Conferi a contagem: a lista tem exatamente 25 candidatos e todos têm DOI, título, autores, ano, periódico, tipo de estudo, amostra, achado principal e trecho literal indicados."
+    ],
+    "feedback": "Lista aprovada para a etapa de extração, sem reprovação. Para a próxima etapa: (a) em Nas e Rosi, o trecho entregue é um fragmento curto do resumo, então recupere a frase completa do resumo e confirme o trecho literal que sustenta o achado principal; (b) em Iacobucci, o resumo não foi relido nesta rodada, então confirme o trecho literal diretamente na fonte na extração; (c) onde a amostra foi registrada como 'não informado no resumo' (Nightingale, Barrington, Moshel, Tucciarelli, Iacobucci, Lewis, Nas, Guo, Doss, Bruza, Högemann está informado, revise caso a caso), mantenha o registro fiel ao resumo e não misture número vindo do texto integral sem marcar a fonte; (d) mantenha junto de cada caso limítrofe a justificativa de por que não viola as restrições, pois facilita a auditoria; (e) em Groh e Nas, preserve a anotação da divergência entre data online e data do fascículo.",
+    "issues": [],
+    "per_item": [
+      {
+        "doi": "10.1016/j.isci.2021.103364",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1073/pnas.2120481119",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1177/09567976231207095",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1371/journal.pone.0285333",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1038/s41598-025-94170-3",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1073/pnas.2110013119",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3390/brainsci13091233",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1016/j.visres.2022.108079",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1038/s42003-024-06372-6",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1038/s41598-023-42802-x",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1371/journal.pone.0332692",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1098/rsos.250921",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3390/e27080868",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3389/frai.2025.1707336",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1016/j.actpsy.2024.104670",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3390/jimaging11070227",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1016/j.isci.2022.105441",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1089/cyber.2020.0149",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1098/rsos.231214",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1016/j.chb.2023.107917",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1093/cybsec/tyad011",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1016/j.tele.2023.102093",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1016/j.chbah.2025.100143",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1186/s41235-025-00648-z",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1038/s41598-023-39944-3",
+        "ok": true,
+        "problem": ""
+      }
+    ]
+  },
+  "text": "{\n \"approved\": true,\n \"checked\": [\n  \"Abri 10.1016/j.isci.2021.103364 no Crossref: o título é 'Fooled twice: People cannot detect deepfakes but think they can', autores Köbis, Doležalová e Soraperra, iScience, 2021, journal-article.\",\n  \"Abri 10.1073/pnas.2120481119 no Crossref: título 'AI-synthesized faces are indistinguishable from real faces and more trustworthy', autores Nightingale e Farid, PNAS, 2022, e o resumo contém literalmente 'indistinguishable—and more trustworthy—than real faces'.\",\n  \"Abri 10.1177/09567976231207095 no Crossref: título 'AI Hyperrealism', seis autores conferem, Psychological Science, online 2023-11-13, e o resumo traz N = 124 no Experimento 1, N = 610 no Experimento 2 e a frase 'White AI faces are judged as human more often than actual human faces'.\",\n  \"Abri 10.1371/journal.pone.0285333 no Crossref: título sobre detecção de deepfakes de fala, autores Mai, Bray, Davies e Griffin, PLOS ONE, 2023, e o resumo traz 'n = 529 individuals' e 'Listeners only correctly spotted the deepfakes 73% of the time'.\",\n  \"Abri 10.1038/s41598-025-94170-3 no Crossref: título sobre clones de voz, autores Barrington, Cooper e Farid, Scientific Reports, 2025-03-31, e o resumo traz 'We find human participants cannot consistently identify recordings of AI-generated voices'.\",\n  \"Abri 10.1073/pnas.2110013119 no Crossref: título sobre detecção por multidões humanas e máquinas, autores Groh, Epstein, Firestone e Picard, PNAS, impresso 2022-01-05 e online 2021-12-28, journal-article, ano 2022 correto.\",\n  \"Abri 10.3390/brainsci13091233 no Crossref: título do estudo de EEG sobre faces reais e deepfake, autores Tarchi, Lanini, Frassineti e Lanatà, Brain Sciences, 2023-08-23, e o resumo traz '23 healthy participants' e 'ERP analysis hinted at the possibility of discriminating between real and synthetic faces'.\",\n  \"Abri 10.1016/j.visres.2022.108079 no Crossref: título sobre decodificação de rostos de IA, autores Moshel, Robinson, Carlson e Grootswagers, Vision Research, volume de 2022-10, journal-article.\",\n  \"Abri 10.1038/s42003-024-06372-6 no Crossref: título sobre rede córtico-estriatal e identidade de falante, autores Roswandowitz e colegas, Communications Biology, 2024-06-11, e o resumo traz '25 participants' e 'participants show intermediate performance with deepfake voices'.\",\n  \"Abri 10.1038/s41598-023-42802-x no Crossref: título sobre sorrisos deepfake, autores Eiserbeck, Maier, Baum e Abdel Rahman, Scientific Reports, 2023-09-26, e o resumo traz '(N = 30)' e 'Smiling faces marked as fake appeared less positive'.\",\n  \"Abri 10.1371/journal.pone.0332692 no Crossref: título sobre clones de voz, autores Lavan, Mairi Irvine (nome correto), Rosi e McGettigan, PLOS ONE, 2025-09-24, e o resumo contém 'voice clones can sound as real as human voices, making it difficult for listeners to distinguish between them'.\",\n  \"Abri 10.1098/rsos.250921 no Crossref: título sobre treino de super-reconhecedores, autores Gray, Davis, Carl Bunce (nome correto), Noyes e Ritchie, Royal Society Open Science, novembro de 2025, e o resumo traz 'SRs (total N = 283)', 'controls (total N = 381)' e a frase sobre SRs melhores que controles.\",\n  \"Abri 10.3390/e27080868 no Crossref: título sobre julgamentos de faces reais e falsas, autores Bruza, Aaron Lee e Pamela Hoyte (nomes corretos), Entropy, 2025-08-15, e o resumo traz 'nine trials demonstrated quantum-like contextuality' e descreve a tarefa com 'one real, one AI-generated'.\",\n  \"Abri 10.3389/frai.2025.1707336 no Crossref: título sobre percepção humana de imagens de IA, autores Malte Högemann, Jonas Betke e Thomas (nomes corretos), Frontiers in Artificial Intelligence, 2025-11-19, e o resumo traz 'A total of 104 participants' e '63.7% of cases overall'.\",\n  \"Abri 10.1016/j.actpsy.2024.104670 no Crossref: título sobre rostos atraentes julgados como reais, autores Makowski, An Shu Te, Ana Neves (nome correta), Kirk, Ngoi Zi Liang (nome correta), Mavros e Chen, Acta Psychologica, impresso 2025-02, journal-article.\",\n  \"Abri 10.3390/jimaging11070227 no Crossref: título sobre interpretação de imagens de IA versus humanas, autores Velásquez-Salamanca, Martín-Pascual e Andreu-Sánchez, Journal of Imaging, 2025-07-07, e o resumo traz '161 participants' e 'human-made images are perceived as both more realistic and more credible than AI-generated ones'.\",\n  \"Abri 10.1016/j.isci.2022.105441 no Crossref: título sobre o processamento social de faces artificiais, autores Raffaele Tucciarelli, Neza Vehar, Shamil Chandaria e Manos Tsakiris (todos corretos), iScience, volume de 2022-12, journal-article.\",\n  \"Abri 10.1089/cyber.2020.0149 no Crossref: título sobre priming de informação e deepfake recognition, autores Iacobucci, De Cicco, Michetti, Palumbo e Pagliaro, Cyberpsychology, Behavior, and Social Networking, 2021-03-01, journal-article.\",\n  \"Abri 10.1098/rsos.231214 no Crossref: título sobre detecção de deepfake com e sem avisos, autores Lewis, Vu, Duch e Chowdhury, Royal Society Open Science, novembro de 2023, e o resumo traz 'only 21.6% of respondents correctly identify the deepfake as the only inauthentic video'.\",\n  \"Abri 10.1016/j.chb.2023.107917 no Crossref: título sobre estratégias de detecção de deepfakes, autores Somoray e Miller, Computers in Human Behavior, impresso 2023-12, journal-article.\",\n  \"Abri 10.1093/cybsec/tyad011 no Crossref: título sobre detecção de imagens deepfake de faces, autores Bray, Johnson e Kleinberg, Journal of Cybersecurity, 2023, e o resumo traz 'participants (N = 280)' e 'Overall detection accuracy was only just above chance and none of the interventions significantly improved this'.\",\n  \"Abri 10.1016/j.tele.2023.102093 no Crossref: título sobre pensamento conspiratório e detecção de deepfakes, autores Nas e de Kleijn, Telematics and Informatics, volume 87, impresso 2024-03, journal-article, ano 2024 correto.\",\n  \"Abri 10.1016/j.chbah.2025.100143 no Crossref: título sobre percepção e avaliação social de vozes clonadas, autores Victor Rosi, Emma Soopramanien e Carolyn McGettigan, Computers in Human Behavior: Artificial Humans, impresso 2025-05, journal-article.\",\n  \"Abri 10.1186/s41235-025-00648-z no Crossref: título sobre dicas de alfabetização midiática para desinformação visual de IA, autores Guo, Swire-Thompson e Hu, Cognitive Research: Principles and Implications, 2025-07-03, e o resumo contém 'Both media literacy interventions reduced belief in AIVM compared to control' e 'but specific tips reduced belief in AIVM more than general tips'.\",\n  \"Abri 10.1038/s41598-023-39944-3 no Crossref: título sobre deepfakes e difusão de conhecimento científico, oito autores conferem, Scientific Reports, 2023-08-18, e o resumo traz 'We found that 27–50% of individuals cannot distinguish authentic videos from deepfakes'.\",\n  \"Conferi os critérios do pedido em cada candidato: todos são journal-article, publicados entre 2021 e 2025 (dentro da janela 2019 a 2025), relatam estudos empíricos com participantes humanos (experimentos, surveys, testes de detecção ou medidas fisiológicas como EEG) e tratam de percepção, detecção ou avaliação de credibilidade de mídia sintética.\",\n  \"Conferi as restrições de exclusão: nenhum candidato é centrado em algoritmo de detecção automática (nos casos com modelo, como Groh, o modelo é só comparador), em políticos, eleições ou propaganda política, ou em saúde; nos casos limítrofes anotados pelo executor (Eiserbeck, Makowski, Tucciarelli, Doss, Guo, Tarchi) a justificativa registrada é consistente com o que li nos resumos.\",\n  \"Conferi a contagem: a lista tem exatamente 25 candidatos e todos têm DOI, título, autores, ano, periódico, tipo de estudo, amostra, achado principal e trecho literal indicados.\"\n ],\n \"feedback\": \"Lista aprovada para a etapa de extração, sem reprovação. Para a próxima etapa: (a) em Nas e Rosi, o trecho entregue é um fragmento curto do resumo, então recupere a frase completa do resumo e confirme o trecho literal que sustenta o achado principal; (b) em Iacobucci, o resumo não foi relido nesta rodada, então confirme o trecho literal diretamente na fonte na extração; (c) onde a amostra foi registrada como 'não informado no resumo' (Nightingale, Barrington, Moshel, Tucciarelli, Iacobucci, Lewis, Nas, Guo, Doss, Bruza, Högemann está informado, revise caso a caso), mantenha o registro fiel ao resumo e não misture número vindo do texto integral sem marcar a fonte; (d) mantenha junto de cada caso limítrofe a justificativa de por que não viola as restrições, pois facilita a auditoria; (e) em Groh e Nas, preserve a anotação da divergência entre data online e data do fascículo.\"\n ,\"issues\": []\n , \"per_item\": [\n  {\"doi\": \"10.1016/j.isci.2021.103364\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1073/pnas.2120481119\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1177/09567976231207095\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1371/journal.pone.0285333\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1038/s41598-025-94170-3\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1073/pnas.2110013119\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.3390/brainsci13091233\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1016/j.visres.2022.108079\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1038/s42003-024-06372-6\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1038/s41598-023-42802-x\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1371/journal.pone.0332692\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1098/rsos.250921\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.3390/e27080868\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.3389/frai.2025.1707336\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1016/j.actpsy.2024.104670\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.3390/jimaging11070227\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1016/j.isci.2022.105441\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1089/cyber.2020.0149\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1098/rsos.231214\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1016/j.chb.2023.107917\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1093/cybsec/tyad011\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1016/j.tele.2023.102093\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1016/j.chbah.2025.100143\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1186/s41235-025-00648-z\", \"ok\": true, \"problem\": \"\"},\n  {\"doi\": \"10.1038/s41598-023-39944-3\", \"ok\": true, \"problem\": \"\"}\n ]\n}",
+  "usage": {
+    "input_tokens": 341036,
+    "output_tokens": 10434,
+    "cost_usd": 0.01857
+  },
+  "duration_s": 127.79,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.3390/brainsci13091233"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.3390/e27080868"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1098/rsos.250921"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.3389/frai.2025.1707336"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1016/j.actpsy.2024.104670"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1016/j.isci.2021.103364"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1073/pnas.2120481119"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1177/09567976231207095"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1371/journal.pone.0285333"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1038/s41598-025-94170-3"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1073/pnas.2110013119"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1016/j.visres.2022.108079"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1038/s42003-024-06372-6"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1038/s41598-023-42802-x"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1371/journal.pone.0332692"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.3390/jimaging11070227"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1016/j.isci.2022.105441"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1089/cyber.2020.0149"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1098/rsos.231214"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1016/j.chb.2023.107917"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1093/cybsec/tyad011"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1016/j.tele.2023.102093"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1016/j.chbah.2025.100143"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1186/s41235-025-00648-z"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1038/s41598-023-39944-3"
+      }
+    }
+  ],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

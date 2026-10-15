@@ -1,0 +1,146 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "C58: resumo confirma questionário autogestionado com 29 respondentes; tipo de estudo, amostra, achado e citação literal batem com o resumo",
+      "C28: resumo confirma mapeamento, 30 declarações oficiais e 7 entrevistas semiestruturadas com representantes de 5 sites; extração fiel",
+      "C01: resumo confirma entrevistas em profundidade com representantes de 4 organizações (Polígrafo, Chequeado, Maldita e Aletheia, do Brasil); comparativo internacional com organização brasileira atende à restrição do pedido",
+      "C19: resumo confirma análise de conteúdo de 318 posts coletados em junho de 2019 em 15 veículos do Brasil e Portugal; achado e citação batem",
+      "C36: resumo confirma entrevistas em profundidade com gestores de 8 plataformas nomeadas, incluindo Agência Lupa; número de entrevistados realmente não aparece no resumo, e 'não informado' é adequado",
+      "C81: resumo confirma métodos mistos com análise de conteúdo de 11 organizações e 13.498 artigos (2013 a 2023) e entrevistas (N = 10); comparativo Brasil e Alemanha atende ao pedido",
+      "C02: resumo confirma análise de Aos Fatos e Agência Lupa sobre critérios de seleção e fontes oficiais; extração honesta ao dizer que o método não é detalhado no resumo",
+      "C22: resumo confirma análise de conteúdo com 63 checagens com ferramentas de transparência, menos de 7% de 950 checagens da Lupa e Aos Fatos em 2022; achado e citação batem",
+      "C26: resumo confirma análise discursiva de linha francesa dos textos de apresentação e métodos de 5 organizações ligadas a conglomerados de mídia; extração fiel",
+      "C41: resumo confirma coleta nos sites de 5 agências brasileiras (Lupa, Aos Fatos, E-farsas, Uol Confere e Estadão Verifica) em maio e junho de 2022; achado sobre etiquetas variadas bate com o resumo",
+      "C51: resumo confirma estudo de caso das estratégias de financiamento da Agência Lupa com análise das iniciativas de 2020; amostra não informada no resumo, e extração indica isso corretamente",
+      "C43: resumo confirma comparação de 4 agências (Lupa, Factcheck.org, Pagella Politica e Correctiv) com percentuais de uso de transparência ativa, sendo 63,5% no Brasil; achado e citação batem",
+      "C05: resumo confirma métodos mistos com análise de conteúdo de 136 artigos (2023 a 2024) e 13 entrevistas com especialistas, comparando Brasil, Alemanha e Reino Unido; achado e citação batem",
+      "C69: resumo confirma análise do discurso da linha francesa sobre recortes da seção Nosso Método do Aos Fatos; extração honesta ao registrar que o resumo não apresenta resultados",
+      "C110: resumo confirma métodos qualitativos (observação direta e análise das verificações da Lupa e Aos Fatos) e quantitativos (volume de verificações) sobre conteúdos falsos gerados com IA entre março de 2023 e março de 2024; amostra realmente não é informada no resumo",
+      "C56: resumo confirma entrevistas semiestruturadas com jornalistas de Chequeado, Colombiacheck, Fast Check CL e Aos Fatos, mais análise das estratégias publicadas nos sites; achado e citação batem",
+      "C94: resumo confirma pesquisa exploratória com levantamento bibliográfico e documental e análise descritiva das estratégias da Agência Lupa; achado e citação batem",
+      "C45: resumo confirma pesquisa qualitativa bibliográfica e exploratório-descritiva com levantamento nos sites das agências em abril e maio de 2022; achado e citação batem",
+      "C39: resumo confirma análise dos projetos Aos Fatos, Lupa e Truco sobre fiscalização do discurso político; achado sobre etiquetagem e temas nacionais bate com o resumo",
+      "C32: resumo confirma análise de materiais do Aos Fatos sobre a plataforma Jusbrasil quanto a recursos pedagógicos; extração honesta ao registrar que o resumo apresenta apenas o plano e não resultados"
+    ],
+    "per_item": [
+      {
+        "id": "C58",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C28",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C01",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C19",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C36",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C81",
+        "ok": true,
+        "problem": "amostra omite as entrevistas com checadores (N = 10), que fazem parte do desenho declarado no resumo"
+      },
+      {
+        "id": "C02",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C22",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C26",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C41",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C51",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C43",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C05",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C69",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C110",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C56",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C94",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C45",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C39",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C32",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [
+      "C81: a amostra registrada lista só 11 organizações e 13.498 artigos, deixando de fora as 10 entrevistas com checadores que o resumo declara no desenho de métodos mistos",
+      "C36: a amostra está como não informada, mas o resumo nomeia as 8 plataformas entrevistadas (Chequeado, UYCheck, Maldita.es, Newtral, Fact Checking, Agência Lupa, Ecuador Chequea e ColombiaCheck), o que permitiria uma descrição mais completa",
+      "C32: o resumo usa verbo no futuro ('analisará'), indicando texto de proposta ou plano de pesquisa, e a extração registra isso, mas vale sinalizar ao montar a lista final"
+    ],
+    "feedback": "Nenhuma correção obrigatória: os 20 itens estão fiéis aos resumos, com tipos de estudo, métodos, amostras, achados e citações literais conferidos um a um, e nenhuma restrição do pedido violada. Como melhoria, inclua na amostra de C81 o complemento das entrevistas (N = 10), pois o resumo declara entrevistas semiestruturadas com checadores além da análise de conteúdo; em C36, considere descrever a amostra pelas 8 plataformas nomeadas no resumo em vez de apenas 'não informado'; e, ao montar a lista final, verifique na página do artigo se C32 de fato relata resultados, já que o resumo descreve apenas o plano da pesquisa."
+  },
+  "text": "{\"approved\":true,\"checked\":[\"C58: resumo confirma questionário autogestionado com 29 respondentes; tipo de estudo, amostra, achado e citação literal batem com o resumo\",\"C28: resumo confirma mapeamento, 30 declarações oficiais e 7 entrevistas semiestruturadas com representantes de 5 sites; extração fiel\",\"C01: resumo confirma entrevistas em profundidade com representantes de 4 organizações (Polígrafo, Chequeado, Maldita e Aletheia, do Brasil); comparativo internacional com organização brasileira atende à restrição do pedido\",\"C19: resumo confirma análise de conteúdo de 318 posts coletados em junho de 2019 em 15 veículos do Brasil e Portugal; achado e citação batem\",\"C36: resumo confirma entrevistas em profundidade com gestores de 8 plataformas nomeadas, incluindo Agência Lupa; número de entrevistados realmente não aparece no resumo, e 'não informado' é adequado\",\"C81: resumo confirma métodos mistos com análise de conteúdo de 11 organizações e 13.498 artigos (2013 a 2023) e entrevistas (N = 10); comparativo Brasil e Alemanha atende ao pedido\",\"C02: resumo confirma análise de Aos Fatos e Agência Lupa sobre critérios de seleção e fontes oficiais; extração honesta ao dizer que o método não é detalhado no resumo\",\"C22: resumo confirma análise de conteúdo com 63 checagens com ferramentas de transparência, menos de 7% de 950 checagens da Lupa e Aos Fatos em 2022; achado e citação batem\",\"C26: resumo confirma análise discursiva de linha francesa dos textos de apresentação e métodos de 5 organizações ligadas a conglomerados de mídia; extração fiel\",\"C41: resumo confirma coleta nos sites de 5 agências brasileiras (Lupa, Aos Fatos, E-farsas, Uol Confere e Estadão Verifica) em maio e junho de 2022; achado sobre etiquetas variadas bate com o resumo\",\"C51: resumo confirma estudo de caso das estratégias de financiamento da Agência Lupa com análise das iniciativas de 2020; amostra não informada no resumo, e extração indica isso corretamente\",\"C43: resumo confirma comparação de 4 agências (Lupa, Factcheck.org, Pagella Politica e Correctiv) com percentuais de uso de transparência ativa, sendo 63,5% no Brasil; achado e citação batem\",\"C05: resumo confirma métodos mistos com análise de conteúdo de 136 artigos (2023 a 2024) e 13 entrevistas com especialistas, comparando Brasil, Alemanha e Reino Unido; achado e citação batem\",\"C69: resumo confirma análise do discurso da linha francesa sobre recortes da seção Nosso Método do Aos Fatos; extração honesta ao registrar que o resumo não apresenta resultados\",\"C110: resumo confirma métodos qualitativos (observação direta e análise das verificações da Lupa e Aos Fatos) e quantitativos (volume de verificações) sobre conteúdos falsos gerados com IA entre março de 2023 e março de 2024; amostra realmente não é informada no resumo\",\"C56: resumo confirma entrevistas semiestruturadas com jornalistas de Chequeado, Colombiacheck, Fast Check CL e Aos Fatos, mais análise das estratégias publicadas nos sites; achado e citação batem\",\"C94: resumo confirma pesquisa exploratória com levantamento bibliográfico e documental e análise descritiva das estratégias da Agência Lupa; achado e citação batem\",\"C45: resumo confirma pesquisa qualitativa bibliográfica e exploratório-descritiva com levantamento nos sites das agências em abril e maio de 2022; achado e citação batem\",\"C39: resumo confirma análise dos projetos Aos Fatos, Lupa e Truco sobre fiscalização do discurso político; achado sobre etiquetagem e temas nacionais bate com o resumo\",\"C32: resumo confirma análise de materiais do Aos Fatos sobre a plataforma Jusbrasil quanto a recursos pedagógicos; extração honesta ao registrar que o resumo apresenta apenas o plano e não resultados\"],\"per_item\":[{\"id\":\"C58\",\"ok\":true,\"problem\":\"\"},{\"id\":\"C28\",\"ok\":true,\"problem\": \"\"},{\"id\":\"C01\",\"ok\":true,\"problem\": \"\"},{\"id\":\"C19\",\"ok\":true,\"problem\": \"\"},{\"id\":\"C36\",\"ok\":true,\"problem\": \"\"},{\"id\":\"C81\",\"ok\":true,\"problem\":\"amostra omite as entrevistas com checadores (N = 10), que fazem parte do desenho declarado no resumo\"},{\"id\":\"C02\",\"ok\":true,\"problem\": \"\"},{\"id\":\"C22\",\"ok\":true,\"problem\": \"\"},{\"id\":\"C26\",\"ok\":true,\"problem\": \"\"},{\"id\":\"C41\",\"ok\":true,\"problem\": \"\"},{\"id\":\"C51\",\"ok\":true,\"problem\": \"\"},{\"id\":\"C43\",\"ok\":true,\"problem\": \"\"},{\"id\":\"C05\",\"ok\":true,\"problem\": \"\"},{\"id\":\"C69\",\"ok\":true,\"problem\": \"\"},{\"id\":\"C110\",\"ok\":true,\"problem\": \"\"},{\"id\":\"C56\",\"ok\":true,\"problem\": \"\"},{\"id\":\"C94\",\"ok\":true,\"problem\": \"\"},{\"id\":\"C45\",\"ok\":true,\"problem\": \"\"},{\"id\":\"C39\",\"ok\":true,\"problem\": \"\"},{\"id\":\"C32\",\"ok\":true,\"problem\": \"\"}],\"issues\":[\"C81: a amostra registrada lista só 11 organizações e 13.498 artigos, deixando de fora as 10 entrevistas com checadores que o resumo declara no desenho de métodos mistos\",\"C36: a amostra está como não informada, mas o resumo nomeia as 8 plataformas entrevistadas (Chequeado, UYCheck, Maldita.es, Newtral, Fact Checking, Agência Lupa, Ecuador Chequea e ColombiaCheck), o que permitiria uma descrição mais completa\",\"C32: o resumo usa verbo no futuro ('analisará'), indicando texto de proposta ou plano de pesquisa, e a extração registra isso, mas vale sinalizar ao montar a lista final\"],\"feedback\":\"Nenhuma correção obrigatória: os 20 itens estão fiéis aos resumos, com tipos de estudo, métodos, amostras, achados e citações literais conferidos um a um, e nenhuma restrição do pedido violada. Como melhoria, inclua na amostra de C81 o complemento das entrevistas (N = 10), pois o resumo declara entrevistas semiestruturadas com checadores além da análise de conteúdo; em C36, considere descrever a amostra pelas 8 plataformas nomeadas no resumo em vez de apenas 'não informado'; e, ao montar a lista final, verifique na página do artigo se C32 de fato relata resultados, já que o resumo descreve apenas o plano da pesquisa.\"}",
+  "usage": {
+    "input_tokens": 10781,
+    "output_tokens": 2469,
+    "cost_usd": 0.00285
+  },
+  "duration_s": 22.29,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

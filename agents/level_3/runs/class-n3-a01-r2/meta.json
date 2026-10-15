@@ -1,0 +1,23 @@
+{
+ "run_id": "class-n3-a01-r2",
+ "level": "n3",
+ "item": "a01",
+ "rep": 2,
+ "status": "done",
+ "wall_seconds": 545.9,
+ "calls": {
+  "executor:anthropic": 6,
+  "verifier:zhipu": 5
+ },
+ "tokens": {
+  "anthropic:input_tokens": 12,
+  "anthropic:output_tokens": 39775,
+  "anthropic:cache_read": 6258,
+  "anthropic:cache_write": 108521,
+  "zhipu:input_tokens": 43623,
+  "zhipu:output_tokens": 19468,
+  "zhipu:cache_read": 0,
+  "zhipu:cache_write": 0
+ },
+ "calls_total": 11
+}

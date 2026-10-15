@@ -1,0 +1,145 @@
+{
+  "structured": {
+    "approved": false,
+    "checked": [
+      "C02: o resumo relata análise das agências Lupa e Aos Fatos com achados próprios sobre critérios de seleção e fontes; atende aos critérios.",
+      "C36: o resumo relata 30 declarações oficiais e 7 entrevistas semiestruturadas sobre IA em checadores brasileiros; atende.",
+      "C01: o resumo relata entrevistas em profundidade com 4 organizações, incluindo a brasileira Aletheia; comparativo internacional com organização brasileira; atende.",
+      "C06: o resumo relata análise de conteúdo de 318 posts de 15 iniciativas lusófonas, 13 brasileiras, sobre métodos, fontes e financiamento; atende.",
+      "C07: o resumo relata entrevistas em profundidade com decisores de 8 plataformas, incluindo a Agência Lupa; atende.",
+      "C30: o resumo relata análise de conteúdo de 950 checagens de Lupa e Aos Fatos sobre ferramentas de transparência; o resumo não indica foco em eleições; atende.",
+      "C39: o resumo relata levantamento nos sites de 5 agências brasileiras (Lupa, Aos Fatos, E-farsas, UOL Confere, Estadão Verifica) sobre metodologias e etiquetas; atende.",
+      "C13: o resumo relata análise de conteúdo de 136 artigos e 13 entrevistas sobre práticas de checagem no Brasil, Alemanha e Reino Unido; atende.",
+      "C61: o resumo relata análise comparada de 4 agências, incluindo a Lupa, sobre uso de dados de transparência pública como fonte; atende.",
+      "C47: o resumo relata estudo de caso das estratégias de financiamento da Lupa, com análise das iniciativas de 2020; atende.",
+      "C41: o resumo relata estudo comparativo de Lupa e Chequeado sobre mercantilização e modelo de negócio, com resultados relatados; atende.",
+      "C93: o resumo relata estudo de casos múltiplos dos produtos automatizados de Lupa, Aos Fatos e Chequeado; atende.",
+      "C21: o resumo relata análise documental dos textos de apresentação e métodos de 5 checadoras brasileiras ligadas a grupos de mídia; atende.",
+      "C33: o resumo relata análise documental da seção 'Nosso Método' do Aos Fatos; atende.",
+      "C84: o resumo relata observação direta e análise das verificações de Lupa e Aos Fatos sobre conteúdos falsos gerados por IA; atende.",
+      "C38: o resumo relata análise das práticas de etiquetagem de Aos Fatos, Lupa e Truco no discurso político, sem foco em eleição ou governo específico; atende.",
+      "C66: o resumo relata entrevistas semiestruturadas com checadores, incluindo o Aos Fatos, sobre estratégias de educação midiática; atende de forma tangencial (ver feedback).",
+      "C63: o resumo relata levantamento documental das estratégias de fact-checking e media literacy da Agência Lupa; atende de forma tangencial (ver feedback).",
+      "C94: o resumo não relata método empírico nem dados próprios, apenas objetivo e referencial teórico.",
+      "C86: o resumo não nomeia as agências estudadas nem confirma que são brasileiras, e o foco declarado é a teoria de comunidades de prática."
+    ],
+    "per_item": [
+      {
+        "id": "C02",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C36",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C01",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C06",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C07",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C30",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C39",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C13",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C61",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C47",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C41",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C93",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C21",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C33",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C84",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C38",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C66",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C63",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C94",
+        "ok": false,
+        "problem": "O resumo não comprova estudo empírico com dados próprios; parece ensaio teórico, tipo excluído pelo pedido."
+      },
+      {
+        "id": "C86",
+        "ok": false,
+        "problem": "O resumo não confirma que as agências estudadas são brasileiras e o foco é teoria de comunidades de prática, não a prática das organizações."
+      }
+    ],
+    "issues": [
+      "C94: o resumo não indica nenhum método empírico nem dados próprios, descrevendo apenas o objetivo de 'analisar a mercantilização' com base na Economia Política do Jornalismo 'a fim de promover uma reflexão', o que indica ensaio teórico, categoria excluída pelo pedido.",
+      "C86: o resumo não diz quais agências foram estudadas nem que são brasileiras, então o critério de objeto não pode ser confirmado, e o foco do artigo é relacionar agências à teoria de comunidades virtuais de prática, não às rotinas, métodos, fontes, transparência, financiamento ou IA das organizações, como exigido."
+    ],
+    "feedback": "Remova o C94 e o C86 da lista de incluídos: no C94 o resumo não comprova estudo empírico com dados próprios e no C86 o resumo não confirma que as agências são brasileiras nem que o foco é a prática das organizações. Substitua-os por artigos que atendam a todos os critérios ou entregue menos que o pedido, o que é correto; não inclua artigos apenas para completar o número. Observação de melhoria: C66 e C63 foram aprovados porque envolvem prática de organizações brasileiras com dados empíricos, mas o foco em media literacy é tangencial à lista de focos do pedido (rotinas, métodos, critérios, fontes, transparência, financiamento, modelo de negócio, IA); na próxima busca, priorize artigos claramente alinhados a esses focos."
+  },
+  "text": "{\n  \"approved\": false,\n  \"checked\": [\n    \"C02: o resumo relata análise das agências Lupa e Aos Fatos com achados próprios sobre critérios de seleção e fontes; atende aos critérios.\",\n    \"C36: o resumo relata 30 declarações oficiais e 7 entrevistas semiestruturadas sobre IA em checadores brasileiros; atende.\",\n    \"C01: o resumo relata entrevistas em profundidade com 4 organizações, incluindo a brasileira Aletheia; comparativo internacional com organização brasileira; atende.\",\n    \"C06: o resumo relata análise de conteúdo de 318 posts de 15 iniciativas lusófonas, 13 brasileiras, sobre métodos, fontes e financiamento; atende.\",\n    \"C07: o resumo relata entrevistas em profundidade com decisores de 8 plataformas, incluindo a Agência Lupa; atende.\",\n    \"C30: o resumo relata análise de conteúdo de 950 checagens de Lupa e Aos Fatos sobre ferramentas de transparência; o resumo não indica foco em eleições; atende.\",\n    \"C39: o resumo relata levantamento nos sites de 5 agências brasileiras (Lupa, Aos Fatos, E-farsas, UOL Confere, Estadão Verifica) sobre metodologias e etiquetas; atende.\",\n    \"C13: o resumo relata análise de conteúdo de 136 artigos e 13 entrevistas sobre práticas de checagem no Brasil, Alemanha e Reino Unido; atende.\",\n    \"C61: o resumo relata análise comparada de 4 agências, incluindo a Lupa, sobre uso de dados de transparência pública como fonte; atende.\",\n    \"C47: o resumo relata estudo de caso das estratégias de financiamento da Lupa, com análise das iniciativas de 2020; atende.\",\n    \"C41: o resumo relata estudo comparativo de Lupa e Chequeado sobre mercantilização e modelo de negócio, com resultados relatados; atende.\",\n    \"C93: o resumo relata estudo de casos múltiplos dos produtos automatizados de Lupa, Aos Fatos e Chequeado; atende.\",\n    \"C21: o resumo relata análise documental dos textos de apresentação e métodos de 5 checadoras brasileiras ligadas a grupos de mídia; atende.\",\n    \"C33: o resumo relata análise documental da seção 'Nosso Método' do Aos Fatos; atende.\",\n    \"C84: o resumo relata observação direta e análise das verificações de Lupa e Aos Fatos sobre conteúdos falsos gerados por IA; atende.\",\n    \"C38: o resumo relata análise das práticas de etiquetagem de Aos Fatos, Lupa e Truco no discurso político, sem foco em eleição ou governo específico; atende.\",\n    \"C66: o resumo relata entrevistas semiestruturadas com checadores, incluindo o Aos Fatos, sobre estratégias de educação midiática; atende de forma tangencial (ver feedback).\",\n    \"C63: o resumo relata levantamento documental das estratégias de fact-checking e media literacy da Agência Lupa; atende de forma tangencial (ver feedback).\",\n    \"C94: o resumo não relata método empírico nem dados próprios, apenas objetivo e referencial teórico.\",\n    \"C86: o resumo não nomeia as agências estudadas nem confirma que são brasileiras, e o foco declarado é a teoria de comunidades de prática.\"\n  ],\n  \"per_item\": [\n    {\"id\": \"C02\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C36\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C01\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C06\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C07\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C30\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C39\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C13\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C61\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C47\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C41\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C93\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C21\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C33\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C84\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C38\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C66\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C63\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C94\", \"ok\": false, \"problem\": \"O resumo não comprova estudo empírico com dados próprios; parece ensaio teórico, tipo excluído pelo pedido.\"},\n    {\"id\": \"C86\", \"ok\": false, \"problem\": \"O resumo não confirma que as agências estudadas são brasileiras e o foco é teoria de comunidades de prática, não a prática das organizações.\"}\n  ],\n  \"issues\": [\n    \"C94: o resumo não indica nenhum método empírico nem dados próprios, descrevendo apenas o objetivo de 'analisar a mercantilização' com base na Economia Política do Jornalismo 'a fim de promover uma reflexão', o que indica ensaio teórico, categoria excluída pelo pedido.\",\n    \"C86: o resumo não diz quais agências foram estudadas nem que são brasileiras, então o critério de objeto não pode ser confirmado, e o foco do artigo é relacionar agências à teoria de comunidades virtuais de prática, não às rotinas, métodos, fontes, transparência, financiamento ou IA das organizações, como exigido.\"\n  ],\n  \"feedback\": \"Remova o C94 e o C86 da lista de incluídos: no C94 o resumo não comprova estudo empírico com dados próprios e no C86 o resumo não confirma que as agências são brasileiras nem que o foco é a prática das organizações. Substitua-os por artigos que atendam a todos os critérios ou entregue menos que o pedido, o que é correto; não inclua artigos apenas para completar o número. Observação de melhoria: C66 e C63 foram aprovados porque envolvem prática de organizações brasileiras com dados empíricos, mas o foco em media literacy é tangencial à lista de focos do pedido (rotinas, métodos, critérios, fontes, transparência, financiamento, modelo de negócio, IA); na próxima busca, priorize artigos claramente alinhados a esses focos.\"\n}",
+  "usage": {
+    "input_tokens": 8334,
+    "output_tokens": 5597,
+    "cost_usd": 0.00405
+  },
+  "duration_s": 27.0,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

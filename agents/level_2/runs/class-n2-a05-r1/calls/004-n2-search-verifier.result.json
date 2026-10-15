@@ -1,0 +1,391 @@
+{
+  "structured": {
+    "approved": false,
+    "checked": [
+      "Köbis et al. 2021: abri api.crossref.org/works/10.1016/j.isci.2021.103364: existe, journal-article, iScience vol. 24, 2021, título 'Fooled twice: People cannot detect deepfakes but think they can', autores Nils C. Köbis, Barbora Doležalová e Ivan Soraperra; título, autores, ano e periódico conferem",
+      "Nightingale & Farid 2022: abri api.crossref.org/works/10.1073/pnas.2120481119: existe, journal-article, PNAS 119(8), 2022, título e autores conferem; o resumo no Crossref traz o trecho com travessões ('indistinguishable—and more trustworthy—than real faces'), que o executor declarou espelhar como hifens",
+      "Miller et al. 2023: abri api.crossref.org/works/10.1177/09567976231207095: existe, journal-article, Psychological Science 34(12), 2023, título e seis autores conferem; o resumo no Crossref confirma 'White AI faces are judged as human more often than actual human faces', N = 124 e N = 610",
+      "Mai et al. 2023: abri api.crossref.org/works/10.1371/journal.pone.0285333: existe, journal-article, PLOS ONE 18(8), 2023, título e quatro autores conferem; o resumo confirma n = 529 e 'Listeners only correctly spotted the deepfakes 73% of the time'",
+      "Barrington, Cooper & Farid 2025: abri api.crossref.org/works/10.1038/s41598-025-94170-3: existe, journal-article, Scientific Reports 15, 2025, título e autores conferem; o resumo confirma 'We find human participants cannot consistently identify recordings of AI-generated voices' e não traz tamanho de amostra",
+      "Groh et al. 2022: abri api.crossref.org/works/10.1073/pnas.2110013119: existe, journal-article, PNAS 119(1), 2022, título e quatro autores conferem; o resumo confirma comparação entre observadores humanos e o modelo, com o humano como unidade central",
+      "Tarchi et al. 2023: abri api.crossref.org/works/10.3390/brainsci13091233: existe, journal-article, Brain Sciences 13(9), 2023, título e autores conferem; o resumo confirma 23 participantes saudáveis, EEG seco de 21 canais e 'ERP analysis hinted at the possibility of discriminating between real and synthetic faces'",
+      "Moshel et al. 2022: abri api.crossref.org/works/10.1016/j.visres.2022.108079: existe, journal-article, Vision Research vol. 199, 2022, título e quatro autores conferem; o Crossref não traz resumo, mas metadados e tema conferem",
+      "Roswandowitz et al. 2024: abri api.crossref.org/works/10.1038/s42003-024-06372-6: existe, journal-article, Communications Biology 7, 2024, título e cinco autores conferem; o resumo confirma 25 participantes e 'participants show intermediate performance with deepfake voices, indicating levels of deception and resistance to deepfake identity spoofing'",
+      "Eiserbeck et al. 2023: abri api.crossref.org/works/10.1038/s41598-023-42802-x: existe, journal-article, Scientific Reports 13, 2023, título e autores conferem; o resumo confirma N = 30 e 'Smiling faces marked as fake appeared less positive, as reflected in expression ratings, and induced slower evaluations'",
+      "Lavan et al. 2025: abri api.crossref.org/works/10.1371/journal.pone.0332692 e journals.plos.org: existe, journal-article, PLOS ONE 20(9), 2025; o Crossref lista 'Mairi Irvine' como segunda autora, e a página da PLOS confirma 'Lavan N, Irvine M, Rosi V, McGettigan C (2025)'; o resumo confirma 'We find that voice clones can sound as real as human voices, making it difficult for listeners to distinguish between them'",
+      "Gray et al. 2025: abri api.crossref.org/works/10.1098/rsos.250921 e a busca na web (Royal Society, White Rose, PMC, PDF de Reading): existe, journal-article, Royal Society Open Science 12(11), 2025, título e N = 283 e N = 381 conferem, mas o terceiro autor é 'Carl Bunce' em todas as fontes, não 'Charlotte Bunce'",
+      "Bruza et al. 2025: abri api.crossref.org/works/10.3390/e27080868 e a busca na web (MDPI, PMC, Cambridge): existe, journal-article, Entropy 27(8), 2025, título e resumo conferem ('nine trials demonstrated quantum-like contextuality'), mas os autores são Peter Bruza, Aaron Lee e Pamela Hoyte em todas as fontes, não 'Alexandra Lee' e 'Patrick Hoyte'",
+      "Högemann et al. 2025: abri api.crossref.org/works/10.3389/frai.2025.1707336 e frontiersin.org: existe, journal-article, Frontiers in Artificial Intelligence vol. 8, 2025, título, resumo, 104 participantes e trecho 'participants correctly identified AI-generated images in 63.7% of cases overall' conferem, mas os autores são Malte Högemann e Jonas Betke em ambas as fontes, não 'Merlin Högemann' e 'Jan Betke'",
+      "Makowski et al. 2025: abri api.crossref.org/works/10.1016/j.actpsy.2024.104670 e Europa PMC: existe, journal-article, Acta Psychologica 252, 2025, título, resumo, 150 participantes e trecho 'with faces rated as more attractive being classified as more real' conferem, mas o Crossref e o PubMed listam 'Ana Neves' e 'Ngoi Zi Liang', não 'Aurélie Neves' e 'Nuoyi Zoe Liang'",
+      "Velásquez-Salamanca et al. 2025: abri api.crossref.org/works/10.3390/jimaging11070227: existe, journal-article, Journal of Imaging 11(7), 2025, título, três autores, 161 participantes e trecho 'human-made images are perceived as both more realistic and more credible than AI-generated ones' conferem",
+      "Iacobucci et al. 2021: abri api.crossref.org/works/10.1089/cyber.2020.0149: existe, journal-article, Cyberpsychology, Behavior, and Social Networking 24(3), 2021, título e cinco autores conferem",
+      "Lewis et al. 2023: abri api.crossref.org/works/10.1098/rsos.231214: existe, journal-article, Royal Society Open Science 10(11), 2023, título e autores conferem; o resumo confirma 'only 21.6% of respondents correctly identify the deepfake as the only inauthentic video' e conteúdo de vídeo neutro",
+      "Somoray & Miller 2023, Bray et al. 2023, Nas & de Kleijn 2024, Rosi et al. 2025, Guo et al. 2025 e Doss et al. 2023: os sete DOI restantes não puderam ser abertos nesta rodada por limite de consultas; os metadados declarados são plausíveis, mas fiquei sem conferência independente deles nesta tentativa",
+      "A estratégia declarada de fontes de resumo (Europa PMC, repositórios institucionais, OUP e Semantic Scholar) é legítima e as ressalvas sobre casos limítrofes (Eiserbeck, Makowski, Bruza, Tucciarelli, Doss, Iacobucci, Guo, Groh) estão bem anotadas e não violam as exclusões do pedido"
+    ],
+    "feedback": "Corrija os cinco autores errados e reenvie a lista: em Högemann et al. troque 'Merlin Högemann' por Malte Högemann e 'Jan Betke' por Jonas Betke (Crossref e página da Frontiers); em Bruza et al. troque 'Alexandra Lee' por Aaron Lee e 'Patrick Hoyte' por Pamela Hoyte (Crossref, MDPI e PMC); em Makowski et al. troque 'Aurélie Neves' por Ana Neves e 'Nuoyi Zoe Liang' por Ngoi Zi Liang (Crossref e PubMed); em Gray et al. troque 'Charlotte Bunce' por Carl Bunce (Crossref, Royal Society e PMC); em Lavan et al. troque 'Michael Irvine' por Mairi Irvine (Crossref e página da PLOS). Revise também dois pontos menores antes da extração: em Nightingale & Farid use o travessão original do trecho ('indistinguishable—and more trustworthy—than real faces') em vez dos hifens, e em Groh et al. confirme se '15,016 participants' aparece no resumo ou só no texto integral, e registre 'não informado no resumo' se for o caso. Mantenha as demais entradas e as notas de exclusão como estão.",
+    "issues": [
+      "Högemann et al. (10.3389/frai.2025.1707336): os dois primeiros nomes dos autores estão errados; o Crossref e a página da Frontiers indicam Malte Högemann e Jonas Betke, e a lista entregou Merlin Högemann e Jan Betke",
+      "Bruza et al. (10.3390/e27080868): dois autores estão errados; todas as fontes (Crossref, MDPI, PMC) indicam Aaron Lee e Pamela Hoyte, e a lista entregou Alexandra Lee e Patrick Hoyte",
+      "Makowski et al. (10.1016/j.actpsy.2024.104670): dois autores estão errados; o Crossref e o PubMed indicam Ana Neves e Ngoi Zi Liang, e a lista entregou Aurélie Neves e Nuoyi Zoe Liang",
+      "Gray et al. (10.1098/rsos.250921): o terceiro autor está errado; o Crossref, o site da Royal Society e o PMC indicam Carl Bunce, e a lista entregou Charlotte Bunce",
+      "Lavan et al. (10.1371/journal.pone.0332692): o segundo autor está errado; o Crossref e a página da PLOS indicam Mairi Irvine, e a lista entregou Michael Irvine",
+      "Sete candidatos (Somoray 10.1016/j.chb.2023.107917, Bray 10.1093/cybsec/tyad011, Nas 10.1016/j.tele.2023.102093, Rosi 10.1016/j.chbah.2025.100143, Guo 10.1186/s41235-025-00648-z, Doss 10.1038/s41598-023-39944-3 e Tucciarelli 10.1016/j.isci.2022.105441) não receberam conferência independente de metadados nesta rodada do verificador, por limite de consultas; a reprovação não se baseia neles, mas eles precisam de conferência antes da extração"
+    ],
+    "per_item": [
+      {
+        "doi": "10.1016/j.isci.2021.103364",
+        "ok": true,
+        "problem": "Nenhum"
+      },
+      {
+        "doi": "10.1073/pnas.2120481119",
+        "ok": true,
+        "problem": "Nenhum; apenas usar os travessões originais no trecho literal na extração"
+      },
+      {
+        "doi": "10.1177/09567976231207095",
+        "ok": true,
+        "problem": "Nenhum"
+      },
+      {
+        "doi": "10.1371/journal.pone.0285333",
+        "ok": true,
+        "problem": "Nenhum"
+      },
+      {
+        "doi": "10.1038/s41598-025-94170-3",
+        "ok": true,
+        "problem": "Nenhum"
+      },
+      {
+        "doi": "10.1073/pnas.2110013119",
+        "ok": true,
+        "problem": "Nenhum; confirmar na extração se 15,016 consta no resumo"
+      },
+      {
+        "doi": "10.3390/brainsci13091233",
+        "ok": true,
+        "problem": "Nenhum"
+      },
+      {
+        "doi": "10.1016/j.visres.2022.108079",
+        "ok": true,
+        "problem": "Nenhum"
+      },
+      {
+        "doi": "10.1038/s42003-024-06372-6",
+        "ok": true,
+        "problem": "Nenhum"
+      },
+      {
+        "doi": "10.1038/s41598-023-42802-x",
+        "ok": true,
+        "problem": "Nenhum; caso limítrofe aceito, rostos reais rotulados como falsos"
+      },
+      {
+        "doi": "10.1371/journal.pone.0332692",
+        "ok": false,
+        "problem": "Autora errada: a segunda autora é Mairi Irvine, não Michael Irvine"
+      },
+      {
+        "doi": "10.1098/rsos.250921",
+        "ok": false,
+        "problem": "Autor errado: o terceiro autor é Carl Bunce, não Charlotte Bunce"
+      },
+      {
+        "doi": "10.3390/e27080868",
+        "ok": false,
+        "problem": "Autores errados: Aaron Lee e Pamela Hoyte, não Alexandra Lee e Patrick Hoyte"
+      },
+      {
+        "doi": "10.3389/frai.2025.1707336",
+        "ok": false,
+        "problem": "Autores errados: Malte Högemann e Jonas Betke, não Merlin Högemann e Jan Betke"
+      },
+      {
+        "doi": "10.1016/j.actpsy.2024.104670",
+        "ok": false,
+        "problem": "Autores errados: Ana Neves e Ngoi Zi Liang, não Aurélie Neves e Nuoyi Zoe Liang"
+      },
+      {
+        "doi": "10.3390/jimaging11070227",
+        "ok": true,
+        "problem": "Nenhum"
+      },
+      {
+        "doi": "10.1016/j.isci.2022.105441",
+        "ok": true,
+        "problem": "Nenhum constatado; caso limítrofe aceito, propaganda política citada só como exemplo"
+      },
+      {
+        "doi": "10.1089/cyber.2020.0149",
+        "ok": true,
+        "problem": "Nenhum constatado; resumo não verificado palavra a palavra nesta rodada"
+      },
+      {
+        "doi": "10.1098/rsos.231214",
+        "ok": true,
+        "problem": "Nenhum"
+      },
+      {
+        "doi": "10.1016/j.chb.2023.107917",
+        "ok": true,
+        "problem": "Nenhum constatado; metadados plausíveis, conferência independente pendente nesta rodada"
+      },
+      {
+        "doi": "10.1093/cybsec/tyad011",
+        "ok": true,
+        "problem": "Nenhum constatado; metadados plausíveis, conferência independente pendente nesta rodada"
+      },
+      {
+        "doi": "10.1016/j.tele.2023.102093",
+        "ok": true,
+        "problem": "Nenhum constatado; metadados plausíveis, conferência independente pendente nesta rodada"
+      },
+      {
+        "doi": "10.1016/j.chbah.2025.100143",
+        "ok": true,
+        "problem": "Nenhum constatado; metadados plausíveis, conferência independente pendente nesta rodada"
+      },
+      {
+        "doi": "10.1186/s41235-025-00648-z",
+        "ok": true,
+        "problem": "Nenhum constatado; metadados plausíveis, conferência independente pendente nesta rodada"
+      },
+      {
+        "doi": "10.1038/s41598-023-39944-3",
+        "ok": true,
+        "problem": "Nenhum constatado; caso limítrofe aceito, âncora em desinformação científica sobre clima"
+      }
+    ]
+  },
+  "text": "{\"approved\": false, \"checked\": [\"Köbis et al. 2021: abri api.crossref.org/works/10.1016/j.isci.2021.103364: existe, journal-article, iScience vol. 24, 2021, título 'Fooled twice: People cannot detect deepfakes but think they can', autores Nils C. Köbis, Barbora Doležalová e Ivan Soraperra; título, autores, ano e periódico conferem\", \"Nightingale & Farid 2022: abri api.crossref.org/works/10.1073/pnas.2120481119: existe, journal-article, PNAS 119(8), 2022, título e autores conferem; o resumo no Crossref traz o trecho com travessões ('indistinguishable—and more trustworthy—than real faces'), que o executor declarou espelhar como hifens\", \"Miller et al. 2023: abri api.crossref.org/works/10.1177/09567976231207095: existe, journal-article, Psychological Science 34(12), 2023, título e seis autores conferem; o resumo no Crossref confirma 'White AI faces are judged as human more often than actual human faces', N = 124 e N = 610\", \"Mai et al. 2023: abri api.crossref.org/works/10.1371/journal.pone.0285333: existe, journal-article, PLOS ONE 18(8), 2023, título e quatro autores conferem; o resumo confirma n = 529 e 'Listeners only correctly spotted the deepfakes 73% of the time'\", \"Barrington, Cooper & Farid 2025: abri api.crossref.org/works/10.1038/s41598-025-94170-3: existe, journal-article, Scientific Reports 15, 2025, título e autores conferem; o resumo confirma 'We find human participants cannot consistently identify recordings of AI-generated voices' e não traz tamanho de amostra\", \"Groh et al. 2022: abri api.crossref.org/works/10.1073/pnas.2110013119: existe, journal-article, PNAS 119(1), 2022, título e quatro autores conferem; o resumo confirma comparação entre observadores humanos e o modelo, com o humano como unidade central\", \"Tarchi et al. 2023: abri api.crossref.org/works/10.3390/brainsci13091233: existe, journal-article, Brain Sciences 13(9), 2023, título e autores conferem; o resumo confirma 23 participantes saudáveis, EEG seco de 21 canais e 'ERP analysis hinted at the possibility of discriminating between real and synthetic faces'\", \"Moshel et al. 2022: abri api.crossref.org/works/10.1016/j.visres.2022.108079: existe, journal-article, Vision Research vol. 199, 2022, título e quatro autores conferem; o Crossref não traz resumo, mas metadados e tema conferem\", \"Roswandowitz et al. 2024: abri api.crossref.org/works/10.1038/s42003-024-06372-6: existe, journal-article, Communications Biology 7, 2024, título e cinco autores conferem; o resumo confirma 25 participantes e 'participants show intermediate performance with deepfake voices, indicating levels of deception and resistance to deepfake identity spoofing'\", \"Eiserbeck et al. 2023: abri api.crossref.org/works/10.1038/s41598-023-42802-x: existe, journal-article, Scientific Reports 13, 2023, título e autores conferem; o resumo confirma N = 30 e 'Smiling faces marked as fake appeared less positive, as reflected in expression ratings, and induced slower evaluations'\", \"Lavan et al. 2025: abri api.crossref.org/works/10.1371/journal.pone.0332692 e journals.plos.org: existe, journal-article, PLOS ONE 20(9), 2025; o Crossref lista 'Mairi Irvine' como segunda autora, e a página da PLOS confirma 'Lavan N, Irvine M, Rosi V, McGettigan C (2025)'; o resumo confirma 'We find that voice clones can sound as real as human voices, making it difficult for listeners to distinguish between them'\", \"Gray et al. 2025: abri api.crossref.org/works/10.1098/rsos.250921 e a busca na web (Royal Society, White Rose, PMC, PDF de Reading): existe, journal-article, Royal Society Open Science 12(11), 2025, título e N = 283 e N = 381 conferem, mas o terceiro autor é 'Carl Bunce' em todas as fontes, não 'Charlotte Bunce'\", \"Bruza et al. 2025: abri api.crossref.org/works/10.3390/e27080868 e a busca na web (MDPI, PMC, Cambridge): existe, journal-article, Entropy 27(8), 2025, título e resumo conferem ('nine trials demonstrated quantum-like contextuality'), mas os autores são Peter Bruza, Aaron Lee e Pamela Hoyte em todas as fontes, não 'Alexandra Lee' e 'Patrick Hoyte'\", \"Högemann et al. 2025: abri api.crossref.org/works/10.3389/frai.2025.1707336 e frontiersin.org: existe, journal-article, Frontiers in Artificial Intelligence vol. 8, 2025, título, resumo, 104 participantes e trecho 'participants correctly identified AI-generated images in 63.7% of cases overall' conferem, mas os autores são Malte Högemann e Jonas Betke em ambas as fontes, não 'Merlin Högemann' e 'Jan Betke'\", \"Makowski et al. 2025: abri api.crossref.org/works/10.1016/j.actpsy.2024.104670 e Europa PMC: existe, journal-article, Acta Psychologica 252, 2025, título, resumo, 150 participantes e trecho 'with faces rated as more attractive being classified as more real' conferem, mas o Crossref e o PubMed listam 'Ana Neves' e 'Ngoi Zi Liang', não 'Aurélie Neves' e 'Nuoyi Zoe Liang'\", \"Velásquez-Salamanca et al. 2025: abri api.crossref.org/works/10.3390/jimaging11070227: existe, journal-article, Journal of Imaging 11(7), 2025, título, três autores, 161 participantes e trecho 'human-made images are perceived as both more realistic and more credible than AI-generated ones' conferem\", \"Iacobucci et al. 2021: abri api.crossref.org/works/10.1089/cyber.2020.0149: existe, journal-article, Cyberpsychology, Behavior, and Social Networking 24(3), 2021, título e cinco autores conferem\", \"Lewis et al. 2023: abri api.crossref.org/works/10.1098/rsos.231214: existe, journal-article, Royal Society Open Science 10(11), 2023, título e autores conferem; o resumo confirma 'only 21.6% of respondents correctly identify the deepfake as the only inauthentic video' e conteúdo de vídeo neutro\", \"Somoray & Miller 2023, Bray et al. 2023, Nas & de Kleijn 2024, Rosi et al. 2025, Guo et al. 2025 e Doss et al. 2023: os sete DOI restantes não puderam ser abertos nesta rodada por limite de consultas; os metadados declarados são plausíveis, mas fiquei sem conferência independente deles nesta tentativa\", \"A estratégia declarada de fontes de resumo (Europa PMC, repositórios institucionais, OUP e Semantic Scholar) é legítima e as ressalvas sobre casos limítrofes (Eiserbeck, Makowski, Bruza, Tucciarelli, Doss, Iacobucci, Guo, Groh) estão bem anotadas e não violam as exclusões do pedido\"], \"feedback\": \"Corrija os cinco autores errados e reenvie a lista: em Högemann et al. troque 'Merlin Högemann' por Malte Högemann e 'Jan Betke' por Jonas Betke (Crossref e página da Frontiers); em Bruza et al. troque 'Alexandra Lee' por Aaron Lee e 'Patrick Hoyte' por Pamela Hoyte (Crossref, MDPI e PMC); em Makowski et al. troque 'Aurélie Neves' por Ana Neves e 'Nuoyi Zoe Liang' por Ngoi Zi Liang (Crossref e PubMed); em Gray et al. troque 'Charlotte Bunce' por Carl Bunce (Crossref, Royal Society e PMC); em Lavan et al. troque 'Michael Irvine' por Mairi Irvine (Crossref e página da PLOS). Revise também dois pontos menores antes da extração: em Nightingale & Farid use o travessão original do trecho ('indistinguishable—and more trustworthy—than real faces') em vez dos hifens, e em Groh et al. confirme se '15,016 participants' aparece no resumo ou só no texto integral, e registre 'não informado no resumo' se for o caso. Mantenha as demais entradas e as notas de exclusão como estão.\" , \"issues\": [\"Högemann et al. (10.3389/frai.2025.1707336): os dois primeiros nomes dos autores estão errados; o Crossref e a página da Frontiers indicam Malte Högemann e Jonas Betke, e a lista entregou Merlin Högemann e Jan Betke\", \"Bruza et al. (10.3390/e27080868): dois autores estão errados; todas as fontes (Crossref, MDPI, PMC) indicam Aaron Lee e Pamela Hoyte, e a lista entregou Alexandra Lee e Patrick Hoyte\", \"Makowski et al. (10.1016/j.actpsy.2024.104670): dois autores estão errados; o Crossref e o PubMed indicam Ana Neves e Ngoi Zi Liang, e a lista entregou Aurélie Neves e Nuoyi Zoe Liang\", \"Gray et al. (10.1098/rsos.250921): o terceiro autor está errado; o Crossref, o site da Royal Society e o PMC indicam Carl Bunce, e a lista entregou Charlotte Bunce\", \"Lavan et al. (10.1371/journal.pone.0332692): o segundo autor está errado; o Crossref e a página da PLOS indicam Mairi Irvine, e a lista entregou Michael Irvine\", \"Sete candidatos (Somoray 10.1016/j.chb.2023.107917, Bray 10.1093/cybsec/tyad011, Nas 10.1016/j.tele.2023.102093, Rosi 10.1016/j.chbah.2025.100143, Guo 10.1186/s41235-025-00648-z, Doss 10.1038/s41598-023-39944-3 e Tucciarelli 10.1016/j.isci.2022.105441) não receberam conferência independente de metadados nesta rodada do verificador, por limite de consultas; a reprovação não se baseia neles, mas eles precisam de conferência antes da extração\"], \"per_item\": [{\"doi\": \"10.1016/j.isci.2021.103364\", \"ok\": true, \"problem\": \"Nenhum\"}, {\"doi\": \"10.1073/pnas.2120481119\", \"ok\": true, \"problem\": \"Nenhum; apenas usar os travessões originais no trecho literal na extração\"}, {\"doi\": \"10.1177/09567976231207095\", \"ok\": true, \"problem\": \"Nenhum\"}, {\"doi\": \"10.1371/journal.pone.0285333\", \"ok\": true, \"problem\": \"Nenhum\"}, {\"doi\": \"10.1038/s41598-025-94170-3\", \"ok\": true, \"problem\": \"Nenhum\"}, {\"doi\": \"10.1073/pnas.2110013119\", \"ok\": true, \"problem\": \"Nenhum; confirmar na extração se 15,016 consta no resumo\"}, {\"doi\": \"10.3390/brainsci13091233\", \"ok\": true, \"problem\": \"Nenhum\"}, {\"doi\": \"10.1016/j.visres.2022.108079\", \"ok\": true, \"problem\": \"Nenhum\"}, {\"doi\": \"10.1038/s42003-024-06372-6\", \"ok\": true, \"problem\": \"Nenhum\"}, {\"doi\": \"10.1038/s41598-023-42802-x\", \"ok\": true, \"problem\": \"Nenhum; caso limítrofe aceito, rostos reais rotulados como falsos\"}, {\"doi\": \"10.1371/journal.pone.0332692\", \"ok\": false, \"problem\": \"Autora errada: a segunda autora é Mairi Irvine, não Michael Irvine\"}, {\"doi\": \"10.1098/rsos.250921\", \"ok\": false, \"problem\": \"Autor errado: o terceiro autor é Carl Bunce, não Charlotte Bunce\"}, {\"doi\": \"10.3390/e27080868\", \"ok\": false, \"problem\": \"Autores errados: Aaron Lee e Pamela Hoyte, não Alexandra Lee e Patrick Hoyte\"}, {\"doi\": \"10.3389/frai.2025.1707336\", \"ok\": false, \"problem\": \"Autores errados: Malte Högemann e Jonas Betke, não Merlin Högemann e Jan Betke\"}, {\"doi\": \"10.1016/j.actpsy.2024.104670\", \"ok\": false, \"problem\": \"Autores errados: Ana Neves e Ngoi Zi Liang, não Aurélie Neves e Nuoyi Zoe Liang\"}, {\"doi\": \"10.3390/jimaging11070227\", \"ok\": true, \"problem\": \"Nenhum\"}, {\"doi\": \"10.1016/j.isci.2022.105441\", \"ok\": true, \"problem\": \"Nenhum constatado; caso limítrofe aceito, propaganda política citada só como exemplo\"}, {\"doi\": \"10.1089/cyber.2020.0149\", \"ok\": true, \"problem\": \"Nenhum constatado; resumo não verificado palavra a palavra nesta rodada\"}, {\"doi\": \"10.1098/rsos.231214\", \"ok\": true, \"problem\": \"Nenhum\"}, {\"doi\": \"10.1016/j.chb.2023.107917\", \"ok\": true, \"problem\": \"Nenhum constatado; metadados plausíveis, conferência independente pendente nesta rodada\"}, {\"doi\": \"10.1093/cybsec/tyad011\", \"ok\": true, \"problem\": \"Nenhum constatado; metadados plausíveis, conferência independente pendente nesta rodada\"}, {\"doi\": \"10.1016/j.tele.2023.102093\", \"ok\": true, \"problem\": \"Nenhum constatado; metadados plausíveis, conferência independente pendente nesta rodada\"}, {\"doi\": \"10.1016/j.chbah.2025.100143\", \"ok\": true, \"problem\": \"Nenhum constatado; metadados plausíveis, conferência independente pendente nesta rodada\"}, {\"doi\": \"10.1186/s41235-025-00648-z\", \"ok\": true, \"problem\": \"Nenhum constatado; metadados plausíveis, conferência independente pendente nesta rodada\"}, {\"doi\": \"10.1038/s41598-023-39944-3\", \"ok\": true, \"problem\": \"Nenhum constatado; caso limítrofe aceito, âncora em desinformação científica sobre clima\"}]}",
+  "usage": {
+    "input_tokens": 480614,
+    "output_tokens": 11270,
+    "cost_usd": 0.02265
+  },
+  "duration_s": 93.01,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1016/j.isci.2021.103364?select=title,author,container-title,issued,type"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1073/pnas.2120481119?select=title,author,container-title,issued,type"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1177/09567976231207095?select=title,author,container-title,issued,type"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1371/journal.pone.0285333?select=title,author,container-title,issued,type"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1038/s41598-025-94170-3?select=title,author,container-title,issued,type"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1073/pnas.2110013119?select=title,author,container-title,issued,type"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.3390/brainsci13091233?select=title,author,container-title,issued,type"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1016/j.visres.2022.108079?select=title,author,container-title,issued,type"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1016/j.isci.2021.103364"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1073/pnas.2120481119"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1177/09567976231207095"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1371/journal.pone.0285333"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1038/s41598-025-94170-3"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1073/pnas.2110013119"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.3390/brainsci13091233"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1016/j.visres.2022.108079"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1038/s42003-024-06372-6"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1038/s41598-023-42802-x"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1371/journal.pone.0332692"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1098/rsos.250921"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.3390/e27080868"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.3389/frai.2025.1707336"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1016/j.actpsy.2024.104670"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.3390/jimaging11070227"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1707336/full"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.mdpi.com/1099-4300/27/8/868"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:10.1016/j.actpsy.2024.104670&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://royalsocietypublishing.org/doi/10.1098/rsos.250921"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Are Human Judgments of Real and Fake Faces Quantum-like Contextual\" Entropy MDPI authors"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Training human super-recognizers' detection and discrimination of AI-generated faces\" Royal Society Open Science authors Bunce"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12386047"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0332692"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "PubMed \"Are Human Judgments of Real and Fake Faces Quantum-like Contextual\" Bruza"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1089/cyber.2020.0149"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.liebertpub.com/doi/10.1089/cyber.2020.0149"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1098/rsos.231214"
+      }
+    }
+  ],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

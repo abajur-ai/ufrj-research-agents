@@ -1,0 +1,152 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "O resumo informa desenho pré-pós com N = 15,000 e a extração repete o mesmo número",
+      "A citação literal consta no resumo",
+      "O achado (melhora na detecção e resistência, independentemente de escolaridade, idade, ideologia e estilo cognitivo) corresponde ao resumo"
+    ],
+    "per_item": [
+      {
+        "id": "C01",
+        "ok": true,
+        "problem": "nenhum; extração fiel ao resumo, citação literal confere"
+      },
+      {
+        "id": "C12",
+        "ok": true,
+        "problem": "nenhum; N = 196, desenho misto 2x2 e achado com aumento de confiança batem com o resumo; citação literal confere"
+      },
+      {
+        "id": "C08",
+        "ok": true,
+        "problem": "nenhum; total n = 2188, dois experimentos e achado com proteção cruzada de efeito menor batem com o resumo; citação literal confere"
+      },
+      {
+        "id": "C09",
+        "ok": true,
+        "problem": "nenhum; amostra corretamente marcada como não informada no resumo; os quatro países citados constam no resumo; citação literal confere"
+      },
+      {
+        "id": "C21",
+        "ok": true,
+        "problem": "nenhum; total N = 2,159, dois estudos com Solomon; citação literal confere; sugestão: mencionar no achado que o jogo não tornou as pessoas mais céticas com notícias reais"
+      },
+      {
+        "id": "C33",
+        "ok": false,
+        "problem": "amostra incompleta: o resumo informa seis amostras (N1 = 191, N2 = 321, N3 = 559, N4 = 2,558, N5 = 419, N6 = 882) e a extração lista só N1 e N2, violando o pedido de tamanho da amostra exatamente como aparece no resumo"
+      },
+      {
+        "id": "C38",
+        "ok": true,
+        "problem": "nenhum; 516 alunos suecos e achado de melhora no discernimento batem com o resumo; citação literal confere"
+      },
+      {
+        "id": "C03",
+        "ok": true,
+        "problem": "nenhum na fidelidade; amostra corretamente marcada como não informada; citação literal confere; observação: o resumo fala em desinformação política e o pesquisador pode querer revisar a elegibilidade contra a exclusão de estudos centrados em política partidária"
+      },
+      {
+        "id": "C65",
+        "ok": true,
+        "problem": "nenhum; N = 380, replicação conceitual de Cat Park, achado inclui ausência de ganho de confiança; citação literal confere"
+      },
+      {
+        "id": "C06",
+        "ok": true,
+        "problem": "nenhum; ECR com 180 participantes chineses e achado comparando jogo versus gráfico batem com o resumo; citação literal confere"
+      },
+      {
+        "id": "C05",
+        "ok": true,
+        "problem": "nenhum; amostra n = 84 e n = 30 exatamente como no resumo; citação literal confere"
+      },
+      {
+        "id": "C43",
+        "ok": true,
+        "problem": "nenhum; n = 1002, desenho intra-sujeitos; a citação é um recorte literal válido do trecho que também menciona Impersonation e Discrediting; sugestão: incluir Impersonation no trecho para dar contexto completo"
+      },
+      {
+        "id": "C14",
+        "ok": true,
+        "problem": "nenhum; n = 757 e achado de ausência de efeito significativo batem com o resumo; citação literal confere"
+      },
+      {
+        "id": "C07",
+        "ok": true,
+        "problem": "nenhum; N = 150, pré-registrado, contrabalanceamento; citação literal confere; sugestão: o resumo distingue o resultado geral do resultado na condição que copiou Iyengar et al. e o achado pode mencionar o viés de resposta conservador"
+      },
+      {
+        "id": "C42",
+        "ok": true,
+        "problem": "nenhum; quatro replicações, amostra corretamente marcada como não informada; citação literal confere"
+      },
+      {
+        "id": "C103",
+        "ok": true,
+        "problem": "nenhum; 282 usuários do Prolific como no resumo; citação literal confere"
+      },
+      {
+        "id": "C30",
+        "ok": true,
+        "problem": "nenhum; amostra corretamente marcada como não informada; citação literal confere; observação: envolve fontes políticas de ingroup e outgroup e o pesquisador pode querer revisar a elegibilidade contra a exclusão de política partidária"
+      },
+      {
+        "id": "C13",
+        "ok": true,
+        "problem": "nenhum; n = 111 como no resumo; citação literal confere; sugestão: o resumo também informa a discussão em classe com n = 35, que pode ser acrescentada à amostra"
+      },
+      {
+        "id": "C23",
+        "ok": true,
+        "problem": "nenhum; 351 participantes, estudo de campo randomizado com pré e pós-teste; citação literal confere; sugestão: completar a citação com o trecho sobre melhorar a capacidade de reconhecer e resistir à desinformação"
+      },
+      {
+        "id": "C28",
+        "ok": true,
+        "problem": "nenhum; 27 estudantes como no resumo; a citação em alemão é literal e sustenta o achado; sugestão: traduzir o termo da amostra para português"
+      },
+      {
+        "id": "C75",
+        "ok": true,
+        "problem": "nenhum; 28 estudantes, pré e pós-teste, quatro objetivos de aprendizagem; citação literal confere"
+      },
+      {
+        "id": "C32",
+        "ok": true,
+        "problem": "nenhum; 45 futuros professores e o achado inclui a ausência de melhora no discernimento, como o resumo; citação literal confere"
+      },
+      {
+        "id": "C92",
+        "ok": true,
+        "problem": "nenhum; 95 participantes, jogo de tabuleiro não digital, grupo único pré-pós; citação literal confere"
+      },
+      {
+        "id": "C67",
+        "ok": true,
+        "problem": "nenhum; N = 47, intra-sujeitos, métodos mistos; citação literal confere"
+      },
+      {
+        "id": "C69",
+        "ok": true,
+        "problem": "nenhum; N1 = 503 e N2 = 673 como no resumo; citação literal confere; observação: o estudo combina intervenção em vídeo e em jogo e o pesquisador pode confirmar se a condição gamificada atende ao critério de exclusão de intervenções não lúdicas isoladas"
+      }
+    ],
+    "issues": [
+      "C33: a extração lista só N1 = 191 e N2 = 321, mas o resumo informa seis amostras (N3 = 559, N4 = 2,558, N5 = 419, N6 = 882), e o pedido exige o tamanho da amostra exatamente como aparece no resumo"
+    ],
+    "feedback": "Na próxima tentativa, corrija apenas C33: complete o campo de tamanho da amostra com todas as seis amostras informadas no resumo (N1 = 191, N2 = 321, N3 = 559, N4 = 2,558, N5 = 419, N6 = 882). Para os demais itens, sugerências opcionais sem reprovacao: em C21, C07 e C13, enriquecer o achado ou a amostra com detalhes já presentes no resumo; em C28, traduzir o termo da amostra; e o pesquisador pode revisar separadamente a elegibilidade de C03 e C30 por envolverem desinformação política."
+  },
+  "text": "{\"approved\": true, \"checked\": [\"O resumo informa desenho pré-pós com N = 15,000 e a extração repete o mesmo número\", \"A citação literal consta no resumo\", \"O achado (melhora na detecção e resistência, independentemente de escolaridade, idade, ideologia e estilo cognitivo) corresponde ao resumo\"], \"per_item\": [\n{\"id\": \"C01\", \"ok\": true, \"problem\": \"nenhum; extração fiel ao resumo, citação literal confere\"},\n{\"id\": \"C12\", \"ok\": true, \"problem\": \"nenhum; N = 196, desenho misto 2x2 e achado com aumento de confiança batem com o resumo; citação literal confere\"},\n{\"id\": \"C08\", \"ok\": true, \"problem\": \"nenhum; total n = 2188, dois experimentos e achado com proteção cruzada de efeito menor batem com o resumo; citação literal confere\"},\n{\"id\": \"C09\", \"ok\": true, \"problem\": \"nenhum; amostra corretamente marcada como não informada no resumo; os quatro países citados constam no resumo; citação literal confere\"},\n{\"id\": \"C21\", \"ok\": true, \"problem\": \"nenhum; total N = 2,159, dois estudos com Solomon; citação literal confere; sugestão: mencionar no achado que o jogo não tornou as pessoas mais céticas com notícias reais\"},\n{\"id\": \"C33\", \"ok\": false, \"problem\": \"amostra incompleta: o resumo informa seis amostras (N1 = 191, N2 = 321, N3 = 559, N4 = 2,558, N5 = 419, N6 = 882) e a extração lista só N1 e N2, violando o pedido de tamanho da amostra exatamente como aparece no resumo\"},\n{\"id\": \"C38\", \"ok\": true, \"problem\": \"nenhum; 516 alunos suecos e achado de melhora no discernimento batem com o resumo; citação literal confere\"},\n{\"id\": \"C03\", \"ok\": true, \"problem\": \"nenhum na fidelidade; amostra corretamente marcada como não informada; citação literal confere; observação: o resumo fala em desinformação política e o pesquisador pode querer revisar a elegibilidade contra a exclusão de estudos centrados em política partidária\"},\n{\"id\": \"C65\", \"ok\": true, \"problem\": \"nenhum; N = 380, replicação conceitual de Cat Park, achado inclui ausência de ganho de confiança; citação literal confere\"},\n{\"id\": \"C06\", \"ok\": true, \"problem\": \"nenhum; ECR com 180 participantes chineses e achado comparando jogo versus gráfico batem com o resumo; citação literal confere\"},\n{\"id\": \"C05\", \"ok\": true, \"problem\": \"nenhum; amostra n = 84 e n = 30 exatamente como no resumo; citação literal confere\"},\n{\"id\": \"C43\", \"ok\": true, \"problem\": \"nenhum; n = 1002, desenho intra-sujeitos; a citação é um recorte literal válido do trecho que também menciona Impersonation e Discrediting; sugestão: incluir Impersonation no trecho para dar contexto completo\"},\n{\"id\": \"C14\", \"ok\": true, \"problem\": \"nenhum; n = 757 e achado de ausência de efeito significativo batem com o resumo; citação literal confere\"},\n{\"id\": \"C07\", \"ok\": true, \"problem\": \"nenhum; N = 150, pré-registrado, contrabalanceamento; citação literal confere; sugestão: o resumo distingue o resultado geral do resultado na condição que copiou Iyengar et al. e o achado pode mencionar o viés de resposta conservador\"},\n{\"id\": \"C42\", \"ok\": true, \"problem\": \"nenhum; quatro replicações, amostra corretamente marcada como não informada; citação literal confere\"},\n{\"id\": \"C103\", \"ok\": true, \"problem\": \"nenhum; 282 usuários do Prolific como no resumo; citação literal confere\"},\n{\"id\": \"C30\", \"ok\": true, \"problem\": \"nenhum; amostra corretamente marcada como não informada; citação literal confere; observação: envolve fontes políticas de ingroup e outgroup e o pesquisador pode querer revisar a elegibilidade contra a exclusão de política partidária\"},\n{\"id\": \"C13\", \"ok\": true, \"problem\": \"nenhum; n = 111 como no resumo; citação literal confere; sugestão: o resumo também informa a discussão em classe com n = 35, que pode ser acrescentada à amostra\"},\n{\"id\": \"C23\", \"ok\": true, \"problem\": \"nenhum; 351 participantes, estudo de campo randomizado com pré e pós-teste; citação literal confere; sugestão: completar a citação com o trecho sobre melhorar a capacidade de reconhecer e resistir à desinformação\"},\n{\"id\": \"C28\", \"ok\": true, \"problem\": \"nenhum; 27 estudantes como no resumo; a citação em alemão é literal e sustenta o achado; sugestão: traduzir o termo da amostra para português\"},\n{\"id\": \"C75\", \"ok\": true, \"problem\": \"nenhum; 28 estudantes, pré e pós-teste, quatro objetivos de aprendizagem; citação literal confere\"},\n{\"id\": \"C32\", \"ok\": true, \"problem\": \"nenhum; 45 futuros professores e o achado inclui a ausência de melhora no discernimento, como o resumo; citação literal confere\"},\n{\"id\": \"C92\", \"ok\": true, \"problem\": \"nenhum; 95 participantes, jogo de tabuleiro não digital, grupo único pré-pós; citação literal confere\"},\n{\"id\": \"C67\", \"ok\": true, \"problem\": \"nenhum; N = 47, intra-sujeitos, métodos mistos; citação literal confere\"},\n{\"id\": \"C69\", \"ok\": true, \"problem\": \"nenhum; N1 = 503 e N2 = 673 como no resumo; citação literal confere; observação: o estudo combina intervenção em vídeo e em jogo e o pesquisador pode confirmar se a condição gamificada atende ao critério de exclusão de intervenções não lúdicas isoladas\"}], \"issues\": [\"C33: a extração lista só N1 = 191 e N2 = 321, mas o resumo informa seis amostras (N3 = 559, N4 = 2,558, N5 = 419, N6 = 882), e o pedido exige o tamanho da amostra exatamente como aparece no resumo\"], \"feedback\": \"Na próxima tentativa, corrija apenas C33: complete o campo de tamanho da amostra com todas as seis amostras informadas no resumo (N1 = 191, N2 = 321, N3 = 559, N4 = 2,558, N5 = 419, N6 = 882). Para os demais itens, sugerências opcionais sem reprovacao: em C21, C07 e C13, enriquecer o achado ou a amostra com detalhes já presentes no resumo; em C28, traduzir o termo da amostra; e o pesquisador pode revisar separadamente a elegibilidade de C03 e C30 por envolverem desinformação política.\"}",
+  "usage": {
+    "input_tokens": 11060,
+    "output_tokens": 4436,
+    "cost_usd": 0.00384
+  },
+  "duration_s": 44.94,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

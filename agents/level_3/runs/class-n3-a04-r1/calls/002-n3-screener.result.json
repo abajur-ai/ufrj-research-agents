@@ -1,0 +1,706 @@
+{
+  "structured": {
+    "decisions": [
+      {
+        "id": "C01",
+        "include": true,
+        "reason": "Jogo Bad News avaliado em desenho pré e pós com N = 15.000."
+      },
+      {
+        "id": "C02",
+        "include": false,
+        "reason": "Revisão narrativa, sem dados próprios."
+      },
+      {
+        "id": "C03",
+        "include": true,
+        "reason": "Jogo Harmony Square de inoculação, avaliado com participantes. O resumo não informa a amostra."
+      },
+      {
+        "id": "C04",
+        "include": false,
+        "reason": "A intervenção são vídeos, não jogo."
+      },
+      {
+        "id": "C05",
+        "include": true,
+        "reason": "Jogo contra fake news testado em estudantes (n = 84 e n = 30), com comparação entre quem jogou e quem não jogou."
+      },
+      {
+        "id": "C06",
+        "include": true,
+        "reason": "Ensaio randomizado com jogo de inoculação, N = 180."
+      },
+      {
+        "id": "C07",
+        "include": true,
+        "reason": "Estudo pré-registrado com dados novos (N = 150) sobre o Bad News. Não é reanálise."
+      },
+      {
+        "id": "C08",
+        "include": true,
+        "reason": "Dois experimentos com o jogo Bad News, n total = 2188."
+      },
+      {
+        "id": "C09",
+        "include": true,
+        "reason": "Bad News testado em quatro países. O resumo não informa a amostra."
+      },
+      {
+        "id": "C10",
+        "include": false,
+        "reason": "Revisão da literatura."
+      },
+      {
+        "id": "C11",
+        "include": false,
+        "reason": "Foca em política brasileira e no discurso de extrema-direita (governo Bolsonaro). Isso cai na exclusão por política partidária. O resumo também está truncado."
+      },
+      {
+        "id": "C12",
+        "include": true,
+        "reason": "Bad News com grupo controle em desenho 2×2, N = 196."
+      },
+      {
+        "id": "C13",
+        "include": true,
+        "reason": "Jogo sério de verificação de notícias avaliado em estudo de campo randomizado, n = 111."
+      },
+      {
+        "id": "C14",
+        "include": true,
+        "reason": "Ensaio randomizado de jogo de inoculação na Índia, n = 757. O resultado foi nulo, mas o estudo atende aos critérios."
+      },
+      {
+        "id": "C15",
+        "include": false,
+        "reason": "O resumo não descreve um jogo. Trata de uma inoculação por emoção-falácia."
+      },
+      {
+        "id": "C16",
+        "include": false,
+        "reason": "Não é jogo. Avalia avisos e intervenções de alfabetização midiática."
+      },
+      {
+        "id": "C17",
+        "include": false,
+        "reason": "Centrado em desinformação sobre vacinas."
+      },
+      {
+        "id": "C18",
+        "include": false,
+        "reason": "Revisão de escopo."
+      },
+      {
+        "id": "C19",
+        "include": false,
+        "reason": "Entrevista, sem estudo empírico."
+      },
+      {
+        "id": "C20",
+        "include": false,
+        "reason": "Pesquisa bibliográfica, sem avaliação com participantes."
+      },
+      {
+        "id": "C21",
+        "include": true,
+        "reason": "Dois estudos com Bad News e desenho de Solomon, N = 2.159."
+      },
+      {
+        "id": "C22",
+        "include": false,
+        "reason": "Ensaio sobre COVID-19, sem dados próprios."
+      },
+      {
+        "id": "C23",
+        "include": true,
+        "reason": "Jogo sério avaliado em estudo de campo randomizado com pré e pós-teste, 351 participantes."
+      },
+      {
+        "id": "C24",
+        "include": true,
+        "reason": "Processo educativo baseado em jogo sobre desinformação, com pesquisas pré e pós. O resumo não informa a amostra. Ficou fora dos 25 pelo limite do pedido."
+      },
+      {
+        "id": "C25",
+        "include": false,
+        "reason": "Centrado em vacinas."
+      },
+      {
+        "id": "C26",
+        "include": false,
+        "reason": "Artigo conceitual de revisão."
+      },
+      {
+        "id": "C27",
+        "include": false,
+        "reason": "Modelo teórico de teoria dos jogos, sem participantes."
+      },
+      {
+        "id": "C28",
+        "include": true,
+        "reason": "Escape game em realidade aumentada (Escape Fake) sobre fake news, com pré e pós-teste em 27 alunos."
+      },
+      {
+        "id": "C29",
+        "include": false,
+        "reason": "Ensaio jurídico sobre eleições e regulação."
+      },
+      {
+        "id": "C30",
+        "include": true,
+        "reason": "Experimento com inoculação gamificada. A desinformação avaliada não é política e o resumo não informa a amostra."
+      },
+      {
+        "id": "C31",
+        "include": false,
+        "reason": "Centrado em COVID-19."
+      },
+      {
+        "id": "C32",
+        "include": true,
+        "reason": "Escape game em realidade aumentada com pré e pós-teste em 45 professores em formação."
+      },
+      {
+        "id": "C33",
+        "include": true,
+        "reason": "Experimentos com Bad News e Harmony Square, com feedback após o jogo. Amostras de 191 a 2.558."
+      },
+      {
+        "id": "C34",
+        "include": false,
+        "reason": "Go Viral! e COVID-19, excluídos expressamente."
+      },
+      {
+        "id": "C35",
+        "include": false,
+        "reason": "Simulação de rede social com selos de credibilidade e normas sociais. Não é jogo educativo."
+      },
+      {
+        "id": "C36",
+        "include": false,
+        "reason": "A intervenção são vídeos."
+      },
+      {
+        "id": "C37",
+        "include": false,
+        "reason": "Revisão de escopo."
+      },
+      {
+        "id": "C38",
+        "include": true,
+        "reason": "Bad News aplicado em sala de aula, com 516 estudantes."
+      },
+      {
+        "id": "C39",
+        "include": false,
+        "reason": "Reanálise de dados de estudos anteriores."
+      },
+      {
+        "id": "C40",
+        "include": false,
+        "reason": "Artigo de revisão e agenda de pesquisa."
+      },
+      {
+        "id": "C41",
+        "include": false,
+        "reason": "Não é jogo."
+      },
+      {
+        "id": "C42",
+        "include": true,
+        "reason": "Quatro replicações com dados novos do Bad News. O resumo não informa a amostra."
+      },
+      {
+        "id": "C43",
+        "include": true,
+        "reason": "Bad News aplicado na Índia, n = 1002, com desenho intrassujeito."
+      },
+      {
+        "id": "C44",
+        "include": false,
+        "reason": "A intervenção é o ChatGPT, não um jogo. O tema é desinformação em saúde."
+      },
+      {
+        "id": "C45",
+        "include": false,
+        "reason": "Centrado em COVID-19 e vacinas."
+      },
+      {
+        "id": "C46",
+        "include": false,
+        "reason": "Jogo sobre a história das vacinas, sem relação com desinformação."
+      },
+      {
+        "id": "C47",
+        "include": false,
+        "reason": "É uma resenha (\"A Review of\") de estudo de outros autores, não estudo empírico primário."
+      },
+      {
+        "id": "C48",
+        "include": false,
+        "reason": "Detecção automática por aprendizado de máquina."
+      },
+      {
+        "id": "C49",
+        "include": false,
+        "reason": "Réplica centrada no contexto da COVID-19."
+      },
+      {
+        "id": "C50",
+        "include": false,
+        "reason": "A intervenção são checagens de fatos, não jogo."
+      },
+      {
+        "id": "C51",
+        "include": false,
+        "reason": "Intervenção de escrita de carta, não jogo."
+      },
+      {
+        "id": "C52",
+        "include": false,
+        "reason": "Inoculação e etiquetas em simulação de rede social. O resumo não descreve um jogo."
+      },
+      {
+        "id": "C53",
+        "include": false,
+        "reason": "Levantamento de métodos de PLN."
+      },
+      {
+        "id": "C54",
+        "include": false,
+        "reason": "Modelo computacional baseado em agentes."
+      },
+      {
+        "id": "C55",
+        "include": false,
+        "reason": "Modelo matemático."
+      },
+      {
+        "id": "C56",
+        "include": false,
+        "reason": "Jogo sobre resiliência climática, sem relação com desinformação."
+      },
+      {
+        "id": "C57",
+        "include": false,
+        "reason": "Artigo teórico."
+      },
+      {
+        "id": "C58",
+        "include": false,
+        "reason": "Artigo teórico."
+      },
+      {
+        "id": "C59",
+        "include": false,
+        "reason": "Análise de conteúdo de 18 jogos, sem avaliação com participantes."
+      },
+      {
+        "id": "C60",
+        "include": false,
+        "reason": "Estudos de caso qualitativos, sem experimento nem pré e pós."
+      },
+      {
+        "id": "C61",
+        "include": false,
+        "reason": "Revisão narrativa."
+      },
+      {
+        "id": "C62",
+        "include": false,
+        "reason": "Artigo teórico e revisão."
+      },
+      {
+        "id": "C63",
+        "include": false,
+        "reason": "Não é jogo."
+      },
+      {
+        "id": "C64",
+        "include": false,
+        "reason": "Não é jogo."
+      },
+      {
+        "id": "C65",
+        "include": true,
+        "reason": "Jogo Cat Park contra desinformação multimodal, N = 380."
+      },
+      {
+        "id": "C66",
+        "include": false,
+        "reason": "Relato de opinião, sem jogo."
+      },
+      {
+        "id": "C67",
+        "include": true,
+        "reason": "Jogo com modelo de linguagem para desinformação, avaliado em desenho intrassujeitos (N = 47). O periódico é Proceedings of the ACM on HCI, o que gera dúvida sobre ser anais."
+      },
+      {
+        "id": "C68",
+        "include": false,
+        "reason": "Estudos de caso do JEDi sem desenho experimental, quase-experimental ou pré e pós claro no resumo."
+      },
+      {
+        "id": "C69",
+        "include": true,
+        "reason": "O estudo 2 usa uma intervenção gamificada e testa a duração do efeito, N2 = 673. O estudo 1 usa vídeo."
+      },
+      {
+        "id": "C70",
+        "include": false,
+        "reason": "Modelo de detecção automática."
+      },
+      {
+        "id": "C71",
+        "include": false,
+        "reason": "Resenha de livro."
+      },
+      {
+        "id": "C72",
+        "include": false,
+        "reason": "Detecção automática."
+      },
+      {
+        "id": "C73",
+        "include": false,
+        "reason": "Detecção automática, COVID-19."
+      },
+      {
+        "id": "C74",
+        "include": false,
+        "reason": "Detecção automática, anais de congresso."
+      },
+      {
+        "id": "C75",
+        "include": true,
+        "reason": "Escape Fake com pré e pós-teste em 28 estudantes."
+      },
+      {
+        "id": "C76",
+        "include": false,
+        "reason": "Trabalho de anais de congresso, sem avaliação com participantes no resumo."
+      },
+      {
+        "id": "C77",
+        "include": false,
+        "reason": "Projeto escolar que não é jogo."
+      },
+      {
+        "id": "C78",
+        "include": false,
+        "reason": "Ensaio jurídico."
+      },
+      {
+        "id": "C79",
+        "include": false,
+        "reason": "Resenha de livro."
+      },
+      {
+        "id": "C80",
+        "include": false,
+        "reason": "Resenha de livro."
+      },
+      {
+        "id": "C81",
+        "include": false,
+        "reason": "Jogo de cartas relatado como pesquisa-ação, sem avaliação experimental nem pré e pós no resumo."
+      },
+      {
+        "id": "C82",
+        "include": false,
+        "reason": "Revisão bibliográfica sobre democracia e eleições."
+      },
+      {
+        "id": "C83",
+        "include": false,
+        "reason": "Revisão bibliográfica sobre democracia e eleições."
+      },
+      {
+        "id": "C84",
+        "include": false,
+        "reason": "Jogo sobre política, não sobre desinformação."
+      },
+      {
+        "id": "C85",
+        "include": false,
+        "reason": "Revisão integrativa."
+      },
+      {
+        "id": "C86",
+        "include": false,
+        "reason": "Jogo de saúde do adolescente, sem relação com desinformação."
+      },
+      {
+        "id": "C87",
+        "include": false,
+        "reason": "Validação de escala, não jogo."
+      },
+      {
+        "id": "C88",
+        "include": false,
+        "reason": "Pesquisa bibliográfica."
+      },
+      {
+        "id": "C89",
+        "include": false,
+        "reason": "Revisão bibliográfica."
+      },
+      {
+        "id": "C90",
+        "include": false,
+        "reason": "Mensagens de prebunk, não jogo."
+      },
+      {
+        "id": "C91",
+        "include": false,
+        "reason": "Mensagens sobre vacinas contra COVID-19, não jogo."
+      },
+      {
+        "id": "C92",
+        "include": true,
+        "reason": "Jogo de tabuleiro de alfabetização midiática contra desinformação, com pré e pós-teste em 95 participantes."
+      },
+      {
+        "id": "C93",
+        "include": false,
+        "reason": "Detecção automática."
+      },
+      {
+        "id": "C94",
+        "include": false,
+        "reason": "Pesquisa de opinião sobre COVID-19, não jogo."
+      },
+      {
+        "id": "C95",
+        "include": false,
+        "reason": "Estudo de levantamento (survey), não jogo."
+      },
+      {
+        "id": "C96",
+        "include": false,
+        "reason": "Rótulos de checagem, não jogo."
+      },
+      {
+        "id": "C97",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C98",
+        "include": false,
+        "reason": "Estudo de levantamento (survey), sem jogo."
+      },
+      {
+        "id": "C99",
+        "include": false,
+        "reason": "Validação de instrumento."
+      },
+      {
+        "id": "C100",
+        "include": false,
+        "reason": "Detecção automática."
+      },
+      {
+        "id": "C101",
+        "include": false,
+        "reason": "Ensaio filosófico."
+      },
+      {
+        "id": "C102",
+        "include": false,
+        "reason": "Detecção automática."
+      },
+      {
+        "id": "C103",
+        "include": true,
+        "reason": "Experimento randomizado que compara intervenção gamificada e Bad News, N = 282."
+      },
+      {
+        "id": "C104",
+        "include": false,
+        "reason": "Detecção automática."
+      },
+      {
+        "id": "C105",
+        "include": false,
+        "reason": "Análise de mídias sociais, sem jogo."
+      },
+      {
+        "id": "C106",
+        "include": false,
+        "reason": "Detecção automática."
+      },
+      {
+        "id": "C107",
+        "include": true,
+        "reason": "Aplicativo gamificado sobre fake news no turismo, com pré e pós-teste em alunos de 9 a 12 anos. A amostra não está no resumo e o elemento de jogo é fraco. Ficou fora dos 25 pelo limite do pedido."
+      },
+      {
+        "id": "C108",
+        "include": false,
+        "reason": "Detecção automática."
+      },
+      {
+        "id": "C109",
+        "include": false,
+        "reason": "Artigo conceitual."
+      },
+      {
+        "id": "C110",
+        "include": false,
+        "reason": "Revisão sistemática."
+      },
+      {
+        "id": "C111",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C112",
+        "include": false,
+        "reason": "Proposta de framework e análise de conteúdo, sem avaliação com participantes."
+      },
+      {
+        "id": "C113",
+        "include": false,
+        "reason": "Inoculação que não é jogo."
+      },
+      {
+        "id": "C114",
+        "include": false,
+        "reason": "Detecção automática."
+      },
+      {
+        "id": "C115",
+        "include": false,
+        "reason": "Mensagens de prebunk, não jogo."
+      },
+      {
+        "id": "C116",
+        "include": false,
+        "reason": "Questionário com crianças, sem jogo."
+      },
+      {
+        "id": "C117",
+        "include": false,
+        "reason": "Artigo conceitual."
+      },
+      {
+        "id": "C118",
+        "include": false,
+        "reason": "Artigo conceitual."
+      },
+      {
+        "id": "C119",
+        "include": false,
+        "reason": "Artigo de política e análise."
+      },
+      {
+        "id": "C120",
+        "include": false,
+        "reason": "Detecção automática."
+      },
+      {
+        "id": "C121",
+        "include": false,
+        "reason": "Detecção automática."
+      },
+      {
+        "id": "C122",
+        "include": false,
+        "reason": "Artigo conceitual."
+      },
+      {
+        "id": "C123",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C124",
+        "include": true,
+        "reason": "Jogo de inoculação ChamberBreaker contra câmaras de eco, com 882 participantes. O foco em fake news é indireto. Ficou fora dos 25 pelo limite do pedido e porque o periódico é Proceedings of the ACM on HCI."
+      },
+      {
+        "id": "C125",
+        "include": false,
+        "reason": "Detecção automática."
+      }
+    ],
+    "selected": [
+      "C01",
+      "C12",
+      "C08",
+      "C09",
+      "C21",
+      "C33",
+      "C38",
+      "C03",
+      "C65",
+      "C06",
+      "C05",
+      "C43",
+      "C14",
+      "C07",
+      "C42",
+      "C103",
+      "C30",
+      "C13",
+      "C23",
+      "C28",
+      "C75",
+      "C32",
+      "C92",
+      "C67",
+      "C69"
+    ]
+  },
+  "text": "{\"decisions\":[{\"id\":\"C01\",\"include\":true,\"reason\":\"Jogo Bad News avaliado em desenho pré e pós com N = 15.000.\"},{\"id\":\"C02\",\"include\":false,\"reason\":\"Revisão narrativa, sem dados próprios.\"},{\"id\":\"C03\",\"include\":true,\"reason\":\"Jogo Harmony Square de inoculação, avaliado com participantes. O resumo não informa a amostra.\"},{\"id\":\"C04\",\"include\":false,\"reason\":\"A intervenção são vídeos, não jogo.\"},{\"id\":\"C05\",\"include\":true,\"reason\":\"Jogo contra fake news testado em estudantes (n = 84 e n = 30), com comparação entre quem jogou e quem não jogou.\"},{\"id\":\"C06\",\"include\":true,\"reason\":\"Ensaio randomizado com jogo de inoculação, N = 180.\"},{\"id\":\"C07\",\"include\":true,\"reason\":\"Estudo pré-registrado com dados novos (N = 150) sobre o Bad News. Não é reanálise.\"},{\"id\":\"C08\",\"include\":true,\"reason\":\"Dois experimentos com o jogo Bad News, n total = 2188.\"},{\"id\":\"C09\",\"include\":true,\"reason\":\"Bad News testado em quatro países. O resumo não informa a amostra.\"},{\"id\":\"C10\",\"include\":false,\"reason\":\"Revisão da literatura.\"},{\"id\":\"C11\",\"include\":false,\"reason\":\"Foca em política brasileira e no discurso de extrema-direita (governo Bolsonaro). Isso cai na exclusão por política partidária. O resumo também está truncado.\"},{\"id\":\"C12\",\"include\":true,\"reason\":\"Bad News com grupo controle em desenho 2×2, N = 196.\"},{\"id\":\"C13\",\"include\":true,\"reason\":\"Jogo sério de verificação de notícias avaliado em estudo de campo randomizado, n = 111.\"},{\"id\":\"C14\",\"include\":true,\"reason\":\"Ensaio randomizado de jogo de inoculação na Índia, n = 757. O resultado foi nulo, mas o estudo atende aos critérios.\"},{\"id\":\"C15\",\"include\":false,\"reason\":\"O resumo não descreve um jogo. Trata de uma inoculação por emoção-falácia.\"},{\"id\":\"C16\",\"include\":false,\"reason\":\"Não é jogo. Avalia avisos e intervenções de alfabetização midiática.\"},{\"id\":\"C17\",\"include\":false,\"reason\":\"Centrado em desinformação sobre vacinas.\"},{\"id\":\"C18\",\"include\":false,\"reason\":\"Revisão de escopo.\"},{\"id\":\"C19\",\"include\":false,\"reason\":\"Entrevista, sem estudo empírico.\"},{\"id\":\"C20\",\"include\":false,\"reason\":\"Pesquisa bibliográfica, sem avaliação com participantes.\"},{\"id\":\"C21\",\"include\":true,\"reason\":\"Dois estudos com Bad News e desenho de Solomon, N = 2.159.\"},{\"id\":\"C22\",\"include\":false,\"reason\":\"Ensaio sobre COVID-19, sem dados próprios.\"},{\"id\":\"C23\",\"include\":true,\"reason\":\"Jogo sério avaliado em estudo de campo randomizado com pré e pós-teste, 351 participantes.\"},{\"id\":\"C24\",\"include\":true,\"reason\":\"Processo educativo baseado em jogo sobre desinformação, com pesquisas pré e pós. O resumo não informa a amostra. Ficou fora dos 25 pelo limite do pedido.\"},{\"id\":\"C25\",\"include\":false,\"reason\":\"Centrado em vacinas.\"},{\"id\":\"C26\",\"include\":false,\"reason\":\"Artigo conceitual de revisão.\"},{\"id\":\"C27\",\"include\":false,\"reason\":\"Modelo teórico de teoria dos jogos, sem participantes.\"},{\"id\":\"C28\",\"include\":true,\"reason\":\"Escape game em realidade aumentada (Escape Fake) sobre fake news, com pré e pós-teste em 27 alunos.\"},{\"id\":\"C29\",\"include\":false,\"reason\":\"Ensaio jurídico sobre eleições e regulação.\"},{\"id\":\"C30\",\"include\":true,\"reason\":\"Experimento com inoculação gamificada. A desinformação avaliada não é política e o resumo não informa a amostra.\"},{\"id\":\"C31\",\"include\":false,\"reason\":\"Centrado em COVID-19.\"},{\"id\":\"C32\",\"include\":true,\"reason\":\"Escape game em realidade aumentada com pré e pós-teste em 45 professores em formação.\"},{\"id\":\"C33\",\"include\":true,\"reason\":\"Experimentos com Bad News e Harmony Square, com feedback após o jogo. Amostras de 191 a 2.558.\"},{\"id\":\"C34\",\"include\":false,\"reason\":\"Go Viral! e COVID-19, excluídos expressamente.\"},{\"id\":\"C35\",\"include\":false,\"reason\":\"Simulação de rede social com selos de credibilidade e normas sociais. Não é jogo educativo.\"},{\"id\":\"C36\",\"include\":false,\"reason\":\"A intervenção são vídeos.\"},{\"id\":\"C37\",\"include\":false,\"reason\":\"Revisão de escopo.\"},{\"id\":\"C38\",\"include\":true,\"reason\":\"Bad News aplicado em sala de aula, com 516 estudantes.\"},{\"id\":\"C39\",\"include\":false,\"reason\":\"Reanálise de dados de estudos anteriores.\"},{\"id\":\"C40\",\"include\":false,\"reason\":\"Artigo de revisão e agenda de pesquisa.\"},{\"id\":\"C41\",\"include\":false,\"reason\":\"Não é jogo.\"},{\"id\":\"C42\",\"include\":true,\"reason\":\"Quatro replicações com dados novos do Bad News. O resumo não informa a amostra.\"},{\"id\":\"C43\",\"include\":true,\"reason\":\"Bad News aplicado na Índia, n = 1002, com desenho intrassujeito.\"},{\"id\":\"C44\",\"include\":false,\"reason\":\"A intervenção é o ChatGPT, não um jogo. O tema é desinformação em saúde.\"},{\"id\":\"C45\",\"include\":false,\"reason\":\"Centrado em COVID-19 e vacinas.\"},{\"id\":\"C46\",\"include\":false,\"reason\":\"Jogo sobre a história das vacinas, sem relação com desinformação.\"},{\"id\":\"C47\",\"include\":false,\"reason\":\"É uma resenha (\\\"A Review of\\\") de estudo de outros autores, não estudo empírico primário.\"},{\"id\":\"C48\",\"include\":false,\"reason\":\"Detecção automática por aprendizado de máquina.\"},{\"id\":\"C49\",\"include\":false,\"reason\":\"Réplica centrada no contexto da COVID-19.\"},{\"id\":\"C50\",\"include\":false,\"reason\":\"A intervenção são checagens de fatos, não jogo.\"},{\"id\":\"C51\",\"include\":false,\"reason\":\"Intervenção de escrita de carta, não jogo.\"},{\"id\":\"C52\",\"include\":false,\"reason\":\"Inoculação e etiquetas em simulação de rede social. O resumo não descreve um jogo.\"},{\"id\":\"C53\",\"include\":false,\"reason\":\"Levantamento de métodos de PLN.\"},{\"id\":\"C54\",\"include\":false,\"reason\":\"Modelo computacional baseado em agentes.\"},{\"id\":\"C55\",\"include\":false,\"reason\":\"Modelo matemático.\"},{\"id\":\"C56\",\"include\":false,\"reason\":\"Jogo sobre resiliência climática, sem relação com desinformação.\"},{\"id\":\"C57\",\"include\":false,\"reason\":\"Artigo teórico.\"},{\"id\":\"C58\",\"include\":false,\"reason\":\"Artigo teórico.\"},{\"id\":\"C59\",\"include\":false,\"reason\":\"Análise de conteúdo de 18 jogos, sem avaliação com participantes.\"},{\"id\":\"C60\",\"include\":false,\"reason\":\"Estudos de caso qualitativos, sem experimento nem pré e pós.\"},{\"id\":\"C61\",\"include\":false,\"reason\":\"Revisão narrativa.\"},{\"id\":\"C62\",\"include\":false,\"reason\":\"Artigo teórico e revisão.\"},{\"id\":\"C63\",\"include\":false,\"reason\":\"Não é jogo.\"},{\"id\":\"C64\",\"include\":false,\"reason\":\"Não é jogo.\"},{\"id\":\"C65\",\"include\":true,\"reason\":\"Jogo Cat Park contra desinformação multimodal, N = 380.\"},{\"id\":\"C66\",\"include\":false,\"reason\":\"Relato de opinião, sem jogo.\"},{\"id\":\"C67\",\"include\":true,\"reason\":\"Jogo com modelo de linguagem para desinformação, avaliado em desenho intrassujeitos (N = 47). O periódico é Proceedings of the ACM on HCI, o que gera dúvida sobre ser anais.\"},{\"id\":\"C68\",\"include\":false,\"reason\":\"Estudos de caso do JEDi sem desenho experimental, quase-experimental ou pré e pós claro no resumo.\"},{\"id\":\"C69\",\"include\":true,\"reason\":\"O estudo 2 usa uma intervenção gamificada e testa a duração do efeito, N2 = 673. O estudo 1 usa vídeo.\"},{\"id\":\"C70\",\"include\":false,\"reason\":\"Modelo de detecção automática.\"},{\"id\":\"C71\",\"include\":false,\"reason\":\"Resenha de livro.\"},{\"id\":\"C72\",\"include\":false,\"reason\":\"Detecção automática.\"},{\"id\":\"C73\",\"include\":false,\"reason\":\"Detecção automática, COVID-19.\"},{\"id\":\"C74\",\"include\":false,\"reason\":\"Detecção automática, anais de congresso.\"},{\"id\":\"C75\",\"include\":true,\"reason\":\"Escape Fake com pré e pós-teste em 28 estudantes.\"},{\"id\":\"C76\",\"include\":false,\"reason\":\"Trabalho de anais de congresso, sem avaliação com participantes no resumo.\"},{\"id\":\"C77\",\"include\":false,\"reason\":\"Projeto escolar que não é jogo.\"},{\"id\":\"C78\",\"include\":false,\"reason\":\"Ensaio jurídico.\"},{\"id\":\"C79\",\"include\":false,\"reason\":\"Resenha de livro.\"},{\"id\":\"C80\",\"include\":false,\"reason\":\"Resenha de livro.\"},{\"id\":\"C81\",\"include\":false,\"reason\":\"Jogo de cartas relatado como pesquisa-ação, sem avaliação experimental nem pré e pós no resumo.\"},{\"id\":\"C82\",\"include\":false,\"reason\":\"Revisão bibliográfica sobre democracia e eleições.\"},{\"id\":\"C83\",\"include\":false,\"reason\":\"Revisão bibliográfica sobre democracia e eleições.\"},{\"id\":\"C84\",\"include\":false,\"reason\":\"Jogo sobre política, não sobre desinformação.\"},{\"id\":\"C85\",\"include\":false,\"reason\":\"Revisão integrativa.\"},{\"id\":\"C86\",\"include\":false,\"reason\":\"Jogo de saúde do adolescente, sem relação com desinformação.\"},{\"id\":\"C87\",\"include\":false,\"reason\":\"Validação de escala, não jogo.\"},{\"id\":\"C88\",\"include\":false,\"reason\":\"Pesquisa bibliográfica.\"},{\"id\":\"C89\",\"include\":false,\"reason\":\"Revisão bibliográfica.\"},{\"id\":\"C90\",\"include\":false,\"reason\":\"Mensagens de prebunk, não jogo.\"},{\"id\":\"C91\",\"include\":false,\"reason\":\"Mensagens sobre vacinas contra COVID-19, não jogo.\"},{\"id\":\"C92\",\"include\":true,\"reason\":\"Jogo de tabuleiro de alfabetização midiática contra desinformação, com pré e pós-teste em 95 participantes.\"},{\"id\":\"C93\",\"include\":false,\"reason\":\"Detecção automática.\"},{\"id\":\"C94\",\"include\":false,\"reason\":\"Pesquisa de opinião sobre COVID-19, não jogo.\"},{\"id\":\"C95\",\"include\":false,\"reason\":\"Estudo de levantamento (survey), não jogo.\"},{\"id\":\"C96\",\"include\":false,\"reason\":\"Rótulos de checagem, não jogo.\"},{\"id\":\"C97\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C98\",\"include\":false,\"reason\":\"Estudo de levantamento (survey), sem jogo.\"},{\"id\":\"C99\",\"include\":false,\"reason\":\"Validação de instrumento.\"},{\"id\":\"C100\",\"include\":false,\"reason\":\"Detecção automática.\"},{\"id\":\"C101\",\"include\":false,\"reason\":\"Ensaio filosófico.\"},{\"id\":\"C102\",\"include\":false,\"reason\":\"Detecção automática.\"},{\"id\":\"C103\",\"include\":true,\"reason\":\"Experimento randomizado que compara intervenção gamificada e Bad News, N = 282.\"},{\"id\":\"C104\",\"include\":false,\"reason\":\"Detecção automática.\"},{\"id\":\"C105\",\"include\":false,\"reason\":\"Análise de mídias sociais, sem jogo.\"},{\"id\":\"C106\",\"include\":false,\"reason\":\"Detecção automática.\"},{\"id\":\"C107\",\"include\":true,\"reason\":\"Aplicativo gamificado sobre fake news no turismo, com pré e pós-teste em alunos de 9 a 12 anos. A amostra não está no resumo e o elemento de jogo é fraco. Ficou fora dos 25 pelo limite do pedido.\"},{\"id\":\"C108\",\"include\":false,\"reason\":\"Detecção automática.\"},{\"id\":\"C109\",\"include\":false,\"reason\":\"Artigo conceitual.\"},{\"id\":\"C110\",\"include\":false,\"reason\":\"Revisão sistemática.\"},{\"id\":\"C111\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C112\",\"include\":false,\"reason\":\"Proposta de framework e análise de conteúdo, sem avaliação com participantes.\"},{\"id\":\"C113\",\"include\":false,\"reason\":\"Inoculação que não é jogo.\"},{\"id\":\"C114\",\"include\":false,\"reason\":\"Detecção automática.\"},{\"id\":\"C115\",\"include\":false,\"reason\":\"Mensagens de prebunk, não jogo.\"},{\"id\":\"C116\",\"include\":false,\"reason\":\"Questionário com crianças, sem jogo.\"},{\"id\":\"C117\",\"include\":false,\"reason\":\"Artigo conceitual.\"},{\"id\":\"C118\",\"include\":false,\"reason\":\"Artigo conceitual.\"},{\"id\":\"C119\",\"include\":false,\"reason\":\"Artigo de política e análise.\"},{\"id\":\"C120\",\"include\":false,\"reason\":\"Detecção automática.\"},{\"id\":\"C121\",\"include\":false,\"reason\":\"Detecção automática.\"},{\"id\":\"C122\",\"include\":false,\"reason\":\"Artigo conceitual.\"},{\"id\":\"C123\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C124\",\"include\":true,\"reason\":\"Jogo de inoculação ChamberBreaker contra câmaras de eco, com 882 participantes. O foco em fake news é indireto. Ficou fora dos 25 pelo limite do pedido e porque o periódico é Proceedings of the ACM on HCI.\"},{\"id\":\"C125\",\"include\":false,\"reason\":\"Detecção automática.\"}],\"selected\":[\"C01\",\"C12\",\"C08\",\"C09\",\"C21\",\"C33\",\"C38\",\"C03\",\"C65\",\"C06\",\"C05\",\"C43\",\"C14\",\"C07\",\"C42\",\"C103\",\"C30\",\"C13\",\"C23\",\"C28\",\"C75\",\"C32\",\"C92\",\"C67\",\"C69\"]}",
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 62539,
+    "cache_read_input_tokens": 913,
+    "output_tokens": 8462,
+    "output_tokens_details": {
+      "thinking_tokens": 3261
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 62539,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 8462,
+        "cache_read_input_tokens": 913,
+        "cache_creation_input_tokens": 62539,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 62539
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 2,
+  "duration_s": 56.68,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "decisions": "[{\"id\": \"C01\", \"include\": true, \"reason\": \"Jogo Bad News avaliado em desenho pré e pós com N = 15.000.\"}, {\"id\": \"C02\", \"include\": false, \"reason\": \"Revisão narrativa, sem dados próprios.\"}, {\"id\": \"…",
+        "selected": "[\"C01\", \"C12\", \"C08\", \"C09\", \"C21\", \"C33\", \"C38\", \"C03\", \"C65\", \"C06\", \"C05\", \"C43\", \"C14\", \"C07\", \"C42\", \"C103\", \"C30\", \"C13\", \"C23\", \"C28\", \"C75\", \"C32\", \"C92\", \"C67\", \"C69\"]"
+      }
+    }
+  ]
+}

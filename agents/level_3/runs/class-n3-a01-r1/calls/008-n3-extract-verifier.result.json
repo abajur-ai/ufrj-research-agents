@@ -1,0 +1,176 @@
+{
+  "structured": {
+    "approved": false,
+    "checked": [
+      "C12: resumo diz dois experimentos; extração e citação batem com o resumo; amostra de fato não aparece no resumo.",
+      "C03: resumo diz dois experimentos; método, achado e citação conferem com o resumo.",
+      "C14: dois experimentos; método (descrédito de fonte, pessoa ou mídia) e achado batem com o resumo; citação literal correta.",
+      "C05: três estudos, dois fatores avaliados e duas medidas; achado e citação conferem com o resumo.",
+      "C01: método de inoculação com confiabilidade da fonte e achado (inoculação eficaz só com fonte muito crível; crença na desinformação previu a dependência) batem com o resumo.",
+      "C17: dois experimentos com fronteiras espaciais de evento; resultados divergentes entre Exp. 1 e Exp. 2 conferem com o resumo.",
+      "C11: resumo informa dois experimentos com N = 441; achado sobre proteção não sustentada em 7 dias e citação conferem.",
+      "C06: método sobre histórias na memória e lacuna causal confere com o resumo; amostra não informada no resumo, corretamente assinalado.",
+      "C13: três experimentos, total N = 1718, atraso de uma semana e evidência contra o backfire de familiaridade conferem com o resumo.",
+      "C08: três experimentos com tarefa não dinâmica e achado misto (efeito em um, desconto total em dois) conferem com o resumo.",
+      "C15: quatro experimentos com formação dinâmica de impressão e desconto total após retratação conferem com o resumo.",
+      "C02: três experimentos, condições de revezamento e colaboração livre, achado e citação conferem com o resumo.",
+      "C30: quatro experimentos sobre atualização de crenças e confiabilidade da fonte; achado e citação conferem com o resumo.",
+      "C21: amostras informadas exatamente como no resumo (n = 78, n = 75, n = 323) e achado do CIE em todas as condições conferem.",
+      "C86: delineamento (idade, retratação, atrasos de 10 minutos e 2 dias) confere com o resumo; a extração declara corretamente que o resumo não relata resultados.",
+      "C20: análise de variáveis latentes e achado de que função executiva, sobretudo atualização, prediz o CIE conferem com o resumo.",
+      "C10: estudo com ERP e achado sobre potenciais da desinformação retratada conferem com o resumo.",
+      "C22: método com alegação de violência doméstica retratada ou não e achado de ausência de efeito em medidas explícitas conferem com o resumo.",
+      "C44: dois experimentos com ruminadores depressivos e achado sobre retratações de desinformação negativa conferem com o resumo.",
+      "C58: 129 participantes, condições com e sem correção e achado de eficácia da correção conferem com o resumo.",
+      "C40: N = 84, delineamento intrassujeitos papel versus tela e ausência de diferenças confiáveis conferem com o resumo.",
+      "C16: 61 participantes, quatro cenários militares, ausência de CIE e presença de supercorreção conferem com o resumo.",
+      "C97: delineamento 2 x 2 x 2 intrassujeitos e interação entre estilo e valência conferem com o resumo.",
+      "C92: correlação entre função executiva central e CIE, mais forte para desinformação de alta relevância, confere com o resumo.",
+      "C93: tarefas Stroop, alternância numérica e n-back e achado de que só a inibição teve efeito negativo conferem com o resumo.",
+      "Materiais dos 25 itens são cenários ou pessoas fictícias, sem desinformação política, eleitoral, de vacinas ou de COVID-19 nos resumos.",
+      "Todos os 25 itens são estudos empíricos com dados próprios, sem revisão, meta-análise, teoria, preprint ou trabalho de anais."
+    ],
+    "per_item": [
+      {
+        "id": "C12",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C03",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C14",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C05",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C01",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C17",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C11",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C06",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C13",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C08",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C15",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C02",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C30",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C21",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C86",
+        "ok": false,
+        "problem": "o campo achado principal não traz um achado, porque o resumo do artigo não relata resultados"
+      },
+      {
+        "id": "C20",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C10",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C22",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C44",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C58",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C40",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C16",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C97",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C92",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C93",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [
+      "C86: o pedido exige um achado principal em uma frase para cada artigo, mas a extração entrega apenas uma observação de que o resumo não relata resultados, deixando o campo vazio de conteúdo."
+    ],
+    "feedback": "Dos 25 itens, 24 estão corretos e não precisam mudar. Corrija somente C86: consulte o texto completo do artigo para extrair o achado principal em uma frase e, se possível, um trecho do resumo ou do artigo que o sustente; se não for possível obter o achado com fonte verificável, substitua C86 por outro artigo de periódico sobre influência continuada cujo resumo relate resultados. Sugestão não obrigatória: os itens C20, C92 e C93 foram rotulados como estudos de diferenças individuais correlacionais; se o pesquisador entender que o critério de apenas experimentos exige manipulação experimental da correção entre grupos, vale confirmar com ele se esses três itens permanecem na lista."
+  },
+  "text": "{\n \"approved\": false,\n \"checked\": [\n  \"C12: resumo diz dois experimentos; extração e citação batem com o resumo; amostra de fato não aparece no resumo.\",\n  \"C03: resumo diz dois experimentos; método, achado e citação conferem com o resumo.\",\n  \"C14: dois experimentos; método (descrédito de fonte, pessoa ou mídia) e achado batem com o resumo; citação literal correta.\",\n  \"C05: três estudos, dois fatores avaliados e duas medidas; achado e citação conferem com o resumo.\",\n  \"C01: método de inoculação com confiabilidade da fonte e achado (inoculação eficaz só com fonte muito crível; crença na desinformação previu a dependência) batem com o resumo.\",\n  \"C17: dois experimentos com fronteiras espaciais de evento; resultados divergentes entre Exp. 1 e Exp. 2 conferem com o resumo.\",\n  \"C11: resumo informa dois experimentos com N = 441; achado sobre proteção não sustentada em 7 dias e citação conferem.\",\n  \"C06: método sobre histórias na memória e lacuna causal confere com o resumo; amostra não informada no resumo, corretamente assinalado.\",\n  \"C13: três experimentos, total N = 1718, atraso de uma semana e evidência contra o backfire de familiaridade conferem com o resumo.\",\n  \"C08: três experimentos com tarefa não dinâmica e achado misto (efeito em um, desconto total em dois) conferem com o resumo.\",\n  \"C15: quatro experimentos com formação dinâmica de impressão e desconto total após retratação conferem com o resumo.\",\n  \"C02: três experimentos, condições de revezamento e colaboração livre, achado e citação conferem com o resumo.\",\n  \"C30: quatro experimentos sobre atualização de crenças e confiabilidade da fonte; achado e citação conferem com o resumo.\",\n  \"C21: amostras informadas exatamente como no resumo (n = 78, n = 75, n = 323) e achado do CIE em todas as condições conferem.\",\n  \"C86: delineamento (idade, retratação, atrasos de 10 minutos e 2 dias) confere com o resumo; a extração declara corretamente que o resumo não relata resultados.\",\n  \"C20: análise de variáveis latentes e achado de que função executiva, sobretudo atualização, prediz o CIE conferem com o resumo.\",\n  \"C10: estudo com ERP e achado sobre potenciais da desinformação retratada conferem com o resumo.\",\n  \"C22: método com alegação de violência doméstica retratada ou não e achado de ausência de efeito em medidas explícitas conferem com o resumo.\",\n  \"C44: dois experimentos com ruminadores depressivos e achado sobre retratações de desinformação negativa conferem com o resumo.\",\n  \"C58: 129 participantes, condições com e sem correção e achado de eficácia da correção conferem com o resumo.\",\n  \"C40: N = 84, delineamento intrassujeitos papel versus tela e ausência de diferenças confiáveis conferem com o resumo.\",\n  \"C16: 61 participantes, quatro cenários militares, ausência de CIE e presença de supercorreção conferem com o resumo.\",\n  \"C97: delineamento 2 x 2 x 2 intrassujeitos e interação entre estilo e valência conferem com o resumo.\",\n  \"C92: correlação entre função executiva central e CIE, mais forte para desinformação de alta relevância, confere com o resumo.\",\n  \"C93: tarefas Stroop, alternância numérica e n-back e achado de que só a inibição teve efeito negativo conferem com o resumo.\",\n  \"Materiais dos 25 itens são cenários ou pessoas fictícias, sem desinformação política, eleitoral, de vacinas ou de COVID-19 nos resumos.\",\n  \"Todos os 25 itens são estudos empíricos com dados próprios, sem revisão, meta-análise, teoria, preprint ou trabalho de anais.\"\n ],\n \"per_item\": [\n  {\"id\": \"C12\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C03\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C14\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C05\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C01\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C17\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C11\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C06\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C13\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C08\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C15\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C02\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C30\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C21\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C86\", \"ok\": false, \"problem\": \"o campo achado principal não traz um achado, porque o resumo do artigo não relata resultados\"},\n  {\"id\": \"C20\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C10\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C22\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C44\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C58\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C40\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C16\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C97\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C92\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C93\", \"ok\": true, \"problem\": \"\"}\n ],\n \"issues\": [\n  \"C86: o pedido exige um achado principal em uma frase para cada artigo, mas a extração entrega apenas uma observação de que o resumo não relata resultados, deixando o campo vazio de conteúdo.\"\n ],\n \"feedback\": \"Dos 25 itens, 24 estão corretos e não precisam mudar. Corrija somente C86: consulte o texto completo do artigo para extrair o achado principal em uma frase e, se possível, um trecho do resumo ou do artigo que o sustente; se não for possível obter o achado com fonte verificável, substitua C86 por outro artigo de periódico sobre influência continuada cujo resumo relate resultados. Sugestão não obrigatória: os itens C20, C92 e C93 foram rotulados como estudos de diferenças individuais correlacionais; se o pesquisador entender que o critério de apenas experimentos exige manipulação experimental da correção entre grupos, vale confirmar com ele se esses três itens permanecem na lista.\"\n}",
+  "usage": {
+    "input_tokens": 11466,
+    "output_tokens": 4318,
+    "cost_usd": 0.00334
+  },
+  "duration_s": 41.55,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

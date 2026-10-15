@@ -1,0 +1,120 @@
+{
+  "structured": {
+    "criteria": [
+      "Tema: jogos educativos e jogos de inoculação (prebunking) contra desinformação/fake news/manipulação de informação (ex.: Bad News, Harmony Square, Cranky Uncle, Fake It to Make It, Cat Park, Escape-room/tabuleiro sobre desinformação, jogos de literacia midiática).",
+      "Formato da intervenção: o jogo (digital, de tabuleiro, de cartas, escape room, role-play lúdico) deve ser a intervenção avaliada; excluir intervenções que sejam apenas vídeos, textos, infográficos, quizzes ou aulas sem mecânica de jogo.",
+      "Período: publicado entre 2018 e 2025 (conferir ano de publicação oficial do periódico, não apenas a data online antecipada).",
+      "Tipo de publicação: artigo de periódico revisado por pares; excluir preprints (OSF, PsyArXiv, SSRN, arXiv), anais de congresso, capítulos, teses/dissertações, resenhas.",
+      "Tipo de estudo: estudo empírico com dados próprios; excluir revisões de literatura (sistemáticas ou narrativas), meta-análises, ensaios teóricos e reanálises de dados de outros estudos.",
+      "Desenho: experimento, quase-experimento, ensaio controlado randomizado ou desenho pré e pós-intervenção, com participantes humanos que jogaram o jogo.",
+      "Exclusão temática: estudos centrados em COVID-19, vacinas, eleições ou política partidária (ex.: Go Viral!, jogos sobre eleições); manter jogos sobre desinformação geral, climática, de saúde não ligada a COVID/vacinas, extremismo, etc., se não forem centrados nos temas excluídos.",
+      "Meta: 25 artigos que atendam a todos os critérios, cada um com DOI, título, autores, ano, periódico, tipo de estudo e método, tamanho da amostra exatamente como no resumo (ou 'não informado no resumo'), achado principal em uma frase e trecho literal do resumo entre aspas que sustente o achado.",
+      "Idioma: sem restrição declarada; buscar em inglês e português (e aceitar outros idiomas se o resumo estiver acessível)."
+    ],
+    "queries": [
+      {
+        "query": "(\"inoculation\" OR \"prebunking\") AND (game OR gamified OR \"serious game\") AND (misinformation OR disinformation OR \"fake news\")",
+        "language": "en",
+        "database": "OpenAlex"
+      },
+      {
+        "query": "\"Bad News\" game misinformation inoculation experiment",
+        "language": "en",
+        "database": "OpenAlex"
+      },
+      {
+        "query": "(\"Harmony Square\" OR \"Cranky Uncle\" OR \"Fake It to Make It\" OR \"Cat Park\" OR \"Bad News\") game randomized OR experiment OR \"pre-post\"",
+        "language": "en",
+        "database": "Crossref"
+      },
+      {
+        "query": "(\"serious game\" OR \"educational game\" OR \"board game\" OR \"escape room\") AND (\"media literacy\" OR misinformation OR disinformation OR \"fake news\") AND (quasi-experimental OR \"pre-test\" OR \"post-test\" OR randomized)",
+        "language": "en",
+        "database": "OpenAlex"
+      },
+      {
+        "query": "game-based intervention fake news resistance psychological inoculation journal article",
+        "language": "en",
+        "database": "Crossref"
+      },
+      {
+        "query": "jogo educativo OR \"jogo sério\" OR \"jogo de tabuleiro\" desinformação OR \"fake news\" OR \"notícias falsas\" letramento midiático experimento OR \"pré e pós-teste\" OR quase-experimental",
+        "language": "pt",
+        "database": "SciELO"
+      },
+      {
+        "query": "jogos de inoculação prebunking desinformação gamificação avaliação com participantes",
+        "language": "pt",
+        "database": "OpenAlex"
+      },
+      {
+        "query": "Bad News game Roozenbeek van der Linden prebunking game peer-reviewed study replication cross-cultural",
+        "language": "en",
+        "database": "busca na web"
+      }
+    ],
+    "how_to_check": [
+      "Tema: ler título e resumo de cada candidato e confirmar que a intervenção é um jogo voltado a desinformação/fake news/manipulação (não apenas menciona 'gamificação' de passagem).",
+      "Formato de jogo: no resumo/método, confirmar que a intervenção é um jogo (digital, tabuleiro, cartas, escape room); descartar se for vídeo, texto, infográfico, quiz ou aula isolada.",
+      "Período: conferir o ano de publicação no registro do DOI (Crossref/OpenAlex 'publication_year' e data da edição); descartar fora de 2018–2025 e anotar divergência entre data online e da edição.",
+      "Tipo de publicação: verificar no Crossref/OpenAlex que o tipo é 'journal-article' e que a fonte é periódico (não repositório de preprint, anais, capítulo ou tese); confirmar no site do periódico se é revisado por pares.",
+      "Estudo empírico com dados próprios: confirmar no resumo/método que há coleta de dados nova; descartar revisões, meta-análises, ensaios teóricos, reanálises de dados de estudos anteriores (checar termos como 'reanalysis', 'secondary analysis', 'pooled data', 'meta-analysis').",
+      "Desenho: confirmar no resumo a presença de grupo de controle/randomização, pré e pós-teste ou comparação experimental/quase-experimental com participantes; descartar estudos só de desenho do jogo, de opinião ou de usabilidade sem avaliação de efeito.",
+      "Exclusões temáticas: verificar título, resumo e palavras-chave por COVID-19, vaccine/vacina, election/eleição, partisan/política partidária (inclui Go Viral!); descartar quando esses temas forem o foco da intervenção ou da avaliação.",
+      "Duplicatas: deduplicar por DOI; se houver versão preprint e versão de periódico, manter apenas a do periódico; usar DOI da versão publicada.",
+      "Tamanho da amostra: copiar literalmente do resumo (ex.: 'N = 15.000'); se não houver número no resumo, registrar 'não informado no resumo'. Não usar números do corpo do artigo.",
+      "Trecho literal: copiar do resumo recuperado (via Crossref/OpenAlex/site do periódico) entre aspas, sem paráfrase, e conferir que sustenta o achado principal; se o resumo estiver indisponível, marcar como pendente em vez de inventar.",
+      "Metadados: validar DOI resolvendo em doi.org/Crossref e conferir título, autores, ano e periódico com o registro; descartar candidatos sem DOI verificável.",
+      "Cobertura: se menos de 25 candidatos passarem, registrar quantos passaram e quais critérios eliminaram os demais, em vez de completar com itens que violem os critérios."
+    ]
+  },
+  "text": "{\"criteria\":[\"Tema: jogos educativos e jogos de inoculação (prebunking) contra desinformação/fake news/manipulação de informação (ex.: Bad News, Harmony Square, Cranky Uncle, Fake It to Make It, Cat Park, Escape-room/tabuleiro sobre desinformação, jogos de literacia midiática).\",\"Formato da intervenção: o jogo (digital, de tabuleiro, de cartas, escape room, role-play lúdico) deve ser a intervenção avaliada; excluir intervenções que sejam apenas vídeos, textos, infográficos, quizzes ou aulas sem mecânica de jogo.\",\"Período: publicado entre 2018 e 2025 (conferir ano de publicação oficial do periódico, não apenas a data online antecipada).\",\"Tipo de publicação: artigo de periódico revisado por pares; excluir preprints (OSF, PsyArXiv, SSRN, arXiv), anais de congresso, capítulos, teses/dissertações, resenhas.\",\"Tipo de estudo: estudo empírico com dados próprios; excluir revisões de literatura (sistemáticas ou narrativas), meta-análises, ensaios teóricos e reanálises de dados de outros estudos.\",\"Desenho: experimento, quase-experimento, ensaio controlado randomizado ou desenho pré e pós-intervenção, com participantes humanos que jogaram o jogo.\",\"Exclusão temática: estudos centrados em COVID-19, vacinas, eleições ou política partidária (ex.: Go Viral!, jogos sobre eleições); manter jogos sobre desinformação geral, climática, de saúde não ligada a COVID/vacinas, extremismo, etc., se não forem centrados nos temas excluídos.\",\"Meta: 25 artigos que atendam a todos os critérios, cada um com DOI, título, autores, ano, periódico, tipo de estudo e método, tamanho da amostra exatamente como no resumo (ou 'não informado no resumo'), achado principal em uma frase e trecho literal do resumo entre aspas que sustente o achado.\",\"Idioma: sem restrição declarada; buscar em inglês e português (e aceitar outros idiomas se o resumo estiver acessível).\"],\"queries\":[{\"query\":\"(\\\"inoculation\\\" OR \\\"prebunking\\\") AND (game OR gamified OR \\\"serious game\\\") AND (misinformation OR disinformation OR \\\"fake news\\\")\",\"language\":\"en\",\"database\":\"OpenAlex\"},{\"query\":\"\\\"Bad News\\\" game misinformation inoculation experiment\",\"language\":\"en\",\"database\":\"OpenAlex\"},{\"query\":\"(\\\"Harmony Square\\\" OR \\\"Cranky Uncle\\\" OR \\\"Fake It to Make It\\\" OR \\\"Cat Park\\\" OR \\\"Bad News\\\") game randomized OR experiment OR \\\"pre-post\\\"\",\"language\":\"en\",\"database\":\"Crossref\"},{\"query\":\"(\\\"serious game\\\" OR \\\"educational game\\\" OR \\\"board game\\\" OR \\\"escape room\\\") AND (\\\"media literacy\\\" OR misinformation OR disinformation OR \\\"fake news\\\") AND (quasi-experimental OR \\\"pre-test\\\" OR \\\"post-test\\\" OR randomized)\",\"language\":\"en\",\"database\":\"OpenAlex\"},{\"query\":\"game-based intervention fake news resistance psychological inoculation journal article\",\"language\":\"en\",\"database\":\"Crossref\"},{\"query\":\"jogo educativo OR \\\"jogo sério\\\" OR \\\"jogo de tabuleiro\\\" desinformação OR \\\"fake news\\\" OR \\\"notícias falsas\\\" letramento midiático experimento OR \\\"pré e pós-teste\\\" OR quase-experimental\",\"language\":\"pt\",\"database\":\"SciELO\"},{\"query\":\"jogos de inoculação prebunking desinformação gamificação avaliação com participantes\",\"language\":\"pt\",\"database\":\"OpenAlex\"},{\"query\":\"Bad News game Roozenbeek van der Linden prebunking game peer-reviewed study replication cross-cultural\",\"language\":\"en\",\"database\":\"busca na web\"}],\"how_to_check\":[\"Tema: ler título e resumo de cada candidato e confirmar que a intervenção é um jogo voltado a desinformação/fake news/manipulação (não apenas menciona 'gamificação' de passagem).\",\"Formato de jogo: no resumo/método, confirmar que a intervenção é um jogo (digital, tabuleiro, cartas, escape room); descartar se for vídeo, texto, infográfico, quiz ou aula isolada.\",\"Período: conferir o ano de publicação no registro do DOI (Crossref/OpenAlex 'publication_year' e data da edição); descartar fora de 2018–2025 e anotar divergência entre data online e da edição.\",\"Tipo de publicação: verificar no Crossref/OpenAlex que o tipo é 'journal-article' e que a fonte é periódico (não repositório de preprint, anais, capítulo ou tese); confirmar no site do periódico se é revisado por pares.\",\"Estudo empírico com dados próprios: confirmar no resumo/método que há coleta de dados nova; descartar revisões, meta-análises, ensaios teóricos, reanálises de dados de estudos anteriores (checar termos como 'reanalysis', 'secondary analysis', 'pooled data', 'meta-analysis').\",\"Desenho: confirmar no resumo a presença de grupo de controle/randomização, pré e pós-teste ou comparação experimental/quase-experimental com participantes; descartar estudos só de desenho do jogo, de opinião ou de usabilidade sem avaliação de efeito.\",\"Exclusões temáticas: verificar título, resumo e palavras-chave por COVID-19, vaccine/vacina, election/eleição, partisan/política partidária (inclui Go Viral!); descartar quando esses temas forem o foco da intervenção ou da avaliação.\",\"Duplicatas: deduplicar por DOI; se houver versão preprint e versão de periódico, manter apenas a do periódico; usar DOI da versão publicada.\",\"Tamanho da amostra: copiar literalmente do resumo (ex.: 'N = 15.000'); se não houver número no resumo, registrar 'não informado no resumo'. Não usar números do corpo do artigo.\",\"Trecho literal: copiar do resumo recuperado (via Crossref/OpenAlex/site do periódico) entre aspas, sem paráfrase, e conferir que sustenta o achado principal; se o resumo estiver indisponível, marcar como pendente em vez de inventar.\",\"Metadados: validar DOI resolvendo em doi.org/Crossref e conferir título, autores, ano e periódico com o registro; descartar candidatos sem DOI verificável.\",\"Cobertura: se menos de 25 candidatos passarem, registrar quantos passaram e quais critérios eliminaram os demais, em vez de completar com itens que violem os critérios.\"]}",
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 1108,
+    "cache_read_input_tokens": 871,
+    "output_tokens": 2461,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 1108,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 2461,
+        "cache_read_input_tokens": 871,
+        "cache_creation_input_tokens": 1108,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1108
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 2,
+  "duration_s": 22.55,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "criteria": "[\"Tema: jogos educativos e jogos de inoculação (prebunking) contra desinformação/fake news/manipulação de informação (ex.: Bad News, Harmony Square, Cranky Uncle, Fake It to Make It, Cat Park, Escape…",
+        "queries": "[{\"query\": \"(\\\"inoculation\\\" OR \\\"prebunking\\\") AND (game OR gamified OR \\\"serious game\\\") AND (misinformation OR disinformation OR \\\"fake news\\\")\", \"language\": \"en\", \"database\": \"OpenAlex\"}, {\"query…",
+        "how_to_check": "[\"Tema: ler título e resumo de cada candidato e confirmar que a intervenção é um jogo voltado a desinformação/fake news/manipulação (não apenas menciona 'gamificação' de passagem).\", \"Formato de jogo…"
+      }
+    }
+  ]
+}

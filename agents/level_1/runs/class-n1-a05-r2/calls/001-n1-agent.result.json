@@ -1,0 +1,887 @@
+{
+  "structured": {
+    "items": [
+      {
+        "doi": "10.1098/rsos.250921",
+        "title": "Training human super-recognizers' detection and discrimination of AI-generated faces",
+        "authors": [
+          "Gray KLH",
+          "Davis JP",
+          "Bunce C",
+          "Noyes E",
+          "Ritchie KL"
+        ],
+        "year": 2025,
+        "venue": "Royal Society Open Science",
+        "study_type": "Estudo experimental com participantes humanos (artigo de pesquisa)",
+        "method": "Dois experimentos de detecção de rostos gerados por GAN, comparando super-reconhecedores e controles com e sem treinamento sobre artefatos de renderização",
+        "sample_size": "SRs (total N = 283); controls (total N = 381)",
+        "main_finding": "O treinamento que aponta artefatos de renderização melhorou o desempenho de super-reconhecedores e de controles na detecção de rostos gerados por IA.",
+        "abstract_quote": "Trained SRs and controls had significantly better performance than those without training"
+      },
+      {
+        "doi": "10.1371/journal.pone.0332692",
+        "title": "Voice clones sound realistic but not (yet) hyperrealistic",
+        "authors": [
+          "Lavan N",
+          "Irvine M",
+          "Rosi V",
+          "McGettigan C"
+        ],
+        "year": 2025,
+        "venue": "PLoS ONE",
+        "study_type": "Estudo experimental com ouvintes (artigo de pesquisa)",
+        "method": "Ouvintes avaliaram vozes humanas, clones de voz e vozes geradas por modelo de IA quanto a realismo, identificação humano/IA, confiabilidade e dominância",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Clones de voz podem soar tão reais quanto vozes humanas e são difíceis de distinguir delas, mas não mostram efeito de hiper-realismo.",
+        "abstract_quote": "voice clones can sound as real as human voices"
+      },
+      {
+        "doi": "10.3389/frai.2025.1568267",
+        "title": "Training humans for synthetic face image detection",
+        "authors": [
+          "Rehman RS",
+          "Meier E",
+          "Ibsen M",
+          "Rathgeb C",
+          "Nichols R",
+          "Busch C"
+        ],
+        "year": 2025,
+        "venue": "Frontiers in Artificial Intelligence",
+        "study_type": "Estudo experimental online com participantes humanos",
+        "method": "Grupo experimental treinado versus grupo controle em tarefa de detecção de imagens de rostos sintéticos",
+        "sample_size": "we recruited 184 participants",
+        "main_finding": "O treinamento melhorou moderadamente a capacidade humana de detectar imagens de rostos sintéticos.",
+        "abstract_quote": "training may moderately enhance human capabilities to detect synthetic face images"
+      },
+      {
+        "doi": "10.1186/s41235-025-00683-w",
+        "title": "AI-generated images of familiar faces are indistinguishable from real photographs",
+        "authors": [
+          "Kramer RSS",
+          "Jones AL",
+          "Fitousi D",
+          "Tree JJ"
+        ],
+        "year": 2025,
+        "venue": "Cognitive Research: Principles and Implications",
+        "study_type": "Estudo experimental com participantes humanos (quatro experimentos)",
+        "method": "Observadores julgaram imagens de rostos fictícios e de celebridades geradas por ChatGPT e DALL·E, com e sem fotos reais de referência e com teste de familiaridade prévia",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Imagens de rostos familiares geradas por IA não puderam ser distinguidas de fotografias reais pelos observadores.",
+        "abstract_quote": "could not be distinguished from real photographs"
+      },
+      {
+        "doi": "10.3390/brainsci13091233",
+        "title": "Real and Deepfake Face Recognition: An EEG Study on Cognitive and Emotive Implications",
+        "authors": [
+          "Tarchi P",
+          "Lanini MC",
+          "Frassineti L",
+          "Lanatà A"
+        ],
+        "year": 2023,
+        "venue": "Brain Sciences",
+        "study_type": "Estudo experimental com medida fisiológica (EEG)",
+        "method": "EEG de 21 canais durante tarefa visual de discriminação entre rostos reais e deepfake com expressões positivas, negativas e neutras; análise de espectro de potência e ERP",
+        "sample_size": "data were collected from 23 healthy participants",
+        "main_finding": "As medidas de EEG, em especial os ERPs, sugerem que o cérebro responde de modo diferente a rostos reais e deepfake. O resumo não informa a acurácia comportamental dos participantes.",
+        "abstract_quote": "ERP analysis hinted at the possibility of discriminating between real and synthetic faces."
+      },
+      {
+        "doi": "10.1038/s41598-025-94170-3",
+        "title": "People are poorly equipped to detect AI-powered voice clones",
+        "authors": [
+          "Barrington S",
+          "Cooper EA",
+          "Farid H"
+        ],
+        "year": 2025,
+        "venue": "Scientific Reports",
+        "study_type": "Estudos perceptuais com participantes humanos",
+        "method": "Série de estudos perceptuais em que participantes julgaram se vozes de IA correspondem à identidade do locutor real e se uma gravação foi gerada por IA",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Os participantes não conseguem identificar de forma consistente gravações de vozes geradas por IA, e muitas vezes julgam que o clone tem a identidade do locutor real.",
+        "abstract_quote": "participants cannot consistently identify recordings of AI-generated voices"
+      },
+      {
+        "doi": "10.1038/s41598-023-42802-x",
+        "title": "Deepfake smiles matter less—the psychological and neural impact of presumed AI-generated faces",
+        "authors": [
+          "Eiserbeck A",
+          "Maier M",
+          "Baum J",
+          "Abdel Rahman R"
+        ],
+        "year": 2023,
+        "venue": "Scientific Reports",
+        "study_type": "Estudo experimental com medida fisiológica (EEG) e avaliações subjetivas",
+        "method": "Registro de EEG e avaliação de rostos com expressões positiva, neutra e negativa rotulados como reais ou falsos (deepfake)",
+        "sample_size": "participants' (N = 30)",
+        "main_finding": "Sorrisos rotulados como falsos (deepfake) foram avaliados como menos positivos e geraram respostas neurais mais fracas do que sorrisos rotulados como reais.",
+        "abstract_quote": "Smiling faces marked as fake appeared less positive"
+      },
+      {
+        "doi": "10.1177/09567976231207095",
+        "title": "AI Hyperrealism: Why AI Faces Are Perceived as More Real Than Human Ones",
+        "authors": [
+          "Miller EJ",
+          "Steward BA",
+          "Witkower Z",
+          "Sutherland CAM",
+          "Krumhuber EG",
+          "Dawel A"
+        ],
+        "year": 2023,
+        "venue": "Psychological Science",
+        "study_type": "Estudo experimental com participantes humanos (dois experimentos)",
+        "method": "Julgamentos de rostos de IA versus rostos humanos, análise de espaço facial, relatos dos participantes e aprendizado de máquina para identificar atributos mal interpretados",
+        "sample_size": "(N = 124 adults) no Experimento 1 e (N = 610 adults) no Experimento 2",
+        "main_finding": "Rostos brancos gerados por IA foram julgados humanos com mais frequência do que rostos humanos reais (hiper-realismo de IA), e os participantes mais propensos a erro eram os mais confiantes.",
+        "abstract_quote": "White AI faces are judged as human more often than actual human faces"
+      },
+      {
+        "doi": "10.1073/pnas.2120481119",
+        "title": "AI-synthesized faces are indistinguishable from real faces and more trustworthy",
+        "authors": [
+          "Nightingale SJ",
+          "Farid H"
+        ],
+        "year": 2022,
+        "venue": "Proceedings of the National Academy of Sciences",
+        "study_type": "Estudo experimental com participantes humanos (relato breve)",
+        "method": "Experimentos online de discriminação entre rostos sintéticos (StyleGAN2) e reais e de avaliação de confiabilidade dos rostos",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Rostos sintetizados por IA são indistinguíveis de rostos reais e foram avaliados como mais confiáveis.",
+        "abstract_quote": "capable of creating faces that are indistinguishable"
+      },
+      {
+        "doi": "10.3389/frai.2025.1707336",
+        "title": "What you see is not what you get anymore: a mixed-methods approach on human perception of AI-generated images",
+        "authors": [
+          "Högemann M",
+          "Betke J",
+          "Thomas O"
+        ],
+        "year": 2025,
+        "venue": "Frontiers in Artificial Intelligence",
+        "study_type": "Survey online com método misto (quantitativo e qualitativo)",
+        "method": "Participantes classificaram 50 imagens (25 reais e 25 geradas por IA, de cinco modelos texto-imagem), indicaram confiança e justificaram as respostas",
+        "sample_size": "A total of 104 participants took part in an online survey",
+        "main_finding": "Os participantes identificaram corretamente as imagens geradas por IA em 63,7% dos casos, com desempenho muito pior para as imagens de modelos mais recentes.",
+        "abstract_quote": "participants correctly identified AI-generated images in 63.7% of cases overall"
+      },
+      {
+        "doi": "10.1038/s41598-025-91545-4",
+        "title": "Examining the role of compression in influencing AI-generated image authenticity",
+        "authors": [
+          "Fang X",
+          "Chen P",
+          "Wang M",
+          "Wang S"
+        ],
+        "year": 2025,
+        "venue": "Scientific Reports",
+        "study_type": "Estudo experimental com julgamentos subjetivos humanos",
+        "method": "Conjunto de 500 imagens geradas por IA e 500 naturais, com quatro níveis de compressão VVC, e coleta de julgamentos subjetivos de autenticidade",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Quanto maior a compressão, menor a acurácia humana em identificar imagens geradas por IA.",
+        "abstract_quote": "with an increase in compression distortion, the accuracy of human vision in determining the AIGIs descends"
+      },
+      {
+        "doi": "10.1016/j.visres.2022.108079",
+        "title": "Are you for real? Decoding realistic AI-generated faces from neural activity",
+        "authors": [
+          "Moshel ML",
+          "Robinson AK",
+          "Carlson TA",
+          "Grootswagers T"
+        ],
+        "year": 2022,
+        "venue": "Vision Research",
+        "study_type": "Estudo experimental com medida fisiológica (atividade neural) e tarefa comportamental",
+        "method": "Registro de atividade neural durante a classificação de rostos reais e gerados por IA, com decodificação multivariada",
+        "sample_size": "não informado no resumo",
+        "main_finding": "A atividade neural permitiu decodificar com confiabilidade rostos gerados por IA, embora o desempenho comportamental ficasse próximo do acaso.",
+        "abstract_quote": "we could reliably decode AI generated faces using people's neural activity"
+      },
+      {
+        "doi": "10.1038/s42003-024-06372-6",
+        "title": "Cortical-striatal brain network distinguishes deepfake from real speaker identity",
+        "authors": [
+          "Roswandowitz C",
+          "Kathiresan T",
+          "Pellegrino E",
+          "Dellwo V",
+          "Frühholz S"
+        ],
+        "year": 2024,
+        "venue": "Communications Biology",
+        "study_type": "Estudo experimental com medida fisiológica (neuroimagem)",
+        "method": "Tarefa de correspondência de identidade com vozes reais e deepfake, com análises cerebrais univariadas e multivariadas",
+        "sample_size": "we test the neurocognitive sensitivity of 25 participants",
+        "main_finding": "Na tarefa de correspondência de identidade, os participantes tiveram desempenho intermediário com vozes deepfake, e uma rede cortical-estriatal distinguiu vozes deepfake de vozes reais.",
+        "abstract_quote": "During an identity matching task, participants show intermediate performance with deepfake voices"
+      },
+      {
+        "doi": "10.1098/rsos.231214",
+        "title": "Deepfake detection with and without content warnings",
+        "authors": [
+          "Lewis A",
+          "Vu P",
+          "Duch RM",
+          "Chowdhury A"
+        ],
+        "year": 2023,
+        "venue": "Royal Society Open Science",
+        "study_type": "Experimento com participantes humanos",
+        "method": "Espectadores expostos a um conjunto de cinco vídeos contendo um deepfake, comparados com controles, com e sem aviso de que um dos vídeos era falso",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Apenas 21,6% dos respondentes identificaram corretamente o deepfake como o único vídeo inautêntico, o que mostra baixa capacidade de detecção.",
+        "abstract_quote": "only 21.6% of respondents correctly identify the deepfake as the only inauthentic video"
+      },
+      {
+        "doi": "10.1371/journal.pone.0285333",
+        "title": "Warning: Humans cannot reliably detect speech deepfakes",
+        "authors": [
+          "Mai KT",
+          "Bray S",
+          "Davies T",
+          "Griffin LD"
+        ],
+        "year": 2023,
+        "venue": "PLoS ONE",
+        "study_type": "Experimento online de detecção com participantes humanos",
+        "method": "Participantes classificaram áudios genuínos e deepfake em inglês e mandarim, com e sem exemplos de deepfakes de fala fornecidos antes",
+        "sample_size": "n = 529 individuals",
+        "main_finding": "Os ouvintes identificaram corretamente os deepfakes de fala em apenas cerca de 73% das vezes, e a detecção humana é pouco confiável.",
+        "abstract_quote": "detection capability is unreliable. Listeners only correctly spotted the deepfakes 73% of the time"
+      },
+      {
+        "doi": "10.1073/pnas.2110013119",
+        "title": "Deepfake detection by human crowds, machines, and machine-informed crowds",
+        "authors": [
+          "Groh M",
+          "Epstein Z",
+          "Firestone C",
+          "Picard R"
+        ],
+        "year": 2022,
+        "venue": "Proceedings of the National Academy of Sciences",
+        "study_type": "Dois estudos online com participantes humanos (com intervenções aleatorizadas pré-registradas)",
+        "method": "Participantes distinguiram vídeos autênticos de deepfakes, e o desempenho foi comparado ao de um modelo de visão computacional e a um modelo combinado de humanos informados pela máquina",
+        "sample_size": "In two online studies with 15,016 participants",
+        "main_finding": "Humanos e um modelo de detecção de ponta tiveram acurácia semelhante, mas cometeram erros de tipos diferentes.",
+        "abstract_quote": "find them similarly accurate, while making different kinds of mistakes"
+      },
+      {
+        "doi": "10.1038/s41598-023-39944-3",
+        "title": "Deepfakes and scientific knowledge dissemination",
+        "authors": [
+          "Doss C",
+          "Mondschein J",
+          "Shu D",
+          "Wolfson T",
+          "Kopecky D",
+          "Fitton-Kane VA",
+          "Bush L",
+          "Tucker C"
+        ],
+        "year": 2023,
+        "venue": "Scientific Reports",
+        "study_type": "Survey com tarefa de detecção em amostras de populações",
+        "method": "Participantes de diferentes populações (incluindo estudantes e educadores) assistiram a vídeos de deepfake sobre mudança climática e a vídeos autênticos e disseram se eram reais",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Entre 27% e 50% dos indivíduos não conseguem distinguir vídeos autênticos de deepfakes.",
+        "abstract_quote": "We found that 27-50% of individuals cannot distinguish authentic videos from deepfakes."
+      },
+      {
+        "doi": "10.1016/j.isci.2021.103364",
+        "title": "Fooled twice: People cannot detect deepfakes but think they can",
+        "authors": [
+          "Köbis NC",
+          "Doležalová B",
+          "Soraperra I"
+        ],
+        "year": 2021,
+        "venue": "iScience",
+        "study_type": "Experimento comportamental pré-registrado",
+        "method": "Participantes viram vídeos autênticos e deepfakes, indicaram se eram falsos e declararam confiança; condições de alerta e de incentivo financeiro",
+        "sample_size": "In a pre-registered behavioral experiment (N = 210)",
+        "main_finding": "As pessoas não detectam deepfakes de forma confiável, mas acreditam que conseguem, e nem o alerta nem o incentivo financeiro melhoraram a detecção.",
+        "abstract_quote": "people cannot reliably detect deepfakes"
+      },
+      {
+        "doi": "10.1016/j.chb.2023.107917",
+        "title": "Providing detection strategies to improve human detection of deepfakes: An experimental study",
+        "authors": [
+          "Somoray K",
+          "Miller DJ"
+        ],
+        "year": 2023,
+        "venue": "Computers in Human Behavior",
+        "study_type": "Experimento online pré-registrado",
+        "method": "Participantes classificaram 20 vídeos como reais ou deepfake e avaliaram sua confiança; metade recebeu estratégias de pistas visuais e a outra metade foi controle",
+        "sample_size": "N = 454, Mage = 37.19, SDage = 13.25, males = 57.5%",
+        "main_finding": "Fornecer estratégias de detecção não alterou a acurácia nem a confiança, e a acurácia média (cerca de 61%) ficou acima do acaso.",
+        "abstract_quote": "The detection strategies intervention did not impact detection accuracy or detection confidence"
+      },
+      {
+        "doi": "10.1093/cybsec/tyad011",
+        "title": "Testing human ability to detect 'deepfake' images of human faces",
+        "authors": [
+          "Bray SD",
+          "Johnson SD",
+          "Kleinberg B"
+        ],
+        "year": 2023,
+        "venue": "Journal of Cybersecurity",
+        "study_type": "Survey online com alocação aleatória em quatro grupos",
+        "method": "Participantes rotularam imagens de rostos reais e deepfake (StyleGAN2) em um grupo controle e em três grupos com intervenções de auxílio",
+        "sample_size": "N = 280",
+        "main_finding": "A acurácia de detecção ficou pouco acima do acaso e nenhuma das intervenções a melhorou de forma significativa.",
+        "abstract_quote": "Overall detection accuracy was only just above chance and none of the interventions significantly improved this."
+      },
+      {
+        "doi": "10.1016/j.isci.2022.105441",
+        "title": "On the realness of people who do not exist: The social processing of artificial faces",
+        "authors": [
+          "Tucciarelli R",
+          "Vehar N",
+          "Chandaria S",
+          "Tsakiris M"
+        ],
+        "year": 2022,
+        "venue": "iScience",
+        "study_type": "Três estudos comportamentais com participantes humanos",
+        "method": "Testes de discriminação entre rostos GAN e reais, além de medidas comportamentais de conformidade social e confiança",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Rostos GAN foram percebidos como reais com mais frequência do que rostos reais, e saber que rostos GAN existem reduziu a confiança social.",
+        "abstract_quote": "GAN faces were more likely to be perceived as real than REAL faces"
+      },
+      {
+        "doi": "10.3390/jimaging11070227",
+        "title": "Interpretation of AI-Generated vs. Human-Made Images",
+        "authors": [
+          "Velásquez-Salamanca D",
+          "Martín-Pascual MÁ",
+          "Andreu-Sánchez C"
+        ],
+        "year": 2025,
+        "venue": "Journal of Imaging",
+        "study_type": "Estudo experimental com participantes humanos",
+        "method": "Participantes avaliaram 32 imagens (24 geradas por IA e 8 feitas por humanos) quanto à origem percebida, ao realismo e à credibilidade",
+        "sample_size": "161 participants-71 visual professionals and 90 non-professionals",
+        "main_finding": "Imagens geradas por IA foram com frequência classificadas erroneamente como feitas por humanos.",
+        "abstract_quote": "AI-generated images are frequently misclassified as human-made"
+      },
+      {
+        "doi": "10.3390/jemr18060061",
+        "title": "AI Images vs. Real Photographs: Investigating Visual Recognition and Perception",
+        "authors": [
+          "Osińska V",
+          "Kortas W",
+          "Szalach A",
+          "Welter M"
+        ],
+        "year": 2025,
+        "venue": "Journal of Eye Movement Research",
+        "study_type": "Estudo experimental com rastreamento ocular",
+        "method": "Rastreamento ocular enquanto participantes julgavam 12 imagens geradas por IA e 12 fotografias reais em seis categorias (inclusive rostos), seguido de explicações escritas",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Imagens de animais de estimação geradas por IA e fotografias reais de arquitetura foram as mais fáceis de identificar.",
+        "abstract_quote": "The results show that AI images of pets and real photographs of architecture were the easiest to identify."
+      },
+      {
+        "doi": "10.1186/s41235-025-00648-z",
+        "title": "Specific media literacy tips improve AI-generated visual misinformation discernment",
+        "authors": [
+          "Guo S",
+          "Swire-Thompson B",
+          "Hu X"
+        ],
+        "year": 2025,
+        "venue": "Cognitive Research: Principles and Implications",
+        "study_type": "Ensaio randomizado pré-registrado com participantes humanos",
+        "method": "Participantes receberam dicas específicas de alfabetização midiática sobre imagens geradas por IA, dicas gerais ou nenhuma dica, e avaliaram a veracidade de conteúdos",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Dicas específicas reduziram a crença em desinformação visual gerada por IA mais do que dicas gerais.",
+        "abstract_quote": "specific tips reduced belief in AIVM more than general tips."
+      },
+      {
+        "doi": "10.1089/cyber.2020.0149",
+        "title": "Deepfakes Unmasked: The Effects of Information Priming and Bullshit Receptivity on Deepfake Recognition and Sharing Intention",
+        "authors": [
+          "Iacobucci S",
+          "De Cicco R",
+          "Michetti F",
+          "Palumbo R",
+          "Pagliaro S"
+        ],
+        "year": 2021,
+        "venue": "Cyberpsychology, Behavior, and Social Networking",
+        "study_type": "Ensaio controlado randomizado",
+        "method": "Teste de se a informação prévia (priming) sobre deepfakes melhora o reconhecimento de deepfakes, com a receptividade a 'bullshit' como moderadora, e análise de mediação serial",
+        "sample_size": "não informado no resumo",
+        "main_finding": "O priming sobre deepfakes pode funcionar, mas apenas para pessoas com menor suscetibilidade a acreditar em afirmações deliberadamente enganosas.",
+        "abstract_quote": "but only for people with a lower susceptibility to believe willfully misleading claims"
+      }
+    ],
+    "search_notes": "Entreguei 25 itens, não mais. Alguns têm ressalvas, listadas abaixo.\n\n**Como busquei**\n- A API do OpenAlex devolveu HTTP 429 (limite de requisições) em todas as tentativas, então não pude usá-la.\n- O Crossref funcionou só em parte. Também devolveu 429 em várias consultas, e os registros que abri não traziam o resumo.\n- A fonte principal foi a API do Europe PMC, que traz o resumo, o tipo de publicação e o DOI. Completei com buscas na web, que serviram só para achar candidatos. Também usei as páginas institucionais de Somoray & Miller (JCU) e de Bray et al. (Tilburg).\n- Fiz buscas em inglês. Não fiz buscas em português nem no SciELO. Não achei nada em português no Europe PMC.\n\n**Limites de exatidão que você precisa saber**\n- Não abri a página do DOI no navegador para cada artigo. Título, autores, ano, periódico e DOI vêm do registro do Europe PMC (ou, para Somoray & Miller e Bray et al., das páginas institucionais e do Crossref).\n- Os resumos passaram por uma ferramenta de leitura que resume o texto e só devolve trechos curtos. Por isso copiei trechos literais curtos e não o resumo inteiro. Cada trecho e cada tamanho de amostra passou por uma segunda consulta de checagem, em que a ferramenta confirmou que a sequência aparece no resumo. Mesmo assim, confira as aspas contra o resumo original antes de citar.\n- Os trechos são fragmentos do resumo e podem começar ou terminar no meio de uma frase. Retirei as marcas HTML (<i>) do resumo. Isso afeta, por exemplo, \"(N = 124 adults)\", \"N = 210\" e \"N = 454\".\n- Os nomes dos autores estão como constam no Europe PMC, em formato abreviado (por exemplo, \"Gray KLH\"). Para Somoray, Bray, Köbis, Mai, Groh, Lewis, Nightingale e Tucciarelli, a lista segue os registros consultados.\n- Nos itens \"Lavan\", \"Barrington\" e \"Nightingale\", o 'tipo de estudo' e o 'método' vêm do resumo e de resumos secundários na web. Os dados de amostra, quando ausentes do resumo, aparecem como \"não informado no resumo\".\n\n**Itens incluídos com ressalva**\n- Groh et al. 2022 (PNAS): o resumo não menciona política. Não verifiquei o texto completo, e há risco de parte dos vídeos usar figuras políticas.\n- Doss et al. 2023: os vídeos são sobre mudança climática. O resumo cita desinformação sobre vacinas apenas de passagem, então não o tratei como estudo de saúde. O resumo diz só que a amostra é \"nationally representative of three populations\", sem N total.\n- Tucciarelli et al. 2022: o resumo cita \"political propaganda\" só como contexto geral, não como foco. O resumo diz apenas \"three studies\", sem N.\n- Guo et al. 2025: o resumo não diz o tema das manchetes e imagens (política, saúde ou outro). Não consegui confirmar.\n- Lewis et al. 2023: o resumo não cita política, mas não confirmei qual era o conteúdo do vídeo deepfake.\n- Iacobucci et al. 2021: o trecho é uma condição (\"mas só para pessoas com...\"), e o resumo não traz amostra. O achado depende dessa frase.\n- Osińska et al. 2025 e Fang et al. 2025 tratam de imagens geradas por IA em geral (Osińska inclui rostos). Não têm N de participantes no resumo.\n- Tarchi 2023, Moshel 2022, Eiserbeck 2023 e Roswandowitz 2024 usam medidas fisiológicas ou neurais. No Tarchi, o resumo não informa a acurácia comportamental. No Nightingale, o N de participantes não aparece no resumo.\n\n**Excluídos, com o motivo**\n- Ahmed & Chua 2023 (Heliyon): o estímulo era um deepfake do Putin, ou seja, político.\n- Groh et al. 2024 (Nat. Commun.): deepfakes de discurso político.\n- Clark & Lewandowsky: o registro do Europe PMC dá o ano de 2026 (fora do período), e o resumo cita eleições.\n- Pehlivanoglu et al.: publicado em 2026.\n- Tang et al. 2025 (IJHCI): é estudo de entrevistas qualitativas, fora dos métodos pedidos. Só consegui ler o resumo por resumo secundário.\n- Nas & de Kleijn 2024 (Telematics and Informatics): o resumo não estava acessível, então não pude conferir amostra nem trecho.\n- Jin et al. (New Media & Society): a página da SAGE retornou 403, então não confirmei resumo nem tema.\n- Hwang et al. 2021 e Abraham et al. 2022: não consegui firmar o encaixe no tema nem nos critérios.\n- Zhang et al. 2025 (fNIRS): mede resposta cerebral a vozes sintéticas, mas não trata de credibilidade, e o resumo cita saúde mental como aplicação.\n- Bruza et al. 2025, Van der Biest et al. 2025 e Guerouaou et al. 2022: o tema é só tangente (contextualidade quântica, deepfakes como estímulo e aceitabilidade ética).\n- Outras exclusões: pré-publicações (Ivory, Seabrooke e Dunn, entre outras), revisões e meta-análises (Somoray 2025, Ching 2025, Kang & Valadez), trabalhos de congresso (Frank et al., Interspeech 2025, EMBC) e resumos do Journal of Vision (Josephs, Fosco). Também saíram os estudos de algoritmos de detecção e os de saúde.\n\n**Cobertura**\n- A lista não é exaustiva. Não consegui consultar OpenAlex, Scopus nem Web of Science, e artigos de periódicos fora do PubMed ou do Europe PMC provavelmente ficaram de fora.\""
+  },
+  "text": "{\"items\":[{\"doi\":\"10.1098/rsos.250921\",\"title\":\"Training human super-recognizers' detection and discrimination of AI-generated faces\",\"authors\":[\"Gray KLH\",\"Davis JP\",\"Bunce C\",\"Noyes E\",\"Ritchie KL\"],\"year\":2025,\"venue\":\"Royal Society Open Science\",\"study_type\":\"Estudo experimental com participantes humanos (artigo de pesquisa)\",\"method\":\"Dois experimentos de detecção de rostos gerados por GAN, comparando super-reconhecedores e controles com e sem treinamento sobre artefatos de renderização\",\"sample_size\":\"SRs (total N = 283); controls (total N = 381)\",\"main_finding\":\"O treinamento que aponta artefatos de renderização melhorou o desempenho de super-reconhecedores e de controles na detecção de rostos gerados por IA.\",\"abstract_quote\":\"Trained SRs and controls had significantly better performance than those without training\"},{\"doi\":\"10.1371/journal.pone.0332692\",\"title\":\"Voice clones sound realistic but not (yet) hyperrealistic\",\"authors\":[\"Lavan N\",\"Irvine M\",\"Rosi V\",\"McGettigan C\"],\"year\":2025,\"venue\":\"PLoS ONE\",\"study_type\":\"Estudo experimental com ouvintes (artigo de pesquisa)\",\"method\":\"Ouvintes avaliaram vozes humanas, clones de voz e vozes geradas por modelo de IA quanto a realismo, identificação humano/IA, confiabilidade e dominância\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Clones de voz podem soar tão reais quanto vozes humanas e são difíceis de distinguir delas, mas não mostram efeito de hiper-realismo.\",\"abstract_quote\":\"voice clones can sound as real as human voices\"},{\"doi\":\"10.3389/frai.2025.1568267\",\"title\":\"Training humans for synthetic face image detection\",\"authors\":[\"Rehman RS\",\"Meier E\",\"Ibsen M\",\"Rathgeb C\",\"Nichols R\",\"Busch C\"],\"year\":2025,\"venue\":\"Frontiers in Artificial Intelligence\",\"study_type\":\"Estudo experimental online com participantes humanos\",\"method\":\"Grupo experimental treinado versus grupo controle em tarefa de detecção de imagens de rostos sintéticos\",\"sample_size\":\"we recruited 184 participants\",\"main_finding\":\"O treinamento melhorou moderadamente a capacidade humana de detectar imagens de rostos sintéticos.\",\"abstract_quote\":\"training may moderately enhance human capabilities to detect synthetic face images\"},{\"doi\":\"10.1186/s41235-025-00683-w\",\"title\":\"AI-generated images of familiar faces are indistinguishable from real photographs\",\"authors\":[\"Kramer RSS\",\"Jones AL\",\"Fitousi D\",\"Tree JJ\"],\"year\":2025,\"venue\":\"Cognitive Research: Principles and Implications\",\"study_type\":\"Estudo experimental com participantes humanos (quatro experimentos)\",\"method\":\"Observadores julgaram imagens de rostos fictícios e de celebridades geradas por ChatGPT e DALL·E, com e sem fotos reais de referência e com teste de familiaridade prévia\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Imagens de rostos familiares geradas por IA não puderam ser distinguidas de fotografias reais pelos observadores.\",\"abstract_quote\":\"could not be distinguished from real photographs\"},{\"doi\":\"10.3390/brainsci13091233\",\"title\":\"Real and Deepfake Face Recognition: An EEG Study on Cognitive and Emotive Implications\",\"authors\":[\"Tarchi P\",\"Lanini MC\",\"Frassineti L\",\"Lanatà A\"],\"year\":2023,\"venue\":\"Brain Sciences\",\"study_type\":\"Estudo experimental com medida fisiológica (EEG)\",\"method\":\"EEG de 21 canais durante tarefa visual de discriminação entre rostos reais e deepfake com expressões positivas, negativas e neutras; análise de espectro de potência e ERP\",\"sample_size\":\"data were collected from 23 healthy participants\",\"main_finding\":\"As medidas de EEG, em especial os ERPs, sugerem que o cérebro responde de modo diferente a rostos reais e deepfake. O resumo não informa a acurácia comportamental dos participantes.\",\"abstract_quote\":\"ERP analysis hinted at the possibility of discriminating between real and synthetic faces.\"},{\"doi\":\"10.1038/s41598-025-94170-3\",\"title\":\"People are poorly equipped to detect AI-powered voice clones\",\"authors\":[\"Barrington S\",\"Cooper EA\",\"Farid H\"],\"year\":2025,\"venue\":\"Scientific Reports\",\"study_type\":\"Estudos perceptuais com participantes humanos\",\"method\":\"Série de estudos perceptuais em que participantes julgaram se vozes de IA correspondem à identidade do locutor real e se uma gravação foi gerada por IA\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Os participantes não conseguem identificar de forma consistente gravações de vozes geradas por IA, e muitas vezes julgam que o clone tem a identidade do locutor real.\",\"abstract_quote\":\"participants cannot consistently identify recordings of AI-generated voices\"},{\"doi\":\"10.1038/s41598-023-42802-x\",\"title\":\"Deepfake smiles matter less—the psychological and neural impact of presumed AI-generated faces\",\"authors\":[\"Eiserbeck A\",\"Maier M\",\"Baum J\",\"Abdel Rahman R\"],\"year\":2023,\"venue\":\"Scientific Reports\",\"study_type\":\"Estudo experimental com medida fisiológica (EEG) e avaliações subjetivas\",\"method\":\"Registro de EEG e avaliação de rostos com expressões positiva, neutra e negativa rotulados como reais ou falsos (deepfake)\",\"sample_size\":\"participants' (N = 30)\",\"main_finding\":\"Sorrisos rotulados como falsos (deepfake) foram avaliados como menos positivos e geraram respostas neurais mais fracas do que sorrisos rotulados como reais.\",\"abstract_quote\":\"Smiling faces marked as fake appeared less positive\"},{\"doi\":\"10.1177/09567976231207095\",\"title\":\"AI Hyperrealism: Why AI Faces Are Perceived as More Real Than Human Ones\",\"authors\":[\"Miller EJ\",\"Steward BA\",\"Witkower Z\",\"Sutherland CAM\",\"Krumhuber EG\",\"Dawel A\"],\"year\":2023,\"venue\":\"Psychological Science\",\"study_type\":\"Estudo experimental com participantes humanos (dois experimentos)\",\"method\":\"Julgamentos de rostos de IA versus rostos humanos, análise de espaço facial, relatos dos participantes e aprendizado de máquina para identificar atributos mal interpretados\",\"sample_size\":\"(N = 124 adults) no Experimento 1 e (N = 610 adults) no Experimento 2\",\"main_finding\":\"Rostos brancos gerados por IA foram julgados humanos com mais frequência do que rostos humanos reais (hiper-realismo de IA), e os participantes mais propensos a erro eram os mais confiantes.\",\"abstract_quote\":\"White AI faces are judged as human more often than actual human faces\"},{\"doi\":\"10.1073/pnas.2120481119\",\"title\":\"AI-synthesized faces are indistinguishable from real faces and more trustworthy\",\"authors\":[\"Nightingale SJ\",\"Farid H\"],\"year\":2022,\"venue\":\"Proceedings of the National Academy of Sciences\",\"study_type\":\"Estudo experimental com participantes humanos (relato breve)\",\"method\":\"Experimentos online de discriminação entre rostos sintéticos (StyleGAN2) e reais e de avaliação de confiabilidade dos rostos\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Rostos sintetizados por IA são indistinguíveis de rostos reais e foram avaliados como mais confiáveis.\",\"abstract_quote\":\"capable of creating faces that are indistinguishable\"},{\"doi\":\"10.3389/frai.2025.1707336\",\"title\":\"What you see is not what you get anymore: a mixed-methods approach on human perception of AI-generated images\",\"authors\":[\"Högemann M\",\"Betke J\",\"Thomas O\"],\"year\":2025,\"venue\":\"Frontiers in Artificial Intelligence\",\"study_type\":\"Survey online com método misto (quantitativo e qualitativo)\",\"method\":\"Participantes classificaram 50 imagens (25 reais e 25 geradas por IA, de cinco modelos texto-imagem), indicaram confiança e justificaram as respostas\",\"sample_size\":\"A total of 104 participants took part in an online survey\",\"main_finding\":\"Os participantes identificaram corretamente as imagens geradas por IA em 63,7% dos casos, com desempenho muito pior para as imagens de modelos mais recentes.\",\"abstract_quote\":\"participants correctly identified AI-generated images in 63.7% of cases overall\"},{\"doi\":\"10.1038/s41598-025-91545-4\",\"title\":\"Examining the role of compression in influencing AI-generated image authenticity\",\"authors\":[\"Fang X\",\"Chen P\",\"Wang M\",\"Wang S\"],\"year\":2025,\"venue\":\"Scientific Reports\",\"study_type\":\"Estudo experimental com julgamentos subjetivos humanos\",\"method\":\"Conjunto de 500 imagens geradas por IA e 500 naturais, com quatro níveis de compressão VVC, e coleta de julgamentos subjetivos de autenticidade\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Quanto maior a compressão, menor a acurácia humana em identificar imagens geradas por IA.\",\"abstract_quote\":\"with an increase in compression distortion, the accuracy of human vision in determining the AIGIs descends\"},{\"doi\":\"10.1016/j.visres.2022.108079\",\"title\":\"Are you for real? Decoding realistic AI-generated faces from neural activity\",\"authors\":[\"Moshel ML\",\"Robinson AK\",\"Carlson TA\",\"Grootswagers T\"],\"year\":2022,\"venue\":\"Vision Research\",\"study_type\":\"Estudo experimental com medida fisiológica (atividade neural) e tarefa comportamental\",\"method\":\"Registro de atividade neural durante a classificação de rostos reais e gerados por IA, com decodificação multivariada\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"A atividade neural permitiu decodificar com confiabilidade rostos gerados por IA, embora o desempenho comportamental ficasse próximo do acaso.\",\"abstract_quote\":\"we could reliably decode AI generated faces using people's neural activity\"},{\"doi\":\"10.1038/s42003-024-06372-6\",\"title\":\"Cortical-striatal brain network distinguishes deepfake from real speaker identity\",\"authors\":[\"Roswandowitz C\",\"Kathiresan T\",\"Pellegrino E\",\"Dellwo V\",\"Frühholz S\"],\"year\":2024,\"venue\":\"Communications Biology\",\"study_type\":\"Estudo experimental com medida fisiológica (neuroimagem)\",\"method\":\"Tarefa de correspondência de identidade com vozes reais e deepfake, com análises cerebrais univariadas e multivariadas\",\"sample_size\":\"we test the neurocognitive sensitivity of 25 participants\",\"main_finding\":\"Na tarefa de correspondência de identidade, os participantes tiveram desempenho intermediário com vozes deepfake, e uma rede cortical-estriatal distinguiu vozes deepfake de vozes reais.\",\"abstract_quote\":\"During an identity matching task, participants show intermediate performance with deepfake voices\"},{\"doi\":\"10.1098/rsos.231214\",\"title\":\"Deepfake detection with and without content warnings\",\"authors\":[\"Lewis A\",\"Vu P\",\"Duch RM\",\"Chowdhury A\"],\"year\":2023,\"venue\":\"Royal Society Open Science\",\"study_type\":\"Experimento com participantes humanos\",\"method\":\"Espectadores expostos a um conjunto de cinco vídeos contendo um deepfake, comparados com controles, com e sem aviso de que um dos vídeos era falso\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Apenas 21,6% dos respondentes identificaram corretamente o deepfake como o único vídeo inautêntico, o que mostra baixa capacidade de detecção.\",\"abstract_quote\":\"only 21.6% of respondents correctly identify the deepfake as the only inauthentic video\"},{\"doi\":\"10.1371/journal.pone.0285333\",\"title\":\"Warning: Humans cannot reliably detect speech deepfakes\",\"authors\":[\"Mai KT\",\"Bray S\",\"Davies T\",\"Griffin LD\"],\"year\":2023,\"venue\":\"PLoS ONE\",\"study_type\":\"Experimento online de detecção com participantes humanos\",\"method\":\"Participantes classificaram áudios genuínos e deepfake em inglês e mandarim, com e sem exemplos de deepfakes de fala fornecidos antes\",\"sample_size\":\"n = 529 individuals\",\"main_finding\":\"Os ouvintes identificaram corretamente os deepfakes de fala em apenas cerca de 73% das vezes, e a detecção humana é pouco confiável.\",\"abstract_quote\":\"detection capability is unreliable. Listeners only correctly spotted the deepfakes 73% of the time\"},{\"doi\":\"10.1073/pnas.2110013119\",\"title\":\"Deepfake detection by human crowds, machines, and machine-informed crowds\",\"authors\":[\"Groh M\",\"Epstein Z\",\"Firestone C\",\"Picard R\"],\"year\":2022,\"venue\":\"Proceedings of the National Academy of Sciences\",\"study_type\":\"Dois estudos online com participantes humanos (com intervenções aleatorizadas pré-registradas)\",\"method\":\"Participantes distinguiram vídeos autênticos de deepfakes, e o desempenho foi comparado ao de um modelo de visão computacional e a um modelo combinado de humanos informados pela máquina\",\"sample_size\":\"In two online studies with 15,016 participants\",\"main_finding\":\"Humanos e um modelo de detecção de ponta tiveram acurácia semelhante, mas cometeram erros de tipos diferentes.\",\"abstract_quote\":\"find them similarly accurate, while making different kinds of mistakes\"},{\"doi\":\"10.1038/s41598-023-39944-3\",\"title\":\"Deepfakes and scientific knowledge dissemination\",\"authors\":[\"Doss C\",\"Mondschein J\",\"Shu D\",\"Wolfson T\",\"Kopecky D\",\"Fitton-Kane VA\",\"Bush L\",\"Tucker C\"],\"year\":2023,\"venue\":\"Scientific Reports\",\"study_type\":\"Survey com tarefa de detecção em amostras de populações\",\"method\":\"Participantes de diferentes populações (incluindo estudantes e educadores) assistiram a vídeos de deepfake sobre mudança climática e a vídeos autênticos e disseram se eram reais\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Entre 27% e 50% dos indivíduos não conseguem distinguir vídeos autênticos de deepfakes.\",\"abstract_quote\":\"We found that 27-50% of individuals cannot distinguish authentic videos from deepfakes.\"},{\"doi\":\"10.1016/j.isci.2021.103364\",\"title\":\"Fooled twice: People cannot detect deepfakes but think they can\",\"authors\":[\"Köbis NC\",\"Doležalová B\",\"Soraperra I\"],\"year\":2021,\"venue\":\"iScience\",\"study_type\":\"Experimento comportamental pré-registrado\",\"method\":\"Participantes viram vídeos autênticos e deepfakes, indicaram se eram falsos e declararam confiança; condições de alerta e de incentivo financeiro\",\"sample_size\":\"In a pre-registered behavioral experiment (N = 210)\",\"main_finding\":\"As pessoas não detectam deepfakes de forma confiável, mas acreditam que conseguem, e nem o alerta nem o incentivo financeiro melhoraram a detecção.\",\"abstract_quote\":\"people cannot reliably detect deepfakes\"},{\"doi\":\"10.1016/j.chb.2023.107917\",\"title\":\"Providing detection strategies to improve human detection of deepfakes: An experimental study\",\"authors\":[\"Somoray K\",\"Miller DJ\"],\"year\":2023,\"venue\":\"Computers in Human Behavior\",\"study_type\":\"Experimento online pré-registrado\",\"method\":\"Participantes classificaram 20 vídeos como reais ou deepfake e avaliaram sua confiança; metade recebeu estratégias de pistas visuais e a outra metade foi controle\",\"sample_size\":\"N = 454, Mage = 37.19, SDage = 13.25, males = 57.5%\",\"main_finding\":\"Fornecer estratégias de detecção não alterou a acurácia nem a confiança, e a acurácia média (cerca de 61%) ficou acima do acaso.\",\"abstract_quote\":\"The detection strategies intervention did not impact detection accuracy or detection confidence\"},{\"doi\":\"10.1093/cybsec/tyad011\",\"title\":\"Testing human ability to detect 'deepfake' images of human faces\",\"authors\":[\"Bray SD\",\"Johnson SD\",\"Kleinberg B\"],\"year\":2023,\"venue\":\"Journal of Cybersecurity\",\"study_type\":\"Survey online com alocação aleatória em quatro grupos\",\"method\":\"Participantes rotularam imagens de rostos reais e deepfake (StyleGAN2) em um grupo controle e em três grupos com intervenções de auxílio\",\"sample_size\":\"N = 280\",\"main_finding\":\"A acurácia de detecção ficou pouco acima do acaso e nenhuma das intervenções a melhorou de forma significativa.\",\"abstract_quote\":\"Overall detection accuracy was only just above chance and none of the interventions significantly improved this.\"},{\"doi\":\"10.1016/j.isci.2022.105441\",\"title\":\"On the realness of people who do not exist: The social processing of artificial faces\",\"authors\":[\"Tucciarelli R\",\"Vehar N\",\"Chandaria S\",\"Tsakiris M\"],\"year\":2022,\"venue\":\"iScience\",\"study_type\":\"Três estudos comportamentais com participantes humanos\",\"method\":\"Testes de discriminação entre rostos GAN e reais, além de medidas comportamentais de conformidade social e confiança\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Rostos GAN foram percebidos como reais com mais frequência do que rostos reais, e saber que rostos GAN existem reduziu a confiança social.\",\"abstract_quote\":\"GAN faces were more likely to be perceived as real than REAL faces\"},{\"doi\":\"10.3390/jimaging11070227\",\"title\":\"Interpretation of AI-Generated vs. Human-Made Images\",\"authors\":[\"Velásquez-Salamanca D\",\"Martín-Pascual MÁ\",\"Andreu-Sánchez C\"],\"year\":2025,\"venue\":\"Journal of Imaging\",\"study_type\":\"Estudo experimental com participantes humanos\",\"method\":\"Participantes avaliaram 32 imagens (24 geradas por IA e 8 feitas por humanos) quanto à origem percebida, ao realismo e à credibilidade\",\"sample_size\":\"161 participants-71 visual professionals and 90 non-professionals\",\"main_finding\":\"Imagens geradas por IA foram com frequência classificadas erroneamente como feitas por humanos.\",\"abstract_quote\":\"AI-generated images are frequently misclassified as human-made\"},{\"doi\":\"10.3390/jemr18060061\",\"title\":\"AI Images vs. Real Photographs: Investigating Visual Recognition and Perception\",\"authors\":[\"Osińska V\",\"Kortas W\",\"Szalach A\",\"Welter M\"],\"year\":2025,\"venue\":\"Journal of Eye Movement Research\",\"study_type\":\"Estudo experimental com rastreamento ocular\",\"method\":\"Rastreamento ocular enquanto participantes julgavam 12 imagens geradas por IA e 12 fotografias reais em seis categorias (inclusive rostos), seguido de explicações escritas\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Imagens de animais de estimação geradas por IA e fotografias reais de arquitetura foram as mais fáceis de identificar.\",\"abstract_quote\":\"The results show that AI images of pets and real photographs of architecture were the easiest to identify.\"},{\"doi\":\"10.1186/s41235-025-00648-z\",\"title\":\"Specific media literacy tips improve AI-generated visual misinformation discernment\",\"authors\":[\"Guo S\",\"Swire-Thompson B\",\"Hu X\"],\"year\":2025,\"venue\":\"Cognitive Research: Principles and Implications\",\"study_type\":\"Ensaio randomizado pré-registrado com participantes humanos\",\"method\":\"Participantes receberam dicas específicas de alfabetização midiática sobre imagens geradas por IA, dicas gerais ou nenhuma dica, e avaliaram a veracidade de conteúdos\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Dicas específicas reduziram a crença em desinformação visual gerada por IA mais do que dicas gerais.\",\"abstract_quote\":\"specific tips reduced belief in AIVM more than general tips.\"},{\"doi\":\"10.1089/cyber.2020.0149\",\"title\":\"Deepfakes Unmasked: The Effects of Information Priming and Bullshit Receptivity on Deepfake Recognition and Sharing Intention\",\"authors\":[\"Iacobucci S\",\"De Cicco R\",\"Michetti F\",\"Palumbo R\",\"Pagliaro S\"],\"year\":2021,\"venue\":\"Cyberpsychology, Behavior, and Social Networking\",\"study_type\":\"Ensaio controlado randomizado\",\"method\":\"Teste de se a informação prévia (priming) sobre deepfakes melhora o reconhecimento de deepfakes, com a receptividade a 'bullshit' como moderadora, e análise de mediação serial\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"O priming sobre deepfakes pode funcionar, mas apenas para pessoas com menor suscetibilidade a acreditar em afirmações deliberadamente enganosas.\",\"abstract_quote\":\"but only for people with a lower susceptibility to believe willfully misleading claims\"}],\"search_notes\":\"Entreguei 25 itens, não mais. Alguns têm ressalvas, listadas abaixo.\\n\\n**Como busquei**\\n- A API do OpenAlex devolveu HTTP 429 (limite de requisições) em todas as tentativas, então não pude usá-la.\\n- O Crossref funcionou só em parte. Também devolveu 429 em várias consultas, e os registros que abri não traziam o resumo.\\n- A fonte principal foi a API do Europe PMC, que traz o resumo, o tipo de publicação e o DOI. Completei com buscas na web, que serviram só para achar candidatos. Também usei as páginas institucionais de Somoray & Miller (JCU) e de Bray et al. (Tilburg).\\n- Fiz buscas em inglês. Não fiz buscas em português nem no SciELO. Não achei nada em português no Europe PMC.\\n\\n**Limites de exatidão que você precisa saber**\\n- Não abri a página do DOI no navegador para cada artigo. Título, autores, ano, periódico e DOI vêm do registro do Europe PMC (ou, para Somoray & Miller e Bray et al., das páginas institucionais e do Crossref).\\n- Os resumos passaram por uma ferramenta de leitura que resume o texto e só devolve trechos curtos. Por isso copiei trechos literais curtos e não o resumo inteiro. Cada trecho e cada tamanho de amostra passou por uma segunda consulta de checagem, em que a ferramenta confirmou que a sequência aparece no resumo. Mesmo assim, confira as aspas contra o resumo original antes de citar.\\n- Os trechos são fragmentos do resumo e podem começar ou terminar no meio de uma frase. Retirei as marcas HTML (<i>) do resumo. Isso afeta, por exemplo, \\\"(N = 124 adults)\\\", \\\"N = 210\\\" e \\\"N = 454\\\".\\n- Os nomes dos autores estão como constam no Europe PMC, em formato abreviado (por exemplo, \\\"Gray KLH\\\"). Para Somoray, Bray, Köbis, Mai, Groh, Lewis, Nightingale e Tucciarelli, a lista segue os registros consultados.\\n- Nos itens \\\"Lavan\\\", \\\"Barrington\\\" e \\\"Nightingale\\\", o 'tipo de estudo' e o 'método' vêm do resumo e de resumos secundários na web. Os dados de amostra, quando ausentes do resumo, aparecem como \\\"não informado no resumo\\\".\\n\\n**Itens incluídos com ressalva**\\n- Groh et al. 2022 (PNAS): o resumo não menciona política. Não verifiquei o texto completo, e há risco de parte dos vídeos usar figuras políticas.\\n- Doss et al. 2023: os vídeos são sobre mudança climática. O resumo cita desinformação sobre vacinas apenas de passagem, então não o tratei como estudo de saúde. O resumo diz só que a amostra é \\\"nationally representative of three populations\\\", sem N total.\\n- Tucciarelli et al. 2022: o resumo cita \\\"political propaganda\\\" só como contexto geral, não como foco. O resumo diz apenas \\\"three studies\\\", sem N.\\n- Guo et al. 2025: o resumo não diz o tema das manchetes e imagens (política, saúde ou outro). Não consegui confirmar.\\n- Lewis et al. 2023: o resumo não cita política, mas não confirmei qual era o conteúdo do vídeo deepfake.\\n- Iacobucci et al. 2021: o trecho é uma condição (\\\"mas só para pessoas com...\\\"), e o resumo não traz amostra. O achado depende dessa frase.\\n- Osińska et al. 2025 e Fang et al. 2025 tratam de imagens geradas por IA em geral (Osińska inclui rostos). Não têm N de participantes no resumo.\\n- Tarchi 2023, Moshel 2022, Eiserbeck 2023 e Roswandowitz 2024 usam medidas fisiológicas ou neurais. No Tarchi, o resumo não informa a acurácia comportamental. No Nightingale, o N de participantes não aparece no resumo.\\n\\n**Excluídos, com o motivo**\\n- Ahmed & Chua 2023 (Heliyon): o estímulo era um deepfake do Putin, ou seja, político.\\n- Groh et al. 2024 (Nat. Commun.): deepfakes de discurso político.\\n- Clark & Lewandowsky: o registro do Europe PMC dá o ano de 2026 (fora do período), e o resumo cita eleições.\\n- Pehlivanoglu et al.: publicado em 2026.\\n- Tang et al. 2025 (IJHCI): é estudo de entrevistas qualitativas, fora dos métodos pedidos. Só consegui ler o resumo por resumo secundário.\\n- Nas & de Kleijn 2024 (Telematics and Informatics): o resumo não estava acessível, então não pude conferir amostra nem trecho.\\n- Jin et al. (New Media & Society): a página da SAGE retornou 403, então não confirmei resumo nem tema.\\n- Hwang et al. 2021 e Abraham et al. 2022: não consegui firmar o encaixe no tema nem nos critérios.\\n- Zhang et al. 2025 (fNIRS): mede resposta cerebral a vozes sintéticas, mas não trata de credibilidade, e o resumo cita saúde mental como aplicação.\\n- Bruza et al. 2025, Van der Biest et al. 2025 e Guerouaou et al. 2022: o tema é só tangente (contextualidade quântica, deepfakes como estímulo e aceitabilidade ética).\\n- Outras exclusões: pré-publicações (Ivory, Seabrooke e Dunn, entre outras), revisões e meta-análises (Somoray 2025, Ching 2025, Kang & Valadez), trabalhos de congresso (Frank et al., Interspeech 2025, EMBC) e resumos do Journal of Vision (Josephs, Fosco). Também saíram os estudos de algoritmos de detecção e os de saúde.\\n\\n**Cobertura**\\n- A lista não é exaustiva. Não consegui consultar OpenAlex, Scopus nem Web of Science, e artigos de periódicos fora do PubMed ou do Europe PMC provavelmente ficaram de fora.\\\"\"}",
+  "usage": {
+    "input_tokens": 42,
+    "cache_creation_input_tokens": 108750,
+    "cache_read_input_tokens": 1371083,
+    "output_tokens": 43071,
+    "output_tokens_details": {
+      "thinking_tokens": 18438
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 108750,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 12266,
+        "cache_read_input_tokens": 110329,
+        "cache_creation_input_tokens": 1715,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 1715
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 62,
+  "duration_s": 664.21,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.openalex.org/works?search=deepfake%20human%20detection%20experiment%20participants&filter=type:article,publication_year:2019-2025,has_abstract:true&per-page=50&select=id,doi,title,publication_year,type,primary_location",
+        "prompt": "List all results with DOI, title, year, type, and journal (primary_location.source.display_name). Output verbatim as a list."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.openalex.org/works?search=AI-generated%20synthetic%20faces%20human%20perception%20trustworthiness&filter=type:article,publication_year:2019-2025,has_abstract:true&per-page=50&select=id,doi,title,publication_year,type,primary_location",
+        "prompt": "List all results with DOI, title, year, type, and journal (primary_location.source.display_name). Output verbatim as a list."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.openalex.org/works?search=voice%20clone%20audio%20deepfake%20human%20listeners%20detect&filter=type:article,publication_year:2019-2025,has_abstract:true&per-page=50&select=id,doi,title,publication_year,type,primary_location",
+        "prompt": "List all results with DOI, title, year, type, and journal (primary_location.source.display_name). Output verbatim as a list."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works?query=deepfake+human+detection+experiment+participants&filter=type:journal-article,from-pub-date:2019,until-pub-date:2025&rows=40&select=DOI,title,author,issued,container-title,abstract",
+        "prompt": "List all results with DOI, title, year, journal, first authors. Verbatim."
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "humans ability to detect deepfake videos experiment participants journal article"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "AI-synthesized faces indistinguishable from real faces more trustworthy participants study"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "humans detect speech deepfakes listening experiment participants journal"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(deepfake* OR \"synthetic faces\" OR \"AI-generated faces\" OR \"voice clone*\") AND (participants OR experiment) AND PUB_TYPE:\"Journal Article\" AND PUB_YEAR:[2019 TO 2025]&format=json&pageSize=100&resultType=lite",
+        "prompt": "List all results: DOI, title, authorString, pubYear, journalTitle, pubType. Verbatim, compact list."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works?query=synthetic+faces+human+observers+detect+AI-generated+faces&filter=type:journal-article,from-pub-date:2019,until-pub-date:2025&rows=40&select=DOI,title,author,issued,container-title",
+        "prompt": "List all results with DOI, title, year, journal, first authors. Verbatim."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works?query=audio+deepfake+voice+clone+listeners+perception+experiment&filter=type:journal-article,from-pub-date:2019,until-pub-date:2025&rows=40&select=DOI,title,author,issued,container-title",
+        "prompt": "List all results with DOI, title, year, journal, first authors. Verbatim."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:deepfake* OR TITLE:\"AI-generated\" OR TITLE:\"synthetic faces\" OR TITLE:\"synthetic voices\" OR TITLE:\"artificial faces\" OR TITLE:\"voice clon*\") AND (TITLE:detect* OR TITLE:percept* OR TITLE:credib* OR TITLE:trust* OR TITLE:human* OR TITLE:people OR TITLE:realism OR TITLE:distinguish*) AND PUB_YEAR:[2019 TO 2025]&format=json&pageSize=100&resultType=lite",
+        "prompt": "List all results: DOI, title, authorString, pubYear, journalTitle, pubType. Verbatim, compact list. Do not omit any."
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"deepfake\" detection accuracy participants preregistered experiment \"Journal of Cybersecurity\" OR \"Cognitive Research\" OR \"Royal Society Open Science\" OR \"Computers in Human Behavior\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "psychology study people cannot tell AI-generated faces from real faces overconfidence artificial faces social processing iScience Tucciarelli"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:\"10.1098/rsos.250921\" OR DOI:\"10.1371/journal.pone.0332692\" OR DOI:\"10.3389/frai.2025.1568267\" OR DOI:\"10.1186/s41235-025-00683-w\" OR DOI:\"10.3390/brainsci13091233\"&format=json&pageSize=10&resultType=core",
+        "prompt": "For each record return: doi, title, full authorString, pubYear, journalTitle, pubType, and the COMPLETE abstractText copied character-for-character (do not paraphrase or shorten; strip only HTML tags…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:\"10.1038/s41598-023-42802-x\" OR DOI:\"10.1177/09567976231207095\" OR DOI:\"10.1038/s41598-025-92702-5\" OR DOI:\"10.1073/pnas.2120481119\" OR DOI:\"10.1038/s41598-025-94170-3\"&format=json&pageSize=10&resultType=core",
+        "prompt": "For each record return: doi, title, full authorString, pubYear, journalTitle, pubType, and the COMPLETE abstractText copied character-for-character (do not paraphrase or shorten; strip only HTML tags…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:\"10.1016/j.visres.2022.108079\" OR DOI:\"10.1038/s41598-025-91545-4\" OR DOI:\"10.1186/s41235-025-00648-z\" OR DOI:\"10.3389/frai.2025.1707336\" OR DOI:\"10.3390/jemr18060061\"&format=json&pageSize=10&resultType=core",
+        "prompt": "For each record return: doi, title, full authorString, pubYear, journalTitle, pubType, and the COMPLETE abstractText copied character-for-character (do not paraphrase or shorten; strip only HTML tags…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:deepfake OR TITLE:deepfakes OR TITLE:\"deep fake\" OR TITLE:\"deep fakes\") AND PUB_YEAR:[2019 TO 2025] AND SRC:MED&format=json&pageSize=100&resultType=lite",
+        "prompt": "List ALL results compactly: DOI | title | first author | year | journal | pubType. Do not omit any."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(ABSTRACT:deepfake* OR ABSTRACT:\"voice clon*\" OR ABSTRACT:\"synthetic voice*\" OR ABSTRACT:\"synthetic face*\" OR ABSTRACT:\"StyleGAN\") AND (ABSTRACT:participants OR ABSTRACT:observers OR ABSTRACT:listeners) AND PUB_YEAR:[2019 TO 2025] AND SRC:MED&format=json&pageSize=100&resultType=lite",
+        "prompt": "List ALL results compactly: DOI | title | first author | year | journal | pubType. Do not omit any."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:\"10.1073/pnas.2110013119\" OR DOI:\"10.1371/journal.pone.0285333\" OR DOI:\"10.1098/rsos.231214\" OR DOI:\"10.1038/s42003-024-06372-6\" OR DOI:\"10.1016/j.heliyon.2023.e20383\"&format=json&pageSize=10&resultType=core",
+        "prompt": "For each record give: doi, title, authorString, pubYear, journalTitle, pubType. Then from abstractText give (a) a short exact excerpt (max 120 characters, copied character-for-character, in quotes) s…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:\"10.1089/cyber.2020.0149\" OR DOI:\"10.1089/cyber.2020.0174\" OR DOI:\"10.12688/f1000research.128915.3\" OR DOI:\"10.1098/rstb.2021.0083\" OR DOI:\"10.1038/s41598-023-39944-3\"&format=json&pageSize=10&resultType=core",
+        "prompt": "For each record give: doi, title, authorString, pubYear, journalTitle, pubType. Then from abstractText give (a) a short exact excerpt (max 120 characters, copied character-for-character, in quotes) s…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:\"10.1038/s41598-025-23920-0\" OR DOI:\"10.3390/jimaging11060194\" OR DOI:\"10.1371/journal.pone.0319039\" OR DOI:\"10.1016/j.isci.2021.103364\" OR DOI:\"10.1016/j.isci.2022.104663\"&format=json&pageSize=10&resultType=core",
+        "prompt": "For each record give: doi, title, authorString, pubYear, journalTitle, pubType. Then from abstractText give (a) a short exact excerpt (max 120 characters, copied character-for-character, in quotes) s…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:\"10.1098/rsos.250921\" OR DOI:\"10.1371/journal.pone.0332692\" OR DOI:\"10.3389/frai.2025.1568267\" OR DOI:\"10.1186/s41235-025-00683-w\" OR DOI:\"10.3390/brainsci13091233\"&format=json&pageSize=10&resultType=core",
+        "prompt": "For each record give: doi, title, authorString, pubYear, journalTitle. Then from abstractText give (a) a short exact excerpt (max 120 characters, copied character-for-character, in quotes) stating th…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:\"10.1038/s41598-025-92702-5\" OR DOI:\"10.1038/s41598-025-94170-3\" OR DOI:\"10.1038/s41598-023-42802-x\" OR DOI:\"10.1177/09567976231207095\" OR DOI:\"10.1073/pnas.2120481119\"&format=json&pageSize=10&resultType=core",
+        "prompt": "For each record give: doi, title, authorString, pubYear, journalTitle. Then from abstractText give (a) a short exact excerpt (max 120 characters, copied character-for-character, in quotes) stating th…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:\"10.3389/frai.2025.1707336\" OR DOI:\"10.3390/jemr18060061\" OR DOI:\"10.1186/s41235-025-00648-z\" OR DOI:\"10.1038/s41598-025-91545-4\" OR DOI:\"10.1016/j.visres.2022.108079\"&format=json&pageSize=10&resultType=core",
+        "prompt": "For each record give: doi, title, authorString, pubYear, journalTitle. Then from abstractText give (a) a short exact excerpt (max 120 characters, copied character-for-character, in quotes) stating th…"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Somoray Miller \"Providing detection strategies to improve human detection of deepfakes\" Computers in Human Behavior doi"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Bray Johnson Kleinberg \"Testing human ability to detect 'deepfake' images of human faces\" Journal of Cybersecurity"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1016/j.chb.2023.107917",
+        "prompt": "Give title, authors, year, container-title, type, and the abstract text. Quote from the abstract exactly (max 120 chars per quote): the sentence stating sample size and the sentence stating the main …"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1093/cybsec/tyad011",
+        "prompt": "Give title, authors, year, container-title, type, and the abstract text. Quote from the abstract exactly (max 120 chars per quote): the sentence stating sample size and the sentence stating the main …"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1080/10447318.2025.2607571",
+        "prompt": "Give title, authors, year, container-title, type, and the abstract text. Quote from the abstract exactly (max 120 chars per quote): the sentence stating sample size and the sentence stating the main …"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Tucciarelli Vehar Chandariana Bonetto \"On the realness of people who do not exist\" social processing artificial faces iScience doi"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Pehlivanoglu deepfake video detection age cognitive ability Cognitive Research Principles and Implications"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://researchonline.jcu.edu.au/79985",
+        "prompt": "Give title, authors, year, journal, DOI, and the abstract. Quote exactly (max 120 chars each) the sentence stating sample size and the sentence stating the main finding."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://discovery.ucl.ac.uk/id/eprint/10172597",
+        "prompt": "Give title, authors, year, journal, DOI, and the abstract. Quote exactly (max 120 chars each) the sentence stating sample size and the sentence stating the main finding."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.tandfonline.com/doi/full/10.1080/10447318.2025.2607571",
+        "prompt": "Give title, authors, year, journal, DOI, and the abstract. Quote exactly (max 120 chars each) the sentence stating sample size and the sentence stating the main finding."
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Nas de Kleijn conspiracy thinking social media use ability to detect deepfakes Telematics and Informatics"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://research.tilburguniversity.edu/en/publications/testing-human-ability-to-detect-deepfake-images-of-human-faces/",
+        "prompt": "Give title, authors, year, journal, DOI, and the abstract. Quote exactly (max 120 chars each) the clause stating sample size and the sentence stating the main finding."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A3729708/view",
+        "prompt": "Give title, authors, year, journal, DOI, and the abstract. Quote exactly (max 120 chars each) the clause stating sample size and the sentence stating the main finding. Also say whether the abstract m…"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Understanding Deepfake Detection Strategies Among Young Adults and Seniors\" abstract participants"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.sciencedirect.com/science/article/pii/S2405844023062400",
+        "prompt": "Is this the Heliyon article 'Perception and deception: Exploring individual responses to deepfakes across different modalities'? If so give the abstract and quote exactly (max 120 chars each) the sam…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.universiteitleiden.nl/en/research/research-output/social-and-behavioural-sciences/nas--de-kleijn-conspiracy-thinking-and-social-media-use-are-associated-with-ability-to-detect-deepfakes",
+        "prompt": "Give title, authors, year, journal, DOI, and the abstract. Quote exactly (max 120 chars each) the clause stating sample size (if any) and the sentence stating the main finding. State whether the abst…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(ABSTRACT:\"AI-generated\" OR ABSTRACT:\"synthetic\" OR ABSTRACT:\"deepfake*\") AND (ABSTRACT:voice* OR ABSTRACT:speech OR ABSTRACT:audio) AND (ABSTRACT:\"listeners\" OR ABSTRACT:\"participants\") AND (ABSTRACT:\"human-like\" OR ABSTRACT:\"distinguish*\" OR ABSTRACT:\"trust*\" OR ABSTRACT:\"detect*\") AND PUB_YEAR:[2019 TO 2025] AND SRC:MED AND (JOURNAL:* )&format=json&pageSize=60&resultType=lite",
+        "prompt": "List ALL results compactly: DOI | title | first author | year | journal | pubType."
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "peer-reviewed journal experiment participants deepfake video credibility perceived believability non-political survey experiment"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "peer-reviewed journal participants listened AI voice clone synthetic speech human vs AI identification trust naturalness perception study 2023 2024"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "human observers StyleGAN faces real versus fake discrimination accuracy confidence experiment journal 2020 2021 2022 2023"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://journals.sagepub.com/doi/10.1177/14614448231199664",
+        "prompt": "Give title, authors, year, journal, DOI, and abstract. Quote exactly (max 120 chars each) the sample-size clause and main finding sentence. State whether stimuli concern politicians/elections/health."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:\"10.1038/s44271-025-00381-9\"&format=json&pageSize=5&resultType=core",
+        "prompt": "Give doi, title, authorString, pubYear, journalTitle, pubType. From abstractText give exact excerpts (max 120 chars, in quotes) for main finding and sample size, and whether politicians/elections/hea…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1016/j.tele.2023.102093",
+        "prompt": "Give title, authors, year, journal, DOI, and abstract. Quote exactly (max 120 chars each) the sample-size clause (if any) and main finding sentence. State whether abstract mentions politicians/electi…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/search/?term=10.1016%2Fj.heliyon.2023.e20383",
+        "prompt": "Is there a record for Heliyon 'Perception and deception: Exploring individual responses to deepfakes across different modalities'? Give its abstract and quote exactly (max 120 chars each) the sample-…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10556585/",
+        "prompt": "Give the abstract section only. Quote exactly (max 120 chars each) the sample-size clause (if any), and the main finding sentence. Say whether the abstract mentions politicians/elections/health, and …"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0736585323001570",
+        "prompt": "Give title, authors, year, journal, DOI, and abstract. Quote exactly (max 120 chars each) the sample-size clause (if any) and main finding sentence. State whether abstract mentions politicians/electi…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.tele.2023.102093?fields=title,abstract,year,venue,authors,externalIds,publicationTypes",
+        "prompt": "Give title, authors, year, venue, DOI, publicationTypes, and the abstract. Quote exactly (max 120 chars each) the sample-size clause (if any) and the main finding sentence."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10556585/fullTextXML",
+        "prompt": "From the article, what deepfake/cheap fake stimuli were used (topic - are they political, about politicians/elections)? What was the sample size? Quote the sample-size sentence from the abstract if p…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1080/10447318.2025.2607571?fields=title,abstract,year,venue,authors,externalIds,publicationTypes",
+        "prompt": "Give title, authors, year, venue, DOI, publicationTypes, and the abstract. Quote exactly (max 120 chars each) the sample-size clause (if any) and the main finding sentence."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(ABSTRACT:\"AI-generated faces\" OR ABSTRACT:\"synthetic faces\" OR ABSTRACT:\"artificial faces\" OR ABSTRACT:\"GAN-generated\" OR ABSTRACT:\"AI faces\" OR ABSTRACT:\"fake faces\" OR ABSTRACT:\"AI-generated images\" OR ABSTRACT:\"AI-generated videos\") AND (ABSTRACT:participants OR ABSTRACT:observers OR ABSTRACT:respondents) AND (ABSTRACT:distinguish* OR ABSTRACT:detect* OR ABSTRACT:authentic* OR ABSTRACT:credib* OR ABSTRACT:realness) AND PUB_YEAR:[2019 TO 2025] AND SRC:MED AND PUB_TYPE:\"Journal Article\"&format=json&pageSize=100&resultType=lite&sort=CITED desc",
+        "prompt": "List ALL results compactly: DOI | title | first author | year | journal | pubType. Do not omit any."
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:\"10.1016/j.isci.2022.105441\" OR DOI:\"10.3390/jimaging11070227\" OR DOI:\"10.3390/e27080868\"&format=json&pageSize=10&resultType=core",
+        "prompt": "For each record give: doi, title, authorString, pubYear, journalTitle, pubType. Then from abstractText give (a) a short exact excerpt (max 120 characters, copied character-for-character, in quotes) s…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:\"10.1098/rsos.250921\" OR DOI:\"10.1371/journal.pone.0332692\" OR DOI:\"10.3389/frai.2025.1568267\" OR DOI:\"10.1186/s41235-025-00683-w\" OR DOI:\"10.3390/brainsci13091233\"&format=json&pageSize=10&resultType=core",
+        "prompt": "Verification task. For each record (match by doi) check whether each of these strings occurs character-for-character in abstractText (ignoring HTML tags like <i>) and answer YES/NO, and if NO, give t…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:\"10.1038/s41598-025-94170-3\" OR DOI:\"10.1038/s41598-023-42802-x\" OR DOI:\"10.1177/09567976231207095\" OR DOI:\"10.1073/pnas.2120481119\" OR DOI:\"10.3389/frai.2025.1707336\"&format=json&pageSize=10&resultType=core",
+        "prompt": "Verification task. For each record (match by doi) check whether each of these strings occurs character-for-character in abstractText (ignoring HTML tags like <i>) and answer YES/NO, and if NO give th…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:\"10.1038/s41598-025-91545-4\" OR DOI:\"10.1016/j.visres.2022.108079\" OR DOI:\"10.1038/s42003-024-06372-6\" OR DOI:\"10.1098/rsos.231214\" OR DOI:\"10.1371/journal.pone.0285333\"&format=json&pageSize=10&resultType=core",
+        "prompt": "Verification task. For each record (match by doi) check whether each of these strings occurs character-for-character in abstractText (ignoring HTML tags) and answer YES/NO, and if NO give the correct…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:\"10.1073/pnas.2110013119\" OR DOI:\"10.1038/s41598-023-39944-3\" OR DOI:\"10.1016/j.isci.2021.103364\" OR DOI:\"10.1016/j.isci.2022.105441\" OR DOI:\"10.3390/jimaging11070227\"&format=json&pageSize=10&resultType=core",
+        "prompt": "Verification task. For each record (match by doi) check whether each of these strings occurs character-for-character in abstractText (ignoring HTML tags like <i>) and answer YES/NO, and if NO give th…"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:\"10.3390/jemr18060061\" OR DOI:\"10.1186/s41235-025-00648-z\" OR DOI:\"10.1089/cyber.2020.0149\" OR DOI:\"10.1038/s41598-025-92702-5\" OR DOI:\"10.3390/brainsci13091233\" OR DOI:\"10.1016/j.isci.2022.105441\"&format=json&pageSize=10&resultType=core",
+        "prompt": "Verification task. For each record (match by doi) report YES/NO whether each string occurs character-for-character in abstractText (ignoring HTML tags), and if NO give the correct exact text (max 120…"
+      }
+    },
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "items": "[{\"doi\": \"10.1098/rsos.250921\", \"title\": \"Training human super-recognizers' detection and discrimination of AI-generated faces\", \"authors\": [\"Gray KLH\", \"Davis JP\", \"Bunce C\", \"Noyes E\", \"Ritchie KL\"…",
+        "search_notes": "Entreguei 25 itens, não mais. Alguns têm ressalvas, listadas abaixo. **Como busquei** - A API do OpenAlex devolveu HTTP 429 (limite de requisições) em todas as tentativas, então não pude usá-la. - O …"
+      }
+    }
+  ]
+}

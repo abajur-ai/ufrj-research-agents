@@ -1,0 +1,162 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "C18: resumo descreve experimento com rastreamento ocular (dilatação pupilar) e SAM comparando manchetes clickbait, de notícia e neutras; mede excitação emocional e intenção de leitura; atende aos critérios.",
+      "C03: resumo descreve experimento com grupos de manchetes tradicionais vs. clickbait e modelagem de equações estruturais sobre intenção de ler e compartilhar; atende.",
+      "C27: resumo informa dois experimentos online (N = 629 e N = 1.674) com tipos de manchete (exagerada, pergunta) e efeitos em reconhecimento e compreensão; atende.",
+      "C116: resumo descreve dois experimentos online com artigos de notícia como estímulos e efeito de clickbait na percepção de credibilidade e qualidade; atende.",
+      "C115: resumo descreve experimento com 200 participantes, manchetes clickbait vs. não clickbait e questionário de credibilidade; atende.",
+      "C120: resumo descreve experimento de laboratório e teste de campo em sites de jornais comparando manchetes de resumo vs. de curiosidade (curiosity gap) na busca de notícias; atende.",
+      "C29: resumo descreve estudo experimental com consumidores de notícias online da Zâmbia e Tanzânia sobre credibilidade de manchetes clickbait; atende.",
+      "C06: resumo descreve estudo de EEG com 32 participantes sobre respostas cognitivas e emocionais a tipos de clickbait; atende.",
+      "C28: resumo descreve experimento de EEG/ERP (N2b e P3a) sobre atenção a manchetes clickbait com referência futura; atende.",
+      "C70: resumo descreve experimento entre participantes (N = 204) sobre impulso de clicar em clickbaits, com curiosidade e fruição como preditores; atende aos critérios de método e tema, embora o contexto de notícias não esteja explícito no resumo (ver feedback).",
+      "C16: resumo descreve experimento com formatos de manchete (referência futura e pergunta, dispositivos de curiosity gap) e efeitos em credibilidade e engajamento com notícias; atende.",
+      "C01: resumo descreve avaliação por 624 estudantes de manchetes humanas vs. de IA, incluindo clickbait, com medidas de confiança e percepção de manipulação; atende.",
+      "C87: resumo descreve survey online com 600 participantes avaliando tripletos de manchetes de notícias (original, clickbait gerado por IA e informativa); atende.",
+      "C20: resumo descreve survey quantitativo com 113 respondentes sobre efeito de manchetes clickbait no interesse de leitura; atende.",
+      "C15: resumo descreve análise de mais de 4.400 posts de Facebook de fontes de notícias, com dados de curtidas, compartilhamentos e comentários ligados a features de clickbait; atende (dados de engajamento de usuários).",
+      "C71: resumo descreve análise de conteúdo de 1.440 e 25.600 tweets de veículos de notícias com métricas de engajamento de usuários (favoritos e retweets); tem dados de usuários, portanto não é análise apenas textual; atende.",
+      "C17: resumo descreve análise de conteúdo de 300 manchetes no Facebook mais survey com 81 consumidores sobre confiança; atende.",
+      "C99: resumo descreve estudo de grupos focais com usuários sobre percepções e reflexos diante de manchetes e imagens enganosas; método qualitativo com dados de leitores; atende.",
+      "C23: resumo descreve pesquisa com 200 respondentes em escala Likert sobre manipulação por manchetes clickbait e fotos em notícias esportivas; atende.",
+      "C12: resumo descreve estudo de caso qualitativo com entrevistas em profundidade com oito estudantes sobre confiança em notícias com clickbait; dados próprios de leitores; atende.",
+      "C45: resumo descreve survey quantitativo com cerca de 100 leitores sobre letramento crítico diante de manchetes clickbait; atende.",
+      "C73: resumo descreve experimento com 300 adolescentes em que manchetes clickbait reduziram a confiança em mensagens de saúde; clickbait é variável manipulada e há dados de leitores; atende.",
+      "C66: resumo descreve survey com 150 leitores online sobre notícias sensacionalistas e percepção da indústria de notícias; enquadra-se no eixo sensacionalismo/credibilidade; atende.",
+      "Nenhum incluído é modelo de detecção/classificação computacional, revisão, meta-análise, ensaio teórico ou estudo com recorte político ou eleitoral segundo os resumos.",
+      "Quantidade: foram incluídos 24 artigos para um pedido de 25; entregar menos que o pedido é correto se os demais não atenderem, portanto isso não é erro."
+    ],
+    "per_item": [
+      {
+        "id": "C18",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C03",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C27",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C116",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C115",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C120",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C29",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C06",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C28",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C70",
+        "ok": true,
+        "problem": "O resumo não menciona explicitamente notícias; verificar no texto completo se os clickbaits avaliados são de notícias."
+      },
+      {
+        "id": "C16",
+        "ok": true,
+        "problem": "Operacionaliza curiosity gap via formatos de manchete, não usa o termo clickbait; aceitável, mas registrar a equivalência na tabela final."
+      },
+      {
+        "id": "C73",
+        "ok": true,
+        "problem": "Clickbait é um dos vários elementos editoriais manipulados em mensagens de saúde, não o único foco; registrar esse escopo na tabela final."
+      },
+      {
+        "id": "C66",
+        "ok": true,
+        "problem": "O resumo fala em notícias sensacionalistas, não em clickbait; registrar a terminologia usada pelo estudo."
+      },
+      {
+        "id": "C15",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C71",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C17",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C99",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C23",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C12",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C45",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C01",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C87",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C20",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [],
+    "feedback": "A triagem está correta no essencial: todos os incluídos são, pelos resumos, estudos empíricos com dados de leitores ou usuários e com clickbait ou sensacionalismo operacionalizado, sem casos de detecção computacional, análise apenas linguística ou recorte político. Para a próxima tentativa, três pontos de atenção que não reprovação: (1) no C70, o resumo não deixa claro que os clickbaits avaliados são de notícias; confirme no texto completo e, se não houver relação com notícias, substitua por outro artigo que atenda; (2) nos casos C16, C73 e C66, registre na tabela final a terminologia exata usada pelo estudo (formatos de curiosidade, elemento editorial clickbait, sensacionalismo) para transparência da equivalência com o pedido; (3) os campos DOI, trecho literal do resumo e tamanho da amostra exatamente como no resumo não puderam ser verificados nesta rodada porque só recebi resumos e justificativas, então revise esses campos na entrega final, especialmente o trecho entre aspas que deve sustentar o achado principal. Não inclua artigos apenas para completar 25."
+  },
+  "text": "{\n \"approved\": true,\n \"checked\": [\n  \"C18: resumo descreve experimento com rastreamento ocular (dilatação pupilar) e SAM comparando manchetes clickbait, de notícia e neutras; mede excitação emocional e intenção de leitura; atende aos critérios.\",\n  \"C03: resumo descreve experimento com grupos de manchetes tradicionais vs. clickbait e modelagem de equações estruturais sobre intenção de ler e compartilhar; atende.\",\n  \"C27: resumo informa dois experimentos online (N = 629 e N = 1.674) com tipos de manchete (exagerada, pergunta) e efeitos em reconhecimento e compreensão; atende.\",\n  \"C116: resumo descreve dois experimentos online com artigos de notícia como estímulos e efeito de clickbait na percepção de credibilidade e qualidade; atende.\",\n  \"C115: resumo descreve experimento com 200 participantes, manchetes clickbait vs. não clickbait e questionário de credibilidade; atende.\",\n  \"C120: resumo descreve experimento de laboratório e teste de campo em sites de jornais comparando manchetes de resumo vs. de curiosidade (curiosity gap) na busca de notícias; atende.\",\n  \"C29: resumo descreve estudo experimental com consumidores de notícias online da Zâmbia e Tanzânia sobre credibilidade de manchetes clickbait; atende.\",\n  \"C06: resumo descreve estudo de EEG com 32 participantes sobre respostas cognitivas e emocionais a tipos de clickbait; atende.\",\n  \"C28: resumo descreve experimento de EEG/ERP (N2b e P3a) sobre atenção a manchetes clickbait com referência futura; atende.\",\n  \"C70: resumo descreve experimento entre participantes (N = 204) sobre impulso de clicar em clickbaits, com curiosidade e fruição como preditores; atende aos critérios de método e tema, embora o contexto de notícias não esteja explícito no resumo (ver feedback).\",\n  \"C16: resumo descreve experimento com formatos de manchete (referência futura e pergunta, dispositivos de curiosity gap) e efeitos em credibilidade e engajamento com notícias; atende.\",\n  \"C01: resumo descreve avaliação por 624 estudantes de manchetes humanas vs. de IA, incluindo clickbait, com medidas de confiança e percepção de manipulação; atende.\",\n  \"C87: resumo descreve survey online com 600 participantes avaliando tripletos de manchetes de notícias (original, clickbait gerado por IA e informativa); atende.\",\n  \"C20: resumo descreve survey quantitativo com 113 respondentes sobre efeito de manchetes clickbait no interesse de leitura; atende.\",\n  \"C15: resumo descreve análise de mais de 4.400 posts de Facebook de fontes de notícias, com dados de curtidas, compartilhamentos e comentários ligados a features de clickbait; atende (dados de engajamento de usuários).\",\n  \"C71: resumo descreve análise de conteúdo de 1.440 e 25.600 tweets de veículos de notícias com métricas de engajamento de usuários (favoritos e retweets); tem dados de usuários, portanto não é análise apenas textual; atende.\",\n  \"C17: resumo descreve análise de conteúdo de 300 manchetes no Facebook mais survey com 81 consumidores sobre confiança; atende.\",\n  \"C99: resumo descreve estudo de grupos focais com usuários sobre percepções e reflexos diante de manchetes e imagens enganosas; método qualitativo com dados de leitores; atende.\",\n  \"C23: resumo descreve pesquisa com 200 respondentes em escala Likert sobre manipulação por manchetes clickbait e fotos em notícias esportivas; atende.\",\n  \"C12: resumo descreve estudo de caso qualitativo com entrevistas em profundidade com oito estudantes sobre confiança em notícias com clickbait; dados próprios de leitores; atende.\",\n  \"C45: resumo descreve survey quantitativo com cerca de 100 leitores sobre letramento crítico diante de manchetes clickbait; atende.\",\n  \"C73: resumo descreve experimento com 300 adolescentes em que manchetes clickbait reduziram a confiança em mensagens de saúde; clickbait é variável manipulada e há dados de leitores; atende.\",\n  \"C66: resumo descreve survey com 150 leitores online sobre notícias sensacionalistas e percepção da indústria de notícias; enquadra-se no eixo sensacionalismo/credibilidade; atende.\",\n  \"Nenhum incluído é modelo de detecção/classificação computacional, revisão, meta-análise, ensaio teórico ou estudo com recorte político ou eleitoral segundo os resumos.\",\n  \"Quantidade: foram incluídos 24 artigos para um pedido de 25; entregar menos que o pedido é correto se os demais não atenderem, portanto isso não é erro.\"\n ],\n \"per_item\": [\n  {\"id\": \"C18\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C03\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C27\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C116\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C115\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C120\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C29\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C06\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C28\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C70\", \"ok\": true, \"problem\": \"O resumo não menciona explicitamente notícias; verificar no texto completo se os clickbaits avaliados são de notícias.\"},\n  {\"id\": \"C16\", \"ok\": true, \"problem\": \"Operacionaliza curiosity gap via formatos de manchete, não usa o termo clickbait; aceitável, mas registrar a equivalência na tabela final.\"},\n  {\"id\": \"C73\", \"ok\": true, \"problem\": \"Clickbait é um dos vários elementos editoriais manipulados em mensagens de saúde, não o único foco; registrar esse escopo na tabela final.\"},\n  {\"id\": \"C66\", \"ok\": true, \"problem\": \"O resumo fala em notícias sensacionalistas, não em clickbait; registrar a terminologia usada pelo estudo.\"},\n  {\"id\": \"C15\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C71\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C17\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C99\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C23\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C12\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C45\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C01\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C87\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C20\", \"ok\": true, \"problem\": \"\"}\n ],\n \"issues\": [],\n \"feedback\": \"A triagem está correta no essencial: todos os incluídos são, pelos resumos, estudos empíricos com dados de leitores ou usuários e com clickbait ou sensacionalismo operacionalizado, sem casos de detecção computacional, análise apenas linguística ou recorte político. Para a próxima tentativa, três pontos de atenção que não reprovação: (1) no C70, o resumo não deixa claro que os clickbaits avaliados são de notícias; confirme no texto completo e, se não houver relação com notícias, substitua por outro artigo que atenda; (2) nos casos C16, C73 e C66, registre na tabela final a terminologia exata usada pelo estudo (formatos de curiosidade, elemento editorial clickbait, sensacionalismo) para transparência da equivalência com o pedido; (3) os campos DOI, trecho literal do resumo e tamanho da amostra exatamente como no resumo não puderam ser verificados nesta rodada porque só recebi resumos e justificativas, então revise esses campos na entrega final, especialmente o trecho entre aspas que deve sustentar o achado principal. Não inclua artigos apenas para completar 25.\"\n}",
+  "usage": {
+    "input_tokens": 9138,
+    "output_tokens": 4280,
+    "cost_usd": 0.00351
+  },
+  "duration_s": 43.93,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

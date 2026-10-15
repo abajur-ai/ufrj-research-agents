@@ -1,0 +1,118 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "C28: amostra de 20 estudantes do ensino médio confere com o resumo; citação literal 'com 80% dos participantes...' está no resumo; achado (aprimoramento da checagem) corresponde ao texto; método (questionários, atividades gamificadas e observações) confere.",
+      "C20: 'não informado no resumo' está correto, pois o resumo não dá número de alunos; método (metodologias ativas, debates, estudo de caso, escola pública no ES) confere; achado (progresso com engajamento desigual) confere e a citação está no resumo.",
+      "C120: método (pesquisa-ação, jogo Real ou Fake, escola em Rondon do Pará) confere; 'não informado no resumo' correto; achado e citação correspondem ao resumo.",
+      "C39: método (survey e observação participante de oficina, outubro de 2021) confere; 'não informado no resumo' correto; citação literal está no resumo; achado cobre parte das estratégias listadas (a e c) sem exagerar.",
+      "C43: método (pesquisa qualitativa exploratória, oficinas, Curitiba e Colombo/PR, Quadro Europeu de competências digitais) confere; 'não informado no resumo' correto (o resumo só dá faixa etária 14 a 21 anos); achado e citação conferem.",
+      "C21: método (professores e alunos do Ensino Médio, escolas públicas e privadas no Brasil) confere; 'não informado no resumo' correto; achado (insuficiência de apenas explicar como verificar) e citação conferem.",
+      "C76: método (questionário online de múltipla escolha, alunos e professores de MG) confere; 'não informado no resumo' correto; achado (correlações significativas) e citação conferem; estudo não é centrado em vacinas, apenas usa temas científicos como itens do questionário.",
+      "C86: método (projeto em oito aulas com 8º ano, bibliotecária e professora de português, Biguaçu/SC) confere; 'não informado no resumo' correto; achado e citação conferem.",
+      "C31: amostra '53 estudantes e professores' confere com o resumo; método (estudo de caso com survey, manual Arriégua, Itaueira/PI) confere; achado e citação conferem.",
+      "C93: estudo comparativo internacional com amostra brasileira, o que o pedido admite; amostra '231 students' confere; método (survey online, maio a julho de 2023, 23 centros) confere; achado e citação conferem.",
+      "C05: método (pesquisa qualitativa, questionário online com professores da rede básica) confere; 'não informado no resumo' correto; achado e citação conferem.",
+      "C23: método (pesquisa qualitativa com estudantes de Licenciatura em Informática Educacional) confere; 'não informado no resumo' correto; achado (conclusão sobre papel da educação e educação midiática como estratégia) confere com o resumo e a citação está no texto.",
+      "C22: tipo de estudo apontado com componente teórico/histórico e pesquisa empírica com professores, coerente com o resumo ('apresenta achados de uma pesquisa realizada com professores/as de educação básica'); 'não informado no resumo' correto; achado e citação conferem.",
+      "C108: método (estudo de caso qualitativo, questionário impresso com seis perguntas fechadas e quatro abertas, FURG) confere; 'não informado no resumo' correto; achado (não verificam veracidade, confiam em fontes tradicionais) e citação conferem.",
+      "C94: método (oficina com Ilhota Interdisciplinar de Racionalidade, análise de diários de campo) confere; achado e citação conferem; contexto de pandemia é pano de fundo, o estudo não é centrado em COVID-19.",
+      "C97: amostra '51 alunos de cada escola' confere com o resumo; método (questionário em escola pública e privada, ensino médio) confere; achado e citação conferem; eleições de 2018/2022 aparecem apenas como contexto histórico, o foco é alfabetização científica e detecção de fake news na escola."
+    ],
+    "per_item": [
+      {
+        "id": "C28",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C20",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C120",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C39",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C43",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C21",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C76",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C86",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C31",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C93",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C05",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C23",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C22",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C108",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C94",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C97",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [],
+    "feedback": "Extração aprovada no conjunto: métodos, tipos de estudo, amostras, achados e citações conferem com os resumos e nenhum item exagera ou acrescenta informação. Sugestões não reprovatórias: (1) em C39, o achado poderia citar também a estratégia b) 'apoiar-se nas experiências dos alunos', já que o resumo lista três estratégias principais; (2) em C94, o resumo indica análise dos diários de 'uma das licenciandas', então o campo de amostra poderia registrar isso em vez de apenas 'não informado no resumo'; (3) em C22 e C94, vale na planilha final confirmar que o artigo relata dados empíricos próprios (o resumo de C22 sustenta via 'achados de uma pesquisa realizada com professores/as'), para blindar contra o critério que exclui ensaios teóricos; (4) em C97, o resumo menciona eleições e pandemia apenas como contexto, manter atenção para que o campo final de descrição não sugira que o estudo é sobre eleições ou COVID-19."
+  },
+  "text": "{\n \"approved\": true,\n \"checked\": [\n  \"C28: amostra de 20 estudantes do ensino médio confere com o resumo; citação literal 'com 80% dos participantes...' está no resumo; achado (aprimoramento da checagem) corresponde ao texto; método (questionários, atividades gamificadas e observações) confere.\",\n  \"C20: 'não informado no resumo' está correto, pois o resumo não dá número de alunos; método (metodologias ativas, debates, estudo de caso, escola pública no ES) confere; achado (progresso com engajamento desigual) confere e a citação está no resumo.\",\n  \"C120: método (pesquisa-ação, jogo Real ou Fake, escola em Rondon do Pará) confere; 'não informado no resumo' correto; achado e citação correspondem ao resumo.\",\n  \"C39: método (survey e observação participante de oficina, outubro de 2021) confere; 'não informado no resumo' correto; citação literal está no resumo; achado cobre parte das estratégias listadas (a e c) sem exagerar.\",\n  \"C43: método (pesquisa qualitativa exploratória, oficinas, Curitiba e Colombo/PR, Quadro Europeu de competências digitais) confere; 'não informado no resumo' correto (o resumo só dá faixa etária 14 a 21 anos); achado e citação conferem.\",\n  \"C21: método (professores e alunos do Ensino Médio, escolas públicas e privadas no Brasil) confere; 'não informado no resumo' correto; achado (insuficiência de apenas explicar como verificar) e citação conferem.\",\n  \"C76: método (questionário online de múltipla escolha, alunos e professores de MG) confere; 'não informado no resumo' correto; achado (correlações significativas) e citação conferem; estudo não é centrado em vacinas, apenas usa temas científicos como itens do questionário.\",\n  \"C86: método (projeto em oito aulas com 8º ano, bibliotecária e professora de português, Biguaçu/SC) confere; 'não informado no resumo' correto; achado e citação conferem.\",\n  \"C31: amostra '53 estudantes e professores' confere com o resumo; método (estudo de caso com survey, manual Arriégua, Itaueira/PI) confere; achado e citação conferem.\",\n  \"C93: estudo comparativo internacional com amostra brasileira, o que o pedido admite; amostra '231 students' confere; método (survey online, maio a julho de 2023, 23 centros) confere; achado e citação conferem.\",\n  \"C05: método (pesquisa qualitativa, questionário online com professores da rede básica) confere; 'não informado no resumo' correto; achado e citação conferem.\",\n  \"C23: método (pesquisa qualitativa com estudantes de Licenciatura em Informática Educacional) confere; 'não informado no resumo' correto; achado (conclusão sobre papel da educação e educação midiática como estratégia) confere com o resumo e a citação está no texto.\",\n  \"C22: tipo de estudo apontado com componente teórico/histórico e pesquisa empírica com professores, coerente com o resumo ('apresenta achados de uma pesquisa realizada com professores/as de educação básica'); 'não informado no resumo' correto; achado e citação conferem.\",\n  \"C108: método (estudo de caso qualitativo, questionário impresso com seis perguntas fechadas e quatro abertas, FURG) confere; 'não informado no resumo' correto; achado (não verificam veracidade, confiam em fontes tradicionais) e citação conferem.\",\n  \"C94: método (oficina com Ilhota Interdisciplinar de Racionalidade, análise de diários de campo) confere; achado e citação conferem; contexto de pandemia é pano de fundo, o estudo não é centrado em COVID-19.\",\n  \"C97: amostra '51 alunos de cada escola' confere com o resumo; método (questionário em escola pública e privada, ensino médio) confere; achado e citação conferem; eleições de 2018/2022 aparecem apenas como contexto histórico, o foco é alfabetização científica e detecção de fake news na escola.\"\n ],\n \"per_item\": [\n  {\"id\": \"C28\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C20\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C120\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C39\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C43\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C21\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C76\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C86\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C31\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C93\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C05\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C23\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C22\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C108\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C94\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C97\", \"ok\": true, \"problem\": \"\"}\n ],\n \"issues\": [],\n \"feedback\": \"Extração aprovada no conjunto: métodos, tipos de estudo, amostras, achados e citações conferem com os resumos e nenhum item exagera ou acrescenta informação. Sugestões não reprovatórias: (1) em C39, o achado poderia citar também a estratégia b) 'apoiar-se nas experiências dos alunos', já que o resumo lista três estratégias principais; (2) em C94, o resumo indica análise dos diários de 'uma das licenciandas', então o campo de amostra poderia registrar isso em vez de apenas 'não informado no resumo'; (3) em C22 e C94, vale na planilha final confirmar que o artigo relata dados empíricos próprios (o resumo de C22 sustenta via 'achados de uma pesquisa realizada com professores/as'), para blindar contra o critério que exclui ensaios teóricos; (4) em C97, o resumo menciona eleições e pandemia apenas como contexto, manter atenção para que o campo final de descrição não sugira que o estudo é sobre eleições ou COVID-19.\"\n}",
+  "usage": {
+    "input_tokens": 7839,
+    "output_tokens": 2680,
+    "cost_usd": 0.00252
+  },
+  "duration_s": 23.48,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

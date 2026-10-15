@@ -1,0 +1,424 @@
+# Verificador da extração de dados
+Você é um verificador independente, com busca na web. Para CADA artigo da lista final: abra o resumo na página
+oficial e confira se o trecho entre aspas está no resumo, letra por letra (diferença só de aspas, pontuação ou
+espaço é aceitável); se a amostra informada aparece no resumo como escrita; se o método e o tipo de estudo estão
+certos; e se o achado principal diz o que o resumo diz, sem exagerar nem acrescentar. Confira também se DOI, título,
+ano e periódico continuam certos. Reprove qualquer citação parafraseada, número de amostra que não está no resumo ou
+achado que vai além do resumo, e diga em qual artigo.
+
+COMO RESPONDER
+- approved: false só por ERRO REAL que compromete o resultado (dado errado, critério do pedido violado ou
+  esquecido, fonte que não existe, citação que não está na fonte, afirmação que a fonte não sustenta).
+  Sugestão de melhoria, preferência de estilo ou cobertura que poderia ser maior não reprova: aprove e ponha a
+  sugestão em feedback.
+- checked: o que você conferiu, um item por linha, concreto (por exemplo: 'DOI 10.x abre e o título confere').
+- issues: cada problema numa frase curta que um estudante entenda: o que está errado ou faltou, e onde.
+- feedback: o que o executor precisa fazer na próxima tentativa.
+- Escreva em português do Brasil, sem travessão.
+
+PEDIDO DO PESQUISADOR:
+Encontre 25 artigos científicos revisados por pares, publicados em periódicos entre 2018 e 2025, sobre os efeitos de manchetes caça-cliques (clickbait) sobre leitores e usuários de notícias. Restrições: apenas estudos empíricos com dados de leitores ou usuários (experimentos, questionários, medidas fisiológicas como EEG ou rastreamento ocular, ou dados de cliques e engajamento); exclua modelos computacionais de detecção ou classificação de clickbait, análises apenas linguísticas de manchetes sem dados de leitores e estudos com recorte político ou eleitoral. Valem apenas artigos de periódico que relatem estudo empírico com dados próprios; não use revisões de literatura, meta-análises, ensaios teóricos, preprints, trabalhos de anais de congresso, capítulos de livro, teses ou resenhas. Para cada artigo, informe: DOI; título; autores; ano de publicação; periódico; tipo de estudo e método; tamanho da amostra exatamente como aparece no resumo (ou "não informado no resumo"); achado principal, em uma frase; e um trecho literal do resumo, entre aspas, que sustente o achado principal.
+
+LISTA FINAL A VERIFICAR:
+{
+ "items": [
+  {
+   "doi": "10.1108/oir-05-2018-0172",
+   "title": "Shocking secret you won't believe! Emotional arousal in clickbait headlines: An eye-tracking analysis",
+   "authors": [
+    "Supavich Fone Pengnate"
+   ],
+   "year": 2019,
+   "venue": "Online Information Review",
+   "study_type": "Estudo experimental",
+   "method": "Experimento com rastreamento ocular (dilatação pupilar) e escala SAM (Self-Assessment Manikin), comparando manchetes de notícias, clickbait e neutras",
+   "sample_size": "não informado no resumo",
+   "main_finding": "Manchetes clickbait geram mais excitação emocional que manchetes neutras (e menos que manchetes noticiosas), e a excitação prediz a intenção de ler a notícia.",
+   "abstract_quote": "Emotional arousal appears to be a significant predictor of intention to read news."
+  },
+  {
+   "doi": "10.58729/1941-6679.1440",
+   "title": "Effects of Clickbait Headlines on User Responses: An Empirical Investigation",
+   "authors": [
+    "Supavich Fone Pengnate",
+    "Jeffrey W. Chen",
+    "Alex Young"
+   ],
+   "year": 2021,
+   "venue": "Journal of International Technology and Information Management",
+   "study_type": "Estudo experimental",
+   "method": "Experimento com dois conjuntos de manchetes (tradicionais vs. clickbait) e modelagem de equações estruturais",
+   "sample_size": "não informado no resumo",
+   "main_finding": "Manchetes clickbait despertam excitação e curiosidade nos usuários; a curiosidade é o principal fator da intenção de ler e a qualidade percebida do conhecimento é o principal fator da intenção de compartilhar.",
+   "abstract_quote": "The findings suggest that clickbait headlines can evoke users’ arousal and curiosity."
+  },
+  {
+   "doi": "10.1371/journal.pone.0266743",
+   "title": "Click me…! The influence of clickbait on user engagement in social media and the role of digital nudging",
+   "authors": [
+    "Anna-Katharina Jung",
+    "Stefan Stieglitz",
+    "Tobias Kißmer",
+    "Milad Mirbabaie",
+    "Tobias Kroll"
+   ],
+   "year": 2022,
+   "venue": "PLOS ONE",
+   "study_type": "Estudo observacional quantitativo de dados de engajamento",
+   "method": "Análise de dados de engajamento (curtir, compartilhar, comentar) de posts de páginas de notícias no Facebook",
+   "sample_size": "more than 4,400 Facebook posts from 10 different news sources",
+   "main_finding": "Alguns traços de clickbait (como pontuação incomum e expressões típicas) aumentam a interação dos usuários com os posts, enquanto outros a diminuem.",
+   "abstract_quote": "certain features (e.g., unusual punctuation and common clickbait phrases) increase user interaction, whereas others decrease engagement with Facebook posts"
+  },
+  {
+   "doi": "10.1080/17512786.2019.1628658",
+   "title": "Aggregation, Clickbait and Their Effect on Perceptions of Journalistic Credibility and Quality",
+   "authors": [
+    "Logan Molyneux",
+    "Mark Coddington"
+   ],
+   "year": 2020,
+   "venue": "Journalism Practice",
+   "study_type": "Estudo experimental",
+   "method": "Dois experimentos online usando artigos originais e agregados publicados como estímulos",
+   "sample_size": "não informado no resumo",
+   "main_finding": "A agregação tem pouco efeito sobre a credibilidade e a qualidade percebidas, enquanto manchetes clickbait podem reduzi-las.",
+   "abstract_quote": "Results also suggest clickbait headlines may lower perceptions of credibility and quality."
+  },
+  {
+   "doi": "10.1027/1864-1105/a000298",
+   "title": "Exaggerated and Questioning Clickbait Headlines and Their Influence on Media Learning",
+   "authors": [
+    "Nick Carcioppolo",
+    "Di Lun",
+    "Soroya Julian McFarlane"
+   ],
+   "year": 2022,
+   "venue": "Journal of Media Psychology",
+   "study_type": "Estudo experimental",
+   "method": "Dois experimentos online (Estudo 2 como replicação) sobre o efeito do tipo de manchete e da exposição ao artigo no reconhecimento e na compreensão",
+   "sample_size": "N = 629 (Estudo 1); N = 1,674 (Estudo 2)",
+   "main_finding": "Ler o artigo completo com uma manchete precisa produz o maior reconhecimento e compreensão, e a correção no corpo do texto não basta para anular o efeito negativo de uma manchete clickbait.",
+   "abstract_quote": "reading the full article with an accurate headline resulted in the highest recognition and comprehension"
+  },
+  {
+   "doi": "10.1007/s11747-021-00830-x",
+   "title": "Did clickbait crack the code on virality?",
+   "authors": [
+    "Prithwiraj Mukherjee",
+    "Souvik Dutta",
+    "Arnaud De Bruyn"
+   ],
+   "year": 2022,
+   "venue": "Journal of the Academy of Marketing Science",
+   "study_type": "Estudo experimental e análise de dados secundários de compartilhamento",
+   "method": "Experimento controlado combinado com análise de um conjunto de dados secundários de compartilhamento de artigos de publicadores online",
+   "sample_size": "19,386 articles from 27 leading online publishers (o resumo não informa o n do experimento controlado)",
+   "main_finding": "Em média, artigos clickbait recebem muito menos compartilhamentos que artigos não clickbait, contrariando a crença de que o clickbait aumenta sistematicamente o compartilhamento.",
+   "abstract_quote": "We confirm that, on average, clickbait articles elicit far fewer shares than non-clickbait articles."
+  },
+  {
+   "doi": "10.1109/tts.2021.3073464",
+   "title": "Clickbait—Trust and Credibility of Digital News",
+   "authors": [
+    "Vivek Kaushal",
+    "Kavita Vemuri"
+   ],
+   "year": 2021,
+   "venue": "IEEE Transactions on Technology and Society",
+   "study_type": "Estudo experimental",
+   "method": "Experimento em que os participantes liam dois de seis artigos, cada um com manchete clickbait e não clickbait, e respondiam a um questionário de credibilidade; também mediu curiosidade epistêmica e dados demográficos",
+   "sample_size": "200 participants (100 each of English-speaking American and English-speaking Indian)",
+   "main_finding": "Manchetes clickbait reduziram significativamente a credibilidade dos itens de notícia.",
+   "abstract_quote": "Clickbait headlines significantly reduced the credibility of news items."
+  },
+  {
+   "doi": "10.1108/AJIM-07-2020-0214",
+   "title": "\"This Will Blow Your Mind\": examining the urge to click clickbaits",
+   "authors": [
+    "Alton Y.K. Chua",
+    "Anjan Pal",
+    "Snehasish Banerjee"
+   ],
+   "year": 2021,
+   "venue": "Aslib Journal of Information Management",
+   "study_type": "Estudo experimental",
+   "method": "Experimento entre participantes (between-participants) comparando clickbait só com texto e com miniatura, testando um modelo baseado em usos e gratificações",
+   "sample_size": "N = 204",
+   "main_finding": "Curiosidade, prazer percebido e vigilância predizem o impulso de clicar em clickbait, que é maior com miniaturas do que com texto apenas.",
+   "abstract_quote": "Curiosity, perceived enjoyment and surveillance were significant predictors of the urge to click."
+  },
+  {
+   "doi": "10.1108/intr-09-2019-0373",
+   "title": "Seeing is not always believing: an exploratory study of clickbait in WeChat",
+   "authors": [
+    "Wenping Zhang",
+    "Wei Du",
+    "Yiyang Bian",
+    "Chih-Hung Peng",
+    "Qiqi Jiang"
+   ],
+   "year": 2020,
+   "venue": "Internet Research",
+   "study_type": "Estudo observacional quantitativo de dados de cliques",
+   "method": "Dados longitudinais de cliques e tráfego de contas oficiais do WeChat, com mineração de texto para medir os traços retóricos e análise econométrica",
+   "sample_size": "more than 500 WeChat official accounts in China",
+   "main_finding": "Hipérbole, insinuação e retórica visual aumentam os cliques nas manchetes, e há relação em U invertido entre o número de manchetes clickbait de um publicador e o tráfego de visitas.",
+   "abstract_quote": "hyperbole, insinuation, and visual rhetoric entice users to click the baited headlines"
+  },
+  {
+   "doi": "10.1002/acp.4134",
+   "title": "You won't believe it! Truth judgments for clickbait headlines benefit (but less so) from prior exposure",
+   "authors": [
+    "Jérémy Béna",
+    "Martin Rouard",
+    "Olivier Corneille"
+   ],
+   "year": 2023,
+   "venue": "Applied Cognitive Psychology",
+   "study_type": "Estudo experimental",
+   "method": "Dois experimentos sobre o efeito da exposição prévia a enunciados em formato clickbait nos julgamentos de veracidade",
+   "sample_size": "Experiment 1 (N = 241); Experiment 2 (N = 291)",
+   "main_finding": "A exposição prévia a manchetes clickbait aumenta os julgamentos de veracidade de seu conteúdo, embora menos que para enunciados comuns.",
+   "abstract_quote": "exposure to clickbait headlines can increase their content's truth judgments despite their overall lack of credibility"
+  },
+  {
+   "doi": "10.3390/info16020150",
+   "title": "AI vs. Human-Authored Headlines: Evaluating the Effectiveness, Trust, and Linguistic Features of ChatGPT-Generated Clickbait and Informative Headlines in Digital News",
+   "authors": [
+    "Vasile Gherheș",
+    "Marcela Alina Fărcașiu",
+    "Mariana Cernicova-Bucă",
+    "Claudiu Coman"
+   ],
+   "year": 2025,
+   "venue": "Information",
+   "study_type": "Estudo de survey com análise linguística complementar",
+   "method": "Survey em que estudantes avaliaram manchetes escritas por humanos e geradas pelo ChatGPT (clickbait e informativas), mais análise linguística das manchetes",
+   "sample_size": "a sample of 624 students from Timisoara, Romania",
+   "main_finding": "Manchetes clickbait, de qualquer origem, foram vistas como enganosas e manipuladoras, e 54,5% relataram queda de confiança em publicações que as usam com frequência.",
+   "abstract_quote": "Clickbait headlines, regardless of their source, were considered misleading and rated as manipulative (44.7%)."
+  },
+  {
+   "doi": "10.3390/journalmedia5040110",
+   "title": "Are ChatGPT-Generated Headlines Better Attention Grabbers than Human-Authored Ones? An Assessment of Salient Features Driving Engagement with Online Media",
+   "authors": [
+    "Vasile Gherheș",
+    "Marcela Alina Fărcașiu",
+    "Mariana Cernicova-Bucă"
+   ],
+   "year": 2024,
+   "venue": "Journalism and Media",
+   "study_type": "Estudo de survey com análise linguística complementar",
+   "method": "Survey online em que estudantes romenos avaliaram trios de manchetes (original clickbait, versão clickbait e versão informativa geradas pelo ChatGPT), mais análise linguística das manchetes preferidas",
+   "sample_size": "600 participants (survey); 100 original human-authored articles com manchetes clickbait",
+   "main_finding": "O público rejeita o clickbait como enganoso e frustrante no plano declarado, mas na prática menos de 34% preferiram manchetes neutras e objetivas.",
+   "abstract_quote": "the investigated audience rejected clickbait headlines"
+  },
+  {
+   "doi": "10.5897/jmcs2020.0715",
+   "title": "Clickbait-style headlines and journalism credibility in Sub-Saharan Africa: Exploring audience perceptions",
+   "authors": [
+    "Judith Wanda",
+    "Samson Chipanjilo Baraka",
+    "Gregory Gondwe",
+    "Joseph Kerunga"
+   ],
+   "year": 2021,
+   "venue": "Journal of Media and Communication Studies",
+   "study_type": "Estudo experimental",
+   "method": "Experimento com consumidores de notícias online na Zâmbia e na Tanzânia",
+   "sample_size": "não informado no resumo",
+   "main_finding": "Manchetes clickbait têm efeito negativo sobre a credibilidade jornalística percebida na Zâmbia e na Tanzânia.",
+   "abstract_quote": "The findings suggest strong statistical evidence that clickbait headlines pose negatives effects"
+  },
+  {
+   "doi": "10.24815/jr.v8i3.47278",
+   "title": "The Effect of Clickbait Headlines on Tribunnews.Com Online News Articles on the Reading Interest of Generation Z at FKI UMS",
+   "authors": [
+    "Dedy Pradana Putra",
+    "Budi Santoso"
+   ],
+   "year": 2025,
+   "venue": "Riwayat: Educational Journal of History and Humanities",
+   "study_type": "Estudo quantitativo de survey",
+   "method": "Questionário com amostragem proposital (purposive sampling) entre estudantes da Geração Z",
+   "sample_size": "113 respondents",
+   "main_finding": "O uso de manchetes clickbait influencia significativamente o interesse de leitura, aumentando a curiosidade, mas também causando tédio ou decepção quando o conteúdo não corresponde à manchete.",
+   "abstract_quote": "the use of clickbait headlines has a significant influence on reading interest"
+  },
+  {
+   "doi": "10.1080/21670811.2025.2505566",
+   "title": "Emotion Sells: Rage Bait vs. Information Bait in Clickbait News Headlines on Social Media",
+   "authors": [
+    "Jieun Shin",
+    "Chris DeFelice",
+    "Soojong Kim"
+   ],
+   "year": 2025,
+   "venue": "Digital Journalism",
+   "study_type": "Estudo observacional quantitativo de dados de engajamento",
+   "method": "Análise de manchetes clickbait de organizações jornalísticas em redes sociais, distinguindo rage bait e information bait, ligada ao engajamento do público",
+   "sample_size": "não informado no resumo",
+   "main_finding": "Manchetes de rage bait associaram-se a maior engajamento do público e as de information bait a menor engajamento.",
+   "abstract_quote": "rage bait headlines were linked to higher levels of audience engagement"
+  },
+  {
+   "doi": "10.1089/cyber.2024.0295",
+   "title": "Decoding Clickbait: The Impact of Clickbait Types and Structures on Cognitive and Emotional Responses in Online Interactions",
+   "authors": [
+    "Yikai Wang",
+    "Bin Hu",
+    "Chaolan Tang",
+    "Xian Yang"
+   ],
+   "year": 2025,
+   "venue": "Cyberpsychology, Behavior, and Social Networking",
+   "study_type": "Estudo experimental com medida fisiológica",
+   "method": "Experimento com eletroencefalografia (EEG) sobre tipos e estruturas de clickbait",
+   "sample_size": "32 internet-experienced participants",
+   "main_finding": "Tipos de clickbait como hipérbole e retórica visual capturam rapidamente a atenção e reforçam o engajamento emocional, enquanto insinuação e quebra-cabeça exigem mais esforço cognitivo.",
+   "abstract_quote": "clickbait types such as hyperbole and visual rhetoric swiftly capture attention"
+  },
+  {
+   "doi": "10.58984/smb2201145s",
+   "title": "Photography and Clickbait Headlines: Online Media Tools in the Process of Readers Manipulation",
+   "authors": [
+    "Uroš Selenić"
+   ],
+   "year": 2022,
+   "venue": "Sports, Media and Business",
+   "study_type": "Estudo de survey",
+   "method": "Questionário com escala Likert sobre fotografia e manchetes clickbait como ferramentas de manipulação, com exemplos de notícias esportivas",
+   "sample_size": "200 respondents",
+   "main_finding": "Os participantes indicaram ter sido manipulados por fotos e por manchetes clickbait.",
+   "abstract_quote": "They were also manipulated by the photos and clickbait headlines, according to the results."
+  },
+  {
+   "doi": "10.1177/1461444819863408",
+   "title": "The curiosity effect: Information seeking in the contemporary news environment",
+   "authors": [
+    "Joshua M. Scacco",
+    "Ashley Muddiman"
+   ],
+   "year": 2020,
+   "venue": "New Media & Society",
+   "study_type": "Estudo experimental e teste de campo",
+   "method": "Experimento de laboratório (Estudo 1) e teste de campo com seleção de manchetes em nove sites de jornais locais (Estudo 2)",
+   "sample_size": "não informado no resumo",
+   "main_finding": "Manchetes de resumo aumentam a percepção de adequação da informação da manchete, e a seleção real de artigos em sites de jornais locais também favorece manchetes de resumo.",
+   "abstract_quote": "summary headlines heighten perceptions of headline information adequacy"
+  },
+  {
+   "doi": "10.1002/acp.4195",
+   "title": "Curiosity in news consumption",
+   "authors": [
+    "Jingyi Qiu",
+    "Russell Golman"
+   ],
+   "year": 2024,
+   "venue": "Applied Cognitive Psychology",
+   "study_type": "Estudo observacional quantitativo de dados de cliques, com validação experimental",
+   "method": "Teste da teoria da lacuna de informação da curiosidade com dados de cliques em artigos de notícias do WeChat, com processamento de linguagem natural e validação experimental das medidas",
+   "sample_size": "over 100,000 WeChat news articles",
+   "main_finding": "As pessoas tendem a consumir notícias quando a manchete desperta uma pergunta saliente, mas induzir curiosidade impulsiona o consumo de curto prazo sem necessariamente aumentar o engajamento de longo prazo.",
+   "abstract_quote": "inducing curiosity can drive short-term news consumption, it doesn't necessarily enhance long-term reader engagement"
+  },
+  {
+   "doi": "10.1080/10447318.2022.2158262",
+   "title": "Attention Grabbing through Forward Reference: An ERP Study on Clickbait and Top News Stories",
+   "authors": [
+    "Xin Yan Li",
+    "Jia Zhou",
+    "Honglian Xiang",
+    "Jingjing Cao"
+   ],
+   "year": 2022,
+   "venue": "International Journal of Human-Computer Interaction",
+   "study_type": "Estudo experimental com medida fisiológica",
+   "method": "Experimento com EEG (potenciais relacionados a eventos, componentes N2b e P3a) com manchetes com e sem recurso de referência antecipatória",
+   "sample_size": "não informado no resumo",
+   "main_finding": "Manchetes clickbait com recurso de referência antecipatória atraem mais recursos de atenção e induzem a alocação involuntária de atenção mais rapidamente, sem diferença significativa entre notícias de destaque e as demais.",
+   "abstract_quote": "the clickbait headlines with a forward-reference device attracted more attention resources and induced the involuntary attention allocation more quickly"
+  },
+  {
+   "doi": "10.1080/21670811.2024.2394764",
+   "title": "Analyzing Sensationalism in News on Twitter (X): Clickbait Journalism by Legacy vs. Online-Native Outlets and the Consequences for User Engagement",
+   "authors": [
+    "Salman Khawar",
+    "Mark Boukes"
+   ],
+   "year": 2024,
+   "venue": "Digital Journalism",
+   "study_type": "Análise de conteúdo ligada a dados de engajamento",
+   "method": "Análise de conteúdo manual e automatizada de tweets de veículos de notícias, relacionada a métricas reais de engajamento (favoritos e retweets)",
+   "sample_size": "1,440 tweets (análise manual); 25,600 tweets (análise automatizada)",
+   "main_finding": "Quanto mais traços sensacionalistas um tweet tem, mais favoritos recebe, e a análise automatizada também mostra mais retweets.",
+   "abstract_quote": "a positive relationship was found between the number of sensationalist features employed and the favorite count"
+  },
+  {
+   "doi": "10.1080/17512786.2020.1793379",
+   "title": "Here's What to Know About Clickbait: Effects of Image, Headline and Editing on Audience Attitudes",
+   "authors": [
+    "Fred Vultee",
+    "G. Scott Burgess",
+    "Darryl Frazier",
+    "Kelsey R. Mesmer"
+   ],
+   "year": 2020,
+   "venue": "Journalism Practice",
+   "study_type": "Estudo experimental",
+   "method": "Experimento sobre os efeitos do estilo da manchete (tradicional vs. clickbait), da ilustração e da edição na percepção de qualidade, credibilidade e memória",
+   "sample_size": "não informado no resumo",
+   "main_finding": "A edição é a maior influência sobre a qualidade e a credibilidade percebidas e condiciona se manchetes tradicionais ou clickbait se associam a melhor memória dos detalhes da notícia.",
+   "abstract_quote": "the presence of editing also influences whether traditional or clickbait headlines are associated with better memory"
+  },
+  {
+   "doi": "10.47233/jkomdis.v4i2.1777",
+   "title": "Dampak Penggunaan Clickbait pada Judul Berita di Tribunnews.com terhadap Minat Baca Mahasiswa Ilmu Komunikasi Universitas Singaperbangsa Karawang Angkatan 2020",
+   "authors": [
+    "Sheila Mohammada",
+    "Mayasari Mayasari",
+    "Tri Widya Budhiharti"
+   ],
+   "year": 2024,
+   "venue": "JKOMDIS: Jurnal Ilmu Komunikasi dan Media Sosial",
+   "study_type": "Estudo quantitativo de survey",
+   "method": "Pesquisa quantitativa com amostragem não probabilística do tipo proposital (purposive sampling) entre estudantes",
+   "sample_size": "não informado no resumo",
+   "main_finding": "O uso de manchetes clickbait em notícias do Tribunnews.com tem efeito significativo sobre o interesse de leitura dos estudantes.",
+   "abstract_quote": "a significant effect on students’ reading interest"
+  },
+  {
+   "doi": "10.3126/njdrs.v22i1.99390",
+   "title": "Sensational Headlines, Engagement, and Credibility in Nepal's Online News",
+   "authors": [
+    "Sudhamshu Dahal"
+   ],
+   "year": 2025,
+   "venue": "Nepalese Journal of Development and Rural Studies",
+   "study_type": "Estudo de métodos mistos",
+   "method": "Delineamento convergente: análise de conteúdo de manchetes postadas no Facebook com métricas de engajamento (curtidas, compartilhamentos, comentários) e survey com consumidores de notícias",
+   "sample_size": "300 Facebook-posted headlines; a purposive survey of 81 Nepali online news consumers",
+   "main_finding": "Manchetes sensacionalistas receberam mais engajamento que as não sensacionalistas, especialmente em comentários, mas o survey indicou custos de credibilidade.",
+   "abstract_quote": "Sensational headlines received higher mean engagement"
+  },
+  {
+   "doi": "10.14421/hum.v4i2.3524",
+   "title": "Pengaruh Penggunaan Clickbait pada Judul Berita di Ayobandung.com Terhadap Minat Baca Mahasiswa Fakultas Ilmu Sosial dan Politik Universitas Bhayangkara Surabaya",
+   "authors": [
+    "Kautsar Senja",
+    "Julyanto Ekantoro",
+    "Ratna Setyarahajoe"
+   ],
+   "year": 2025,
+   "venue": "Jurnal Humanitaria: Jurnal Ilmu Sosial dan Humaniora",
+   "study_type": "Estudo quantitativo de survey",
+   "method": "Survey com amostragem proposital e análise por modelagem de equações estruturais (PLS)",
+   "sample_size": "100 respondents",
+   "main_finding": "Quanto maior o uso de clickbait nos títulos de notícias do ayobandung.com, maior o interesse de leitura dos estudantes.",
+   "abstract_quote": "the more it increases students' interest in reading"
+  }
+ ],
+ "search_notes": "Havia exatamente 25 candidatos aprovados, então extraí todos os 25. Não busquei substitutos, porque o fluxo só admite artigos da lista aprovada. Por isso incluí alguns itens limítrofes. Eles estão sinalizados abaixo para o pesquisador decidir se mantém.\n\nComo verifiquei: as páginas oficiais de T&F, Wiley, MDPI e IEEE devolveram 403 ou página vazia. Li os resumos nas páginas do Emerald, PLOS, Springer/Europe PMC, Hogrefe/Crossref, CSUSB e Academic Journals, e por Crossref, OpenAlex e Semantic Scholar nos demais. A ferramenta de leitura devolveu paráfrases em vários casos, então nesses casos só mantive como abstract_quote o trecho que apareceu literalmente. Alguns trechos ficaram mais curtos que na lista de candidatos:\n- Shin, Khawar, Vultee, Scacco e Gherheș 2024: removi a parte final não confirmada.\n- Li: o resumo diz \"attention resources\", e não \"attention and resources\" como na lista de candidatos.\n- Chua: o resumo no Crossref não tem a vírgula antes de \"and\".\n- Senja: usei só o trecho confirmado, porque o índice do OpenAlex tem uma lacuna na posição de \"on\".\n- Qiu: o trecho veio de duas partes do resumo confirmadas separadamente, e os hífens de \"short-term\" e \"long-term\" foram normalizados. A palavra \"while\" não foi confirmada e ficou de fora.\n\nCorreções em relação à lista de candidatos: Dahal tem n do survey no resumo (81 consumidores), que eu acrescentei. Kaushal teve a frase de amostra e o trecho conferidos palavra por palavra no índice do OpenAlex.\n\nPontos de atenção:\n- Qiu & Golman: o resumo não usa o termo \"clickbait\"; o foco é a lacuna de curiosidade nas manchetes.\n- Dahal: usa \"sensacionalista\" como termo central.\n- Béna et al.: os estímulos são enunciados em formato clickbait, em contexto menos claramente jornalístico.\n- Gherheș 2024 e 2025: o foco principal é IA vs. humano.\n- Wang et al.: trata de interações online em geral, com pouca ênfase em notícias.\n- Khawar & Boukes: parte do estudo é análise de conteúdo, mas o desfecho usa dados de engajamento.\n- Shin et al.: o resumo cita mídia conservadora só como variável descritiva; mantive porque o foco não é político. Convém confirmar.\n- Mukherjee et al.: o n do experimento não consta no resumo.\n- Wanda et al.: a ordem dos nomes dos autores na página estava ambígua; mantive a lista dos candidatos, e vale conferir no PDF.\n- Senja et al.: o Crossref lista outro DOI com o mesmo título (10.24815/jimps.v10i3.35161), possível publicação duplicada.\n- A revisão por pares não foi confirmada para Putra & Santoso, Selenić, Mohammada et al., Dahal e Senja et al.; são periódicos pequenos ou regionais.\n- Pengnate 2019 e Pengnate et al. 2021 são do mesmo grupo de pesquisa, com desenhos parecidos."
+}

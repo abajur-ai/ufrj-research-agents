@@ -1,0 +1,121 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "C85: método confere com o resumo (dois grupos, cinco oficinas, avaliação antes e depois); o trecho citado está no resumo e sustenta o achado principal.",
+      "C22: amostra de 20 estudantes do ensino médio confere; método (questionários, atividades gamificadas, observações) e o dado de 80% estão no resumo; citação literal confere.",
+      "C51: intervenção pedagógica em escola pública no ES confere; sem tamanho de amostra no resumo, e o campo diz 'não informado no resumo'; citação confere.",
+      "C84: relato de projeto em oito aulas com bibliotecária escolar confere; sem amostra numérica no resumo, campo correto; citação confere.",
+      "C31: pesquisa qualitativa exploratória com oficinas e Quadro Europeu de Competências Digitais confere; resumo dá faixa etária (14 a 21 anos) mas não o número de participantes, e o campo registra 'não informado no resumo'; citação confere.",
+      "C86: 36 alunos de escolas públicas e privadas em São Paulo confere; entrevistas em profundidade e achados (checagem, algoritmos, engajamento cívico) confere; citação confere.",
+      "C53: objetivo com professores e alunos do Ensino Médio e achado sobre insuficiência de mera explicação confere; sem amostra no resumo, campo correto; citação confere.",
+      "C30: sequência didática com Padlet, três semanas, 4MAT e DUA em Bragança Paulista confere; achado sobre engajamento, avaliação crítica e inclusão confere; citação confere.",
+      "C24: pesquisa qualitativa de campo com questionário online a professores da rede básica confere; achado e citação conferem com o resumo.",
+      "C56: 49 estudantes na roda de conversa e 6 na oficina, com 6 peças de comunicação produzidas, confere; citação literal confere.",
+      "C118: pesquisa bibliográfica e documental com inspiração cartográfica e corpus de produções imagéticas do Pibid Letras confere; achado e citação conferem.",
+      "C10: pesquisa qualitativa com estudantes de Licenciatura em Informática Educacional confere; achado sobre educação midiática como pilar confere; citação confere.",
+      "C54: mapeamento de ações no Brasil mais pesquisa com professores da educação básica confere com o resumo; achado e citação conferem.",
+      "C79: análise documental da BNCC confere; achado sobre ausência de política sistemática de LMI confere; citação confere.",
+      "C95: questionário de múltipla escolha baseado no quadro de Oliveira e Silva (2020) com estudantes de curso técnico integrado confere; achado e citação conferem.",
+      "C103: estudo de caso qualitativo descritivo com questionário impresso (6 fechadas e 4 abertas) na FURG confere; achado sobre não verificação de veracidade confere; citação confere.",
+      "Verifiquei também os critérios do pedido: todos os 16 itens são estudos empíricos em contexto escolar/universitário brasileiro (ensino médio, fundamental, técnico, graduação ou professores), nenhum centrado em COVID-19, vacinas, eleições ou política partidária, e nenhum é revisão, meta-análise, ensaio teórico ou trabalho de anais."
+    ],
+    "per_item": [
+      {
+        "id": "C85",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C22",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C51",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C84",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C31",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C86",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C53",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C30",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C24",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C56",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C118",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C10",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C54",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C79",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C95",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C103",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [
+      "Em C85, o campo de tamanho da amostra usa a frase 'Two groups participated', que descreve o desenho do estudo e não o número de participantes; o resumo não informa quantos alunos havia em cada grupo."
+    ],
+    "feedback": "Nenhum erro que comprometa o resultado; a extração está aprovada. Para a próxima tentativa, uma melhoria: em C85, trocar o campo de amostra para 'não informado no resumo', já que o resumo indica os grupos (experimental no 1º ano e controle no 2º ano) mas não o número de estudantes. Em C54, se o artigo completo revelar que o mapeamento e o histórico ocupam a maior parte e a pesquisa empírica com professores é pequena, vale reavaliar se ele ainda atende ao critério de estudo empírico com dados próprios do pedido."
+  },
+  "text": "{\"approved\": true, \"checked\": [\n\"C85: método confere com o resumo (dois grupos, cinco oficinas, avaliação antes e depois); o trecho citado está no resumo e sustenta o achado principal.\",\n\"C22: amostra de 20 estudantes do ensino médio confere; método (questionários, atividades gamificadas, observações) e o dado de 80% estão no resumo; citação literal confere.\",\n\"C51: intervenção pedagógica em escola pública no ES confere; sem tamanho de amostra no resumo, e o campo diz 'não informado no resumo'; citação confere.\",\n\"C84: relato de projeto em oito aulas com bibliotecária escolar confere; sem amostra numérica no resumo, campo correto; citação confere.\",\n\"C31: pesquisa qualitativa exploratória com oficinas e Quadro Europeu de Competências Digitais confere; resumo dá faixa etária (14 a 21 anos) mas não o número de participantes, e o campo registra 'não informado no resumo'; citação confere.\",\n\"C86: 36 alunos de escolas públicas e privadas em São Paulo confere; entrevistas em profundidade e achados (checagem, algoritmos, engajamento cívico) confere; citação confere.\",\n\"C53: objetivo com professores e alunos do Ensino Médio e achado sobre insuficiência de mera explicação confere; sem amostra no resumo, campo correto; citação confere.\",\n\"C30: sequência didática com Padlet, três semanas, 4MAT e DUA em Bragança Paulista confere; achado sobre engajamento, avaliação crítica e inclusão confere; citação confere.\",\n\"C24: pesquisa qualitativa de campo com questionário online a professores da rede básica confere; achado e citação conferem com o resumo.\",\n\"C56: 49 estudantes na roda de conversa e 6 na oficina, com 6 peças de comunicação produzidas, confere; citação literal confere.\",\n\"C118: pesquisa bibliográfica e documental com inspiração cartográfica e corpus de produções imagéticas do Pibid Letras confere; achado e citação conferem.\",\n\"C10: pesquisa qualitativa com estudantes de Licenciatura em Informática Educacional confere; achado sobre educação midiática como pilar confere; citação confere.\",\n\"C54: mapeamento de ações no Brasil mais pesquisa com professores da educação básica confere com o resumo; achado e citação conferem.\",\n\"C79: análise documental da BNCC confere; achado sobre ausência de política sistemática de LMI confere; citação confere.\",\n\"C95: questionário de múltipla escolha baseado no quadro de Oliveira e Silva (2020) com estudantes de curso técnico integrado confere; achado e citação conferem.\",\n\"C103: estudo de caso qualitativo descritivo com questionário impresso (6 fechadas e 4 abertas) na FURG confere; achado sobre não verificação de veracidade confere; citação confere.\",\n\"Verifiquei também os critérios do pedido: todos os 16 itens são estudos empíricos em contexto escolar/universitário brasileiro (ensino médio, fundamental, técnico, graduação ou professores), nenhum centrado em COVID-19, vacinas, eleições ou política partidária, e nenhum é revisão, meta-análise, ensaio teórico ou trabalho de anais.\"\n], \"per_item\": [\n{\"id\": \"C85\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C22\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C51\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C84\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C31\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C86\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C53\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C30\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C24\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C56\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C118\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C10\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C54\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C79\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C95\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C103\", \"ok\": true, \"problem\": \"\"}\n], \"issues\": [\n\"Em C85, o campo de tamanho da amostra usa a frase 'Two groups participated', que descreve o desenho do estudo e não o número de participantes; o resumo não informa quantos alunos havia em cada grupo.\"\n], \"feedback\": \"Nenhum erro que comprometa o resultado; a extração está aprovada. Para a próxima tentativa, uma melhoria: em C85, trocar o campo de amostra para 'não informado no resumo', já que o resumo indica os grupos (experimental no 1º ano e controle no 2º ano) mas não o número de estudantes. Em C54, se o artigo completo revelar que o mapeamento e o histórico ocupam a maior parte e a pesquisa empírica com professores é pequena, vale reavaliar se ele ainda atende ao critério de estudo empírico com dados próprios do pedido.\"}",
+  "usage": {
+    "input_tokens": 8269,
+    "output_tokens": 2054,
+    "cost_usd": 0.00227
+  },
+  "duration_s": 19.61,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

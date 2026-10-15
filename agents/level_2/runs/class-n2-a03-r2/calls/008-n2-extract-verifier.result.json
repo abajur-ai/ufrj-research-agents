@@ -1,0 +1,328 @@
+{
+  "structured": {
+    "approved": false,
+    "checked": [
+      "Abri doi.org/10.22409/rmc.v19i2.66810: título, autores, ano 2025 e periódico Revista Mídia e Cotidiano conferem; o resumo diz 'questionários estruturados aplicados a 180 alunos de escolas públicas e particulares', nov/2023 a mar/2024, mas o resumo na página oficial está em português e não contém a citação em inglês informada no item",
+      "Abri doi.org/10.35168/1980-5276.utp.interin.2025.vol30.n2.pp76-91: resumo confirma entrevistas em profundidade com 'trinta e seis alunos de escolas públicas e privadas' e a citação 'Como resultados, revela-se a necessidade de aprofundar o uso de mídia na escola;' está literal no resumo",
+      "Abri doi.org/10.55738/alaic.v23i46.1118: título, autores, 2024 e a citação 'Os resultados apontam a insuficiência de apenas explicar o que é informação falsa e como verificar' conferem; resumo não informa amostra, e o item registra 'não informado no resumo'",
+      "Abri doi.org/10.22478/ufpb.1809-4775.2025v21n3.75047: resumo confirma 20 estudantes do ensino médio, biblioteca de escola pública no interior do RS, questionários/atividades gamificadas/observações, e a citação sobre 80% está literal no resumo",
+      "Abri doi.org/10.17058/signo.v50i98.20198: resumo confirma cinco oficinas, grupo experimental (1º ano) e controle (2º ano), instrumento antes e depois, e a citação sobre o impacto no reconhecimento de fake news está literal; resumo não informa total de participantes",
+      "Abri doi.org/10.15847/obsOBS18520242446: resumo confirma survey online de maio a julho de 2023, 23 instituições, 'answered by 231 students', e a citação em inglês sobre fake news está literal no resumo",
+      "Abri doi.org/10.23860/JMLE-2025-17-2-5: título, autores, 2025, survey e observação participante em oficina de outubro de 2021 conferem; a citação 'de-normalizing disinformation...' está literal no resumo; o resumo diz 'elementary school students' enquanto o título diz 'teenagers', e não informa amostra",
+      "Abri doi.org/10.12957/teias.2025.83022: resumo confirma pesquisa qualitativa de campo com professores da rede básica via questionário online, e a citação sobre implicações pessoais, sociais e pedagógicas está literal; amostra não informada no resumo",
+      "Abri doi.org/10.12957/redoc.2023.68237: resumo confirma pesquisa-formação na cibercultura com Licenciatura em Pedagogia EaD da UFMT, e a citação sobre letramento informacional está literal; amostra não informada no resumo",
+      "Abri doi.org/10.59666/arete.1984-7505.v24.n38.5277: título, autores, 2025, pesquisa qualitativa com Licenciatura em Informática Educacional, e a citação final sobre a educação como pilar está literal no resumo; amostra não informada no resumo",
+      "Abri o artigo na página da Revista Intersaberes (article/view/2753): título, autores e resumo conferem com o item (46 discentes, oficina, 'no XX'), mas o DOI exibido na página e no registro é 10.22169/revint.v20.e25tl408, não o DOI informado na lista",
+      "Abri doi.org/10.51891/rease.v10i11.16410: resumo confirma questionário online de múltipla escolha com alunos e professores de Minas Gerais, e a citação sobre correlações significativas está literal; amostra não informada no resumo; ano 2024 confere",
+      "Abri doi.org/10.18616/rsp.v9i2.10154: resumo confirma prática pedagógica com instrumentos qualiquantitativos em aulas de Biologia do ensino médio em 2023 e estratégia interventiva, e a citação sobre 'limiar de construção de competências em educação midiática' está literal; amostra não informada no resumo",
+      "Abri doi.org/10.15847/obsOBS18520242435: resumo confirma oficinas de educação midiática com jovens de 14 a 21 anos de Curitiba e Colombo (PR), perfil pelo Quadro Europeu de Competência Digital, e a citação sobre 'clues to build media competencies' está literal; resumo não informa número de participantes",
+      "Abri doi.org/10.28998/cirev.2021v8n2e e o registro no Crossref: o DOI informado resolve para o artigo correto (a página do periódico exibe um DOI malformado, mas o Crossref confirma 10.28998/cirev.2021v8n2e), resumo confirma 44 sujeitos e a citação sobre AMI está literal",
+      "Abri doi.org/10.22478/ufpb.1809-4775.2019v15n1.43786: resumo confirma abordagem quanti-qualitativa, questionário com perguntas fechadas e uma aberta após palestra, e a citação 'a palestra foi bastante esclarecedora para a turma' está literal",
+      "Abri doi.org/10.22456/1679-1916.99532: resumo confirma projeto de ação qualitativo e descritivo, e-book no Canva, Ensino por Projetos, 1º ano do ensino médio, e a citação sobre apropriação da tecnologia e da checagem está literal; amostra não informada no resumo",
+      "Abri doi.org/10.5007/2175-795X.2023.e95903: resumo confirma estudo exploratório qualitativo via survey com 108 estudantes de universidades públicas e privadas brasileiras, e a citação sobre detectar Fake News está literal",
+      "Abri doi.org/10.22409/rmc.v13i3.38091: resumo confirma histórico, mapeamento de iniciativas no Brasil e achados de pesquisa com professores da educação básica, e a citação sobre apoio da comunidade escolar está literal; amostra e instrumento não detalhados no resumo",
+      "Abri doi.org/10.58876/rbbd.2023.1911791 e o registro no Crossref: título, autores, 2023, pesquisa documental e descritiva com ementas, PPPs e planos de ensino e análise de Bardin conferem, e a citação sobre oito disciplinas está literal no resumo"
+    ],
+    "per_item": [
+      {
+        "doi": "10.22409/rmc.v19i2.66810",
+        "ok": false,
+        "problem": "citação do resumo está em inglês, mas o resumo na página oficial é em português, e a amostra não aparece como escrita no resumo"
+      },
+      {
+        "doi": "10.35168/1980-5276.utp.interin.2025.vol30.n2.pp76-91",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.55738/alaic.v23i46.1118",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.22478/ufpb.1809-4775.2025v21n3.75047",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.17058/signo.v50i98.20198",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.15847/obsOBS18520242446",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.23860/JMLE-2025-17-2-5",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.12957/teias.2025.83022",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.12957/redoc.2023.68237",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.59666/arete.1984-7505.v24.n38.5277",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.22169/revint.v20.e25tl4004",
+        "ok": false,
+        "problem": "DOI informado está errado; o DOI correto do artigo é 10.22169/revint.v20.e25tl408"
+      },
+      {
+        "doi": "10.51891/rease.v10i11.16410",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.18616/rsp.v9i2.10154",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.15847/obsOBS18520242435",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.28998/cirev.2021v8n2e",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.22478/ufpb.1809-4775.2019v15n1.43786",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.22456/1679-1916.99532",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.5007/2175-795X.2023.e95903",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.22409/rmc.v13i3.38091",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.58876/rbbd.2023.1911791",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [
+      "No item 1 (Revista Mídia e Cotidiano, 10.22409/rmc.v19i2.66810), o trecho entre aspas está em inglês e não aparece no resumo oficial, que é em português ('Os resultados revelam uma deficiência expressiva na educação midiática desses jovens'), então a citação é tradução e não literal",
+      "No mesmo item 1, a amostra '180 students from public and private schools' não aparece como escrita no resumo, que diz '180 alunos de escolas públicas e particulares'",
+      "No item 11 (Revista Intersaberes), o DOI informado (10.22169/revint.v20.e25tl4004) está errado: o DOI correto do artigo é 10.22169/revint.v20.e25tl408",
+      "A lista final tem 20 artigos, mas o pedido era de 25, faltando 5 itens (o próprio executor reconhece isso nas notas)"
+    ],
+    "feedback": "Corrija o item 1 trocando a citação pelo trecho literal do resumo em português ('Os resultados revelam uma deficiência expressiva na educação midiática desses jovens') e registrando a amostra exatamente como escrita ('180 alunos de escolas públicas e particulares'). Corrija o DOI do item 11 para 10.22169/revint.v20.e25tl408. Complete a lista até 25 artigos com nova busca, mantendo as restrições do pedido. Nos itens 7 (JMLE), 12 (REASE), 13 (Saberes Pedagógicos) e 19 (Mídia e Cotidiano 2019), mantenha as ressalvas já registradas nas notas, pois não comprometem os dados, mas no item 7 verifique no texto completo se a amostra é de adolescentes ou de alunos do ensino fundamental, já que o resumo traz as duas descrições"
+  },
+  "text": "{\"approved\": false,\n\"checked\": [\n\"Abri doi.org/10.22409/rmc.v19i2.66810: título, autores, ano 2025 e periódico Revista Mídia e Cotidiano conferem; o resumo diz 'questionários estruturados aplicados a 180 alunos de escolas públicas e particulares', nov/2023 a mar/2024, mas o resumo na página oficial está em português e não contém a citação em inglês informada no item\",\n\"Abri doi.org/10.35168/1980-5276.utp.interin.2025.vol30.n2.pp76-91: resumo confirma entrevistas em profundidade com 'trinta e seis alunos de escolas públicas e privadas' e a citação 'Como resultados, revela-se a necessidade de aprofundar o uso de mídia na escola;' está literal no resumo\",\n\"Abri doi.org/10.55738/alaic.v23i46.1118: título, autores, 2024 e a citação 'Os resultados apontam a insuficiência de apenas explicar o que é informação falsa e como verificar' conferem; resumo não informa amostra, e o item registra 'não informado no resumo'\",\n\"Abri doi.org/10.22478/ufpb.1809-4775.2025v21n3.75047: resumo confirma 20 estudantes do ensino médio, biblioteca de escola pública no interior do RS, questionários/atividades gamificadas/observações, e a citação sobre 80% está literal no resumo\",\n\"Abri doi.org/10.17058/signo.v50i98.20198: resumo confirma cinco oficinas, grupo experimental (1º ano) e controle (2º ano), instrumento antes e depois, e a citação sobre o impacto no reconhecimento de fake news está literal; resumo não informa total de participantes\",\n\"Abri doi.org/10.15847/obsOBS18520242446: resumo confirma survey online de maio a julho de 2023, 23 instituições, 'answered by 231 students', e a citação em inglês sobre fake news está literal no resumo\",\n\"Abri doi.org/10.23860/JMLE-2025-17-2-5: título, autores, 2025, survey e observação participante em oficina de outubro de 2021 conferem; a citação 'de-normalizing disinformation...' está literal no resumo; o resumo diz 'elementary school students' enquanto o título diz 'teenagers', e não informa amostra\",\n\"Abri doi.org/10.12957/teias.2025.83022: resumo confirma pesquisa qualitativa de campo com professores da rede básica via questionário online, e a citação sobre implicações pessoais, sociais e pedagógicas está literal; amostra não informada no resumo\",\n\"Abri doi.org/10.12957/redoc.2023.68237: resumo confirma pesquisa-formação na cibercultura com Licenciatura em Pedagogia EaD da UFMT, e a citação sobre letramento informacional está literal; amostra não informada no resumo\",\n\"Abri doi.org/10.59666/arete.1984-7505.v24.n38.5277: título, autores, 2025, pesquisa qualitativa com Licenciatura em Informática Educacional, e a citação final sobre a educação como pilar está literal no resumo; amostra não informada no resumo\",\n\"Abri o artigo na página da Revista Intersaberes (article/view/2753): título, autores e resumo conferem com o item (46 discentes, oficina, 'no XX'), mas o DOI exibido na página e no registro é 10.22169/revint.v20.e25tl408, não o DOI informado na lista\",\n\"Abri doi.org/10.51891/rease.v10i11.16410: resumo confirma questionário online de múltipla escolha com alunos e professores de Minas Gerais, e a citação sobre correlações significativas está literal; amostra não informada no resumo; ano 2024 confere\",\n\"Abri doi.org/10.18616/rsp.v9i2.10154: resumo confirma prática pedagógica com instrumentos qualiquantitativos em aulas de Biologia do ensino médio em 2023 e estratégia interventiva, e a citação sobre 'limiar de construção de competências em educação midiática' está literal; amostra não informada no resumo\",\n\"Abri doi.org/10.15847/obsOBS18520242435: resumo confirma oficinas de educação midiática com jovens de 14 a 21 anos de Curitiba e Colombo (PR), perfil pelo Quadro Europeu de Competência Digital, e a citação sobre 'clues to build media competencies' está literal; resumo não informa número de participantes\",\n\"Abri doi.org/10.28998/cirev.2021v8n2e e o registro no Crossref: o DOI informado resolve para o artigo correto (a página do periódico exibe um DOI malformado, mas o Crossref confirma 10.28998/cirev.2021v8n2e), resumo confirma 44 sujeitos e a citação sobre AMI está literal\",\n\"Abri doi.org/10.22478/ufpb.1809-4775.2019v15n1.43786: resumo confirma abordagem quanti-qualitativa, questionário com perguntas fechadas e uma aberta após palestra, e a citação 'a palestra foi bastante esclarecedora para a turma' está literal\",\n\"Abri doi.org/10.22456/1679-1916.99532: resumo confirma projeto de ação qualitativo e descritivo, e-book no Canva, Ensino por Projetos, 1º ano do ensino médio, e a citação sobre apropriação da tecnologia e da checagem está literal; amostra não informada no resumo\",\n\"Abri doi.org/10.5007/2175-795X.2023.e95903: resumo confirma estudo exploratório qualitativo via survey com 108 estudantes de universidades públicas e privadas brasileiras, e a citação sobre detectar Fake News está literal\",\n\"Abri doi.org/10.22409/rmc.v13i3.38091: resumo confirma histórico, mapeamento de iniciativas no Brasil e achados de pesquisa com professores da educação básica, e a citação sobre apoio da comunidade escolar está literal; amostra e instrumento não detalhados no resumo\",\n\"Abri doi.org/10.58876/rbbd.2023.1911791 e o registro no Crossref: título, autores, 2023, pesquisa documental e descritiva com ementas, PPPs e planos de ensino e análise de Bardin conferem, e a citação sobre oito disciplinas está literal no resumo\"\n],\n\"per_item\": [\n{\"doi\": \"10.22409/rmc.v19i2.66810\", \"ok\": false, \"problem\": \"citação do resumo está em inglês, mas o resumo na página oficial é em português, e a amostra não aparece como escrita no resumo\"},\n{\"doi\": \"10.35168/1980-5276.utp.interin.2025.vol30.n2.pp76-91\", \"ok\": true, \"problem\": \"\"},\n{\"doi\": \"10.55738/alaic.v23i46.1118\", \"ok\": true, \"problem\": \"\"},\n{\"doi\": \"10.22478/ufpb.1809-4775.2025v21n3.75047\", \"ok\": true, \"problem\": \"\"},\n{\"doi\": \"10.17058/signo.v50i98.20198\", \"ok\": true, \"problem\": \"\"},\n{\"doi\": \"10.15847/obsOBS18520242446\", \"ok\": true, \"problem\": \"\"},\n{\"doi\": \"10.23860/JMLE-2025-17-2-5\", \"ok\": true, \"problem\": \"\"},\n{\"doi\": \"10.12957/teias.2025.83022\", \"ok\": true, \"problem\": \"\"},\n{\"doi\": \"10.12957/redoc.2023.68237\", \"ok\": true, \"problem\": \"\"},\n{\"doi\": \"10.59666/arete.1984-7505.v24.n38.5277\", \"ok\": true, \"problem\": \"\"},\n{\"doi\": \"10.22169/revint.v20.e25tl4004\", \"ok\": false, \"problem\": \"DOI informado está errado; o DOI correto do artigo é 10.22169/revint.v20.e25tl408\"},\n{\"doi\": \"10.51891/rease.v10i11.16410\", \"ok\": true, \"problem\": \"\"},\n{\"doi\": \"10.18616/rsp.v9i2.10154\", \"ok\": true, \"problem\": \"\"},\n{\"doi\": \"10.15847/obsOBS18520242435\", \"ok\": true, \"problem\": \"\"},\n{\"doi\": \"10.28998/cirev.2021v8n2e\", \"ok\": true, \"problem\": \"\"},\n{\"doi\": \"10.22478/ufpb.1809-4775.2019v15n1.43786\", \"ok\": true, \"problem\": \"\"},\n{\"doi\": \"10.22456/1679-1916.99532\", \"ok\": true, \"problem\": \"\"},\n{\"doi\": \"10.5007/2175-795X.2023.e95903\", \"ok\": true, \"problem\": \"\"},\n{\"doi\": \"10.22409/rmc.v13i3.38091\", \"ok\": true, \"problem\": \"\"},\n{\"doi\": \"10.58876/rbbd.2023.1911791\", \"ok\": true, \"problem\": \"\"}\n],\n\"issues\": [\n\"No item 1 (Revista Mídia e Cotidiano, 10.22409/rmc.v19i2.66810), o trecho entre aspas está em inglês e não aparece no resumo oficial, que é em português ('Os resultados revelam uma deficiência expressiva na educação midiática desses jovens'), então a citação é tradução e não literal\",\n\"No mesmo item 1, a amostra '180 students from public and private schools' não aparece como escrita no resumo, que diz '180 alunos de escolas públicas e particulares'\",\n\"No item 11 (Revista Intersaberes), o DOI informado (10.22169/revint.v20.e25tl4004) está errado: o DOI correto do artigo é 10.22169/revint.v20.e25tl408\",\n\"A lista final tem 20 artigos, mas o pedido era de 25, faltando 5 itens (o próprio executor reconhece isso nas notas)\"\n],\n\"feedback\": \"Corrija o item 1 trocando a citação pelo trecho literal do resumo em português ('Os resultados revelam uma deficiência expressiva na educação midiática desses jovens') e registrando a amostra exatamente como escrita ('180 alunos de escolas públicas e particulares'). Corrija o DOI do item 11 para 10.22169/revint.v20.e25tl408. Complete a lista até 25 artigos com nova busca, mantendo as restrições do pedido. Nos itens 7 (JMLE), 12 (REASE), 13 (Saberes Pedagógicos) e 19 (Mídia e Cotidiano 2019), mantenha as ressalvas já registradas nas notas, pois não comprometem os dados, mas no item 7 verifique no texto completo se a amostra é de adolescentes ou de alunos do ensino fundamental, já que o resumo traz as duas descrições\"\n}",
+  "usage": {
+    "input_tokens": 328925,
+    "output_tokens": 12111,
+    "cost_usd": 0.01292
+  },
+  "duration_s": 1081.92,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.22409/rmc.v19i2.66810"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.35168/1980-5276.utp.interin.2025.vol30.n2.pp76-91"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.55738/alaic.v23i46.1118"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.22478/ufpb.1809-4775.2025v21n3.75047"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.17058/signo.v50i98.20198"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.15847/obsOBS18520242446"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.23860/JMLE-2025-17-2-5"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.12957/teias.2025.83022"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.12957/redoc.2023.68237"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.59666/arete.1984-7505.v24.n38.5277"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.22169/revint.v20.e25tl4004"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.51891/rease.v10i11.16410"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.18616/rsp.v9i2.10154"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.15847/obsOBS18520242435"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.28998/cirev.2021v8n2e"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.22478/ufpb.1809-4775.2019v15n1.43786"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.22456/1679-1916.99532"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.5007/2175-795X.2023.e95903"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.22409/rmc.v13i3.38091"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.58876/rbbd.2023.1911791"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"10.22409/rmc.v19i2.66810\" Almeida Maranhão abstract \"media education\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"10.22169/revint\" \"Educação midiática na educação matemática na formação inicial de professores\" Sabino de Souza"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.28998/cirev.2021v8n2e"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.18616/rsp.v9i2.10154"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.58876/rbbd.2023.1911791"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Educação midiática: o comportamento de estudantes nas redes sociais e a propagação de informações falsas\" resumo"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"revista Mídia e Cotidiano\" \"v19i2\" \"comportamento de estudantes nas redes sociais\""
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"10.22169/revint.v20.e25tl408\""
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.revistasuninter.com/intersaberes/index.php/revista/article/view/2753"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "revistamidiacotidiano.com.br \"propagação de informações falsas\" Almeida Maranhão 2025"
+      }
+    }
+  ],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

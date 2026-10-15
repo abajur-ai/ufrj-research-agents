@@ -1,0 +1,31 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Critério 'tema' do pedido está coberto no plano: jogos educativos e de inoculação/prebunking contra desinformação, com exemplos (Bad News, Harmony Square, Cranky Uncle, Fake It to Make It, Cat Park).",
+      "Critério 'período' coberto: 2018 a 2025, com instrução de usar o ano da edição do periódico e não a data online antecipada.",
+      "Critério 'tipo de publicação' coberto: artigo de periódico revisado por pares, com exclusão explícita de preprints, anais, capítulos, teses e resenhas.",
+      "Critério 'método/desenho' coberto: experimento, quase-experimento, RCT ou pré/pós com participantes, e exigência de estudo empírico com dados próprios.",
+      "Critério 'recorte' coberto: exclusão de intervenções que não são jogos (vídeo, texto, infográfico), de reanálises e de estudos centrados em COVID-19, vacinas, eleições e política partidária, citando Go Viral! como exemplo.",
+      "Exigências de relatório por artigo cobertas: DOI, título, autores, ano, periódico, tipo de estudo/método, tamanho da amostra literal do resumo (ou 'não informado no resumo'), achado em uma frase e trecho literal entre aspas.",
+      "Consultas em inglês: sete queries em inglês em OpenAlex, Crossref e web, cobrindo inoculation/prebunking, nomes dos jogos (Bad News, Harmony Square, Cranky Uncle etc.), serious/educational/board game/escape room e desenhos experimentais.",
+      "Consultas em português: duas queries em pt (SciELO e OpenAlex) com termos como 'jogo educativo', 'jogo de tabuleiro', 'desinformação', 'notícias falsas', 'quase-experimental' e 'pré e pós-teste'.",
+      "how_to_check tem item concreto para cada critério: tema, formato de jogo, período, tipo de publicação, dados próprios, desenho, exclusões temáticas, deduplicação por DOI, tamanho da amostra literal, trecho literal, validação de DOI e conduta se houver menos de 25 elegíveis.",
+      "Nenhuma fonte citada no plano é inexistente; OpenAlex, Crossref, SciELO e doi.org são fontes reais para este uso.",
+      "Nenhuma regra do pedido foi violada ou esquecida no plano."
+    ],
+    "issues": [],
+    "feedback": "Plano aprovado. Sugestões não obrigatórias: na query 3, o 'OR' solto entre aspas pode se comportar de forma inconsistente em Crossref, valendo testar uma variante com parênteses; e ao validar 'revisado por pares' considerar aceitar periódicos conhecidos da área mesmo se o site não disser isso explicitamente."
+  },
+  "text": "{\"approved\": true, \"checked\": [\"Critério 'tema' do pedido está coberto no plano: jogos educativos e de inoculação/prebunking contra desinformação, com exemplos (Bad News, Harmony Square, Cranky Uncle, Fake It to Make It, Cat Park).\", \"Critério 'período' coberto: 2018 a 2025, com instrução de usar o ano da edição do periódico e não a data online antecipada.\", \"Critério 'tipo de publicação' coberto: artigo de periódico revisado por pares, com exclusão explícita de preprints, anais, capítulos, teses e resenhas.\", \"Critério 'método/desenho' coberto: experimento, quase-experimento, RCT ou pré/pós com participantes, e exigência de estudo empírico com dados próprios.\", \"Critério 'recorte' coberto: exclusão de intervenções que não são jogos (vídeo, texto, infográfico), de reanálises e de estudos centrados em COVID-19, vacinas, eleições e política partidária, citando Go Viral! como exemplo.\", \"Exigências de relatório por artigo cobertas: DOI, título, autores, ano, periódico, tipo de estudo/método, tamanho da amostra literal do resumo (ou 'não informado no resumo'), achado em uma frase e trecho literal entre aspas.\", \"Consultas em inglês: sete queries em inglês em OpenAlex, Crossref e web, cobrindo inoculation/prebunking, nomes dos jogos (Bad News, Harmony Square, Cranky Uncle etc.), serious/educational/board game/escape room e desenhos experimentais.\", \"Consultas em português: duas queries em pt (SciELO e OpenAlex) com termos como 'jogo educativo', 'jogo de tabuleiro', 'desinformação', 'notícias falsas', 'quase-experimental' e 'pré e pós-teste'.\", \"how_to_check tem item concreto para cada critério: tema, formato de jogo, período, tipo de publicação, dados próprios, desenho, exclusões temáticas, deduplicação por DOI, tamanho da amostra literal, trecho literal, validação de DOI e conduta se houver menos de 25 elegíveis.\", \"Nenhuma fonte citada no plano é inexistente; OpenAlex, Crossref, SciELO e doi.org são fontes reais para este uso.\", \"Nenhuma regra do pedido foi violada ou esquecida no plano.\"], \"issues\": [], \"feedback\": \"Plano aprovado. Sugestões não obrigatórias: na query 3, o 'OR' solto entre aspas pode se comportar de forma inconsistente em Crossref, valendo testar uma variante com parênteses; e ao validar 'revisado por pares' considerar aceitar periódicos conhecidos da área mesmo se o site não disser isso explicitamente.\"}",
+  "usage": {
+    "input_tokens": 2312,
+    "output_tokens": 786,
+    "cost_usd": 0.00074
+  },
+  "duration_s": 7.68,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

@@ -1,0 +1,320 @@
+{
+ "status": "done",
+ "report": {
+  "items": [
+   {
+    "doi": "10.1016/j.isci.2021.103364",
+    "title": "Fooled twice: People cannot detect deepfakes but think they can",
+    "authors": [
+     "Nils C. Köbis",
+     "Barbora Doležalová",
+     "Ivan Soraperra"
+    ],
+    "year": 2021,
+    "venue": "iScience",
+    "study_type": "Experimento comportamental pré-registrado",
+    "method": "Experimento comportamental online em que participantes tentaram detectar deepfakes, com manipulação de conscientização e de incentivos financeiros",
+    "sample_size": "N = 210",
+    "main_finding": "As pessoas não detectam deepfakes de forma confiável, tendem a tomá-los por vídeos autênticos e superestimam a própria capacidade de detecção.",
+    "abstract_quote": "we show that (a) people cannot reliably detect deepfakes, and (b) neither raising awareness nor introducing financial incentives improves their detection accuracy."
+   },
+   {
+    "doi": "10.1371/journal.pone.0285333",
+    "title": "Warning: Humans cannot reliably detect speech deepfakes",
+    "authors": [
+     "Kimberly T. Mai",
+     "Sergi Bray",
+     "Toby Davies",
+     "Lewis D. Griffin"
+    ],
+    "year": 2023,
+    "venue": "PLOS ONE",
+    "study_type": "Experimento de detecção com participantes humanos",
+    "method": "Participantes ouviram áudios genuínos e deepfakes, em inglês e mandarim, e identificaram os deepfakes; testou-se o efeito de fornecer exemplos de deepfakes de fala",
+    "sample_size": "n = 529 individuals",
+    "main_finding": "A capacidade humana de detectar deepfakes de fala é pouco confiável (73% de acertos), sem diferença entre inglês e mandarim.",
+    "abstract_quote": "Listeners only correctly spotted the deepfakes 73% of the time, and there was no difference in detectability between the two languages."
+   },
+   {
+    "doi": "10.1073/pnas.2110013119",
+    "title": "Deepfake detection by human crowds, machines, and machine-informed crowds",
+    "authors": [
+     "Matthew Groh",
+     "Ziv Epstein",
+     "Chaz Firestone",
+     "Rosalind Picard"
+    ],
+    "year": 2021,
+    "venue": "Proceedings of the National Academy of Sciences",
+    "study_type": "Estudos online experimentais (com intervenções randomizadas pré-registradas)",
+    "method": "Participantes identificaram vídeos autênticos e deepfakes; o desempenho humano foi comparado ao de um modelo de detecção por visão computacional, com e sem acesso à previsão do modelo",
+    "sample_size": "15,016 participants",
+    "main_finding": "Observadores humanos e o modelo líder de detecção tiveram precisão semelhante, mas cometeram erros de tipos diferentes, e manipulações que perturbam o processamento visual de rostos prejudicaram os humanos.",
+    "abstract_quote": "We compare the performance of ordinary human observers with the leading computer vision deepfake detection model and find them similarly accurate, while making different kinds of mistakes."
+   },
+   {
+    "doi": "10.1093/cybsec/tyad011",
+    "title": "Testing human ability to detect ‘deepfake’ images of human faces",
+    "authors": [
+     "Sergi D Bray",
+     "Shane D Johnson",
+     "Bennett Kleinberg"
+    ],
+    "year": 2023,
+    "venue": "Journal of Cybersecurity",
+    "study_type": "Survey online com experimento (alocação aleatória a quatro grupos)",
+    "method": "Participantes viram 20 imagens de rostos (deepfakes do StyleGAN2 e rostos reais do FFHQ), indicaram se eram geradas por IA, relataram confiança e justificaram; três grupos receberam intervenções de auxílio",
+    "sample_size": "N = 280",
+    "main_finding": "A precisão de detecção ficou pouco acima do acaso (62%), nenhuma intervenção a melhorou, e a confiança era alta e não relacionada à precisão.",
+    "abstract_quote": "Overall detection accuracy was only just above chance and none of the interventions significantly improved this."
+   },
+   {
+    "doi": "10.1177/09567976231207095",
+    "title": "AI Hyperrealism: Why AI Faces Are Perceived as More Real Than Human Ones",
+    "authors": [
+     "Elizabeth J. Miller",
+     "Ben A. Steward",
+     "Zak Witkower",
+     "Clare A. M. Sutherland",
+     "Eva G. Krumhuber",
+     "Amy Dawel"
+    ],
+    "year": 2023,
+    "venue": "Psychological Science",
+    "study_type": "Experimentos comportamentais (com reanálise de dados publicados)",
+    "method": "Participantes julgaram se rostos eram humanos ou gerados por IA; o Experimento 2 usou a teoria do espaço de faces e relatos qualitativos para identificar atributos faciais, com aprendizado de máquina",
+    "sample_size": "N = 124 adults",
+    "main_finding": "Rostos brancos gerados por IA são julgados como humanos mais vezes do que rostos humanos reais (hiper-realismo da IA), e quem mais errou foi o mais confiante.",
+    "abstract_quote": "we showed that White AI faces are judged as human more often than actual human faces—a phenomenon we term AI hyperrealism."
+   },
+   {
+    "doi": "10.1098/rsos.250921",
+    "title": "Training human super-recognizers’ detection and discrimination of AI-generated faces",
+    "authors": [
+     "Katie L. H. Gray",
+     "Josh P. Davis",
+     "Carl Bunce",
+     "Eilidh Noyes",
+     "Kay L. Ritchie"
+    ],
+    "year": 2025,
+    "venue": "Royal Society Open Science",
+    "study_type": "Experimentos comportamentais com treinamento",
+    "method": "Comparação entre super-reconhecedores e controles de habilidade típica na detecção e discriminação de rostos sintéticos de GAN, com e sem um procedimento de treinamento sobre artefatos de renderização, em dois desenhos experimentais",
+    "sample_size": "total N = 283",
+    "main_finding": "Super-reconhecedores detectaram e discriminaram rostos sintéticos melhor do que controles, e o treinamento melhorou o desempenho de ambos os grupos.",
+    "abstract_quote": "we found that SRs (total N = 283) were better at detecting and discriminating synthetic faces than controls (total N = 381), where control participants were below chance without training."
+   },
+   {
+    "doi": "10.1186/s41235-025-00683-w",
+    "title": "AI-generated images of familiar faces are indistinguishable from real photographs",
+    "authors": [
+     "Robin S. S. Kramer",
+     "Alex L. Jones",
+     "Daniel Fitousi",
+     "Jeremy J. Tree"
+    ],
+    "year": 2025,
+    "venue": "Cognitive Research: Principles and Implications",
+    "study_type": "Experimentos comportamentais (quatro experimentos)",
+    "method": "Participantes distinguiram fotografias reais de imagens de rostos fictícios e de celebridades geradas por ChatGPT com DALL·E, com e sem fotos reais para comparação",
+    "sample_size": "não informado no resumo",
+    "main_finding": "Imagens geradas por IA de rostos fictícios e de celebridades não puderam ser distinguidas de fotografias reais.",
+    "abstract_quote": "generated images of both fictional (Experiment 1) and celebrity identities (Experiment 2) could not be distinguished from real photographs."
+   },
+   {
+    "doi": "10.1155/hbe2/9977058",
+    "title": "A (Mid)journey Through Reality: Assessing Accuracy, Impostor Bias, and Automation Bias in Human Detection of AI‐Generated Images",
+    "authors": [
+     "Mirko Casu",
+     "Luca Guarnera",
+     "Ignazio Zangara",
+     "Pasquale Caponnetto",
+     "Sebastiano Battiato"
+    ],
+    "year": 2025,
+    "venue": "Human Behavior and Emerging Technologies",
+    "study_type": "Estudo de métodos mistos com cinco variantes experimentais",
+    "method": "Participantes autenticaram imagens reais e geradas por IA; mediram-se o viés do impostor e o viés de automação (mudança de opinião após sugestões algorítmicas), com feedback humano comparado a visualizações Grad-CAM",
+    "sample_size": "746 participants",
+    "main_finding": "A precisão humana na distinção de imagens ficou próxima do acaso, com evidência de viés do impostor e de viés de automação, este mais forte entre homens.",
+    "abstract_quote": "we demonstrate that human authentication accuracy hovered around chance levels (ranging from 47.0% to 55.5%)."
+   },
+   {
+    "doi": "10.1038/s41598-023-42802-x",
+    "title": "Deepfake smiles matter less—the psychological and neural impact of presumed AI-generated faces",
+    "authors": [
+     "Anna Eiserbeck",
+     "Martin Maier",
+     "Julia Baum",
+     "Rasha Abdel Rahman"
+    ],
+    "year": 2023,
+    "venue": "Scientific Reports",
+    "study_type": "Estudo experimental com EEG",
+    "method": "Registro de EEG e avaliações psicológicas de rostos reais com expressões positivas, neutras e negativas, apresentados como reais ou falsos",
+    "sample_size": "N = 30",
+    "main_finding": "Sorrisos tidos como deepfake foram avaliados como menos positivos e sofreram redução do processamento perceptual, emocional e avaliativo, o que não ocorreu com expressões de raiva.",
+    "abstract_quote": "Smiling faces marked as fake appeared less positive, as reflected in expression ratings, and induced slower evaluations."
+   },
+   {
+    "doi": "10.1007/s00146-025-02416-5",
+    "title": "Deciphering authenticity in the age of AI: how AI-generated disinformation images and AI detection tools influence judgements of authenticity",
+    "authors": [
+     "Aqsa Farooq",
+     "Claes de Vreese"
+    ],
+    "year": 2025,
+    "venue": "AI &amp; SOCIETY",
+    "study_type": "Estudo experimental online",
+    "method": "Participantes do Reino Unido julgaram a autenticidade de imagens de desinformação geradas ou não por IA, que variavam em realismo estético e saliência emocional, e depois receberam o veredito de uma ferramenta de detecção de IA",
+    "sample_size": "292 UK-based participants",
+    "main_finding": "Imagens de IA de aparência realista foram mais julgadas como autênticas, com menor confiança, enquanto a saliência emocional não previu os julgamentos.",
+    "abstract_quote": "Results showed that participants were more likely to judge realistic-looking AI-generated images as being authentic compared with less realistic-looking AI-generated images, but did so with less confidence in their decision."
+   },
+   {
+    "doi": "10.1002/acp.4245",
+    "title": "Crowds Improve Human Detection of <scp>AI</scp>‐Synthesised Faces",
+    "authors": [
+     "Robin S. S. Kramer",
+     "Charlotte Cartledge"
+    ],
+    "year": 2024,
+    "venue": "Applied Cognitive Psychology",
+    "study_type": "Experimentos comportamentais (dois experimentos)",
+    "method": "Participantes classificaram rostos sintéticos e reais; comparou-se o desempenho individual com o de multidões internas e externas, usando voto majoritário, ponderação por confiança e solução 'surpreendentemente popular'",
+    "sample_size": "não informado no resumo",
+    "main_finding": "O desempenho na detecção de rostos sintéticos melhora com multidões externas maiores, e a solução 'surpreendentemente popular' superou o voto majoritário em multidões maiores.",
+    "abstract_quote": "However, we found increases in performance with increasing sizes of outer crowd."
+   },
+   {
+    "doi": "10.1038/s41598-025-91545-4",
+    "title": "Examining the role of compression in influencing AI-generated image authenticity",
+    "authors": [
+     "Xiaohan Fang",
+     "Peilin Chen",
+     "Meng Wang",
+     "Shiqi Wang"
+    ],
+    "year": 2025,
+    "venue": "Scientific Reports",
+    "study_type": "Estudo de avaliação subjetiva com conjunto de dados criado pelos autores",
+    "method": "Criação de um conjunto de imagens geradas por IA e naturais, com quatro níveis de compressão VVC, para avaliação subjetiva da autenticidade por observadores humanos",
+    "sample_size": "não informado no resumo",
+    "main_finding": "A precisão humana ao julgar se imagens eram geradas por IA diminui à medida que aumenta a distorção por compressão.",
+    "abstract_quote": "It is interesting to find that with an increase in compression distortion, the accuracy of human vision in determining the AIGIs descends."
+   },
+   {
+    "doi": "10.47989/ir30iconf47209",
+    "title": "Uncovering strategies for identifying deepfakes",
+    "authors": [
+     "Celene Neo",
+     "Dion Hoe-Lian Goh",
+     "Rachel Wan Ying Chun",
+     "Chei Sian Lee"
+    ],
+    "year": 2025,
+    "venue": "Information Research an international electronic journal",
+    "study_type": "Survey online",
+    "method": "Jovens adultos de 21 a 35 anos viram quatro vídeos, identificaram-nos como reais ou deepfake e responderam sobre as estratégias de identificação usadas",
+    "sample_size": "não informado no resumo",
+    "main_finding": "Os participantes usaram estratégias diversas, centradas na autenticidade de traços do sujeito do vídeo e na intuição, mais do que em detalhes periféricos ou na consulta a outras fontes.",
+    "abstract_quote": "Predominant strategies centre around assessing the authenticity of traits pertaining to the video's subject as opposed to peripheral details."
+   },
+   {
+    "doi": "10.1016/j.heliyon.2023.e20383",
+    "title": "Perception and deception: Exploring individual responses to deepfakes across different modalities",
+    "authors": [
+     "Saifuddin Ahmed",
+     "Hui Wen Chua"
+    ],
+    "year": 2023,
+    "venue": "Heliyon",
+    "study_type": "Survey experimental online",
+    "method": "Participantes dos EUA foram alocados aleatoriamente a deepfakes em vídeo, deepfakes em áudio ou cheap fakes, medindo-se a acurácia percebida da afirmação, a intenção de compartilhar e a habilidade cognitiva",
+    "sample_size": "não informado no resumo",
+    "main_finding": "Deepfakes em vídeo foram vistos como mais precisos do que cheap fakes (mas não do que deepfakes em áudio), e pessoas com maior habilidade cognitiva os viram como menos precisos.",
+    "abstract_quote": "The results suggest that individuals are likelier to perceive video deepfakes as more accurate than cheap fakes, but not audio deepfakes."
+   },
+   {
+    "doi": "10.1016/j.chbah.2023.100031",
+    "title": "“There Is something Rotten in Denmark”: Investigating the Deepfake persona perceptions and their Implications for human-centered AI",
+    "authors": [
+     "Ilkka Kaate",
+     "Joni Salminen",
+     "João M. Santos",
+     "Soon-Gyo Jung",
+     "Hind Almerekhi",
+     "Bernard J. Jansen"
+    ],
+    "year": 2024,
+    "venue": "Computers in Human Behavior: Artificial Humans",
+    "study_type": "Estudo experimental de métodos mistos",
+    "method": "Usuários realizaram uma tarefa de design com uma persona deepfake e uma persona humana, com protocolo think-aloud, notas de observação e survey",
+    "sample_size": "46 users",
+    "main_finding": "Falhas (glitches) percebidas nas personas deepfake prejudicam a experiência com a persona e o desempenho na tarefa, mas nem todos os usuários as identificam.",
+    "abstract_quote": "if users observe glitches in the deepfake personas, these glitches have a detrimental effect on the persona UX and task performance; however, not all users identify glitches."
+   },
+   {
+    "doi": "10.1016/j.ijhcs.2023.103096",
+    "title": "The realness of fakes: Primary evidence of the effect of deepfake personas on user perceptions in a design task",
+    "authors": [
+     "Ilkka Kaate",
+     "Joni Salminen",
+     "Joao Santos",
+     "Soon-Gyo Jung",
+     "Rami Olkkonen",
+     "Bernard Jansen"
+    ],
+    "year": 2023,
+    "venue": "International Journal of Human-Computer Studies",
+    "study_type": "Estudo experimental",
+    "method": "Comparação de três personas deepfake com versões clássicas e narrativas da mesma persona, avaliando percepções e desempenho em tarefa dos usuários",
+    "sample_size": "não informado no resumo",
+    "main_finding": "As personas deepfake foram percebidas como menos empáticas, críveis, completas, claras e imersivas do que as outras modalidades, sem diferença no desempenho na tarefa.",
+    "abstract_quote": "Our findings show that the DFs were perceived as less empathetic, credible, complete, clear, and immersive than other modalities."
+   },
+   {
+    "doi": "10.56873/jpkm.v9i2.5873",
+    "title": "The Relationship of Digital Literacy, Exposure to AI-Generated Deepfake Videos, and the Ability to Identify Deepfakes in Generation X Hubungan Literasi Digital, Paparan Video Deepfake yang Dihasilkan AI, dan Kemampuan untuk Mengidentifikasi Deepfake pada Generasi X",
+    "authors": [
+     "Darman Fauzan Dhahir",
+     "Ndoheba Kenda",
+     "Dida Dirgahayu",
+     "Syarifuddin Syarifuddin",
+     "Rachmawaty Djaffar",
+     "Retno Widihastuti",
+     "Muhammad Rustam",
+     "Rukman Pala"
+    ],
+    "year": 2024,
+    "venue": "Jurnal Pekommas",
+    "study_type": "Survey quantitativo",
+    "method": "Survey com amostragem aleatória de usuários indonésios de internet da Geração X (43 a 58 anos), analisando literacia digital, exposição a deepfakes e capacidade de identificá-los",
+    "sample_size": "199 respondents",
+    "main_finding": "A capacidade de identificar deepfakes foi baixa, e nem a literacia digital nem a exposição a deepfakes a influenciaram significativamente.",
+    "abstract_quote": "However, the ability to identify deepfakes was found to be low."
+   },
+   {
+    "doi": "10.3390/jcp5010006",
+    "title": "Partial Fake Speech Attacks in the Real World Using Deepfake Audio",
+    "authors": [
+     "Abdulazeez Alali",
+     "George Theodorakopoulos"
+    ],
+    "year": 2025,
+    "venue": "Journal of Cybersecurity and Privacy",
+    "study_type": "Estudo empírico de detecção com humanos e máquinas",
+    "method": "Avaliação da capacidade de humanos e de máquinas (sistemas de reconhecimento de locutor e ferramentas de detecção de fala falsa) de distinguir voz humana de fala gerada por computador, incluindo fala parcialmente falsa",
+    "sample_size": "não informado no resumo",
+    "main_finding": "Humanos e máquinas são facilmente enganados pela fala parcialmente falsa, e as defesas atuais são insuficientes.",
+    "abstract_quote": "Our study shows that both humans and machines can be easily deceived by PF speech, and the current defences against PF speech are insufficient."
+   }
+  ]
+ },
+ "attempts": {
+  "terms": 1,
+  "screen": 2,
+  "extract": 1
+ }
+}

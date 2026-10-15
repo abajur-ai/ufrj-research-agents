@@ -1,0 +1,29 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Período 2019 a 2025 nos critérios é idêntico ao período do pedido, sem deslocamento de um ano para mais ou para menos",
+      "As dez queries em inglês cobrem os três tipos de mídia do pedido: vídeos de deepfake (ex. 'human detection of deepfake videos'), rostos/imagens sintéticas (ex. 'synthetic faces human judgment trustworthiness', 'AI-generated faces detection participants') e áudio/voz (ex. 'voice clone detection human listeners', 'audio deepfake human perception')",
+      "As queries em inglês cobrem os três verbos do tema: perceber ('deepfake credibility perception experiment'), detectar ('people ability to identify deepfakes', 'AI-generated images human discrimination accuracy') e avaliar credibilidade ('synthetic media believability survey experiment')",
+      "Há queries para os quatro tipos de estudo empírico aceitos: experimento, teste de detecção, survey ('synthetic media believability survey experiment') e medidas fisiológicas ('deepfake detection eye tracking physiological')",
+      "As seis queries em português cobrem percepção, detecção, credibilidade, clonagem de voz, rostos sintéticos e experimento, alinhadas às equivalentes em inglês",
+      "Critérios de inclusão traduzem o pedido: periódico revisado por pares, 2019 a 2025, estudo empírico com participantes humanos e foco em percepção, detecção ou credibilidade de mídia sintética gerada por IA",
+      "Critérios de exclusão contêm as três restrições do pedido: algoritmos de detecção automática sem participantes humanos, políticos/eleições/propaganda política e estudos sobre saúde",
+      "Critérios de exclusão contêm todas as formas de publicação vedadas: revisões, meta-análises, ensaios teóricos, resenhas, preprints, anais de congresso, capítulos de livro e teses, além de artigos sem dados próprios e publicações fora do período",
+      "Nenhum critério acrescenta restrição que mude o resultado: a exigência de resumo com método e tamanho da amostra é 'de preferência', coerente com o campo de saída 'não informado no resumo'"
+    ],
+    "issues": [],
+    "feedback": "Nada precisa ser corrigido na próxima tentativa. Sugestões opcionais: adicionar uma query como 'synthetic voice trustworthiness evaluation' em inglês e um termo como 'mídia sintética confiança' em português para ampliar cobertura de áudio; e lembrar na execução que o tamanho da amostra deve ser transcrito exatamente como aparece no resumo, com 'não informado no resumo' quando ausente."
+  },
+  "text": "{\"approved\": true, \"checked\": [\n \"Período 2019 a 2025 nos critérios é idêntico ao período do pedido, sem deslocamento de um ano para mais ou para menos\",\n \"As dez queries em inglês cobrem os três tipos de mídia do pedido: vídeos de deepfake (ex. 'human detection of deepfake videos'), rostos/imagens sintéticas (ex. 'synthetic faces human judgment trustworthiness', 'AI-generated faces detection participants') e áudio/voz (ex. 'voice clone detection human listeners', 'audio deepfake human perception')\",\n \"As queries em inglês cobrem os três verbos do tema: perceber ('deepfake credibility perception experiment'), detectar ('people ability to identify deepfakes', 'AI-generated images human discrimination accuracy') e avaliar credibilidade ('synthetic media believability survey experiment')\",\n \"Há queries para os quatro tipos de estudo empírico aceitos: experimento, teste de detecção, survey ('synthetic media believability survey experiment') e medidas fisiológicas ('deepfake detection eye tracking physiological')\",\n \"As seis queries em português cobrem percepção, detecção, credibilidade, clonagem de voz, rostos sintéticos e experimento, alinhadas às equivalentes em inglês\",\n \"Critérios de inclusão traduzem o pedido: periódico revisado por pares, 2019 a 2025, estudo empírico com participantes humanos e foco em percepção, detecção ou credibilidade de mídia sintética gerada por IA\",\n \"Critérios de exclusão contêm as três restrições do pedido: algoritmos de detecção automática sem participantes humanos, políticos/eleições/propaganda política e estudos sobre saúde\",\n \"Critérios de exclusão contêm todas as formas de publicação vedadas: revisões, meta-análises, ensaios teóricos, resenhas, preprints, anais de congresso, capítulos de livro e teses, além de artigos sem dados próprios e publicações fora do período\",\n \"Nenhum critério acrescenta restrição que mude o resultado: a exigência de resumo com método e tamanho da amostra é 'de preferência', coerente com o campo de saída 'não informado no resumo'\"\n], \"issues\": [], \"feedback\": \"Nada precisa ser corrigido na próxima tentativa. Sugestões opcionais: adicionar uma query como 'synthetic voice trustworthiness evaluation' em inglês e um termo como 'mídia sintética confiança' em português para ampliar cobertura de áudio; e lembrar na execução que o tamanho da amostra deve ser transcrito exatamente como aparece no resumo, com 'não informado no resumo' quando ausente.\"}",
+  "usage": {
+    "input_tokens": 1147,
+    "output_tokens": 1262,
+    "cost_usd": 0.0008
+  },
+  "duration_s": 13.23,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

@@ -1,0 +1,32 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Critério de tema coberto: o plano restringe a percepção, detecção ou avaliação de credibilidade de deepfakes de vídeo, rostos sintéticos e áudio/clones de voz, igual ao pedido.",
+      "Critério de período coberto: 2019 a 2025 inclusive, com instrução de usar o ano da versão publicada no periódico e conferir casos de online first fora da janela.",
+      "Critério de tipo de publicação coberto: exige artigo de periódico revisado por pares e exclui preprints, anais, capítulos, teses e resenhas, como pedido.",
+      "Critério de tipo de estudo coberto: exige empírico com dados primários próprios e exclui revisões, meta-análises e ensaios teóricos, como pedido.",
+      "Critério de método coberto: exige participantes humanos via experimento, teste de detecção, survey ou medida fisiológica, e manda rejeitar estudo só computacional.",
+      "Recortes cobertos: há critérios de exclusão separados para detecção automática, política/eleições e saúde, incluindo verificação do contexto do estímulo e da amostra.",
+      "Saída por artigo coberta: DOI, título, autores, ano, periódico, tipo de estudo e método, tamanho da amostra como no resumo, achado em uma frase e trecho literal entre aspas.",
+      "Regra do tamanho da amostra está correta: copiar exatamente do resumo ou declarar 'não informado no resumo', sem recorrer ao texto completo, fiel ao pedido.",
+      "Consultas em inglês existem: seis consultas em en no OpenAlex e Crossref cobrem deepfake, mídia sintética, rostos sintéticos (GAN, StyleGAN), voz clonada, áudio deepfake e medidas fisiológicas.",
+      "Consultas em português existem: duas consultas pt no SciELO com termos como 'vídeos sintéticos', 'imagens geradas por inteligência artificial' e 'clonagem de voz'.",
+      "Verificação concreta por critério: a seção how_to_check define um procedimento específico para cada critério, incluindo checagem de DOI no Crossref, deduplicação por DOI e título, e contagem até 25 ou relato do déficit.",
+      "Nenhuma consulta altera o período, o tema ou os recortes do pedido, e nenhuma fonte citada é inexistente (OpenAlex, Crossref, SciELO e busca na web são fontes válidas)."
+    ],
+    "issues": [],
+    "feedback": "O plano atende a todos os critérios do pedido e foi aprovado. Sugestões não obrigatórias para a execução: adicionar às consultas um filtro de datas (from 2019 to 2025) no OpenAlex e Crossref para reduzir ruído; considerar rodar as consultas em português também no OpenAlex, porque a SciELO tende a render poucos resultados sobre deepfakes e o déficit pode ser suprido por periódicos indexados em outras bases; e, na dúvida entre percepção humana e detector automático, o plano já pede sinalização, então basta aplicar isso de fato na triagem."
+  },
+  "text": "{\n \"approved\": true,\n \"checked\": [\n  \"Critério de tema coberto: o plano restringe a percepção, detecção ou avaliação de credibilidade de deepfakes de vídeo, rostos sintéticos e áudio/clones de voz, igual ao pedido.\",\n  \"Critério de período coberto: 2019 a 2025 inclusive, com instrução de usar o ano da versão publicada no periódico e conferir casos de online first fora da janela.\",\n  \"Critério de tipo de publicação coberto: exige artigo de periódico revisado por pares e exclui preprints, anais, capítulos, teses e resenhas, como pedido.\",\n  \"Critério de tipo de estudo coberto: exige empírico com dados primários próprios e exclui revisões, meta-análises e ensaios teóricos, como pedido.\",\n  \"Critério de método coberto: exige participantes humanos via experimento, teste de detecção, survey ou medida fisiológica, e manda rejeitar estudo só computacional.\",\n  \"Recortes cobertos: há critérios de exclusão separados para detecção automática, política/eleições e saúde, incluindo verificação do contexto do estímulo e da amostra.\",\n  \"Saída por artigo coberta: DOI, título, autores, ano, periódico, tipo de estudo e método, tamanho da amostra como no resumo, achado em uma frase e trecho literal entre aspas.\",\n  \"Regra do tamanho da amostra está correta: copiar exatamente do resumo ou declarar 'não informado no resumo', sem recorrer ao texto completo, fiel ao pedido.\",\n  \"Consultas em inglês existem: seis consultas em en no OpenAlex e Crossref cobrem deepfake, mídia sintética, rostos sintéticos (GAN, StyleGAN), voz clonada, áudio deepfake e medidas fisiológicas.\",\n  \"Consultas em português existem: duas consultas pt no SciELO com termos como 'vídeos sintéticos', 'imagens geradas por inteligência artificial' e 'clonagem de voz'.\",\n  \"Verificação concreta por critério: a seção how_to_check define um procedimento específico para cada critério, incluindo checagem de DOI no Crossref, deduplicação por DOI e título, e contagem até 25 ou relato do déficit.\",\n  \"Nenhuma consulta altera o período, o tema ou os recortes do pedido, e nenhuma fonte citada é inexistente (OpenAlex, Crossref, SciELO e busca na web são fontes válidas).\"\n ],\n \"issues\": [],\n \"feedback\": \"O plano atende a todos os critérios do pedido e foi aprovado. Sugestões não obrigatórias para a execução: adicionar às consultas um filtro de datas (from 2019 to 2025) no OpenAlex e Crossref para reduzir ruído; considerar rodar as consultas em português também no OpenAlex, porque a SciELO tende a render poucos resultados sobre deepfakes e o déficit pode ser suprido por periódicos indexados em outras bases; e, na dúvida entre percepção humana e detector automático, o plano já pede sinalização, então basta aplicar isso de fato na triagem.\"\n}",
+  "usage": {
+    "input_tokens": 2284,
+    "output_tokens": 938,
+    "cost_usd": 0.00081
+  },
+  "duration_s": 7.82,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

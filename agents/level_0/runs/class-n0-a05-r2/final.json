@@ -1,0 +1,305 @@
+{
+ "status": "done",
+ "report": {
+  "items": [
+   {
+    "doi": "10.1016/j.isci.2021.103364",
+    "title": "Fooled twice: People cannot detect deepfakes but think they can",
+    "authors": [
+     "Nils C. Köbis",
+     "Barbora Doležalová",
+     "Ivan Soraperra"
+    ],
+    "year": 2021,
+    "venue": "iScience",
+    "study_type": "Estudo empírico experimental (pré-registrado)",
+    "method": "Experimento comportamental online de detecção de vídeos deepfake vs. autênticos, com aviso sobre deepfakes e incentivo financeiro, e medida de confiança/autoavaliação",
+    "sample_size": "N = 210",
+    "main_finding": "As pessoas não conseguem detectar deepfakes de forma confiável (tendem a tomá-los por reais), nem aviso nem recompensa financeira ajudaram, e elas superestimam a própria capacidade.",
+    "abstract_quote": "In a pre-registered behavioral experiment (N = 210), we show that (1) people cannot reliably detect deepfakes"
+   },
+   {
+    "doi": "10.1073/pnas.2110013119",
+    "title": "Deepfake detection by human crowds, machines, and machine-informed crowds",
+    "authors": [
+     "Matthew Groh",
+     "Ziv Epstein",
+     "Chaz Firestone",
+     "Rosalind Picard"
+    ],
+    "year": 2022,
+    "venue": "Proceedings of the National Academy of Sciences",
+    "study_type": "Estudo empírico experimental",
+    "method": "Dois estudos online em que participantes discriminam vídeos autênticos de deepfakes, comparados a um modelo de visão computacional e a decisões combinadas humano-máquina",
+    "sample_size": "15,016 participants",
+    "main_finding": "Observadores humanos e o melhor modelo computacional têm acurácia semelhante, mas erram de modos diferentes, e combiná-los ajuda mais do que cada um isolado.",
+    "abstract_quote": "In two online studies with 15,016 participants, we present authentic videos and deepfakes"
+   },
+   {
+    "doi": "10.1073/pnas.2120481119",
+    "title": "AI-synthesized faces are indistinguishable from real faces and more trustworthy",
+    "authors": [
+     "Sophie J. Nightingale",
+     "Hany Farid"
+    ],
+    "year": 2022,
+    "venue": "Proceedings of the National Academy of Sciences",
+    "study_type": "Estudo empírico experimental",
+    "method": "Experimentos com participantes que classificam rostos como reais ou sintetizados (StyleGAN2) e avaliam a confiabilidade percebida dos rostos",
+    "sample_size": "não informado no resumo",
+    "main_finding": "Rostos sintéticos são indistinguíveis de rostos reais para os observadores e são avaliados como mais confiáveis.",
+    "abstract_quote": "are capable of creating faces that are indistinguishable-and more trustworthy-than real faces."
+   },
+   {
+    "doi": "10.1177/09567976231207095",
+    "title": "AI Hyperrealism: Why AI Faces Are Perceived as More Real Than Human Ones",
+    "authors": [
+     "Elizabeth J. Miller",
+     "Ben A. Steward",
+     "Zachary Witkower",
+     "Clare A. M. Sutherland",
+     "Eva G. Krumhuber",
+     "Amy Dawel"
+    ],
+    "year": 2023,
+    "venue": "Psychological Science",
+    "study_type": "Estudo empírico experimental",
+    "method": "Dois experimentos em que adultos julgam se rostos são humanos ou gerados por IA, com análise dos atributos faciais que explicam os julgamentos",
+    "sample_size": "N = 124 adults (Experimento 1); N = 610 adults (Experimento 2)",
+    "main_finding": "Rostos de IA brancos são julgados como humanos com mais frequência do que rostos humanos reais (hiper-realismo da IA).",
+    "abstract_quote": "White AI faces are judged as human more often than actual human faces-a phenomenon we term AI hyperrealism."
+   },
+   {
+    "doi": "10.1186/s41235-025-00683-w",
+    "title": "AI-generated images of familiar faces are indistinguishable from real photographs",
+    "authors": [
+     "Robin S. S. Kramer",
+     "Alex L. Jones",
+     "Daniel Fitousi",
+     "Jeremy J. Tree"
+    ],
+    "year": 2025,
+    "venue": "Cognitive Research: Principles and Implications",
+    "study_type": "Estudo empírico experimental",
+    "method": "Quatro experimentos de discriminação entre imagens geradas por IA e fotografias reais de identidades fictícias e de celebridades, incluindo tentativas de treinamento",
+    "sample_size": "não informado no resumo",
+    "main_finding": "Imagens de IA de rostos familiares (celebridades) não são distinguidas de fotografias reais, e o treinamento trouxe ganhos limitados.",
+    "abstract_quote": "could not be distinguished from real photographs"
+   },
+   {
+    "doi": "10.1098/rsos.250921",
+    "title": "Training human super-recognizers' detection and discrimination of AI-generated faces",
+    "authors": [
+     "Katie L. H. Gray",
+     "Josh P. Davis",
+     "Carolyn Bunce",
+     "Eilidh Noyes",
+     "Kay L. Ritchie"
+    ],
+    "year": 2025,
+    "venue": "Royal Society Open Science",
+    "study_type": "Estudo empírico experimental",
+    "method": "Testes de detecção e discriminação de rostos sintéticos por super-reconhecedores e controles, com e sem treinamento",
+    "sample_size": "SRs (total N = 283) ... controls (total N = 381)",
+    "main_finding": "Super-reconhecedores detectam e discriminam rostos sintéticos melhor que controles, que ficaram abaixo do acaso sem treinamento.",
+    "abstract_quote": "SRs (total N = 283) were better at detecting and discriminating synthetic faces than controls (total N = 381)"
+   },
+   {
+    "doi": "10.1016/j.chb.2023.107917",
+    "title": "Providing detection strategies to improve human detection of deepfakes: An experimental study",
+    "authors": [
+     "Klaire Somoray",
+     "Dan J. Miller"
+    ],
+    "year": 2023,
+    "venue": "Computers in Human Behavior",
+    "study_type": "Estudo empírico experimental (pré-registrado)",
+    "method": "Experimento online em que participantes classificam 20 vídeos (10 reais, 10 deepfake), com ou sem lista de estratégias de detecção, e informam confiança",
+    "sample_size": "participants (N = 454)",
+    "main_finding": "Os participantes detectaram deepfakes acima do acaso (cerca de 60,7% de acerto), mas as estratégias de detecção não melhoraram a acurácia nem a confiança.",
+    "abstract_quote": "The detection strategies intervention did not impact detection accuracy or detection confidence"
+   },
+   {
+    "doi": "10.1093/cybsec/tyad011",
+    "title": "Testing human ability to detect 'deepfake' images of human faces",
+    "authors": [
+     "Sergi D. Bray",
+     "Shane D. Johnson",
+     "Bennett Kleinberg"
+    ],
+    "year": 2023,
+    "venue": "Journal of Cybersecurity",
+    "study_type": "Estudo empírico experimental",
+    "method": "Survey/experimento online com alocação aleatória a controle ou a três intervenções de auxílio, classificando imagens de rostos reais e deepfake (StyleGAN2)",
+    "sample_size": "participants (N = 280)",
+    "main_finding": "A acurácia de detecção ficou pouco acima do acaso e nenhuma das intervenções a melhorou significativamente.",
+    "abstract_quote": "Overall detection accuracy was only just above chance and none of the interventions significantly improved this."
+   },
+   {
+    "doi": "10.1098/rsos.231214",
+    "title": "Deepfake detection with and without content warnings",
+    "authors": [
+     "Andrew Lewis",
+     "Patrick Vu",
+     "Raymond M. Duch",
+     "Areeq Chowdhury"
+    ],
+    "year": 2023,
+    "venue": "Royal Society Open Science",
+    "study_type": "Estudo empírico experimental",
+    "method": "Experimentos online com e sem aviso de conteúdo, nos quais participantes tentam identificar o deepfake entre um conjunto de vídeos",
+    "sample_size": "não informado no resumo",
+    "main_finding": "Poucos participantes identificam o deepfake e avisos de conteúdo trazem benefício limitado.",
+    "abstract_quote": "only 21.6% of respondents correctly identify the deepfake as the only inauthentic video"
+   },
+   {
+    "doi": "10.1016/j.tele.2023.102093",
+    "title": "Conspiracy thinking and social media use are associated with ability to detect deepfakes",
+    "authors": [
+     "Ewout Nas",
+     "Roy de Kleijn"
+    ],
+    "year": 2024,
+    "venue": "Telematics and Informatics",
+    "study_type": "Estudo empírico correlacional com tarefa de detecção",
+    "method": "Participantes julgam vídeos reais e deepfake (Celeb-DF); medidas de mentalidade conspiratória, uso de redes sociais, idade e gênero",
+    "sample_size": "não informado no resumo",
+    "main_finding": "Mais tempo em redes sociais e maior pensamento conspiratório associam-se a melhor desempenho na detecção de deepfakes.",
+    "abstract_quote": "Our findings show a positive relationship between time spent on social media and deepfake detection performance"
+   },
+   {
+    "doi": "10.1038/s41598-023-42802-x",
+    "title": "Deepfake smiles matter less—the psychological and neural impact of presumed AI-generated faces",
+    "authors": [
+     "Anna Eiserbeck",
+     "Martin Maier",
+     "Julia Baum",
+     "Rasha Abdel Rahman"
+    ],
+    "year": 2023,
+    "venue": "Scientific Reports",
+    "study_type": "Estudo empírico experimental com medidas neurofisiológicas (EEG/ERP) e avaliações",
+    "method": "Participantes veem sorrisos de rostos descritos como reais ou presumidamente gerados por IA, com registro de ERPs e avaliações",
+    "sample_size": "(N = 30)",
+    "main_finding": "Saber que os rostos são presumidamente deepfakes atenua o processamento perceptual, emocional e avaliativo dos sorrisos.",
+    "abstract_quote": "a dampening effect on perceptual, emotional, and evaluative processing of presumed deepfake smiles"
+   },
+   {
+    "doi": "10.3390/brainsci13091233",
+    "title": "Real and Deepfake Face Recognition: An EEG Study on Cognitive and Emotive Implications",
+    "authors": [
+     "Pietro Tarchi",
+     "Maria Chiara Lanini",
+     "Lorenzo Frassineti",
+     "Antonio Lanatà"
+    ],
+    "year": 2023,
+    "venue": "Brain Sciences",
+    "study_type": "Estudo empírico com medidas fisiológicas (EEG)",
+    "method": "Registro de EEG durante a observação de rostos reais e deepfake e comparação das respostas por bandas de frequência",
+    "sample_size": "from 23 healthy participants",
+    "main_finding": "Deepfakes afetaram principalmente as áreas frontal e occipital na banda delta, indicando processamento neural distinto de rostos reais.",
+    "abstract_quote": "deepfakes mainly affected the frontal and occipital areas in the delta band."
+   },
+   {
+    "doi": "10.1016/j.visres.2022.108079",
+    "title": "Are you for real? Decoding realistic AI-generated faces from neural activity",
+    "authors": [
+     "Michoel L. Moshel",
+     "Amanda K. Robinson",
+     "Thomas A. Carlson",
+     "Tijl Grootswagers"
+    ],
+    "year": 2022,
+    "venue": "Vision Research",
+    "study_type": "Estudo empírico com medidas fisiológicas (EEG e decodificação)",
+    "method": "Registro de EEG de participantes que veem rostos reais e rostos de IA realistas, com decodificação multivariada da atividade neural e tarefa de classificação",
+    "sample_size": "não informado no resumo",
+    "main_finding": "Rostos gerados por IA puderam ser decodificados da atividade neural, mesmo quando os participantes confundiam rótulos de rostos reais e falsos.",
+    "abstract_quote": "We found that we could reliably decode AI generated faces using people's neural activity."
+   },
+   {
+    "doi": "10.1038/s42003-024-06372-6",
+    "title": "Cortical-striatal brain network distinguishes deepfake from real speaker identity",
+    "authors": [
+     "Claudia Roswandowitz",
+     "Thayabaran Kathiresan",
+     "Elisa Pellegrino",
+     "Volker Dellwo",
+     "Sascha Frühholz"
+    ],
+    "year": 2024,
+    "venue": "Communications Biology",
+    "study_type": "Estudo empírico com neuroimagem (fMRI) e testes comportamentais",
+    "method": "Participantes discriminam e identificam vozes reais e vozes deepfake durante ressonância magnética funcional",
+    "sample_size": "25 participants",
+    "main_finding": "Participantes tiveram desempenho intermediário com vozes deepfake, e uma rede cortical-estriatal distingue identidade de falante deepfake da real.",
+    "abstract_quote": "participants show intermediate performance with deepfake voices"
+   },
+   {
+    "doi": "10.1371/journal.pone.0285333",
+    "title": "Warning: Humans cannot reliably detect speech deepfakes",
+    "authors": [
+     "Kimberly T. Mai",
+     "Sergi Bray",
+     "Toby Davies",
+     "Lewis D. Griffin"
+    ],
+    "year": 2023,
+    "venue": "PLOS ONE",
+    "study_type": "Estudo empírico experimental",
+    "method": "Experimento online de identificação de áudio deepfake em inglês e mandarim, com e sem exposição prévia a exemplos",
+    "sample_size": "n = 529 individuals",
+    "main_finding": "Os ouvintes identificaram corretamente os deepfakes de fala em apenas 73% das vezes.",
+    "abstract_quote": "Listeners only correctly spotted the deepfakes 73% of the time."
+   },
+   {
+    "doi": "10.1038/s41598-025-94170-3",
+    "title": "People are poorly equipped to detect AI-powered voice clones",
+    "authors": [
+     "Sarah Barrington",
+     "Emily A. Cooper",
+     "Hany Farid"
+    ],
+    "year": 2025,
+    "venue": "Scientific Reports",
+    "study_type": "Estudo empírico experimental",
+    "method": "Experimentos de percepção em que participantes julgam se clones de voz e vozes reais são da mesma pessoa e se uma gravação é gerada por IA",
+    "sample_size": "não informado no resumo",
+    "main_finding": "Os participantes não identificam de forma consistente gravações de vozes geradas por IA.",
+    "abstract_quote": "We find human participants cannot consistently identify recordings of AI-generated voices."
+   },
+   {
+    "doi": "10.1371/journal.pone.0332692",
+    "title": "Voice clones sound realistic but not (yet) hyperrealistic",
+    "authors": [
+     "Nadine Lavan",
+     "Matthew Irvine",
+     "Valentina Rosi",
+     "Carolyn McGettigan"
+    ],
+    "year": 2025,
+    "venue": "PLOS ONE",
+    "study_type": "Estudo empírico experimental",
+    "method": "Ouvintes humanos avaliam o realismo de vozes reais e de clones de voz gerados por IA",
+    "sample_size": "não informado no resumo",
+    "main_finding": "Clones de voz soam tão reais quanto vozes humanas, dificultando a distinção, mas não chegam a ser hiper-realistas.",
+    "abstract_quote": "voice clones can sound as real as human voices, making it difficult for listeners to distinguish between them."
+   },
+   {
+    "doi": "10.1126/placeholder-removed",
+    "title": "PLACEHOLDER",
+    "authors": [],
+    "year": 2000,
+    "venue": "",
+    "study_type": "",
+    "method": "",
+    "sample_size": "",
+    "main_finding": "",
+    "abstract_quote": ""
+   }
+  ]
+ },
+ "notes": "PLACEHOLDER",
+ "errors": []
+}

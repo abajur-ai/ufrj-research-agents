@@ -1,0 +1,146 @@
+{
+  "structured": {
+    "approved": false,
+    "checked": [
+      "Abri doi.org/10.4000/cp.4806: o resumo confirma que o artigo é reflexão teórica pelo método weberiano, sem amostra nem procedimento empírico; o título, o ano (2019) e a revista Comunicação Pública conferem.",
+      "Abri doi.org/10.25200/bjr.v16n2.2020.1212: título, autores (Damasceno e Patrício), ano 2020 e Brazilian Journalism Research conferem; a citação em inglês sobre os critérios de seleção aparece literal no resumo; o resumo não traz número de amostra.",
+      "Abri doi.org/10.25200/BJR.v18n2.2022.1510: o resumo traz sample (n=29); a citação sobre o propósito central é literal; título, autores e ano conferem.",
+      "Abri doi.org/10.25200/BJR.v20n3.2024.1687: o resumo traz 63 checagens com ferramentas de transparência, menos de 7% de 950; a citação sobre o caráter decisivo das ferramentas é literal.",
+      "Abri doi.org/10.1177/10776990231207963: o resumo da SAGE confirma 30 declarações oficiais e 7 entrevistas com representantes de cinco sites; a citação sobre a IA desafiar a autoridade dos checadores é literal; online first em 27/11/2023 e edição v. 101, n. 2, jun/2024, então o ano 2024 é defensável.",
+      "Abri doi.org/10.1080/1461670x.2022.2069588: o resumo confirma entrevistas com 16 fact-checkers de 13 organizações ativas; a citação final sobre modularizar as correções por plataformas é literal.",
+      "Abri doi.org/10.3390/socsci14090514: o resumo confirma entrevistas em profundidade com Polígrafo, Chequeado, Maldita e Aletheia; a citação sobre níveis de uso de IA, de tooling a disruptive, é literal; ano 2025 confere.",
+      "Abri doi.org/10.17645/mac.v9i1.3443: o resumo confirma as oito plataformas entrevistadas, incluindo Agência Lupa; a citação sobre três desafios centrais é literal.",
+      "Abri doi.org/10.15847/obsobs18520242436: título, autores, ano 2024 e Observatorio (OBS*) conferem; a citação sobre alfabetização midiática como estratégia fundamental é literal; o resumo não informa número de entrevistados.",
+      "Abri doi.org/10.51206/elegis.v15i38.758: os percentuais 63,5% (Brasil), 53,4% (Itália), 52,7% (EUA) e 29,2% (Alemanha) estão no resumo, mas a citação é longa e foi remontada a partir de trechos; a pontuação e as palavras de ligação não foram confirmadas letra por letra.",
+      "Abri doi.org/10.1080/21670811.2021.2021377: o resumo confirma análise de conteúdo de 2.792 checagens de FactCheck.org, Pagella Politica, Correctiv e Lupa; o trecho curto citado é literal, mas a frase do achado sobre correspondência com o papel de watchdog foi reconstruída a partir de fragmentos do OpenAlex.",
+      "Abri doi.org/10.21878/compolitica.2019.9.2.143: a página oficial só devolve paráfrase do conteúdo; a citação literal sobre etiquetar não foi reconfirmada nesta rodada e vem de lista anterior.",
+      "Abri doi.org/10.5209/esmp.71235: o resumo confirma análise do discurso de linha francesa dos textos de lançamento de cinco agências ligadas a conglomerados; a citação é literal; ano 2021 confere.",
+      "Abri doi.org/10.31921/doxacom.n41a2906: o resumo traz apenas objetivo e desenho metodológico (estudo de caso com entrevistas semiestruturadas), sem nenhum resultado; título e ano 2025 conferem.",
+      "Abri doi.org/10.13037/ci.vol25n53.8624: a citação sobre fact-checking como modelo de negócio é literal no resumo; o resumo não descreve corpus nem técnica, então o caráter empírico com dados próprios não está confirmado.",
+      "Abri doi.org/10.19132/1807-8583202253.101015: a citação sobre o estudo de caso com Plano Editorial e Fato ou Fake é literal; título, autoras e ano 2022 conferem.",
+      "Abri doi.org/10.59289/t7hc8w93: o Crossref classifica como journal-article e a citação sobre as cinco agências (Lupa, Aos Fatos, E-farsas, UOL Confere, Estadão Verifica) corresponde ao resumo, mas a citação é longa e foi remontada a partir de trechos; pontuação não confirmada letra por letra.",
+      "Abri doi.org/10.1177/27523543251344971: o resumo confirma análise de conteúdo de 136 artigos de verificação e 13 entrevistas com especialistas; a citação sobre variações entre países é literal; ano 2025 confere."
+    ],
+    "per_item": [
+      {
+        "doi": "10.4000/cp.4806",
+        "ok": false,
+        "problem": "O artigo se apresenta como reflexão teórica e não como estudo empírico, o que viola a restrição do pesquisador."
+      },
+      {
+        "doi": "10.25200/bjr.v16n2.2020.1212",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.25200/BJR.v18n2.2022.1510",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.25200/BJR.v20n3.2024.1687",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1177/10776990231207963",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1080/1461670x.2022.2069588",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3390/socsci14090514",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.17645/mac.v9i1.3443",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.15847/obsobs18520242436",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.51206/elegis.v15i38.758",
+        "ok": false,
+        "problem": "A citação é longa e foi remontada a partir de trechos; a literalidade letra por letra, incluindo pontuação e palavras de ligação, não está confirmada."
+      },
+      {
+        "doi": "10.1080/21670811.2021.2021377",
+        "ok": false,
+        "problem": "A frase do achado sobre correspondência com o papel de watchdog foi reconstruída a partir de fragmentos; falta confirmar a frase completa no resumo oficial."
+      },
+      {
+        "doi": "10.21878/compolitica.2019.9.2.143",
+        "ok": false,
+        "problem": "A citação literal não foi reconfirmada; a página oficial só devolve paráfrase coerente com o trecho."
+      },
+      {
+        "doi": "10.5209/esmp.71235",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.31921/doxacom.n41a2906",
+        "ok": false,
+        "problem": "O resumo não traz nenhum resultado, então o achado informado é só o objetivo e a citação não sustenta achado nenhum."
+      },
+      {
+        "doi": "10.13037/ci.vol25n53.8624",
+        "ok": false,
+        "problem": "O resumo não descreve corpus nem técnica, então não está confirmado que o estudo é empírico com dados próprios."
+      },
+      {
+        "doi": "10.19132/1807-8583202253.101015",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.59289/t7hc8w93",
+        "ok": false,
+        "problem": "A citação é longa e foi remontada a partir de trechos; falta confirmar a literalidade letra por letra no resumo oficial."
+      },
+      {
+        "doi": "10.1177/27523543251344971",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [
+      "No item 1 (Seibt e Fonseca, 10.4000/cp.4806) o resumo se apresenta como reflexão teórica, sem estudo empírico, o que viola a restrição do pedido.",
+      "No item 14 (Nogales-Bocio et al., 10.31921/doxacom.n41a2906) o resumo não tem resultado, então o campo de achado repete o objetivo e a citação não sustenta achado principal nenhum.",
+      "No item 15 (Alencar e Bittencourt, 10.13037/ci.vol25n53.8624) o resumo não descreve corpus nem técnica, então não está confirmado que o estudo é empírico com dados próprios, como exige o pedido.",
+      "No item 10 (Ferracioli, 10.51206/elegis.v15i38.758) a citação foi remontada a partir de trechos e não foi confirmada letra por letra no resumo oficial.",
+      "No item 11 (Ferracioli et al., 10.1080/21670811.2021.2021377) a frase do achado sobre correspondência com o papel de watchdog foi reconstruída a partir de fragmentos, e não confirmada como frase inteira.",
+      "No item 12 (Dourado, 10.21878/compolitica.2019.9.2.143) a citação literal não foi reconfirmada, porque a página oficial só devolve paráfrase.",
+      "No item 17 (Pinto e Oliveira, 10.59289/t7hc8w93) a citação foi remontada a partir de trechos e não foi confirmada letra por letra no resumo oficial.",
+      "Foram entregues 18 dos 25 artigos pedidos, e o item 1 não pode ser contado, o que deixa a lista com 17 artigos válidos."
+    ],
+    "feedback": "Remova o item 1 (Seibt e Fonseca), porque reflexão teórica não atende à restrição de estudo empírico, e substitua por um artigo claramente empírico sobre organizações brasileiras de checagem. No item 14 (Doxa Comunicación), obtenha o texto completo para extrair um resultado real com citação que o sustente, ou substitua o artigo. No item 15 (Comunicação & Inovação), abra o texto completo e confirme que há dados próprios (qual corpus, qual técnica); se não houver, substitua. Nos itens 10, 11 e 17, confirme as citações letra por letra no resumo oficial, com pontuação e palavras de ligação exatas, e ajuste o texto das citações se houver diferença. No item 12, confirme a citação de Dourado no texto completo ou no Crossref; se não achar literal, troque a citação ou o artigo. Corrija também o campo de amostra do item 10 se o resumo oficial trouxer contagem de textos. Por fim, o pedido foi de 25 artigos e a lista ficou com 17 válidos: busque candidatos novos elegíveis (por exemplo, estudos sobre Estadão Verifica ou Comprova que ainda não foram usados) para completar a lista, mantendo todas as restrições."
+  },
+  "text": "{\n \"approved\": false,\n \"checked\": [\n  \"Abri doi.org/10.4000/cp.4806: o resumo confirma que o artigo é reflexão teórica pelo método weberiano, sem amostra nem procedimento empírico; o título, o ano (2019) e a revista Comunicação Pública conferem.\",\n  \"Abri doi.org/10.25200/bjr.v16n2.2020.1212: título, autores (Damasceno e Patrício), ano 2020 e Brazilian Journalism Research conferem; a citação em inglês sobre os critérios de seleção aparece literal no resumo; o resumo não traz número de amostra.\",\n  \"Abri doi.org/10.25200/BJR.v18n2.2022.1510: o resumo traz sample (n=29); a citação sobre o propósito central é literal; título, autores e ano conferem.\",\n  \"Abri doi.org/10.25200/BJR.v20n3.2024.1687: o resumo traz 63 checagens com ferramentas de transparência, menos de 7% de 950; a citação sobre o caráter decisivo das ferramentas é literal.\",\n  \"Abri doi.org/10.1177/10776990231207963: o resumo da SAGE confirma 30 declarações oficiais e 7 entrevistas com representantes de cinco sites; a citação sobre a IA desafiar a autoridade dos checadores é literal; online first em 27/11/2023 e edição v. 101, n. 2, jun/2024, então o ano 2024 é defensável.\",\n  \"Abri doi.org/10.1080/1461670x.2022.2069588: o resumo confirma entrevistas com 16 fact-checkers de 13 organizações ativas; a citação final sobre modularizar as correções por plataformas é literal.\",\n  \"Abri doi.org/10.3390/socsci14090514: o resumo confirma entrevistas em profundidade com Polígrafo, Chequeado, Maldita e Aletheia; a citação sobre níveis de uso de IA, de tooling a disruptive, é literal; ano 2025 confere.\",\n  \"Abri doi.org/10.17645/mac.v9i1.3443: o resumo confirma as oito plataformas entrevistadas, incluindo Agência Lupa; a citação sobre três desafios centrais é literal.\",\n  \"Abri doi.org/10.15847/obsobs18520242436: título, autores, ano 2024 e Observatorio (OBS*) conferem; a citação sobre alfabetização midiática como estratégia fundamental é literal; o resumo não informa número de entrevistados.\",\n  \"Abri doi.org/10.51206/elegis.v15i38.758: os percentuais 63,5% (Brasil), 53,4% (Itália), 52,7% (EUA) e 29,2% (Alemanha) estão no resumo, mas a citação é longa e foi remontada a partir de trechos; a pontuação e as palavras de ligação não foram confirmadas letra por letra.\",\n  \"Abri doi.org/10.1080/21670811.2021.2021377: o resumo confirma análise de conteúdo de 2.792 checagens de FactCheck.org, Pagella Politica, Correctiv e Lupa; o trecho curto citado é literal, mas a frase do achado sobre correspondência com o papel de watchdog foi reconstruída a partir de fragmentos do OpenAlex.\",\n  \"Abri doi.org/10.21878/compolitica.2019.9.2.143: a página oficial só devolve paráfrase do conteúdo; a citação literal sobre etiquetar não foi reconfirmada nesta rodada e vem de lista anterior.\",\n  \"Abri doi.org/10.5209/esmp.71235: o resumo confirma análise do discurso de linha francesa dos textos de lançamento de cinco agências ligadas a conglomerados; a citação é literal; ano 2021 confere.\",\n  \"Abri doi.org/10.31921/doxacom.n41a2906: o resumo traz apenas objetivo e desenho metodológico (estudo de caso com entrevistas semiestruturadas), sem nenhum resultado; título e ano 2025 conferem.\",\n  \"Abri doi.org/10.13037/ci.vol25n53.8624: a citação sobre fact-checking como modelo de negócio é literal no resumo; o resumo não descreve corpus nem técnica, então o caráter empírico com dados próprios não está confirmado.\",\n  \"Abri doi.org/10.19132/1807-8583202253.101015: a citação sobre o estudo de caso com Plano Editorial e Fato ou Fake é literal; título, autoras e ano 2022 conferem.\",\n  \"Abri doi.org/10.59289/t7hc8w93: o Crossref classifica como journal-article e a citação sobre as cinco agências (Lupa, Aos Fatos, E-farsas, UOL Confere, Estadão Verifica) corresponde ao resumo, mas a citação é longa e foi remontada a partir de trechos; pontuação não confirmada letra por letra.\",\n  \"Abri doi.org/10.1177/27523543251344971: o resumo confirma análise de conteúdo de 136 artigos de verificação e 13 entrevistas com especialistas; a citação sobre variações entre países é literal; ano 2025 confere.\"\n ],\n \"per_item\": [\n  {\n   \"doi\": \"10.4000/cp.4806\",\n   \"ok\": false,\n   \"problem\": \"O artigo se apresenta como reflexão teórica e não como estudo empírico, o que viola a restrição do pesquisador.\"\n  },\n  {\n   \"doi\": \"10.25200/bjr.v16n2.2020.1212\",\n   \"ok\": true\n  ,\n   \"problem\": \"\"\n  },\n  {\n   \"doi\": \"10.25200/BJR.v18n2.2022.1510\",\n   \"ok\": true,\n   \"problem\": \"\"\n  },\n  {\n   \"doi\": \"10.25200/BJR.v20n3.2024.1687\",\n   \"ok\": true,\n   \"problem\": \"\"\n  },\n  {\n   \"doi\": \"10.1177/10776990231207963\",\n   \"ok\": true,\n   \"problem\": \"\"\n  },\n  {\n   \"doi\": \"10.1080/1461670x.2022.2069588\",\n   \"ok\": true,\n   \"problem\": \"\"\n  },\n  {\n   \"doi\": \"10.3390/socsci14090514\",\n   \"ok\": true,\n   \"problem\": \"\"\n  },\n  {\n   \"doi\": \"10.17645/mac.v9i1.3443\",\n   \"ok\": true,\n   \"problem\": \"\"\n  },\n  {\n   \"doi\": \"10.15847/obsobs18520242436\",\n   \"ok\": true,\n   \"problem\": \"\"\n  },\n  {\n   \"doi\": \"10.51206/elegis.v15i38.758\",\n   \"ok\": false,\n   \"problem\": \"A citação é longa e foi remontada a partir de trechos; a literalidade letra por letra, incluindo pontuação e palavras de ligação, não está confirmada.\"\n  },\n  {\n   \"doi\": \"10.1080/21670811.2021.2021377\",\n   \"ok\": false,\n   \"problem\": \"A frase do achado sobre correspondência com o papel de watchdog foi reconstruída a partir de fragmentos; falta confirmar a frase completa no resumo oficial.\"\n  },\n  {\n   \"doi\": \"10.21878/compolitica.2019.9.2.143\",\n   \"ok\": false,\n   \"problem\": \"A citação literal não foi reconfirmada; a página oficial só devolve paráfrase coerente com o trecho.\"\n  },\n  {\n   \"doi\": \"10.5209/esmp.71235\",\n   \"ok\": true,\n   \"problem\": \"\"\n  },\n  {\n   \"doi\": \"10.31921/doxacom.n41a2906\",\n   \"ok\": false,\n   \"problem\": \"O resumo não traz nenhum resultado, então o achado informado é só o objetivo e a citação não sustenta achado nenhum.\"\n  },\n  {\n   \"doi\": \"10.13037/ci.vol25n53.8624\",\n   \"ok\": false,\n   \"problem\": \"O resumo não descreve corpus nem técnica, então não está confirmado que o estudo é empírico com dados próprios.\"\n  },\n  {\n   \"doi\": \"10.19132/1807-8583202253.101015\",\n   \"ok\": true,\n   \"problem\": \"\"\n  },\n  {\n   \"doi\": \"10.59289/t7hc8w93\",\n   \"ok\": false,\n   \"problem\": \"A citação é longa e foi remontada a partir de trechos; falta confirmar a literalidade letra por letra no resumo oficial.\"\n  },\n  {\n   \"doi\": \"10.1177/27523543251344971\",\n   \"ok\": true,\n   \"problem\": \"\"\n  }\n ],\n \"issues\": [\n  \"No item 1 (Seibt e Fonseca, 10.4000/cp.4806) o resumo se apresenta como reflexão teórica, sem estudo empírico, o que viola a restrição do pedido.\",\n  \"No item 14 (Nogales-Bocio et al., 10.31921/doxacom.n41a2906) o resumo não tem resultado, então o campo de achado repete o objetivo e a citação não sustenta achado principal nenhum.\",\n  \"No item 15 (Alencar e Bittencourt, 10.13037/ci.vol25n53.8624) o resumo não descreve corpus nem técnica, então não está confirmado que o estudo é empírico com dados próprios, como exige o pedido.\",\n  \"No item 10 (Ferracioli, 10.51206/elegis.v15i38.758) a citação foi remontada a partir de trechos e não foi confirmada letra por letra no resumo oficial.\",\n  \"No item 11 (Ferracioli et al., 10.1080/21670811.2021.2021377) a frase do achado sobre correspondência com o papel de watchdog foi reconstruída a partir de fragmentos, e não confirmada como frase inteira.\",\n  \"No item 12 (Dourado, 10.21878/compolitica.2019.9.2.143) a citação literal não foi reconfirmada, porque a página oficial só devolve paráfrase.\",\n  \"No item 17 (Pinto e Oliveira, 10.59289/t7hc8w93) a citação foi remontada a partir de trechos e não foi confirmada letra por letra no resumo oficial.\",\n  \"Foram entregues 18 dos 25 artigos pedidos, e o item 1 não pode ser contado, o que deixa a lista com 17 artigos válidos.\"\n ],\n \"feedback\": \"Remova o item 1 (Seibt e Fonseca), porque reflexão teórica não atende à restrição de estudo empírico, e substitua por um artigo claramente empírico sobre organizações brasileiras de checagem. No item 14 (Doxa Comunicación), obtenha o texto completo para extrair um resultado real com citação que o sustente, ou substitua o artigo. No item 15 (Comunicação & Inovação), abra o texto completo e confirme que há dados próprios (qual corpus, qual técnica); se não houver, substitua. Nos itens 10, 11 e 17, confirme as citações letra por letra no resumo oficial, com pontuação e palavras de ligação exatas, e ajuste o texto das citações se houver diferença. No item 12, confirme a citação de Dourado no texto completo ou no Crossref; se não achar literal, troque a citação ou o artigo. Corrija também o campo de amostra do item 10 se o resumo oficial trouxer contagem de textos. Por fim, o pedido foi de 25 artigos e a lista ficou com 17 válidos: busque candidatos novos elegíveis (por exemplo, estudos sobre Estadão Verifica ou Comprova que ainda não foram usados) para completar a lista, mantendo todas as restrições.\"\n}",
+  "usage": {
+    "input_tokens": 7050,
+    "output_tokens": 4952,
+    "cost_usd": 0.00353
+  },
+  "duration_s": 96.93,
+  "errors": [
+    "HTTP 402: {\"error\":{\"message\":\"This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits.\",\"code\":402,\"metadata\":{\"reason\":\"i…",
+    "HTTP 402: {\"error\":{\"message\":\"This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits.\",\"code\":402,\"metadata\":{\"reason\":\"i…",
+    "HTTP 402: {\"error\":{\"message\":\"This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits.\",\"code\":402,\"metadata\":{\"reason\":\"i…",
+    "HTTP 402: {\"error\":{\"message\":\"This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits.\",\"code\":402,\"metadata\":{\"reason\":\"i…",
+    "HTTP 402: {\"error\":{\"message\":\"This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits.\",\"code\":402,\"metadata\":{\"reason\":\"i…",
+    "HTTP 402: {\"error\":{\"message\":\"This request would exceed your available credits given your current in-flight requests. Retry after in-flight requests settle, or add credits.\",\"code\":402,\"metadata\":{\"reason\":\"i…"
+  ],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

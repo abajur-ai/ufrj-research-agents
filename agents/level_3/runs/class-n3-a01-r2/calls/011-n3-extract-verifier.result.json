@@ -1,0 +1,174 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "C11: o resumo confirma dois experimentos, manipulacao de confiabilidade e expertise da fonte da retratacao, nenhuma amostra citada, e o achado reproduz o resumo sem exagero.",
+      "C48: o resumo confirma dois experimentos com N = 151 e N = 146, manipulacao independente da credibilidade de informante e retratador, grupo controle, e o achado cobre tanto a parte racional quanto o resultado do Experimento 2 com fontes igualmente criveis.",
+      "C22: o resumo confirma dois experimentos comparando correcao com explicacao de origem (engano intencional ou erro) versus correcao simples, e o achado corresponde a conclusao do resumo.",
+      "C23: o resumo confirma dois experimentos testando desacreditacao de fonte versus correcao focada na mensagem versus combinacao, e o achado reproduz os resultados do Experimento 1 e a generalizacao do Experimento 2.",
+      "C07: o resumo confirma dois experimentos com N = 441, combinacao de explicacao alternativa com aviso previo ou inoculacao, e o achado captura tanto a protecao no pre-teste quanto o aumento da dependencia apos mais de 7 dias.",
+      "C01: o resumo confirma o procedimento de inoculacao com manipulacao da confiabilidade da fonte das correcoes, e o achado corresponde a frase do resumo sobre participantes inoculados dependerem menos da desinformacao com fonte altamente crivel.",
+      "C09: o resumo confirma dois experimentos com fronteiras espaciais de eventos no paradigma de influencia continuada, e o achado distingue corretamente o resultado nulo do Experimento 1 do efeito de reducao no Experimento 2.",
+      "C08: o resumo confirma tres estudos com duas medidas, avaliando visar a desinformacao, explicacao alternativa e importancia relativa, e o achado reproduz a reducao consistente pela alternativa e a eliminacao em certas condicoes.",
+      "C14: os tamanhos de amostra conferem com o resumo (n = 78, n = 75, n = 323), o metodo online com perguntas abertas e fechadas confere, e o achado corresponde a observacao do CIE em todas as condicoes.",
+      "C04: o resumo confirma tres experimentos sobre colaboracao (por turnos e livre) em diferentes intervalos, e o achado reproduz a frase de resultados do resumo.",
+      "C21: o resumo confirma o simulador de direcao, correcoes ouvidas, manipulacao do numero de correcoes e da carga cognitiva, e o achado inclui corretamente a evidencia contra o efeito backfire de familiaridade.",
+      "C26: o resumo confirma dois experimentos com passagens com ou sem exposicao ao conceito-alvo, correcao negada, substituicao ou nenhuma correcao, e o achado reproduz o padrao duplo de reducao e aumento das mencoes.",
+      "C02: o resumo confirma quatro experimentos com formacao dinamica de impressao sobre o protagonista John, retratacao da desinformacao, e o achado corresponde ao desconto total apos a retratacao.",
+      "C18: o resumo confirma tres experimentos com tarefa nao dinamica de impressao sobre pessoa ficticia, e o achado reproduz fielmente a evidencia mista (efeito em um experimento, desconto total nos outros dois).",
+      "C46: o resumo confirma o delineamento com ou sem comportamento de violencia domestica, retratado ou nao, com avaliacoes de tracos, previsoes de comportamento e rosto, e o achado distingue corretamente o resultado nulo nas medidas explicitas da evidencia tentativa na medida indireta.",
+      "C03: o resumo confirma o uso de potenciais relacionados a eventos com tarefa de influencia continuada, e o achado reproduce os padroes ERP citados, incluindo a ausencia de diferenca entre desinformacao rejeitada e aceita.",
+      "C13: o resumo confirma medidas de subcomponentes de funcao executiva com tarefa de CIE, analise por correlacao e modelagem de equacoes estruturais, e o achado corresponde a predicao pela atualizacao da memoria de trabalho.",
+      "C80: o resumo confirma formas paralelas da tarefa com 4 semanas de intervalo, correlacao intraclasse e analise fatorial confirmatoria, e o achado corresponde a estabilidade da sensibilidade a retratacao.",
+      "C16: o achado reproduz a frase central do resumo sobre o efeito maior da informacao corrigida quando ela preenche uma lacuna causal da historia lida antes.",
+      "C29: o resumo confirma dois experimentos comparando ruminadores depressivos e controles com retratacoes de desinformacao negativa e positiva, e o achado corresponde a evidencia contra a hipotese.",
+      "C30: o resumo confirma o delineamento intrassujeitos 2 x 2 x 2 com valencia, estilo de expressao e condicao de correcao, e o achado corresponde ao padrao encontrado para desinformacao negativa explicita.",
+      "C42: o tamanho de amostra N = 84 confere com o resumo, o metodo com leitura em papel e tela e emocoes epistemicas confere, e o achado reproduz a ausencia de diferencas por meio de leitura.",
+      "C43: o resumo confirma as tarefas de Stroop, alternancia numerica e n-back, e o achado corresponde ao efeito negativo significativo apenas da inibicao.",
+      "C94: o resumo confirma a investigacao de funcao executiva central e atualizacao com desinformacao de alta e baixa relevancia, e o achado corresponde aos resultados relatados.",
+      "C40: o tamanho de amostra de 61 participantes confere com o resumo, o metodo com quatro cenarios militares (dois com informacao falsa retratada) confere, e o achado reproduz a ausencia de CIE com efeito de supercorrecao."
+    ],
+    "per_item": [
+      {
+        "id": "C11",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C48",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C22",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C23",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C07",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C01",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C09",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C08",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C14",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C04",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C21",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C26",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C02",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C18",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C46",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C03",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C13",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C80",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C16",
+        "ok": true,
+        "problem": "o resumo nao declara explicitamente o delineamento experimental; o campo metodo afirma 'Experimentos' no plural, o que o resumo nao sustenta diretamente"
+      },
+      {
+        "id": "C29",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C30",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C42",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C43",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C94",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C40",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [
+      "C16: o campo metodo afirma 'Experimentos' no plural, mas o resumo nao descreve o delineamento nem menciona experimentos; sugira reformular para algo como 'investigacao experimental do papel de historias na memoria', sem afirmar numero de experimentos."
+    ],
+    "feedback": "Nao ha erro que comprometa o resultado: os 25 itens sao aprovados. Para a proxima tentativa, apenas duas observacoes. Primeira: em C16, suavize o campo metodo porque o resumo nao confirma que se tratam de experimentos nem quantos foram. Segunda: os itens C13, C43, C80 e C94 sao estudos de diferencas individuais com medida correlacional, embora usem a tarefa de influencia continuada que manipula retratacao; se o pesquisador considerar que a restricao 'apenas experimentos' exclui delineamentos correlacionais, esses quatro itens merecem revisao com ele antes da etapa final, e vale sinalizar isso no relatorio em vez de alterar os dados."
+  },
+  "text": "{\n \"approved\": true,\n \"checked\": [\n  \"C11: o resumo confirma dois experimentos, manipulacao de confiabilidade e expertise da fonte da retratacao, nenhuma amostra citada, e o achado reproduz o resumo sem exagero.\",\n  \"C48: o resumo confirma dois experimentos com N = 151 e N = 146, manipulacao independente da credibilidade de informante e retratador, grupo controle, e o achado cobre tanto a parte racional quanto o resultado do Experimento 2 com fontes igualmente criveis.\",\n  \"C22: o resumo confirma dois experimentos comparando correcao com explicacao de origem (engano intencional ou erro) versus correcao simples, e o achado corresponde a conclusao do resumo.\",\n  \"C23: o resumo confirma dois experimentos testando desacreditacao de fonte versus correcao focada na mensagem versus combinacao, e o achado reproduz os resultados do Experimento 1 e a generalizacao do Experimento 2.\",\n  \"C07: o resumo confirma dois experimentos com N = 441, combinacao de explicacao alternativa com aviso previo ou inoculacao, e o achado captura tanto a protecao no pre-teste quanto o aumento da dependencia apos mais de 7 dias.\",\n  \"C01: o resumo confirma o procedimento de inoculacao com manipulacao da confiabilidade da fonte das correcoes, e o achado corresponde a frase do resumo sobre participantes inoculados dependerem menos da desinformacao com fonte altamente crivel.\",\n  \"C09: o resumo confirma dois experimentos com fronteiras espaciais de eventos no paradigma de influencia continuada, e o achado distingue corretamente o resultado nulo do Experimento 1 do efeito de reducao no Experimento 2.\",\n  \"C08: o resumo confirma tres estudos com duas medidas, avaliando visar a desinformacao, explicacao alternativa e importancia relativa, e o achado reproduz a reducao consistente pela alternativa e a eliminacao em certas condicoes.\",\n  \"C14: os tamanhos de amostra conferem com o resumo (n = 78, n = 75, n = 323), o metodo online com perguntas abertas e fechadas confere, e o achado corresponde a observacao do CIE em todas as condicoes.\",\n  \"C04: o resumo confirma tres experimentos sobre colaboracao (por turnos e livre) em diferentes intervalos, e o achado reproduz a frase de resultados do resumo.\",\n  \"C21: o resumo confirma o simulador de direcao, correcoes ouvidas, manipulacao do numero de correcoes e da carga cognitiva, e o achado inclui corretamente a evidencia contra o efeito backfire de familiaridade.\",\n  \"C26: o resumo confirma dois experimentos com passagens com ou sem exposicao ao conceito-alvo, correcao negada, substituicao ou nenhuma correcao, e o achado reproduz o padrao duplo de reducao e aumento das mencoes.\",\n  \"C02: o resumo confirma quatro experimentos com formacao dinamica de impressao sobre o protagonista John, retratacao da desinformacao, e o achado corresponde ao desconto total apos a retratacao.\",\n  \"C18: o resumo confirma tres experimentos com tarefa nao dinamica de impressao sobre pessoa ficticia, e o achado reproduz fielmente a evidencia mista (efeito em um experimento, desconto total nos outros dois).\",\n  \"C46: o resumo confirma o delineamento com ou sem comportamento de violencia domestica, retratado ou nao, com avaliacoes de tracos, previsoes de comportamento e rosto, e o achado distingue corretamente o resultado nulo nas medidas explicitas da evidencia tentativa na medida indireta.\",\n  \"C03: o resumo confirma o uso de potenciais relacionados a eventos com tarefa de influencia continuada, e o achado reproduce os padroes ERP citados, incluindo a ausencia de diferenca entre desinformacao rejeitada e aceita.\",\n  \"C13: o resumo confirma medidas de subcomponentes de funcao executiva com tarefa de CIE, analise por correlacao e modelagem de equacoes estruturais, e o achado corresponde a predicao pela atualizacao da memoria de trabalho.\",\n  \"C80: o resumo confirma formas paralelas da tarefa com 4 semanas de intervalo, correlacao intraclasse e analise fatorial confirmatoria, e o achado corresponde a estabilidade da sensibilidade a retratacao.\",\n  \"C16: o achado reproduz a frase central do resumo sobre o efeito maior da informacao corrigida quando ela preenche uma lacuna causal da historia lida antes.\",\n  \"C29: o resumo confirma dois experimentos comparando ruminadores depressivos e controles com retratacoes de desinformacao negativa e positiva, e o achado corresponde a evidencia contra a hipotese.\",\n  \"C30: o resumo confirma o delineamento intrassujeitos 2 x 2 x 2 com valencia, estilo de expressao e condicao de correcao, e o achado corresponde ao padrao encontrado para desinformacao negativa explicita.\",\n  \"C42: o tamanho de amostra N = 84 confere com o resumo, o metodo com leitura em papel e tela e emocoes epistemicas confere, e o achado reproduz a ausencia de diferencas por meio de leitura.\",\n  \"C43: o resumo confirma as tarefas de Stroop, alternancia numerica e n-back, e o achado corresponde ao efeito negativo significativo apenas da inibicao.\",\n  \"C94: o resumo confirma a investigacao de funcao executiva central e atualizacao com desinformacao de alta e baixa relevancia, e o achado corresponde aos resultados relatados.\",\n  \"C40: o tamanho de amostra de 61 participantes confere com o resumo, o metodo com quatro cenarios militares (dois com informacao falsa retratada) confere, e o achado reproduz a ausencia de CIE com efeito de supercorrecao.\"\n ],\n \"per_item\": [\n  {\"id\": \"C11\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C48\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C22\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C23\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C07\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C01\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C09\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C08\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C14\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C04\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C21\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C26\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C02\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C18\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C46\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C03\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C13\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C80\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C16\", \"ok\": true, \"problem\": \"o resumo nao declara explicitamente o delineamento experimental; o campo metodo afirma 'Experimentos' no plural, o que o resumo nao sustenta diretamente\"},\n  {\"id\": \"C29\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C30\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C42\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C43\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C94\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C40\", \"ok\": true, \"problem\": \"\"}\n ],\n \"issues\": [\n  \"C16: o campo metodo afirma 'Experimentos' no plural, mas o resumo nao descreve o delineamento nem menciona experimentos; sugira reformular para algo como 'investigacao experimental do papel de historias na memoria', sem afirmar numero de experimentos.\"\n ],\n \"feedback\": \"Nao ha erro que comprometa o resultado: os 25 itens sao aprovados. Para a proxima tentativa, apenas duas observacoes. Primeira: em C16, suavize o campo metodo porque o resumo nao confirma que se tratam de experimentos nem quantos foram. Segunda: os itens C13, C43, C80 e C94 sao estudos de diferencas individuais com medida correlacional, embora usem a tarefa de influencia continuada que manipula retratacao; se o pesquisador considerar que a restricao 'apenas experimentos' exclui delineamentos correlacionais, esses quatro itens merecem revisao com ele antes da etapa final, e vale sinalizar isso no relatorio em vez de alterar os dados.\"\n}",
+  "usage": {
+    "input_tokens": 11545,
+    "output_tokens": 3577,
+    "cost_usd": 0.00298
+  },
+  "duration_s": 62.59,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

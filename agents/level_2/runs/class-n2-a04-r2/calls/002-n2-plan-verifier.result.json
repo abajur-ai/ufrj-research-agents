@@ -1,0 +1,32 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Tema coberto: critério 1 do plano lista jogos educativos e de inoculação (prebunking) contra desinformação, incluindo exemplos do pedido (Bad News, Cranky Uncle, Fakey, Fake It to Make It, Harmony Square).",
+      "Restrição de intervenção coberta: critério 2 exige jogo (digital, tabuleiro, cartas, escape room, role-play) e exclui vídeos, textos, infográficos e quizzes isolados, como pedido.",
+      "Período coberto: critério 3 fixa 2018 a 2025 e orienta conferir published-print vs. published-online, sem alterar o intervalo do pedido.",
+      "Tipo de publicação coberto: critério 4 exige artigo de periódico revisado por pares e exclui preprints, anais, capítulos, teses e resenhas, alinhado ao pedido.",
+      "Estudo empírico coberto: critério 5 exige dados próprios com participantes e exclui revisões, meta-análises, ensaios teóricos e reanálises, como pedido.",
+      "Método coberto: critério 6 exige experimento, quase-experimento, RCT ou pré/pós-intervenção, e exclui estudos só de protótipo ou percepção sem medida de efeito, alinhado ao pedido.",
+      "Exclusão temática coberta: critério 7 exclui focos de COVID-19, vacinas, eleições e política partidária, cita o Go Viral! como exemplo e prevê verificação caso a caso de Harmony Square.",
+      "Dados exigidos por artigo cobertos: critério 8 pede DOI, título, autores, ano, periódico, tipo de estudo/método, N exatamente como no resumo (ou 'não informado no resumo'), achado em uma frase e trecho literal entre aspas, tudo conforme o pedido.",
+      "Meta de 25 artigos coberta: critério 9 pede 25 distintos sem duplicatas (incluindo regra preprint vs. periódico) e manda informar número real se houver menos, sem preencher com itens inelegíveis.",
+      "Cobertura em inglês: 5 consultas em inglês (itens 1 a 4 e 7) cobrem termos de prebunking/inoculação, gêneros de jogo, desinformação, nomes próprios dos jogos e desenhos experimentais.",
+      "Cobertura em português: 3 consultas em português (itens 5, 6 e 8) cobrem jogo/jogo educativo/escape room/gamificação com desinformação, fake news, inoculação, prebunking e letramento midiático, em SciELO, OpenAlex e web/CAPES.",
+      "Verificação concreta: a seção how_to_check tem um procedimento verificável para cada critério (tema/intervenção, período, tipo de publicação, dados próprios, desenho, exclusão temática, amostra, citação literal, validação de DOI e contagem final), incluindo remover duplicatas por DOI e título."
+    ],
+    "issues": [],
+    "feedback": "Nenhum erro que comprometa o resultado: o plano cobre todos os critérios do pedido. Sugestões não bloqueantes para a execução: corrigir o termo 'jogo sérios' da consulta 5 para 'jogos sérios'; na consulta 3 do Crossref, confirmar a sintaxe correta de filtro de título e de type=journal-article para a versão da API usada; e, na avaliação do Harmony Square, lembrar que o jogo cobre técnicas gerais de manipulação (impostores, trollagem etc.) e não apenas eleições, então a exclusão só vale se o estudo focar em política partidária."
+  },
+  "text": "{\"approved\": true, \"checked\": [\"Tema coberto: critério 1 do plano lista jogos educativos e de inoculação (prebunking) contra desinformação, incluindo exemplos do pedido (Bad News, Cranky Uncle, Fakey, Fake It to Make It, Harmony Square).\", \"Restrição de intervenção coberta: critério 2 exige jogo (digital, tabuleiro, cartas, escape room, role-play) e exclui vídeos, textos, infográficos e quizzes isolados, como pedido.\", \"Período coberto: critério 3 fixa 2018 a 2025 e orienta conferir published-print vs. published-online, sem alterar o intervalo do pedido.\", \"Tipo de publicação coberto: critério 4 exige artigo de periódico revisado por pares e exclui preprints, anais, capítulos, teses e resenhas, alinhado ao pedido.\", \"Estudo empírico coberto: critério 5 exige dados próprios com participantes e exclui revisões, meta-análises, ensaios teóricos e reanálises, como pedido.\", \"Método coberto: critério 6 exige experimento, quase-experimento, RCT ou pré/pós-intervenção, e exclui estudos só de protótipo ou percepção sem medida de efeito, alinhado ao pedido.\", \"Exclusão temática coberta: critério 7 exclui focos de COVID-19, vacinas, eleições e política partidária, cita o Go Viral! como exemplo e prevê verificação caso a caso de Harmony Square.\", \"Dados exigidos por artigo cobertos: critério 8 pede DOI, título, autores, ano, periódico, tipo de estudo/método, N exatamente como no resumo (ou 'não informado no resumo'), achado em uma frase e trecho literal entre aspas, tudo conforme o pedido.\", \"Meta de 25 artigos coberta: critério 9 pede 25 distintos sem duplicatas (incluindo regra preprint vs. periódico) e manda informar número real se houver menos, sem preencher com itens inelegíveis.\", \"Cobertura em inglês: 5 consultas em inglês (itens 1 a 4 e 7) cobrem termos de prebunking/inoculação, gêneros de jogo, desinformação, nomes próprios dos jogos e desenhos experimentais.\", \"Cobertura em português: 3 consultas em português (itens 5, 6 e 8) cobrem jogo/jogo educativo/escape room/gamificação com desinformação, fake news, inoculação, prebunking e letramento midiático, em SciELO, OpenAlex e web/CAPES.\", \"Verificação concreta: a seção how_to_check tem um procedimento verificável para cada critério (tema/intervenção, período, tipo de publicação, dados próprios, desenho, exclusão temática, amostra, citação literal, validação de DOI e contagem final), incluindo remover duplicatas por DOI e título.\"], \"issues\": [], \"feedback\": \"Nenhum erro que comprometa o resultado: o plano cobre todos os critérios do pedido. Sugestões não bloqueantes para a execução: corrigir o termo 'jogo sérios' da consulta 5 para 'jogos sérios'; na consulta 3 do Crossref, confirmar a sintaxe correta de filtro de título e de type=journal-article para a versão da API usada; e, na avaliação do Harmony Square, lembrar que o jogo cobre técnicas gerais de manipulação (impostores, trollagem etc.) e não apenas eleições, então a exclusão só vale se o estudo focar em política partidária.\"}",
+  "usage": {
+    "input_tokens": 2495,
+    "output_tokens": 943,
+    "cost_usd": 0.00085
+  },
+  "duration_s": 13.4,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

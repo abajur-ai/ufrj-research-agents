@@ -1,0 +1,167 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "C02 (Journal of Cybersecurity, 2023): resumo relata survey online com N=280, tarefa de detecção de imagens deepfake de rostos StyleGAN2, atende a estudo empírico com humanos e ao tema.",
+      "C14 (PLoS ONE, 2023): resumo relata experimento com n=529 sobre detecção humana de deepfakes de voz, em inglês e mandarim, atende aos critérios.",
+      "C55 (iScience, 2021): resumo relata experimento pré-registrado com N=210 sobre detecção de deepfakes de vídeo, atende aos critérios.",
+      "C33 (PNAS, 2021): resumo relata dois estudos online com 15.016 participantes sobre detecção humana de deepfakes, com intervenções randomizadas, atende aos critérios; a comparação com modelo não torna o artigo um estudo de detecção automática.",
+      "C09 (Cognitive Research: Principles and Implications, 2025): resumo relata experimentos com humanos sobre distinção entre rostos gerados por IA (ChatGPT/DALL·E) e fotos reais; celebridades não são políticos, então não viola a exclusão política.",
+      "C18 (PNAS, 2022): resumo indica avaliação empírica de fotorrealismo e confiabilidade percebida de rostos sintéticos por julgamento humano; tema e tipo atendem, ainda que o resumo não detalhe método nem amostra.",
+      "C39 (Psychological Science, 2023): resumo relata dois experimentos (N=124 e N=610) sobre julgamento de rostos de IA como humanos, atende aos critérios.",
+      "C56 (Royal Society Open Science, 2025): resumo relata experimentos de detecção e treinamento com SRs (N=283) e controles (N=381), atende aos critérios.",
+      "C69 (Applied Cognitive Psychology, 2024): resumo relata dois experimentos sobre detecção de rostos sintéticos com agregação de respostas de multidões, atende aos critérios.",
+      "C103 (Computers in Human Behavior, 2023): resumo relata experimento pré-registrado com N=454 sobre efeito de estratégias de detecção de deepfakes, atende aos critérios.",
+      "C118 (Royal Society Open Science, 2023): resumo relata experimento sobre alertas e detecção de deepfake de vídeo, atende aos critérios.",
+      "C51 (Journal of Online Trust and Safety, 2024): resumo relata série de experimentos online sobre suscetibilidade a deepfakes e efeito de alertas visuais e assistência de IA, atende aos critérios.",
+      "C100 (New Media & Society, 2023): resumo relata dois experimentos randomizados (N=518) sobre julgamentos de credibilidade de deepfakes, atende aos critérios.",
+      "C65 (AI & Society, 2025): resumo relata experimento com 292 participantes sobre julgamento de autenticidade de imagens geradas por IA; menção a campanhas de desinformação é contexto, o estudo não é centrado em políticos ou eleições.",
+      "C119 (Telematics and Informatics, 2023): resumo relata estudo com humanos sobre preditores do desempenho em reconhecer deepfakes de vídeo, atende aos critérios.",
+      "C37 (Applied Cognitive Psychology, 2025): resumo relata análise computacional de expressões mais análise de resposta de audiência com percepções de credibilidade; há componente empírico com humanos no segundo passo, atende ao tema de credibilidade percebida.",
+      "C54 (Scientific Reports, 2023): resumo relata estudo de EEG com N=30 sobre processamento de rostos presumidos como deepfake, atende ao critério de medidas fisiológicas.",
+      "C42 (Issues in Information Systems, 2024): resumo relata survey com 71 participantes incluindo tarefa de identificação de deepfakes, atende aos critérios.",
+      "C27 (Jurnal Pekommas, 2024): resumo relata survey com 199 respondentes da Geração X sobre capacidade de identificar deepfakes, atende aos critérios.",
+      "C52: resumo relata experimento comparando humanos e máquinas na classificação de 80 imagens reais ou geradas por IA; há dados empíricos com participantes humanos, atende ao tema.",
+      "C15 (Proceedings of the ACM on Human-Computer Interaction, 2025): resumo relata experimento online com 400 participantes sobre confiança e dependência humana em sistema de IA para detecção de deepfakes, dentro do escopo de alertas e suporte à detecção humana.",
+      "C63 (International Journal of Human-Computer Interaction, 2024): resumo relata desenvolvimento e validação do PDTQ com estudo transversal em três línguas (N=733) sobre confiabilidade percebida de deepfakes; é estudo empírico com coleta de dados próprios, não uma revisão.",
+      "C125 (Food Quality and Preference, 2024): resumo relata dois experimentos online sobre identificação de imagens de alimentos geradas por IA e efeito da divulgação; contexto é percepção do consumidor, não saúde.",
+      "C72 (Palabra Clave, 2024): resumo relata experimento com 150 estudantes sobre credibilidade percebida de apresentadores humanos versus avatares de IA; o invento médico é apenas o estímulo do vídeo, o estudo não é sobre saúde.",
+      "Quantidade: 23 artigos entregues para um pedido de 25; como menos artigos atendessem a todos os critérios, entregar menos é correto."
+    ],
+    "per_item": [
+      {
+        "id": "C02",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C14",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C55",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C33",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C09",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C18",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C39",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C56",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C69",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C103",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C118",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C51",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C100",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C65",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C119",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C37",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C54",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C42",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C27",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C52",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C15",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C63",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C125",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C72",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [],
+    "feedback": "Nenhum artigo incluído viola os critérios do pedido com base nos resumos. Pontos de atenção para a próxima etapa: para C18, o resumo é muito curto e não informa método nem tamanho da amostra, portanto preencha o tamanho como 'não informado no resumo' e descreva o método de forma genérica, sem afirmar detalhes que o resumo não sustenta. Para C37, o tamanho da amostra também não aparece no resumo, use 'não informado no resumo'. Para C42 e C52, informe o tamanho da amostra como aparece no resumo (71 e 80 imagens avaliadas, respectivamente, sem N claro para C52, que deve ficar como 'não informado no resumo' se não houver número de participantes). O campo venue de C52 aparece como 'Scholarly review .', nome estranho para periódico; vale conferir a grafia exata do periódico na próxima execução. Em C15, o periódico é dos Proceedings of the ACM on HCI, que publica trabalhos de conferência em formato de periódico; como o tipo de publicação já foi conferido por código no Crossref, não reprovo, mas registre a observação caso o pesquisador queira revisar manualmente."
+  },
+  "text": "{\n  \"approved\": true,\n  \"checked\": [\n    \"C02 (Journal of Cybersecurity, 2023): resumo relata survey online com N=280, tarefa de detecção de imagens deepfake de rostos StyleGAN2, atende a estudo empírico com humanos e ao tema.\",\n    \"C14 (PLoS ONE, 2023): resumo relata experimento com n=529 sobre detecção humana de deepfakes de voz, em inglês e mandarim, atende aos critérios.\",\n    \"C55 (iScience, 2021): resumo relata experimento pré-registrado com N=210 sobre detecção de deepfakes de vídeo, atende aos critérios.\",\n    \"C33 (PNAS, 2021): resumo relata dois estudos online com 15.016 participantes sobre detecção humana de deepfakes, com intervenções randomizadas, atende aos critérios; a comparação com modelo não torna o artigo um estudo de detecção automática.\",\n    \"C09 (Cognitive Research: Principles and Implications, 2025): resumo relata experimentos com humanos sobre distinção entre rostos gerados por IA (ChatGPT/DALL·E) e fotos reais; celebridades não são políticos, então não viola a exclusão política.\",\n    \"C18 (PNAS, 2022): resumo indica avaliação empírica de fotorrealismo e confiabilidade percebida de rostos sintéticos por julgamento humano; tema e tipo atendem, ainda que o resumo não detalhe método nem amostra.\",\n    \"C39 (Psychological Science, 2023): resumo relata dois experimentos (N=124 e N=610) sobre julgamento de rostos de IA como humanos, atende aos critérios.\",\n    \"C56 (Royal Society Open Science, 2025): resumo relata experimentos de detecção e treinamento com SRs (N=283) e controles (N=381), atende aos critérios.\",\n    \"C69 (Applied Cognitive Psychology, 2024): resumo relata dois experimentos sobre detecção de rostos sintéticos com agregação de respostas de multidões, atende aos critérios.\",\n    \"C103 (Computers in Human Behavior, 2023): resumo relata experimento pré-registrado com N=454 sobre efeito de estratégias de detecção de deepfakes, atende aos critérios.\",\n    \"C118 (Royal Society Open Science, 2023): resumo relata experimento sobre alertas e detecção de deepfake de vídeo, atende aos critérios.\",\n    \"C51 (Journal of Online Trust and Safety, 2024): resumo relata série de experimentos online sobre suscetibilidade a deepfakes e efeito de alertas visuais e assistência de IA, atende aos critérios.\",\n    \"C100 (New Media & Society, 2023): resumo relata dois experimentos randomizados (N=518) sobre julgamentos de credibilidade de deepfakes, atende aos critérios.\",\n    \"C65 (AI & Society, 2025): resumo relata experimento com 292 participantes sobre julgamento de autenticidade de imagens geradas por IA; menção a campanhas de desinformação é contexto, o estudo não é centrado em políticos ou eleições.\",\n    \"C119 (Telematics and Informatics, 2023): resumo relata estudo com humanos sobre preditores do desempenho em reconhecer deepfakes de vídeo, atende aos critérios.\",\n    \"C37 (Applied Cognitive Psychology, 2025): resumo relata análise computacional de expressões mais análise de resposta de audiência com percepções de credibilidade; há componente empírico com humanos no segundo passo, atende ao tema de credibilidade percebida.\",\n    \"C54 (Scientific Reports, 2023): resumo relata estudo de EEG com N=30 sobre processamento de rostos presumidos como deepfake, atende ao critério de medidas fisiológicas.\",\n    \"C42 (Issues in Information Systems, 2024): resumo relata survey com 71 participantes incluindo tarefa de identificação de deepfakes, atende aos critérios.\",\n    \"C27 (Jurnal Pekommas, 2024): resumo relata survey com 199 respondentes da Geração X sobre capacidade de identificar deepfakes, atende aos critérios.\",\n    \"C52: resumo relata experimento comparando humanos e máquinas na classificação de 80 imagens reais ou geradas por IA; há dados empíricos com participantes humanos, atende ao tema.\",\n    \"C15 (Proceedings of the ACM on Human-Computer Interaction, 2025): resumo relata experimento online com 400 participantes sobre confiança e dependência humana em sistema de IA para detecção de deepfakes, dentro do escopo de alertas e suporte à detecção humana.\",\n    \"C63 (International Journal of Human-Computer Interaction, 2024): resumo relata desenvolvimento e validação do PDTQ com estudo transversal em três línguas (N=733) sobre confiabilidade percebida de deepfakes; é estudo empírico com coleta de dados próprios, não uma revisão.\",\n    \"C125 (Food Quality and Preference, 2024): resumo relata dois experimentos online sobre identificação de imagens de alimentos geradas por IA e efeito da divulgação; contexto é percepção do consumidor, não saúde.\",\n    \"C72 (Palabra Clave, 2024): resumo relata experimento com 150 estudantes sobre credibilidade percebida de apresentadores humanos versus avatares de IA; o invento médico é apenas o estímulo do vídeo, o estudo não é sobre saúde.\",\n    \"Quantidade: 23 artigos entregues para um pedido de 25; como menos artigos atendessem a todos os critérios, entregar menos é correto.\"\n  ],\n  \"per_item\": [\n    {\"id\": \"C02\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C14\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C55\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C33\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C09\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C18\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C39\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C56\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C69\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C103\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C118\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C51\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C100\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C65\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C119\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C37\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C54\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C42\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C27\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C52\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C15\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C63\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C125\", \"ok\": true, \"problem\": \"\"},\n    {\"id\": \"C72\", \"ok\": true, \"problem\": \"\"}\n  ],\n  \"issues\": [],\n  \"feedback\": \"Nenhum artigo incluído viola os critérios do pedido com base nos resumos. Pontos de atenção para a próxima etapa: para C18, o resumo é muito curto e não informa método nem tamanho da amostra, portanto preencha o tamanho como 'não informado no resumo' e descreva o método de forma genérica, sem afirmar detalhes que o resumo não sustenta. Para C37, o tamanho da amostra também não aparece no resumo, use 'não informado no resumo'. Para C42 e C52, informe o tamanho da amostra como aparece no resumo (71 e 80 imagens avaliadas, respectivamente, sem N claro para C52, que deve ficar como 'não informado no resumo' se não houver número de participantes). O campo venue de C52 aparece como 'Scholarly review .', nome estranho para periódico; vale conferir a grafia exata do periódico na próxima execução. Em C15, o periódico é dos Proceedings of the ACM on HCI, que publica trabalhos de conferência em formato de periódico; como o tipo de publicação já foi conferido por código no Crossref, não reprovo, mas registre a observação caso o pesquisador queira revisar manualmente.\"\n}",
+  "usage": {
+    "input_tokens": 8458,
+    "output_tokens": 4187,
+    "cost_usd": 0.00336
+  },
+  "duration_s": 23.18,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

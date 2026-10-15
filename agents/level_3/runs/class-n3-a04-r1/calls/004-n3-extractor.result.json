@@ -1,0 +1,253 @@
+{
+  "structured": {
+    "items": [
+      {
+        "id": "C01",
+        "study_type": "Estudo experimental pré-pós (jogo Bad News)",
+        "method": "Avaliação em larga escala do jogo online com desenho pré e pós-jogo",
+        "sample_size": "N = 15,000 participants",
+        "main_finding": "A capacidade de identificar e resistir à desinformação melhora após jogar, independentemente de escolaridade, idade, ideologia e estilo cognitivo.",
+        "abstract_quote": "improves after gameplay, irrespective of education, age, political ideology, and cognitive style"
+      },
+      {
+        "id": "C12",
+        "study_type": "Experimento (replicação e extensão) com grupo controle",
+        "method": "Desenho misto 2 (tratamento vs. controle) × 2 (pré vs. pós) com Bad News e controle gamificado",
+        "sample_size": "N = 196",
+        "main_finding": "Jogar Bad News melhorou a capacidade de identificar técnicas de desinformação em relação ao controle gamificado e aumentou a confiança nos julgamentos.",
+        "abstract_quote": "We find that playing Bad News significantly improves people’s ability to spot misinformation techniques compared to a gamified control group"
+      },
+      {
+        "id": "C08",
+        "study_type": "Dois experimentos online",
+        "method": "Inoculação baseada em técnica (jogo Bad News) testada contra desinformação real viralizada e proteção cruzada",
+        "sample_size": "total n = 2188",
+        "main_finding": "Jogar o jogo de 15 minutos conferiu resistência contra desinformação real que usa as técnicas treinadas, com proteção cruzada de efeito menor.",
+        "abstract_quote": "playing a 15 min game confers psychological resistance against real-world misinformation that makes use of manipulation techniques against which people were inoculated"
+      },
+      {
+        "id": "C09",
+        "study_type": "Estudo intercultural de intervenção com jogo",
+        "method": "Aplicação do jogo Bad News em quatro países (Suécia, Alemanha, Polônia e Grécia)",
+        "sample_size": "não informado no resumo",
+        "main_finding": "O jogo Bad News conferiu resistência contra estratégias comuns de desinformação em diferentes culturas.",
+        "abstract_quote": "can confer psychological resistance against common online misinformation strategies (e.g., conspiracy theories, manipulating emotions, political polarization) across different cultures"
+      },
+      {
+        "id": "C21",
+        "study_type": "Dois estudos experimentais online",
+        "method": "Teste de efeitos de itens e de testagem com o Bad News, incluindo desenho de três grupos de Solomon",
+        "sample_size": "total N = 2,159",
+        "main_finding": "As intervenções de inoculação sofrem alguma influência dos itens, mas não da testagem, e melhoram a identificação de técnicas de desinformação sem aumentar o ceticismo contra notícias reais.",
+        "abstract_quote": "We find that inoculation interventions are somewhat influenced by item effects, and not by testing effects."
+      },
+      {
+        "id": "C33",
+        "study_type": "Experimentos de laboratório pré-registrados e pesquisas quase-experimentais no jogo",
+        "method": "Testes de exercícios de feedback após Bad News e Harmony Square, com análise de teoria de detecção de sinal",
+        "sample_size": "N1 = 191, N2 = 321",
+        "main_finding": "Exercícios de feedback aumentaram o discernimento entre desinformação e notícias reais em comparação com jogar sem feedback.",
+        "abstract_quote": "feedback exercises boost the effectiveness of gamified misinformation interventions"
+      },
+      {
+        "id": "C38",
+        "study_type": "Estudo de avaliação em sala de aula (pré-pós)",
+        "method": "Avaliação do jogo Bad News em sala de aula, com alunos jogando individualmente, em duplas ou com a turma toda",
+        "sample_size": "516 upper-secondary Swedish students",
+        "main_finding": "Os alunos melhoraram a capacidade de discernir técnicas de manipulação em postagens de redes sociais.",
+        "abstract_quote": "students improved their ability to discern manipulation techniques in social media posts"
+      },
+      {
+        "id": "C03",
+        "study_type": "Estudo de avaliação de jogo online",
+        "method": "Avaliação do jogo Harmony Square com jogadores de vários países, medindo confiabilidade percebida, confiança e intenção de compartilhar",
+        "sample_size": "não informado no resumo",
+        "main_finding": "O jogo conferiu resistência contra técnicas de manipulação usadas em desinformação política.",
+        "abstract_quote": "the game confers psychological resistance against manipulation techniques commonly used in political misinformation"
+      },
+      {
+        "id": "C65",
+        "study_type": "Experimento com grupo controle (replicação conceitual)",
+        "method": "Replicação conceitual do estudo de Harmony Square com o jogo Cat Park e grupo controle",
+        "sample_size": "N = 380",
+        "main_finding": "Quem jogou Cat Park considerou a desinformação significativamente menos confiável e ficou menos disposto a compartilhá-la que o grupo controle, sem ganho de confiança.",
+        "abstract_quote": "people who play Cat Park find misinformation significantly less reliable post-gameplay (d = 0.95, p < 0.001) compared to a control group"
+      },
+      {
+        "id": "C06",
+        "study_type": "Ensaio controlado randomizado",
+        "method": "Distribuição aleatória entre inoculação por jogo, inoculação gráfica e controle, com acompanhamento após 2 semanas",
+        "sample_size": "180 Chinese participants",
+        "main_finding": "A inoculação por jogo foi mais eficaz que a gráfica para reduzir a credibilidade percebida da desinformação, com efeito estável após 2 semanas.",
+        "abstract_quote": "Game-based inoculation was more effective than graphic-based inoculation in terms of misinformation perceived credibility"
+      },
+      {
+        "id": "C05",
+        "study_type": "Estudo experimental com jogo",
+        "method": "Teste do impacto de um jogo de computador sobre notícias falsas, com jogadores e não jogadores, em duas amostras",
+        "sample_size": "college (n = 84) and junior high and secondary school (n = 30) students",
+        "main_finding": "Quem jogou detectou melhor notícias falsas do que quem não jogou e melhorou atitudes de ceticismo e cautela.",
+        "abstract_quote": "those who played the game scored higher in detecting fake news than those who did not play the game"
+      },
+      {
+        "id": "C43",
+        "study_type": "Estudo intra-sujeitos (replicação na Índia)",
+        "method": "Aplicação do jogo Bad News a uma amostra indiana com desenho intra-sujeitos",
+        "sample_size": "n = 1002",
+        "main_finding": "Houve melhora significativa na identificação de desinformação produzida com as técnicas de conspiração e personificação, e maior discernimento de notícias verdadeiras.",
+        "abstract_quote": "We provide evidence of significant improvement in the ability of participants to identify the misinformation produced using Conspiracy"
+      },
+      {
+        "id": "C14",
+        "study_type": "Ensaio controlado randomizado",
+        "method": "Intervenção com jogo baseado em inoculação no norte da Índia",
+        "sample_size": "n = 757",
+        "main_finding": "A intervenção não teve impacto significativo sobre a confiabilidade percebida, a confiança nem a disposição de compartilhar, sem replicar achados anteriores.",
+        "abstract_quote": "We found no significant impact of the intervention on the perceived reliability of messages containing misinformation"
+      },
+      {
+        "id": "C07",
+        "study_type": "Estudo pré-registrado pré-pós (reexame)",
+        "method": "Mesmo desenho de Iyengar et al. com participantes indianos recrutados no Prolific e manchetes contrabalanceadas",
+        "sample_size": "N = 150",
+        "main_finding": "Não houve diferença significativa na discriminação entre notícias verdadeiras e falsas entre pré e pós-teste, indicando que o Bad News pode ser menos eficaz do que se pensava.",
+        "abstract_quote": "no significant differences in discrimination or response bias appeared between the pre-test and post-test"
+      },
+      {
+        "id": "C42",
+        "study_type": "Quatro replicações estendidas (experimento pré-pós com controle)",
+        "method": "Quatro equipes de estudantes replicaram Basol et al. com versões atualizadas do Bad News, incluindo mais tuítes verdadeiros e análise de detecção de sinal",
+        "sample_size": "não informado no resumo",
+        "main_finding": "Jogar o Bad News reduziu a crença em tuítes falsos, mas também em tuítes verdadeiros, aumentando o viés de resposta sem melhorar a discriminação.",
+        "abstract_quote": "Playing the BNG reduced belief in false Tweets. But playing the BNG also reduced belief in true Tweets to the same or almost the same extent."
+      },
+      {
+        "id": "C103",
+        "study_type": "Experimento randomizado com quatro condições",
+        "method": "Comparação entre intervenção gamificada de aprendizagem indutiva, versão não gamificada, controle sem tratamento e Bad News, com análise de curvas ROC",
+        "sample_size": "282 Prolific users",
+        "main_finding": "Não houve diferenças significativas entre as condições, com evidência forte para a hipótese nula, inclusive para o Bad News.",
+        "abstract_quote": "there were no significant differences between conditions"
+      },
+      {
+        "id": "C30",
+        "study_type": "Experimento",
+        "method": "Teste da inoculação gamificada sobre desinformação não política vinda de fontes de grupos políticos próprios e opostos, com medidas pré e pós-intervenção",
+        "sample_size": "não informado no resumo",
+        "main_finding": "A inoculação gamificada melhorou o discernimento da veracidade e reduziu a suscetibilidade à desinformação de fontes do mesmo grupo político e do grupo oposto.",
+        "abstract_quote": "gamified inoculation successfully improves veracity discernment and reduces susceptibility to misinformation from both political ingroup and outgroup publishers"
+      },
+      {
+        "id": "C13",
+        "study_type": "Estudo de campo online randomizado (desenvolvimento e avaliação preliminar de jogo sério)",
+        "method": "Jogo web de verificação de notícias avaliado em estudo de campo online e discussão em sala de aula",
+        "sample_size": "n = 111",
+        "main_finding": "O jogo ajudou a aumentar a conscientização e ensinar ferramentas de autenticação, sugerindo que jogos educativos podem inocular o público contra a desinformação.",
+        "abstract_quote": "it is validated that the game can raise awareness, teach about authentication tools, and highlight the importance of patterns"
+      },
+      {
+        "id": "C23",
+        "study_type": "Estudo de campo online randomizado com pré e pós-teste",
+        "method": "Avaliação de jogo sério para m-learning baseado no teste CRAAP, com pesquisa quantitativa de pré e pós-testes",
+        "sample_size": "351 participants",
+        "main_finding": "O jogo sério melhorou o conhecimento de alfabetização informacional necessário para avaliar fontes online.",
+        "abstract_quote": "can improve the knowledge of information literacy"
+      },
+      {
+        "id": "C28",
+        "study_type": "Estudo piloto pré e pós-teste",
+        "method": "Avaliação do jogo de fuga em realidade aumentada Escape Fake com desenho de pré-teste e pós-teste",
+        "sample_size": "27 Schüler:innen",
+        "main_finding": "O jogo ensinou conhecimento sobre fake news, melhorou a capacidade de avaliar a confiabilidade das informações e fortaleceu a atitude crítica e a confiança.",
+        "abstract_quote": "Wissen über Fake News vermitteln, die Fähigkeit fördern, die Zuverlässigkeit von Informationen zu erkennen"
+      },
+      {
+        "id": "C75",
+        "study_type": "Estudo de campo pré-pós",
+        "method": "Avaliação do jogo de fuga em realidade aumentada Escape Fake com delineamento de pré-teste e pós-teste",
+        "sample_size": "28 students",
+        "main_finding": "O Escape Fake melhorou conhecimento, discernimento, atitude crítica e confiança para reconhecer fake news, com tamanhos de efeito desejáveis.",
+        "abstract_quote": "can address four learning objectives relevant in fake news detection with educationally desired effect sizes"
+      },
+      {
+        "id": "C32",
+        "study_type": "Estudo pré-pós",
+        "method": "Jogo de fuga em realidade aumentada Escape Fake aplicado a futuros professores, com pré e pós-teste",
+        "sample_size": "45 pre-service teachers",
+        "main_finding": "Após o jogo, os futuros professores tiveram mais conhecimento e atitude mais crítica, mas sem melhora na capacidade de discernir informação real de falsa.",
+        "abstract_quote": "the pre-service teachers demonstrate significantly higher knowledge about fake news"
+      },
+      {
+        "id": "C92",
+        "study_type": "Estudo pré-pós de grupo único com métodos mistos",
+        "method": "Intervenção com jogo de tabuleiro baseado na teoria da aprendizagem experiencial, com teste de conhecimento e questionário qualitativo",
+        "sample_size": "95 participants",
+        "main_finding": "A intervenção com jogo de tabuleiro melhorou o conhecimento em alfabetização midiática e informacional dos estudantes.",
+        "abstract_quote": "statistically significant improvements in post-test scores"
+      },
+      {
+        "id": "C67",
+        "study_type": "Estudo intra-sujeitos de métodos mistos",
+        "method": "Jogo jogador contra jogador baseado em LLM, em que os participantes geram ou desmentem desinformação",
+        "sample_size": "N=47",
+        "main_finding": "O jogo elevou a alfabetização midiática dos participantes e melhorou sua capacidade de identificar desinformação.",
+        "abstract_quote": "this game significantly raised participants' media literacy and improved their ability to identify misinformation"
+      },
+      {
+        "id": "C69",
+        "study_type": "Dois estudos longitudinais pré-registrados",
+        "method": "Intervenções de inoculação (vídeo e jogo) com e sem pós-teste imediato, avaliando a durabilidade do efeito",
+        "sample_size": "N 1 = 503, N 2 = 673",
+        "main_finding": "O pós-teste imediato fortaleceu o aprendizado, e as intervenções decaíram rapidamente sem ele, inclusive na intervenção gamificada.",
+        "abstract_quote": "immediate posttests strengthen the learnings from the intervention"
+      }
+    ]
+  },
+  "text": "{\"items\":[{\"id\":\"C01\",\"study_type\":\"Estudo experimental pré-pós (jogo Bad News)\",\"method\":\"Avaliação em larga escala do jogo online com desenho pré e pós-jogo\",\"sample_size\":\"N = 15,000 participants\",\"main_finding\":\"A capacidade de identificar e resistir à desinformação melhora após jogar, independentemente de escolaridade, idade, ideologia e estilo cognitivo.\",\"abstract_quote\":\"improves after gameplay, irrespective of education, age, political ideology, and cognitive style\"},{\"id\":\"C12\",\"study_type\":\"Experimento (replicação e extensão) com grupo controle\",\"method\":\"Desenho misto 2 (tratamento vs. controle) × 2 (pré vs. pós) com Bad News e controle gamificado\",\"sample_size\":\"N = 196\",\"main_finding\":\"Jogar Bad News melhorou a capacidade de identificar técnicas de desinformação em relação ao controle gamificado e aumentou a confiança nos julgamentos.\",\"abstract_quote\":\"We find that playing Bad News significantly improves people’s ability to spot misinformation techniques compared to a gamified control group\"},{\"id\":\"C08\",\"study_type\":\"Dois experimentos online\",\"method\":\"Inoculação baseada em técnica (jogo Bad News) testada contra desinformação real viralizada e proteção cruzada\",\"sample_size\":\"total n = 2188\",\"main_finding\":\"Jogar o jogo de 15 minutos conferiu resistência contra desinformação real que usa as técnicas treinadas, com proteção cruzada de efeito menor.\",\"abstract_quote\":\"playing a 15 min game confers psychological resistance against real-world misinformation that makes use of manipulation techniques against which people were inoculated\"},{\"id\":\"C09\",\"study_type\":\"Estudo intercultural de intervenção com jogo\",\"method\":\"Aplicação do jogo Bad News em quatro países (Suécia, Alemanha, Polônia e Grécia)\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"O jogo Bad News conferiu resistência contra estratégias comuns de desinformação em diferentes culturas.\",\"abstract_quote\":\"can confer psychological resistance against common online misinformation strategies (e.g., conspiracy theories, manipulating emotions, political polarization) across different cultures\"},{\"id\":\"C21\",\"study_type\":\"Dois estudos experimentais online\",\"method\":\"Teste de efeitos de itens e de testagem com o Bad News, incluindo desenho de três grupos de Solomon\",\"sample_size\":\"total N = 2,159\",\"main_finding\":\"As intervenções de inoculação sofrem alguma influência dos itens, mas não da testagem, e melhoram a identificação de técnicas de desinformação sem aumentar o ceticismo contra notícias reais.\",\"abstract_quote\":\"We find that inoculation interventions are somewhat influenced by item effects, and not by testing effects.\"},{\"id\":\"C33\",\"study_type\":\"Experimentos de laboratório pré-registrados e pesquisas quase-experimentais no jogo\",\"method\":\"Testes de exercícios de feedback após Bad News e Harmony Square, com análise de teoria de detecção de sinal\",\"sample_size\":\"N1 = 191, N2 = 321\",\"main_finding\":\"Exercícios de feedback aumentaram o discernimento entre desinformação e notícias reais em comparação com jogar sem feedback.\",\"abstract_quote\":\"feedback exercises boost the effectiveness of gamified misinformation interventions\"},{\"id\":\"C38\",\"study_type\":\"Estudo de avaliação em sala de aula (pré-pós)\",\"method\":\"Avaliação do jogo Bad News em sala de aula, com alunos jogando individualmente, em duplas ou com a turma toda\",\"sample_size\":\"516 upper-secondary Swedish students\",\"main_finding\":\"Os alunos melhoraram a capacidade de discernir técnicas de manipulação em postagens de redes sociais.\",\"abstract_quote\":\"students improved their ability to discern manipulation techniques in social media posts\"},{\"id\":\"C03\",\"study_type\":\"Estudo de avaliação de jogo online\",\"method\":\"Avaliação do jogo Harmony Square com jogadores de vários países, medindo confiabilidade percebida, confiança e intenção de compartilhar\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"O jogo conferiu resistência contra técnicas de manipulação usadas em desinformação política.\",\"abstract_quote\":\"the game confers psychological resistance against manipulation techniques commonly used in political misinformation\"},{\"id\":\"C65\",\"study_type\":\"Experimento com grupo controle (replicação conceitual)\",\"method\":\"Replicação conceitual do estudo de Harmony Square com o jogo Cat Park e grupo controle\",\"sample_size\":\"N = 380\",\"main_finding\":\"Quem jogou Cat Park considerou a desinformação significativamente menos confiável e ficou menos disposto a compartilhá-la que o grupo controle, sem ganho de confiança.\",\"abstract_quote\":\"people who play Cat Park find misinformation significantly less reliable post-gameplay (d = 0.95, p < 0.001) compared to a control group\"},{\"id\":\"C06\",\"study_type\":\"Ensaio controlado randomizado\",\"method\":\"Distribuição aleatória entre inoculação por jogo, inoculação gráfica e controle, com acompanhamento após 2 semanas\",\"sample_size\":\"180 Chinese participants\",\"main_finding\":\"A inoculação por jogo foi mais eficaz que a gráfica para reduzir a credibilidade percebida da desinformação, com efeito estável após 2 semanas.\",\"abstract_quote\":\"Game-based inoculation was more effective than graphic-based inoculation in terms of misinformation perceived credibility\"},{\"id\":\"C05\",\"study_type\":\"Estudo experimental com jogo\",\"method\":\"Teste do impacto de um jogo de computador sobre notícias falsas, com jogadores e não jogadores, em duas amostras\",\"sample_size\":\"college (n = 84) and junior high and secondary school (n = 30) students\",\"main_finding\":\"Quem jogou detectou melhor notícias falsas do que quem não jogou e melhorou atitudes de ceticismo e cautela.\",\"abstract_quote\":\"those who played the game scored higher in detecting fake news than those who did not play the game\"},{\"id\":\"C43\",\"study_type\":\"Estudo intra-sujeitos (replicação na Índia)\",\"method\":\"Aplicação do jogo Bad News a uma amostra indiana com desenho intra-sujeitos\",\"sample_size\":\"n = 1002\",\"main_finding\":\"Houve melhora significativa na identificação de desinformação produzida com as técnicas de conspiração e personificação, e maior discernimento de notícias verdadeiras.\",\"abstract_quote\":\"We provide evidence of significant improvement in the ability of participants to identify the misinformation produced using Conspiracy\"},{\"id\":\"C14\",\"study_type\":\"Ensaio controlado randomizado\",\"method\":\"Intervenção com jogo baseado em inoculação no norte da Índia\",\"sample_size\":\"n = 757\",\"main_finding\":\"A intervenção não teve impacto significativo sobre a confiabilidade percebida, a confiança nem a disposição de compartilhar, sem replicar achados anteriores.\",\"abstract_quote\":\"We found no significant impact of the intervention on the perceived reliability of messages containing misinformation\"},{\"id\":\"C07\",\"study_type\":\"Estudo pré-registrado pré-pós (reexame)\",\"method\":\"Mesmo desenho de Iyengar et al. com participantes indianos recrutados no Prolific e manchetes contrabalanceadas\",\"sample_size\":\"N = 150\",\"main_finding\":\"Não houve diferença significativa na discriminação entre notícias verdadeiras e falsas entre pré e pós-teste, indicando que o Bad News pode ser menos eficaz do que se pensava.\",\"abstract_quote\":\"no significant differences in discrimination or response bias appeared between the pre-test and post-test\"},{\"id\":\"C42\",\"study_type\":\"Quatro replicações estendidas (experimento pré-pós com controle)\",\"method\":\"Quatro equipes de estudantes replicaram Basol et al. com versões atualizadas do Bad News, incluindo mais tuítes verdadeiros e análise de detecção de sinal\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"Jogar o Bad News reduziu a crença em tuítes falsos, mas também em tuítes verdadeiros, aumentando o viés de resposta sem melhorar a discriminação.\",\"abstract_quote\":\"Playing the BNG reduced belief in false Tweets. But playing the BNG also reduced belief in true Tweets to the same or almost the same extent.\"},{\"id\":\"C103\",\"study_type\":\"Experimento randomizado com quatro condições\",\"method\":\"Comparação entre intervenção gamificada de aprendizagem indutiva, versão não gamificada, controle sem tratamento e Bad News, com análise de curvas ROC\",\"sample_size\":\"282 Prolific users\",\"main_finding\":\"Não houve diferenças significativas entre as condições, com evidência forte para a hipótese nula, inclusive para o Bad News.\",\"abstract_quote\":\"there were no significant differences between conditions\"},{\"id\":\"C30\",\"study_type\":\"Experimento\",\"method\":\"Teste da inoculação gamificada sobre desinformação não política vinda de fontes de grupos políticos próprios e opostos, com medidas pré e pós-intervenção\",\"sample_size\":\"não informado no resumo\",\"main_finding\":\"A inoculação gamificada melhorou o discernimento da veracidade e reduziu a suscetibilidade à desinformação de fontes do mesmo grupo político e do grupo oposto.\",\"abstract_quote\":\"gamified inoculation successfully improves veracity discernment and reduces susceptibility to misinformation from both political ingroup and outgroup publishers\"},{\"id\":\"C13\",\"study_type\":\"Estudo de campo online randomizado (desenvolvimento e avaliação preliminar de jogo sério)\",\"method\":\"Jogo web de verificação de notícias avaliado em estudo de campo online e discussão em sala de aula\",\"sample_size\":\"n = 111\",\"main_finding\":\"O jogo ajudou a aumentar a conscientização e ensinar ferramentas de autenticação, sugerindo que jogos educativos podem inocular o público contra a desinformação.\",\"abstract_quote\":\"it is validated that the game can raise awareness, teach about authentication tools, and highlight the importance of patterns\"},{\"id\":\"C23\",\"study_type\":\"Estudo de campo online randomizado com pré e pós-teste\",\"method\":\"Avaliação de jogo sério para m-learning baseado no teste CRAAP, com pesquisa quantitativa de pré e pós-testes\",\"sample_size\":\"351 participants\",\"main_finding\":\"O jogo sério melhorou o conhecimento de alfabetização informacional necessário para avaliar fontes online.\",\"abstract_quote\":\"can improve the knowledge of information literacy\"},{\"id\":\"C28\",\"study_type\":\"Estudo piloto pré e pós-teste\",\"method\":\"Avaliação do jogo de fuga em realidade aumentada Escape Fake com desenho de pré-teste e pós-teste\",\"sample_size\":\"27 Schüler:innen\",\"main_finding\":\"O jogo ensinou conhecimento sobre fake news, melhorou a capacidade de avaliar a confiabilidade das informações e fortaleceu a atitude crítica e a confiança.\",\"abstract_quote\":\"Wissen über Fake News vermitteln, die Fähigkeit fördern, die Zuverlässigkeit von Informationen zu erkennen\"},{\"id\":\"C75\",\"study_type\":\"Estudo de campo pré-pós\",\"method\":\"Avaliação do jogo de fuga em realidade aumentada Escape Fake com delineamento de pré-teste e pós-teste\",\"sample_size\":\"28 students\",\"main_finding\":\"O Escape Fake melhorou conhecimento, discernimento, atitude crítica e confiança para reconhecer fake news, com tamanhos de efeito desejáveis.\",\"abstract_quote\":\"can address four learning objectives relevant in fake news detection with educationally desired effect sizes\"},{\"id\":\"C32\",\"study_type\":\"Estudo pré-pós\",\"method\":\"Jogo de fuga em realidade aumentada Escape Fake aplicado a futuros professores, com pré e pós-teste\",\"sample_size\":\"45 pre-service teachers\",\"main_finding\":\"Após o jogo, os futuros professores tiveram mais conhecimento e atitude mais crítica, mas sem melhora na capacidade de discernir informação real de falsa.\",\"abstract_quote\":\"the pre-service teachers demonstrate significantly higher knowledge about fake news\"},{\"id\":\"C92\",\"study_type\":\"Estudo pré-pós de grupo único com métodos mistos\",\"method\":\"Intervenção com jogo de tabuleiro baseado na teoria da aprendizagem experiencial, com teste de conhecimento e questionário qualitativo\",\"sample_size\":\"95 participants\",\"main_finding\":\"A intervenção com jogo de tabuleiro melhorou o conhecimento em alfabetização midiática e informacional dos estudantes.\",\"abstract_quote\":\"statistically significant improvements in post-test scores\"},{\"id\":\"C67\",\"study_type\":\"Estudo intra-sujeitos de métodos mistos\",\"method\":\"Jogo jogador contra jogador baseado em LLM, em que os participantes geram ou desmentem desinformação\",\"sample_size\":\"N=47\",\"main_finding\":\"O jogo elevou a alfabetização midiática dos participantes e melhorou sua capacidade de identificar desinformação.\",\"abstract_quote\":\"this game significantly raised participants' media literacy and improved their ability to identify misinformation\"},{\"id\":\"C69\",\"study_type\":\"Dois estudos longitudinais pré-registrados\",\"method\":\"Intervenções de inoculação (vídeo e jogo) com e sem pós-teste imediato, avaliando a durabilidade do efeito\",\"sample_size\":\"N 1 = 503, N 2 = 673\",\"main_finding\":\"O pós-teste imediato fortaleceu o aprendizado, e as intervenções decaíram rapidamente sem ele, inclusive na intervenção gamificada.\",\"abstract_quote\":\"immediate posttests strengthen the learnings from the intervention\"}]}",
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 12348,
+    "cache_read_input_tokens": 910,
+    "output_tokens": 7607,
+    "output_tokens_details": {
+      "thinking_tokens": 2665
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 12348,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 7607,
+        "cache_read_input_tokens": 910,
+        "cache_creation_input_tokens": 12348,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 12348
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 2,
+  "duration_s": 44.24,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "items": "[{\"id\": \"C01\", \"study_type\": \"Estudo experimental pré-pós (jogo Bad News)\", \"method\": \"Avaliação em larga escala do jogo online com desenho pré e pós-jogo\", \"sample_size\": \"N = 15,000 participants\", …"
+      }
+    }
+  ]
+}

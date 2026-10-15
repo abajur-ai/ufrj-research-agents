@@ -1,0 +1,281 @@
+{
+  "structured": {
+    "approved": false,
+    "checked": [
+      "Item 1 (Damasceno e Patrício, 10.25200/bjr.v16n2.2020.1212): abri a página do artigo pelo DOI; título, autores, ano 2020 e periódico Brazilian Journalism Research conferem; o trecho \"the agencies themselves do not lay out the criteria for selecting what is to be checked\" está no resumo letra por letra; o resumo realmente não informa amostra nem método, como o item declara; o achado (critérios não explicitados e dependência de fontes oficiais) corresponde ao que o resumo diz.",
+      "Item 2 (Rodríguez-Pérez e Seibt, 10.25200/bjr.v18n2.2022.1510): abri pelo DOI; título, autores, ano e periódico conferem; as duas citações, \"The sample (n=29) expressed their level of agreement with a group of statements.\" e \"The results show the central purpose is to detect and combat false and misleading content on digital channels.\", estão no resumo letra por letra; método (questionário autoaplicado) e amostra n=29 conferem; achado corresponde ao resumo.",
+      "Item 3 (Dourado e Alencar, 10.13037/ci.vol21n46.6388): abri a página na Comunicação & Inovação; título, autores, ano e periódico conferem; a citação \"o presente artigo tem como objetivo analisar a mercantilização das checagens da Agência Lupa\" está no resumo letra por letra; confirmei diretamente que o resumo traz apenas dados de contexto e o objetivo com o referencial da Economia Política do Jornalismo, sem método, sem amostra e sem resultado.",
+      "Item 4 (Nóbrega, Costa e Condorelli, 10.22478/ufpb.2763-9398.2022v17n.63545): abri a página na Culturas Midiáticas; título, autores, ano e periódico conferem; a citação \"as estratégias da Agência Lupa para garantir o financiamento do combate à desinformação por meio de projetos especiais\" está no resumo letra por letra; estudo de caso das iniciativas de 2020 confirmado; amostra não informada, como declarado; achado corresponde ao resumo.",
+      "Item 5 (Nascimento, Lycarião e Nocrato, 10.25200/bjr.v20n3.2024.1687): abri pelo DOI; título, autores, ano e periódico conferem; as duas citações estão no resumo letra por letra, incluindo \"Through content analysis, 63 checks were identified using transparency tools, which represented less than 7% of the total checks conducted (950).\"; método (análise de conteúdo de checagens de 2022) e amostra conferem; achado corresponde ao resumo.",
+      "Item 6 (Lelo, 10.1177/10776990231207963): a página da Sage bloqueou o acesso (403); por espelho de busca, o trecho \"This article shows an emerging automation landscape in the Brazilian fact-checking venture supported by the tech industry\" aparece no resumo letra por letra, e o resumo menciona 30 declarações oficiais e entrevistas com representantes de cinco websites; título, autora, periódico e ano conferem (edição de 2024, com versão online de 2023).",
+      "Item 7 (Cazzamatta e Sarısakaloğlu, 10.1177/27523543251344971): a página da Sage bloqueou o acesso (403); por espelho de busca, o trecho \"The results revealed notable country-specific variations in topics, targets, intentions, AI elements, generative models,\" aparece no resumo letra por letra, e a amostra (136 artigos de verificação de 2023 a 2024 e 13 entrevistas com especialistas) foi confirmada em espelho do texto; título, autoras, ano 2025 e periódico Emerging Media conferem.",
+      "Item 8 (Canavilhas e Ito, 10.3390/socsci14090514): a página da MDPI não carregou o conteúdo; citação, amostra, achado e metadados ficaram sem verificação.",
+      "Item 9 (Alencar e Bittencourt, 10.13037/ci.vol25n53.8624): abri a página na Comunicação & Inovação; o resumo confirma o achado (fact-checking na América Latina como modelo de negócio adotado pelas iniciativas, que promove empreendedorismo jornalístico); a sequência em português \"o fact-checking na América Latina é um modelo de negócio\" aparece na versão em português do resumo vista em espelho da própria revista; título, autores, ano e periódico conferem; o resumo não detalha técnica de coleta, como o item declara.",
+      "Item 18 (Dourado, 10.21878/compolitica.2019.9.2.143): o DOI, o ano 2019, o periódico Compolítica e o método (análise de conteúdo de Aos Fatos, Lupa e Truco) conferem com a referência completa desse artigo, que vi citada no artigo do item 5; a citação literal e a ausência de amostra no resumo não puderam ser conferidas diretamente.",
+      "Itens 10 (Lelo 2022), 11 (Moreno-Gil et al. 2021), 12 (Lelo e Pachi Filho 2021), 13 (Ferracioli et al. 2022), 14 (Ferracioli 2022), 15 (Santos 2025), 16 (Rodrigues et al. 2023), 17 (Missau e Storch 2022), 19 (Cazzamatta 2025) e 20 (Nogales-Bocio et al. 2025): as páginas não foram abertas nesta rodada; esses itens ficaram sem verificação de citação, amostra, achado e metadados."
+    ],
+    "per_item": [
+      {
+        "doi": "10.25200/bjr.v16n2.2020.1212",
+        "ok": true,
+        "problem": "sem problema"
+      },
+      {
+        "doi": "10.25200/bjr.v18n2.2022.1510",
+        "ok": true,
+        "problem": "sem problema"
+      },
+      {
+        "doi": "10.13037/ci.vol21n46.6388",
+        "ok": false,
+        "problem": "O resumo não traz método, dados nem resultado, então não há como sustentar que é estudo empírico com dados próprios, e o item não entrega o achado principal que o pesquisador pediu."
+      },
+      {
+        "doi": "10.22478/ufpb.2763-9398.2022v17n.63545",
+        "ok": true,
+        "problem": "sem problema"
+      },
+      {
+        "doi": "10.25200/bjr.v20n3.2024.1687",
+        "ok": true,
+        "problem": "sem problema"
+      },
+      {
+        "doi": "10.1177/10776990231207963",
+        "ok": true,
+        "problem": "Parcialmente verificado; a segunda parte do achado não apareceu no material acessado."
+      },
+      {
+        "doi": "10.1177/27523543251344971",
+        "ok": true,
+        "problem": "Parcialmente verificado por espelho de busca."
+      },
+      {
+        "doi": "10.3390/socsci14090514",
+        "ok": false,
+        "problem": "Não verificado; a página da fonte não abriu."
+      },
+      {
+        "doi": "10.13037/ci.vol25n53.8624",
+        "ok": true,
+        "problem": "sem problema"
+      },
+      {
+        "doi": "10.1080/1461670X.2022.2069588",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      },
+      {
+        "doi": "10.17645/mac.v9i1.3443",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      },
+      {
+        "doi": "10.5209/esmp.71235",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      },
+      {
+        "doi": "10.1080/21670811.2021.2021377",
+        "ok": false,
+        "problem": "Não verificado; o ano de 2022 precisa ser conferido, pois DOI dessa faixa costuma ter edição posterior."
+      },
+      {
+        "doi": "10.51206/elegis.v15i38.758",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      },
+      {
+        "doi": "10.11606/issn.2236-4242.v38i2p221-239",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      },
+      {
+        "doi": "10.55028/rpe.v10in.1.18117",
+        "ok": false,
+        "problem": "O próprio executor admite que o resumo não traz resultado conclusivo e o campo de achado descreve o objetivo, não um achado."
+      },
+      {
+        "doi": "10.1515/omgc-2022-0028",
+        "ok": false,
+        "problem": "Não verificado nesta rodada."
+      },
+      {
+        "doi": "10.21878/compolitica.2019.9.2.143",
+        "ok": true,
+        "problem": "Metadados confirmados por referência; citação e resumo não conferidos diretamente."
+      },
+      {
+        "doi": "10.1080/1461670x.2025.2470177",
+        "ok": false,
+        "problem": "Não verificado; o executor admite que o resumo não nomeia o Brasil e a inclusão se apoia em página externa não reaberta."
+      },
+      {
+        "doi": "10.31921/doxacom.n41a2906",
+        "ok": false,
+        "problem": "O próprio executor admite que o resumo só declara objetivo, sem relatar resultado."
+      }
+    ],
+    "issues": [
+      "Item 3 (Dourado e Alencar 2020): o resumo só declara objetivo com referencial teórico, sem método, sem dados e sem resultado; não há evidência de estudo empírico com dados próprios e o item não entrega o achado principal pedido, o que fere os critérios do pesquisador, que exclui ensaios teóricos.",
+      "Item 16 (Rodrigues et al. 2023): conforme o próprio registro do executor, o resumo não traz resultado conclusivo e o campo de achado descreve o objetivo, não um achado; o pedido exige achado principal sustentado pelo resumo.",
+      "Item 20 (Nogales-Bocio et al. 2025): mesmo problema do item 16; pelo registro do executor, o resumo declara apenas o objetivo do estudo de caso, sem relatar resultado.",
+      "Item 19 (Cazzamatta 2025): o executor admite que o resumo não nomeia o Brasil e que a inclusão se apoia em página de projeto da autora que não foi reaberta; sem confirmação da presença de organizações brasileiras, o item pode violar o critério de comparativos internacionais.",
+      "Item 13 (Ferracioli et al.): o ano 2022 precisa ser conferido no site da revista, porque DOIs da faixa 10.1080/21670811.2021.x costumam ter versão online em 2021 ou 2022 e edição de assinatura em ano seguinte.",
+      "Item 6 (Lelo 2024): a segunda parte do achado, sobre a IA ter desafiado a autoridade dos checadores, não apareceu no material a que tive acesso; se não estiver no resumo, é achado que vai além da fonte.",
+      "Verificação incompleta: os itens 8, 10, 11, 12, 13, 14, 15, 16, 17, 19 e 20 não tiveram citação, amostra, achado e metadados conferidos na fonte, então o lote inteiro não pode ser aprovado.",
+      "O pesquisador pediu 25 artigos e a lista traz 20, e nenhuma das cinco organizações citadas pelo nome no pedido além de Lupa e Aos Fatos (Estadão Verifica, Fato ou Fake, Comprova) aparece em algum item."
+    ],
+    "feedback": "Corrija ou remova o item 3: se o texto completo provar estudo empírico com dados próprios, informe método e achado reais; caso contrário, substitua por outro artigo que atenda aos critérios. Nos itens 16 e 20, ou o resumo traz resultado, e aí informe o achado literal, ou os artigos devem sair da lista. Reabra e confira letra por letra os itens 8, 10, 11, 12, 13, 14, 15, 16, 17, 19 e 20, incluindo DOI, título, autores, ano, periódico, amostra e citação. No item 19, confirme no resumo ou no texto que a amostra inclui organizações brasileiras antes de manter o artigo. Confirme o ano de publicação do item 13 na página da revista, distinguindo online first da edição final. Complete a confirmação das citações dos itens 6, 7 e 18, que ficaram confirmadas só em parte por espelhos de busca. No item 6, comprove no resumo a afirmação de que a IA desafiou a autoridade dos checadores ou retire essa parte do achado. Faça novas buscas para tentar alcançar os 25 artigos pedidos, priorizando Estadão Verifica, Fato ou Fake e Comprova, que não aparecem na lista atual; se não for possível, registre formalmente no material entregue que o universo filtrado permitiu apenas 20. No item 5, anote para o pesquisador que as checagens analisadas são de 2022, ano eleitoral, ainda que o resumo não trate o estudo como centrado em eleições."
+  },
+  "text": "{\"approved\": false, \"checked\": [\"Item 1 (Damasceno e Patrício, 10.25200/bjr.v16n2.2020.1212): abri a página do artigo pelo DOI; título, autores, ano 2020 e periódico Brazilian Journalism Research conferem; o trecho \\\"the agencies themselves do not lay out the criteria for selecting what is to be checked\\\" está no resumo letra por letra; o resumo realmente não informa amostra nem método, como o item declara; o achado (critérios não explicitados e dependência de fontes oficiais) corresponde ao que o resumo diz.\", \"Item 2 (Rodríguez-Pérez e Seibt, 10.25200/bjr.v18n2.2022.1510): abri pelo DOI; título, autores, ano e periódico conferem; as duas citações, \\\"The sample (n=29) expressed their level of agreement with a group of statements.\\\" e \\\"The results show the central purpose is to detect and combat false and misleading content on digital channels.\\\", estão no resumo letra por letra; método (questionário autoaplicado) e amostra n=29 conferem; achado corresponde ao resumo.\", \"Item 3 (Dourado e Alencar, 10.13037/ci.vol21n46.6388): abri a página na Comunicação & Inovação; título, autores, ano e periódico conferem; a citação \\\"o presente artigo tem como objetivo analisar a mercantilização das checagens da Agência Lupa\\\" está no resumo letra por letra; confirmei diretamente que o resumo traz apenas dados de contexto e o objetivo com o referencial da Economia Política do Jornalismo, sem método, sem amostra e sem resultado.\", \"Item 4 (Nóbrega, Costa e Condorelli, 10.22478/ufpb.2763-9398.2022v17n.63545): abri a página na Culturas Midiáticas; título, autores, ano e periódico conferem; a citação \\\"as estratégias da Agência Lupa para garantir o financiamento do combate à desinformação por meio de projetos especiais\\\" está no resumo letra por letra; estudo de caso das iniciativas de 2020 confirmado; amostra não informada, como declarado; achado corresponde ao resumo.\", \"Item 5 (Nascimento, Lycarião e Nocrato, 10.25200/bjr.v20n3.2024.1687): abri pelo DOI; título, autores, ano e periódico conferem; as duas citações estão no resumo letra por letra, incluindo \\\"Through content analysis, 63 checks were identified using transparency tools, which represented less than 7% of the total checks conducted (950).\\\"; método (análise de conteúdo de checagens de 2022) e amostra conferem; achado corresponde ao resumo.\", \"Item 6 (Lelo, 10.1177/10776990231207963): a página da Sage bloqueou o acesso (403); por espelho de busca, o trecho \\\"This article shows an emerging automation landscape in the Brazilian fact-checking venture supported by the tech industry\\\" aparece no resumo letra por letra, e o resumo menciona 30 declarações oficiais e entrevistas com representantes de cinco websites; título, autora, periódico e ano conferem (edição de 2024, com versão online de 2023).\", \"Item 7 (Cazzamatta e Sarısakaloğlu, 10.1177/27523543251344971): a página da Sage bloqueou o acesso (403); por espelho de busca, o trecho \\\"The results revealed notable country-specific variations in topics, targets, intentions, AI elements, generative models,\\\" aparece no resumo letra por letra, e a amostra (136 artigos de verificação de 2023 a 2024 e 13 entrevistas com especialistas) foi confirmada em espelho do texto; título, autoras, ano 2025 e periódico Emerging Media conferem.\", \"Item 8 (Canavilhas e Ito, 10.3390/socsci14090514): a página da MDPI não carregou o conteúdo; citação, amostra, achado e metadados ficaram sem verificação.\", \"Item 9 (Alencar e Bittencourt, 10.13037/ci.vol25n53.8624): abri a página na Comunicação & Inovação; o resumo confirma o achado (fact-checking na América Latina como modelo de negócio adotado pelas iniciativas, que promove empreendedorismo jornalístico); a sequência em português \\\"o fact-checking na América Latina é um modelo de negócio\\\" aparece na versão em português do resumo vista em espelho da própria revista; título, autores, ano e periódico conferem; o resumo não detalha técnica de coleta, como o item declara.\", \"Item 18 (Dourado, 10.21878/compolitica.2019.9.2.143): o DOI, o ano 2019, o periódico Compolítica e o método (análise de conteúdo de Aos Fatos, Lupa e Truco) conferem com a referência completa desse artigo, que vi citada no artigo do item 5; a citação literal e a ausência de amostra no resumo não puderam ser conferidas diretamente.\", \"Itens 10 (Lelo 2022), 11 (Moreno-Gil et al. 2021), 12 (Lelo e Pachi Filho 2021), 13 (Ferracioli et al. 2022), 14 (Ferracioli 2022), 15 (Santos 2025), 16 (Rodrigues et al. 2023), 17 (Missau e Storch 2022), 19 (Cazzamatta 2025) e 20 (Nogales-Bocio et al. 2025): as páginas não foram abertas nesta rodada; esses itens ficaram sem verificação de citação, amostra, achado e metadados.\"], \"per_item\": [{\"doi\": \"10.25200/bjr.v16n2.2020.1212\", \"ok\": true, \"problem\": \"sem problema\"}, {\"doi\": \"10.25200/bjr.v18n2.2022.1510\", \"ok\": true, \"problem\": \"sem problema\"}, {\"doi\": \"10.13037/ci.vol21n46.6388\", \"ok\": false, \"problem\": \"O resumo não traz método, dados nem resultado, então não há como sustentar que é estudo empírico com dados próprios, e o item não entrega o achado principal que o pesquisador pediu.\"}, {\"doi\": \"10.22478/ufpb.2763-9398.2022v17n.63545\", \"ok\": true, \"problem\": \"sem problema\"}, {\"doi\": \"10.25200/bjr.v20n3.2024.1687\", \"ok\": true, \"problem\": \"sem problema\"}, {\"doi\": \"10.1177/10776990231207963\", \"ok\": true, \"problem\": \"Parcialmente verificado; a segunda parte do achado não apareceu no material acessado.\"}, {\"doi\": \"10.1177/27523543251344971\", \"ok\": true, \"problem\": \"Parcialmente verificado por espelho de busca.\"}, {\"doi\": \"10.3390/socsci14090514\", \"ok\": false, \"problem\": \"Não verificado; a página da fonte não abriu.\"}, {\"doi\": \"10.13037/ci.vol25n53.8624\", \"ok\": true, \"problem\": \"sem problema\"}, {\"doi\": \"10.1080/1461670X.2022.2069588\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"}, {\"doi\": \"10.17645/mac.v9i1.3443\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"}, {\"doi\": \"10.5209/esmp.71235\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"}, {\"doi\": \"10.1080/21670811.2021.2021377\", \"ok\": false, \"problem\": \"Não verificado; o ano de 2022 precisa ser conferido, pois DOI dessa faixa costuma ter edição posterior.\"}, {\"doi\": \"10.51206/elegis.v15i38.758\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"}, {\"doi\": \"10.11606/issn.2236-4242.v38i2p221-239\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"}, {\"doi\": \"10.55028/rpe.v10in.1.18117\", \"ok\": false, \"problem\": \"O próprio executor admite que o resumo não traz resultado conclusivo e o campo de achado descreve o objetivo, não um achado.\"}, {\"doi\": \"10.1515/omgc-2022-0028\", \"ok\": false, \"problem\": \"Não verificado nesta rodada.\"}, {\"doi\": \"10.21878/compolitica.2019.9.2.143\", \"ok\": true, \"problem\": \"Metadados confirmados por referência; citação e resumo não conferidos diretamente.\"}, {\"doi\": \"10.1080/1461670x.2025.2470177\", \"ok\": false, \"problem\": \"Não verificado; o executor admite que o resumo não nomeia o Brasil e a inclusão se apoia em página externa não reaberta.\"}, {\"doi\": \"10.31921/doxacom.n41a2906\", \"ok\": false, \"problem\": \"O próprio executor admite que o resumo só declara objetivo, sem relatar resultado.\"}], \"issues\": [\"Item 3 (Dourado e Alencar 2020): o resumo só declara objetivo com referencial teórico, sem método, sem dados e sem resultado; não há evidência de estudo empírico com dados próprios e o item não entrega o achado principal pedido, o que fere os critérios do pesquisador, que exclui ensaios teóricos.\", \"Item 16 (Rodrigues et al. 2023): conforme o próprio registro do executor, o resumo não traz resultado conclusivo e o campo de achado descreve o objetivo, não um achado; o pedido exige achado principal sustentado pelo resumo.\", \"Item 20 (Nogales-Bocio et al. 2025): mesmo problema do item 16; pelo registro do executor, o resumo declara apenas o objetivo do estudo de caso, sem relatar resultado.\", \"Item 19 (Cazzamatta 2025): o executor admite que o resumo não nomeia o Brasil e que a inclusão se apoia em página de projeto da autora que não foi reaberta; sem confirmação da presença de organizações brasileiras, o item pode violar o critério de comparativos internacionais.\", \"Item 13 (Ferracioli et al.): o ano 2022 precisa ser conferido no site da revista, porque DOIs da faixa 10.1080/21670811.2021.x costumam ter versão online em 2021 ou 2022 e edição de assinatura em ano seguinte.\", \"Item 6 (Lelo 2024): a segunda parte do achado, sobre a IA ter desafiado a autoridade dos checadores, não apareceu no material a que tive acesso; se não estiver no resumo, é achado que vai além da fonte.\", \"Verificação incompleta: os itens 8, 10, 11, 12, 13, 14, 15, 16, 17, 19 e 20 não tiveram citação, amostra, achado e metadados conferidos na fonte, então o lote inteiro não pode ser aprovado.\", \"O pesquisador pediu 25 artigos e a lista traz 20, e nenhuma das cinco organizações citadas pelo nome no pedido além de Lupa e Aos Fatos (Estadão Verifica, Fato ou Fake, Comprova) aparece em algum item.\"], \"feedback\": \"Corrija ou remova o item 3: se o texto completo provar estudo empírico com dados próprios, informe método e achado reais; caso contrário, substitua por outro artigo que atenda aos critérios. Nos itens 16 e 20, ou o resumo traz resultado, e aí informe o achado literal, ou os artigos devem sair da lista. Reabra e confira letra por letra os itens 8, 10, 11, 12, 13, 14, 15, 16, 17, 19 e 20, incluindo DOI, título, autores, ano, periódico, amostra e citação. No item 19, confirme no resumo ou no texto que a amostra inclui organizações brasileiras antes de manter o artigo. Confirme o ano de publicação do item 13 na página da revista, distinguindo online first da edição final. Complete a confirmação das citações dos itens 6, 7 e 18, que ficaram confirmadas só em parte por espelhos de busca. No item 6, comprove no resumo a afirmação de que a IA desafiou a autoridade dos checadores ou retire essa parte do achado. Faça novas buscas para tentar alcançar os 25 artigos pedidos, priorizando Estadão Verifica, Fato ou Fake e Comprova, que não aparecem na lista atual; se não for possível, registre formalmente no material entregue que o universo filtrado permitiu apenas 20. No item 5, anote para o pesquisador que as checagens analisadas são de 2022, ano eleitoral, ainda que o resumo não trate o estudo como centrado em eleições.\"}",
+  "usage": {
+    "input_tokens": 206580,
+    "output_tokens": 14175,
+    "cost_usd": 0.01075
+  },
+  "duration_s": 1038.97,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.25200/bjr.v16n2.2020.1212"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.25200/bjr.v18n2.2022.1510"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.13037/ci.vol21n46.6388"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.22478/ufpb.2763-9398.2022v17n.63545"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"Agência Lupa: fact-checking como modelo de negócio\" Comunicação & Inovação Dourado Alencar resumo"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.25200/bjr.v20n3.2024.1687"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1177/10776990231207963"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://seer.uscs.edu.br/index.php/revista_comunicacao_inovacao/en/article/view/6388"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1177/10776990231207963?fields=title,abstract,year,venue,authors,externalIds"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1177/27523543251344971"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Lelo \"Fostering Artificial Intelligence to Face Misinformation\" Journalism & Mass Communication Quarterly abstract"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"AI-Generated Misinformation\" \"Fact-Checking Practices\" Cazzamatta Sarısakaloğlu Emerging Media abstract"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://journals.sagepub.com/doi/10.1177/10776990231207963"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://journals.sagepub.com/doi/10.1177/27523543251344971"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"emerging automation landscape in the Brazilian fact-checking venture supported by the tech industry\" abstract"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"notable country-specific variations in topics, targets, intentions, AI elements\" Cazzamatta"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "Cazzamatta Sarısakaloğlu Emerging Media 2025 abstract \"136 verification articles\""
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.researchgate.net/publication/397863732_The_Evolution_of_Journalism_in_the_Era_of_Artificial_Intelligence"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://sage.cnpereading.com/paragraph/article/?doi=10.1177/27523543251344971"
+      }
+    },
+    {
+      "name": "WebSearch",
+      "input": {
+        "query": "\"10.1177/27523543251344971\" abstract \"The results revealed\""
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://journals.sagepub.com/doi/full/10.1177/27523543251344971"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.3390/socsci14090514"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://seer.uscs.edu.br/index.php/revista_comunicacao_inovacao/article/view/8624"
+      }
+    }
+  ],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

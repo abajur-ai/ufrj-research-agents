@@ -1,0 +1,139 @@
+{
+  "structured": {
+    "approved": false,
+    "checked": [
+      "C28: estudo empírico com 20 estudantes do ensino médio em escola pública do RS, sobre fake news e competência em informação, com questionários e dados (80% relataram avanço); atende.",
+      "C20: intervenção pedagógica sobre desinformação com alunos do ensino médio em escola pública do ES, com resultados relatados; atende.",
+      "C120: pesquisa-ação com estudantes do 3º ano do ensino médio no Pará, jogo de cartas sobre desinformação e levantamento de consumo de mídia; atende.",
+      "C39: survey e observação participante em oficina de alfabetização midiática com adolescentes de escola pública brasileira; atende.",
+      "C43: pesquisa qualitativa com oficinas e jovens de 14 a 21 anos de escolas no Paraná sobre percepção da desinformação; atende.",
+      "C21: estudo com professores e alunos do ensino médio de escolas brasileiras sobre identificação de fake news, com resultados relatados; atende.",
+      "C76: questionário online com alunos e professores de Minas Gerais sobre literacia midiática e fake news; vacinação aparece apenas como um dos temas testados, não como foco central; atende.",
+      "C86: projeto com alunos do 8º ano em escola municipal de Biguaçu (SC) sobre fake news e competência em informação; atende.",
+      "C31: survey com 53 estudantes e professores em Itaueira (PI) sobre letramento midiático e checagem; atende.",
+      "C93: estudo comparativo Brasil, Colômbia e Espanha com survey a 231 estudantes, incluindo amostra brasileira; atende.",
+      "C05: pesquisa de campo com questionário online a professores da educação básica sobre desinformação na escola; atende.",
+      "C23: pesquisa qualitativa com licenciandos brasileiros sobre desinformação e educação midiática na formação inicial; atende.",
+      "C22: pesquisa com professores da educação básica sobre educação midiática para notícias, 2019; atende, mas o resumo descreve o método empírico de forma vaga (ver feedback).",
+      "C94: relato de oficina na formação de professores com análise de diários de campo sobre alfabetização midiática e fake news; pandemia é contexto, não foco; atende.",
+      "C97: questionário com 51 alunos por escola (pública e privada) do ensino médio sobre detecção de fake news; atende, embora a alfabetização seja científica e não midiática (ver feedback).",
+      "C108: estudo de caso com questionário a universitários da FURG sobre verificação de informações e fake news; atende.",
+      "Período 2018-2025, tipo de publicação e DOI não reavaliados, conforme instrução.",
+      "Quantidade inferior a 25 artigos não é problema: entregar menos, quando apenas esses atendem, é o correto."
+    ],
+    "feedback": "Remover C78, C25 e C124 da lista de incluídos e reexecutar a busca para tentar alcançar os 25 artigos apenas com estudos que atendam a todos os critérios. Não incluir artigos fora de escopo para completar a quantidade. Opcionalmente, reconsiderar C97 (alfabetização científica em vez de midiática) à luz do tema central pedido, e buscar resumos mais completos para C22 caso o periódico os disponha.",
+    "issues": [
+      "C78 foi incluído, mas o resumo mostra estudo centrado em política e polarização política (título e resultados citam posicionamento político), o que cai na restrição de exclusão de estudos centrados em política partidária; além disso, a educação midiática aparece só como recomendação final, sem componente educacional no estudo.",
+      "C25 foi incluído, mas o tema central é o impacto das fake news na reputação das universidades federais; não há componente de educação midiática ou competência em informação no estudo, apenas recomendação nas conclusões, o que fere o critério de tema central e a exclusão de desinformação sem componente educacional.",
+      "C124 foi incluído, mas o resumo não permite identificar método nem achado principal (o objetivo declarado é sobre usos de dispositivos móveis e app-learning, com fake news apenas como contexto), violando o critério de que o resumo deve sustentar método e achado."
+    ],
+    "per_item": [
+      {
+        "id": "C28",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C20",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C120",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C39",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C43",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C21",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C76",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C86",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C31",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C93",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C05",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C23",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C22",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C25",
+        "ok": false,
+        "problem": "Sem componente educacional; fake news tratadas como risco à imagem das Ifes, letramento só aparece como recomendação final."
+      },
+      {
+        "id": "C108",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C94",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C97",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C124",
+        "ok": false,
+        "problem": "Resumo não permite identificar método nem achado principal; fake news é contexto, não tema central."
+      },
+      {
+        "id": "C78",
+        "ok": false,
+        "problem": "Centrado em política e polarização política; sem componente educacional no estudo."
+      }
+    ]
+  },
+  "text": "{\"approved\": false, \"checked\": [\"C28: estudo empírico com 20 estudantes do ensino médio em escola pública do RS, sobre fake news e competência em informação, com questionários e dados (80% relataram avanço); atende.\", \"C20: intervenção pedagógica sobre desinformação com alunos do ensino médio em escola pública do ES, com resultados relatados; atende.\", \"C120: pesquisa-ação com estudantes do 3º ano do ensino médio no Pará, jogo de cartas sobre desinformação e levantamento de consumo de mídia; atende.\", \"C39: survey e observação participante em oficina de alfabetização midiática com adolescentes de escola pública brasileira; atende.\", \"C43: pesquisa qualitativa com oficinas e jovens de 14 a 21 anos de escolas no Paraná sobre percepção da desinformação; atende.\", \"C21: estudo com professores e alunos do ensino médio de escolas brasileiras sobre identificação de fake news, com resultados relatados; atende.\", \"C76: questionário online com alunos e professores de Minas Gerais sobre literacia midiática e fake news; vacinação aparece apenas como um dos temas testados, não como foco central; atende.\", \"C86: projeto com alunos do 8º ano em escola municipal de Biguaçu (SC) sobre fake news e competência em informação; atende.\", \"C31: survey com 53 estudantes e professores em Itaueira (PI) sobre letramento midiático e checagem; atende.\", \"C93: estudo comparativo Brasil, Colômbia e Espanha com survey a 231 estudantes, incluindo amostra brasileira; atende.\", \"C05: pesquisa de campo com questionário online a professores da educação básica sobre desinformação na escola; atende.\", \"C23: pesquisa qualitativa com licenciandos brasileiros sobre desinformação e educação midiática na formação inicial; atende.\", \"C22: pesquisa com professores da educação básica sobre educação midiática para notícias, 2019; atende, mas o resumo descreve o método empírico de forma vaga (ver feedback).\", \"C94: relato de oficina na formação de professores com análise de diários de campo sobre alfabetização midiática e fake news; pandemia é contexto, não foco; atende.\", \"C97: questionário com 51 alunos por escola (pública e privada) do ensino médio sobre detecção de fake news; atende, embora a alfabetização seja científica e não midiática (ver feedback).\", \"C108: estudo de caso com questionário a universitários da FURG sobre verificação de informações e fake news; atende.\", \"Período 2018-2025, tipo de publicação e DOI não reavaliados, conforme instrução.\", \"Quantidade inferior a 25 artigos não é problema: entregar menos, quando apenas esses atendem, é o correto.\"], \"feedback\": \"Remover C78, C25 e C124 da lista de incluídos e reexecutar a busca para tentar alcançar os 25 artigos apenas com estudos que atendam a todos os critérios. Não incluir artigos fora de escopo para completar a quantidade. Opcionalmente, reconsiderar C97 (alfabetização científica em vez de midiática) à luz do tema central pedido, e buscar resumos mais completos para C22 caso o periódico os disponha.\", \"issues\": [\"C78 foi incluído, mas o resumo mostra estudo centrado em política e polarização política (título e resultados citam posicionamento político), o que cai na restrição de exclusão de estudos centrados em política partidária; além disso, a educação midiática aparece só como recomendação final, sem componente educacional no estudo.\", \"C25 foi incluído, mas o tema central é o impacto das fake news na reputação das universidades federais; não há componente de educação midiática ou competência em informação no estudo, apenas recomendação nas conclusões, o que fere o critério de tema central e a exclusão de desinformação sem componente educacional.\", \"C124 foi incluído, mas o resumo não permite identificar método nem achado principal (o objetivo declarado é sobre usos de dispositivos móveis e app-learning, com fake news apenas como contexto), violando o critério de que o resumo deve sustentar método e achado.\"], \"per_item\": [{\"id\": \"C28\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C20\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C120\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C39\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C43\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C21\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C76\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C86\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C31\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C93\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C05\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C23\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C22\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C25\", \"ok\": false, \"problem\": \"Sem componente educacional; fake news tratadas como risco à imagem das Ifes, letramento só aparece como recomendação final.\"}, {\"id\": \"C108\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C94\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C97\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C124\", \"ok\": false, \"problem\": \"Resumo não permite identificar método nem achado principal; fake news é contexto, não tema central.\"}, {\"id\": \"C78\", \"ok\": false, \"problem\": \"Centrado em política e polarização política; sem componente educacional no estudo.\"}]}",
+  "usage": {
+    "input_tokens": 7620,
+    "output_tokens": 3563,
+    "cost_usd": 0.00239
+  },
+  "duration_s": 129.4,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

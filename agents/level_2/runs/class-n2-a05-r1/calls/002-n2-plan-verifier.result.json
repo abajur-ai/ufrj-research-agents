@@ -1,0 +1,30 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Tema coberto: o plano lista percepção, detecção e credibilidade de imagens/rostos sintéticos, vídeos deepfake e áudio/clones de voz, o mesmo escopo do pedido.",
+      "Período coberto: 2019 a 2025 inclusive, com instrução de conferir publication_year no OpenAlex e data issued no Crossref.",
+      "Tipo de publicação coberto: artigo de periódico revisado por pares, com exclusão explícita de preprints, anais, capítulos, teses e resenhas, e conferência de type journal-article no Crossref e source.type journal no OpenAlex.",
+      "Tipo de estudo coberto: empírico com participantes humanos (experimento, teste de detecção, survey, fisiológicas), com exclusão de revisões, meta-análises, ensaios teóricos e dados de terceiros.",
+      "As três restrições de exclusão do pedido estão cada uma como critério separado (algoritmos de detecção automática, política/eleições, saúde), cada uma com termos de rastreio concretos em how_to_check.",
+      "Meta de 25 artigos com coleta em excesso (40 a 60) para absorver exclusões, e instrução de não preencher com itens duvidosos se faltar.",
+      "Campos exigidos pelo pedido estão todos no critério de extração: DOI, título, autores, ano, periódico, tipo/método, tamanho da amostra literal do resumo, achado em uma frase e trecho literal entre aspas.",
+      "Consultas em inglês cobrem os três objetos do tema (rostos/imagens, vídeo deepfake, voz/áudio) em pelo menos duas bases (OpenAlex, Crossref) e uma busca na web para estudos fisiológicos.",
+      "Consultas em português existem (duas no SciELO) com termos do tema (percepção, credibilidade, detecção, rostos sintéticos, clonagem de voz, áudio sintético).",
+      "Cada critério tem forma concreta de conferência em how_to_check, incluindo verificação de DOI via doi.org/Crossref, comparação caractere a caractere do trecho literal e remoção de duplicatas entre bases."
+    ],
+    "issues": [],
+    "feedback": "Aprovado. Sugestões para a execução: as consultas em português restritas ao SciELO provavelmente retornarão poucos resultados, então considere repeti-las também no OpenAlex ou via busca na web, sem prejuízo do prazo; nas consultas 2 e 5 do OpenAlex/Crossref os operadores OR e AND estão misturados sem parênteses, o que pode ampliar demais os resultados, então refine com parênteses ao executar; e lembre de aplicar as exclusões de política e saúde também em português (eleições, candidatos, vacinas, saúde) nos resultados do SciELO."
+  },
+  "text": "{\"approved\": true, \"checked\": [\"Tema coberto: o plano lista percepção, detecção e credibilidade de imagens/rostos sintéticos, vídeos deepfake e áudio/clones de voz, o mesmo escopo do pedido.\", \"Período coberto: 2019 a 2025 inclusive, com instrução de conferir publication_year no OpenAlex e data issued no Crossref.\", \"Tipo de publicação coberto: artigo de periódico revisado por pares, com exclusão explícita de preprints, anais, capítulos, teses e resenhas, e conferência de type journal-article no Crossref e source.type journal no OpenAlex.\", \"Tipo de estudo coberto: empírico com participantes humanos (experimento, teste de detecção, survey, fisiológicas), com exclusão de revisões, meta-análises, ensaios teóricos e dados de terceiros.\", \"As três restrições de exclusão do pedido estão cada uma como critério separado (algoritmos de detecção automática, política/eleições, saúde), cada uma com termos de rastreio concretos em how_to_check.\", \"Meta de 25 artigos com coleta em excesso (40 a 60) para absorver exclusões, e instrução de não preencher com itens duvidosos se faltar.\", \"Campos exigidos pelo pedido estão todos no critério de extração: DOI, título, autores, ano, periódico, tipo/método, tamanho da amostra literal do resumo, achado em uma frase e trecho literal entre aspas.\", \"Consultas em inglês cobrem os três objetos do tema (rostos/imagens, vídeo deepfake, voz/áudio) em pelo menos duas bases (OpenAlex, Crossref) e uma busca na web para estudos fisiológicos.\", \"Consultas em português existem (duas no SciELO) com termos do tema (percepção, credibilidade, detecção, rostos sintéticos, clonagem de voz, áudio sintético).\", \"Cada critério tem forma concreta de conferência em how_to_check, incluindo verificação de DOI via doi.org/Crossref, comparação caractere a caractere do trecho literal e remoção de duplicatas entre bases.\"], \"issues\": [], \"feedback\": \"Aprovado. Sugestões para a execução: as consultas em português restritas ao SciELO provavelmente retornarão poucos resultados, então considere repeti-las também no OpenAlex ou via busca na web, sem prejuízo do prazo; nas consultas 2 e 5 do OpenAlex/Crossref os operadores OR e AND estão misturados sem parênteses, o que pode ampliar demais os resultados, então refine com parênteses ao executar; e lembre de aplicar as exclusões de política e saúde também em português (eleições, candidatos, vacinas, saúde) nos resultados do SciELO.\"}",
+  "usage": {
+    "input_tokens": 2344,
+    "output_tokens": 787,
+    "cost_usd": 0.00075
+  },
+  "duration_s": 7.06,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

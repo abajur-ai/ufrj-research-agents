@@ -1,0 +1,453 @@
+{
+ "run_id": "class-n3-a03-r1",
+ "level": "n3",
+ "item": "a03",
+ "status": "done",
+ "delivered": 16,
+ "correct": 14,
+ "requested": 25,
+ "yield": 0.56,
+ "precision": 0.875,
+ "not_found": 0,
+ "wrong_doi": 0,
+ "metadata_errors": 0,
+ "quote_fail": 0,
+ "no_abstract": 0,
+ "wall_seconds": 312.4,
+ "calls": 6,
+ "items": [
+  {
+   "doi": "10.22478/ufpb.1809-4775.2025v21n3.75047",
+   "title": "A competência crítica em informação na web para o combate à fake news",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "O artigo relata e analisa a aplicação do Projeto de Ação na Escola (PAE) com 20 estudantes do ensino médio em uma escola pública no RS, focando no desenvolvimento da competência crítica em informação e no enfrentamento da desinformação.",
+    "on_topic": true,
+    "evidence_empirical": "Os dados obtidos, por meio de questionários, atividades gamificadas e observações, revelaram dificuldades iniciais dos alunos em distinguir informações verídicas de fake news.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um estudo empírico realizado em uma escola pública brasileira com estudantes do ensino médio, dentro do período solicitado. O método e os achados estão corretamente descritos e sustentados pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.35168/1980-5276.utp.interin.2026.vol31.n1.pp71-86",
+   "title": "Todos contra a desinformação",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "O artigo aborda uma intervenção pedagógica (Damiani et al., 2013) focada na educação midiática para o Ensino Médio, realizada em uma escola pública no Espírito Santo, Brasil.",
+    "on_topic": true,
+    "evidence_empirical": "O plano de ação da intervenção pedagógica incluiu metodologias ativas como aprendizagem em equipes e investigação por meio de estudo dirigido, explorando textos diversos e recursos audiovisuais. Durante a intervenção, os alunos participaram de debates e estudo de caso.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O estudo é empírico (intervenção pedagógica), realizado em contexto escolar brasileiro, e o resumo sustenta o método e o achado relatados."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.22409/contracampo.v42i3.58268",
+   "title": "Real ou Fake: desenvolvimento e aplicação de um jogo de cartas para o combate à desinformação no interior do Pará",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "A dinâmica parte de uma pesquisa-ação desenvolvida na Escola de Ensino Médio Dionísio Bentes de Carvalho, em Rondon do Pará/PA, na Amazônia Oriental... A partir de uma pesquisa sobre o consumo de mídia por parte dos jovens do terceiro ano, foi produzido um jogo de cartas chamado Real ou Fake, posteriormente aplicado a esses estudantes.",
+    "on_topic": true,
+    "evidence_empirical": "A dinâmica parte de uma pesquisa-ação desenvolvida na Escola de Ensino Médio Dionísio Bentes de Carvalho... A partir de uma pesquisa sobre o consumo de mídia por parte dos jovens do terceiro ano, foi produzido um jogo de cartas chamado Real ou Fake, posteriormente aplicado a esses estudantes.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O estudo é empírico, realizado em ambiente escolar brasileiro, e foca em letramento midiático sem abordar os temas proibidos. O método e o achado principal estão devidamente sustentados pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.23860/jmle-2025-17-2-5",
+   "title": "Media and information literacy strategies: A joint reflection with teenagers in Brazilian public school",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "This article presents the findings from a Media and Information Literacy (MIL) project developed by journalism professors from University of Brasilia and conducted on elementary school students in Brazil.",
+    "on_topic": true,
+    "evidence_empirical": "This study involves a survey and participant observation from a workshop conducted with these students in October 2021.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo trata de educação midiática em escolas brasileiras, é um estudo empírico (survey e observação), o método foi corretamente identificado e o achado principal é sustentado pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.15847/obsobs18520242435",
+   "title": "The perception of misinformation by young students from a Brazilian sociocultural context: reflections and clues for media education",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "The qualitative and exploratory research involved an empirical dimension conducted with young students from 14 to 21 years old in Curitiba and Colombo in Paraná, Brazil.",
+    "on_topic": true,
+    "evidence_empirical": "The qualitative and exploratory research involved an empirical dimension conducted with young students from 14 to 21 years old in Curitiba and Colombo in Paraná, Brazil.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo é um estudo empírico realizado no Brasil com estudantes de escolas públicas e privadas, abordando desinformação e educação midiática, dentro do período solicitado. O método e o achado extraídos estão corretamente fundamentados no resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.55738/alaic.v23i46.1118",
+   "title": "Literacias E Educação Midiática",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Se analizó la capacidad de profesores y estudiantes de secundaria, de escuelas públicas y privadas de Brasil, para identificar noticias falsas.",
+    "on_topic": true,
+    "evidence_empirical": "Se analizó la capacidad de profesores y estudiantes de secundaria, de escuelas públicas y privadas de Brasil, para identificar noticias falsas. También observamos el posible impacto que el contenido educativo relacionado con la desinformación puede ofrecer a los encuestados",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo aborda a educação midiática e desinformação em escolas brasileiras, sendo um estudo empírico que analisa a capacidade de identificação de fake news. O achado principal é uma síntese fiel do que foi apresentado no resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.51891/rease.v10i11.16410",
+   "title": "DESINFORMAÇÃO E LITERACIA MIDIÁTICA DISINFORMATION AND MEDIA LITERACY DESINFORMACIÓN Y ALFABETIZACIÓN MEDIÁTICA",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Esta investigación tiene como objetivo evaluar los niveles de alfabetización de un grupo de estudiantes y profesores de Minas Gerais (MG). ... En cuanto a la identificación de noticias falsas, tuvieron mayor protagonismo temas científicos como la vacunación, el cambio climático y el efecto invernadero.",
+    "on_topic": false,
+    "evidence_empirical": "Para recopilar datos se utilizó un cuestionario en línea de opción múltiple.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O estudo é empírico e trata de literacia midiática no Brasil, mas viola a restrição de exclusão de estudos centrados em vacinas, visto que o resumo indica que temas como a vacinação tiveram 'maior protagonismo' na identificação de notícias falsas."
+   },
+   "metadata_ok": true,
+   "correct": false
+  },
+  {
+   "doi": "10.14295/biblos.v37i2.16212",
+   "title": "Fake news pra quê? FAKE NEWS FOR WHAT? PERFORMANCE OF THE SCHOOL LIBRARY IN THE PROJECT TO COMBAT FAKE NEWS",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "The research consists of presenting the result of the application of the project “Fake News for what?” carried out with 8th grade students from a municipal elementary school in the city of Biguaçu, state of Santa Catarina.",
+    "on_topic": true,
+    "evidence_empirical": "The research consists of presenting the result of the application of the project “Fake News for what?” carried out with 8th grade students from a municipal elementary school in the city of Biguaçu, state of Santa Catarina. The project took place in 8 (eight) stages, corresponding to eight classes",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve uma intervenção pedagógica (projeto) realizada com alunos do ensino fundamental no Brasil, focada em competência informacional e desinformação, o que se enquadra nos critérios. O achado principal é sustentado pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.29146/eco-ps.v28i1.28441",
+   "title": "Letramento midiático em desertos de notícias",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Este artigo objetiva aplicar o Arriégua: Manual de Checagem Nordestina em salas de aula da cidade de Itaueira (Piauí)... foi realizado um estudo deste caso a partir de uma pesquisa survey com 53 estudantes e professores deste município.",
+    "on_topic": true,
+    "evidence_empirical": "foi realizado um estudo deste caso a partir de uma pesquisa survey com 53 estudantes e professores deste município.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um estudo empírico (survey) realizado em ambiente escolar (salas de aula) no Brasil, abordando letramento midiático, sem violar as restrições temáticas."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.15847/obsobs18520242446",
+   "title": "Perceptions of University Students in Communication about Disinformation:",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "identify the perception of Communication students in Brazil, Colombia and Spain about disinformation, their information consumption practices and aspects of their university education on media literacy.",
+    "on_topic": true,
+    "evidence_empirical": "an online survey was conducted between May and July 2023 in 23 higher education centers in the three countries, answered by 231 students.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo é um estudo empírico (survey) realizado com estudantes universitários (incluindo brasileiros) sobre desinformação e educação midiática, atendendo aos critérios de inclusão e exclusão."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.12957/teias.2025.83022",
+   "title": "Educação midiática no combate à desinformação:",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Este artigo discute a educação midiática no combate à desinformação... tem como objetivo situar em que termos, na percepção dos professores, a desinformação tem chegado na escola... pesquisa de campo com professores da rede básica de ensino",
+    "on_topic": true,
+    "evidence_empirical": "Em seguida, realizou-se uma pesquisa de campo com professores da rede básica de ensino, utilizando questionário online como instrumento de produção dos dados.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo é empírico, trata de educação midiática e desinformação em escolas brasileiras, e o achado está diretamente sustentado pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.59666/arete.1984-7505.v24.n38.5277",
+   "title": "FORMAÇÃO INICIAL DE PROFESSORES E A DESINFORMAÇÃO: O PAPEL TRANSFORMADOR DA EDUCAÇÃO MIDIÁTICA",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Basado en una investigación cualitativa con estudiantes de pregrado de Informática Educativa, el estudio buscó identificar entornos en la formación inicial del profesorado que promuevan prácticas y estudios sobre el contexto de una sociedad impregnada de información falsa",
+    "on_topic": true,
+    "evidence_empirical": "Basado en una investigación cualitativa con estudiantes de pregrado de Informática Educativa, el estudio buscó identificar entornos en la formación inicial del profesorado",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve uma pesquisa qualitativa com estudantes de graduação, o que caracteriza um estudo empírico. O tema está alinhado com o pedido (educação midiática e desinformação na formação docente) e o achado principal é sustentado pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.22409/rmc.v13i3.38091",
+   "title": "Educação midiática para notícias: histórico e mapeamento de iniciativas para combater a desinformação por meio da educação",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "apresenta um histórico da educação midiática nos Estados Unidos e um mapeamento de ações no Brasil, e apresenta achados de uma pesquisa realizada com professores/as de educação básica.",
+    "on_topic": true,
+    "evidence_empirical": "apresenta achados de uma pesquisa realizada com professores/as de educação básica.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve uma pesquisa empírica com professores da educação básica no Brasil, alinhando-se ao tema e ao critério de empiricidade. O achado principal está explicitamente presente na conclusão do resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.22478/ufpb.1809-4775.2020v16n1.54402",
+   "title": "Fake news no Facebook",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "o objetivo deste trabalho foi verificar se os acadêmicos da Universidade Federal do Rio Grande (FURG), ao se depararem com uma informação, na rede social Facebook, recorrem a fontes de informação para se certificar sobre sua veracidade.",
+    "on_topic": true,
+    "evidence_empirical": "Para a coleta de dados, foi utilizado o questionário impresso, com seis perguntas fechadas e quatro perguntas abertas e que foi aplicado na Biblioteca Central",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo aborda a competência em informação de estudantes universitários brasileiros, utilizando metodologia empírica (questionário) e os dados extraídos estão corretos e sustentados pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.4025/rvc.v3i2.64494",
+   "title": "ALFABETIZAÇÃO CIENTÍFICA, ALFABETIZAÇÃO MIDIÁTICA E ILHOTAS INTERDISCIPLINARES DE RACIONALIDADE: UMA VIVÊNCIA EM DIDÁTICA DAS CIÊNCIAS",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "O presente artigo objetiva narrar, de forma descritiva e analítica, a vivência em uma oficina didática... em uma disciplina de Didática das Ciências, de um curso de formação inicial de professores em Ciências Exatas... em prol da alfabetização científica e midiática na Educação em Ciências.",
+    "on_topic": true,
+    "evidence_empirical": "Ao analisar, com um olhar qualitativo, os diários de campo de uma das licenciandas participantes, observou-se como a metodologia pode contribuir para a formação de professores",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo descreve um estudo empírico (relato de experiência com análise de diários de campo) realizado em um curso de formação de professores no Brasil, abordando alfabetização midiática e científica, estando dentro do escopo solicitado. O contexto de pandemia é mencionado apenas como motivação, não sendo o foco do estudo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.55905/revconv.17n.2-290",
+   "title": "A importância da alfabetização científica no combate a disseminação de notícias falsas",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "A divulgação de notícias falsas, existe em todos os períodos históricos, porém no Brasil teve seu maior enfrentamento no período das eleições de 2018 e 2022 intercalada pela pandemia do Covid 19.",
+    "on_topic": false,
+    "evidence_empirical": "Para isso, foram selecionadas duas escolas, uma pública e uma privada e as três turmas do ensino médio, onde um questionário foi aplicado para 51 alunos de cada escola",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo viola a restrição de exclusão de estudos centrados em COVID-19 e eleições, pois o resumo afirma explicitamente que o enfrentamento das notícias falsas no Brasil teve seu maior foco nesses períodos."
+   },
+   "metadata_ok": true,
+   "correct": false
+  }
+ ],
+ "judge": "Gemini 3.1 Flash-Lite (Google), esforço high"
+}

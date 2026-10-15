@@ -1,0 +1,926 @@
+[
+  {
+    "id": "a01",
+    "topic_pt": "Efeito de influência continuada: correções e retratações de informação falsa em experimentos com materiais neutros",
+    "request_pt": "Encontre 25 artigos científicos revisados por pares, publicados em periódicos entre 2018 e 2025, sobre o efeito de influência continuada da informação falsa (continued influence effect), isto é, o quanto as pessoas continuam a se apoiar em uma informação falsa depois de ela ser corrigida ou retratada. Restrições: apenas experimentos com participantes humanos que meçam crença ou raciocínio depois de uma correção ou retratação; os materiais devem ser neutros (cenários fictícios, relatos de eventos inventados ou alegações sem conotação política ou de saúde); exclua estudos com desinformação política, eleitoral, sobre vacinas ou sobre COVID-19. Valem apenas artigos de periódico que relatem estudo empírico com dados próprios; não use revisões de literatura, meta-análises, ensaios teóricos, preprints, trabalhos de anais de congresso, capítulos de livro, teses ou resenhas. Para cada artigo, informe: DOI; título; autores; ano de publicação; periódico; tipo de estudo e método; tamanho da amostra exatamente como aparece no resumo (ou \"não informado no resumo\"); achado principal, em uma frase; e um trecho literal do resumo, entre aspas, que sustente o achado principal.",
+    "constraints": {
+      "year_from": 2018,
+      "year_to": 2025,
+      "type": "journal-article",
+      "empirical": true,
+      "other_pt": "Experimentos com participantes humanos no paradigma de influência continuada ou de correção de informação falsa, com medida de crença ou de raciocínio inferencial depois da correção. Materiais neutros (cenários fictícios, relatos de eventos inventados, alegações sem conotação política ou de saúde). Excluídos: desinformação política, eleitoral, sobre vacinas ou COVID-19; revisões e meta-análises."
+    },
+    "feasibility": {
+      "openalex_query": "https://api.openalex.org/works?search=continued influence effect misinformation retraction correction&filter=publication_year:2018-2025,type:article,has_abstract:true",
+      "openalex_count": 340,
+      "notes_pt": "Contagem medida em 14/10/2026 com search= (texto completo). Busca booleana em título e resumo, com o mesmo filtro: filter=publication_year:2018-2025,type:article,has_abstract:true,title_and_abstract.search:(\"continued influence\" OR \"continued-influence\" OR \"misinformation reliance\" OR \"reliance on misinformation\" OR \"belief regression\" OR \"familiarity backfire\" OR \"backfire effect\") AND (correction OR corrections OR retraction OR retractions OR debunking OR refutation) retorna 85. A busca booleana em título e resumo traz 85 artigos, e a maioria usa o paradigma clássico com cenários fictícios. A busca de texto completo (search=) traz 340 porque inclui experimentos de checagem política e de saúde, que a restrição exclui. Lista de referência conferida no Crossref (tipo journal-article) e no OpenAlex (resumo disponível), lendo cada resumo para confirmar experimento, período e material neutro."
+    },
+    "reference_set": [
+      {
+        "doi": "10.3758/s13421-020-01129-y",
+        "title": "Can you believe it? An investigation into the impact of retraction source credibility on the continued influence effect",
+        "year": 2021,
+        "venue": "Memory & Cognition",
+        "why_relevant_pt": "Dois experimentos sobre a credibilidade da fonte da retratação no efeito de influência continuada; retratações de fonte pouco confiável não reduzem a dependência da informação falsa."
+      },
+      {
+        "doi": "10.1177/17470218211048986",
+        "title": "Sensitivity to misinformation retractions in the continued influence paradigm: Evidence for stability",
+        "year": 2021,
+        "venue": "Quarterly Journal of Experimental Psychology",
+        "why_relevant_pt": "Mede a estabilidade temporal da sensibilidade a retratações com formas paralelas da tarefa padrão de influência continuada, aplicadas com quatro semanas de intervalo."
+      },
+      {
+        "doi": "10.1002/acp.3939",
+        "title": "The continued influence effect: Examining how age, retraction, and delay impact inferential reasoning",
+        "year": 2022,
+        "venue": "Applied Cognitive Psychology",
+        "why_relevant_pt": "Experimento com jovens e idosos que leem seis cenários com informação falsa retratada ou não, variando o atraso até o teste. O DOI 10.1002/acp.3818 é o protocolo registrado (sem resultados), não este artigo."
+      },
+      {
+        "doi": "10.2224/sbp.13662",
+        "title": "The effect of correction timing on the continued influence effect of misinformation with different relevance",
+        "year": 2024,
+        "venue": "Social Behavior and Personality: an international journal",
+        "why_relevant_pt": "Dois estudos (86 participantes) sobre o momento da correção e a relevância da informação na redução do efeito de influência continuada."
+      },
+      {
+        "doi": "10.1037/xap0000454",
+        "title": "Cause typicality and the continued influence effect.",
+        "year": 2023,
+        "venue": "Journal of Experimental Psychology: Applied",
+        "why_relevant_pt": "Três experimentos que manipulam a tipicidade da causa inicial e da causa alternativa em relatos de eventos corrigidos. Crossref registra 2023 e o OpenAlex, 2022."
+      },
+      {
+        "doi": "10.1186/s41235-021-00335-9",
+        "title": "Exploring factors that mitigate the continued influence of misinformation",
+        "year": 2021,
+        "venue": "Cognitive Research: Principles and Implications",
+        "why_relevant_pt": "Três estudos sobre fatores que reduzem a influência continuada: mirar a informação falsa, oferecer explicação alternativa e importância do conteúdo."
+      },
+      {
+        "doi": "10.3389/fpsyg.2024.1487146",
+        "title": "The inhibitory impact of collaboration on the continued influence effect of misinformation",
+        "year": 2024,
+        "venue": "Frontiers in Psychology",
+        "why_relevant_pt": "Três experimentos mostram que a colaboração em turnos reduz o efeito de influência continuada depois da retratação."
+      },
+      {
+        "doi": "10.3758/s13428-018-1066-z",
+        "title": "Comparing the use of open and closed questions for Web-based measures of the continued-influence effect",
+        "year": 2018,
+        "venue": "Behavior Research Methods",
+        "why_relevant_pt": "Compara perguntas abertas e fechadas para medir o efeito de influência continuada em experimentos on-line com relatos de um evento em andamento."
+      },
+      {
+        "doi": "10.1371/journal.pone.0283951",
+        "title": "Executive function and the continued influence of misinformation: A latent-variable analysis",
+        "year": 2023,
+        "venue": "PLOS ONE",
+        "why_relevant_pt": "Análise de variáveis latentes que testa se funções executivas predizem a suscetibilidade ao efeito de influência continuada em tarefa padrão."
+      },
+      {
+        "doi": "10.1080/20445911.2024.2325166",
+        "title": "The continued influence of implied and explicitly stated misinformation with different emotional valence",
+        "year": 2024,
+        "venue": "Journal of Cognitive Psychology",
+        "why_relevant_pt": "Experimento intrassujeito com informação falsa implícita ou explícita, de valência positiva ou negativa, corrigida ou não."
+      },
+      {
+        "doi": "10.1371/journal.pone.0271566",
+        "title": "Examining the role of information integration in the continued influence effect using an event segmentation approach",
+        "year": 2022,
+        "venue": "PLOS ONE",
+        "why_relevant_pt": "Aplica a teoria de segmentação de eventos ao paradigma de influência continuada para testar a integração da retratação ao relato do evento."
+      },
+      {
+        "doi": "10.1016/j.cognition.2024.106000",
+        "title": "Relative source credibility affects the continued influence effect: Evidence of rationality in the CIE",
+        "year": 2025,
+        "venue": "Cognition",
+        "why_relevant_pt": "Dois experimentos (N = 151 e N = 146) com reportagem fictícia que manipulam a credibilidade de quem informa e de quem retrata. Crossref registra 2025 e o OpenAlex, 2024."
+      },
+      {
+        "doi": "10.1080/20445911.2023.2216912",
+        "title": "Influence of individual differences in executive functions of WM on the continued influence effect of misinformation",
+        "year": 2023,
+        "venue": "Journal of Cognitive Psychology",
+        "why_relevant_pt": "Relaciona inibição, alternância e atualização da memória de trabalho com a magnitude do efeito de influência continuada."
+      },
+      {
+        "doi": "10.1080/20445911.2021.1931243",
+        "title": "Working memory capacity, removal efficiency and event specific memory as predictors of misinformation reliance",
+        "year": 2021,
+        "venue": "Journal of Cognitive Psychology",
+        "why_relevant_pt": "Testa capacidade de memória de trabalho, eficiência de remoção e memória do evento como preditores da dependência de informação retratada."
+      },
+      {
+        "doi": "10.1037/mac0000057",
+        "title": "Listening to misinformation while driving: Cognitive load and the effectiveness of (repeated) corrections.",
+        "year": 2023,
+        "venue": "Journal of Applied Research in Memory and Cognition",
+        "why_relevant_pt": "Correções ouvidas em simulador de direção, com carga cognitiva manipulada, para testar o efeito bumerangue por familiaridade. Crossref registra 2023 e o OpenAlex, 2022."
+      },
+      {
+        "doi": "10.1016/j.actpsy.2023.104094",
+        "title": "I know It's false, but I keep thinking as if it were true: A replication study of Johnson and Seifert's (1994) continued influence effect",
+        "year": 2023,
+        "venue": "Acta Psychologica",
+        "why_relevant_pt": "Replicação direta do experimento clássico de Johnson e Seifert (1994) sobre informação falsa retratada em um relato de incêndio."
+      },
+      {
+        "doi": "10.3758/s13421-022-01354-7",
+        "title": "Does explaining the origins of misinformation improve the effectiveness of a given correction?",
+        "year": 2022,
+        "venue": "Memory & Cognition",
+        "why_relevant_pt": "Dois experimentos testam se explicar a origem da informação falsa (engano intencional ou erro) torna a correção mais eficaz."
+      },
+      {
+        "doi": "10.1186/s41235-020-00266-x",
+        "title": "You don’t have to tell a story! A registered report testing the effectiveness of narrative versus non-narrative misinformation corrections",
+        "year": 2020,
+        "venue": "Cognitive Research: Principles and Implications",
+        "why_relevant_pt": "Relato registrado que compara correções em formato narrativo e não narrativo no efeito de influência continuada."
+      },
+      {
+        "doi": "10.1186/s41235-024-00581-7",
+        "title": "Don’t believe them! Reducing misinformation influence through source discreditation",
+        "year": 2024,
+        "venue": "Cognitive Research: Principles and Implications",
+        "why_relevant_pt": "Dois experimentos com informação falsa sobre eventos fictícios testam a desqualificação da fonte como alternativa à correção da mensagem."
+      },
+      {
+        "doi": "10.1080/02702711.2024.2349307",
+        "title": "Reading Medium and Epistemic Emotions in the Continued Influence Effect of Misinformation",
+        "year": 2024,
+        "venue": "Reading Psychology",
+        "why_relevant_pt": "Universitários (N = 84) leem notícias fictícias corrigidas em seguida, em papel e na tela, com medida de emoções epistêmicas."
+      }
+    ],
+    "traps_pt": "Trazer os experimentos mais citados de checagem política (Nyhan e Reifler; Wood e Porter) ou de COVID-19 e vacinas, que violam a restrição de materiais neutros. Citar clássicos anteriores a 2018 (Johnson e Seifert 1994; Ecker et al. 2011; Lewandowsky et al. 2012). Incluir a meta-análise de Walter e Tukachinsky (2020, Communication Research) ou revisões de Ecker e colegas. Usar o DOI do protocolo registrado (10.1002/acp.3818, sem resultados) no lugar do artigo com resultados (10.1002/acp.3939). Divergência de ano entre Crossref e OpenAlex em artigos publicados on-line antes da edição impressa.",
+    "n_wanted": 25
+  },
+  {
+    "id": "a02",
+    "topic_pt": "Organizações brasileiras de checagem de fatos: rotinas, métodos e modelos de atuação",
+    "request_pt": "Encontre 25 artigos científicos revisados por pares, publicados em periódicos entre 2018 e 2025, sobre organizações brasileiras de checagem de fatos (fact-checking), como Agência Lupa, Aos Fatos, Estadão Verifica, Fato ou Fake e Comprova, e suas rotinas, métodos, critérios, fontes, transparência, financiamento ou uso de inteligência artificial. Restrições: estudos empíricos (entrevistas, questionários, análise de conteúdo ou análise documental) sobre a prática das organizações; estudos comparativos internacionais valem se incluírem organizações brasileiras; exclua estudos centrados em eleições, em governos específicos ou na pandemia de COVID-19 e estudos sobre o efeito das checagens no público. Valem apenas artigos de periódico que relatem estudo empírico com dados próprios; não use revisões de literatura, meta-análises, ensaios teóricos, preprints, trabalhos de anais de congresso, capítulos de livro, teses ou resenhas. Para cada artigo, informe: DOI; título; autores; ano de publicação; periódico; tipo de estudo e método; tamanho da amostra exatamente como aparece no resumo (ou \"não informado no resumo\"); achado principal, em uma frase; e um trecho literal do resumo, entre aspas, que sustente o achado principal.",
+    "constraints": {
+      "year_from": 2018,
+      "year_to": 2025,
+      "type": "journal-article",
+      "empirical": true,
+      "other_pt": "Recorte brasileiro: prática das organizações de checagem (rotinas, métodos, critérios, fontes, transparência, financiamento, uso de IA, educação midiática). Estudos comparativos valem com organização brasileira na amostra. Excluídos: estudos centrados em eleições, em governos específicos ou na pandemia; estudos de efeito de correções no público; ensaios e revisões."
+    },
+    "feasibility": {
+      "openalex_query": "https://api.openalex.org/works?search=fact-checking Brazil fact-checkers&filter=publication_year:2018-2025,type:article,has_abstract:true",
+      "openalex_count": 776,
+      "notes_pt": "Contagem medida em 14/10/2026 com search= (texto completo). Busca booleana em título e resumo, com o mesmo filtro: filter=publication_year:2018-2025,type:article,has_abstract:true,title_and_abstract.search:(\"fact-checking\" OR \"fact checking\" OR \"fact-checkers\" OR checagem OR checadores OR \"verificação de fatos\" OR \"agências de checagem\" OR \"Agência Lupa\" OR \"Aos Fatos\" OR Comprova) AND (brazil OR brazilian OR brasil OR brasileiras OR brasileiros) retorna 728. As contagens incluem muito ruído (checagem em saúde e contabilidade, estudos eleitorais e de COVID-19). Depois de excluir eleições, governos e pandemia, a revisão manual confirmou 19 artigos empíricos de periódico sobre a prática das organizações, todos com resumo no OpenAlex e tipo journal-article no Crossref."
+    },
+    "reference_set": [
+      {
+        "doi": "10.1080/1461670x.2022.2069588",
+        "title": "The Rise of the Brazilian Fact-checking Movement: Between Economic Sustainability and Editorial Independence",
+        "year": 2022,
+        "venue": "Journalism Studies",
+        "why_relevant_pt": "Entrevistas semiestruturadas com 16 checadores de 13 organizações brasileiras sobre financiamento e independência editorial."
+      },
+      {
+        "doi": "10.1177/10776990231207963",
+        "title": "Fostering Artificial Intelligence to Face Misinformation: Discourses and Practices of Automated Fact-Checking in Brazil",
+        "year": 2023,
+        "venue": "Journalism & Mass Communication Quarterly",
+        "why_relevant_pt": "Mapeia a checagem automatizada no Brasil com 30 declarações públicas e sete entrevistas com representantes de cinco organizações."
+      },
+      {
+        "doi": "10.4000/cp.5348",
+        "title": "As fontes dos serviços de fact-checking luso-brasileiros",
+        "year": 2019,
+        "venue": "Comunicação pública",
+        "why_relevant_pt": "Analisa as fontes usadas por Truco, Lupa e Aos Fatos, comparadas a um serviço português credenciado pela IFCN."
+      },
+      {
+        "doi": "10.1080/17512786.2022.2088603",
+        "title": "When a Journalistic Truth-Seeking Tradition Thrives: Examining the Rise of the Brazilian Fact-Checking Movement",
+        "year": 2022,
+        "venue": "Journalism Practice",
+        "why_relevant_pt": "Usa as mesmas 16 entrevistas para examinar as motivações e os fatores que impulsionaram o surgimento das iniciativas brasileiras de checagem."
+      },
+      {
+        "doi": "10.25200/bjr.v18n2.2022.1510",
+        "title": "critérios dos fact-checkers brasileiros",
+        "year": 2022,
+        "venue": "Brazilian journalism research",
+        "why_relevant_pt": "Questionário com 29 checadores sobre propósitos, motivações e rotinas da checagem no Brasil. O Crossref registra só a parte final do título."
+      },
+      {
+        "doi": "10.1515/omgc-2022-0028",
+        "title": "Fact-checking initiatives in Portuguese language countries: checking methods and financing strategies",
+        "year": 2022,
+        "venue": "Online Media and Global Communication",
+        "why_relevant_pt": "Análise de conteúdo de 318 publicações de 15 iniciativas lusófonas, 13 delas brasileiras, sobre métodos de verificação e financiamento."
+      },
+      {
+        "doi": "10.31921/doxacom.n41a2906",
+        "title": "Estrategias locales de verificación y fact-checking en Brasil: la Red Nacional de Combate a la Desinformación, COAR Noticias, Colectivo Bereia, Verifica RS y Agência Tatu",
+        "year": 2025,
+        "venue": "Doxa Comunicación. Revista Interdisciplinar de Estudios de Comunicación y Ciencias Sociales",
+        "why_relevant_pt": "Estudo de caso com entrevistas sobre a Rede Nacional de Combate à Desinformação e quatro iniciativas locais brasileiras de verificação."
+      },
+      {
+        "doi": "10.13037/ci.vol25n53.8624",
+        "title": "MERCANTILIZAÇÃO DA CHECAGEM NAS AGÊNCIAS CHEQUEADO E LUPA NA AMÉRICA LATINA",
+        "year": 2022,
+        "venue": "Comunicação & Inovação",
+        "why_relevant_pt": "Estudo comparativo das estratégias de negócio da Lupa e do Chequeado (mercantilização da checagem)."
+      },
+      {
+        "doi": "10.5007/1984-8412.2021.e72801",
+        "title": "“Checar fatos e desmentir boatos”: fake news e discurso jornalístico no Brasil",
+        "year": 2021,
+        "venue": "Fórum Linguístico",
+        "why_relevant_pt": "Análise de discurso do Estadão Verifica e do É isso mesmo? sobre a prática jornalística de checagem."
+      },
+      {
+        "doi": "10.17645/mac.v9i1.3443",
+        "title": "Fact-Checking Interventions as Counteroffensives to Disinformation Growth: Standards, Values, and Practices in Latin America and Spain",
+        "year": 2021,
+        "venue": "Media and Communication",
+        "why_relevant_pt": "Entrevistas em profundidade com dirigentes de oito plataformas de checagem da América Latina e da Espanha, incluindo a Agência Lupa."
+      },
+      {
+        "doi": "10.15847/obsobs18520242436",
+        "title": "Media literacy against disinformation: the vision of South American fact-checkers",
+        "year": 2024,
+        "venue": "Observatorio (OBS*)",
+        "why_relevant_pt": "Entrevistas com checadores sul-americanos, incluindo o Aos Fatos, sobre o papel da educação midiática no combate à desinformação."
+      },
+      {
+        "doi": "10.1177/27523543251344971",
+        "title": "AI-Generated Misinformation: A Case Study on Emerging Trends in Fact-Checking Practices Across Brazil, Germany, and the United Kingdom",
+        "year": 2025,
+        "venue": "Emerging Media",
+        "why_relevant_pt": "Análise de 136 checagens e 13 entrevistas sobre como checadores do Brasil, da Alemanha e do Reino Unido tratam desinformação gerada por IA."
+      },
+      {
+        "doi": "10.3390/socsci14090514",
+        "title": "On Fact-Checking Service: Artificial Intelligence’s Uses in Ibero-American Fact-Checkers",
+        "year": 2025,
+        "venue": "Social Sciences",
+        "why_relevant_pt": "Entrevistas em profundidade com quatro organizações ibero-americanas, incluindo a brasileira Aletheia, sobre o uso de IA na checagem."
+      },
+      {
+        "doi": "10.5753/jidm.2022.2354",
+        "title": "A Comprehensive Dataset of Brazilian Fact-Checking Stories",
+        "year": 2022,
+        "venue": "Journal of Information and Data Management",
+        "why_relevant_pt": "Conjunto de dados com 11.647 checagens de seis agências brasileiras, com análise inicial da produção de checagens."
+      },
+      {
+        "doi": "10.55028/rpe.v10in.1.18117",
+        "title": "Mídia alternativa digital e a checagem de fatos:",
+        "year": 2023,
+        "venue": "Revista Primeira Escrita",
+        "why_relevant_pt": "Análise de discurso da seção metodológica (Nosso Método) do Aos Fatos. O Crossref registra o título sem o subtítulo."
+      },
+      {
+        "doi": "10.17648/movideias-v28n2-2926",
+        "title": "A AGÊNCIA LUPA EM PROL DA COMUNICAÇÃO PARA A PAZ: UM MODELO DE FACT-CHECKING E MEDIA LITERACY",
+        "year": 2023,
+        "venue": "Movendo Ideias",
+        "why_relevant_pt": "Pesquisa exploratória e documental sobre as estratégias de checagem e de educação midiática da Agência Lupa."
+      },
+      {
+        "doi": "10.1177/19401612241270004",
+        "title": "“We Follow the Disinformation”: Conceptualizing and Analyzing Fact-Checking Cultures Across Countries",
+        "year": 2024,
+        "venue": "The International Journal of Press/Politics",
+        "why_relevant_pt": "Métodos mistos com 11 organizações e 13.498 checagens (2013 a 2023) para comparar culturas de checagem do Brasil e da Alemanha."
+      },
+      {
+        "doi": "10.1080/17512786.2023.2211555",
+        "title": "Comparison of the Transparency of Fact-checking: A Global Perspective",
+        "year": 2023,
+        "venue": "Journalism Practice",
+        "why_relevant_pt": "Compara a transparência de fontes, financiamento e método de checadores de seis países, incluindo o Brasil."
+      },
+      {
+        "doi": "10.17645/mac.8690",
+        "title": "Beyond Verification: The Evolving Role of Fact-Checking Organisations in Media Literacy Education for Youth",
+        "year": 2024,
+        "venue": "Media and Communication",
+        "why_relevant_pt": "Estudo qualitativo das atividades de educação midiática para jovens de organizações de checagem de sete países, incluindo o Brasil."
+      }
+    ],
+    "traps_pt": "Escolher estudos sobre checagem nas eleições de 2018 e 2022 ou na pandemia, que são a maior parte da literatura brasileira sobre o tema. Incluir ensaios e revisões sem dados (por exemplo, Vinhas e Bastos 2022, Journalism Studies, 'Eight notes on consensus reality'). Trazer experimentos sobre o efeito de correções no público, que não são o tema. Citar trabalhos de anais (Intercom, Compós, Enancib) e textos sem DOI. Títulos truncados no Crossref em periódicos brasileiros, que exigem conferir o título completo na fonte.",
+    "n_wanted": 25
+  },
+  {
+    "id": "a03",
+    "topic_pt": "Desinformação e educação midiática em escolas e universidades brasileiras",
+    "request_pt": "Encontre 25 artigos científicos revisados por pares, publicados em periódicos entre 2018 e 2025, sobre desinformação e educação midiática (ou competência em informação) em escolas e universidades brasileiras. Restrições: estudos empíricos feitos no Brasil com estudantes, professores, aulas, currículos ou livros didáticos (questionários, grupos focais, intervenções, relatos de experiência com coleta de dados ou análise documental); estudos comparativos internacionais valem se incluírem amostra brasileira; exclua estudos centrados em COVID-19, vacinas, eleições ou política partidária e estudos com públicos fora do ensino formal. Valem apenas artigos de periódico que relatem estudo empírico com dados próprios; não use revisões de literatura, meta-análises, ensaios teóricos, preprints, trabalhos de anais de congresso, capítulos de livro, teses ou resenhas. Para cada artigo, informe: DOI; título; autores; ano de publicação; periódico; tipo de estudo e método; tamanho da amostra exatamente como aparece no resumo (ou \"não informado no resumo\"); achado principal, em uma frase; e um trecho literal do resumo, entre aspas, que sustente o achado principal.",
+    "constraints": {
+      "year_from": 2018,
+      "year_to": 2025,
+      "type": "journal-article",
+      "empirical": true,
+      "other_pt": "Recorte brasileiro: ensino formal (escolas e universidades), com dados de estudantes, professores, aulas, currículos ou livros didáticos. Estudos comparativos valem com amostra brasileira. Excluídos: COVID-19, vacinas, eleições, política partidária, públicos fora do ensino formal (por exemplo, idosos em cursos livres), ensaios e revisões."
+    },
+    "feasibility": {
+      "openalex_query": "https://api.openalex.org/works?search=media literacy disinformation students school Brazil&filter=publication_year:2018-2025,type:article,has_abstract:true",
+      "openalex_count": 719,
+      "notes_pt": "Contagem medida em 14/10/2026 com search= (texto completo). Busca booleana em título e resumo, com o mesmo filtro: filter=publication_year:2018-2025,type:article,has_abstract:true,title_and_abstract.search:(estudantes OR alunos OR students OR universitários OR adolescentes OR jovens OR professores OR teachers OR escola OR school OR \"ensino médio\" OR \"ensino fundamental\" OR \"high school\" OR university) AND (\"fake news\" OR desinformação OR misinformation OR disinformation OR \"notícias falsas\") AND (brasil OR brazil OR brazilian OR brasileiros OR brasileira OR brasileiras) retorna 469. A literatura brasileira sobre educação midiática é dominada por ensaios, revisões e propostas sem coleta de dados, e muitos estudos empíricos têm recorte de COVID-19. A revisão manual confirmou 17 artigos empíricos de periódico com dados do ensino formal brasileiro, todos com resumo no OpenAlex e tipo journal-article no Crossref."
+    },
+    "reference_set": [
+      {
+        "doi": "10.16921/chasqui.v1i157.5063",
+        "title": "Adolescentes conectados, crise epistêmica e desinformação: estudo de caso em uma escola pública no Brasil",
+        "year": 2024,
+        "venue": "Chasqui. Revista Latinoamericana de Comunicación",
+        "why_relevant_pt": "Três grupos focais com adolescentes de uma escola pública de Botelhos (MG) sobre práticas midiáticas e capacidade de identificar desinformação."
+      },
+      {
+        "doi": "10.15847/obsobs18520242446",
+        "title": "Perceptions of University Students in Communication about Disinformation:",
+        "year": 2024,
+        "venue": "Observatorio (OBS*)",
+        "why_relevant_pt": "Questionário on-line com 231 estudantes de Comunicação do Brasil, da Colômbia e da Espanha sobre percepção de desinformação e formação em educação midiática. O Crossref registra o título sem o subtítulo."
+      },
+      {
+        "doi": "10.15847/obsobs18520242435",
+        "title": "The perception of misinformation by young students from a Brazilian sociocultural context: reflections and clues for media education",
+        "year": 2024,
+        "venue": "Observatorio (OBS*)",
+        "why_relevant_pt": "Pesquisa qualitativa sobre a percepção de desinformação entre jovens estudantes de escolas públicas e privadas brasileiras."
+      },
+      {
+        "doi": "10.1080/11356405.2019.1597564",
+        "title": "Media competencies of university professors and students. Comparison of levels in Spain, Portugal, Brazil and Venezuela / Las competencias mediáticas de profesores y estudiantes universitarios. Comparación de niveles en España, Portugal, Brasil y Venezuela",
+        "year": 2019,
+        "venue": "Cultura y Educación",
+        "why_relevant_pt": "Mede a competência midiática de 1.676 estudantes e 524 professores universitários do Brasil, da Espanha, de Portugal e da Venezuela."
+      },
+      {
+        "doi": "10.26807/rp.v29i122.2204",
+        "title": "Fake news, journalism and the future of the profession: what students in the area think",
+        "year": 2025,
+        "venue": "Razón y Palabra",
+        "why_relevant_pt": "Questionário com 62 estudantes de Jornalismo da UEPB sobre fake news e credibilidade da profissão."
+      },
+      {
+        "doi": "10.26441/rc18.2-2019-a5",
+        "title": "Consumo de noticias y percepción de fake news entre estudiantes de Comunicación de Brasil, España y Portugal",
+        "year": 2019,
+        "venue": "Revista de Comunicación",
+        "why_relevant_pt": "Questionário com 300 estudantes de Comunicação do Brasil, da Espanha e de Portugal sobre consumo de notícias e percepção de fake news."
+      },
+      {
+        "doi": "10.23860/jmle-2025-17-2-5",
+        "title": "Media and information literacy strategies: A joint reflection with teenagers in Brazilian public school",
+        "year": 2025,
+        "venue": "Journal of Media Literacy Education",
+        "why_relevant_pt": "Survey e observação participante em oficina de educação midiática e informacional com adolescentes de escola pública."
+      },
+      {
+        "doi": "10.26512/rici.v18.n2.2025.56629",
+        "title": "Competência para reconhecer desinformação nas redes sociais: diagnóstico com estudantes ingressantes em cursos de graduação",
+        "year": 2025,
+        "venue": "Revista Ibero-Americana de Ciência da Informação",
+        "why_relevant_pt": "Questionário com 196 ingressantes de cursos de Ciência da Informação de dez universidades públicas sobre como reagem à desinformação."
+      },
+      {
+        "doi": "10.35699/1983-3652.2020.24889",
+        "title": "Whatsapp e fake news no ensino de língua inglesa em uma escola pública do interior do estado do Ceará",
+        "year": 2020,
+        "venue": "Texto Livre: Linguagem e Tecnologia",
+        "why_relevant_pt": "Prática de ensino de inglês sobre fake news em grupo de WhatsApp com alunos do 1º ano do ensino médio de escola pública do Ceará."
+      },
+      {
+        "doi": "10.15603/2175-7755/cs.v42n1p193-227",
+        "title": "Fake news no WhatsApp: um estudo da percepção dos efeitos em terceiros",
+        "year": 2020,
+        "venue": "Comunicação & Sociedade",
+        "why_relevant_pt": "Questionário com estudantes de especialização em letramento informacional (e amostra geral) sobre competência informacional e efeito de terceira pessoa das fake news."
+      },
+      {
+        "doi": "10.1590/s0102-6992-20243901e51808",
+        "title": "Como os livros didáticos de Ciências Humanas e Sociais Aplicadas abordam as fake news? Uma análise de coleções do PNLD 2021",
+        "year": 2024,
+        "venue": "Sociedade e Estado",
+        "why_relevant_pt": "Análise infométrica e qualitativa de coleções de livros didáticos de Ciências Humanas do PNLD 2021 sobre o tema fake news."
+      },
+      {
+        "doi": "10.22456/1679-1916.99532",
+        "title": "O desenvolvimento de um e-book para identificar fake news: o bibliotecário como mediador na criação de critérios de avaliação da informação",
+        "year": 2019,
+        "venue": "RENOTE",
+        "why_relevant_pt": "Projeto de ação com alunos do 1º ano do ensino médio e uma bibliotecária para criar um e-book de critérios de checagem, avaliado por questionários."
+      },
+      {
+        "doi": "10.22409/rmc.v17i3.58703",
+        "title": "O combate à desinformação na América Latina a partir da educação midiática: um estudo de caso da Oficina de Leitura Crítica de Notícias",
+        "year": 2023,
+        "venue": "Revista Mídia e Cotidiano",
+        "why_relevant_pt": "Estudo de caso da Oficina de Leitura Crítica de Notícias da BBC News Brasil, com questionário a 51 estudantes e profissionais de Comunicação."
+      },
+      {
+        "doi": "10.58876/rbbd.2023.1911791",
+        "title": "Desenvolvimento da competência em informação e combate à desinformação nos currículos de Biblioteconomia das universidades federais do Brasil",
+        "year": 2023,
+        "venue": "Revista Brasileira de Biblioteconomia e Documentação",
+        "why_relevant_pt": "Análise documental de ementas e projetos pedagógicos dos cursos de Biblioteconomia das universidades federais sobre competência em informação e desinformação."
+      },
+      {
+        "doi": "10.55028/pdres.v12i33.22615",
+        "title": "Educação midiática na prática: descobertas a partir da interação em sala de aula",
+        "year": 2025,
+        "venue": "Perspectivas em Diálogo: Revista de Educação e Sociedade",
+        "why_relevant_pt": "Relato de intervenção pedagógica com nove estudantes de Publicidade, com jogo interativo, sobre conceitos de educação midiática e desinformação."
+      },
+      {
+        "doi": "10.47456/geo.v5i40.44127",
+        "title": "Como os mapas que “viralizam” nas redes sociais podem ser usados no ensino de Geografia. A experiência em uma instituição de educação básica do município de Santa Maria no Estado do Rio Grande do Sul, Brasil",
+        "year": 2025,
+        "venue": "Geografares",
+        "why_relevant_pt": "Alunos do ensino médio interpretam mapas virais de redes sociais e respondem questionário; discute o risco de fake news cartográficas."
+      },
+      {
+        "doi": "10.17058/signo.v47i90.17555",
+        "title": "Sociedade digital e leitura crítica: como está sendo planejada a formação de professores de línguas em tempos de emergência das tecnologias da desinformação?",
+        "year": 2022,
+        "venue": "Signo",
+        "why_relevant_pt": "Análise documental de como a formação de professores de línguas prepara leitores críticos diante das tecnologias de desinformação."
+      }
+    ],
+    "traps_pt": "Trazer ensaios teóricos, revisões e estados da arte, que são a maioria dos textos brasileiros sobre educação midiática. Incluir estudos com recorte de COVID-19 (por exemplo, oficinas sobre vacinas ou números da pandemia) ou eleitoral. Incluir programas para idosos ou cursos de extensão fora do ensino formal. Citar trabalhos de anais (Enancib, Intercom) e capítulos sem DOI. Usar estudos estrangeiros sem amostra brasileira. Títulos sem subtítulo no Crossref.",
+    "n_wanted": 25
+  },
+  {
+    "id": "a04",
+    "topic_pt": "Jogos educativos e de inoculação (prebunking) contra desinformação",
+    "request_pt": "Encontre 25 artigos científicos revisados por pares, publicados em periódicos entre 2018 e 2025, sobre jogos educativos e jogos de inoculação (prebunking) contra desinformação, como o Bad News. Restrições: apenas intervenções em forma de jogo (digital ou de tabuleiro) avaliadas com participantes em experimento, quase-experimento, ensaio randomizado ou desenho pré e pós-intervenção; exclua intervenções que não são jogos (vídeos, textos ou infográficos isolados), reanálises de dados de outros estudos e estudos centrados em COVID-19, vacinas, eleições ou política partidária (por exemplo, o Go Viral!). Valem apenas artigos de periódico que relatem estudo empírico com dados próprios; não use revisões de literatura, meta-análises, ensaios teóricos, preprints, trabalhos de anais de congresso, capítulos de livro, teses ou resenhas. Para cada artigo, informe: DOI; título; autores; ano de publicação; periódico; tipo de estudo e método; tamanho da amostra exatamente como aparece no resumo (ou \"não informado no resumo\"); achado principal, em uma frase; e um trecho literal do resumo, entre aspas, que sustente o achado principal.",
+    "constraints": {
+      "year_from": 2018,
+      "year_to": 2025,
+      "type": "journal-article",
+      "empirical": true,
+      "other_pt": "Somente jogos (sérios, de inoculação, educativos, digitais ou de cartas) avaliados com participantes. Excluídos: vídeos, textos e infográficos de prebunking sem jogo; reanálises; jogos ou estudos centrados em COVID-19, vacinas, eleições ou política partidária; descrições de jogo sem avaliação; revisões."
+    },
+    "feasibility": {
+      "openalex_query": "https://api.openalex.org/works?search=game inoculation misinformation&filter=publication_year:2018-2025,type:article,has_abstract:true",
+      "openalex_count": 1015,
+      "notes_pt": "Contagem medida em 14/10/2026 com search= (texto completo). Busca booleana em título e resumo, com o mesmo filtro: filter=publication_year:2018-2025,type:article,has_abstract:true,title_and_abstract.search:(\"Bad News\" OR \"serious game\" OR \"serious games\" OR \"fake news game\" OR \"online game\" OR \"browser game\" OR \"educational game\" OR gamified OR gamification OR \"Harmony Square\" OR \"Go Viral\" OR \"Cranky Uncle\" OR jogo) AND (misinformation OR disinformation OR \"fake news\" OR desinformação) AND (inoculation OR prebunking OR resilience OR resistance OR discernment OR experiment OR participants) retorna 108. A busca em título e resumo traz 108 artigos; a de texto completo (search=) traz 1.015 porque inclui toda a literatura de inoculação, a maior parte com vídeos ou textos. A revisão manual confirmou 20 avaliações empíricas de jogos, todas com resumo no OpenAlex e tipo journal-article no Crossref."
+    },
+    "reference_set": [
+      {
+        "doi": "10.1057/s41599-019-0279-9",
+        "title": "Fake news game confers psychological resistance against online misinformation",
+        "year": 2019,
+        "venue": "Palgrave Communications",
+        "why_relevant_pt": "Avaliação em larga escala (N = 15.000, pré e pós) do jogo Bad News."
+      },
+      {
+        "doi": "10.5334/joc.91",
+        "title": "Good News about Bad News: Gamified Inoculation Boosts Confidence and Cognitive Immunity Against Fake News",
+        "year": 2020,
+        "venue": "Journal of Cognition",
+        "why_relevant_pt": "Replicação do Bad News com grupo controle (N = 196) e medida de confiança na avaliação de manchetes falsas."
+      },
+      {
+        "doi": "10.1037/xap0000315",
+        "title": "Long-term effectiveness of inoculation against misinformation: Three longitudinal experiments.",
+        "year": 2021,
+        "venue": "Journal of Experimental Psychology: Applied",
+        "why_relevant_pt": "Três experimentos longitudinais com Bad News versus Tetris sobre a duração do efeito de inoculação. Crossref registra 2021 e o OpenAlex, 2020."
+      },
+      {
+        "doi": "10.1177/0013164420940378",
+        "title": "Disentangling Item and Testing Effects in Inoculation Research on Online Misinformation: Solomon Revisited",
+        "year": 2020,
+        "venue": "Educational and Psychological Measurement",
+        "why_relevant_pt": "Dois estudos on-line (N = 2.159) com desenho de Solomon para separar efeitos de item e de teste no Bad News."
+      },
+      {
+        "doi": "10.36850/e12",
+        "title": "Gamified Inoculation Against Misinformation in India: A Randomized Control Trial",
+        "year": 2023,
+        "venue": "Journal of Trial and Error",
+        "why_relevant_pt": "Ensaio randomizado com 757 participantes no norte da Índia, com jogo de inoculação adaptado; resultado nulo."
+      },
+      {
+        "doi": "10.1037/xge0001603",
+        "title": "Feedback exercises boost discernment of misinformation for gamified inoculation interventions.",
+        "year": 2024,
+        "venue": "Journal of Experimental Psychology: General",
+        "why_relevant_pt": "Experimentos de laboratório e levantamentos dentro dos jogos Bad News e Harmony Square testam exercícios de feedback para melhorar o discernimento."
+      },
+      {
+        "doi": "10.1186/s41235-023-00505-x",
+        "title": "Game-based inoculation versus graphic-based inoculation to combat misinformation: a randomized controlled trial",
+        "year": 2023,
+        "venue": "Cognitive Research: Principles and Implications",
+        "why_relevant_pt": "Ensaio randomizado com 180 participantes chineses que compara inoculação por jogo, por infográfico e controle."
+      },
+      {
+        "doi": "10.5209/esmp.88599",
+        "title": "Winning the game against fake news? Using games to inoculate adolescents and young adults in Singapore against fake news",
+        "year": 2023,
+        "venue": "Estudios sobre el Mensaje Periodístico",
+        "why_relevant_pt": "Teste de um jogo sobre fake news desenvolvido em Singapura com universitários (n = 84) e estudantes do ensino fundamental e médio (n = 30)."
+      },
+      {
+        "doi": "10.3758/s13423-025-02827-x",
+        "title": "Re-examining the bad news game: No evidence of improved discrimination of Indian true and fake news headlines",
+        "year": 2025,
+        "venue": "Psychonomic Bulletin & Review",
+        "why_relevant_pt": "Reexame do Bad News com manchetes indianas verdadeiras e falsas e análise de discriminação."
+      },
+      {
+        "doi": "10.1145/3479859",
+        "title": "ChamberBreaker: Mitigating the Echo Chamber Effect and Supporting Information Hygiene through a Gamified Inoculation System",
+        "year": 2021,
+        "venue": "Proceedings of the ACM on Human-Computer Interaction",
+        "why_relevant_pt": "Jogo de inoculação ChamberBreaker contra o efeito câmara de eco, avaliado com 882 participantes."
+      },
+      {
+        "doi": "10.1038/s41598-023-43885-2",
+        "title": "How to “inoculate” against multimodal misinformation: A conceptual replication of Roozenbeek and van der Linden (2020)",
+        "year": 2023,
+        "venue": "Scientific Reports",
+        "why_relevant_pt": "Replicação conceitual (N = 380) com o jogo Cat Park sobre desinformação multimodal em imagens."
+      },
+      {
+        "doi": "10.1098/rsos.211719",
+        "title": "Technique-based inoculation against real-world misinformation",
+        "year": 2022,
+        "venue": "Royal Society Open Science",
+        "why_relevant_pt": "Dois experimentos (n total = 2.188) testam se jogar um jogo de 15 minutos protege contra desinformação real que viralizou."
+      },
+      {
+        "doi": "10.1002/acp.3995",
+        "title": "Inoculation against conspiracy theories: A consumer side approach to India's fake news problem",
+        "year": 2022,
+        "venue": "Applied Cognitive Psychology",
+        "why_relevant_pt": "Replicação do Bad News na Índia (n = 1.002) com desenho intrassujeito."
+      },
+      {
+        "doi": "10.1037/xap0000458",
+        "title": "Effects of inductive learning and gamification on news veracity discernment.",
+        "year": 2023,
+        "venue": "Journal of Experimental Psychology: Applied",
+        "why_relevant_pt": "Experimento com 282 usuários da Prolific compara intervenção gamificada de aprendizagem indutiva, versão não gamificada, Bad News e controle."
+      },
+      {
+        "doi": "10.1080/10447318.2025.2607550",
+        "title": "Inoculation Strategies for Misinformation Resistance: A Multidimensional Intervention Approach",
+        "year": 2025,
+        "venue": "International Journal of Human-Computer Interaction",
+        "why_relevant_pt": "Protótipo de cartas e jogo on-line de inoculação testados com 80 participantes jovens e idosos."
+      },
+      {
+        "doi": "10.1080/15391523.2024.2338451",
+        "title": "Bad News in the civics classroom: How serious gameplay fosters teenagers’ ability to discern misinformation techniques",
+        "year": 2024,
+        "venue": "Journal of Research on Technology in Education",
+        "why_relevant_pt": "Avaliação do Bad News em sala de aula com 516 estudantes suecos do ensino médio."
+      },
+      {
+        "doi": "10.3991/ijim.v17i15.40865",
+        "title": "Enhancing Information Literacy for Spotting Fake News: A Study on the Efficacy of a Serious Game for M-Learning Across Different Age Groups",
+        "year": 2023,
+        "venue": "International Journal of Interactive Mobile Technologies (iJIM)",
+        "why_relevant_pt": "Jogo sério de aprendizagem móvel para identificar fake news, avaliado em estudo de campo randomizado com 351 participantes."
+      },
+      {
+        "doi": "10.3390/educsci9020155",
+        "title": "MAthE the Game: A Serious Game for Education and Training in News Verification",
+        "year": 2019,
+        "venue": "Education Sciences",
+        "why_relevant_pt": "Jogo sério MAthE para treino em verificação de notícias, avaliado em estudo de campo randomizado (n = 111)."
+      },
+      {
+        "doi": "10.1027/1864-1105/a000471",
+        "title": "Experimental Testing of Active vs. Passive Inoculation Interventions on Adolescents’ News Discernment and Learning Enjoyment",
+        "year": 2025,
+        "venue": "Journal of Media Psychology",
+        "why_relevant_pt": "Experimento escolar com 373 estudantes que compara jogo on-line (inoculação ativa) e folheto (inoculação passiva)."
+      },
+      {
+        "doi": "10.1016/j.compedu.2024.105210",
+        "title": "Learning to Evaluate (Mis)information in an Online Game: Strategies Matter!",
+        "year": 2025,
+        "venue": "Computers & Education",
+        "why_relevant_pt": "Experimento com 132 estudantes do 8º e do 9º ano que jogam versões de um jogo sobre desinformação com e sem simulação de estratégias. Crossref registra 2025 e o OpenAlex, 2024."
+      }
+    ],
+    "traps_pt": "Incluir intervenções em vídeo ou texto (por exemplo, Roozenbeek et al. 2022, Science Advances, que usa vídeos) e revisões (Traberg et al. 2022; Lewandowsky e van der Linden 2021). Trazer Go Viral! (COVID-19), o jogo de 2018 sobre a crise de refugiados (Journal of Risk Research) ou o jogo Meias#Verdades (2025), centrado na política brasileira. Incluir a reanálise de Modirrousta-Galian e Higham (2023), que não coleta dados novos. Citar o artigo do HKS Misinformation Review cujo DOI aparece com barra dupla (10.37016//mr-2020-008) e não resolve no Crossref. Trazer textos que só descrevem o jogo em sala de aula sem avaliação (por exemplo, sobre o Cranky Uncle).",
+    "n_wanted": 25
+  },
+  {
+    "id": "a05",
+    "topic_pt": "Percepção humana e credibilidade de imagens, vídeos e áudios gerados por IA",
+    "request_pt": "Encontre 25 artigos científicos revisados por pares, publicados em periódicos entre 2019 e 2025, sobre como as pessoas percebem, detectam ou avaliam a credibilidade de imagens, vídeos e áudios sintéticos gerados por inteligência artificial (deepfakes, rostos sintéticos e clones de voz). Restrições: apenas estudos empíricos com participantes humanos (experimentos, testes de detecção, surveys ou medidas fisiológicas); exclua artigos sobre algoritmos de detecção automática, estudos centrados em políticos, eleições ou propaganda política e estudos sobre saúde. Valem apenas artigos de periódico que relatem estudo empírico com dados próprios; não use revisões de literatura, meta-análises, ensaios teóricos, preprints, trabalhos de anais de congresso, capítulos de livro, teses ou resenhas. Para cada artigo, informe: DOI; título; autores; ano de publicação; periódico; tipo de estudo e método; tamanho da amostra exatamente como aparece no resumo (ou \"não informado no resumo\"); achado principal, em uma frase; e um trecho literal do resumo, entre aspas, que sustente o achado principal.",
+    "constraints": {
+      "year_from": 2019,
+      "year_to": 2025,
+      "type": "journal-article",
+      "empirical": true,
+      "other_pt": "Estudos com participantes humanos sobre percepção, detecção ou credibilidade de mídia sintética gerada por IA. Excluídos: algoritmos de detecção automática e surveys técnicos; deepfakes de políticos, eleições ou propaganda política; saúde; ensaios jurídicos e revisões."
+    },
+    "feasibility": {
+      "openalex_query": "https://api.openalex.org/works?search=deepfake AI-generated human detection perception participants&filter=publication_year:2019-2025,type:article,has_abstract:true",
+      "openalex_count": 985,
+      "notes_pt": "Contagem medida em 14/10/2026 com search= (texto completo). Busca booleana em título e resumo, com o mesmo filtro: filter=publication_year:2019-2025,type:article,has_abstract:true,title_and_abstract.search:(deepfake OR deepfakes OR \"AI-generated images\" OR \"AI-generated faces\" OR \"synthetic faces\" OR \"AI-synthesized\" OR \"GAN-generated\" OR \"synthetic media\" OR \"AI-generated video\" OR \"voice clones\" OR \"AI-generated content\") AND (participants OR experiment OR \"human detection\" OR \"human perception\" OR credibility OR \"perceived realism\" OR trust) retorna 2009. As contagens são dominadas por artigos de computação sobre algoritmos de detecção, o que torna o tema bom para medir busca real: os estudos com participantes humanos são uma fração pequena. A revisão manual confirmou 20 artigos com participantes, todos com resumo no OpenAlex e tipo journal-article no Crossref."
+    },
+    "reference_set": [
+      {
+        "doi": "10.1038/s41598-023-42802-x",
+        "title": "Deepfake smiles matter less-the psychological and neural impact of presumed AI-generated faces",
+        "year": 2023,
+        "venue": "Scientific Reports",
+        "why_relevant_pt": "EEG com 30 participantes que avaliam rostos apresentados como reais ou como deepfakes."
+      },
+      {
+        "doi": "10.1016/j.chb.2023.107917",
+        "title": "Providing detection strategies to improve human detection of deepfakes: An experimental study",
+        "year": 2023,
+        "venue": "Computers in Human Behavior",
+        "why_relevant_pt": "Experimento pré-registrado (N = 454) testa se estratégias de detecção melhoram a identificação humana de vídeos deepfake."
+      },
+      {
+        "doi": "10.1080/09658211.2021.1919715",
+        "title": "Deepfake false memories",
+        "year": 2021,
+        "venue": "Memory",
+        "why_relevant_pt": "Dois experimentos (N = 682) comparam texto, foto e vídeo deepfake na produção de falsas memórias."
+      },
+      {
+        "doi": "10.1002/acp.70141",
+        "title": "Detecting Deepfakes Through Emotion?: Facial Expression and Emotional Contagion as Dual Indicators of Deepfake Credibility",
+        "year": 2025,
+        "venue": "Applied Cognitive Psychology",
+        "why_relevant_pt": "Compara as expressões emocionais de deepfakes e de vídeos autênticos e como elas afetam a credibilidade percebida pelo público."
+      },
+      {
+        "doi": "10.1038/s41598-023-39944-3",
+        "title": "Deepfakes and scientific knowledge dissemination",
+        "year": 2023,
+        "venue": "Scientific Reports",
+        "why_relevant_pt": "Survey com cinco populações (estudantes, educadores e público adulto) sobre a capacidade de distinguir vídeos de ciência autênticos de deepfakes."
+      },
+      {
+        "doi": "10.1177/14614448231199664",
+        "title": "Assessing the perceived credibility of deepfakes: The impact of system-generated cues and video characteristics",
+        "year": 2023,
+        "venue": "New Media & Society",
+        "why_relevant_pt": "Dois experimentos (N = 518) sobre pistas do sistema e características do vídeo na credibilidade percebida de deepfakes."
+      },
+      {
+        "doi": "10.1016/j.isci.2021.103364",
+        "title": "Fooled twice: People cannot detect deepfakes but think they can",
+        "year": 2021,
+        "venue": "iScience",
+        "why_relevant_pt": "Experimento pré-registrado (N = 210): as pessoas não detectam deepfakes com confiabilidade e superestimam a própria capacidade."
+      },
+      {
+        "doi": "10.1371/journal.pone.0285333",
+        "title": "Warning: Humans cannot reliably detect speech deepfakes",
+        "year": 2023,
+        "venue": "PLOS ONE",
+        "why_relevant_pt": "Teste de detecção de deepfakes de voz em inglês e mandarim com 529 participantes."
+      },
+      {
+        "doi": "10.1371/journal.pone.0287503",
+        "title": "Face/Off: Changing the face of movies with deepfakes",
+        "year": 2023,
+        "venue": "PLOS ONE",
+        "why_relevant_pt": "Estudo misto (N = 436) com deepfakes de refilmagens fictícias de filmes e falsas memórias."
+      },
+      {
+        "doi": "10.1098/rsos.231214",
+        "title": "Deepfake detection with and without content warnings",
+        "year": 2023,
+        "venue": "Royal Society Open Science",
+        "why_relevant_pt": "Experimento sobre a detecção de um deepfake de conteúdo neutro com e sem aviso de que há vídeo falso no conjunto."
+      },
+      {
+        "doi": "10.1177/10755470251380116",
+        "title": "Familiarity Matters: Examining the Effects of AI-Generated Images on Science Information Credibility",
+        "year": 2025,
+        "venue": "Science Communication",
+        "why_relevant_pt": "Survey experimental com 742 adultos sobre a credibilidade de posts de ciência com imagens geradas por IA, com e sem aviso de IA."
+      },
+      {
+        "doi": "10.1093/cybsec/tyad011",
+        "title": "Testing human ability to detect ‘deepfake’ images of human faces",
+        "year": 2023,
+        "venue": "Journal of Cybersecurity",
+        "why_relevant_pt": "Testa a capacidade humana de distinguir rostos gerados pelo StyleGAN2 de fotos reais."
+      },
+      {
+        "doi": "10.1145/3729417",
+        "title": "As Good as a Coin Toss: Human Detection of AI-Generated Content",
+        "year": 2025,
+        "venue": "Communications of the ACM",
+        "why_relevant_pt": "Estudo perceptivo com 1.276 participantes sobre a detecção de imagens, áudios e vídeos sintéticos."
+      },
+      {
+        "doi": "10.1089/cyber.2020.0174",
+        "title": "Effects of Disinformation Using Deepfake: The Protective Effect of Media Literacy Education",
+        "year": 2021,
+        "venue": "Cyberpsychology, Behavior, and Social Networking",
+        "why_relevant_pt": "Experimento fatorial sobre o efeito de um vídeo deepfake na credibilidade da desinformação e o papel protetor da educação midiática."
+      },
+      {
+        "doi": "10.1177/10755470251382889",
+        "title": "“A Warning is Not Enough. Teach Me How to Spot Deepfakes.”: Testing Media Literacy Interventions for Combating Deepfakes",
+        "year": 2025,
+        "venue": "Science Communication",
+        "why_relevant_pt": "Experimento em duas ondas que testa intervenções de educação midiática (aviso, dicas e formato) contra deepfakes."
+      },
+      {
+        "doi": "10.1073/pnas.2120481119",
+        "title": "AI-synthesized faces are indistinguishable from real faces and more trustworthy",
+        "year": 2022,
+        "venue": "Proceedings of the National Academy of Sciences",
+        "why_relevant_pt": "Experimentos de percepção mostram que rostos sintetizados por IA são indistinguíveis dos reais e julgados mais confiáveis; o resumo não informa a amostra."
+      },
+      {
+        "doi": "10.1016/j.isci.2022.105441",
+        "title": "On the realness of people who do not exist: The social processing of artificial faces",
+        "year": 2022,
+        "venue": "iScience",
+        "why_relevant_pt": "Três estudos sobre como participantes distinguem rostos gerados por GAN de rostos reais e as consequências sociais dessa exposição."
+      },
+      {
+        "doi": "10.1038/s41598-025-94170-3",
+        "title": "People are poorly equipped to detect AI-powered voice clones",
+        "year": 2025,
+        "venue": "Scientific Reports",
+        "why_relevant_pt": "Estudos perceptivos sobre identidade e naturalidade de vozes clonadas por IA."
+      },
+      {
+        "doi": "10.1186/s41235-025-00683-w",
+        "title": "AI-generated images of familiar faces are indistinguishable from real photographs",
+        "year": 2025,
+        "venue": "Cognitive Research: Principles and Implications",
+        "why_relevant_pt": "Experimentos mostram que imagens geradas por IA de rostos fictícios e de celebridades não são distinguidas de fotografias reais."
+      },
+      {
+        "doi": "10.1098/rsos.250921",
+        "title": "Training human super-recognizers’ detection and discrimination of AI-generated faces",
+        "year": 2025,
+        "venue": "Royal Society Open Science",
+        "why_relevant_pt": "Detecção de rostos gerados por GAN por super-reconhecedores e por controles, com procedimento de treino."
+      }
+    ],
+    "traps_pt": "Encher a lista com artigos de algoritmos de detecção de deepfake e surveys técnicos, que são centenas em periódicos de computação. Trazer os estudos mais citados, que são políticos (Vaccari e Chadwick 2020; Dobber et al. 2021; Hameleers e colegas; paródias de políticos no Journal of Communication 2024). Citar resumos de congresso publicados no Journal of Vision e anais da ASIS&T. Usar artigos que o Crossref registra em 2026 (Management Science, sobre voz clonada; JEP: Learning, Memory, and Cognition, sobre repetição de imagens de IA). Trazer análises de posts sem participantes.",
+    "n_wanted": 25
+  },
+  {
+    "id": "a06",
+    "topic_pt": "Efeitos de manchetes caça-cliques (clickbait) sobre leitores",
+    "request_pt": "Encontre 25 artigos científicos revisados por pares, publicados em periódicos entre 2018 e 2025, sobre os efeitos de manchetes caça-cliques (clickbait) sobre leitores e usuários de notícias. Restrições: apenas estudos empíricos com dados de leitores ou usuários (experimentos, questionários, medidas fisiológicas como EEG ou rastreamento ocular, ou dados de cliques e engajamento); exclua modelos computacionais de detecção ou classificação de clickbait, análises apenas linguísticas de manchetes sem dados de leitores e estudos com recorte político ou eleitoral. Valem apenas artigos de periódico que relatem estudo empírico com dados próprios; não use revisões de literatura, meta-análises, ensaios teóricos, preprints, trabalhos de anais de congresso, capítulos de livro, teses ou resenhas. Para cada artigo, informe: DOI; título; autores; ano de publicação; periódico; tipo de estudo e método; tamanho da amostra exatamente como aparece no resumo (ou \"não informado no resumo\"); achado principal, em uma frase; e um trecho literal do resumo, entre aspas, que sustente o achado principal.",
+    "constraints": {
+      "year_from": 2018,
+      "year_to": 2025,
+      "type": "journal-article",
+      "empirical": true,
+      "other_pt": "Estudos com dados de leitores ou usuários sobre efeitos do clickbait (credibilidade, atenção, cliques, engajamento, intenção de ler ou compartilhar). Excluídos: modelos de detecção e classificação; análises linguísticas sem leitores; recorte político ou eleitoral; meta-análises, ensaios e revisões."
+    },
+    "feasibility": {
+      "openalex_query": "https://api.openalex.org/works?search=clickbait headlines readers&filter=publication_year:2018-2025,type:article,has_abstract:true",
+      "openalex_count": 1117,
+      "notes_pt": "Contagem medida em 14/10/2026 com search= (texto completo). Busca booleana em título e resumo, com o mesmo filtro: filter=publication_year:2018-2025,type:article,has_abstract:true,title_and_abstract.search:(clickbait OR \"click-bait\" OR \"clickbait headlines\" OR \"forward-referencing headlines\" OR \"forward referencing\" OR \"curiosity gap\" OR \"misleading headline\" OR \"misleading headlines\") AND (experiment OR experimental OR participants OR respondents OR readers OR \"eye-tracking\" OR survey) retorna 275. A maior parte da literatura sobre clickbait é de detecção automática ou de análise linguística. A busca em título e resumo restrita a estudos com leitores traz 275 artigos, ainda com ruído. A revisão manual confirmou 18 artigos com dados de leitores ou usuários, todos com resumo no OpenAlex e tipo journal-article no Crossref."
+    },
+    "reference_set": [
+      {
+        "doi": "10.58729/1941-6679.1440",
+        "title": "Effects of Clickbait Headlines on User Responses: An Empirical Investigation",
+        "year": 2021,
+        "venue": "Journal of International Technology and Information Management",
+        "why_relevant_pt": "Experimento com manchetes tradicionais e clickbait sobre excitação, curiosidade e intenção de ler e de compartilhar."
+      },
+      {
+        "doi": "10.1108/oir-05-2018-0172",
+        "title": "Shocking secret you won’t believe! Emotional arousal in clickbait headlines",
+        "year": 2019,
+        "venue": "Online Information Review",
+        "why_relevant_pt": "Experimento com rastreamento ocular (dilatação pupilar) sobre a excitação emocional e a intenção de leitura provocadas por clickbait."
+      },
+      {
+        "doi": "10.1002/acp.4134",
+        "title": "You won't believe it! Truth judgments for clickbait headlines benefit (but less so) from prior exposure",
+        "year": 2023,
+        "venue": "Applied Cognitive Psychology",
+        "why_relevant_pt": "Dois experimentos (N = 241 e N = 291) sobre exposição prévia e julgamento de verdade de manchetes clickbait."
+      },
+      {
+        "doi": "10.1080/10447318.2022.2158262",
+        "title": "Attention Grabbing through Forward Reference: An ERP Study on Clickbait and Top News Stories",
+        "year": 2022,
+        "venue": "International Journal of Human-Computer Interaction",
+        "why_relevant_pt": "Estudo de EEG (N2b e P3a) sobre a atenção a manchetes clickbait com referência antecipada (forward reference)."
+      },
+      {
+        "doi": "10.1080/17512786.2019.1628658",
+        "title": "Aggregation, Clickbait and Their Effect on Perceptions of Journalistic Credibility and Quality",
+        "year": 2019,
+        "venue": "Journalism Practice",
+        "why_relevant_pt": "Dois experimentos on-line sobre agregação de notícias e clickbait na credibilidade e na qualidade percebidas."
+      },
+      {
+        "doi": "10.1109/tts.2021.3073464",
+        "title": "Clickbait-Trust and Credibility of Digital News",
+        "year": 2021,
+        "venue": "IEEE Transactions on Technology and Society",
+        "why_relevant_pt": "Experimento com 200 leitores dos EUA e da Índia sobre o efeito de manchetes clickbait na credibilidade das notícias."
+      },
+      {
+        "doi": "10.1089/cyber.2024.0295",
+        "title": "Decoding Clickbait: The Impact of Clickbait Types and Structures on Cognitive and Emotional Responses in Online Interactions",
+        "year": 2025,
+        "venue": "Cyberpsychology, Behavior, and Social Networking",
+        "why_relevant_pt": "EEG com 32 participantes sobre tipos e estruturas de clickbait e as respostas cognitivas e emocionais. Crossref registra 2025 e o OpenAlex, 2024."
+      },
+      {
+        "doi": "10.5897/jmcs2020.0715",
+        "title": "Clickbait-style headlines and journalism credibility in Sub-Saharan Africa: Exploring audience perceptions",
+        "year": 2021,
+        "venue": "Journal of Media and Communication Studies",
+        "why_relevant_pt": "Estudo experimental sobre como o público da África Subsaariana percebe manchetes no estilo clickbait e a credibilidade do jornalismo."
+      },
+      {
+        "doi": "10.1108/ajim-07-2020-0214",
+        "title": "“This Will Blow Your Mind”: examining the urge to click clickbaits",
+        "year": 2020,
+        "venue": "Aslib Journal of Information Management",
+        "why_relevant_pt": "Experimento entre participantes (N = 204) sobre o impulso de clicar em clickbait só com texto ou com miniatura."
+      },
+      {
+        "doi": "10.1080/10447318.2024.2323248",
+        "title": "“It is Luring You to Click on the Link With False Advertising” - Mental Models of Clickbait and Its Impact on User’s Perceptions and Behavior Towards Clickbait Warnings",
+        "year": 2024,
+        "venue": "International Journal of Human-Computer Interaction",
+        "why_relevant_pt": "Estudo on-line com 770 participantes sobre modelos mentais de clickbait e a reação a avisos."
+      },
+      {
+        "doi": "10.1080/17512786.2020.1793379",
+        "title": "Here’s What to Know About Clickbait: Effects of Image, Headline and Editing on Audience Attitudes",
+        "year": 2020,
+        "venue": "Journalism Practice",
+        "why_relevant_pt": "Experimento sobre estilo de manchete, imagens e edição na qualidade e na credibilidade percebidas e na memória da notícia."
+      },
+      {
+        "doi": "10.1080/10447318.2025.2464890",
+        "title": "This One Weird Trick Gets Users to Stop Clicking on Clickbait",
+        "year": 2025,
+        "venue": "International Journal of Human-Computer Interaction",
+        "why_relevant_pt": "Intervenções baseadas em persuasão contra cliques em clickbait, com estudo de laboratório e estudo on-line com 773 participantes."
+      },
+      {
+        "doi": "10.3389/fpsyg.2022.940903",
+        "title": "Superlatives, clickbaits, appeals to authority, poor grammar, or boldface: Is editorial style related to the credibility of online health messages?",
+        "year": 2022,
+        "venue": "Frontiers in Psychology",
+        "why_relevant_pt": "Experimento com 300 estudantes do ensino médio sobre elementos editoriais, entre eles o clickbait, na credibilidade de mensagens sobre frutas e verduras."
+      },
+      {
+        "doi": "10.1080/17512786.2020.1805794",
+        "title": "Headline Format Influences Evaluation of, but Not Engagement with, Environmental News",
+        "year": 2020,
+        "venue": "Journalism Practice",
+        "why_relevant_pt": "Experimento com manchetes tradicionais, com referência antecipada e em forma de pergunta em notícias ambientais."
+      },
+      {
+        "doi": "10.1371/journal.pone.0266743",
+        "title": "Click me…! The influence of clickbait on user engagement in social media and the role of digital nudging",
+        "year": 2022,
+        "venue": "PLOS ONE",
+        "why_relevant_pt": "Análise de mais de 4.400 posts de notícias no Facebook sobre como traços de clickbait afetam curtidas, compartilhamentos e comentários."
+      },
+      {
+        "doi": "10.46407/kjci.2020.08.102.160",
+        "title": "How Do Clickbait News Affect Intentions to Use News in General?",
+        "year": 2020,
+        "venue": "Korean Journal of Communication & Information",
+        "why_relevant_pt": "Experimento on-line com cerca de 500 usuários de notícias sobre o efeito do clickbait na avaliação de outras notícias; resumo em coreano."
+      },
+      {
+        "doi": "10.1108/intr-09-2019-0373",
+        "title": "Seeing is not always believing: an exploratory study of clickbait in WeChat",
+        "year": 2020,
+        "venue": "Internet Research",
+        "why_relevant_pt": "Dados longitudinais de mais de 500 contas oficiais do WeChat sobre traços retóricos de clickbait e cliques dos usuários."
+      },
+      {
+        "doi": "10.3390/info16020150",
+        "title": "AI vs. Human-Authored Headlines: Evaluating the Effectiveness, Trust, and Linguistic Features of ChatGPT-Generated Clickbait and Informative Headlines in Digital News",
+        "year": 2025,
+        "venue": "Information",
+        "why_relevant_pt": "Avaliação de manchetes clickbait e informativas, escritas por pessoas ou geradas por IA, por 624 estudantes romenos."
+      }
+    ],
+    "traps_pt": "Trazer modelos de detecção de clickbait, que são a maior parte da literatura (e o Webis Clickbait Challenge, que saiu em anais). Incluir análises pragmáticas ou linguísticas de manchetes sem leitores (por exemplo, no Journal of Pragmatics e no Pragmatics Quarterly). Trazer estudos com recorte político, como Munger et al. (2020, Public Opinion Quarterly) ou o experimento italiano no Journal of Experimental Political Science (2021). Incluir a meta-análise de testes A/B de manchetes (Scientific Reports, 2025). Citar anais da AMCIS ou da ACM que não são journal-article.",
+    "n_wanted": 25
+  }
+]

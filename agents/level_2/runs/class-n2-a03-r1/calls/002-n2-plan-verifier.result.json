@@ -1,0 +1,32 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Tema coberto: desinformação/fake news E educação midiática/competência em informação aparecem como duplo foco no critério 1 e nas consultas em inglês e português",
+      "Contexto do ensino formal coberto: critério 2 exige escola/universidade e exclui público geral, comunitário ou não escolar",
+      "Recorte geográfico coberto: critério 3 exige estudo no Brasil e admite comparativos internacionais só com amostra brasileira explícita",
+      "Período coberto: 2018 a 2025 definido no critério 4, com regra para divergência entre ano online e ano do fascículo",
+      "Tipo de publicação coberto: critério 5 exclui preprints, anais, capítulos, teses e resenhas, com verificação via metadados Crossref (type = journal-article)",
+      "Tipo de estudo coberto: critério 6 exige dados próprios (questionário, entrevista, grupo focal, intervenção, análise documental) e exclui revisões, meta-análises e ensaios",
+      "Objeto coberto: estudantes, professores, aulas, currículos ou livros didáticos no critério 7",
+      "Exclusões temáticas cobertas: COVID-19, vacinas, eleições e política partidária no critério 8 e na checagem por título, resumo e palavras-chave",
+      "Dados por artigo cobertos: DOI, título, autores, ano, periódico, método, tamanho da amostra literal do resumo, achado em uma frase e trecho literal entre aspas no critério 9 e em how_to_check",
+      "Consultas bilíngues: há consultas em inglês e em português em OpenAlex, Crossref e SciELO, além de uma busca na web em repositórios brasileiros",
+      "Verificação concreta: how_to_check tem um passo verificável por critério, incluindo resolução de DOI, cópia literal do trecho e deduplicação",
+      "Meta e margem: 25 artigos aprovados com busca de 40 a 50 candidatos e instrução de ampliar sinônimos se faltar material"
+    ],
+    "issues": [],
+    "feedback": "Plano aprovado. Sugestões para a execução: aplique filtro de ano 2018 a 2025 diretamente nas consultas de OpenAlex e Crossref para reduzir descartes depois; na consulta 8, a sintaxe com OR solto e operadores site: pode falhar em buscadores comuns, então rode as partes separadamente se necessário; e na exclusão temática de eleições e COVID, fique atento a artigos que citam esses assuntos apenas como contexto, pois eles podem ser mantidos se o foco do estudo for desinformação e educação midiática no ensino formal."
+  },
+  "text": "{\"approved\": true, \"checked\": [\"Tema coberto: desinformação/fake news E educação midiática/competência em informação aparecem como duplo foco no critério 1 e nas consultas em inglês e português\", \"Contexto do ensino formal coberto: critério 2 exige escola/universidade e exclui público geral, comunitário ou não escolar\", \"Recorte geográfico coberto: critério 3 exige estudo no Brasil e admite comparativos internacionais só com amostra brasileira explícita\", \"Período coberto: 2018 a 2025 definido no critério 4, com regra para divergência entre ano online e ano do fascículo\", \"Tipo de publicação coberto: critério 5 exclui preprints, anais, capítulos, teses e resenhas, com verificação via metadados Crossref (type = journal-article)\", \"Tipo de estudo coberto: critério 6 exige dados próprios (questionário, entrevista, grupo focal, intervenção, análise documental) e exclui revisões, meta-análises e ensaios\", \"Objeto coberto: estudantes, professores, aulas, currículos ou livros didáticos no critério 7\", \"Exclusões temáticas cobertas: COVID-19, vacinas, eleições e política partidária no critério 8 e na checagem por título, resumo e palavras-chave\", \"Dados por artigo cobertos: DOI, título, autores, ano, periódico, método, tamanho da amostra literal do resumo, achado em uma frase e trecho literal entre aspas no critério 9 e em how_to_check\", \"Consultas bilíngues: há consultas em inglês e em português em OpenAlex, Crossref e SciELO, além de uma busca na web em repositórios brasileiros\", \"Verificação concreta: how_to_check tem um passo verificável por critério, incluindo resolução de DOI, cópia literal do trecho e deduplicação\", \"Meta e margem: 25 artigos aprovados com busca de 40 a 50 candidatos e instrução de ampliar sinônimos se faltar material\"], \"issues\": [], \"feedback\": \"Plano aprovado. Sugestões para a execução: aplique filtro de ano 2018 a 2025 diretamente nas consultas de OpenAlex e Crossref para reduzir descartes depois; na consulta 8, a sintaxe com OR solto e operadores site: pode falhar em buscadores comuns, então rode as partes separadamente se necessário; e na exclusão temática de eleições e COVID, fique atento a artigos que citam esses assuntos apenas como contexto, pois eles podem ser mantidos se o foco do estudo for desinformação e educação midiática no ensino formal.\"}",
+  "usage": {
+    "input_tokens": 2316,
+    "output_tokens": 708,
+    "cost_usd": 0.0007
+  },
+  "duration_s": 6.29,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

@@ -1,0 +1,98 @@
+{
+  "structured": {
+    "year_from": 2018,
+    "year_to": 2025,
+    "queries_en": [
+      "Brazilian fact-checking organizations",
+      "fact-checking agencies Brazil Lupa Aos Fatos",
+      "Brazil fact-checkers routines interviews",
+      "fact-checking methods transparency Brazil",
+      "fact-checking funding sustainability Brazil Latin America",
+      "artificial intelligence fact-checking Brazilian organizations",
+      "Comprova collaborative fact-checking Brazil",
+      "fact-checking sources criteria Brazilian journalism",
+      "Latin American fact-checkers comparative study",
+      "Estadão Verifica Fato ou Fake content analysis"
+    ],
+    "queries_pt": [
+      "agências de checagem brasileiras",
+      "jornalismo de checagem Lupa Aos Fatos",
+      "rotinas produtivas checagem de fatos",
+      "metodologia e transparência fact-checking Brasil",
+      "inteligência artificial checagem de fatos",
+      "financiamento das agências de fact-checking"
+    ],
+    "include": [
+      "Artigo de periódico revisado por pares publicado entre 2018 e 2025",
+      "Estudo empírico com dados próprios (entrevistas, questionários, análise de conteúdo ou análise documental)",
+      "Objeto: prática de organizações de checagem brasileiras (Agência Lupa, Aos Fatos, Estadão Verifica, Fato ou Fake, Comprova, UOL Confere, etc.)",
+      "Estudos comparativos internacionais que incluam explicitamente organizações brasileiras",
+      "Foco em rotinas, métodos, critérios de seleção, fontes, transparência, financiamento, modelo de negócio ou uso de inteligência artificial/automação pelas organizações",
+      "Texto em português, inglês ou espanhol"
+    ],
+    "exclude": [
+      "Estudos centrados em eleições ou campanhas eleitorais",
+      "Estudos centrados em governos específicos (ex.: governo Bolsonaro) ou figuras políticas específicas",
+      "Estudos centrados na pandemia de COVID-19 ou vacinas",
+      "Estudos sobre o efeito das checagens no público, crenças, percepção ou correção de desinformação",
+      "Revisões de literatura, revisões sistemáticas e meta-análises",
+      "Ensaios teóricos ou conceituais sem dados empíricos próprios",
+      "Preprints, trabalhos de anais de congresso, capítulos de livro, teses, dissertações e resenhas",
+      "Estudos que não incluam organizações brasileiras de checagem",
+      "Estudos sobre desinformação em geral sem foco nas organizações de checagem",
+      "Estudos puramente técnicos de desenvolvimento de algoritmos de detecção sem análise da prática das organizações"
+    ]
+  },
+  "text": "{\"year_from\":2018,\"year_to\":2025,\"queries_en\":[\"Brazilian fact-checking organizations\",\"fact-checking agencies Brazil Lupa Aos Fatos\",\"Brazil fact-checkers routines interviews\",\"fact-checking methods transparency Brazil\",\"fact-checking funding sustainability Brazil Latin America\",\"artificial intelligence fact-checking Brazilian organizations\",\"Comprova collaborative fact-checking Brazil\",\"fact-checking sources criteria Brazilian journalism\",\"Latin American fact-checkers comparative study\",\"Estadão Verifica Fato ou Fake content analysis\"],\"queries_pt\":[\"agências de checagem brasileiras\",\"jornalismo de checagem Lupa Aos Fatos\",\"rotinas produtivas checagem de fatos\",\"metodologia e transparência fact-checking Brasil\",\"inteligência artificial checagem de fatos\",\"financiamento das agências de fact-checking\"],\"include\":[\"Artigo de periódico revisado por pares publicado entre 2018 e 2025\",\"Estudo empírico com dados próprios (entrevistas, questionários, análise de conteúdo ou análise documental)\",\"Objeto: prática de organizações de checagem brasileiras (Agência Lupa, Aos Fatos, Estadão Verifica, Fato ou Fake, Comprova, UOL Confere, etc.)\",\"Estudos comparativos internacionais que incluam explicitamente organizações brasileiras\",\"Foco em rotinas, métodos, critérios de seleção, fontes, transparência, financiamento, modelo de negócio ou uso de inteligência artificial/automação pelas organizações\",\"Texto em português, inglês ou espanhol\"],\"exclude\":[\"Estudos centrados em eleições ou campanhas eleitorais\",\"Estudos centrados em governos específicos (ex.: governo Bolsonaro) ou figuras políticas específicas\",\"Estudos centrados na pandemia de COVID-19 ou vacinas\",\"Estudos sobre o efeito das checagens no público, crenças, percepção ou correção de desinformação\",\"Revisões de literatura, revisões sistemáticas e meta-análises\",\"Ensaios teóricos ou conceituais sem dados empíricos próprios\",\"Preprints, trabalhos de anais de congresso, capítulos de livro, teses, dissertações e resenhas\",\"Estudos que não incluam organizações brasileiras de checagem\",\"Estudos sobre desinformação em geral sem foco nas organizações de checagem\",\"Estudos puramente técnicos de desenvolvimento de algoritmos de detecção sem análise da prática das organizações\"]}",
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 392,
+    "cache_read_input_tokens": 1736,
+    "output_tokens": 1037,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 392,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 1037,
+        "cache_read_input_tokens": 1736,
+        "cache_creation_input_tokens": 392,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 392
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 2,
+  "duration_s": 10.56,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "year_from": "2018",
+        "year_to": "2025",
+        "queries_en": "[\"Brazilian fact-checking organizations\", \"fact-checking agencies Brazil Lupa Aos Fatos\", \"Brazil fact-checkers routines interviews\", \"fact-checking methods transparency Brazil\", \"fact-checking fundi…",
+        "queries_pt": "[\"agências de checagem brasileiras\", \"jornalismo de checagem Lupa Aos Fatos\", \"rotinas produtivas checagem de fatos\", \"metodologia e transparência fact-checking Brasil\", \"inteligência artificial chec…",
+        "include": "[\"Artigo de periódico revisado por pares publicado entre 2018 e 2025\", \"Estudo empírico com dados próprios (entrevistas, questionários, análise de conteúdo ou análise documental)\", \"Objeto: prática d…",
+        "exclude": "[\"Estudos centrados em eleições ou campanhas eleitorais\", \"Estudos centrados em governos específicos (ex.: governo Bolsonaro) ou figuras políticas específicas\", \"Estudos centrados na pandemia de COVI…"
+      }
+    }
+  ]
+}

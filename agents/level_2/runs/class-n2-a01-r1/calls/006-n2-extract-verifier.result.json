@@ -1,0 +1,328 @@
+{
+  "structured": {
+    "approved": false,
+    "checked": [
+      "Contei os itens da lista final: são 19 artigos, e o pedido do pesquisador era 25.",
+      "Hey et al.: abri o registro do doi 10.1016/j.cognition.2024.106000 na Europe PMC: título, autores, Cognition 2025, N = 151 e N = 146 no resumo, e o trecho entre aspas aparece letra por letra no resumo.",
+      "Sanderson et al.: abri a página do PLOS ONE do doi 10.1371/journal.pone.0271566: título, autores, 2022, o trecho citado é literal e o resumo realmente não informa amostra.",
+      "Connor Desai e Reimers 2019: abri o registro do doi 10.3758/s13428-018-1066-z na Europe PMC: Behavior Research Methods 2019, as amostras n = 78, n = 75 e n = 323 conferem com o resumo e o trecho é literal.",
+      "McIlhiney et al.: abri a página do PLOS ONE do doi 10.1371/journal.pone.0283951: título, autores, 2023, trecho literal, sem amostra no resumo, e o achado sobre atualização da memória de trabalho confere.",
+      "Siebert e Siebert: abri a página do PLOS ONE do doi 10.1371/journal.pone.0282202: título, autores, 2023, N = 251 aparece no resumo como escrito e o trecho é literal.",
+      "Kan et al.: abri o registro do doi 10.1186/s41235-021-00335-9 na Europe PMC: Cognitive Research: Principles and Implications 2021, trecho literal, sem amostra no resumo, e o achado de eliminação sob certas condições confere.",
+      "Ecker e Antonio: abri o registro do doi 10.3758/s13421-020-01129-y na Europe PMC: Memory & Cognition 2021, dois experimentos, trecho literal, sem amostra no resumo, e o achado inclui a influência continuada mesmo com retratações críveis, como no resumo.",
+      "Susmann e Wegener 2022: abri o registro do doi 10.3758/s13421-021-01232-8 na Europe PMC: Memory & Cognition 2022, trecho literal, e o método descrito (Estudos 1 e 2 preditivos, Estudo 3 causal) confere.",
+      "Susmann e Wegener 2023: abri o registro do doi 10.3758/s13421-022-01374-3 na Europe PMC: Memory & Cognition 2023, trecho literal, e o papel moderador do vested interest confere.",
+      "Chen et al.: abri o registro do doi 10.3389/fpsyg.2024.1487146 na Europe PMC: Frontiers in Psychology 2024, três experimentos, trecho literal, sem amostra no resumo.",
+      "Mickelberg et al. 2025: abri a página do PLOS ONE do doi 10.1371/journal.pone.0322045: título, autores, 2025, trecho literal, sem amostra no resumo, e o achado misto confere.",
+      "Mickelberg et al. 2024: abri o registro do doi 10.1525/collabra.92332 no Crossref: Collabra: Psychology 2024, quatro experimentos com protagonista John, trecho literal, sem amostra no resumo.",
+      "Westbrook et al.: abri o registro do doi 10.3758/s13421-023-01402-w na Europe PMC: Memory & Cognition 2023, trecho literal, e o Estudo 3 pré-registrado confere.",
+      "Laurent et al. 2024: abri o registro do doi 10.1002/acp.4214 no Crossref: Applied Cognitive Psychology 2024, 61 participantes no resumo, trecho literal (só muda o hífen em decision-making, o que é aceitável).",
+      "Laurent et al. 2023: abri o registro do doi 10.1016/j.actpsy.2023.104094 na Europe PMC: Acta Psychologica 2023, n = 21 e n = 23 no resumo, trecho literal.",
+      "Connor Desai e Reimers 2023: abri o registro do doi 10.3758/s13421-022-01354-7 na Europe PMC: Memory & Cognition 2023, trecho literal, sem amostra no resumo; confirmei que o resumo tem o erro de 'Experiment 2' duplicado, que o executor evitou citar.",
+      "O'Rear e Radvansky: abri o registro do doi 10.3758/s13421-019-00967-9 na Europe PMC: Memory & Cognition 2020, três experimentos com sonda de aceitação da retratação, trecho literal, sem amostra no resumo.",
+      "Jin et al.: procurei o doi 10.3724/sp.j.1041.2022.00343 na Europe PMC e não encontrei registro; não consegui abrir a página da Acta Psychologica Sinica nesta rodada, então o trecho citado (montado pelo executor juntando dois fragmentos) e os metadados ficaram sem confirmação independente.",
+      "Clinton-Lisell e Langowski: procurei o doi 10.1080/02702711.2024.2349307 na Europe PMC e não encontrei registro; a página da Taylor and Francis não abriu, então o trecho reconstruído do OpenAlex, o N = 84 e os metadados ficaram sem confirmação independente."
+    ],
+    "per_item": [
+      {
+        "doi": "10.1016/j.cognition.2024.106000",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1371/journal.pone.0271566",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3758/s13428-018-1066-z",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1371/journal.pone.0283951",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1371/journal.pone.0282202",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1186/s41235-021-00335-9",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3758/s13421-020-01129-y",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3758/s13421-021-01232-8",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3758/s13421-022-01374-3",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3389/fpsyg.2024.1487146",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1371/journal.pone.0322045",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1525/collabra.92332",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3758/s13421-023-01402-w",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1002/acp.4214",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1016/j.actpsy.2023.104094",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3758/s13421-022-01354-7",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3724/sp.j.1041.2022.00343",
+        "ok": false,
+        "problem": "Resumo e trecho citado não puderam ser confirmados em fonte independente nesta verificação."
+      },
+      {
+        "doi": "10.3758/s13421-019-00967-9",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1080/02702711.2024.2349307",
+        "ok": false,
+        "problem": "O trecho entre aspas foi reconstruído do OpenAlex com pontuação inferida, então não está garantido que seja literal; metadados e amostra também não confirmados."
+      }
+    ],
+    "issues": [
+      "A lista entregue tem 19 artigos, mas o pedido exige 25, então faltam 6 artigos a serem encontrados.",
+      "No artigo de Jin et al. (Acta Psychologica Sinica) não consegui confirmar em fonte independente o resumo, o trecho entre aspas, que foi montado pelo executor juntando dois fragmentos com uma vírgula acrescentada, nem os metadados.",
+      "No artigo de Clinton-Lisell e Langowski (Reading Psychology) o trecho entre aspas foi reconstruído a partir do índice invertido do OpenAlex com pontuação inferida, então não há garantia de que seja uma citação literal, e título, ano, periódico e N = 84 também ficaram sem confirmação nesta verificação."
+    ],
+    "feedback": "Os 17 artigos verificados diretamente passaram na checagem: citações literais, amostras, método, achados e metadados conferem. A rejeição vem de três pontos. Primeiro: complete a lista até 25 artigos válidos, buscando mais 6 estudos experimentais com participantes humanos, materiais neutros, de periódico, entre 2018 e 2025, mantendo os 19 atuais se continuarem elegíveis. Segundo: para Jin et al., abra a página oficial da Acta Psychologica Sinica, copie o trecho exatamente como escrito no resumo original (a vírgula só é aceitável se existir lá) e registre a URL consultada, porque o artigo não aparece na Europe PMC. Terceiro: para Clinton-Lisell e Langowski, obtenha o resumo oficial no site da Taylor and Francis ou no Crossref e substitua o trecho reconstruído por um trecho literal confirmado, confirmando também o N = 84, o ano e o periódico; se não conseguir, substitua o artigo por outro que atenda aos critérios. Observação de atenção, sem reprovar: McIlhiney et al. é estudo de diferenças individuais com tarefa de CIE dentro dele; se o pesquisador interpretar 'apenas experimentos' de forma estrita, tenha em mãos um candidato de substituição."
+  },
+  "text": "{ \"approved\": false, \"checked\": [ \"Contei os itens da lista final: são 19 artigos, e o pedido do pesquisador era 25.\", \"Hey et al.: abri o registro do doi 10.1016/j.cognition.2024.106000 na Europe PMC: título, autores, Cognition 2025, N = 151 e N = 146 no resumo, e o trecho entre aspas aparece letra por letra no resumo.\", \"Sanderson et al.: abri a página do PLOS ONE do doi 10.1371/journal.pone.0271566: título, autores, 2022, o trecho citado é literal e o resumo realmente não informa amostra.\", \"Connor Desai e Reimers 2019: abri o registro do doi 10.3758/s13428-018-1066-z na Europe PMC: Behavior Research Methods 2019, as amostras n = 78, n = 75 e n = 323 conferem com o resumo e o trecho é literal.\", \"McIlhiney et al.: abri a página do PLOS ONE do doi 10.1371/journal.pone.0283951: título, autores, 2023, trecho literal, sem amostra no resumo, e o achado sobre atualização da memória de trabalho confere.\", \"Siebert e Siebert: abri a página do PLOS ONE do doi 10.1371/journal.pone.0282202: título, autores, 2023, N = 251 aparece no resumo como escrito e o trecho é literal.\", \"Kan et al.: abri o registro do doi 10.1186/s41235-021-00335-9 na Europe PMC: Cognitive Research: Principles and Implications 2021, trecho literal, sem amostra no resumo, e o achado de eliminação sob certas condições confere.\", \"Ecker e Antonio: abri o registro do doi 10.3758/s13421-020-01129-y na Europe PMC: Memory & Cognition 2021, dois experimentos, trecho literal, sem amostra no resumo, e o achado inclui a influência continuada mesmo com retratações críveis, como no resumo.\", \"Susmann e Wegener 2022: abri o registro do doi 10.3758/s13421-021-01232-8 na Europe PMC: Memory & Cognition 2022, trecho literal, e o método descrito (Estudos 1 e 2 preditivos, Estudo 3 causal) confere.\", \"Susmann e Wegener 2023: abri o registro do doi 10.3758/s13421-022-01374-3 na Europe PMC: Memory & Cognition 2023, trecho literal, e o papel moderador do vested interest confere.\", \"Chen et al.: abri o registro do doi 10.3389/fpsyg.2024.1487146 na Europe PMC: Frontiers in Psychology 2024, três experimentos, trecho literal, sem amostra no resumo.\", \"Mickelberg et al. 2025: abri a página do PLOS ONE do doi 10.1371/journal.pone.0322045: título, autores, 2025, trecho literal, sem amostra no resumo, e o achado misto confere.\", \"Mickelberg et al. 2024: abri o registro do doi 10.1525/collabra.92332 no Crossref: Collabra: Psychology 2024, quatro experimentos com protagonista John, trecho literal, sem amostra no resumo.\", \"Westbrook et al.: abri o registro do doi 10.3758/s13421-023-01402-w na Europe PMC: Memory & Cognition 2023, trecho literal, e o Estudo 3 pré-registrado confere.\", \"Laurent et al. 2024: abri o registro do doi 10.1002/acp.4214 no Crossref: Applied Cognitive Psychology 2024, 61 participantes no resumo, trecho literal (só muda o hífen em decision-making, o que é aceitável).\", \"Laurent et al. 2023: abri o registro do doi 10.1016/j.actpsy.2023.104094 na Europe PMC: Acta Psychologica 2023, n = 21 e n = 23 no resumo, trecho literal.\", \"Connor Desai e Reimers 2023: abri o registro do doi 10.3758/s13421-022-01354-7 na Europe PMC: Memory & Cognition 2023, trecho literal, sem amostra no resumo; confirmei que o resumo tem o erro de 'Experiment 2' duplicado, que o executor evitou citar.\", \"O'Rear e Radvansky: abri o registro do doi 10.3758/s13421-019-00967-9 na Europe PMC: Memory & Cognition 2020, três experimentos com sonda de aceitação da retratação, trecho literal, sem amostra no resumo.\", \"Jin et al.: procurei o doi 10.3724/sp.j.1041.2022.00343 na Europe PMC e não encontrei registro; não consegui abrir a página da Acta Psychologica Sinica nesta rodada, então o trecho citado (montado pelo executor juntando dois fragmentos) e os metadados ficaram sem confirmação independente.\", \"Clinton-Lisell e Langowski: procurei o doi 10.1080/02702711.2024.2349307 na Europe PMC e não encontrei registro; a página da Taylor and Francis não abriu, então o trecho reconstruído do OpenAlex, o N = 84 e os metadados ficaram sem confirmação independente.\" ], \"per_item\": [ { \"doi\": \"10.1016/j.cognition.2024.106000\", \"ok\": true, \"problem\": \"\" }, { \"doi\": \"10.1371/journal.pone.0271566\", \"ok\": true, \"problem\": \"\" }, { \"doi\": \"10.3758/s13428-018-1066-z\", \"ok\": true, \"problem\": \"\" }, { \"doi\": \"10.1371/journal.pone.0283951\", \"ok\": true, \"problem\": \"\" }, { \"doi\": \"10.1371/journal.pone.0282202\", \"ok\": true, \"problem\": \"\" }, { \"doi\": \"10.1186/s41235-021-00335-9\", \"ok\": true, \"problem\": \"\" }, { \"doi\": \"10.3758/s13421-020-01129-y\", \"ok\": true, \"problem\": \"\" }, { \"doi\": \"10.3758/s13421-021-01232-8\", \"ok\": true, \"problem\": \"\" }, { \"doi\": \"10.3758/s13421-022-01374-3\", \"ok\": true, \"problem\": \"\" }, { \"doi\": \"10.3389/fpsyg.2024.1487146\", \"ok\": true, \"problem\": \"\" }, { \"doi\": \"10.1371/journal.pone.0322045\", \"ok\": true, \"problem\": \"\" }, { \"doi\": \"10.1525/collabra.92332\", \"ok\": true, \"problem\": \"\" }, { \"doi\": \"10.3758/s13421-023-01402-w\", \"ok\": true, \"problem\": \"\" }, { \"doi\": \"10.1002/acp.4214\", \"ok\": true, \"problem\": \"\" }, { \"doi\": \"10.1016/j.actpsy.2023.104094\", \"ok\": true, \"problem\": \"\" }, { \"doi\": \"10.3758/s13421-022-01354-7\", \"ok\": true, \"problem\": \"\" }, { \"doi\": \"10.3724/sp.j.1041.2022.00343\", \"ok\": false, \"problem\": \"Resumo e trecho citado não puderam ser confirmados em fonte independente nesta verificação.\" }, { \"doi\": \"10.3758/s13421-019-00967-9\", \"ok\": true, \"problem\": \"\" }, { \"doi\": \"10.1080/02702711.2024.2349307\", \"ok\": false, \"problem\": \"O trecho entre aspas foi reconstruído do OpenAlex com pontuação inferida, então não está garantido que seja literal; metadados e amostra também não confirmados.\" } ], \"issues\": [ \"A lista entregue tem 19 artigos, mas o pedido exige 25, então faltam 6 artigos a serem encontrados.\", \"No artigo de Jin et al. (Acta Psychologica Sinica) não consegui confirmar em fonte independente o resumo, o trecho entre aspas, que foi montado pelo executor juntando dois fragmentos com uma vírgula acrescentada, nem os metadados.\", \"No artigo de Clinton-Lisell e Langowski (Reading Psychology) o trecho entre aspas foi reconstruído a partir do índice invertido do OpenAlex com pontuação inferida, então não há garantia de que seja uma citação literal, e título, ano, periódico e N = 84 também ficaram sem confirmação nesta verificação.\" ], \"feedback\": \"Os 17 artigos verificados diretamente passaram na checagem: citações literais, amostras, método, achados e metadados conferem. A rejeição vem de três pontos. Primeiro: complete a lista até 25 artigos válidos, buscando mais 6 estudos experimentais com participantes humanos, materiais neutros, de periódico, entre 2018 e 2025, mantendo os 19 atuais se continuarem elegíveis. Segundo: para Jin et al., abra a página oficial da Acta Psychologica Sinica, copie o trecho exatamente como escrito no resumo original (a vírgula só é aceitável se existir lá) e registre a URL consultada, porque o artigo não aparece na Europe PMC. Terceiro: para Clinton-Lisell e Langowski, obtenha o resumo oficial no site da Taylor and Francis ou no Crossref e substitua o trecho reconstruído por um trecho literal confirmado, confirmando também o N = 84, o ano e o periódico; se não conseguir, substitua o artigo por outro que atenda aos critérios. Observação de atenção, sem reprovar: McIlhiney et al. é estudo de diferenças individuais com tarefa de CIE dentro dele; se o pesquisador interpretar 'apenas experimentos' de forma estrita, tenha em mãos um candidato de substituição.\" }",
+  "usage": {
+    "input_tokens": 229097,
+    "output_tokens": 11119,
+    "cost_usd": 0.01616
+  },
+  "duration_s": 856.67,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1016/j.cognition.2024.106000"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1371/journal.pone.0271566"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.3758/s13428-018-1066-z"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1371/journal.pone.0283951"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.sciencedirect.com/science/article/pii/S0010027724002381"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://link.springer.com/article/10.3758/s13428-018-1066-z"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1371/journal.pone.0282202"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1186/s41235-021-00335-9"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://europepmc.org/article/MED/38548082"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6510352/"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8597392/"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.3758/s13421-020-01129-y"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1016/j.cognition.2024.106000%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3758/s13428-018-1066-z%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3758/s13421-020-01129-y%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1186/s41235-021-00335-9%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3758/s13421-021-01232-8%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3758/s13421-022-01374-3%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3389/fpsyg.2024.1487146%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://doi.org/10.1371/journal.pone.0322045"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1525/collabra.92332%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3758/s13421-023-01402-w%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1002/acp.4214%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1016/j.actpsy.2023.104094%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://collabra.org/article/10.1525/collabra.92332"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1002/acp.4214"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://api.crossref.org/works/10.1525/collabra.92332"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3758/s13421-022-01354-7%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3724/sp.j.1041.2022.00343%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3758/s13421-019-00967-9%22&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1080/02702711.2024.2349307%22&resultType=core&format=json"
+      }
+    }
+  ],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

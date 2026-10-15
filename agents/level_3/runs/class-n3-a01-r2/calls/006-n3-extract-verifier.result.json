@@ -1,0 +1,162 @@
+{
+  "structured": {
+    "approved": false,
+    "checked": [
+      "Conferi os 25 resumos fornecidos contra os 25 itens extraídos, um a um.",
+      "Conferi que o tipo de estudo e o método de cada item correspondem ao descrito no resumo (por exemplo, C11 e C48 são dois experimentos; C08 são três estudos; C02 são quatro experimentos; C18 são três experimentos).",
+      "Conferi os tamanhos de amostra declarados: C48 (N = 151, N = 146), C07 (N = 441), C42 (college students, N = 84) e C40 (61 participants) batem com os resumos; nos demais itens o resumo realmente não informa n e o campo está preenchido corretamente como não informado.",
+      "Conferi que cada achado principal corresponde ao que o resumo afirma, sem exageros: por exemplo, C02 relata desconto total da desinformação, C18 relata evidência mista em um de três experimentos, C40 relata ausência de CIE com efeito de supercorreção, C30 relata interação entre valência e estilo expressivo, todos corretos.",
+      "Conferi que nenhum item acrescenta alegação política, eleitoral, de vacina ou de COVID-19: os resumos descrevem cenários fictícios, notícias inventadas, impressões de pessoas fictícias e cenários militares, compatíveis com a restrição de materiais neutros.",
+      "Conferi que as citações literais de todos os 25 itens constam verbatim nos resumos correspondentes (conferência palavra por palavra).",
+      "Conferi que nenhum item é revisão, meta-análise ou ensaio teórico pelo teor dos resumos: todos relatam dados próprios com participantes.",
+      "Identifiquei que C13, C80, C43 e C94 são estudos de diferenças individuais, correlacionais ou de teste-reteste, e não experimentos com manipulação de correção, o que conflita com a restrição do pedido.",
+      "Identifiquei que C14 reporta apenas o n do Experimento 1A (n = 78), enquanto o resumo informa também Exp. 1B (n = 75) e Exps. 2A e 2B (n = 323)."
+    ],
+    "per_item": [
+      {
+        "id": "C11",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C48",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C22",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C23",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C07",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C01",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C09",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C08",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C14",
+        "ok": true,
+        "problem": "Amostra incompleta: o resumo informa n = 78 (Exp. 1A), n = 75 (Exp. 1B) e n = 323 (Exps. 2A e 2B), mas o campo traz só o primeiro."
+      },
+      {
+        "id": "C04",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C21",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C26",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C02",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C18",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C46",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C03",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C13",
+        "ok": false,
+        "problem": "Estudo correlacional de diferenças individuais com modelagem de variáveis latentes, não é experimento com manipulação de correção, violando a restrição 'apenas experimentos' do pedido."
+      },
+      {
+        "id": "C80",
+        "ok": false,
+        "problem": "Estudo de teste-reteste de estabilidade, sem manipulação experimental relevante, viola a restrição 'apenas experimentos' do pedido."
+      },
+      {
+        "id": "C16",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C29",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C30",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C42",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C43",
+        "ok": false,
+        "problem": "Estudo de diferenças individuais correlacional (funções executivas medidas, não manipuladas), viola a restrição 'apenas experimentos' do pedido."
+      },
+      {
+        "id": "C94",
+        "ok": false,
+        "problem": "Estudo de diferenças individuais correlacional (memória de trabalho medida, não manipulada), viola a restrição 'apenas experimentos' do pedido."
+      },
+      {
+        "id": "C40",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [
+      "C13: o próprio campo study_type admite que é estudo correlacional, mas o pedido exige apenas experimentos, então o item não atende ao critério.",
+      "C80: é um estudo de teste-reteste de estabilidade da sensibilidade à retratação, sem manipulação de correção entre condições, e por isso não é experimento no sentido exigido.",
+      "C43: mede funções executivas e relaciona com o CIE, desenho correlacional e não experimental, em conflito com a restrição do pedido.",
+      "C94: mesmo problema de C43, relação entre capacidade de memória de trabalho medida e CIE, sem manipulação experimental do fator de interesse.",
+      "C14: o campo de amostra traz só 'Exp. 1A, n = 78', mas o resumo informa também n = 75 no Exp. 1B e n = 323 nos Exps. 2A e 2B, então a amostra não está exatamente como aparece no resumo."
+    ],
+    "feedback": "Substitua C13, C80, C43 e C94 por estudos com desenho experimental (manipulação de correção, retratação, credibilidade de fonte ou intervenção equivalente) para manter os 25 artigos dentro do critério 'apenas experimentos'. Corrija o campo de amostra de C14 para incluir todos os ns do resumo, por exemplo: Exp. 1A n = 78; Exp. 1B n = 75; Exps. 2A e 2B n = 323. Os demais 20 itens estão corretos em tipo de estudo, método, amostra, achado principal e citação literal, e podem ser mantidos como estão. Não é preciso mexer em DOI, título, autores, ano e periódico, pois esses campos serão preenchidos depois pelo código a partir do Crossref."
+  },
+  "text": "{\"approved\": false, \"checked\": [\"Conferi os 25 resumos fornecidos contra os 25 itens extraídos, um a um.\", \"Conferi que o tipo de estudo e o método de cada item correspondem ao descrito no resumo (por exemplo, C11 e C48 são dois experimentos; C08 são três estudos; C02 são quatro experimentos; C18 são três experimentos).\", \"Conferi os tamanhos de amostra declarados: C48 (N = 151, N = 146), C07 (N = 441), C42 (college students, N = 84) e C40 (61 participants) batem com os resumos; nos demais itens o resumo realmente não informa n e o campo está preenchido corretamente como não informado.\", \"Conferi que cada achado principal corresponde ao que o resumo afirma, sem exageros: por exemplo, C02 relata desconto total da desinformação, C18 relata evidência mista em um de três experimentos, C40 relata ausência de CIE com efeito de supercorreção, C30 relata interação entre valência e estilo expressivo, todos corretos.\", \"Conferi que nenhum item acrescenta alegação política, eleitoral, de vacina ou de COVID-19: os resumos descrevem cenários fictícios, notícias inventadas, impressões de pessoas fictícias e cenários militares, compatíveis com a restrição de materiais neutros.\", \"Conferi que as citações literais de todos os 25 itens constam verbatim nos resumos correspondentes (conferência palavra por palavra).\", \"Conferi que nenhum item é revisão, meta-análise ou ensaio teórico pelo teor dos resumos: todos relatam dados próprios com participantes.\", \"Identifiquei que C13, C80, C43 e C94 são estudos de diferenças individuais, correlacionais ou de teste-reteste, e não experimentos com manipulação de correção, o que conflita com a restrição do pedido.\", \"Identifiquei que C14 reporta apenas o n do Experimento 1A (n = 78), enquanto o resumo informa também Exp. 1B (n = 75) e Exps. 2A e 2B (n = 323).\"], \"per_item\": [{\"id\": \"C11\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C48\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C22\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C23\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C07\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C01\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C09\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C08\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C14\", \"ok\": true, \"problem\": \"Amostra incompleta: o resumo informa n = 78 (Exp. 1A), n = 75 (Exp. 1B) e n = 323 (Exps. 2A e 2B), mas o campo traz só o primeiro.\"}, {\"id\": \"C04\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C21\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C26\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C02\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C18\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C46\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C03\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C13\", \"ok\": false, \"problem\": \"Estudo correlacional de diferenças individuais com modelagem de variáveis latentes, não é experimento com manipulação de correção, violando a restrição 'apenas experimentos' do pedido.\"}, {\"id\": \"C80\", \"ok\": false, \"problem\": \"Estudo de teste-reteste de estabilidade, sem manipulação experimental relevante, viola a restrição 'apenas experimentos' do pedido.\"}, {\"id\": \"C16\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C29\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C30\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C42\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C43\", \"ok\": false, \"problem\": \"Estudo de diferenças individuais correlacional (funções executivas medidas, não manipuladas), viola a restrição 'apenas experimentos' do pedido.\"}, {\"id\": \"C94\", \"ok\": false, \"problem\": \"Estudo de diferenças individuais correlacional (memória de trabalho medida, não manipulada), viola a restrição 'apenas experimentos' do pedido.\"}, {\"id\": \"C40\", \"ok\": true, \"problem\": \"\"}], \"issues\": [\"C13: o próprio campo study_type admite que é estudo correlacional, mas o pedido exige apenas experimentos, então o item não atende ao critério.\", \"C80: é um estudo de teste-reteste de estabilidade da sensibilidade à retratação, sem manipulação de correção entre condições, e por isso não é experimento no sentido exigido.\", \"C43: mede funções executivas e relaciona com o CIE, desenho correlacional e não experimental, em conflito com a restrição do pedido.\", \"C94: mesmo problema de C43, relação entre capacidade de memória de trabalho medida e CIE, sem manipulação experimental do fator de interesse.\", \"C14: o campo de amostra traz só 'Exp. 1A, n = 78', mas o resumo informa também n = 75 no Exp. 1B e n = 323 nos Exps. 2A e 2B, então a amostra não está exatamente como aparece no resumo.\"], \"feedback\": \"Substitua C13, C80, C43 e C94 por estudos com desenho experimental (manipulação de correção, retratação, credibilidade de fonte ou intervenção equivalente) para manter os 25 artigos dentro do critério 'apenas experimentos'. Corrija o campo de amostra de C14 para incluir todos os ns do resumo, por exemplo: Exp. 1A n = 78; Exp. 1B n = 75; Exps. 2A e 2B n = 323. Os demais 20 itens estão corretos em tipo de estudo, método, amostra, achado principal e citação literal, e podem ser mantidos como estão. Não é preciso mexer em DOI, título, autores, ano e periódico, pois esses campos serão preenchidos depois pelo código a partir do Crossref.\"}",
+  "usage": {
+    "input_tokens": 11052,
+    "output_tokens": 6445,
+    "cost_usd": 0.00488
+  },
+  "duration_s": 101.93,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

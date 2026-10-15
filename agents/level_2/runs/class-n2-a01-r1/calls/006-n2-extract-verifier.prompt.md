@@ -1,0 +1,335 @@
+# Verificador da extração de dados
+Você é um verificador independente, com busca na web. Para CADA artigo da lista final: abra o resumo na página
+oficial e confira se o trecho entre aspas está no resumo, letra por letra (diferença só de aspas, pontuação ou
+espaço é aceitável); se a amostra informada aparece no resumo como escrita; se o método e o tipo de estudo estão
+certos; e se o achado principal diz o que o resumo diz, sem exagerar nem acrescentar. Confira também se DOI, título,
+ano e periódico continuam certos. Reprove qualquer citação parafraseada, número de amostra que não está no resumo ou
+achado que vai além do resumo, e diga em qual artigo.
+
+COMO RESPONDER
+- approved: false só por ERRO REAL que compromete o resultado (dado errado, critério do pedido violado ou
+  esquecido, fonte que não existe, citação que não está na fonte, afirmação que a fonte não sustenta).
+  Sugestão de melhoria, preferência de estilo ou cobertura que poderia ser maior não reprova: aprove e ponha a
+  sugestão em feedback.
+- checked: o que você conferiu, um item por linha, concreto (por exemplo: 'DOI 10.x abre e o título confere').
+- issues: cada problema numa frase curta que um estudante entenda: o que está errado ou faltou, e onde.
+- feedback: o que o executor precisa fazer na próxima tentativa.
+- Escreva em português do Brasil, sem travessão.
+
+PEDIDO DO PESQUISADOR:
+Encontre 25 artigos científicos revisados por pares, publicados em periódicos entre 2018 e 2025, sobre o efeito de influência continuada da informação falsa (continued influence effect), isto é, o quanto as pessoas continuam a se apoiar em uma informação falsa depois de ela ser corrigida ou retratada. Restrições: apenas experimentos com participantes humanos que meçam crença ou raciocínio depois de uma correção ou retratação; os materiais devem ser neutros (cenários fictícios, relatos de eventos inventados ou alegações sem conotação política ou de saúde); exclua estudos com desinformação política, eleitoral, sobre vacinas ou sobre COVID-19. Valem apenas artigos de periódico que relatem estudo empírico com dados próprios; não use revisões de literatura, meta-análises, ensaios teóricos, preprints, trabalhos de anais de congresso, capítulos de livro, teses ou resenhas. Para cada artigo, informe: DOI; título; autores; ano de publicação; periódico; tipo de estudo e método; tamanho da amostra exatamente como aparece no resumo (ou "não informado no resumo"); achado principal, em uma frase; e um trecho literal do resumo, entre aspas, que sustente o achado principal.
+
+LISTA FINAL A VERIFICAR:
+{
+ "items": [
+  {
+   "doi": "10.1016/j.cognition.2024.106000",
+   "title": "Relative source credibility affects the continued influence effect: Evidence of rationality in the CIE",
+   "authors": [
+    "Carolin V. Hey",
+    "Marie Luisa Schaper",
+    "Ute J. Bayen"
+   ],
+   "year": 2025,
+   "venue": "Cognition",
+   "study_type": "Estudo empírico experimental (artigo de periódico), participantes humanos",
+   "method": "Dois experimentos em que a credibilidade do informante e a do retrator foram manipuladas de forma independente; os participantes leram uma notícia fictícia com a informação original e a retratação, e foram comparados a um grupo controle que não viu nem a informação nem a retratação.",
+   "sample_size": "In two experiments (N = 151, N = 146)",
+   "main_finding": "Houve efeito de influência continuada quando o informante era mais crível que o retrator e não houve quando era menos crível, mas também houve quando os dois eram igualmente críveis, de modo que a conta racional sozinha não explica o padrão.",
+   "abstract_quote": "when the informant was more credible than the retractor, participants showed a CIE compared to control participants who saw neither the information nor the retraction"
+  },
+  {
+   "doi": "10.1371/journal.pone.0271566",
+   "title": "Examining the role of information integration in the continued influence effect using an event segmentation approach",
+   "authors": [
+    "Jasmyne A. Sanderson",
+    "Simon Farrell",
+    "Ullrich K. H. Ecker"
+   ],
+   "year": 2022,
+   "venue": "PLOS ONE",
+   "study_type": "Estudo empírico experimental (artigo de periódico), participantes humanos",
+   "method": "Dois experimentos no paradigma do efeito de influência continuada, com fronteiras espaciais de segmentação de eventos para testar a integração da retratação.",
+   "sample_size": "não informado no resumo",
+   "main_finding": "Uma fronteira de evento não teve efeito no Experimento 1 e reduziu o efeito de influência continuada no Experimento 2, o que favorece as explicações baseadas em recuperação.",
+   "abstract_quote": "While Experiment 1 showed no impact of an event boundary, Experiment 2 yielded evidence that an event boundary resulted in a reduced CIE."
+  },
+  {
+   "doi": "10.3758/s13428-018-1066-z",
+   "title": "Comparing the use of open and closed questions for Web-based measures of the continued-influence effect",
+   "authors": [
+    "Saoirse Connor Desai",
+    "Stian Reimers"
+   ],
+   "year": 2019,
+   "venue": "Behavior Research Methods",
+   "study_type": "Estudo empírico experimental online (artigo de periódico), participantes humanos, com replicação pré-registrada",
+   "method": "Experimentos online no paradigma de influência continuada que comparam perguntas abertas e fechadas; os participantes leem afirmações sobre um evento, e uma delas é corrigida depois.",
+   "sample_size": "Exp. 1A, n = 78; Exp. 1B, n = 75; Exps. 2A and 2B, n = 323",
+   "main_finding": "O efeito de influência continuada apareceu em todas as condições, e as referências à desinformação foram semelhantes nos formatos aberto e fechado.",
+   "abstract_quote": "We observed the CIE in all conditions: Participants continued to refer to the misinformation following a correction, and their references to the target misinformation were broadly similar in number across open- and closed-ended questions."
+  },
+  {
+   "doi": "10.1371/journal.pone.0283951",
+   "title": "Executive function and the continued influence of misinformation: A latent-variable analysis",
+   "authors": [
+    "Paul McIlhiney",
+    "Gilles E. Gignac",
+    "Ullrich K. H. Ecker",
+    "Blaine L. Kennedy",
+    "Michael Weinborn"
+   ],
+   "year": 2023,
+   "venue": "PLOS ONE",
+   "study_type": "Estudo empírico de diferenças individuais (artigo de periódico), participantes humanos",
+   "method": "Os participantes fizeram medidas de subcomponentes da função executiva (atualização, inibição e alternância) e uma tarefa padrão de influência continuada; a análise combinou correlação e modelagem de equações estruturais com variáveis latentes.",
+   "sample_size": "não informado no resumo",
+   "main_finding": "A função executiva prediz a suscetibilidade ao efeito de influência continuada, em especial a atualização da memória de trabalho.",
+   "abstract_quote": "Results showed that EF can predict susceptibility to the CIE, especially the factor of working-memory updating."
+  },
+  {
+   "doi": "10.1371/journal.pone.0282202",
+   "title": "Effective mitigation of the belief perseverance bias after the retraction of misinformation: Awareness training and counter-speech",
+   "authors": [
+    "Jana Siebert",
+    "Johannes Ulrich Siebert"
+   ],
+   "year": 2023,
+   "venue": "PLOS ONE",
+   "study_type": "Estudo empírico experimental (artigo de periódico), participantes humanos",
+   "method": "Um experimento em que as opiniões foram medidas quatro vezes (itens Likert e coeficientes phi) para comparar três técnicas de debiasing depois da retratação: contra-argumentação (counter-speech), treinamento de consciência (awareness training) e contra-explicação.",
+   "sample_size": "an experiment with N = 251 participants",
+   "main_finding": "A contra-argumentação (counter-speech) foi a técnica mais eficaz, com efeito muito grande, para reduzir a persistência da crença depois da retratação.",
+   "abstract_quote": "The CS technique, with a very large effect size, is the most effective among the three techniques."
+  },
+  {
+   "doi": "10.1186/s41235-021-00335-9",
+   "title": "Exploring factors that mitigate the continued influence of misinformation",
+   "authors": [
+    "Irene P. Kan",
+    "Kendra L. Pizzonia",
+    "Anna B. Drummey",
+    "Eric J. V. Mikkelsen"
+   ],
+   "year": 2021,
+   "venue": "Cognitive Research: Principles and Implications",
+   "study_type": "Estudo empírico experimental (artigo de periódico), participantes humanos",
+   "method": "Três estudos que avaliaram o peso de três fatores na redução do efeito de influência continuada: mirar diretamente a desinformação, fornecer uma explicação alternativa e a importância do conteúdo da desinformação. Foram usadas duas medidas do efeito.",
+   "sample_size": "não informado no resumo",
+   "main_finding": "Fornecer uma explicação alternativa reduziu o efeito de influência continuada de forma consistente, e combiná-la com a menção direta à desinformação às vezes o eliminou.",
+   "abstract_quote": "Across three studies and two different CIE measures, we found that alternative provision consistently resulted in CIE reduction."
+  },
+  {
+   "doi": "10.3758/s13421-020-01129-y",
+   "title": "Can you believe it? An investigation into the impact of retraction source credibility on the continued influence effect",
+   "authors": [
+    "Ullrich K. H. Ecker",
+    "Luke M. Antonio"
+   ],
+   "year": 2021,
+   "venue": "Memory & Cognition",
+   "study_type": "Estudo empírico experimental (artigo de periódico), participantes humanos",
+   "method": "Dois experimentos que manipularam a credibilidade da fonte da retratação (confiabilidade e expertise) e mediram a confiança na retratação e o uso continuado da desinformação.",
+   "sample_size": "não informado no resumo",
+   "main_finding": "A confiabilidade da fonte, mas não a expertise, influencia a eficácia da retratação, e ainda assim houve influência continuada substancial com retratações muito críveis.",
+   "abstract_quote": "In two experiments, we found that source trustworthiness but not source expertise indeed influences retraction effectiveness, with retractions from low-trustworthiness sources entirely ineffective."
+  },
+  {
+   "doi": "10.3758/s13421-021-01232-8",
+   "title": "The role of discomfort in the continued influence effect of misinformation",
+   "authors": [
+    "Mark W. Susmann",
+    "Duane T. Wegener"
+   ],
+   "year": 2022,
+   "venue": "Memory & Cognition",
+   "study_type": "Estudo empírico experimental (artigo de periódico), participantes humanos",
+   "method": "Três estudos: nos Estudos 1 e 2, o desconforto psicológico gerado pela retratação foi testado como preditor da crença e do uso continuados da desinformação; no Estudo 3, a interpretação do desconforto foi manipulada para testar causalidade.",
+   "sample_size": "não informado no resumo",
+   "main_finding": "As retratações geram desconforto psicológico, e esse desconforto prediz a crença e o uso continuados da desinformação.",
+   "abstract_quote": "Studies 1 and 2 found that retractions of misinformation elicit psychological discomfort, and this discomfort predicts continued belief in and use of misinformation."
+  },
+  {
+   "doi": "10.3758/s13421-022-01374-3",
+   "title": "The independent effects of source expertise and trustworthiness on retraction believability: The moderating role of vested interest",
+   "authors": [
+    "Mark W. Susmann",
+    "Duane T. Wegener"
+   ],
+   "year": 2023,
+   "venue": "Memory & Cognition",
+   "study_type": "Estudo empírico experimental (artigo de periódico), participantes humanos",
+   "method": "Dois estudos que manipularam a expertise, a confiabilidade e o interesse (vested interest) da fonte da retratação e mediram a credibilidade da retratação e a crença continuada na desinformação.",
+   "sample_size": "não informado no resumo",
+   "main_finding": "Retratações de fonte especialista são mais acreditadas e levam a menos crença continuada do que as de fonte não especialista, mas só quando a fonte não tem interesse em emitir a retratação.",
+   "abstract_quote": "Study 1 demonstrated that retractions from an expert source are believed more and lead to less continued belief in misinformation than retractions from an inexpert source while controlling for perceptions of trustworthiness."
+  },
+  {
+   "doi": "10.3389/fpsyg.2024.1487146",
+   "title": "The inhibitory impact of collaboration on the continued influence effect of misinformation",
+   "authors": [
+    "Gongxiang Chen",
+    "Yuxuan Zhong",
+    "Sujie Li"
+   ],
+   "year": 2024,
+   "venue": "Frontiers in Psychology",
+   "study_type": "Estudo empírico experimental (artigo de periódico), participantes humanos",
+   "method": "Três experimentos que compararam colaboração e recordação individual depois da retratação, separando colaboração alternada (turn-taking) e livre, com diferentes intervalos de recordação, e investigando os mecanismos.",
+   "sample_size": "não informado no resumo",
+   "main_finding": "A colaboração alternada reduz o efeito de influência continuada de forma consistente, e o efeito da colaboração livre depende do tempo de recordação.",
+   "abstract_quote": "Results revealed that turn-taking collaboration consistently mitigates the CIE, while the effect of free collaboration on misinformation correction is moderated by recall time."
+  },
+  {
+   "doi": "10.1371/journal.pone.0322045",
+   "title": "Did he or didn't he? Mixed evidence for the continued influence of retracted misinformation on person impressions",
+   "authors": [
+    "Amy J. Mickelberg",
+    "Bradley Walker",
+    "Ullrich K. H. Ecker",
+    "Piers D. L. Howe",
+    "Andrew Perfors",
+    "Nicolas Fay"
+   ],
+   "year": 2025,
+   "venue": "PLOS ONE",
+   "study_type": "Estudo empírico experimental (artigo de periódico), participantes humanos",
+   "method": "Três experimentos em que os participantes formaram a impressão de uma pessoa fictícia a partir de afirmações sobre comportamentos, com uma afirmação negativa depois retratada ou não, usando uma tarefa de formação de impressão não dinâmica.",
+   "sample_size": "não informado no resumo",
+   "main_finding": "A influência continuada da afirmação retratada apareceu em um experimento e, nos outros dois, a desinformação foi totalmente descartada.",
+   "abstract_quote": "Evidence for the continued influence of the retracted behaviour statement was found in one experiment; in the other two experiments the retracted misinformation was fully discounted."
+  },
+  {
+   "doi": "10.1525/collabra.92332",
+   "title": "Does Mud Really Stick? No Evidence for Continued Influence of Misinformation on Newly Formed Person Impressions",
+   "authors": [
+    "Amy J. Mickelberg",
+    "Bradley Walker",
+    "Ullrich K. H. Ecker",
+    "Piers D. L. Howe",
+    "Andrew Perfors",
+    "Nicolas Fay"
+   ],
+   "year": 2024,
+   "venue": "Collabra: Psychology",
+   "study_type": "Estudo empírico experimental (artigo de periódico), participantes humanos",
+   "method": "Quatro experimentos em que os participantes formaram a impressão de um protagonista (\"John\") a partir de descrições de comportamento, incluindo desinformação depois retratada, com impressões registradas após cada descrição (medida dinâmica).",
+   "sample_size": "não informado no resumo",
+   "main_finding": "Em todos os experimentos os participantes descartaram totalmente a desinformação sobre a pessoa depois da retratação, sem evidência de influência continuada.",
+   "abstract_quote": "Our findings indicate that person-related misinformation can be effectively discounted following a clear retraction."
+  },
+  {
+   "doi": "10.3758/s13421-023-01402-w",
+   "title": "Mechanisms in continued influence: The impact of misinformation corrections on source perceptions",
+   "authors": [
+    "Victoria Westbrook",
+    "Duane T. Wegener",
+    "Mark W. Susmann"
+   ],
+   "year": 2023,
+   "venue": "Memory & Cognition",
+   "study_type": "Estudo empírico experimental (artigo de periódico), participantes humanos",
+   "method": "Três estudos que examinaram como a correção muda a percepção da fonte original da desinformação e como isso medeia a crença e o raciocínio inferencial. O Estudo 2 usou depreciação da fonte, e o Estudo 3 foi uma replicação pré-registrada.",
+   "sample_size": "não informado no resumo",
+   "main_finding": "A correção externa altera a percepção da fonte da desinformação, e essa percepção se relaciona com a crença na desinformação.",
+   "abstract_quote": "Study 1 demonstrated that an external correction (i.e., a new source labeling misinformation as false) influences perceptions of the misinformation source, and these perceptions of the misinformation source then correlated with belief in the misinformation."
+  },
+  {
+   "doi": "10.1002/acp.4214",
+   "title": "Combating false information in military situations: Striking the right balance between continued influence effect and overcorrection",
+   "authors": [
+    "Victor Laurent",
+    "Thierry Kosinski",
+    "Stéphane Rusinek"
+   ],
+   "year": 2024,
+   "venue": "Applied Cognitive Psychology",
+   "study_type": "Estudo empírico experimental (artigo de periódico), participantes humanos",
+   "method": "Os participantes leram quatro cenários militares simulados de tomada de decisão, dois com informação falsa depois retratada e dois sem, seguidos de avaliação do raciocínio inferencial.",
+   "sample_size": "A total of 61 participants",
+   "main_finding": "Não houve evidência de efeito de influência continuada, mas surgiu um efeito de supercorreção na tomada de decisão.",
+   "abstract_quote": "The results did not reveal any evidence of the CIE, but an overcorrection effect emerged in decision‐making."
+  },
+  {
+   "doi": "10.1016/j.actpsy.2023.104094",
+   "title": "I know It's false, but I keep thinking as if it were true: A replication study of Johnson and Seifert's (1994) continued influence effect",
+   "authors": [
+    "Victor Laurent",
+    "Thierry Kosinski",
+    "Stéphane Rusinek"
+   ],
+   "year": 2023,
+   "venue": "Acta Psychologica",
+   "study_type": "Estudo empírico de replicação experimental direta (artigo de periódico), participantes humanos",
+   "method": "Replicação direta do Experimento 1A de Johnson e Seifert (1994) com amostra francófona, comparando as inferências de um grupo que leu informação falsa depois retratada (grupo FI) com as de um grupo controle que leu o mesmo texto sem a informação falsa.",
+   "sample_size": "an FI group (n = 21) e a control group (n = 23)",
+   "main_finding": "O estudo replicou o efeito de influência continuada original em uma população francófona.",
+   "abstract_quote": "The results confirm those of the original study, supporting the validity of Johnson and Seifert's paradigm (1994) and extending its applicability to a French-speaking population."
+  },
+  {
+   "doi": "10.3758/s13421-022-01354-7",
+   "title": "Does explaining the origins of misinformation improve the effectiveness of a given correction?",
+   "authors": [
+    "Saoirse Connor Desai",
+    "Stian Reimers"
+   ],
+   "year": 2023,
+   "venue": "Memory & Cognition",
+   "study_type": "Estudo empírico experimental (artigo de periódico), participantes humanos",
+   "method": "Dois experimentos que compararam correções que explicavam a origem da desinformação (engano intencional ou erro não intencional) com uma correção que apenas dizia que a informação era falsa. O segundo experimento replicou o primeiro e usou um cenário novo com a mesma estrutura.",
+   "sample_size": "não informado no resumo",
+   "main_finding": "Explicar a origem da desinformação não tornou a correção mais eficaz do que apenas declará-la falsa.",
+   "abstract_quote": "Overall, the results suggest that informing people of the cause leading to presentation of misinformation, whether deliberate or accidental, may not be an effective correction strategy over and above stating that the misinformation is false."
+  },
+  {
+   "doi": "10.3724/sp.j.1041.2022.00343",
+   "title": "The neural basis of the continued influence effect of misinformation",
+   "authors": [
+    "Hua Jin",
+    "Lina Jia",
+    "Xiaojuan Yin",
+    "Shizhen Yan",
+    "Shilin Wei",
+    "Juntao Chen"
+   ],
+   "year": 2022,
+   "venue": "Acta Psychologica Sinica",
+   "study_type": "Estudo empírico experimental de neuroimagem (artigo de periódico), participantes humanos",
+   "method": "Experimento de fMRI baseado em tarefa que comparou uma condição de retratação com uma condição controle por meio de escores de inferência, e analisou a ativação cerebral nas fases de codificação e de recuperação.",
+   "sample_size": "não informado no resumo",
+   "main_finding": "Os escores de inferência foram maiores na condição de retratação do que no controle, ou seja, o efeito ocorreu, com diferenças de ativação cerebral nas fases de codificação e recuperação.",
+   "abstract_quote": "The results showed that the inference scores of retraction condition were significantly higher than that of control condition, and the CIEM exists."
+  },
+  {
+   "doi": "10.3758/s13421-019-00967-9",
+   "title": "Failure to accept retractions: A contribution to the continued influence effect",
+   "authors": [
+    "Andrea E. O'Rear",
+    "Gabriel A. Radvansky"
+   ],
+   "year": 2020,
+   "venue": "Memory & Cognition",
+   "study_type": "Estudo empírico experimental (artigo de periódico), participantes humanos",
+   "method": "Três experimentos no paradigma de influência continuada, com uma sonda adicional que perguntava se os participantes acreditavam na mudança declarada explicitamente, mais grupo controle sem correção. O Experimento 2 acrescentou a opção \"don't know\", e o Experimento 3 aumentou a plausibilidade da explicação alternativa e incluiu mais duas histórias.",
+   "sample_size": "não informado no resumo",
+   "main_finding": "Parte do uso continuado da informação retratada pode vir de pessoas que não aceitam a retratação.",
+   "abstract_quote": "Overall, these findings suggest that at least some of the evidence for the continued use of retracted information may be due to some people not accepting the retraction, even in the absence of external motivation to disregard it."
+  },
+  {
+   "doi": "10.1080/02702711.2024.2349307",
+   "title": "Reading Medium and Epistemic Emotions in the Continued Influence Effect of Misinformation",
+   "authors": [
+    "Virginia Clinton-Lisell",
+    "Alexia M. Langowski"
+   ],
+   "year": 2024,
+   "venue": "Reading Psychology",
+   "study_type": "Estudo empírico experimental intra-sujeitos (artigo de periódico), participantes humanos",
+   "method": "Estudantes universitários leram notícias fictícias, com a desinformação no primeiro artigo e a informação corrigida no segundo, em papel e em tela, e depois indicaram as emoções vivenciadas.",
+   "sample_size": "college students (N = 84)",
+   "main_finding": "Não houve diferenças confiáveis no efeito de desinformação continuada entre papel e tela.",
+   "abstract_quote": "There were no reliable differences in the continued misinformation effect by reading medium."
+  }
+ ],
+ "search_notes": "Escolhi todos os 19 candidatos aprovados, porque o pedido era escolher 19 e a lista tinha exatamente 19. Isso fica abaixo dos 25 do pedido original: faltam 6 artigos, e não completei a lista com nada fora dos aprovados.\n\nAbri o resumo de cada artigo (Europe PMC, Crossref ou página do periódico) e copiei os trechos entre aspas literalmente. Ferramenta de leitura de páginas limita citações a cerca de 125 caracteres. Por isso pedi cada resumo em fragmentos curtos e os juntei, sem alterar o texto. Amostras só entram quando aparecem no resumo. Nos outros casos, usei \"não informado no resumo\".\n\nPontos de atenção:\n1. Clinton-Lisell e Langowski (Reading Psychology): a página da Taylor & Francis deu erro 403, e a Europe PMC não tinha registro. O resumo foi reconstruído do índice invertido do OpenAlex. A pontuação foi inferida, mas o texto bate com o resumo do congresso Society for Text and Discourse 2024 (N = 84, \"fictional news events\"). Vale conferir o trecho no site do periódico.\n2. Jin et al. (Acta Psychologica Sinica): o resumo em inglês foi lido na página do periódico. A ferramenta só devolveu o trecho em duas partes, \"The results showed that the inference scores of retraction condition were significantly higher than that of control condition\" e \"and the CIEM exists\". Juntei as duas com vírgula. O resumo não informa a amostra.\n3. Mickelberg et al. 2024 (Collabra) e Laurent et al. 2024 (Applied Cognitive Psychology): o resumo veio do Crossref, não da Europe PMC.\n4. Connor Desai e Reimers 2023: o resumo da Europe PMC diz \"Experiment 2\" duas vezes, e a primeira ocorrência provavelmente deveria ser \"Experiment 1\". Evitei esse trecho na citação.\n5. Estudos sem efeito de influência continuada: Mickelberg et al. 2024, Laurent et al. 2024 e, em parte, Mickelberg et al. 2025 relatam descarte da desinformação ou ausência do efeito. Mantive todos porque medem crença ou raciocínio depois da retratação.\n6. Neutralidade dos materiais: vem da checagem do verificador, que leu os textos completos. Não a refiz, exceto onde o resumo a confirma: \"fictitious news report\" em Hey et al., \"fictitious person\" em Mickelberg et al. 2025 e \"fictional news events\" em Clinton-Lisell e Langowski. Laurent et al. 2024 usa cenários militares simulados, cujo conteúdo o resumo não detalha. Laurent et al. 2023 é replicação de Johnson e Seifert (1994), e o conteúdo do texto não aparece no resumo. Em O'Rear e Radvansky, o verificador não abriu o texto completo.\n7. Siebert e Siebert usam \"belief perseverance bias\" para o mesmo fenômeno. McIlhiney et al. é um estudo correlacional de diferenças individuais, e o foco de Jin et al. é neural.\n8. Datas: usei o ano de cada fascículo (por exemplo, Connor Desai e Reimers 2019, Susmann e Wegener 2022 e 2023, e Hey et al. 2025, com publicação online em 2024). Todos ficam dentro de 2018–2025."
+}

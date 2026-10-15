@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<title>Agente de pesquisa ao vivo</title>
+<style>
+@font-face { font-family: 'Plus Jakarta Sans'; font-weight: 300 800; src: url(fonts/jakarta-latin.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'Plus Jakarta Sans'; font-weight: 300 800; src: url(fonts/jakarta-ext.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1E9F, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'JetBrains Mono'; font-weight: 400 500; src: url(fonts/mono-latin.woff2) format('woff2'); }
+:root { --orange: #FB5B04; --orange-ink: #BA4204; --paper: #FAFAFA; --band: #F2F1EF; --ink: #141312;
+  --muted: rgba(20,19,18,.62); --line: rgba(20,19,18,.10); --ok: #1E7A4C; --bad: #C2410C;
+  --shadow: 0 1px 2px rgba(20,12,6,.05), 0 18px 44px -24px rgba(20,12,6,.24); }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1920px; height: 1080px; overflow: hidden; background: var(--paper); color: var(--ink);
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+.top { position: absolute; left: 64px; right: 64px; top: 40px; height: 150px; display: flex; justify-content: space-between; align-items: flex-start; gap: 40px; }
+.eyebrow { font-size: 18px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--orange-ink); }
+.title { font-size: 46px; font-weight: 300; letter-spacing: -.03em; margin-top: 8px; }
+.title b { font-weight: 600; }
+.question { font-size: 22px; color: var(--muted); margin-top: 10px; max-width: 1300px; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.clockbox { text-align: right; }
+.clock { font-family: 'JetBrains Mono', monospace; font-size: 46px; font-weight: 500; letter-spacing: -.02em; }
+.clockcap { font-size: 18px; color: var(--muted); margin-top: 2px; }
+.chip { display: inline-block; margin-top: 12px; font-size: 17px; font-weight: 600; padding: 8px 14px; border-radius: 999px; background: rgba(251,91,4,.12); color: var(--orange-ink); }
+.grid { position: absolute; left: 64px; right: 64px; top: 232px; bottom: 44px; display: grid; grid-template-columns: 480px 1fr 600px; gap: 28px; }
+.roles { font-size: 16px; color: var(--muted); margin-top: 6px; line-height: 1.35; }
+.roles b { color: var(--ink); font-weight: 600; }
+.roles .chk { display: block; margin-top: 3px; color: #6B3FA0; }
+.chips { display: flex; flex-direction: column; align-items: flex-end; gap: 5px; margin-top: 6px; }
+.chips .chip { margin-top: 0; font-size: 15px; padding: 6px 12px; }
+.chip.qa { background: rgba(107,63,160,.12); color: #5A2F8C; }
+.vcard { margin-top: 18px; border-radius: 18px; padding: 18px 20px; background: var(--band); display: none; }
+.vcard.bad { background: rgba(194,65,12,.08); box-shadow: inset 0 0 0 2px rgba(194,65,12,.35); }
+.vcard.ok { background: rgba(30,122,76,.08); box-shadow: inset 0 0 0 2px rgba(30,122,76,.30); }
+.vhead { font-size: 15px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.vcard.bad .vhead { color: var(--bad); } .vcard.ok .vhead { color: var(--ok); }
+.vstep { font-size: 22px; font-weight: 600; letter-spacing: -.01em; margin-top: 6px; }
+.vlist { margin-top: 10px; display: flex; flex-direction: column; gap: 8px; }
+.vlist div { font-size: 19px; line-height: 1.35; padding-left: 18px; position: relative; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.vlist div::before { content: "\2022"; position: absolute; left: 0; }
+.vwho { font-size: 15px; color: var(--muted); margin-top: 10px; }
+.panel { background: #fff; border-radius: 24px; box-shadow: var(--shadow); padding: 26px 28px; overflow: hidden; display: flex; flex-direction: column; }
+.ptitle { font-size: 16px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: 16px; }
+#steps { flex: 1; min-height: 0; overflow: hidden; scroll-behavior: smooth; }
+.step { border-top: 1px solid var(--line); padding: 16px 0; }
+.step:first-of-type { border-top: 0; }
+.stephead { display: flex; align-items: center; gap: 12px; }
+.tag { font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 5px 10px; border-radius: 999px; }
+.tag.ai { background: rgba(251,91,4,.14); color: var(--orange-ink); }
+.tag.det { background: var(--ink); color: #fff; }
+.stepname { font-size: 24px; font-weight: 600; letter-spacing: -.015em; }
+.stepstate { font-size: 18px; color: var(--muted); margin-top: 8px; }
+.dots { display: flex; gap: 8px; margin-top: 10px; }
+.dot { width: 26px; height: 26px; border-radius: 50%; border: 2px solid var(--line); display: grid; place-items: center; font-size: 14px; font-weight: 700; color: #fff; }
+.dot.ok { background: var(--ok); border-color: var(--ok); }
+.dot.bad { background: var(--bad); border-color: var(--bad); }
+.dot.run { border-color: var(--orange); animation: pulse 1s ease-in-out infinite alternate; }
+@keyframes pulse { from { box-shadow: 0 0 0 0 rgba(251,91,4,.0); } to { box-shadow: 0 0 0 6px rgba(251,91,4,.18); } }
+.feed { flex: 1; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; gap: 10px; }
+.item { display: grid; grid-template-columns: 74px 170px 1fr; gap: 14px; align-items: baseline; font-size: 21px; line-height: 1.35; padding: 10px 0; border-top: 1px solid var(--line); animation: enter .25s ease-out; }
+@keyframes enter { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.item .t { font-family: 'JetBrains Mono', monospace; font-size: 17px; color: var(--muted); }
+.item .who { font-size: 16px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+.item .who.ai { color: var(--orange-ink); }
+.item .who.det { color: var(--ink); }
+.item .who.qa { color: #6B3FA0; }
+.item .what { word-break: break-word; }
+.item .what code { font-family: 'JetBrains Mono', monospace; font-size: 17px; background: var(--band); padding: 2px 8px; border-radius: 6px; white-space: nowrap; display: inline-block; max-width: 100%; overflow: hidden; text-overflow: ellipsis; vertical-align: bottom; }
+.item.bad .what { color: var(--bad); }
+.item.ok .what { color: var(--ok); font-weight: 600; }
+.item.faded .what { color: var(--muted); font-style: italic; }
+.counters { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 18px; }
+.counter .n { font-size: 54px; font-weight: 600; letter-spacing: -.04em; line-height: 1; color: var(--orange); }
+.counter .l { font-size: 17px; color: var(--muted); margin-top: 6px; }
+.result { margin-top: 22px; border-top: 1px solid var(--line); padding-top: 18px; display: none; }
+.verdict { font-size: 30px; font-weight: 600; letter-spacing: -.02em; }
+.conf { font-size: 19px; color: var(--muted); margin-top: 6px; }
+.srcs { margin-top: 14px; display: flex; flex-direction: column; gap: 8px; }
+.src { font-size: 17px; line-height: 1.3; }
+.src span { color: var(--muted); font-family: 'JetBrains Mono', monospace; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }
+.prompt { font-size: 15.5px; line-height: 1.42; color: var(--ink); white-space: pre-wrap; overflow: hidden; }
+.prompt .h { font-weight: 700; color: var(--orange-ink); font-size: 15px; letter-spacing: .06em; text-transform: uppercase; margin-top: 8px; display: block; }
+.pause { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); width: 1100px; padding: 46px 56px; border-radius: 28px; background: #fff; box-shadow: 0 0 0 4px var(--bad), var(--shadow); display: none; text-align: center; }
+.pause h2 { font-size: 48px; font-weight: 600; letter-spacing: -.03em; color: var(--bad); }
+.pause p { font-size: 26px; color: var(--muted); margin-top: 14px; line-height: 1.4; }
+</style>
+</head>
+<body>
+<div class="top">
+  <div>
+    <div class="eyebrow" id="eyebrow">Agente de pesquisa</div>
+    <div class="title" id="title"></div>
+    <div class="question" id="question"></div>
+  </div>
+  <div class="clockbox">
+    <div class="clock" id="clock">00:00</div>
+    <div class="clockcap">tempo real da execu&ccedil;&atilde;o</div>
+    <div class="chips"><div class="chip" id="model">Executor: Claude Sonnet 5.5 (Anthropic), esfor&ccedil;o high</div>
+    <div class="chip qa" id="vmodel" style="display:none"></div></div>
+  </div>
+</div>
+<div class="grid">
+  <div class="panel"><div class="ptitle" id="ptSteps"></div><div id="steps"></div></div>
+  <div class="panel"><div class="ptitle" id="ptFeed"></div><div class="feed" id="feed"></div></div>
+  <div class="panel"><div class="ptitle" id="ptScore"></div><div class="counters" id="counters"></div>
+    <div class="vcard" id="vcard"><div class="vhead" id="vhead"></div><div class="vstep" id="vstep"></div><div class="vlist" id="vlist"></div><div class="vwho" id="vwho"></div></div>
+    <div class="result" id="result"><div class="ptitle" id="ptResult"></div><div class="verdict" id="verdict"></div><div class="conf" id="conf"></div><div class="srcs" id="srcs"></div></div>
+  </div>
+</div>
+<div class="pause" id="pause"><h2 id="pauseTitle"></h2><p id="pauseText"></p></div>
+<script>
+const T = {
+  steps: "Etapas", feed: "Ao vivo", score: "Placar", result: "Resultado",
+  eyebrow: "Agente de pesquisa \u00b7 execu\u00e7\u00e3o real",
+  ai: "IA", det: "C\u00f3digo",
+  searches: "buscas", pages: "p\u00e1ginas lidas", calls: "chamadas de IA", rejections: "reprova\u00e7\u00f5es",
+  docs: "documentos baixados", passages: "trechos achados",
+  waiting: "aguardando", running: "em andamento", approved: "aprovado", rejected: "reprovado", paused: "pausado", done: "conclu\u00eddo",
+  pauseTitle: "Fluxo pausado",
+  pauseText: "O verificador recusou a quinta tentativa. O agente para aqui, em vez de entregar um resultado que n\u00e3o passou no controle de qualidade.",
+  verdict: { supported: "Sustentada", not_supported: "N\u00e3o sustentada", partially_supported: "Parcialmente sustentada", inconclusive: "Inconclusiva" },
+  conf: { high: "confian\u00e7a alta", medium: "confian\u00e7a m\u00e9dia", low: "confian\u00e7a baixa" },
+};
+const ACTORS = {
+  "n0-agent": "Agente", "n1-agent": "Agente",
+  "n2-planner": "Planejador", "n2-plan-verifier": "Verificador",
+  "n3-terms": "IA dos termos", "n3-terms-verifier": "Verificador",
+  "n2-searcher": "Buscador", "n2-search-verifier": "Verificador", "n2-extractor": "Extrator", "n2-extract-verifier": "Verificador",
+  "n3-screener": "IA da triagem", "n3-screen-verifier": "Verificador", "n3-extractor": "IA extratora", "n3-extract-verifier": "Verificador",
+};
+const SHORT = { n0: "N\u00edvel 0, uma frase, e mais nada", n1: "N\u00edvel 1, um agente, sem confer\u00eancia", n2: "N\u00edvel 2, multiagente, com confer\u00eancia", n3: "N\u00edvel 3, multiagente com confer\u00eancia, mais c\u00f3digo" };
+const clean = s => String(s ?? "").replace(/\s*[\u2014\u2013]\s*/g, ", ");
+const CONNECTORS = { brave: "Brave", openalex: "OpenAlex", wikipedia: "Wikipedia", archive: "Internet Archive" };
+const params = new URLSearchParams(location.search);
+const RUN = params.get("run");
+// every level keeps its runs in its own folder: agents/level_N/runs/<run_id>/
+const LEVEL = ((RUN || "").match(/-n([0-3])-a\d\d-r\d+$/) || [])[1];
+const BASE = `../agents/level_${LEVEL}/runs`;
+const $ = id => document.getElementById(id);
+$("ptSteps").textContent = T.steps; $("ptFeed").textContent = T.feed; $("ptScore").textContent = T.score;
+$("ptResult").textContent = T.result; $("eyebrow").textContent = T.eyebrow;
+$("pauseTitle").textContent = T.pauseTitle; $("pauseText").textContent = T.pauseText;
+
+const state = { lines: 0, start: null, end: null, steps: [], stepByKey: {}, counters: { searches: 0, pages: 0, calls: 0, rejections: 0, docs: 0, passages: 0 }, downloads: { ok: 0, all: 0, item: null } };
+const COUNTER_KEYS = ["searches", "pages", "calls", "rejections", "docs", "passages"];
+function renderCounters() {
+  $("counters").innerHTML = COUNTER_KEYS.map(k => `<div class="counter"><div class="n">${state.counters[k]}</div><div class="l">${T[k]}</div></div>`).join("");
+}
+renderCounters();
+const fmt = s => { s = Math.max(0, Math.floor(s)); return String(Math.floor(s / 60)).padStart(2, "0") + ":" + String(s % 60).padStart(2, "0"); };
+const esc = s => String(s ?? "").replace(/[&<>]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+const shortUrl = u => { try { const x = new URL(u); return x.hostname.replace(/^www\./, "") + decodeURIComponent(x.pathname); } catch { return String(u); } };
+
+function addItem(t, who, whoClass, html, cls) {
+  const el = document.createElement("div");
+  el.className = "item " + (cls || "");
+  el.innerHTML = `<div class="t">${fmt(t)}</div><div class="who ${whoClass}">${esc(who)}</div><div class="what">${html}</div>`;
+  const feed = $("feed");
+  feed.appendChild(el);
+  const top = feed.getBoundingClientRect().top;
+  while (feed.children.length > 1 && feed.firstChild.getBoundingClientRect().top < top) feed.removeChild(feed.firstChild);
+  return el;
+}
+
+/* the steps panel follows the newest step, so a fifth or sixth step never falls below the panel */
+function followSteps() {
+  const s = $("steps");
+  if (!s.querySelector(".prompt")) s.scrollTop = s.scrollHeight;
+}
+function stepEl(key, label, mode) {
+  if (state.stepByKey[key]) return state.stepByKey[key];
+  const el = document.createElement("div");
+  el.className = "step";
+  el.innerHTML = `<div class="stephead"><span class="tag ${mode}">${mode === "det" ? T.det : T.ai}</span><span class="stepname">${esc(label)}</span></div><div class="stepstate">${T.running}</div><div class="dots"></div>`;
+  $("steps").appendChild(el);
+  state.stepByKey[key] = el;
+  return el;
+}
+function setDots(el, attempts, current, finalOk) {
+  const dots = el.querySelector(".dots");
+  let html = "";
+  for (let i = 1; i <= 5; i++) {
+    const a = attempts[i];
+    if (a === true) html += `<div class="dot ok">\u2713</div>`;
+    else if (a === false) html += `<div class="dot bad">\u2715</div>`;
+    else if (i === current && !finalOk) html += `<div class="dot run"></div>`;
+    else html += `<div class="dot"></div>`;
+  }
+  dots.innerHTML = html;
+}
+
+function handle(e) {
+  if (e.kind === "run_start") {
+    state.start = e.ts;
+    $("title").innerHTML = esc(SHORT[e.level] || e.title).replace(/^(N\u00edvel \d)/, "<b>$1</b>");
+    $("question").textContent = e.request;
+    addItem(e.t, "In\u00edcio", "det", "Execu\u00e7\u00e3o iniciada");
+    if (e.level === "n0" || e.level === "n1") showPrompt(`../agents/level_${e.level[1]}/prompts/level_${e.level[1]}.md`);
+    return;
+  }
+  if (e.kind === "step_roles") {
+    const el = stepEl(e.step, e.label, "ai");
+    let html = `Executa: <b>${esc(e.executor)}</b>`;
+    if (e.verifier) {
+      html += `<br>Confere: <b>${esc(e.verifier)}</b>`;
+      $("vmodel").textContent = "Verificador: " + e.verifier; $("vmodel").style.display = "inline-block";
+    }
+    if (e.checks) html += `<span class="chk">Confere ${esc(e.checks)}</span>`;
+    const r = document.createElement("div"); r.className = "roles"; r.innerHTML = html;
+    el.querySelector(".stephead").after(r);
+    return;
+  }
+  if (e.kind === "step_start") {
+    if (e.step === "single") { addItem(e.t, "Agente", "ai", `<b>${esc(e.label)}</b>`); return; }
+    const el = stepEl(e.step, e.label, e.mode || "ai");
+    el.dataset.mode = e.mode || "ai";
+    if (e.mode === "det") el.querySelector(".dots").remove();
+    addItem(e.t, e.mode === "det" ? T.det : "Etapa", e.mode === "det" ? "det" : "ai", `<b>${esc(e.label)}</b>`);
+    return;
+  }
+  if (e.kind === "step_attempt") {
+    const el = stepEl(e.step, e.label, "ai");
+    el._attempts = el._attempts || {};
+    setDots(el, el._attempts, e.attempt, false);
+    el.querySelector(".stepstate").textContent = `tentativa ${e.attempt} de ${e.max_attempts}`;
+    return;
+  }
+  if (e.kind === "qa_verdict") {
+    const el = stepEl(e.step, e.label, "ai");
+    el._attempts = el._attempts || {};
+    el._attempts[e.attempt] = !!e.approved;
+    setDots(el, el._attempts, e.attempt, e.approved);
+    const by = e.by === "gate" ? "Checagem por c\u00f3digo" : "Verificador";
+    const card = $("vcard"), list = (e.approved ? e.checked : e.issues) || [];
+    card.className = "vcard " + (e.approved ? "ok" : "bad"); card.style.display = "block";
+    $("vhead").textContent = e.approved ? `${by} aprovou: o que conferiu` : `${by} reprovou: por qu\u00ea`;
+    $("vstep").textContent = `${e.label}, tentativa ${e.attempt} de 5`;
+    $("vlist").innerHTML = list.slice(0, 3).map(x => `<div>${esc(clean(x))}</div>`).join("") || `<div>${esc(clean(e.feedback))}</div>`;
+    $("vwho").textContent = e.approved ? "O passo segue para o pr\u00f3ximo." : "O motivo volta para o executor, que refaz o passo.";
+    if (e.approved) {
+      el.querySelector(".stepstate").textContent = `${T.approved} na tentativa ${e.attempt}`;
+      addItem(e.t, by, "qa", `\u2713 Aprovado na tentativa ${e.attempt}`, "ok");
+    } else {
+      state.counters.rejections++; renderCounters();
+      el.querySelector(".stepstate").textContent = `${T.rejected} na tentativa ${e.attempt}, volta ao executor`;
+      addItem(e.t, by, "qa", `\u2715 Reprovou a tentativa ${e.attempt} de 5: ${esc(clean((e.issues || [])[0] || ""))}`, "bad");
+    }
+    return;
+  }
+  if (e.kind === "pause") {
+    const el = stepEl(e.step, e.label, "ai");
+    el.querySelector(".stepstate").textContent = T.paused;
+    addItem(e.t, "Verificador", "qa", "Recusa definitiva. Fluxo pausado.", "bad");
+    $("pause").style.display = "block";
+    return;
+  }
+  if (e.kind === "ai_call_start") {
+    state.counters.calls++; renderCounters();
+    const who = ACTORS[e.name] || "IA";
+    addItem(e.t, who, e.role === "verifier" ? "qa" : "ai", e.role === "verifier" ? "Come\u00e7a a conferir" : "Come\u00e7a a trabalhar");
+    return;
+  }
+  if (e.kind === "ai_tool") {
+    const who = ACTORS[e.name] || "IA";
+    const cls = e.role === "verifier" ? "qa" : "ai";
+    if (e.tool === "WebSearch" || e.tool === "web_search") { state.counters.searches++; renderCounters(); addItem(e.t, who, cls, `Busca na web: <code>${esc(e.input.query)}</code>`); }
+    else if (e.tool === "WebFetch") { state.counters.pages++; renderCounters(); addItem(e.t, who, cls, `Abre a p\u00e1gina <code>${esc(shortUrl(e.input.url))}</code>`); }
+    else if (e.tool === "StructuredOutput") { addItem(e.t, who, cls, "Entrega o resultado"); }
+    return;
+  }
+  if (e.kind === "det_search") {
+    state.counters.searches++; renderCounters();
+    addItem(e.t, T.det, "det", `Consulta ${CONNECTORS[e.connector] || e.connector}: <code>${esc(e.query)}</code> \u2192 ${e.results}`);
+    return;
+  }
+  if (e.kind === "det_dedupe") { addItem(e.t, T.det, "det", `Remove duplicados: ${e.candidates} candidatos, ${e.unique} \u00fanicos`); return; }
+  if (e.kind === "det_download") {
+    state.downloads.all++; if (e.status === 200 && e.chars >= 400) { state.downloads.ok++; state.counters.pages++; renderCounters(); }
+    const html = `Baixa e extrai o texto: ${state.downloads.ok} de ${state.downloads.all} p\u00e1ginas`;
+    if (state.downloads.item && state.downloads.item.isConnected) { state.downloads.item.querySelector(".what").innerHTML = html; state.downloads.item.querySelector(".t").textContent = fmt(e.t); }
+    else state.downloads.item = addItem(e.t, T.det, "det", html);
+    return;
+  }
+  if (e.kind === "det_corpus") { state.counters.docs = e.documents; renderCounters(); addItem(e.t, T.det, "det", `Corpus local: ${e.documents} documentos, cada um com hash SHA-256`); return; }
+  if (e.kind === "det_passages") { state.counters.passages = e.passages; renderCounters(); addItem(e.t, T.det, "det", `Procura os termos nos arquivos: ${e.passages} trechos em ${e.documents} documentos`); return; }
+  if (e.kind === "det_filter" && e.kept !== undefined) {
+    state.counters.docs = e.kept; renderCounters();
+    addItem(e.t, T.det, "det", `Confere no Crossref per\u00edodo e tipo de publica\u00e7\u00e3o: ${e.kept} artigos ficam, de ${e.unique}`);
+    return;
+  }
+  if (e.kind === "det_filter") { addItem(e.t, T.det, "det", `Separa os trechos relevantes: ${e.relevant} de ${e.total}`); return; }
+  if (e.kind === "det_validate" && e.items !== undefined) { addItem(e.t, T.det, "det", `Monta as ${e.items} refer\u00eancias com os dados do registro oficial; cita\u00e7\u00f5es j\u00e1 conferidas no resumo`, "ok"); return; }
+  if (e.kind === "det_validate") { addItem(e.t, T.det, "det", `Confere cada cita\u00e7\u00e3o no arquivo: ${e.citations} conferidas, ${e.invalid} inv\u00e1lidas`, "ok"); return; }
+  if (e.kind === "step_end") {
+    const el = state.stepByKey[e.step];
+    if (el && el.dataset.mode === "det") el.querySelector(".stepstate").textContent = T.done;
+    if (el && e.step === "single") el.querySelector(".stepstate").textContent = T.done;
+    return;
+  }
+  if (e.kind === "run_end") {
+    // a code step that logs no step_end (the final assembly) is done once the run ends
+    for (const el of Object.values(state.stepByKey)) if (el.dataset.mode === "det") el.querySelector(".stepstate").textContent = T.done;
+    state.end = e.ts; addItem(e.t, "Fim", "det", `Execu\u00e7\u00e3o encerrada em ${fmt(e.wall_seconds)}`); showResult(); return; }
+}
+
+async function showResult_() {}
+async function showPrompt(path) {
+  try {
+    const r = await fetch(path);
+    const raw = (await r.text()).split("\n");
+    const lines = [];
+    for (const l of raw) {
+      const t = l.trim();
+      const starts = t === "" || t.startsWith("#") || t.startsWith("-") || /^\d+\./.test(t);
+      if (!starts && lines.length && lines[lines.length - 1] !== "" && !lines[lines.length - 1].startsWith("#")) lines[lines.length - 1] += " " + t;
+      else lines.push(t);
+    }
+    $("ptSteps").textContent = "Instru\u00e7\u00f5es do agente";
+    const html = lines.filter(l => l && !l.startsWith("# ")).map(l => l.startsWith("## ") ? `<span class="h">${esc(l.slice(3))}</span>` : esc(l)).join("\n");
+    const div = document.createElement("div"); div.className = "prompt"; div.innerHTML = html;
+    const panel = $("steps"); panel.prepend(div);
+    panel.style.overflow = "hidden"; panel.style.flex = "1";
+    let size = 17;
+    div.style.fontSize = size + "px";
+    const limit = panel.parentElement.getBoundingClientRect().bottom - 24;
+    while (size > 11 && div.getBoundingClientRect().bottom > limit) { size -= 0.5; div.style.fontSize = size + "px"; }
+  } catch (err) {}
+}
+async function showResult() {
+  try {
+    const r = await fetch(`${BASE}/${RUN}/final.json?ts=${Date.now()}`);
+    const f = await r.json();
+    if (!f.report) return;
+    const rep = f.report;
+    $("vcard").style.display = "none";   // the run is over: the result takes the place of the last verdict
+    $("result").style.display = "block";
+    if (rep.items) {
+      $("verdict").textContent = `${rep.items.length} artigos entregues`;
+      $("conf").textContent = "DOI, t\u00edtulo, ano, peri\u00f3dico, m\u00e9todo, amostra, achado e cita\u00e7\u00e3o";
+      $("srcs").innerHTML = rep.items.slice(0, 4).map(s => `<div class="src">${esc((s.title || "").slice(0, 70))}<br><span>${esc(s.doi)} \u00b7 ${esc(s.year)}</span></div>`).join("");
+      return;
+    }
+    $("verdict").textContent = T.verdict[rep.verdict] || rep.verdict;
+    $("conf").textContent = `${T.conf[rep.confidence] || ""} \u00b7 ${rep.sources.length} fontes`;
+    $("srcs").innerHTML = rep.sources.slice(0, 4).map(s => `<div class="src">${esc((s.title || "").slice(0, 70))}<br><span>${esc(shortUrl(s.url))}</span></div>`).join("");
+  } catch (err) { /* final not written yet */ }
+}
+
+/* replay=1&speed=N: plays a finished real run, each event at its real time divided by N; the clock shows real time */
+const REPLAY = params.get("replay") === "1";
+const SPEED = Number(params.get("speed") || "10");
+async function replay() {
+  const r = await fetch(`${BASE}/${RUN}/events.jsonl?ts=${Date.now()}`);
+  const evs = (await r.text()).split("\n").filter(Boolean).map(l => { try { return JSON.parse(l); } catch (err) { return null; } }).filter(Boolean);
+  // paced: idle gaps shrink to at most CAP seconds, and every verifier verdict stays HOLD seconds on screen
+  const CAP = Number(params.get("cap") || "1.2"), HOLD = Number(params.get("hold") || "7");
+  let at = 0, prev = null;
+  for (const e of evs) {
+    if (prev) at += Math.min((e.t - prev.t) / SPEED, CAP) + (prev.kind === "qa_verdict" || prev.kind === "pause" ? HOLD : 0);
+    const when = at;
+    setTimeout(() => { try { handle(e); followSteps(); $("clock").textContent = fmt(e.t); } catch (err) {} }, when * 1000);
+    prev = e;
+  }
+  setTimeout(() => { document.body.dataset.replayDone = "1"; }, (at + 6) * 1000);
+}
+async function poll() {
+  try {
+    const r = await fetch(`${BASE}/${RUN}/events.jsonl?ts=${Date.now()}`);
+    if (r.ok) {
+      const lines = (await r.text()).split("\n").filter(Boolean);
+      for (let i = state.lines; i < lines.length; i++) { try { handle(JSON.parse(lines[i])); } catch (err) {} }
+      followSteps();
+      state.lines = lines.length;
+    }
+  } catch (err) {}
+  setTimeout(poll, 400);
+}
+if (REPLAY) replay();
+else {
+  setInterval(() => { if (state.start) $("clock").textContent = fmt((state.end || Date.now() / 1000) - state.start); }, 250);
+  poll();
+}
+</script>
+</body>
+</html>

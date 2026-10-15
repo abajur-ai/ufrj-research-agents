@@ -1,0 +1,173 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "C01: o tipo de estudo, o método, o N = 15.000 e o achado batem com o resumo; a citação está literal no resumo",
+      "C08: o desenho misto 2x2, o N = 196 e o achado sobre melhora na detecção e confiança batem com o resumo; citação literal confirmada",
+      "C06: os dois estudos online, o total N = 2.159, o desenho de Solomon de três grupos e o achado sobre efeitos de item e de teste batem com o resumo; citação literal confirmada",
+      "C05: os dois experimentos, o total n = 2188 e o achado sobre resistência com d = 0,37 e proteção cruzada reduzida batem com o resumo; citação literal confirmada",
+      "C03: o ensaio randomizado, os 180 participantes chineses, os três grupos e o achado de superioridade do jogo sobre o gráfico batem com o resumo; citação literal confirmada",
+      "C24: a réplica conceitual com N = 380, os efeitos de confiabilidade (d = 0,95) e compartilhamento (d = 0,54) e a ausência de ganho de confiança batem com o resumo; citação literal confirmada",
+      "C35: o estudo em sala com 516 estudantes suecos e a melhora no discernimento de técnicas de manipulação batem com o resumo; citação literal confirmada",
+      "C22: o tipo (dois experimentos de laboratório preregistrados e quatro levantamentos quase-experimentais nos jogos) e o achado sobre exercícios de feedback batem com o resumo; citação literal confirmada",
+      "C10: o ensaio randomizado com n = 757 no norte da Índia e o achado de ausência de impacto significativo batem com o resumo; citação literal confirmada",
+      "C14: o estudo preregistrado com N = 150 via Prolific, o contrabalanceamento e o achado nulo de discriminação batem com o resumo; citação literal confirmada",
+      "C37: as quatro réplicas de equipes de graduação, o achado de redução de crença em tweets falsos e verdadeiros e a convergência com a teoria de detecção de sinais batem com o resumo; citação literal confirmada",
+      "C12: as duas amostras (n = 84 e n = 30), a comparação jogadores versus não jogadores e o achado de melhor detecção entre quem jogou batem com o resumo; citação literal confirmada",
+      "C91: o estudo de campo randomizado piloto com N = 95 em escola e o achado de redução de confiabilidade e persuasão percebidas batem com o resumo; citação literal confirmada",
+      "C18: o estudo de campo online randomizado com n = 111 e o achado sobre conscientização e ferramentas de autenticação batem com o resumo; citação literal confirmada",
+      "C38: o estudo de campo randomizado com 351 participantes e pré e pós-teste e o achado sobre conhecimento de letramento informacional batem com o resumo; citação literal confirmada",
+      "C07: a avaliação do Bad News na Suécia, Alemanha, Polônia e Grécia e o achado de resistência entre culturas batem com o resumo; a amostra está corretamente marcada como não informada no resumo",
+      "C60: o desenho experimental com 459 estudantes, as três intervenções e o achado nulo para Bad News e News Evaluator batem com o resumo; citação literal confirmada",
+      "C20: o estudo de campo pré e pós-teste com 28 estudantes e o achado sobre quatro objetivos de aprendizagem batem com o resumo; citação literal confirmada",
+      "C26: o estudo piloto pré e pós-teste com 27 estudantes e o achado sobre conhecimento, criticidade e confiança batem com o resumo; citação em alemão está literal no resumo",
+      "C73: o desenho pré e pós-teste com 45 futuros professores e o achado de ganhos de conhecimento e confiança sem melhora de discernimento batem com o resumo; citação literal confirmada",
+      "C31: o experimento com 130 estudantes do ensino médio e o achado de ausência de melhora estatisticamente significativa global batem com o resumo; citação literal confirmada",
+      "C56: o estudo intrassujeitos de métodos mistos com N = 47 e o achado de elevação da alfabetização midiática batem com o resumo; citação literal confirmada",
+      "C62: o experimento 2x2 randomizado preregistrado com n = 291 e o jogo Radicalise e o achado sobre capacidade e confiança batem com o resumo; citação literal confirmada",
+      "C118: o delineamento fatorial com 80 participantes, as três variáveis (idade, interação e forma de inoculação) e os dois achados batem com o resumo; citação literal confirmada",
+      "C105: o estudo de grupo único pré e pós-teste com métodos mistos, os 95 participantes e o jogo de tabuleiro e o achado de melhora significativa no pós-teste batem com o resumo; citação literal confirmada",
+      "Conferi ainda que os 25 itens são estudos empíricos com jogo (digital, de tabuleiro ou de cartas) avaliados com participantes, sem estudos centrados em COVID-19, vacinas, eleições ou política partidária, e sem revisões, meta-análises ou reanálises de dados de terceiros"
+    ],
+    "per_item": [
+      {
+        "id": "C01",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C08",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C06",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C05",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C03",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C24",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C35",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C22",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C10",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C14",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C37",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C12",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C91",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C18",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C38",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C07",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C60",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C20",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C26",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C73",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C31",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C56",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C62",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C118",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C105",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [],
+    "feedback": "Nenhum erro que comprometa o resultado. Sugestões de melhoria para a próxima rodada: em C22, o campo de amostra lista apenas N1 = 191 e N2 = 321, mas o resumo informa também N3 = 559, N4 = 2.558, N5 = 419 e N6 = 882; seria ideal registrar todos os Ns exatamente como aparecem, já que a maior parte dos dados vem das pesquisas dentro dos jogos. Em C24, a citação sustenta apenas a parte do achado sobre confiabilidade; convém acrescentar um segundo trecho literal sobre a disposição de compartilhar ou sobre a ausência de ganho de confiança (por exemplo, o trecho com p = 0,204, d = -0,13). Em C118, o achado principal inclui dois resultados, mas a citação sustenta só o dos adultos jovens; sugiro acrescentar o trecho sobre os adultos mais velhos sob inoculação passiva. Em C37, o campo de amostra descreve as equipes porque o resumo não traz número de participantes; está adequado, mas vale manter assim e não inventar um N."
+  },
+  "text": "{\"approved\": true, \"checked\": [\n\"C01: o tipo de estudo, o método, o N = 15.000 e o achado batem com o resumo; a citação está literal no resumo\",\n\"C08: o desenho misto 2x2, o N = 196 e o achado sobre melhora na detecção e confiança batem com o resumo; citação literal confirmada\",\n\"C06: os dois estudos online, o total N = 2.159, o desenho de Solomon de três grupos e o achado sobre efeitos de item e de teste batem com o resumo; citação literal confirmada\",\n\"C05: os dois experimentos, o total n = 2188 e o achado sobre resistência com d = 0,37 e proteção cruzada reduzida batem com o resumo; citação literal confirmada\",\n\"C03: o ensaio randomizado, os 180 participantes chineses, os três grupos e o achado de superioridade do jogo sobre o gráfico batem com o resumo; citação literal confirmada\",\n\"C24: a réplica conceitual com N = 380, os efeitos de confiabilidade (d = 0,95) e compartilhamento (d = 0,54) e a ausência de ganho de confiança batem com o resumo; citação literal confirmada\",\n\"C35: o estudo em sala com 516 estudantes suecos e a melhora no discernimento de técnicas de manipulação batem com o resumo; citação literal confirmada\",\n\"C22: o tipo (dois experimentos de laboratório preregistrados e quatro levantamentos quase-experimentais nos jogos) e o achado sobre exercícios de feedback batem com o resumo; citação literal confirmada\",\n\"C10: o ensaio randomizado com n = 757 no norte da Índia e o achado de ausência de impacto significativo batem com o resumo; citação literal confirmada\",\n\"C14: o estudo preregistrado com N = 150 via Prolific, o contrabalanceamento e o achado nulo de discriminação batem com o resumo; citação literal confirmada\",\n\"C37: as quatro réplicas de equipes de graduação, o achado de redução de crença em tweets falsos e verdadeiros e a convergência com a teoria de detecção de sinais batem com o resumo; citação literal confirmada\",\n\"C12: as duas amostras (n = 84 e n = 30), a comparação jogadores versus não jogadores e o achado de melhor detecção entre quem jogou batem com o resumo; citação literal confirmada\",\n\"C91: o estudo de campo randomizado piloto com N = 95 em escola e o achado de redução de confiabilidade e persuasão percebidas batem com o resumo; citação literal confirmada\",\n\"C18: o estudo de campo online randomizado com n = 111 e o achado sobre conscientização e ferramentas de autenticação batem com o resumo; citação literal confirmada\",\n\"C38: o estudo de campo randomizado com 351 participantes e pré e pós-teste e o achado sobre conhecimento de letramento informacional batem com o resumo; citação literal confirmada\",\n\"C07: a avaliação do Bad News na Suécia, Alemanha, Polônia e Grécia e o achado de resistência entre culturas batem com o resumo; a amostra está corretamente marcada como não informada no resumo\",\n\"C60: o desenho experimental com 459 estudantes, as três intervenções e o achado nulo para Bad News e News Evaluator batem com o resumo; citação literal confirmada\",\n\"C20: o estudo de campo pré e pós-teste com 28 estudantes e o achado sobre quatro objetivos de aprendizagem batem com o resumo; citação literal confirmada\",\n\"C26: o estudo piloto pré e pós-teste com 27 estudantes e o achado sobre conhecimento, criticidade e confiança batem com o resumo; citação em alemão está literal no resumo\",\n\"C73: o desenho pré e pós-teste com 45 futuros professores e o achado de ganhos de conhecimento e confiança sem melhora de discernimento batem com o resumo; citação literal confirmada\",\n\"C31: o experimento com 130 estudantes do ensino médio e o achado de ausência de melhora estatisticamente significativa global batem com o resumo; citação literal confirmada\",\n\"C56: o estudo intrassujeitos de métodos mistos com N = 47 e o achado de elevação da alfabetização midiática batem com o resumo; citação literal confirmada\",\n\"C62: o experimento 2x2 randomizado preregistrado com n = 291 e o jogo Radicalise e o achado sobre capacidade e confiança batem com o resumo; citação literal confirmada\",\n\"C118: o delineamento fatorial com 80 participantes, as três variáveis (idade, interação e forma de inoculação) e os dois achados batem com o resumo; citação literal confirmada\",\n\"C105: o estudo de grupo único pré e pós-teste com métodos mistos, os 95 participantes e o jogo de tabuleiro e o achado de melhora significativa no pós-teste batem com o resumo; citação literal confirmada\",\n\"Conferi ainda que os 25 itens são estudos empíricos com jogo (digital, de tabuleiro ou de cartas) avaliados com participantes, sem estudos centrados em COVID-19, vacinas, eleições ou política partidária, e sem revisões, meta-análises ou reanálises de dados de terceiros\"\n], \"per_item\": [\n{\"id\": \"C01\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C08\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C06\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C05\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C03\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C24\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C35\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C22\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C10\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C14\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C37\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C12\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C91\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C18\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C38\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C07\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C60\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C20\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C26\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C73\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C31\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C56\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C62\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C118\", \"ok\": true, \"problem\": \"\"},\n{\"id\": \"C105\", \"ok\": true, \"problem\": \"\"}\n], \"issues\": [], \"feedback\": \"Nenhum erro que comprometa o resultado. Sugestões de melhoria para a próxima rodada: em C22, o campo de amostra lista apenas N1 = 191 e N2 = 321, mas o resumo informa também N3 = 559, N4 = 2.558, N5 = 419 e N6 = 882; seria ideal registrar todos os Ns exatamente como aparecem, já que a maior parte dos dados vem das pesquisas dentro dos jogos. Em C24, a citação sustenta apenas a parte do achado sobre confiabilidade; convém acrescentar um segundo trecho literal sobre a disposição de compartilhar ou sobre a ausência de ganho de confiança (por exemplo, o trecho com p = 0,204, d = -0,13). Em C118, o achado principal inclui dois resultados, mas a citação sustenta só o dos adultos jovens; sugiro acrescentar o trecho sobre os adultos mais velhos sob inoculação passiva. Em C37, o campo de amostra descreve as equipes porque o resumo não traz número de participantes; está adequado, mas vale manter assim e não inventar um N.\"}",
+  "usage": {
+    "input_tokens": 11525,
+    "output_tokens": 3770,
+    "cost_usd": 0.00361
+  },
+  "duration_s": 49.44,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

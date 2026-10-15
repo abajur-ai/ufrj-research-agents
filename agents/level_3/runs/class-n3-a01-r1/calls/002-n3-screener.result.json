@@ -1,0 +1,706 @@
+{
+  "structured": {
+    "decisions": [
+      {
+        "id": "C01",
+        "include": true,
+        "reason": "Experimento sobre CIE com inoculação e credibilidade da fonte da correção; mede dependência da desinformação e crença após retratação."
+      },
+      {
+        "id": "C02",
+        "include": true,
+        "reason": "Três experimentos sobre colaboração e CIE, com medidas de memória e inferência após retratação."
+      },
+      {
+        "id": "C03",
+        "include": true,
+        "reason": "Dois experimentos sobre explicar a origem da desinformação na correção, com raciocínio sobre eventos."
+      },
+      {
+        "id": "C04",
+        "include": true,
+        "reason": "Dois estudos (86 participantes) sobre o momento da correção e o CIE; atende, mas fica fora dos 25 principais por detalhes escassos no resumo."
+      },
+      {
+        "id": "C05",
+        "include": true,
+        "reason": "Três estudos sobre fatores que reduzem o CIE (alternativa, alvo da correção, importância)."
+      },
+      {
+        "id": "C06",
+        "include": true,
+        "reason": "Experimentos sobre o CIE e histórias na memória; materiais de histórias, sem conotação política ou de saúde."
+      },
+      {
+        "id": "C07",
+        "include": false,
+        "reason": "O Experimento 3 usa alegações reais controversas, então os materiais não são todos neutros."
+      },
+      {
+        "id": "C08",
+        "include": true,
+        "reason": "Três experimentos com pessoa fictícia e retratação de comportamento; mede impressão após retratação."
+      },
+      {
+        "id": "C09",
+        "include": true,
+        "reason": "Experimento com investidores e divulgação retratada; mede julgamentos após retratação. Atende, mas é menos central e fica fora dos 25."
+      },
+      {
+        "id": "C10",
+        "include": true,
+        "reason": "Estudo de ERP com tarefa de influência continuada em participantes humanos."
+      },
+      {
+        "id": "C11",
+        "include": true,
+        "reason": "Dois experimentos (N = 441) sobre alternativa, alerta ou inoculação e dependência da desinformação ao longo do tempo."
+      },
+      {
+        "id": "C12",
+        "include": true,
+        "reason": "Dois experimentos sobre credibilidade da fonte da retratação e o CIE; é o núcleo do tema."
+      },
+      {
+        "id": "C13",
+        "include": true,
+        "reason": "Três experimentos (N = 1718) sobre correção de desinformação nova e raciocínio inferencial; o resumo não detalha os materiais, mas o tema é central."
+      },
+      {
+        "id": "C14",
+        "include": true,
+        "reason": "Dois experimentos com desinformação fictícia e descrédito da fonte; mede a dependência após a correção."
+      },
+      {
+        "id": "C15",
+        "include": true,
+        "reason": "Quatro experimentos com pessoa fictícia e retratação; mede impressões após a retratação."
+      },
+      {
+        "id": "C16",
+        "include": true,
+        "reason": "Experimento com 61 participantes e cenários militares fictícios com informação falsa retratada; sem conotação política ou de saúde."
+      },
+      {
+        "id": "C17",
+        "include": true,
+        "reason": "Experimentos que aplicam a segmentação de eventos ao paradigma do CIE com relatos de eventos."
+      },
+      {
+        "id": "C18",
+        "include": false,
+        "reason": "A desinformação é consistente com as atitudes dos participantes, o que sugere conotação ideológica; o resumo não garante materiais neutros."
+      },
+      {
+        "id": "C19",
+        "include": true,
+        "reason": "Dois experimentos sobre correções negadas, com materiais neutros (carro azul). Atende, mas fica fora dos 25."
+      },
+      {
+        "id": "C20",
+        "include": true,
+        "reason": "Estudo com tarefa padrão de CIE e funções executivas."
+      },
+      {
+        "id": "C21",
+        "include": true,
+        "reason": "Experimentos online com paradigma de CIE, comparando perguntas abertas e fechadas."
+      },
+      {
+        "id": "C22",
+        "include": true,
+        "reason": "Experimento com pessoa fictícia e alegação retratada; mede impressões após a retratação."
+      },
+      {
+        "id": "C23",
+        "include": false,
+        "reason": "Resumo não deixa claro se os materiais são neutros nem se o paradigma é o de CIE; usa opiniões e viés de perseverança de crença."
+      },
+      {
+        "id": "C24",
+        "include": true,
+        "reason": "Experimento com correções repetidas e carga cognitiva, medindo raciocínio inferencial; o resumo não detalha os materiais. Atende, mas fica fora dos 25."
+      },
+      {
+        "id": "C25",
+        "include": false,
+        "reason": "Revisão sobre inoculação e prebunking."
+      },
+      {
+        "id": "C26",
+        "include": true,
+        "reason": "Três experimentos (N = 1156) sobre correções isoladas e raciocínio inferencial. Atende, mas é periférico e fica fora dos 25."
+      },
+      {
+        "id": "C27",
+        "include": false,
+        "reason": "Mede mudança de atitude em contexto de notícias; o resumo não garante materiais neutros nem mede o CIE de forma clara."
+      },
+      {
+        "id": "C28",
+        "include": false,
+        "reason": "Posts de redes sociais com checagem de fatos; o resumo não garante materiais neutros nem o paradigma do CIE."
+      },
+      {
+        "id": "C29",
+        "include": false,
+        "reason": "Ensaio sobre desinformação na pandemia, sem dados próprios."
+      },
+      {
+        "id": "C30",
+        "include": true,
+        "reason": "Quatro experimentos sobre atualização de crença com informação retratada e confiabilidade da fonte."
+      },
+      {
+        "id": "C31",
+        "include": false,
+        "reason": "Manchetes reais e falsas sobre atualização de crença; não é o paradigma do CIE."
+      },
+      {
+        "id": "C32",
+        "include": false,
+        "reason": "Candidatos políticos, o que é desinformação política."
+      },
+      {
+        "id": "C33",
+        "include": false,
+        "reason": "Resenha de livro, fora do tema."
+      },
+      {
+        "id": "C34",
+        "include": false,
+        "reason": "Fora do tema (direito)."
+      },
+      {
+        "id": "C35",
+        "include": false,
+        "reason": "Checagens de saúde e política, sem CIE."
+      },
+      {
+        "id": "C36",
+        "include": false,
+        "reason": "Comentário, sem dados próprios."
+      },
+      {
+        "id": "C37",
+        "include": false,
+        "reason": "Protocolo de relato registrado, sem dados; a versão com dados é C86."
+      },
+      {
+        "id": "C38",
+        "include": false,
+        "reason": "Estilo de correção em redes sociais, sem medida de crença após a retratação."
+      },
+      {
+        "id": "C39",
+        "include": false,
+        "reason": "Fora do tema (lentes de contato)."
+      },
+      {
+        "id": "C40",
+        "include": true,
+        "reason": "Experimento (N = 84) com notícias fictícias, desinformação corrigida e meio de leitura."
+      },
+      {
+        "id": "C41",
+        "include": false,
+        "reason": "Desinformação sobre COVID-19."
+      },
+      {
+        "id": "C42",
+        "include": false,
+        "reason": "Meta-análise."
+      },
+      {
+        "id": "C43",
+        "include": false,
+        "reason": "Desinformação política."
+      },
+      {
+        "id": "C44",
+        "include": true,
+        "reason": "Dois experimentos sobre retratação de desinformação negativa e ruminação depressiva, com cenários fictícios."
+      },
+      {
+        "id": "C45",
+        "include": false,
+        "reason": "Desinformação com enquadramento religioso e política na Índia."
+      },
+      {
+        "id": "C46",
+        "include": false,
+        "reason": "Texto teórico e de discussão, sem dados próprios."
+      },
+      {
+        "id": "C47",
+        "include": false,
+        "reason": "Fora do tema (evasão escolar)."
+      },
+      {
+        "id": "C48",
+        "include": false,
+        "reason": "Ensaio teórico."
+      },
+      {
+        "id": "C49",
+        "include": false,
+        "reason": "Estudo bibliométrico de citações, sem participantes humanos."
+      },
+      {
+        "id": "C50",
+        "include": false,
+        "reason": "Análise de citações, sem participantes humanos."
+      },
+      {
+        "id": "C51",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C52",
+        "include": true,
+        "reason": "Meio-termo: compara prebunking e debunking com desinformação sobre comércio justo e mede a dependência. Atende, mas é menos central e fica fora dos 25."
+      },
+      {
+        "id": "C53",
+        "include": false,
+        "reason": "Fora do tema (economia)."
+      },
+      {
+        "id": "C54",
+        "include": false,
+        "reason": "Desinformação científica com chatbot, sem medida de CIE."
+      },
+      {
+        "id": "C55",
+        "include": false,
+        "reason": "Revisão sistemática sobre vacinas."
+      },
+      {
+        "id": "C56",
+        "include": false,
+        "reason": "Desinformação em saúde pública."
+      },
+      {
+        "id": "C57",
+        "include": false,
+        "reason": "Fora do tema (agronomia)."
+      },
+      {
+        "id": "C58",
+        "include": true,
+        "reason": "Adaptação do paradigma de CIE com desinformação estatística (causalidade versus correlação), N = 129; sem conotação política ou de saúde."
+      },
+      {
+        "id": "C59",
+        "include": false,
+        "reason": "Desinformação antiucraniana, política, em experimento de campo sem medida de CIE."
+      },
+      {
+        "id": "C60",
+        "include": false,
+        "reason": "Análise de dados de redes sociais, sem experimento."
+      },
+      {
+        "id": "C61",
+        "include": false,
+        "reason": "Revisão crítica sobre desinformação política."
+      },
+      {
+        "id": "C62",
+        "include": false,
+        "reason": "Análise de citações, sem participantes humanos."
+      },
+      {
+        "id": "C63",
+        "include": false,
+        "reason": "Desinformação sobre mudança climática, com conotação política."
+      },
+      {
+        "id": "C64",
+        "include": false,
+        "reason": "Revisão qualitativa, sem experimento."
+      },
+      {
+        "id": "C65",
+        "include": false,
+        "reason": "Análise de conteúdo de posts, sem participantes experimentais, e com conotação política."
+      },
+      {
+        "id": "C66",
+        "include": false,
+        "reason": "Survey transversal sobre desinformação em saúde."
+      },
+      {
+        "id": "C67",
+        "include": false,
+        "reason": "Fora do tema (formação docente)."
+      },
+      {
+        "id": "C68",
+        "include": false,
+        "reason": "Fora do tema (narrativa infantil)."
+      },
+      {
+        "id": "C69",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C70",
+        "include": false,
+        "reason": "Efeito de desinformação sem retratação ou correção."
+      },
+      {
+        "id": "C71",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C72",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C73",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C74",
+        "include": false,
+        "reason": "Fora do tema (revisão integrativa)."
+      },
+      {
+        "id": "C75",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C76",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C77",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C78",
+        "include": false,
+        "reason": "Desinformação em saúde (leite não pasteurizado) e sem medida de crença após a correção."
+      },
+      {
+        "id": "C79",
+        "include": false,
+        "reason": "Comunicação de crise; sem medida de CIE nem materiais claramente neutros."
+      },
+      {
+        "id": "C80",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C81",
+        "include": false,
+        "reason": "Percepções sobre correção entre pares no contexto da COVID-19."
+      },
+      {
+        "id": "C82",
+        "include": false,
+        "reason": "Desinformação política eleitoral."
+      },
+      {
+        "id": "C83",
+        "include": false,
+        "reason": "Exposição prévia a desinformação real em survey; materiais e paradigma de CIE não são claros."
+      },
+      {
+        "id": "C84",
+        "include": false,
+        "reason": "Desinformação sobre vacina contra HPV."
+      },
+      {
+        "id": "C85",
+        "include": false,
+        "reason": "Política (político fictício, mas contexto de eleições e fake news)."
+      },
+      {
+        "id": "C86",
+        "include": true,
+        "reason": "Experimento com cenários, retratação, idade e atraso; mede raciocínio inferencial (versão com dados do C37)."
+      },
+      {
+        "id": "C87",
+        "include": false,
+        "reason": "Modelo teórico e experimento mental."
+      },
+      {
+        "id": "C88",
+        "include": false,
+        "reason": "Alfabetização midiática em eleições, sem medida de CIE."
+      },
+      {
+        "id": "C89",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C90",
+        "include": false,
+        "reason": "Manchetes reais e falsas (menciona COVID-19); atualização de memória, fora do paradigma de CIE."
+      },
+      {
+        "id": "C91",
+        "include": true,
+        "reason": "Survey e experimento sobre relevância da informação no CIE. Atende, mas o resumo tem poucos detalhes e fica fora dos 25."
+      },
+      {
+        "id": "C92",
+        "include": true,
+        "reason": "Estudo sobre diferenças individuais de memória de trabalho e CIE."
+      },
+      {
+        "id": "C93",
+        "include": true,
+        "reason": "Estudo sobre funções executivas e CIE."
+      },
+      {
+        "id": "C94",
+        "include": true,
+        "reason": "Estudo de fMRI (31 participantes) com notícias fictícias retratadas. Atende, mas fica fora dos 25."
+      },
+      {
+        "id": "C95",
+        "include": true,
+        "reason": "Experimento sobre reflexão metacognitiva e CIE. Atende, mas o resumo é pouco detalhado e fica fora dos 25."
+      },
+      {
+        "id": "C96",
+        "include": false,
+        "reason": "Desinformação sobre tabaco orgânico, de saúde."
+      },
+      {
+        "id": "C97",
+        "include": true,
+        "reason": "Experimento sobre CIE com desinformação implícita ou explícita e valência emocional."
+      },
+      {
+        "id": "C98",
+        "include": false,
+        "reason": "Ensaio teórico."
+      },
+      {
+        "id": "C99",
+        "include": true,
+        "reason": "Notícias fictícias corrigidas e memória das correções, mas o foco é crença prévia e viés de confirmação. Atende, mas fica fora dos 25."
+      },
+      {
+        "id": "C100",
+        "include": false,
+        "reason": "Comentário."
+      },
+      {
+        "id": "C101",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C102",
+        "include": true,
+        "reason": "Dois experimentos com desinformação sugerida, correção e memória, no contexto de testemunho ocular. Atende, mas fica fora dos 25."
+      },
+      {
+        "id": "C103",
+        "include": false,
+        "reason": "Ensaio, sem experimento."
+      },
+      {
+        "id": "C104",
+        "include": false,
+        "reason": "Notícias falsas políticas, sem correção."
+      },
+      {
+        "id": "C105",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C106",
+        "include": false,
+        "reason": "Fora do tema (memórias emocionais)."
+      },
+      {
+        "id": "C107",
+        "include": false,
+        "reason": "Desinformação sobre vacinas e COVID-19."
+      },
+      {
+        "id": "C108",
+        "include": false,
+        "reason": "Desinformação política (inclui COVID-19)."
+      },
+      {
+        "id": "C109",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C110",
+        "include": false,
+        "reason": "Desinformação sobre vacinas."
+      },
+      {
+        "id": "C111",
+        "include": false,
+        "reason": "Análise de dados de redes sociais, sem participantes experimentais."
+      },
+      {
+        "id": "C112",
+        "include": false,
+        "reason": "Efeito de desinformação sem correção ou retratação."
+      },
+      {
+        "id": "C113",
+        "include": false,
+        "reason": "Modelo teórico."
+      },
+      {
+        "id": "C114",
+        "include": false,
+        "reason": "Comentário sobre vacinas."
+      },
+      {
+        "id": "C115",
+        "include": false,
+        "reason": "Fora do tema (direito)."
+      },
+      {
+        "id": "C116",
+        "include": false,
+        "reason": "Artigo conceitual."
+      },
+      {
+        "id": "C117",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C118",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C119",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C120",
+        "include": false,
+        "reason": "Fora do tema (filosofia)."
+      },
+      {
+        "id": "C121",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C122",
+        "include": false,
+        "reason": "Políticos reais e checagem de fatos; contexto político."
+      },
+      {
+        "id": "C123",
+        "include": false,
+        "reason": "Filosofia."
+      },
+      {
+        "id": "C124",
+        "include": false,
+        "reason": "Filosofia."
+      },
+      {
+        "id": "C125",
+        "include": false,
+        "reason": "Desinformação com crianças, sem correção ou retratação."
+      }
+    ],
+    "selected": [
+      "C12",
+      "C03",
+      "C14",
+      "C05",
+      "C01",
+      "C17",
+      "C11",
+      "C06",
+      "C13",
+      "C08",
+      "C15",
+      "C02",
+      "C30",
+      "C21",
+      "C86",
+      "C20",
+      "C10",
+      "C22",
+      "C44",
+      "C58",
+      "C40",
+      "C16",
+      "C97",
+      "C92",
+      "C93"
+    ]
+  },
+  "text": "{\"decisions\":[{\"id\":\"C01\",\"include\":true,\"reason\":\"Experimento sobre CIE com inoculação e credibilidade da fonte da correção; mede dependência da desinformação e crença após retratação.\"},{\"id\":\"C02\",\"include\":true,\"reason\":\"Três experimentos sobre colaboração e CIE, com medidas de memória e inferência após retratação.\"},{\"id\":\"C03\",\"include\":true,\"reason\":\"Dois experimentos sobre explicar a origem da desinformação na correção, com raciocínio sobre eventos.\"},{\"id\":\"C04\",\"include\":true,\"reason\":\"Dois estudos (86 participantes) sobre o momento da correção e o CIE; atende, mas fica fora dos 25 principais por detalhes escassos no resumo.\"},{\"id\":\"C05\",\"include\":true,\"reason\":\"Três estudos sobre fatores que reduzem o CIE (alternativa, alvo da correção, importância).\"},{\"id\":\"C06\",\"include\":true,\"reason\":\"Experimentos sobre o CIE e histórias na memória; materiais de histórias, sem conotação política ou de saúde.\"},{\"id\":\"C07\",\"include\":false,\"reason\":\"O Experimento 3 usa alegações reais controversas, então os materiais não são todos neutros.\"},{\"id\":\"C08\",\"include\":true,\"reason\":\"Três experimentos com pessoa fictícia e retratação de comportamento; mede impressão após retratação.\"},{\"id\":\"C09\",\"include\":true,\"reason\":\"Experimento com investidores e divulgação retratada; mede julgamentos após retratação. Atende, mas é menos central e fica fora dos 25.\"},{\"id\":\"C10\",\"include\":true,\"reason\":\"Estudo de ERP com tarefa de influência continuada em participantes humanos.\"},{\"id\":\"C11\",\"include\":true,\"reason\":\"Dois experimentos (N = 441) sobre alternativa, alerta ou inoculação e dependência da desinformação ao longo do tempo.\"},{\"id\":\"C12\",\"include\":true,\"reason\":\"Dois experimentos sobre credibilidade da fonte da retratação e o CIE; é o núcleo do tema.\"},{\"id\":\"C13\",\"include\":true,\"reason\":\"Três experimentos (N = 1718) sobre correção de desinformação nova e raciocínio inferencial; o resumo não detalha os materiais, mas o tema é central.\"},{\"id\":\"C14\",\"include\":true,\"reason\":\"Dois experimentos com desinformação fictícia e descrédito da fonte; mede a dependência após a correção.\"},{\"id\":\"C15\",\"include\":true,\"reason\":\"Quatro experimentos com pessoa fictícia e retratação; mede impressões após a retratação.\"},{\"id\":\"C16\",\"include\":true,\"reason\":\"Experimento com 61 participantes e cenários militares fictícios com informação falsa retratada; sem conotação política ou de saúde.\"},{\"id\":\"C17\",\"include\":true,\"reason\":\"Experimentos que aplicam a segmentação de eventos ao paradigma do CIE com relatos de eventos.\"},{\"id\":\"C18\",\"include\":false,\"reason\":\"A desinformação é consistente com as atitudes dos participantes, o que sugere conotação ideológica; o resumo não garante materiais neutros.\"},{\"id\":\"C19\",\"include\":true,\"reason\":\"Dois experimentos sobre correções negadas, com materiais neutros (carro azul). Atende, mas fica fora dos 25.\"},{\"id\":\"C20\",\"include\":true,\"reason\":\"Estudo com tarefa padrão de CIE e funções executivas.\"},{\"id\":\"C21\",\"include\":true,\"reason\":\"Experimentos online com paradigma de CIE, comparando perguntas abertas e fechadas.\"},{\"id\":\"C22\",\"include\":true,\"reason\":\"Experimento com pessoa fictícia e alegação retratada; mede impressões após a retratação.\"},{\"id\":\"C23\",\"include\":false,\"reason\":\"Resumo não deixa claro se os materiais são neutros nem se o paradigma é o de CIE; usa opiniões e viés de perseverança de crença.\"},{\"id\":\"C24\",\"include\":true,\"reason\":\"Experimento com correções repetidas e carga cognitiva, medindo raciocínio inferencial; o resumo não detalha os materiais. Atende, mas fica fora dos 25.\"},{\"id\":\"C25\",\"include\":false,\"reason\":\"Revisão sobre inoculação e prebunking.\"},{\"id\":\"C26\",\"include\":true,\"reason\":\"Três experimentos (N = 1156) sobre correções isoladas e raciocínio inferencial. Atende, mas é periférico e fica fora dos 25.\"},{\"id\":\"C27\",\"include\":false,\"reason\":\"Mede mudança de atitude em contexto de notícias; o resumo não garante materiais neutros nem mede o CIE de forma clara.\"},{\"id\":\"C28\",\"include\":false,\"reason\":\"Posts de redes sociais com checagem de fatos; o resumo não garante materiais neutros nem o paradigma do CIE.\"},{\"id\":\"C29\",\"include\":false,\"reason\":\"Ensaio sobre desinformação na pandemia, sem dados próprios.\"},{\"id\":\"C30\",\"include\":true,\"reason\":\"Quatro experimentos sobre atualização de crença com informação retratada e confiabilidade da fonte.\"},{\"id\":\"C31\",\"include\":false,\"reason\":\"Manchetes reais e falsas sobre atualização de crença; não é o paradigma do CIE.\"},{\"id\":\"C32\",\"include\":false,\"reason\":\"Candidatos políticos, o que é desinformação política.\"},{\"id\":\"C33\",\"include\":false,\"reason\":\"Resenha de livro, fora do tema.\"},{\"id\":\"C34\",\"include\":false,\"reason\":\"Fora do tema (direito).\"},{\"id\":\"C35\",\"include\":false,\"reason\":\"Checagens de saúde e política, sem CIE.\"},{\"id\":\"C36\",\"include\":false,\"reason\":\"Comentário, sem dados próprios.\"},{\"id\":\"C37\",\"include\":false,\"reason\":\"Protocolo de relato registrado, sem dados; a versão com dados é C86.\"},{\"id\":\"C38\",\"include\":false,\"reason\":\"Estilo de correção em redes sociais, sem medida de crença após a retratação.\"},{\"id\":\"C39\",\"include\":false,\"reason\":\"Fora do tema (lentes de contato).\"},{\"id\":\"C40\",\"include\":true,\"reason\":\"Experimento (N = 84) com notícias fictícias, desinformação corrigida e meio de leitura.\"},{\"id\":\"C41\",\"include\":false,\"reason\":\"Desinformação sobre COVID-19.\"},{\"id\":\"C42\",\"include\":false,\"reason\":\"Meta-análise.\"},{\"id\":\"C43\",\"include\":false,\"reason\":\"Desinformação política.\"},{\"id\":\"C44\",\"include\":true,\"reason\":\"Dois experimentos sobre retratação de desinformação negativa e ruminação depressiva, com cenários fictícios.\"},{\"id\":\"C45\",\"include\":false,\"reason\":\"Desinformação com enquadramento religioso e política na Índia.\"},{\"id\":\"C46\",\"include\":false,\"reason\":\"Texto teórico e de discussão, sem dados próprios.\"},{\"id\":\"C47\",\"include\":false,\"reason\":\"Fora do tema (evasão escolar).\"},{\"id\":\"C48\",\"include\":false,\"reason\":\"Ensaio teórico.\"},{\"id\":\"C49\",\"include\":false,\"reason\":\"Estudo bibliométrico de citações, sem participantes humanos.\"},{\"id\":\"C50\",\"include\":false,\"reason\":\"Análise de citações, sem participantes humanos.\"},{\"id\":\"C51\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C52\",\"include\":true,\"reason\":\"Meio-termo: compara prebunking e debunking com desinformação sobre comércio justo e mede a dependência. Atende, mas é menos central e fica fora dos 25.\"},{\"id\":\"C53\",\"include\":false,\"reason\":\"Fora do tema (economia).\"},{\"id\":\"C54\",\"include\":false,\"reason\":\"Desinformação científica com chatbot, sem medida de CIE.\"},{\"id\":\"C55\",\"include\":false,\"reason\":\"Revisão sistemática sobre vacinas.\"},{\"id\":\"C56\",\"include\":false,\"reason\":\"Desinformação em saúde pública.\"},{\"id\":\"C57\",\"include\":false,\"reason\":\"Fora do tema (agronomia).\"},{\"id\":\"C58\",\"include\":true,\"reason\":\"Adaptação do paradigma de CIE com desinformação estatística (causalidade versus correlação), N = 129; sem conotação política ou de saúde.\"},{\"id\":\"C59\",\"include\":false,\"reason\":\"Desinformação antiucraniana, política, em experimento de campo sem medida de CIE.\"},{\"id\":\"C60\",\"include\":false,\"reason\":\"Análise de dados de redes sociais, sem experimento.\"},{\"id\":\"C61\",\"include\":false,\"reason\":\"Revisão crítica sobre desinformação política.\"},{\"id\":\"C62\",\"include\":false,\"reason\":\"Análise de citações, sem participantes humanos.\"},{\"id\":\"C63\",\"include\":false,\"reason\":\"Desinformação sobre mudança climática, com conotação política.\"},{\"id\":\"C64\",\"include\":false,\"reason\":\"Revisão qualitativa, sem experimento.\"},{\"id\":\"C65\",\"include\":false,\"reason\":\"Análise de conteúdo de posts, sem participantes experimentais, e com conotação política.\"},{\"id\":\"C66\",\"include\":false,\"reason\":\"Survey transversal sobre desinformação em saúde.\"},{\"id\":\"C67\",\"include\":false,\"reason\":\"Fora do tema (formação docente).\"},{\"id\":\"C68\",\"include\":false,\"reason\":\"Fora do tema (narrativa infantil).\"},{\"id\":\"C69\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C70\",\"include\":false,\"reason\":\"Efeito de desinformação sem retratação ou correção.\"},{\"id\":\"C71\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C72\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C73\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C74\",\"include\":false,\"reason\":\"Fora do tema (revisão integrativa).\"},{\"id\":\"C75\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C76\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C77\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C78\",\"include\":false,\"reason\":\"Desinformação em saúde (leite não pasteurizado) e sem medida de crença após a correção.\"},{\"id\":\"C79\",\"include\":false,\"reason\":\"Comunicação de crise; sem medida de CIE nem materiais claramente neutros.\"},{\"id\":\"C80\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C81\",\"include\":false,\"reason\":\"Percepções sobre correção entre pares no contexto da COVID-19.\"},{\"id\":\"C82\",\"include\":false,\"reason\":\"Desinformação política eleitoral.\"},{\"id\":\"C83\",\"include\":false,\"reason\":\"Exposição prévia a desinformação real em survey; materiais e paradigma de CIE não são claros.\"},{\"id\":\"C84\",\"include\":false,\"reason\":\"Desinformação sobre vacina contra HPV.\"},{\"id\":\"C85\",\"include\":false,\"reason\":\"Política (político fictício, mas contexto de eleições e fake news).\"},{\"id\":\"C86\",\"include\":true,\"reason\":\"Experimento com cenários, retratação, idade e atraso; mede raciocínio inferencial (versão com dados do C37).\"},{\"id\":\"C87\",\"include\":false,\"reason\":\"Modelo teórico e experimento mental.\"},{\"id\":\"C88\",\"include\":false,\"reason\":\"Alfabetização midiática em eleições, sem medida de CIE.\"},{\"id\":\"C89\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C90\",\"include\":false,\"reason\":\"Manchetes reais e falsas (menciona COVID-19); atualização de memória, fora do paradigma de CIE.\"},{\"id\":\"C91\",\"include\":true,\"reason\":\"Survey e experimento sobre relevância da informação no CIE. Atende, mas o resumo tem poucos detalhes e fica fora dos 25.\"},{\"id\":\"C92\",\"include\":true,\"reason\":\"Estudo sobre diferenças individuais de memória de trabalho e CIE.\"},{\"id\":\"C93\",\"include\":true,\"reason\":\"Estudo sobre funções executivas e CIE.\"},{\"id\":\"C94\",\"include\":true,\"reason\":\"Estudo de fMRI (31 participantes) com notícias fictícias retratadas. Atende, mas fica fora dos 25.\"},{\"id\":\"C95\",\"include\":true,\"reason\":\"Experimento sobre reflexão metacognitiva e CIE. Atende, mas o resumo é pouco detalhado e fica fora dos 25.\"},{\"id\":\"C96\",\"include\":false,\"reason\":\"Desinformação sobre tabaco orgânico, de saúde.\"},{\"id\":\"C97\",\"include\":true,\"reason\":\"Experimento sobre CIE com desinformação implícita ou explícita e valência emocional.\"},{\"id\":\"C98\",\"include\":false,\"reason\":\"Ensaio teórico.\"},{\"id\":\"C99\",\"include\":true,\"reason\":\"Notícias fictícias corrigidas e memória das correções, mas o foco é crença prévia e viés de confirmação. Atende, mas fica fora dos 25.\"},{\"id\":\"C100\",\"include\":false,\"reason\":\"Comentário.\"},{\"id\":\"C101\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C102\",\"include\":true,\"reason\":\"Dois experimentos com desinformação sugerida, correção e memória, no contexto de testemunho ocular. Atende, mas fica fora dos 25.\"},{\"id\":\"C103\",\"include\":false,\"reason\":\"Ensaio, sem experimento.\"},{\"id\":\"C104\",\"include\":false,\"reason\":\"Notícias falsas políticas, sem correção.\"},{\"id\":\"C105\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C106\",\"include\":false,\"reason\":\"Fora do tema (memórias emocionais).\"},{\"id\":\"C107\",\"include\":false,\"reason\":\"Desinformação sobre vacinas e COVID-19.\"},{\"id\":\"C108\",\"include\":false,\"reason\":\"Desinformação política (inclui COVID-19).\"},{\"id\":\"C109\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C110\",\"include\":false,\"reason\":\"Desinformação sobre vacinas.\"},{\"id\":\"C111\",\"include\":false,\"reason\":\"Análise de dados de redes sociais, sem participantes experimentais.\"},{\"id\":\"C112\",\"include\":false,\"reason\":\"Efeito de desinformação sem correção ou retratação.\"},{\"id\":\"C113\",\"include\":false,\"reason\":\"Modelo teórico.\"},{\"id\":\"C114\",\"include\":false,\"reason\":\"Comentário sobre vacinas.\"},{\"id\":\"C115\",\"include\":false,\"reason\":\"Fora do tema (direito).\"},{\"id\":\"C116\",\"include\":false,\"reason\":\"Artigo conceitual.\"},{\"id\":\"C117\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C118\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C119\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C120\",\"include\":false,\"reason\":\"Fora do tema (filosofia).\"},{\"id\":\"C121\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C122\",\"include\":false,\"reason\":\"Políticos reais e checagem de fatos; contexto político.\"},{\"id\":\"C123\",\"include\":false,\"reason\":\"Filosofia.\"},{\"id\":\"C124\",\"include\":false,\"reason\":\"Filosofia.\"},{\"id\":\"C125\",\"include\":false,\"reason\":\"Desinformação com crianças, sem correção ou retratação.\"}],\"selected\":[\"C12\",\"C03\",\"C14\",\"C05\",\"C01\",\"C17\",\"C11\",\"C06\",\"C13\",\"C08\",\"C15\",\"C02\",\"C30\",\"C21\",\"C86\",\"C20\",\"C10\",\"C22\",\"C44\",\"C58\",\"C40\",\"C16\",\"C97\",\"C92\",\"C93\"]}",
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 61049,
+    "cache_read_input_tokens": 913,
+    "output_tokens": 8233,
+    "output_tokens_details": {
+      "thinking_tokens": 2697
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 61049,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 8233,
+        "cache_read_input_tokens": 913,
+        "cache_creation_input_tokens": 61049,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 61049
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 2,
+  "duration_s": 55.5,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "decisions": "[{\"id\": \"C01\", \"include\": true, \"reason\": \"Experimento sobre CIE com inoculação e credibilidade da fonte da correção; mede dependência da desinformação e crença após retratação.\"}, {\"id\": \"C02\", \"inc…",
+        "selected": "[\"C12\", \"C03\", \"C14\", \"C05\", \"C01\", \"C17\", \"C11\", \"C06\", \"C13\", \"C08\", \"C15\", \"C02\", \"C30\", \"C21\", \"C86\", \"C20\", \"C10\", \"C22\", \"C44\", \"C58\", \"C40\", \"C16\", \"C97\", \"C92\", \"C93\"]"
+      }
+    }
+  ]
+}

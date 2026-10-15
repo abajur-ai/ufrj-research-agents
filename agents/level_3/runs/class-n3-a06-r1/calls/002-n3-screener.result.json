@@ -1,0 +1,704 @@
+{
+  "structured": {
+    "decisions": [
+      {
+        "id": "C01",
+        "include": true,
+        "reason": "Survey de 624 estudantes sobre confiança e percepção de manchetes clickbait vs. informativas."
+      },
+      {
+        "id": "C02",
+        "include": false,
+        "reason": "Análise de conteúdo de manchetes sem dados de leitores."
+      },
+      {
+        "id": "C03",
+        "include": true,
+        "reason": "Experimento com usuários sobre excitação, curiosidade e intenção de ler/compartilhar por clickbait."
+      },
+      {
+        "id": "C04",
+        "include": false,
+        "reason": "Análise linguística de manchetes geradas por chatbots, sem dados de leitores."
+      },
+      {
+        "id": "C05",
+        "include": false,
+        "reason": "Análise linguística qualitativa sem dados de leitores."
+      },
+      {
+        "id": "C06",
+        "include": true,
+        "reason": "Estudo de EEG com 32 participantes sobre respostas cognitivas e emocionais a tipos de clickbait."
+      },
+      {
+        "id": "C07",
+        "include": false,
+        "reason": "Análise de conteúdo e entrevistas com jornalistas, não com leitores."
+      },
+      {
+        "id": "C08",
+        "include": false,
+        "reason": "Análise teórica, sem dados empíricos próprios."
+      },
+      {
+        "id": "C09",
+        "include": false,
+        "reason": "Modelo computacional de detecção."
+      },
+      {
+        "id": "C10",
+        "include": false,
+        "reason": "Modelo computacional de classificação."
+      },
+      {
+        "id": "C11",
+        "include": false,
+        "reason": "Clickbait em e-commerce/publicidade, não em notícias."
+      },
+      {
+        "id": "C12",
+        "include": true,
+        "reason": "Estudo de caso qualitativo com entrevistas a 8 estudantes sobre confiança em manchetes clickbait."
+      },
+      {
+        "id": "C13",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C14",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C15",
+        "include": true,
+        "reason": "Dados de engajamento (curtir, compartilhar, comentar) de mais de 4.400 posts do Facebook de fontes de notícias associados a clickbait."
+      },
+      {
+        "id": "C16",
+        "include": true,
+        "reason": "Experimento com formatos de manchete (referência futura, pergunta) sobre engajamento e credibilidade."
+      },
+      {
+        "id": "C17",
+        "include": true,
+        "reason": "Dados de engajamento no Facebook e survey com 81 leitores sobre manchetes sensacionalistas e credibilidade."
+      },
+      {
+        "id": "C18",
+        "include": true,
+        "reason": "Experimento com rastreamento ocular (dilatação pupilar) e SAM sobre excitação emocional por clickbait."
+      },
+      {
+        "id": "C19",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C20",
+        "include": true,
+        "reason": "Survey com 113 respondentes sobre efeito de manchetes clickbait no interesse de leitura."
+      },
+      {
+        "id": "C21",
+        "include": false,
+        "reason": "Modelos de ML de classificação."
+      },
+      {
+        "id": "C22",
+        "include": false,
+        "reason": "Análise linguística/tradução sem dados de leitores."
+      },
+      {
+        "id": "C23",
+        "include": true,
+        "reason": "Survey com 200 respondentes sobre manipulação por manchetes clickbait e fotos em notícias esportivas."
+      },
+      {
+        "id": "C24",
+        "include": false,
+        "reason": "Experimentos centrados em polarização afetiva e apelos partidários, com recorte político."
+      },
+      {
+        "id": "C25",
+        "include": false,
+        "reason": "Análise de conteúdo de manchetes, sem dados de leitores."
+      },
+      {
+        "id": "C26",
+        "include": false,
+        "reason": "Recorte político (imigração ilegal) e não trata de clickbait."
+      },
+      {
+        "id": "C27",
+        "include": true,
+        "reason": "Dois experimentos online (N=629 e N=1.674) sobre clickbait e aprendizagem."
+      },
+      {
+        "id": "C28",
+        "include": true,
+        "reason": "Experimento de EEG (ERP) sobre atenção a manchetes clickbait."
+      },
+      {
+        "id": "C29",
+        "include": true,
+        "reason": "Estudo experimental com leitores da Zâmbia e Tanzânia sobre clickbait e credibilidade."
+      },
+      {
+        "id": "C30",
+        "include": false,
+        "reason": "Meta-análise de experimentos de manchetes (formato excluído)."
+      },
+      {
+        "id": "C31",
+        "include": false,
+        "reason": "Análise linguística de corpus sem leitores."
+      },
+      {
+        "id": "C32",
+        "include": false,
+        "reason": "Publicidade nativa, não notícias."
+      },
+      {
+        "id": "C33",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C34",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C35",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C36",
+        "include": false,
+        "reason": "Análise de corpus linguística sem leitores."
+      },
+      {
+        "id": "C37",
+        "include": false,
+        "reason": "Análise qualitativa de três artigos, sem dados de leitores."
+      },
+      {
+        "id": "C38",
+        "include": false,
+        "reason": "Ensaio sem dados empíricos."
+      },
+      {
+        "id": "C39",
+        "include": false,
+        "reason": "Análise linguística sem leitores."
+      },
+      {
+        "id": "C40",
+        "include": false,
+        "reason": "Entrevistas com gestores da empresa, não leitores."
+      },
+      {
+        "id": "C41",
+        "include": false,
+        "reason": "Análise de conteúdo de manchetes sem leitores."
+      },
+      {
+        "id": "C42",
+        "include": false,
+        "reason": "Modelo de detecção; anais de congresso."
+      },
+      {
+        "id": "C43",
+        "include": false,
+        "reason": "Modelo de classificação."
+      },
+      {
+        "id": "C44",
+        "include": false,
+        "reason": "Modelo teórico de teoria dos jogos."
+      },
+      {
+        "id": "C45",
+        "include": true,
+        "reason": "Survey com cerca de 100 leitores sobre letramento crítico diante de manchetes clickbait."
+      },
+      {
+        "id": "C46",
+        "include": false,
+        "reason": "Análise de conteúdo sem dados de leitores."
+      },
+      {
+        "id": "C47",
+        "include": false,
+        "reason": "Modelo de classificação."
+      },
+      {
+        "id": "C48",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C49",
+        "include": false,
+        "reason": "Não é artigo empírico e não trata do tema."
+      },
+      {
+        "id": "C50",
+        "include": false,
+        "reason": "Não opera clickbait como variável; análise computacional de manchetes."
+      },
+      {
+        "id": "C51",
+        "include": false,
+        "reason": "Sistema de agrupamento computacional."
+      },
+      {
+        "id": "C52",
+        "include": false,
+        "reason": "Análise semiótica de série de TV."
+      },
+      {
+        "id": "C53",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C54",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C55",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C56",
+        "include": false,
+        "reason": "Análise qualitativa de manchetes sem leitores."
+      },
+      {
+        "id": "C57",
+        "include": false,
+        "reason": "Estudo descritivo de manchetes sem leitores."
+      },
+      {
+        "id": "C58",
+        "include": false,
+        "reason": "Estudo de tradução."
+      },
+      {
+        "id": "C59",
+        "include": false,
+        "reason": "Recorte eleitoral/político e fake news."
+      },
+      {
+        "id": "C60",
+        "include": false,
+        "reason": "Análise crítica do discurso sem leitores."
+      },
+      {
+        "id": "C61",
+        "include": false,
+        "reason": "Notícias políticas sensacionalistas (recorte político)."
+      },
+      {
+        "id": "C62",
+        "include": false,
+        "reason": "Análise linguística de corpus."
+      },
+      {
+        "id": "C63",
+        "include": false,
+        "reason": "Proposta de framework, sem dados empíricos."
+      },
+      {
+        "id": "C64",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C65",
+        "include": false,
+        "reason": "Análise linguística."
+      },
+      {
+        "id": "C66",
+        "include": true,
+        "reason": "Survey com 150 leitores sobre notícias sensacionalistas e percepção pública (relevância mais indireta)."
+      },
+      {
+        "id": "C67",
+        "include": false,
+        "reason": "Não é clickbait; análise de métricas de narrativa e valência."
+      },
+      {
+        "id": "C68",
+        "include": false,
+        "reason": "Análise linguística sem leitores."
+      },
+      {
+        "id": "C69",
+        "include": false,
+        "reason": "Foco em credibilidade de portais; clickbait é apenas um tema secundário."
+      },
+      {
+        "id": "C70",
+        "include": true,
+        "reason": "Experimento (N=204) sobre o impulso de clicar em clickbaits e seus preditores."
+      },
+      {
+        "id": "C71",
+        "include": true,
+        "reason": "Análise de engajamento de usuários no Twitter em relação a recursos sensacionalistas/clickbait de notícias."
+      },
+      {
+        "id": "C72",
+        "include": false,
+        "reason": "Análise linguística de vídeos do YouTube, fora de notícias."
+      },
+      {
+        "id": "C73",
+        "include": true,
+        "reason": "Experimento com 300 adolescentes; manchetes clickbait reduziram a confiança em mensagens (clickbait é apenas um dos elementos manipulados)."
+      },
+      {
+        "id": "C74",
+        "include": false,
+        "reason": "Análise linguística."
+      },
+      {
+        "id": "C75",
+        "include": false,
+        "reason": "Análise linguística de manchetes."
+      },
+      {
+        "id": "C76",
+        "include": false,
+        "reason": "Análise de narrativa sem dados de leitores."
+      },
+      {
+        "id": "C77",
+        "include": false,
+        "reason": "Análise semântica."
+      },
+      {
+        "id": "C78",
+        "include": false,
+        "reason": "Não opera clickbait como variável."
+      },
+      {
+        "id": "C79",
+        "include": false,
+        "reason": "Análise crítica do discurso."
+      },
+      {
+        "id": "C80",
+        "include": false,
+        "reason": "Análise estilística."
+      },
+      {
+        "id": "C81",
+        "include": false,
+        "reason": "Estudo de ferramenta HCI; anais e sem foco nos efeitos de clickbait."
+      },
+      {
+        "id": "C82",
+        "include": false,
+        "reason": "Ensaio conceitual."
+      },
+      {
+        "id": "C83",
+        "include": false,
+        "reason": "Não trata de clickbait."
+      },
+      {
+        "id": "C84",
+        "include": false,
+        "reason": "Análise de conteúdo sem leitores."
+      },
+      {
+        "id": "C85",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C86",
+        "include": false,
+        "reason": "Análise discursiva sem leitores."
+      },
+      {
+        "id": "C87",
+        "include": true,
+        "reason": "Survey com 600 participantes sobre reação a manchetes clickbait e informativas."
+      },
+      {
+        "id": "C88",
+        "include": false,
+        "reason": "Eye-tracking com título falso de celebridade, sem clickbait como variável."
+      },
+      {
+        "id": "C89",
+        "include": false,
+        "reason": "Revisão."
+      },
+      {
+        "id": "C90",
+        "include": false,
+        "reason": "Fora do tema (consumo de notícias por crianças)."
+      },
+      {
+        "id": "C91",
+        "include": false,
+        "reason": "Análise de manchetes com fim pedagógico, sem dados de leitores."
+      },
+      {
+        "id": "C92",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C93",
+        "include": false,
+        "reason": "Enquadramento de manchetes, não clickbait."
+      },
+      {
+        "id": "C94",
+        "include": false,
+        "reason": "Ensaio sobre economia política da mídia."
+      },
+      {
+        "id": "C95",
+        "include": false,
+        "reason": "Não opera clickbait."
+      },
+      {
+        "id": "C96",
+        "include": false,
+        "reason": "Análise de conteúdo."
+      },
+      {
+        "id": "C97",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C98",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C99",
+        "include": true,
+        "reason": "Grupos focais com usuários sobre reflexos a manchetes tık odaklı (clickbait)."
+      },
+      {
+        "id": "C100",
+        "include": false,
+        "reason": "Análise linguística."
+      },
+      {
+        "id": "C101",
+        "include": false,
+        "reason": "Análise linguística."
+      },
+      {
+        "id": "C102",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C103",
+        "include": false,
+        "reason": "Análise discursiva."
+      },
+      {
+        "id": "C104",
+        "include": false,
+        "reason": "Proposta didática."
+      },
+      {
+        "id": "C105",
+        "include": false,
+        "reason": "Análise linguística."
+      },
+      {
+        "id": "C106",
+        "include": false,
+        "reason": "Texto informativo, sem estudo empírico."
+      },
+      {
+        "id": "C107",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C108",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C109",
+        "include": false,
+        "reason": "Análise linguística."
+      },
+      {
+        "id": "C110",
+        "include": false,
+        "reason": "Fora do tema."
+      },
+      {
+        "id": "C111",
+        "include": false,
+        "reason": "Revisão bibliográfica."
+      },
+      {
+        "id": "C112",
+        "include": false,
+        "reason": "Ensaio, recorte eleitoral."
+      },
+      {
+        "id": "C113",
+        "include": false,
+        "reason": "Ensaio teórico."
+      },
+      {
+        "id": "C114",
+        "include": false,
+        "reason": "Fora do tema (desinformação e lucro)."
+      },
+      {
+        "id": "C115",
+        "include": true,
+        "reason": "Experimento com 200 participantes sobre clickbait e credibilidade das notícias."
+      },
+      {
+        "id": "C116",
+        "include": true,
+        "reason": "Dois experimentos online sobre clickbait e percepção de credibilidade/qualidade."
+      },
+      {
+        "id": "C117",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C118",
+        "include": false,
+        "reason": "Análise sociolinguística sem leitores."
+      },
+      {
+        "id": "C119",
+        "include": false,
+        "reason": "Análise computacional de manchetes."
+      },
+      {
+        "id": "C120",
+        "include": true,
+        "reason": "Experimento de laboratório e teste de campo sobre manchetes de curiosidade vs. resumo na busca de notícias."
+      },
+      {
+        "id": "C121",
+        "include": false,
+        "reason": "Entrevistas com jornalistas, não leitores."
+      },
+      {
+        "id": "C122",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C123",
+        "include": false,
+        "reason": "Ensaio, contexto corporativo."
+      },
+      {
+        "id": "C124",
+        "include": false,
+        "reason": "Modelo de detecção."
+      },
+      {
+        "id": "C125",
+        "include": false,
+        "reason": "Modelo de detecção."
+      }
+    ],
+    "selected": [
+      "C18",
+      "C03",
+      "C27",
+      "C116",
+      "C115",
+      "C120",
+      "C29",
+      "C06",
+      "C28",
+      "C70",
+      "C16",
+      "C01",
+      "C87",
+      "C20",
+      "C15",
+      "C71",
+      "C17",
+      "C99",
+      "C23",
+      "C12",
+      "C45",
+      "C73",
+      "C66"
+    ]
+  },
+  "text": "{\"decisions\":[{\"id\":\"C01\",\"include\":true,\"reason\":\"Survey de 624 estudantes sobre confiança e percepção de manchetes clickbait vs. informativas.\"},{\"id\":\"C02\",\"include\":false,\"reason\":\"Análise de conteúdo de manchetes sem dados de leitores.\"},{\"id\":\"C03\",\"include\":true,\"reason\":\"Experimento com usuários sobre excitação, curiosidade e intenção de ler/compartilhar por clickbait.\"},{\"id\":\"C04\",\"include\":false,\"reason\":\"Análise linguística de manchetes geradas por chatbots, sem dados de leitores.\"},{\"id\":\"C05\",\"include\":false,\"reason\":\"Análise linguística qualitativa sem dados de leitores.\"},{\"id\":\"C06\",\"include\":true,\"reason\":\"Estudo de EEG com 32 participantes sobre respostas cognitivas e emocionais a tipos de clickbait.\"},{\"id\":\"C07\",\"include\":false,\"reason\":\"Análise de conteúdo e entrevistas com jornalistas, não com leitores.\"},{\"id\":\"C08\",\"include\":false,\"reason\":\"Análise teórica, sem dados empíricos próprios.\"},{\"id\":\"C09\",\"include\":false,\"reason\":\"Modelo computacional de detecção.\"},{\"id\":\"C10\",\"include\":false,\"reason\":\"Modelo computacional de classificação.\"},{\"id\":\"C11\",\"include\":false,\"reason\":\"Clickbait em e-commerce/publicidade, não em notícias.\"},{\"id\":\"C12\",\"include\":true,\"reason\":\"Estudo de caso qualitativo com entrevistas a 8 estudantes sobre confiança em manchetes clickbait.\"},{\"id\":\"C13\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C14\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C15\",\"include\":true,\"reason\":\"Dados de engajamento (curtir, compartilhar, comentar) de mais de 4.400 posts do Facebook de fontes de notícias associados a clickbait.\"},{\"id\":\"C16\",\"include\":true,\"reason\":\"Experimento com formatos de manchete (referência futura, pergunta) sobre engajamento e credibilidade.\"},{\"id\":\"C17\",\"include\":true,\"reason\":\"Dados de engajamento no Facebook e survey com 81 leitores sobre manchetes sensacionalistas e credibilidade.\"},{\"id\":\"C18\",\"include\":true,\"reason\":\"Experimento com rastreamento ocular (dilatação pupilar) e SAM sobre excitação emocional por clickbait.\"},{\"id\":\"C19\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C20\",\"include\":true,\"reason\":\"Survey com 113 respondentes sobre efeito de manchetes clickbait no interesse de leitura.\"},{\"id\":\"C21\",\"include\":false,\"reason\":\"Modelos de ML de classificação.\"},{\"id\":\"C22\",\"include\":false,\"reason\":\"Análise linguística/tradução sem dados de leitores.\"},{\"id\":\"C23\",\"include\":true,\"reason\":\"Survey com 200 respondentes sobre manipulação por manchetes clickbait e fotos em notícias esportivas.\"},{\"id\":\"C24\",\"include\":false,\"reason\":\"Experimentos centrados em polarização afetiva e apelos partidários, com recorte político.\"},{\"id\":\"C25\",\"include\":false,\"reason\":\"Análise de conteúdo de manchetes, sem dados de leitores.\"},{\"id\":\"C26\",\"include\":false,\"reason\":\"Recorte político (imigração ilegal) e não trata de clickbait.\"},{\"id\":\"C27\",\"include\":true,\"reason\":\"Dois experimentos online (N=629 e N=1.674) sobre clickbait e aprendizagem.\"},{\"id\":\"C28\",\"include\":true,\"reason\":\"Experimento de EEG (ERP) sobre atenção a manchetes clickbait.\"},{\"id\":\"C29\",\"include\":true,\"reason\":\"Estudo experimental com leitores da Zâmbia e Tanzânia sobre clickbait e credibilidade.\"},{\"id\":\"C30\",\"include\":false,\"reason\":\"Meta-análise de experimentos de manchetes (formato excluído).\"},{\"id\":\"C31\",\"include\":false,\"reason\":\"Análise linguística de corpus sem leitores.\"},{\"id\":\"C32\",\"include\":false,\"reason\":\"Publicidade nativa, não notícias.\"},{\"id\":\"C33\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C34\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C35\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C36\",\"include\":false,\"reason\":\"Análise de corpus linguística sem leitores.\"},{\"id\":\"C37\",\"include\":false,\"reason\":\"Análise qualitativa de três artigos, sem dados de leitores.\"},{\"id\":\"C38\",\"include\":false,\"reason\":\"Ensaio sem dados empíricos.\"},{\"id\":\"C39\",\"include\":false,\"reason\":\"Análise linguística sem leitores.\"},{\"id\":\"C40\",\"include\":false,\"reason\":\"Entrevistas com gestores da empresa, não leitores.\"},{\"id\":\"C41\",\"include\":false,\"reason\":\"Análise de conteúdo de manchetes sem leitores.\"},{\"id\":\"C42\",\"include\":false,\"reason\":\"Modelo de detecção; anais de congresso.\"},{\"id\":\"C43\",\"include\":false,\"reason\":\"Modelo de classificação.\"},{\"id\":\"C44\",\"include\":false,\"reason\":\"Modelo teórico de teoria dos jogos.\"},{\"id\":\"C45\",\"include\":true,\"reason\":\"Survey com cerca de 100 leitores sobre letramento crítico diante de manchetes clickbait.\"},{\"id\":\"C46\",\"include\":false,\"reason\":\"Análise de conteúdo sem dados de leitores.\"},{\"id\":\"C47\",\"include\":false,\"reason\":\"Modelo de classificação.\"},{\"id\":\"C48\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C49\",\"include\":false,\"reason\":\"Não é artigo empírico e não trata do tema.\"},{\"id\":\"C50\",\"include\":false,\"reason\":\"Não opera clickbait como variável; análise computacional de manchetes.\"},{\"id\":\"C51\",\"include\":false,\"reason\":\"Sistema de agrupamento computacional.\"},{\"id\":\"C52\",\"include\":false,\"reason\":\"Análise semiótica de série de TV.\"},{\"id\":\"C53\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C54\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C55\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C56\",\"include\":false,\"reason\":\"Análise qualitativa de manchetes sem leitores.\"},{\"id\":\"C57\",\"include\":false,\"reason\":\"Estudo descritivo de manchetes sem leitores.\"},{\"id\":\"C58\",\"include\":false,\"reason\":\"Estudo de tradução.\"},{\"id\":\"C59\",\"include\":false,\"reason\":\"Recorte eleitoral/político e fake news.\"},{\"id\":\"C60\",\"include\":false,\"reason\":\"Análise crítica do discurso sem leitores.\"},{\"id\":\"C61\",\"include\":false,\"reason\":\"Notícias políticas sensacionalistas (recorte político).\"},{\"id\":\"C62\",\"include\":false,\"reason\":\"Análise linguística de corpus.\"},{\"id\":\"C63\",\"include\":false,\"reason\":\"Proposta de framework, sem dados empíricos.\"},{\"id\":\"C64\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C65\",\"include\":false,\"reason\":\"Análise linguística.\"},{\"id\":\"C66\",\"include\":true,\"reason\":\"Survey com 150 leitores sobre notícias sensacionalistas e percepção pública (relevância mais indireta).\"},{\"id\":\"C67\",\"include\":false,\"reason\":\"Não é clickbait; análise de métricas de narrativa e valência.\"},{\"id\":\"C68\",\"include\":false,\"reason\":\"Análise linguística sem leitores.\"},{\"id\":\"C69\",\"include\":false,\"reason\":\"Foco em credibilidade de portais; clickbait é apenas um tema secundário.\"},{\"id\":\"C70\",\"include\":true,\"reason\":\"Experimento (N=204) sobre o impulso de clicar em clickbaits e seus preditores.\"},{\"id\":\"C71\",\"include\":true,\"reason\":\"Análise de engajamento de usuários no Twitter em relação a recursos sensacionalistas/clickbait de notícias.\"},{\"id\":\"C72\",\"include\":false,\"reason\":\"Análise linguística de vídeos do YouTube, fora de notícias.\"},{\"id\":\"C73\",\"include\":true,\"reason\":\"Experimento com 300 adolescentes; manchetes clickbait reduziram a confiança em mensagens (clickbait é apenas um dos elementos manipulados).\"},{\"id\":\"C74\",\"include\":false,\"reason\":\"Análise linguística.\"},{\"id\":\"C75\",\"include\":false,\"reason\":\"Análise linguística de manchetes.\"},{\"id\":\"C76\",\"include\":false,\"reason\":\"Análise de narrativa sem dados de leitores.\"},{\"id\":\"C77\",\"include\":false,\"reason\":\"Análise semântica.\"},{\"id\":\"C78\",\"include\":false,\"reason\":\"Não opera clickbait como variável.\"},{\"id\":\"C79\",\"include\":false,\"reason\":\"Análise crítica do discurso.\"},{\"id\":\"C80\",\"include\":false,\"reason\":\"Análise estilística.\"},{\"id\":\"C81\",\"include\":false,\"reason\":\"Estudo de ferramenta HCI; anais e sem foco nos efeitos de clickbait.\"},{\"id\":\"C82\",\"include\":false,\"reason\":\"Ensaio conceitual.\"},{\"id\":\"C83\",\"include\":false,\"reason\":\"Não trata de clickbait.\"},{\"id\":\"C84\",\"include\":false,\"reason\":\"Análise de conteúdo sem leitores.\"},{\"id\":\"C85\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C86\",\"include\":false,\"reason\":\"Análise discursiva sem leitores.\"},{\"id\":\"C87\",\"include\":true,\"reason\":\"Survey com 600 participantes sobre reação a manchetes clickbait e informativas.\"},{\"id\":\"C88\",\"include\":false,\"reason\":\"Eye-tracking com título falso de celebridade, sem clickbait como variável.\"},{\"id\":\"C89\",\"include\":false,\"reason\":\"Revisão.\"},{\"id\":\"C90\",\"include\":false,\"reason\":\"Fora do tema (consumo de notícias por crianças).\"},{\"id\":\"C91\",\"include\":false,\"reason\":\"Análise de manchetes com fim pedagógico, sem dados de leitores.\"},{\"id\":\"C92\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C93\",\"include\":false,\"reason\":\"Enquadramento de manchetes, não clickbait.\"},{\"id\":\"C94\",\"include\":false,\"reason\":\"Ensaio sobre economia política da mídia.\"},{\"id\":\"C95\",\"include\":false,\"reason\":\"Não opera clickbait.\"},{\"id\":\"C96\",\"include\":false,\"reason\":\"Análise de conteúdo.\"},{\"id\":\"C97\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C98\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C99\",\"include\":true,\"reason\":\"Grupos focais com usuários sobre reflexos a manchetes tık odaklı (clickbait).\"},{\"id\":\"C100\",\"include\":false,\"reason\":\"Análise linguística.\"},{\"id\":\"C101\",\"include\":false,\"reason\":\"Análise linguística.\"},{\"id\":\"C102\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C103\",\"include\":false,\"reason\":\"Análise discursiva.\"},{\"id\":\"C104\",\"include\":false,\"reason\":\"Proposta didática.\"},{\"id\":\"C105\",\"include\":false,\"reason\":\"Análise linguística.\"},{\"id\":\"C106\",\"include\":false,\"reason\":\"Texto informativo, sem estudo empírico.\"},{\"id\":\"C107\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C108\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C109\",\"include\":false,\"reason\":\"Análise linguística.\"},{\"id\":\"C110\",\"include\":false,\"reason\":\"Fora do tema.\"},{\"id\":\"C111\",\"include\":false,\"reason\":\"Revisão bibliográfica.\"},{\"id\":\"C112\",\"include\":false,\"reason\":\"Ensaio, recorte eleitoral.\"},{\"id\":\"C113\",\"include\":false,\"reason\":\"Ensaio teórico.\"},{\"id\":\"C114\",\"include\":false,\"reason\":\"Fora do tema (desinformação e lucro).\"},{\"id\":\"C115\",\"include\":true,\"reason\":\"Experimento com 200 participantes sobre clickbait e credibilidade das notícias.\"},{\"id\":\"C116\",\"include\":true,\"reason\":\"Dois experimentos online sobre clickbait e percepção de credibilidade/qualidade.\"},{\"id\":\"C117\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C118\",\"include\":false,\"reason\":\"Análise sociolinguística sem leitores.\"},{\"id\":\"C119\",\"include\":false,\"reason\":\"Análise computacional de manchetes.\"},{\"id\":\"C120\",\"include\":true,\"reason\":\"Experimento de laboratório e teste de campo sobre manchetes de curiosidade vs. resumo na busca de notícias.\"},{\"id\":\"C121\",\"include\":false,\"reason\":\"Entrevistas com jornalistas, não leitores.\"},{\"id\":\"C122\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C123\",\"include\":false,\"reason\":\"Ensaio, contexto corporativo.\"},{\"id\":\"C124\",\"include\":false,\"reason\":\"Modelo de detecção.\"},{\"id\":\"C125\",\"include\":false,\"reason\":\"Modelo de detecção.\"}],\"selected\":[\"C18\",\"C03\",\"C27\",\"C116\",\"C115\",\"C120\",\"C29\",\"C06\",\"C28\",\"C70\",\"C16\",\"C01\",\"C87\",\"C20\",\"C15\",\"C71\",\"C17\",\"C99\",\"C23\",\"C12\",\"C45\",\"C73\",\"C66\"]}",
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 65257,
+    "cache_read_input_tokens": 913,
+    "output_tokens": 7589,
+    "output_tokens_details": {
+      "thinking_tokens": 2742
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 65257,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "global",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 7589,
+        "cache_read_input_tokens": 913,
+        "cache_creation_input_tokens": 65257,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 65257
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard",
+    "fallback_credit": null
+  },
+  "num_turns": 2,
+  "duration_s": 48.09,
+  "is_error": false,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "StructuredOutput",
+      "input": {
+        "decisions": "[{\"id\": \"C01\", \"include\": true, \"reason\": \"Survey de 624 estudantes sobre confiança e percepção de manchetes clickbait vs. informativas.\"}, {\"id\": \"C02\", \"include\": false, \"reason\": \"Análise de conte…",
+        "selected": "[\"C18\", \"C03\", \"C27\", \"C116\", \"C115\", \"C120\", \"C29\", \"C06\", \"C28\", \"C70\", \"C16\", \"C01\", \"C87\", \"C20\", \"C15\", \"C71\", \"C17\", \"C99\", \"C23\", \"C12\", \"C45\", \"C73\", \"C66\"]"
+      }
+    }
+  ]
+}

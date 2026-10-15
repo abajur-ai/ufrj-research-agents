@@ -1,0 +1,32 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Tema coberto: critério 1 descreve efeitos de clickbait sobre leitores/usuários e lista desfechos compatíveis com o pedido (cliques, credibilidade, emoção, compartilhamento, memória).",
+      "Período coberto: critério 2 fixa 01/01/2018 a 31/12/2025 e manda conferir o ano da versão publicada, sem mudar a janela do pedido.",
+      "Tipo de publicação coberto: critério 3 exige artigo de periódico revisado por pares e exclui preprint, anais, capítulo, tese, resenha e editorial, como pedido.",
+      "Estudo empírico coberto: critério 4 exige dados próprios de leitores/usuários e exclui revisão, meta-análise e ensaio teórico, como pedido.",
+      "Métodos cobertos: critério 5 aceita exatamente as categorias do pedido (experimento, survey, EEG/eye-tracking/fisiológico, dados de cliques e engajamento).",
+      "Exclusões cobertas: critérios 6, 7 e 8 replicam as três restrições do pedido (modelos computacionais, análise só linguística, recorte político/eleitoral).",
+      "Campos por artigo cobertos: critério 10 lista DOI, título, autores, ano, periódico, método, amostra como no resumo (ou 'não informado no resumo'), achado em uma frase e trecho literal entre aspas, exatamente o pedido.",
+      "Quantidade coberta: critério 9 exige 25 artigos distintos e o how_to_check prevê ampliação por variantes e snowballing se faltar material.",
+      "Busca em inglês presente: 6 consultas em inglês cobrem clickbait, curiosity gap, eye-tracking, EEG, dados de cliques e A/B test, em OpenAlex, Crossref e web.",
+      "Busca em português presente: duas consultas em português no SciELO com termos caça-cliques, clickbait, credibilidade e estudo empírico.",
+      "Verificação concreta por critério: o how_to_check traz um procedimento específico para cada critério, incluindo validação de DOI em doi.org/Crossref, conferência de type = journal-article, cópia verbatim da amostra e do trecho do resumo e triagem de termos políticos.",
+      "Duplicatas tratadas: o how_to_check manda remover duplicatas, inclusive versão preprint junto da publicada."
+    ],
+    "issues": [],
+    "feedback": "Plano aprovado. Sugestões para a execução: na consulta 2 do OpenAlex, acrescente variantes como 'sensational* headlines', 'curiosity-arousing headlines' e 'forward-referencing' ao lado de clickbait, porque alguns estudos de efeito não usam a palavra clickbait no título ou resumo; nas consultas 3 e 4 do Crossref, que não têm filtro embutido de ano nem de tipo, aplique logo o recorte 2018-2025 e type=journal-article na triagem para não gastar tempo com itens fora de escopo; e, na exclusão político/eleitoral, registre o motivo da rejeição de cada candidato político para facilitar a auditoria da lista final de 25."
+  },
+  "text": "{\"approved\": true, \"checked\": [\"Tema coberto: critério 1 descreve efeitos de clickbait sobre leitores/usuários e lista desfechos compatíveis com o pedido (cliques, credibilidade, emoção, compartilhamento, memória).\", \"Período coberto: critério 2 fixa 01/01/2018 a 31/12/2025 e manda conferir o ano da versão publicada, sem mudar a janela do pedido.\", \"Tipo de publicação coberto: critério 3 exige artigo de periódico revisado por pares e exclui preprint, anais, capítulo, tese, resenha e editorial, como pedido.\", \"Estudo empírico coberto: critério 4 exige dados próprios de leitores/usuários e exclui revisão, meta-análise e ensaio teórico, como pedido.\", \"Métodos cobertos: critério 5 aceita exatamente as categorias do pedido (experimento, survey, EEG/eye-tracking/fisiológico, dados de cliques e engajamento).\", \"Exclusões cobertas: critérios 6, 7 e 8 replicam as três restrições do pedido (modelos computacionais, análise só linguística, recorte político/eleitoral).\", \"Campos por artigo cobertos: critério 10 lista DOI, título, autores, ano, periódico, método, amostra como no resumo (ou 'não informado no resumo'), achado em uma frase e trecho literal entre aspas, exatamente o pedido.\", \"Quantidade coberta: critério 9 exige 25 artigos distintos e o how_to_check prevê ampliação por variantes e snowballing se faltar material.\", \"Busca em inglês presente: 6 consultas em inglês cobrem clickbait, curiosity gap, eye-tracking, EEG, dados de cliques e A/B test, em OpenAlex, Crossref e web.\", \"Busca em português presente: duas consultas em português no SciELO com termos caça-cliques, clickbait, credibilidade e estudo empírico.\", \"Verificação concreta por critério: o how_to_check traz um procedimento específico para cada critério, incluindo validação de DOI em doi.org/Crossref, conferência de type = journal-article, cópia verbatim da amostra e do trecho do resumo e triagem de termos políticos.\", \"Duplicatas tratadas: o how_to_check manda remover duplicatas, inclusive versão preprint junto da publicada.\"], \"issues\": [], \"feedback\": \"Plano aprovado. Sugestões para a execução: na consulta 2 do OpenAlex, acrescente variantes como 'sensational* headlines', 'curiosity-arousing headlines' e 'forward-referencing' ao lado de clickbait, porque alguns estudos de efeito não usam a palavra clickbait no título ou resumo; nas consultas 3 e 4 do Crossref, que não têm filtro embutido de ano nem de tipo, aplique logo o recorte 2018-2025 e type=journal-article na triagem para não gastar tempo com itens fora de escopo; e, na exclusão político/eleitoral, registre o motivo da rejeição de cada candidato político para facilitar a auditoria da lista final de 25.\"}",
+  "usage": {
+    "input_tokens": 2316,
+    "output_tokens": 1064,
+    "cost_usd": 0.00088
+  },
+  "duration_s": 25.77,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

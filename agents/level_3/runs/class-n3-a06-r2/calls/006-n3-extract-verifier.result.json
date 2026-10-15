@@ -1,0 +1,154 @@
+{
+  "structured": {
+    "approved": false,
+    "checked": [
+      "C13: método (experimento com dilatação pupilar e SAM), amostra não informada e achado conferem com o resumo; citação literal presente",
+      "C03: método (experimento com dois grupos e modelagem de equações estruturais), amostra não informada e achado conferem; citação literal presente",
+      "C32: método de dois experimentos fatoriais 3×2 confere; citação literal presente; amostra verificada e incompleta (ver issues)",
+      "C106: método, amostra de 200 participantes e achado sobre redução de credibilidade conferem; citação literal presente",
+      "C107: método de dois experimentos online, amostra não informada e achado conferem; citação literal presente",
+      "C110: método (experimento de laboratório e teste de campo), amostra não informada e achado conferem; citação literal presente",
+      "C21: método experimental, amostra não informada e achado conferem; citação literal presente",
+      "C109: método de EEG com ERP (N2b e P3a), amostra não informada e achado conferem; citação literal presente",
+      "C02: método de survey com análise linguística, amostra de 624 estudantes e achado conferem; citação literal presente",
+      "C42: método de survey com trios de manchetes, amostra de 600 participantes e achado conferem; citação literal presente",
+      "C09: método de survey com 113 respondentes e achado conferem; citação literal presente",
+      "C11: método de análise de engajamento no Facebook, amostra de mais de 4.400 posts e achado conferem; citação literal presente",
+      "C24: método de análise de conteúdo manual e automatizada confere; citação literal presente; amostra verificada e incompleta (ver issues)",
+      "C37: método de survey, amostra não informada (o resumo não traz número) e achado conferem; citação literal presente",
+      "C45: método de survey descritivo, amostra de 100 respondentes e achado da média 4,07 conferem; citação literal presente",
+      "C20: estudo de caso qualitativo com 8 informantes e achado conferem; citação literal presente",
+      "C69: método qualitativo descritivo, amostra não informada e achado conferem; citação literal presente",
+      "C64: método misto com análise textual e survey, n = 368 leitores e achado conferem; citação literal presente",
+      "C41: método misto de análise de conteúdo e survey com 81 consumidores e achado conferem; citação literal presente",
+      "C18: amostra de 200 respondentes e citação literal conferem; método verificado e problemático (ver issues)",
+      "C23: método experimental com três formatos, amostra não informada e achado conferem; citação literal presente",
+      "Escopo: nenhum item é modelo computacional de detecção, análise puramente linguística ou estudo político/eleitoral; todos os 22 itens relatam dados de leitores, usuários ou engajamento",
+      "Verifiquei que foram entregues 22 itens, e não os 25 pedidos pelo pesquisador"
+    ],
+    "per_item": [
+      {
+        "id": "C13",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C03",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C32",
+        "ok": false,
+        "problem": "sample_size cita apenas o N = 629 do Estudo 1 e omite o N = 1.674 do Estudo 2, que também está no resumo; como o método reporta dois experimentos, o campo de amostra não corresponde ao estudo descrito"
+      },
+      {
+        "id": "C106",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C107",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C110",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C21",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C109",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C02",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C42",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C09",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C11",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C24",
+        "ok": false,
+        "problem": "sample_size cita apenas 1.440 tweets da análise manual e omite as 25.600 tweets da análise automatizada, que também está no resumo e é citada no próprio campo method"
+      },
+      {
+        "id": "C37",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C45",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C20",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C69",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C64",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C41",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C18",
+        "ok": false,
+        "problem": "método descrito apenas como survey, mas o resumo informa que os participantes foram manipulados por fotos e manchetes caça-cliques, o que caracteriza componente experimental omitido na descrição"
+      },
+      {
+        "id": "C23",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [
+      "Em C32, o campo de amostra traz só o N = 629 do Estudo 1 e deixa de fora o N = 1.674 do Estudo 2, ambos informados no resumo",
+      "Em C24, o campo de amostra traz só as 1.440 tweets da análise manual e deixa de fora as 25.600 tweets da análise automatizada informadas no resumo",
+      "Em C18, o método é descrito só como levantamento (survey), mas o resumo diz que os participantes foram manipulados por fotos e manchetes caça-cliques, ou seja, há componente experimental que ficou de fora da descrição"
+    ],
+    "feedback": "Corrija três pontos e reenvie. Em C32, atualize o tamanho da amostra para cobrir os dois experimentos, por exemplo o N = 629 do Estudo 1 e o N = 1.674 do Estudo 2, exatamente como aparecem no resumo. Em C24, faça o mesmo com as duas amostras de tweets (1.440 na análise manual e 25.600 na automatizada). Em C18, reescreva o campo de método para incluir o componente experimental de manipulação por fotos e manchetes, além da escala Likert com os 200 respondentes. Além disso, confirme com o pesquisador se os estudos qualitativos por entrevista C20 e C69 se enquadram na lista de métodos aceitos do pedido (experimentos, questionários, medidas fisiológicas ou dados de cliques e engajamento), já que entrevistas não estão listadas de forma explícita; se o pesquisador disser que não se enquadram, substitua-os por novos artigos. Por fim, foram entregues apenas 22 itens de um pedido de 25; se os itens corrigidos forem aceitos, complete a lista com mais artigos que atendam a todas as restrições."
+  },
+  "text": "{\"approved\": false, \"checked\": [\"C13: método (experimento com dilatação pupilar e SAM), amostra não informada e achado conferem com o resumo; citação literal presente\", \"C03: método (experimento com dois grupos e modelagem de equações estruturais), amostra não informada e achado conferem; citação literal presente\", \"C32: método de dois experimentos fatoriais 3×2 confere; citação literal presente; amostra verificada e incompleta (ver issues)\", \"C106: método, amostra de 200 participantes e achado sobre redução de credibilidade conferem; citação literal presente\", \"C107: método de dois experimentos online, amostra não informada e achado conferem; citação literal presente\", \"C110: método (experimento de laboratório e teste de campo), amostra não informada e achado conferem; citação literal presente\", \"C21: método experimental, amostra não informada e achado conferem; citação literal presente\", \"C109: método de EEG com ERP (N2b e P3a), amostra não informada e achado conferem; citação literal presente\", \"C02: método de survey com análise linguística, amostra de 624 estudantes e achado conferem; citação literal presente\", \"C42: método de survey com trios de manchetes, amostra de 600 participantes e achado conferem; citação literal presente\", \"C09: método de survey com 113 respondentes e achado conferem; citação literal presente\", \"C11: método de análise de engajamento no Facebook, amostra de mais de 4.400 posts e achado conferem; citação literal presente\", \"C24: método de análise de conteúdo manual e automatizada confere; citação literal presente; amostra verificada e incompleta (ver issues)\", \"C37: método de survey, amostra não informada (o resumo não traz número) e achado conferem; citação literal presente\", \"C45: método de survey descritivo, amostra de 100 respondentes e achado da média 4,07 conferem; citação literal presente\", \"C20: estudo de caso qualitativo com 8 informantes e achado conferem; citação literal presente\", \"C69: método qualitativo descritivo, amostra não informada e achado conferem; citação literal presente\", \"C64: método misto com análise textual e survey, n = 368 leitores e achado conferem; citação literal presente\", \"C41: método misto de análise de conteúdo e survey com 81 consumidores e achado conferem; citação literal presente\", \"C18: amostra de 200 respondentes e citação literal conferem; método verificado e problemático (ver issues)\", \"C23: método experimental com três formatos, amostra não informada e achado conferem; citação literal presente\", \"Escopo: nenhum item é modelo computacional de detecção, análise puramente linguística ou estudo político/eleitoral; todos os 22 itens relatam dados de leitores, usuários ou engajamento\", \"Verifiquei que foram entregues 22 itens, e não os 25 pedidos pelo pesquisador\"], \"per_item\": [{\"id\": \"C13\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C03\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C32\", \"ok\": false, \"problem\": \"sample_size cita apenas o N = 629 do Estudo 1 e omite o N = 1.674 do Estudo 2, que também está no resumo; como o método reporta dois experimentos, o campo de amostra não corresponde ao estudo descrito\"}, {\"id\": \"C106\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C107\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C110\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C21\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C109\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C02\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C42\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C09\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C11\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C24\", \"ok\": false, \"problem\": \"sample_size cita apenas 1.440 tweets da análise manual e omite as 25.600 tweets da análise automatizada, que também está no resumo e é citada no próprio campo method\"}, {\"id\": \"C37\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C45\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C20\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C69\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C64\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C41\", \"ok\": true, \"problem\": \"\"}, {\"id\": \"C18\", \"ok\": false, \"problem\": \"método descrito apenas como survey, mas o resumo informa que os participantes foram manipulados por fotos e manchetes caça-cliques, o que caracteriza componente experimental omitido na descrição\"}, {\"id\": \"C23\", \"ok\": true, \"problem\": \"\"}], \"issues\": [\"Em C32, o campo de amostra traz só o N = 629 do Estudo 1 e deixa de fora o N = 1.674 do Estudo 2, ambos informados no resumo\", \"Em C24, o campo de amostra traz só as 1.440 tweets da análise manual e deixa de fora as 25.600 tweets da análise automatizada informadas no resumo\", \"Em C18, o método é descrito só como levantamento (survey), mas o resumo diz que os participantes foram manipulados por fotos e manchetes caça-cliques, ou seja, há componente experimental que ficou de fora da descrição\"], \"feedback\": \"Corrija três pontos e reenvie. Em C32, atualize o tamanho da amostra para cobrir os dois experimentos, por exemplo o N = 629 do Estudo 1 e o N = 1.674 do Estudo 2, exatamente como aparecem no resumo. Em C24, faça o mesmo com as duas amostras de tweets (1.440 na análise manual e 25.600 na automatizada). Em C18, reescreva o campo de método para incluir o componente experimental de manipulação por fotos e manchetes, além da escala Likert com os 200 respondentes. Além disso, confirme com o pesquisador se os estudos qualitativos por entrevista C20 e C69 se enquadram na lista de métodos aceitos do pedido (experimentos, questionários, medidas fisiológicas ou dados de cliques e engajamento), já que entrevistas não estão listadas de forma explícita; se o pesquisador disser que não se enquadram, substitua-os por novos artigos. Por fim, foram entregues apenas 22 itens de um pedido de 25; se os itens corrigidos forem aceitos, complete a lista com mais artigos que atendam a todas as restrições.\"}",
+  "usage": {
+    "input_tokens": 10324,
+    "output_tokens": 4086,
+    "cost_usd": 0.00359
+  },
+  "duration_s": 46.43,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

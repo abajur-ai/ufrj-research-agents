@@ -1,0 +1,29 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Período: year_from 2018 e year_to 2025 batem exatamente com o pedido (2018 a 2025), sem ano a mais ou a menos.",
+      "Critérios de inclusão: todos os cinco itens traduzem o pedido (periódico revisado por pares 2018 a 2025, estudo empírico com dados próprios, objeto = organizações brasileiras de checagem, temas = rotinas/métodos/critérios/fontes/transparência/financiamento/IA, comparativos internacionais válidos se incluírem organizações brasileiras); não vi restrição acrescentada nem esquecida.",
+      "Critérios de exclusão: eleições, governos específicos, COVID-19, efeito no público, revisões/meta-análises/ensaios/resenhas, preprints/anais/capítulos/teses, falta de organizações brasileiras ou de dados empíricos: todos presentes e fiéis ao pedido; os dois itens extras (estudos de desenvolvimento de algoritmos sem análise da prática; publicações fora de 2018 a 2025) são decorrências lógicas do pedido, não restrições novas.",
+      "Queries em inglês: cobrem organizações brasileiras, rotinas de redação, Lupa e Aos Fatos, entrevistas e métodos, transparência e financiamento, Comprova, IA, comparativo latino-americano, fontes e critérios de verificação, e análise de conteúdo.",
+      "Queries em português: cobrem agências brasileiras, rotinas produtivas, Lupa, Aos Fatos e Estadão Verifica, IA, transparência e financiamento, e Fato ou Fake com Comprova.",
+      "Organizações citadas no pedido (Agência Lupa, Aos Fatos, Estadão Verifica, Fato ou Fake, Comprova): todas aparecem em pelo menos uma query ou estão cobertas pelo termo geral 'agências de checagem de fatos brasileiras' / 'Brazilian fact-checking organizations'.",
+      "Campos de saída exigidos no pedido (DOI, título, autores, ano, periódico, tipo de estudo e método, tamanho da amostra como no resumo, achado principal e trecho literal entre aspas) não dependem dos termos de busca e não conflitam com os critérios apresentados."
+    ],
+    "issues": [
+      "Nenhum erro que comprometa o resultado: período, inclusões e exclusões estão fiéis ao pedido."
+    ],
+    "feedback": "Sugestões não obrigatórias para a próxima busca: incluir 'Estadão Verifica' e 'Fato ou Fake' também nas queries em inglês (hoje só aparecem em português); acrescentar uma query em português sobre fontes e critérios de verificação, por exemplo 'checagem de fatos fontes critérios verificação', para espelhar a query 9 em inglês; considerar uma query em português sobre comparativo latino-americano, por exemplo 'checagem de fatos América Latina comparativo', para espelhar a query 8; se desejar, acrescentar o termo 'modelo de negócio' a alguma query de financiamento, já que esse tema aparece explicitamente nos critérios de inclusão."
+  },
+  "text": "{\n \"approved\": true,\n \"checked\": [\n  \"Período: year_from 2018 e year_to 2025 batem exatamente com o pedido (2018 a 2025), sem ano a mais ou a menos.\",\n  \"Critérios de inclusão: todos os cinco itens traduzem o pedido (periódico revisado por pares 2018 a 2025, estudo empírico com dados próprios, objeto = organizações brasileiras de checagem, temas = rotinas/métodos/critérios/fontes/transparência/financiamento/IA, comparativos internacionais válidos se incluírem organizações brasileiras); não vi restrição acrescentada nem esquecida.\",\n  \"Critérios de exclusão: eleições, governos específicos, COVID-19, efeito no público, revisões/meta-análises/ensaios/resenhas, preprints/anais/capítulos/teses, falta de organizações brasileiras ou de dados empíricos: todos presentes e fiéis ao pedido; os dois itens extras (estudos de desenvolvimento de algoritmos sem análise da prática; publicações fora de 2018 a 2025) são decorrências lógicas do pedido, não restrições novas.\",\n  \"Queries em inglês: cobrem organizações brasileiras, rotinas de redação, Lupa e Aos Fatos, entrevistas e métodos, transparência e financiamento, Comprova, IA, comparativo latino-americano, fontes e critérios de verificação, e análise de conteúdo.\",\n  \"Queries em português: cobrem agências brasileiras, rotinas produtivas, Lupa, Aos Fatos e Estadão Verifica, IA, transparência e financiamento, e Fato ou Fake com Comprova.\",\n  \"Organizações citadas no pedido (Agência Lupa, Aos Fatos, Estadão Verifica, Fato ou Fake, Comprova): todas aparecem em pelo menos uma query ou estão cobertas pelo termo geral 'agências de checagem de fatos brasileiras' / 'Brazilian fact-checking organizations'.\",\n  \"Campos de saída exigidos no pedido (DOI, título, autores, ano, periódico, tipo de estudo e método, tamanho da amostra como no resumo, achado principal e trecho literal entre aspas) não dependem dos termos de busca e não conflitam com os critérios apresentados.\"\n ],\n \"issues\": [\n  \"Nenhum erro que comprometa o resultado: período, inclusões e exclusões estão fiéis ao pedido.\"\n ],\n \"feedback\": \"Sugestões não obrigatórias para a próxima busca: incluir 'Estadão Verifica' e 'Fato ou Fake' também nas queries em inglês (hoje só aparecem em português); acrescentar uma query em português sobre fontes e critérios de verificação, por exemplo 'checagem de fatos fontes critérios verificação', para espelhar a query 9 em inglês; considerar uma query em português sobre comparativo latino-americano, por exemplo 'checagem de fatos América Latina comparativo', para espelhar a query 8; se desejar, acrescentar o termo 'modelo de negócio' a alguma query de financiamento, já que esse tema aparece explicitamente nos critérios de inclusão.\"\n}",
+  "usage": {
+    "input_tokens": 1224,
+    "output_tokens": 1236,
+    "cost_usd": 0.0008
+  },
+  "duration_s": 15.54,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

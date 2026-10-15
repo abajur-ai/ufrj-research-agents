@@ -1,0 +1,131 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "C94 (Fooled twice, iScience 2021): resumo relata experimento comportamental pré-registrado com N=210 sobre detecção de deepfakes e excesso de confiança; atende a estudo empírico com participantes humanos e ao tema.",
+      "C57 (Warning: Humans cannot reliably detect speech deepfakes, PLoS ONE 2023): resumo relata experimento com n=529 apresentando áudio genuíno e deepfake em inglês e mandarim; atende ao tema de clones de voz e ao critério empírico.",
+      "C71 (Deepfake detection by human crowds, PNAS 2021): resumo relata dois estudos online com 15.016 participantes comparando humanos e modelo; o foco principal é detecção humana, não o algoritmo em si.",
+      "C25 (Testing human ability to detect deepfake images, Journal of Cybersecurity 2023): resumo relata survey online com N=280 avaliando rostos StyleGAN2; atende ao tema de rostos sintéticos.",
+      "C55 (AI Hyperrealism, Psychological Science 2023): resumo relata dois experimentos (N=124 e N=610) com julgamento humano de rostos de IA; atende.",
+      "C02 (Training human super-recognizers, Royal Society Open Science 2025): resumo relata experimentos com super-reconhecedores (N=283) e controles (N=381) sobre detecção de rostos sintéticos; atende.",
+      "C07 (AI-generated images of familiar faces, Cognitive Research 2025): resumo relata quatro experimentos de detecção humana de rostos gerados por IA; tamanho da amostra não aparece no resumo e foi corretamente registrado como não informado.",
+      "C43 (A (Mid)journey Through Reality, Human Behavior and Emerging Technologies 2025): resumo relata estudo misto com 746 participantes e cinco variantes experimentais sobre detecção de imagens de IA; atende.",
+      "C44 (Deepfake smiles matter less, Scientific Reports 2023): resumo relata estudo de EEG com N=30 sobre processamento perceptivo de rostos presumidamente falsos; medidas fisiológicas são permitidas pelo pedido.",
+      "C58 (Deciphering authenticity in the age of AI, AI & SOCIETY 2025): resumo relata experimento com 292 participantes sobre julgamento de autenticidade de imagens geradas por IA; o estudo não é centrado em políticos ou eleições, apenas cita campanhas políticas como contexto.",
+      "C08 (Crowds Improve Human Detection, Applied Cognitive Psychology 2024): resumo relata dois experimentos sobre detecção de rostos sintéticos com julgamentos individuais e agregados; amostra não consta no resumo e foi registrada como não informada.",
+      "C119 (Examining the role of compression, Scientific Reports 2025): resumo relata avaliação subjetiva humana de autenticidade de imagens de IA sob diferentes níveis de compressão, com resultado sobre acuidade da visão humana; envolve participantes humanos e não é apenas proposta de dataset.",
+      "C97 (Uncovering strategies for identifying deepfakes, Information Research 2025): resumo relata survey online com adultos jovens de 21 a 35 anos sobre identificação de vídeos deepfake e estratégias; amostra não informada no resumo, registrado corretamente.",
+      "C28 (Perception and deception, Heliyon 2023): resumo relata experimento de survey com design experimental sobre percepção de precisão de deepfakes de vídeo, áudio e cheap fakes; não é centrado em política; amostra não informada no resumo, registrado corretamente.",
+      "C41 (There Is something Rotten in Denmark, Computers in Human Behavior: Artificial Humans 2023): resumo relata estudo experimental com 46 usuários sobre percepção e detecção de falhas em personas deepfake; atende ao tema de avaliação de credibilidade.",
+      "C111 (The realness of fakes, International Journal of Human-Computer Studies 2023): resumo relata estudo com participantes comparando percepção de credibilidade e imersão de personas deepfake e tradicionais; amostra não informada no resumo, registrado corretamente.",
+      "C12 (Digital Literacy e identificação de deepfakes, Jurnal Pekommas 2024): resumo relata survey com 199 respondentes da Geração X na Indonésia sobre capacidade de identificar deepfakes; atende.",
+      "C24 (Partial Fake Speech Attacks, Journal of Cybersecurity and Privacy 2025): resumo indica teste com humanos e máquinas distinguindo fala parcialmente falsa; participantes humanos estão presentes, amostra não consta no resumo, registrado corretamente.",
+      "Total: 18 artigos, menos que os 25 pedidos, o que é correto porque só foram incluídos artigos que atendem a todos os critérios nos resumos fornecidos; nenhum artigo de revisão, meta-análise, preprint, anais, estudo puramente algorítmico, político ou de saúde foi identificado entre os incluídos."
+    ],
+    "per_item": [
+      {
+        "id": "C94",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C57",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C71",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C25",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C55",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C02",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C07",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C43",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C44",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C58",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C08",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C119",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C97",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C28",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C41",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C111",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C12",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "id": "C24",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [],
+    "feedback": "A triagem está correta: 18 artigos atendem aos critérios nos resumos fornecidos e entregar menos que 25 é o comportamento certo. Sugestões para a próxima rodada: 1) em C58, confirme na seção de método que os estímulos de desinformação não são de conteúdo político, já que o resumo menciona campanhas políticas de desinformação como contexto; 2) para C24 e C119, se houver acesso ao texto completo, preencha o tamanho da amostra humana que não aparece no resumo, deixando claro que veio do texto e não do abstract; 3) para os demais artigos com amostra não informada no resumo (C07, C08, C97, C28, C111), o registro como não informado está correto e não precisa ser alterado."
+  },
+  "text": "{\n \"approved\": true,\n \"checked\": [\n  \"C94 (Fooled twice, iScience 2021): resumo relata experimento comportamental pré-registrado com N=210 sobre detecção de deepfakes e excesso de confiança; atende a estudo empírico com participantes humanos e ao tema.\",\n  \"C57 (Warning: Humans cannot reliably detect speech deepfakes, PLoS ONE 2023): resumo relata experimento com n=529 apresentando áudio genuíno e deepfake em inglês e mandarim; atende ao tema de clones de voz e ao critério empírico.\",\n  \"C71 (Deepfake detection by human crowds, PNAS 2021): resumo relata dois estudos online com 15.016 participantes comparando humanos e modelo; o foco principal é detecção humana, não o algoritmo em si.\",\n  \"C25 (Testing human ability to detect deepfake images, Journal of Cybersecurity 2023): resumo relata survey online com N=280 avaliando rostos StyleGAN2; atende ao tema de rostos sintéticos.\",\n  \"C55 (AI Hyperrealism, Psychological Science 2023): resumo relata dois experimentos (N=124 e N=610) com julgamento humano de rostos de IA; atende.\",\n  \"C02 (Training human super-recognizers, Royal Society Open Science 2025): resumo relata experimentos com super-reconhecedores (N=283) e controles (N=381) sobre detecção de rostos sintéticos; atende.\",\n  \"C07 (AI-generated images of familiar faces, Cognitive Research 2025): resumo relata quatro experimentos de detecção humana de rostos gerados por IA; tamanho da amostra não aparece no resumo e foi corretamente registrado como não informado.\",\n  \"C43 (A (Mid)journey Through Reality, Human Behavior and Emerging Technologies 2025): resumo relata estudo misto com 746 participantes e cinco variantes experimentais sobre detecção de imagens de IA; atende.\",\n  \"C44 (Deepfake smiles matter less, Scientific Reports 2023): resumo relata estudo de EEG com N=30 sobre processamento perceptivo de rostos presumidamente falsos; medidas fisiológicas são permitidas pelo pedido.\",\n  \"C58 (Deciphering authenticity in the age of AI, AI & SOCIETY 2025): resumo relata experimento com 292 participantes sobre julgamento de autenticidade de imagens geradas por IA; o estudo não é centrado em políticos ou eleições, apenas cita campanhas políticas como contexto.\",\n  \"C08 (Crowds Improve Human Detection, Applied Cognitive Psychology 2024): resumo relata dois experimentos sobre detecção de rostos sintéticos com julgamentos individuais e agregados; amostra não consta no resumo e foi registrada como não informada.\",\n  \"C119 (Examining the role of compression, Scientific Reports 2025): resumo relata avaliação subjetiva humana de autenticidade de imagens de IA sob diferentes níveis de compressão, com resultado sobre acuidade da visão humana; envolve participantes humanos e não é apenas proposta de dataset.\",\n  \"C97 (Uncovering strategies for identifying deepfakes, Information Research 2025): resumo relata survey online com adultos jovens de 21 a 35 anos sobre identificação de vídeos deepfake e estratégias; amostra não informada no resumo, registrado corretamente.\",\n  \"C28 (Perception and deception, Heliyon 2023): resumo relata experimento de survey com design experimental sobre percepção de precisão de deepfakes de vídeo, áudio e cheap fakes; não é centrado em política; amostra não informada no resumo, registrado corretamente.\",\n  \"C41 (There Is something Rotten in Denmark, Computers in Human Behavior: Artificial Humans 2023): resumo relata estudo experimental com 46 usuários sobre percepção e detecção de falhas em personas deepfake; atende ao tema de avaliação de credibilidade.\",\n  \"C111 (The realness of fakes, International Journal of Human-Computer Studies 2023): resumo relata estudo com participantes comparando percepção de credibilidade e imersão de personas deepfake e tradicionais; amostra não informada no resumo, registrado corretamente.\",\n  \"C12 (Digital Literacy e identificação de deepfakes, Jurnal Pekommas 2024): resumo relata survey com 199 respondentes da Geração X na Indonésia sobre capacidade de identificar deepfakes; atende.\",\n  \"C24 (Partial Fake Speech Attacks, Journal of Cybersecurity and Privacy 2025): resumo indica teste com humanos e máquinas distinguindo fala parcialmente falsa; participantes humanos estão presentes, amostra não consta no resumo, registrado corretamente.\",\n  \"Total: 18 artigos, menos que os 25 pedidos, o que é correto porque só foram incluídos artigos que atendem a todos os critérios nos resumos fornecidos; nenhum artigo de revisão, meta-análise, preprint, anais, estudo puramente algorítmico, político ou de saúde foi identificado entre os incluídos.\"\n ],\n \"per_item\": [\n  {\"id\": \"C94\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C57\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C71\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C25\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C55\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C02\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C07\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C43\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C44\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C58\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C08\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C119\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C97\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C28\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C41\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C111\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C12\", \"ok\": true, \"problem\": \"\"},\n  {\"id\": \"C24\", \"ok\": true, \"problem\": \"\"}\n ],\n \"issues\": [],\n \"feedback\": \"A triagem está correta: 18 artigos atendem aos critérios nos resumos fornecidos e entregar menos que 25 é o comportamento certo. Sugestões para a próxima rodada: 1) em C58, confirme na seção de método que os estímulos de desinformação não são de conteúdo político, já que o resumo menciona campanhas políticas de desinformação como contexto; 2) para C24 e C119, se houver acesso ao texto completo, preencha o tamanho da amostra humana que não aparece no resumo, deixando claro que veio do texto e não do abstract; 3) para os demais artigos com amostra não informada no resumo (C07, C08, C97, C28, C111), o registro como não informado está correto e não precisa ser alterado.\"\n}",
+  "usage": {
+    "input_tokens": 7086,
+    "output_tokens": 2750,
+    "cost_usd": 0.00244
+  },
+  "duration_s": 19.91,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

@@ -1,0 +1,87 @@
+# Verificador do plano de busca
+Você é um verificador independente. Confira se o plano cobre TODOS os critérios do pedido do pesquisador (tema,
+período, tipo de publicação, método, recorte), se as consultas encontram o tema em inglês e em português, e se cada
+critério tem um jeito concreto de ser conferido. Reprove plano que esquece um critério, muda o período ou o tema.
+Não precisa buscar na web.
+
+COMO RESPONDER
+- approved: false só por ERRO REAL que compromete o resultado (dado errado, critério do pedido violado ou
+  esquecido, fonte que não existe, citação que não está na fonte, afirmação que a fonte não sustenta).
+  Sugestão de melhoria, preferência de estilo ou cobertura que poderia ser maior não reprova: aprove e ponha a
+  sugestão em feedback.
+- checked: o que você conferiu, um item por linha, concreto (por exemplo: 'DOI 10.x abre e o título confere').
+- issues: cada problema numa frase curta que um estudante entenda: o que está errado ou faltou, e onde.
+- feedback: o que o executor precisa fazer na próxima tentativa.
+- Escreva em português do Brasil, sem travessão.
+
+PEDIDO DO PESQUISADOR:
+Encontre 25 artigos científicos revisados por pares, publicados em periódicos entre 2018 e 2025, sobre jogos educativos e jogos de inoculação (prebunking) contra desinformação, como o Bad News. Restrições: apenas intervenções em forma de jogo (digital ou de tabuleiro) avaliadas com participantes em experimento, quase-experimento, ensaio randomizado ou desenho pré e pós-intervenção; exclua intervenções que não são jogos (vídeos, textos ou infográficos isolados), reanálises de dados de outros estudos e estudos centrados em COVID-19, vacinas, eleições ou política partidária (por exemplo, o Go Viral!). Valem apenas artigos de periódico que relatem estudo empírico com dados próprios; não use revisões de literatura, meta-análises, ensaios teóricos, preprints, trabalhos de anais de congresso, capítulos de livro, teses ou resenhas. Para cada artigo, informe: DOI; título; autores; ano de publicação; periódico; tipo de estudo e método; tamanho da amostra exatamente como aparece no resumo (ou "não informado no resumo"); achado principal, em uma frase; e um trecho literal do resumo, entre aspas, que sustente o achado principal.
+
+PLANO A VERIFICAR:
+{
+ "criteria": [
+  "Tema: jogos educativos e jogos de inoculação (prebunking) contra desinformação/fake news/manipulação (ex.: Bad News, Harmony Square, Cranky Uncle, Fakey, Fake It to Make It, Escape rooms/jogos de tabuleiro sobre desinformação, jogos de literacia midiática).",
+  "Intervenção: deve ser um jogo (digital, de tabuleiro, de cartas, escape room, role-play lúdico). Excluir vídeos, textos, infográficos, quizzes ou campanhas isoladas que não sejam jogos.",
+  "Período: publicado entre 2018 e 2025 (ano de publicação do artigo de periódico; conferir data online vs. data do fascículo e registrar o ano oficial do periódico).",
+  "Tipo de publicação: artigo de periódico revisado por pares. Excluir preprints (PsyArXiv, SSRN, arXiv), anais de congresso, capítulos de livro, teses/dissertações e resenhas.",
+  "Tipo de estudo: estudo empírico com dados próprios coletados com participantes. Excluir revisões de literatura, revisões sistemáticas, meta-análises, ensaios teóricos e reanálises de dados de outros estudos.",
+  "Desenho/método: experimento, quase-experimento, ensaio randomizado (RCT) ou desenho pré e pós-intervenção com participantes. Excluir estudos só de desenho/protótipo, só de usabilidade ou só de opinião sem avaliação do efeito.",
+  "Exclusão temática: estudos centrados em COVID-19, vacinas, eleições ou política partidária (ex.: Go Viral!, jogos de desinformação eleitoral, jogos sobre vacinação). Manter jogos de desinformação geral, climática, de mídia/notícias, de técnicas de manipulação (Bad News, Harmony Square a verificar: se o foco for eleições, excluir).",
+  "Dados exigidos por artigo: DOI, título, autores, ano, periódico, tipo de estudo e método, tamanho da amostra exatamente como no resumo (ou 'não informado no resumo'), achado principal em uma frase e trecho literal do resumo entre aspas que sustente o achado.",
+  "Meta: 25 artigos distintos que atendam a todos os critérios; sem duplicatas (mesmo estudo em versão preprint e periódico: manter só a versão de periódico; estudos diferentes de um mesmo artigo com múltiplos experimentos contam como um artigo). Se não houver 25 elegíveis, informar o número real em vez de completar com itens que não atendam."
+ ],
+ "queries": [
+  {
+   "query": "(\"Bad News\" OR prebunking OR inoculation OR \"psychological inoculation\") AND (game OR gamified OR \"gamified intervention\") AND (misinformation OR disinformation OR \"fake news\")",
+   "language": "en",
+   "database": "OpenAlex"
+  },
+  {
+   "query": "(\"serious game\" OR \"educational game\" OR \"board game\" OR \"escape room\" OR \"card game\") AND (misinformation OR disinformation OR \"fake news\") AND (experiment OR randomized OR \"pre-post\" OR \"pretest posttest\")",
+   "language": "en",
+   "database": "OpenAlex"
+  },
+  {
+   "query": "title:(game) AND (misinformation OR disinformation OR \"fake news\" OR \"manipulation techniques\") AND (inoculat* OR prebunk* OR \"media literacy\") — filtrar type:journal-article, 2018-2025",
+   "language": "en",
+   "database": "Crossref"
+  },
+  {
+   "query": "\"Bad News game\" OR \"Harmony Square\" OR \"Cranky Uncle\" OR \"Fakey\" OR \"Fake It to Make It\" OR \"Breaking Harmony\" OR \"Tricky Business\" OR \"Fake News Detective\" effect on resilience to misinformation",
+   "language": "en",
+   "database": "busca na web (Google Scholar / sites de periódicos)"
+  },
+  {
+   "query": "(jogo OR gamificação OR \"jogo educativo\" OR \"jogo sérios\" OR \"jogo de tabuleiro\") AND (desinformação OR \"notícias falsas\" OR \"fake news\") AND (inoculação OR prebunking OR \"letramento midiático\" OR \"educação midiática\")",
+   "language": "pt",
+   "database": "SciELO"
+  },
+  {
+   "query": "(jogo OR \"jogo educativo\" OR \"escape room\" OR gamificação) AND (desinformação OR \"fake news\" OR \"pós-verdade\") AND (experimento OR \"pré-teste\" OR \"pós-teste\" OR \"quase-experimental\")",
+   "language": "pt",
+   "database": "OpenAlex"
+  },
+  {
+   "query": "(game OR gamified) AND (\"climate misinformation\" OR \"news literacy\" OR \"misleading headlines\" OR \"conspiracy\" OR \"social media manipulation\") AND (inoculation OR \"media literacy\") AND (\"randomized\" OR \"controlled experiment\")",
+   "language": "en",
+   "database": "OpenAlex"
+  },
+  {
+   "query": "jogo desinformação inoculação OR prebunking OR \"fake news\" experimento participantes eficácia",
+   "language": "pt",
+   "database": "busca na web (Google Scholar, Portal de Periódicos CAPES, SciELO)"
+  }
+ ],
+ "how_to_check": [
+  "Tema e tipo de intervenção: ler título e resumo (e, se preciso, a seção de métodos) para confirmar que a intervenção é um jogo e que o foco é desinformação; descartar vídeos, textos, infográficos e quizzes isolados.",
+  "Período: verificar o ano de publicação no registro do Crossref/OpenAlex (published-print e published-online); manter só 2018–2025 e registrar o ano oficial do periódico, anotando divergências.",
+  "Tipo de publicação: confirmar no Crossref/OpenAlex que type = journal-article e que o periódico é revisado por pares; descartar preprints (PsyArXiv, SSRN, arXiv), anais, capítulos, teses e resenhas, inclusive quando o DOI for de repositório.",
+  "Estudo empírico com dados próprios: conferir no resumo/métodos que há coleta de dados com participantes; descartar revisões, meta-análises, ensaios teóricos e reanálises de dados públicos ou de estudos anteriores.",
+  "Desenho: confirmar no resumo/métodos a presença de experimento, quase-experimento, RCT ou pré e pós-teste com grupo(s) de participantes; descartar estudos só de desenvolvimento ou de percepção sem medida de efeito.",
+  "Exclusão temática: checar título, resumo e palavras-chave para COVID-19, vacina, eleições e política partidária (ex.: Go Viral!); descartar quando for o foco central e verificar caso a caso jogos como Harmony Square.",
+  "Amostra: copiar o N exatamente como aparece no resumo (ex.: 'N = 15,000'); se o resumo não trouxer o número, escrever 'não informado no resumo', sem buscar no texto completo nem estimar.",
+  "Achado principal e trecho: resumir em uma frase e extrair do resumo uma citação literal entre aspas que sustente essa frase, conferindo palavra por palavra com o resumo do registro do periódico e sem parafrasear.",
+  "DOI e metadados: validar cada DOI resolvendo em doi.org ou consultando a API do Crossref e conferir que título, autores, periódico e ano coincidem; remover duplicatas por DOI e por título.",
+  "Contagem final: consolidar numa lista com os 25 itens que passaram em todos os critérios; se houver menos de 25, informar o número real e os critérios que mais restringiram, sem incluir itens que não atendam."
+ ]
+}

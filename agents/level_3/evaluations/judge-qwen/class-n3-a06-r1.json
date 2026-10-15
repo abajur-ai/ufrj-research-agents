@@ -1,0 +1,642 @@
+{
+ "run_id": "class-n3-a06-r1",
+ "level": "n3",
+ "item": "a06",
+ "status": "done",
+ "delivered": 23,
+ "correct": 23,
+ "requested": 25,
+ "yield": 0.92,
+ "precision": 1.0,
+ "not_found": 0,
+ "wrong_doi": 0,
+ "metadata_errors": 0,
+ "quote_fail": 0,
+ "no_abstract": 0,
+ "wall_seconds": 248.7,
+ "calls": 6,
+ "items": [
+  {
+   "doi": "10.1108/oir-05-2018-0172",
+   "title": "Shocking secret you won’t believe! Emotional arousal in clickbait headlines",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "The purpose of this paper is to fill a gap in the literature by providing empirical evidence of how clickbait headlines affect online users’ emotional and behavioral responses / Online Information Review / [2019]",
+    "on_topic": true,
+    "evidence_empirical": "An experiment was conducted primarily to examine the levels of emotional arousal evoked by two treatment groups of online news headlines, news and clickbait, compared to a neutral control group. Emotional arousal was assessed using two approaches – pupillary dilation response recorded by an eye-tracking device and the Self-Assessment Manikin (SAM)",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo atende a todos os requisitos do pedido: é um estudo empírico (experimento) publicado em periódico em 2019, focado nos efeitos de clickbait em usuários, utilizando medidas fisiológicas (rastreamento ocular) e de autorrelato (SAM), sem se tratar de modelo computacional, análise puramente linguística ou recorte político. Os dados extraídos (tipo de estudo, método, tamanho da amostra e achado principal) estão corretos e perfeitamente alinhados com o que é descrito no resumo. O achado principal é integralmente sustentado pelo texto."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.58729/1941-6679.1440",
+   "title": "Effects of Clickbait Headlines on User Responses: An Empirical Investigation",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "Título: \"Effects of Clickbait Headlines on User Responses\"; Resumo: \"This study investigates the influence of a conventional method of delivering news headlines, clickbait, on online users’ perceptions and responses.\"",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: \"An experiment was conducted on two groups of news headlines—traditional news and clickbait— to provide empirical evidence of the effects of clickbait on online users.\"",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic\nTrecho: Título: \"Effects of Clickbait Headlines on User Responses\"; Resumo: \"This study investigates the influence of a conventional method of delivering news headlines, clickbait, on online users’ perceptions and responses.\"\nDecisão: Sim. O artigo trata exatamente dos efeitos de manchetes clickbait em usuários/leitores, sem recorte político ou eleitoral, atendendo ao tema e ao recorte do pedido.\n\n2. empirical\nTrecho: Resumo: \"An experiment was conducted on two groups of news headlines—traditional news and clickbait— to provide empirical evidence of the effects of clickbait on online users.\"\nDecisão: Sim. O estudo coleta dados próprios por meio de um experimento com usuários, atendendo ao requisito de estudo empírico com dados de leitores/usuários.\n\n3. method_ok\nTrecho: Dados extraídos: \"Estudo experimental\" e \"Experimento com dois grupos de manchetes (notícia tradicional e clickbait) e modelagem de equações estruturais\". Resumo: \"An experiment was conducted on two groups of news headlines—traditional news and clickbait...\" e \"...results from structural equation modeling...\".\nDecisão: Sim. O tipo de estudo e o método informados nos dados extraídos batem perfeitamente com o descrito no resumo.\n\n4. finding\nTrecho: Dados extraídos: \"Manchetes caça-cliques despertam excitação e curiosidade; a curiosidade é o principal determinante da intenção de ler e a qualidade percebida do conhecimento, da intenção de compartilhar.\" Resumo: \"The findings suggest that clickbait headlines can evoke users’ arousal and curiosity.\" e \"The results reveal that while the major determinant of users’ intention to read news stories is curiosity, perceived knowledge quality appears to be the main factor users consider when sharing online news stories.\"\nDecisão: supported. O achado informado é integralmente sustentado pelo resumo, traduzindo de forma precisa e completa as conclusões apresentadas no texto original."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1027/1864-1105/a000298",
+   "title": "Exaggerated and Questioning Clickbait Headlines and Their Influence \t\t\t\t\ton Media Learning",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "To evaluate the impact of clickbait headlines on media learning and article-related beliefs, we conducted two online experiments...",
+    "on_topic": true,
+    "evidence_empirical": "...we conducted two online experiments... an online sample of US adults ( N = 629)... Study 2 ( N = 1,674)...",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: \nTrecho: \"To evaluate the impact of clickbait headlines on media learning and article-related beliefs, we conducted two online experiments...\"\nDecisão: O artigo investiga exatamente os efeitos de manchetes clickbait em leitores (aprendizagem e crenças), utilizando dados empíricos de usuários, sem recorte político/eleitoral ou foco em modelos computacionais de detecção. Atende perfeitamente ao tema e ao recorte do pedido.\nRótulo: sim\n\n2. empirical: \nTrecho: \"...we conducted two online experiments... an online sample of US adults ( N = 629)... Study 2 ( N = 1,674)...\"\nDecisão: O estudo coleta e analisa dados próprios de leitores por meio de experimentos online, atendendo ao requisito de ser um estudo empírico com dados de usuários.\nRótulo: sim\n\n3. method_ok: \nTrecho do resumo: \"...we conducted two online experiments, each testing a 3 (headline-type: accurate, clickbait-question, clickbait-exaggerated) × 2 (exposure: headline-only, full article) factorial... randomly assigned...\"\nTrecho extraído: study_type: \"Dois experimentos online (fatorial 3×2)\", method: \"Experimentos online com atribuição aleatória a condições de manchete (precisa, clickbait-pergunta, clickbait-exagerada) e exposição (só manchete, artigo completo); avaliação de aprendizagem e crenças\"\nDecisão: O tipo de estudo e o método informados na extração correspondem com exatidão ao desenho fatorial e aos procedimentos descritos no resumo.\nRótulo: sim\n\n4. finding: \nTrecho do resumo: \"...reading correcting information within an article is likely not enough to overcome the deleterious impact of a clickbait headline.\"\nTrecho extraído: \"Ler a correção no corpo do artigo provavelmente não basta para superar o efeito prejudicial de uma manchete caça-cliques sobre a aprendizagem.\"\nDecisão: O achado principal informado é uma tradução fiel e direta da conclusão do resumo, sendo totalmente sustentado por ele. \nRessalva de rigor: Embora o achado esteja correto, a extração do tamanho da amostra está incompleta. O resumo relata dois estudos com amostras distintas (\"N = 629\" e \"N = 1,674\"), mas o extrator informou apenas \"N = 629\", falhando em seguir a instrução estrita de informar o tamanho da amostra \"exatamente como aparece no resumo\" (deveria ter incluído ambos ou a amostra total).\nRótulo: supported"
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1080/17512786.2019.1628658",
+   "title": "Aggregation, Clickbait and Their Effect on Perceptions of Journalistic Credibility and Quality",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "Título: 'Aggregation, Clickbait and Their Effect on Perceptions of Journalistic Credibility and Quality'; Resumo: '...understand what audiences think of aggregation and clickbait. This study uses [...] to test readers’ perceptions of news aggregation and clickbait.'",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: 'This study uses published original and aggregated news articles as stimuli in two online experiments to test readers’ perceptions...'",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: Trecho: Título: 'Aggregation, Clickbait and Their Effect on Perceptions of Journalistic Credibility and Quality'; Resumo: '...understand what audiences think of aggregation and clickbait. This study uses [...] to test readers’ perceptions of news aggregation and clickbait.' Decisão: Sim. O artigo foca nos efeitos do clickbait sobre os leitores (percepções de credibilidade e qualidade), sem recorte político, sem ser puramente linguístico e sem ser um modelo computacional de detecção.\n\n2. empirical: Trecho: Resumo: 'This study uses published original and aggregated news articles as stimuli in two online experiments to test readers’ perceptions...' Decisão: Sim. O estudo coleta dados primários por meio de experimentos online com leitores.\n\n3. method_ok: Trecho: Dado extraído: 'Estudo experimental', 'Dois experimentos online com artigos originais e agregados publicados como estímulos...'. Resumo: '...in two online experiments...' e '...uses published original and aggregated news articles as stimuli...'. Decisão: Sim. O tipo de estudo e o método extraídos correspondem perfeitamente ao que é descrito no resumo.\n\n4. finding: Trecho: Dado extraído: 'A agregação tem pouco efeito sobre credibilidade e qualidade percebidas, enquanto manchetes caça-cliques podem reduzi-las.' Resumo: 'Aggregation itself has little effect on perceptions of credibility and quality... Results also suggest clickbait headlines may lower perceptions of credibility and quality.' Decisão: supported. O achado extraído reflete de forma integral e precisa os resultados relatados no resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1109/tts.2021.3073464",
+   "title": "Clickbait—Trust and Credibility of Digital News",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 1,
+   "judge": {
+    "evidence_topic": "To understand their impact on the credibility of news items, we designed and conducted an experiment... 200 participants... were instructed to click and read... and fill a credibility questionnaire.",
+    "on_topic": true,
+    "evidence_empirical": "we designed and conducted an experiment... 200 participants... were instructed to click and read through any two articles of their choice and fill a credibility questionnaire.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata dos efeitos de manchetes clickbait em leitores (impacto na credibilidade), dentro do recorte de estudos empíricos com dados de usuários, sem envolver os temas excluídos (como detecção computacional ou recorte político).\n2. empirical: O estudo coleta e analisa dados próprios de leitores por meio de um experimento e questionário.\n3. method_ok: O tipo de estudo ('Estudo experimental') e o método informados nos dados extraídos batem perfeitamente com o resumo. O tamanho da amostra ('200 participants') também está exatamente como no texto original.\n4. finding: O achado principal informado ('Manchetes caça-cliques reduziram significativamente a credibilidade das notícias.') é integralmente sustentado pelo trecho do resumo ('Clickbait headlines significantly reduced the credibility of news items.')."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1177/1461444819863408",
+   "title": "The curiosity effect: Information seeking in the contemporary news environment",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "This research investigates how digital news headlines influence contemporary news information seeking... traditional, summary news headlines or clickbait, curiosity news headlines—influences the attitudinal and behavioral components of news seeking.",
+    "on_topic": true,
+    "evidence_empirical": "In two studies (a lab experiment and a field test), we examine how the presentation of news information... influences the attitudinal and behavioral components of news seeking.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo está perfeitamente alinhado ao tema (on_topic) e é um estudo empírico (empirical) com dados próprios de leitores. O tipo de estudo e método extraídos batem com o resumo (method_ok), e o achado principal é totalmente sustentado pelo texto (finding = supported). No entanto, como juiz estrito, aponto um erro na extração do campo 'sample_size': o pedido exigiu o tamanho da amostra 'exatamente como aparece no resumo (ou não informado no resumo)'. O valor extraído ('nine local newspaper websites') refere-se à quantidade de sites no teste de campo, não ao tamanho da amostra de participantes (N). Como o número de participantes não é citado no resumo, o campo correto deveria ser 'não informado no resumo'."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.5897/jmcs2020.0715",
+   "title": "Clickbait-style headlines and journalism credibility in Sub-Saharan Africa: Exploring audience perceptions",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "This experimental study, therefore, set out to understand how the audience perceives clickbait-style headlines in relations to media credibility. [...] The findings suggest strong statistical evidence that clickbait headlines pose negatives effects on the perceptions of journalistic credibility in Zambia and Tanzania.",
+    "on_topic": true,
+    "evidence_empirical": "This experimental study, therefore, set out to understand how the audience perceives [...] The findings suggest strong statistical evidence",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata dos efeitos de manchetes clickbait nos leitores (percepção de credibilidade), sem recorte político/eleitoral, atendendo ao tema do pedido.\n2. empirical: O estudo coleta e analisa dados próprios de leitores (consumidores de notícias online) por meio de um experimento com evidências estatísticas, não sendo revisão ou ensaio.\n3. method_ok: O tipo de estudo (experimental) e o método (experimento sobre percepção de credibilidade) extraídos batem exatamente com o descrito no resumo.\n4. finding: O achado informado é integralmente sustentado pelo resumo, que afirma haver fortes evidências estatísticas de efeitos negativos na percepção de credibilidade."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1089/cyber.2024.0295",
+   "title": "Decoding Clickbait: The Impact of Clickbait Types and Structures on Cognitive and Emotional Responses in Online Interactions",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "This study delves into the influence of clickbait types... on user cognitive and emotional responses in an online environment. Using electroencephalography with 32 internet-experienced participants...",
+    "on_topic": true,
+    "evidence_empirical": "Using electroencephalography with 32 internet-experienced participants, we analyzed how these different clickbait configurations affect engagement and processing.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata dos efeitos do clickbait em usuários, utilizando dados fisiológicos (EEG), sem focar em modelos computacionais de detecção, análise puramente linguística ou recorte político/eleitoral, atendendo ao tema e às restrições.\n2. empirical: O estudo coleta dados próprios de participantes humanos por meio de medidas fisiológicas (EEG), caracterizando-se como um estudo empírico.\n3. method_ok: O tipo de estudo (experimental com EEG) e o método (análise de respostas cognitivas e emocionais a tipos e estruturas de clickbait) extraídos estão em total concordância com o que é descrito no resumo.\n4. finding: O achado principal informado é uma tradução fiel e integralmente sustentada pela frase do resumo que descreve os resultados ('Our findings highlight that clickbait types such as hyperbole and visual rhetoric swiftly capture attention and enhance emotional engagement, whereas insinuative and puzzling clickbait demand more cognitive effort and deeper processing')."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1080/10447318.2022.2158262",
+   "title": "Attention Grabbing through Forward Reference: An ERP Study on Clickbait and Top News Stories",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "understand how clickbait headlines influence readers’ clicking behavior and attention allocation. [...] conducted an EEG experiment",
+    "on_topic": true,
+    "evidence_empirical": "conducted an EEG experiment based on N2b and P3a.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: Trecho: 'understand how clickbait headlines influence readers’ clicking behavior and attention allocation. [...] conducted an EEG experiment'. Decisão: Sim. O artigo investiga os efeitos de manchetes clickbait nos leitores utilizando dados fisiológicos (EEG), enquadrando-se perfeitamente no tema e nas restrições do pedido (estudo empírico com dados de leitores, não sendo modelo computacional nem análise puramente linguística).\n\n2. empirical: Trecho: 'conducted an EEG experiment based on N2b and P3a.' Decisão: Sim. O estudo coleta e analisa dados próprios por meio de um experimento com medidas fisiológicas (EEG), caracterizando-se como um estudo empírico válido.\n\n3. method_ok: Trechos do resumo: 'conducted an EEG experiment based on N2b and P3a' e 'clickbait headlines with a forward-reference device... compared with those without a forward-reference device.' Dados extraídos: study_type: 'Estudo experimental com EEG (ERP)'; method: 'Experimento de EEG baseado em N2b e P3a com manchetes com e sem dispositivo de referência futura'. Decisão: Sim. O tipo de estudo e o método extraídos correspondem exata e fielmente ao que é descrito no resumo e no título do artigo.\n\n4. finding: Trecho do resumo: 'The results showed that the clickbait headlines with a forward-reference device attracted more attention resources and induced the involuntary attention allocation more quickly, compared with those without a forward-reference device.' Dado extraído: main_finding: 'Manchetes clickbait com referência futura atraíram mais recursos de atenção e induziram alocação involuntária de atenção mais rápida.' Decisão: supported. O achado principal informado é uma tradução direta e precisa do resultado central relatado no resumo, sendo integralmente sustentado pelo trecho."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1108/ajim-07-2020-0214",
+   "title": "“This Will Blow Your Mind”: examining the urge to click clickbaits",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "Title: “This Will Blow Your Mind”: examining the urge to click clickbaits; Abstract: 'investigate Internet users' urge to click clickbaits' / 'between-participants experimental design ( N = 204) that manipulated information richness (text-only vs. thumbnail clickbaits)'",
+    "on_topic": true,
+    "evidence_empirical": "Abstract: 'empirically validate a framework' / 'tested using a between-participants experimental design ( N = 204)'",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata do tema do pedido. O título e o resumo indicam que o foco é o 'impulso de clicar em clickbaits' por usuários da internet, utilizando um experimento com dados de usuários. Não se trata de modelo computacional de detecção, análise puramente linguística ou recorte político. \n2. empirical: O estudo coleta dados próprios. O resumo afirma que o objetivo é 'validar empiricamente' e que os dados foram coletados por meio de um 'desenho experimental entre participantes (N = 204)'. \n3. method_ok: O tipo de estudo e o método extraídos ('Estudo experimental' e 'Experimento entre participantes manipulando a riqueza de informação... testando um modelo baseado em usos e gratificações') batem perfeitamente com o trecho do resumo: 'tested using a between-participants experimental design... that manipulated information richness' e 'Integrating the uses and gratifications (U&G) theory'. \n4. finding: O achado informado ('Curiosidade, prazer percebido e vigilância predizem o impulso de clicar, que é maior para clickbaits com miniatura do que só de texto') é sustentado integralmente pelo resumo, que diz: 'Curiosity, perceived enjoyment and surveillance were significant predictors of the urge to click. In terms of information richness, the urge to click was higher for thumbnail vis-à-vis text-only clickbaits'. Portanto, o rótulo é 'supported'."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1080/17512786.2020.1805794",
+   "title": "Headline Format Influences Evaluation of, but Not Engagement with, Environmental News",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "test three commonly used headline formats that vary based on whether (and, if so, how) important information is left out of a headline to encourage participants to read",
+    "on_topic": true,
+    "evidence_empirical": "this study sought to test three commonly used headline formats [...] to encourage participants to read",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata dos efeitos de formatos de manchetes que retêm informação (definição de clickbait) sobre a avaliação e engajamento de leitores de notícias ambientais. A menção a 'political views' no resumo refere-se apenas ao seu uso como variável preditora/demográfica em um estudo de notícias ambientais, não configurando um 'estudo com recorte político ou eleitoral' (foco em eleições/partidos). Portanto, está dentro do tema e recorte pedidos.\n2. empirical: O estudo coleta dados próprios com participantes por meio de um teste experimental com diferentes formatos de manchetes, atendendo ao requisito de estudo empírico com dados de leitores.\n3. method_ok: O tipo de estudo ('Estudo experimental') e o método ('Teste de três formatos de manchete...') extraídos batem perfeitamente com o descrito no resumo ('test three commonly used headline formats... traditionally-formatted headlines, forward-referencing headlines, and question-based headlines').\n4. finding: O achado principal extraído ('O formato da manchete não influenciou seleção nem engajamento, mas afetou a credibilidade percebida, sendo as manchetes em pergunta as menos críveis') é integralmente sustentado pelo trecho do resumo: 'Although headline format did not influence story selection or engagement, it did influence participants evaluations of both the headline's and the story's credibility (question-based headlines were viewed as the least credible)'."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3390/info16020150",
+   "title": "AI vs. Human-Authored Headlines: Evaluating the Effectiveness, Trust, and Linguistic Features of ChatGPT-Generated Clickbait and Informative Headlines in Digital News",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "This research assesses readers’ reactions to different headline styles... Clickbait headlines, regardless of their source, were considered misleading and rated as manipulative... 54.5% of respondents reported a decrease in trust regarding publications that frequently use clickbait techniques.",
+    "on_topic": true,
+    "evidence_empirical": "tested on a sample of 624 students from Timisoara, Romania, asked to evaluate the qualities of a mix of human-written vs. AI-generated headlines.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata dos efeitos de manchetes clickbait sobre leitores, avaliando reações, percepção de manipulação e confiança, atendendo ao tema e às restrições do pedido.\n2. empirical: O estudo coleta dados empíricos próprios de leitores (estudantes) por meio de um levantamento em que avaliaram manchetes.\n3. method_ok: O tipo de estudo (survey/questionário) e o método (avaliação de manchetes por estudantes + análise linguística) informados nos dados extraídos batem perfeitamente com o que é descrito no resumo.\n4. finding: O achado informado é integralmente sustentado pelo resumo. (Observação de estrito cumprimento: o pesquisador omitiu o campo do 'trecho literal entre aspas' na extração do JSON, conforme exigido no pedido original, mas o achado em si está correto e suportado)."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3390/journalmedia5040110",
+   "title": "Are ChatGPT-Generated Headlines Better Attention Grabbers than Human-Authored Ones? An Assessment of Salient Features Driving Engagement with Online Media",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "To assess the reaction of online readers to headlines (clickbait or click-worthy), an online survey was applied... While on a cognitive level the investigated audience rejected clickbait headlines as being deceitful and frustrating",
+    "on_topic": true,
+    "evidence_empirical": "an online survey was applied, involving Romanian students. [...] More than 70% of the 600 participants in the survey",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata dos efeitos de manchetes clickbait em leitores, utilizando dados empíricos de usuários (survey), sem se restringir a modelos computacionais ou análises puramente linguísticas, e não possui recorte político/eleitoral.\n2. empirical: O estudo coleta dados próprios por meio de um survey online com 600 participantes.\n3. method_ok: O tipo de estudo (survey com análise linguística complementar) e o método (avaliação de 100 trios de manchetes por estudantes) descritos nos dados extraídos correspondem exatamente ao que é relatado no resumo.\n4. finding: O achado principal extraído é uma tradução fiel e direta do trecho do resumo que descreve a rejeição cognitiva do clickbait e a baixa preferência prática por manchetes neutras."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.24815/jr.v8i3.47278",
+   "title": "The Effect of Clickbait Headlines on Tribunnews.Com Online News Articles on the Reading Interest of Generation Z at FKI UMS",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "This study aims to analyze the effect of clickbait headlines on Tribunnews.com on the reading interest of Generation Z students at the Faculty of Communication and Informatics, Universitas Muhammadiyah Surakarta.",
+    "on_topic": true,
+    "evidence_empirical": "This study employs a quantitative approach using a survey method through a questionnaire distributed to 113 respondents.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo trata diretamente dos efeitos de manchetes clickbait sobre leitores (Geração Z), usando survey com questionário aplicado a 113 respondentes — estudo empírico com dados próprios de leitores, conforme exigido. O tipo de estudo e o método extraídos (survey quantitativo, questionário, amostragem intencional) batem com o resumo. O achado principal extraído (influência significativa no interesse de leitura, aumento de curiosidade e tédio/decepção quando o conteúdo não corresponde) é integralmente sustentado pelo resumo."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1371/journal.pone.0266743",
+   "title": "Click me…! The influence of clickbait on user engagement in social media and the role of digital nudging",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "We analyze the impact of clickbait on user interaction on Facebook in the form of liking, sharing and commenting. [...] analyze how clickbait in post headlines and in post text influences user engagement.",
+    "on_topic": true,
+    "evidence_empirical": "we use a data set of more than 4,400 Facebook posts from 10 different news sources to analyze how clickbait in post headlines and in post text influences user engagement.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata dos efeitos de manchetes caça-cliques (clickbait) sobre os usuários/leitores (engajamento), utilizando dados de interação (curtidas, compartilhamentos, comentários) em uma plataforma (Facebook). Encaixa-se no pedido, pois não é um modelo computacional de detecção, análise puramente linguística ou estudo com recorte político.\n2. empirical: O estudo coleta e analisa dados próprios de engajamento (dados de interação/cliques), atendendo ao requisito de estudo empírico com dados de usuários.\n3. method_ok: O tipo de estudo e o método extraídos (análise de curtidas, compartilhamentos e comentários em posts do Facebook) batem perfeitamente com a descrição do resumo.\n4. finding: O achado extraído é sustentado integralmente (supported) pelo resumo, sendo uma tradução direta e precisa dos resultados relatados sobre como certas características aumentam e outras diminuem o engajamento."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1080/21670811.2024.2394764",
+   "title": "Analyzing Sensationalism in News on Twitter (\n            <i>X</i>\n            ): Clickbait Journalism by Legacy vs. Online-Native Outlets and the Consequences for User Engagement",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 2,
+   "judge": {
+    "evidence_topic": "The impact of sensationalism on subsequent user engagement metrics is also tested. [...] Furthermore, a positive relationship was found between the number of sensationalist features employed and the favorite count [...] additionally revealed a positive effect of sensationalism on the number of retweets.",
+    "on_topic": true,
+    "evidence_empirical": "This study empirically investigates [...] First, a manual content analysis of 1,440 tweets by news media organizations was conducted [...] Second, an automated content analysis was conducted on a dataset of 25,600 tweets",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "on_topic: O artigo investiga o impacto do sensacionalismo (clickbait) nas métricas de engajamento dos usuários (favoritos e retweets) no Twitter, atendendo ao tema e às restrições (não é modelo de detecção computacional, nem análise puramente linguística, nem tem recorte político).\n\nempirical: O estudo é declarado como empírico e coleta dados próprios de tweets e métricas de engajamento (análise de conteúdo manual e automatizada).\n\nmethod_ok: O tipo de estudo e o método extraídos (análise de conteúdo manual e automatizada de tweets relacionando sensacionalismo a métricas de engajamento) batem perfeitamente com a descrição do resumo.\n\nfinding: O achado extraído resume de forma completa e precisa os resultados descritos no resumo (veículos nativos usando mais sensacionalismo e a relação positiva com favoritos e retweets)."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3126/njdrs.v22i1.99390",
+   "title": "Sensational Headlines, Engagement, and Credibility in Nepal’s Online News",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "This study examines whether sensational headlines in Nepal’s online news ecosystem generate short-term audience engagement while weakening perceived credibility.",
+    "on_topic": true,
+    "evidence_empirical": "The quantitative component comprised a content analysis of 300 Facebook-posted headlines... The audience component consisted of a purposive survey of 81 Nepali online news consumers",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O artigo trata de manchetes sensacionalistas (sensational headlines) em notícias online no Nepal e seus efeitos sobre engajamento e credibilidade percebida pelos leitores, atendendo ao tema do pedido. O estudo é empírico, utilizando análise de conteúdo de manchetes e survey com consumidores de notícias. O tipo de estudo e o método informados estão de acordo com o resumo. O achado principal é sustentado pelo resumo, que indica maior engajamento para manchetes sensacionalistas, mas também custos de credibilidade, como ceticismo e evitação de veículos repetidamente sensacionalistas."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.37679/trta.1013651",
+   "title": "Tık Odaklı Başlıklar ve Okuyucu Refleksleri Üzerine Bir Araştırma: Odak Grup Çalışması A Study on Click-Focused Headlines and Reader Reflexes: Focus Group",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": null
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "tık odaklı başlıkların ve haberlerin habercilik anlayışı üzerindeki olumlu/olumsuz etkilerinin incelenmesi amaçlanmıştır. Çalışmanın amacı; [...] içerik, başlık ve görsel arasındaki uyumun bilinçli bir biçimde manipüle edildiği haber içeriklerine ilişkin kullanıcı farkındalığını ve reflekslerini tespit etmektir.",
+    "on_topic": true,
+    "evidence_empirical": "Çalışma, odak grup yöntemi esas alınarak gerçekleştirilmiştir.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata dos efeitos e percepções de manchetes caça-cliques (tık odaklı başlıklar) sobre os leitores (kullanıcı farkındalığını ve reflekslerini), atendendo ao tema central. Embora o resumo mencione notícias políticas como um dos contextos onde o clickbait ocorre ('siyasi haberlerde de'), o recorte do estudo é o jornalismo de forma geral, não se configurando como um estudo com recorte político ou eleitoral. \n2. empirical: O estudo coleta dados próprios por meio de grupos focais (odak grup yöntemi), o que é um método empírico aceito pelo pedido. \n3. method_ok: O tipo de estudo (qualitativo/grupo focal) e o método (grupos focais para identificar percepções e reações) informados nos dados extraídos estão em total concordância com o resumo ('odak grup yöntemi' e 'kullanıcı farkındalığını ve reflekslerini tespit etmektir'). \n4. finding: O achado principal extraído é sustentado integralmente pelo resumo. A conclusão do estudo afirma exatamente que os usuários desenvolveram reflexos sobre o uso de manchetes e imagens enganosas e a incompatibilidade entre manchete e conteúdo na maioria das notícias ('kullanıcıların yanıltıcı başlık ve görsel kullanımına yer verildiği... haberlerin çoğunda başlık e içerik ilişkisinin uyumsuzluk taşıdığına ilişkin refleksler geliştirdiği sonucuna ulaşılmıştır')."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.58984/smb2201145s",
+   "title": "PHOTOGRAPHY AND CLICKBAIT HEADLINES: ONLINE MEDIA TOOLS IN THE PROCESS OF READERS MANIPULATION",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "Título: 'PHOTOGRAPHY AND CLICKBAIT HEADLINES: ONLINE MEDIA TOOLS IN THE PROCESS OF READERS MANIPULATION'; Resumo: '...prove the thesis that clickbait headlines and photography are tools in the manipulation process, even using sports news examples.'",
+    "on_topic": true,
+    "evidence_empirical": "Resumo: 'In this paper, I conducted research with 200 respondents... Participants indicated their agreement or disagreement with the statements using a Likert scale.'",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata dos efeitos de manchetes clickbait (e fotografias) na manipulação de leitores, com recorte em notícias esportivas (não político/eleitoral), publicado em periódico em 2022. Atende ao tema e às restrições do pedido.\n2. empirical: O estudo coleta dados próprios de leitores/usuários por meio de um levantamento com 200 respondentes, atendendo ao requisito de estudo empírico com dados de usuários.\n3. method_ok: O tipo de estudo (survey/levantamento) e o método (questionário com escala Likert) informados nos dados extraídos batem perfeitamente com o descrito no resumo ('conducted research with 200 respondents... indicated their agreement or disagreement with the statements using a Likert scale').\n4. finding: O achado informado ('Os respondentes foram manipulados por fotografias e manchetes clickbait, segundo os resultados') é uma tradução direta e fiel da conclusão apresentada no resumo ('They were also manipulated by the photos and clickbait headlines, according to the results'), sendo totalmente sustentado pelo texto (supported)."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.36761/kagangakomunika.v7i2.6865",
+   "title": "CLICKBAIT SEBAGAI STRATEGI FRAMING BERITA DALAM MEDIA DARING TRIBUNNEWS.COM CLICKBAIT AS A NEWS FRAMING STRATEGY IN THE ONLINE MEDIA TRIBUNNEWS.COM",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "Penelitian ini bertujuan untuk memahami bagaimana penggunaan judul clickbait dalam pemberitaan Tribunnews.com memengaruhi tingkat kepercayaan mahasiswa Ilmu Komunikasi UNISKA MAB terhadap informasi yang disajikan.",
+    "on_topic": true,
+    "evidence_empirical": "Penelitian ini menggunakan pendekatan kualitatif dengan metode studi kasus, melibatkan delapan mahasiswa Ilmu Komunikasi sebagai informan yang dipilih secara purposif. Teknik pengumpulan data meliputi observasi, dokumentasi, dan wawancara mendalam.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "O achado extraído está integralmente sustentado pelo resumo, que afirma que os estudantes percebem que o conteúdo incompatível com o título reduz a credibilidade e gera desconfiança, embora o título atraia atenção."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.1108/lhtn-02-2022-0027",
+   "title": "Critical literacy: prevents negative impact of clickbait news on news agency website",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "This study aims to describe the critical literacy of online newsreaders on the viva.co.id website in dealing with clickbait news. [...] This research will focus on the type of clickbait exaggeration or news headlines that use exaggeration.",
+    "on_topic": true,
+    "evidence_empirical": "This study uses a quantitative method with a descriptive approach. [...] the minimum sample size required is 96 respondents who are rounded up to 100 respondents with a 95% confidence level.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo investiga como leitores de notícias online lidam com manchetes clickbait (focando no letramento crítico para prevenir impactos negativos), utilizando dados de leitores e sem ser um estudo de cunho político/eleitoral ou de detecção computacional. Portanto, está dentro do tema e do recorte do pedido.\n2. empirical: O resumo deixa claro que o estudo utiliza um método quantitativo com uma amostra de 100 respondentes, caracterizando-se como um estudo empírico que coleta dados próprios de usuários/leitores.\n3. method_ok: A extração classifica o estudo como 'quantitativo descritivo (survey)' e o método como 'questionário a leitores'. O resumo corrobora isso ao mencionar 'quantitative method with a descriptive approach', '100 respondents' e a análise de 'dimensions' com uma 'overall average', o que é consistente com a aplicação de um survey/questionário.\n4. finding: O achado extraído afirma que os leitores apresentaram letramento crítico em nível alto. O resumo sustenta integralmente essa afirmação ao declarar que 'newsreaders... have critical literacy skills that fall into the high category'."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.3389/fpsyg.2022.940903",
+   "title": "Superlatives, clickbaits, appeals to authority, poor grammar, or boldface: Is editorial style related to the credibility of online health messages?",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 4,
+   "judge": {
+    "evidence_topic": "This study aims to understand how different ways of editing health-related messages affect their credibility among adolescents",
+    "on_topic": true,
+    "evidence_empirical": "The sample consisted of 300 secondary school students ( M age = 17.26; SD age = 1.04; 66.3% female). [...] Participants were then asked to rate the message’s trustworthiness with a single question.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata dos efeitos de manchetes clickbait (e outros elementos editoriais) na percepção de credibilidade por leitores (adolescentes). O recorte é de saúde, não político/eleitoral, e utiliza dados de usuários, atendendo ao pedido.\n2. empirical: O estudo coleta dados primários de leitores (300 estudantes) por meio de um experimento/questionário em que os participantes avaliam a confiabilidade de mensagens manipuladas.\n3. method_ok: O tipo de estudo (experimental com manipulação de elementos) e o método (avaliação de confiabilidade com controle de variáveis como raciocínio científico e alfabetização midiática) informados nos dados extraídos batem perfeitamente com o que é descrito no resumo.\n4. finding: O achado informado ('Mensagens verdadeiras com manchetes clickbait foram consideradas menos confiáveis que as demais mensagens verdadeiras') é sustentado integralmente pelo resumo, que afirma explicitamente que mensagens verdadeiras com clickbait foram consideradas menos confiáveis que as outras mensagens verdadeiras."
+   },
+   "metadata_ok": true,
+   "correct": true
+  },
+  {
+   "doi": "10.22452/jpmm.vol25no1.3",
+   "title": "The Impact of Sensational News Towards Public Perception on The Malaysian News Industry",
+   "checks": {
+    "doi_exists": true,
+    "title_ok": true,
+    "year_ok": true,
+    "author_ok": true,
+    "venue_ok": true,
+    "in_period": true,
+    "journal_article": true,
+    "quote_ok": true,
+    "sample_ok": true
+   },
+   "abstract_sources": 3,
+   "judge": {
+    "evidence_topic": "find out how online sensational news impacts public perception of the Malaysian news industry. Survey questionnaires were distributed to 150 Malaysian online news readers",
+    "on_topic": true,
+    "evidence_empirical": "Survey questionnaires were distributed to 150 Malaysian online news readers via purposive sampling.",
+    "empirical": true,
+    "method_ok": true,
+    "finding": "supported",
+    "reason": "1. on_topic: O artigo trata do impacto de notícias sensacionalistas (equivalente conceitual a clickbait no contexto digital) na percepção de leitores de notícias online, atendendo ao tema e ao recorte de público (leitores/usuários) exigido pelo pedido.\n2. empirical: O estudo coleta dados primários por meio de questionários (survey) aplicados a leitores, caracterizando-se como um estudo empírico com dados de usuários, conforme exigido.\n3. method_ok: O tipo de estudo (levantamento/survey) e o método (questionários com amostragem intencional/purposive sampling) extraídos correspondem exatamente ao que é descrito no resumo.\n4. finding: O achado principal extraído é uma tradução fiel e integral das duas últimas frases do resumo, sendo, portanto, totalmente sustentado pelo texto."
+   },
+   "metadata_ok": true,
+   "correct": true
+  }
+ ],
+ "judge": "Qwen3.7 Plus (Alibaba), esforço high"
+}

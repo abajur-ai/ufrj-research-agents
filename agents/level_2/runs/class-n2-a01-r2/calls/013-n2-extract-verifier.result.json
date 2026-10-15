@@ -1,0 +1,308 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Artigo 1 (10.3758/s13421-021-01232-8): abri o registro no Europe PMC e o DOI aponta para 'The role of discomfort in the continued influence effect of misinformation', Susmann e Wegener, Memory & Cognition; o ano impresso é 2022 e o online é 2021, dentro do intervalo pedido.",
+      "Artigo 1: li o resumo no XML do Europe PMC e o trecho 'this discomfort predicts continued belief in and use of misinformation' aparece letra por letra, na frase sobre os Estudos 1 e 2; o resumo confirma três estudos, desconforto psicológico e manipulação da interpretação do desconforto no Estudo 3; o resumo não informa amostra, e a lista marcou 'não informado no resumo'.",
+      "Artigo 2 (10.3758/s13421-022-01374-3): o registro confirma título, autores e periódico (Memory & Cognition, 2023); o trecho 'Study 1 demonstrated that retractions from an expert source are believed more' aparece exato no resumo, que também diz que o efeito só ocorre sem vested interest e que o Estudo 2 replicou com manipulação de expertise e trustworthiness; amostra não consta no resumo.",
+      "Artigo 3 (10.3758/s13421-022-01354-7): o registro confirma título, autores e periódico (Memory & Cognition, 2023); o trecho 'may not be an effective correction strategy over and above stating that the misinformation is false.' aparece exato no resumo; dois experimentos, correções que explicam origem deliberada ou acidental, e conclusão de que não melhoram a correção simples confirmados; amostra não consta no resumo.",
+      "Artigo 4 (10.3758/s13421-020-01129-y): o registro confirma título, autores e periódico (Memory & Cognition, 2021); o trecho 'source trustworthiness but not source expertise indeed influences retraction effectiveness.' aparece exato no resumo, que acrescenta 'with retractions from low-trustworthiness sources entirely ineffective', sustentando o achado; dois experimentos confirmados; amostra não consta no resumo.",
+      "Artigo 5 (10.1371/journal.pone.0282202): o registro confirma título, autores e periódico (PLOS ONE, 2023); o trecho 'The CS technique, with a very large effect size, is the most effective among the three techniques.' aparece exato; a amostra 'N = 251 participants' consta no resumo ('in an experiment with N = 251 participants'); quatro medidas de opinião e comparação de três técnicas confirmadas.",
+      "Artigo 6 (10.1037/mac0000057): o registro confirma título, autores e periódico (JARMAC, 2023); o trecho 'Multiple corrections were more effective than a single correction' aparece exato; o resumo confirma simulador de direção, tarefa de matemática como carga, e a conclusão contra o familiarity-backfire; amostra não consta no resumo.",
+      "Artigo 7 (10.1186/s41235-021-00335-9): o registro confirma título, autores e periódico (Cognitive Research: Principles and Implications, 2021); o trecho 'alternative provision consistently resulted in CIE reduction.' aparece exato, precedido de 'Across three studies and two different CIE measures'; três estudos e três fatores testados confirmados; amostra não consta no resumo.",
+      "Artigo 8 (10.3758/s13428-018-1066-z): o registro confirma título, autores e periódico (Behavior Research Methods; online 2018, edição 2019, dentro do intervalo); o trecho 'We observed the CIE in all conditions: Participants continued to refer to the misinformation following a correction' aparece exato; a amostra confere com o resumo: 'Exp. 1 A, n = 78', 'Exp. 1 B, n = 75', 'Exps. 2A and 2B, n = 323'; réplica pré-registrada confirmada.",
+      "Artigo 9 (10.1371/journal.pone.0271566): o registro confirma título, autores e periódico (PLOS ONE, 2022); o trecho 'Experiment 2 yielded evidence that an event boundary resulted in a reduced CIE.' aparece exato; o resumo confirma ausência de efeito no Experimento 1, leitura em favor de contas de recuperação, e uso de fronteiras espaciais de evento; amostra não consta no resumo.",
+      "Artigo 10 (10.3389/fpsyg.2024.1487146): o registro confirma título, autores e periódico (Frontiers in Psychology, 2024); o trecho 'turn-taking collaboration consistently mitigates the CIE.' aparece exato; o resumo confirma três experimentos, revezamento versus colaboração livre, e que o efeito da colaboração livre é moderado pelo tempo de recordação; amostra não consta no resumo.",
+      "Artigo 11 (10.1371/journal.pone.0322045): o registro confirma título, autores e periódico (PLOS ONE, 2025); o trecho 'Evidence for the continued influence of the retracted behaviour statement was found in one experiment' aparece exato; o resumo confirma três experimentos, tarefa de impressão de pessoa com afirmação de comportamento retratada, e desconto total nos outros dois experimentos; amostra não consta no resumo.",
+      "Artigo 12 (10.1371/journal.pone.0283951): o registro confirma título, autores e periódico (PLOS ONE, 2023); o trecho 'EF can predict susceptibility to the CIE, especially the factor of working-memory updating.' aparece exato; o resumo confirma tarefa padrão de CIE, medidas de atualização, inibição e alternância, correlação e modelagem de variáveis latentes; o resumo não informa amostra, e a lista corretamente não usou o N de 255 citado em leitura anterior.",
+      "Artigo 13 (10.3758/s13421-023-01402-w): abri o resumo via Europe PMC resultType core; o registro confirma título, autores e periódico (Memory & Cognition, 2023); o trecho 'perceptions of the misinformation source is one mechanism that can cause changes in belief in misinformation' aparece exato; o resumo confirma três estudos, o Estudo 3 como réplica pré-registrada, correção, desqualificação da fonte e mediação da percepção; amostra não consta no resumo.",
+      "Artigo 14 (10.3758/s13421-024-01520-z): abri o resumo via Europe PMC resultType core; o registro confirma título, autores e periódico (Memory & Cognition, 2024); o trecho 'while a forewarning did reduce reliance on misinformation' aparece exato; a amostra confere: 'In two experiments (N = 337)'; o resumo confirma que o aviso posterior não reduziu e que o efeito protetor não durou ('reliance on the misinformation increased for over 7 days').",
+      "Artigo 15 (10.3758/s13421-020-01046-0): abri o resumo via Europe PMC resultType core; o registro confirma título, autores e periódico (Memory & Cognition, 2020); o trecho 'reading on a mobile phone reduced the likelihood that readers noticed the retraction' aparece exato; o resumo sustenta a ressalva sobre inferências ('reduced the extent to which inferences were modified by the alternative information in readers of Chinese but not English'); amostra não consta no resumo.",
+      "Artigo 16 (10.1016/j.cognition.2024.106000): abri o resumo via Europe PMC resultType core; o registro confirma título, autores, periódico (Cognition) e ano 2025; o trecho 'When the informant was less credible than the retractor, participants showed no CIE, in line with a rational account.' aparece exato; a amostra confere: 'In two experiments (N = 151, N = 146)'; o resumo confirma a persistência do CIE com credibilidade igual no Experimento 2 e a notícia fictícia.",
+      "Restrições do pedido: os 16 são artigos de periódico com estudo empírico e dados próprios, nenhum é revisão, meta-análise, teórico, preprint, anais, capítulo ou tese; todos entre 2018 e 2025; todos medem crença ou raciocínio após correção ou retratação com participantes humanos; os materiais experimentais relatados são fictícios e neutros (incêndio em galpão, acidentes, pousos, comportamentos de personagens), sem desinformação política, eleitoral, de vacinas ou de COVID-19 como estímulo; menções a vacinas e COVID aparecem apenas na motivação teórica, não nos materiais.",
+      "Contagem: a lista tem exatamente os 16 itens aprovados na extração, com um elemento por artigo, e nenhum DOI repetido ou ausente."
+    ],
+    "per_item": [
+      {
+        "doi": "10.3758/s13421-021-01232-8",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3758/s13421-022-01374-3",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3758/s13421-022-01354-7",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3758/s13421-020-01129-y",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1371/journal.pone.0282202",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1037/mac0000057",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1186/s41235-021-00335-9",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3758/s13428-018-1066-z",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1371/journal.pone.0271566",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3389/fpsyg.2024.1487146",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1371/journal.pone.0322045",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1371/journal.pone.0283951",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3758/s13421-023-01402-w",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3758/s13421-024-01520-z",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.3758/s13421-020-01046-0",
+        "ok": true,
+        "problem": ""
+      },
+      {
+        "doi": "10.1016/j.cognition.2024.106000",
+        "ok": true,
+        "problem": ""
+      }
+    ],
+    "issues": [],
+    "feedback": "Nada precisa ser refeito: a lista está aprovada como está. Para uma versão futura, três melhorias opcionais que não afetam a aprovação: (1) registrar ao lado do ano que Susmann e Wegener tem edição impressa de 2022 e Connor Desai e Reimers de 2019, para evitar dúvida em checagens posteriores; (2) indicar que os detalhes de método que não vêm do resumo (plataformas como MTurk e Prolific, descrição dos materiais) foram extraídos do corpo dos artigos; (3) no artigo de Connor Desai e Reimers 2023, evitar citar no futuro a frase do resumo que repete 'Experiment 2' duas vezes, aparente erro tipográfico do próprio periódico; a citação escolhida não é afetada."
+  },
+  "text": "{\"approved\": true, \"checked\": [\"Artigo 1 (10.3758/s13421-021-01232-8): abri o registro no Europe PMC e o DOI aponta para 'The role of discomfort in the continued influence effect of misinformation', Susmann e Wegener, Memory & Cognition; o ano impresso é 2022 e o online é 2021, dentro do intervalo pedido.\", \"Artigo 1: li o resumo no XML do Europe PMC e o trecho 'this discomfort predicts continued belief in and use of misinformation' aparece letra por letra, na frase sobre os Estudos 1 e 2; o resumo confirma três estudos, desconforto psicológico e manipulação da interpretação do desconforto no Estudo 3; o resumo não informa amostra, e a lista marcou 'não informado no resumo'.\", \"Artigo 2 (10.3758/s13421-022-01374-3): o registro confirma título, autores e periódico (Memory & Cognition, 2023); o trecho 'Study 1 demonstrated that retractions from an expert source are believed more' aparece exato no resumo, que também diz que o efeito só ocorre sem vested interest e que o Estudo 2 replicou com manipulação de expertise e trustworthiness; amostra não consta no resumo.\", \"Artigo 3 (10.3758/s13421-022-01354-7): o registro confirma título, autores e periódico (Memory & Cognition, 2023); o trecho 'may not be an effective correction strategy over and above stating that the misinformation is false.' aparece exato no resumo; dois experimentos, correções que explicam origem deliberada ou acidental, e conclusão de que não melhoram a correção simples confirmados; amostra não consta no resumo.\", \"Artigo 4 (10.3758/s13421-020-01129-y): o registro confirma título, autores e periódico (Memory & Cognition, 2021); o trecho 'source trustworthiness but not source expertise indeed influences retraction effectiveness.' aparece exato no resumo, que acrescenta 'with retractions from low-trustworthiness sources entirely ineffective', sustentando o achado; dois experimentos confirmados; amostra não consta no resumo.\", \"Artigo 5 (10.1371/journal.pone.0282202): o registro confirma título, autores e periódico (PLOS ONE, 2023); o trecho 'The CS technique, with a very large effect size, is the most effective among the three techniques.' aparece exato; a amostra 'N = 251 participants' consta no resumo ('in an experiment with N = 251 participants'); quatro medidas de opinião e comparação de três técnicas confirmadas.\", \"Artigo 6 (10.1037/mac0000057): o registro confirma título, autores e periódico (JARMAC, 2023); o trecho 'Multiple corrections were more effective than a single correction' aparece exato; o resumo confirma simulador de direção, tarefa de matemática como carga, e a conclusão contra o familiarity-backfire; amostra não consta no resumo.\", \"Artigo 7 (10.1186/s41235-021-00335-9): o registro confirma título, autores e periódico (Cognitive Research: Principles and Implications, 2021); o trecho 'alternative provision consistently resulted in CIE reduction.' aparece exato, precedido de 'Across three studies and two different CIE measures'; três estudos e três fatores testados confirmados; amostra não consta no resumo.\", \"Artigo 8 (10.3758/s13428-018-1066-z): o registro confirma título, autores e periódico (Behavior Research Methods; online 2018, edição 2019, dentro do intervalo); o trecho 'We observed the CIE in all conditions: Participants continued to refer to the misinformation following a correction' aparece exato; a amostra confere com o resumo: 'Exp. 1 A, n = 78', 'Exp. 1 B, n = 75', 'Exps. 2A and 2B, n = 323'; réplica pré-registrada confirmada.\", \"Artigo 9 (10.1371/journal.pone.0271566): o registro confirma título, autores e periódico (PLOS ONE, 2022); o trecho 'Experiment 2 yielded evidence that an event boundary resulted in a reduced CIE.' aparece exato; o resumo confirma ausência de efeito no Experimento 1, leitura em favor de contas de recuperação, e uso de fronteiras espaciais de evento; amostra não consta no resumo.\", \"Artigo 10 (10.3389/fpsyg.2024.1487146): o registro confirma título, autores e periódico (Frontiers in Psychology, 2024); o trecho 'turn-taking collaboration consistently mitigates the CIE.' aparece exato; o resumo confirma três experimentos, revezamento versus colaboração livre, e que o efeito da colaboração livre é moderado pelo tempo de recordação; amostra não consta no resumo.\", \"Artigo 11 (10.1371/journal.pone.0322045): o registro confirma título, autores e periódico (PLOS ONE, 2025); o trecho 'Evidence for the continued influence of the retracted behaviour statement was found in one experiment' aparece exato; o resumo confirma três experimentos, tarefa de impressão de pessoa com afirmação de comportamento retratada, e desconto total nos outros dois experimentos; amostra não consta no resumo.\", \"Artigo 12 (10.1371/journal.pone.0283951): o registro confirma título, autores e periódico (PLOS ONE, 2023); o trecho 'EF can predict susceptibility to the CIE, especially the factor of working-memory updating.' aparece exato; o resumo confirma tarefa padrão de CIE, medidas de atualização, inibição e alternância, correlação e modelagem de variáveis latentes; o resumo não informa amostra, e a lista corretamente não usou o N de 255 citado em leitura anterior.\", \"Artigo 13 (10.3758/s13421-023-01402-w): abri o resumo via Europe PMC resultType core; o registro confirma título, autores e periódico (Memory & Cognition, 2023); o trecho 'perceptions of the misinformation source is one mechanism that can cause changes in belief in misinformation' aparece exato; o resumo confirma três estudos, o Estudo 3 como réplica pré-registrada, correção, desqualificação da fonte e mediação da percepção; amostra não consta no resumo.\", \"Artigo 14 (10.3758/s13421-024-01520-z): abri o resumo via Europe PMC resultType core; o registro confirma título, autores e periódico (Memory & Cognition, 2024); o trecho 'while a forewarning did reduce reliance on misinformation' aparece exato; a amostra confere: 'In two experiments (N = 337)'; o resumo confirma que o aviso posterior não reduziu e que o efeito protetor não durou ('reliance on the misinformation increased for over 7 days').\", \"Artigo 15 (10.3758/s13421-020-01046-0): abri o resumo via Europe PMC resultType core; o registro confirma título, autores e periódico (Memory & Cognition, 2020); o trecho 'reading on a mobile phone reduced the likelihood that readers noticed the retraction' aparece exato; o resumo sustenta a ressalva sobre inferências ('reduced the extent to which inferences were modified by the alternative information in readers of Chinese but not English'); amostra não consta no resumo.\", \"Artigo 16 (10.1016/j.cognition.2024.106000): abri o resumo via Europe PMC resultType core; o registro confirma título, autores, periódico (Cognition) e ano 2025; o trecho 'When the informant was less credible than the retractor, participants showed no CIE, in line with a rational account.' aparece exato; a amostra confere: 'In two experiments (N = 151, N = 146)'; o resumo confirma a persistência do CIE com credibilidade igual no Experimento 2 e a notícia fictícia.\", \"Restrições do pedido: os 16 são artigos de periódico com estudo empírico e dados próprios, nenhum é revisão, meta-análise, teórico, preprint, anais, capítulo ou tese; todos entre 2018 e 2025; todos medem crença ou raciocínio após correção ou retratação com participantes humanos; os materiais experimentais relatados são fictícios e neutros (incêndio em galpão, acidentes, pousos, comportamentos de personagens), sem desinformação política, eleitoral, de vacinas ou de COVID-19 como estímulo; menções a vacinas e COVID aparecem apenas na motivação teórica, não nos materiais.\", \"Contagem: a lista tem exatamente os 16 itens aprovados na extração, com um elemento por artigo, e nenhum DOI repetido ou ausente.\"], \"per_item\": [{\"doi\": \"10.3758/s13421-021-01232-8\", \"ok\": true, \"problem\": \"\"}, {\"doi\": \"10.3758/s13421-022-01374-3\", \"ok\": true, \"problem\": \"\"}, {\"doi\": \"10.3758/s13421-022-01354-7\", \"ok\": true, \"problem\": \"\"}, {\"doi\": \"10.3758/s13421-020-01129-y\", \"ok\": true, \"problem\": \"\"}, {\"doi\": \"10.1371/journal.pone.0282202\", \"ok\": true, \"problem\": \"\"}, {\"doi\": \"10.1037/mac0000057\", \"ok\": true, \"problem\": \"\"}, {\"doi\": \"10.1186/s41235-021-00335-9\", \"ok\": true, \"problem\": \"\"}, {\"doi\": \"10.3758/s13428-018-1066-z\", \"ok\": true, \"problem\": \"\"}, {\"doi\": \"10.1371/journal.pone.0271566\", \"ok\": true, \"problem\": \"\"}, {\"doi\": \"10.3389/fpsyg.2024.1487146\", \"ok\": true, \"problem\": \"\"}, {\"doi\": \"10.1371/journal.pone.0322045\", \"ok\": true, \"problem\": \"\"}, {\"doi\": \"10.1371/journal.pone.0283951\", \"ok\": true, \"problem\": \"\"}, {\"doi\": \"10.3758/s13421-023-01402-w\", \"ok\": true, \"problem\": \"\"}, {\"doi\": \"10.3758/s13421-024-01520-z\", \"ok\": true, \"problem\": \"\"}, {\"doi\": \"10.3758/s13421-020-01046-0\", \"ok\": true, \"problem\": \"\"}, {\"doi\": \"10.1016/j.cognition.2024.106000\", \"ok\": true, \"problem\": \"\"}], \"issues\": [], \"feedback\": \"Nada precisa ser refeito: a lista está aprovada como está. Para uma versão futura, três melhorias opcionais que não afetam a aprovação: (1) registrar ao lado do ano que Susmann e Wegener tem edição impressa de 2022 e Connor Desai e Reimers de 2019, para evitar dúvida em checagens posteriores; (2) indicar que os detalhes de método que não vêm do resumo (plataformas como MTurk e Prolific, descrição dos materiais) foram extraídos do corpo dos artigos; (3) no artigo de Connor Desai e Reimers 2023, evitar citar no futuro a frase do resumo que repete 'Experiment 2' duas vezes, aparente erro tipográfico do próprio periódico; a citação escolhida não é afetada.\"}",
+  "usage": {
+    "input_tokens": 281148,
+    "output_tokens": 11875,
+    "cost_usd": 0.02436
+  },
+  "duration_s": 86.88,
+  "errors": [],
+  "tool_calls": [
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3758/s13421-021-01232-8%22&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3758/s13421-022-01374-3%22&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3758/s13421-022-01354-7%22&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3758/s13421-020-01129-y%22&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8447889/fullTextXML"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9718466/fullTextXML"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9487849/fullTextXML"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7810102/fullTextXML"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1371/journal.pone.0282202%22&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1037/mac0000057%22&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1186/s41235-021-00335-9%22&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3758/s13428-018-1066-z%22&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9994702/fullTextXML"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7615113/fullTextXML"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8627545/fullTextXML"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6538818/fullTextXML"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1371/journal.pone.0271566%22%20OR%20DOI:%2210.3389/fpsyg.2024.1487146%22%20OR%20DOI:%2210.1371/journal.pone.0322045%22%20OR%20DOI:%2210.1371/journal.pone.0283951%22&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.3758/s13421-023-01402-w%22%20OR%20DOI:%2210.3758/s13421-024-01520-z%22%20OR%20DOI:%2210.3758/s13421-020-01046-0%22%20OR%20DOI:%2210.1016/j.cognition.2024.106000%22&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9292086/fullTextXML"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11549669/fullTextXML"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12058158/fullTextXML"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10075451/fullTextXML"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7615113/fullTextXML"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/38261249/textMinedTerms?format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/36988856/textMinedTerms?format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/32430888/textMinedTerms?format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:38261249%20AND%20SRC:MED&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:36988856%20AND%20SRC:MED&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:32430888%20AND%20SRC:MED&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:39561526%20AND%20SRC:MED&resultType=core&format=json"
+      }
+    },
+    {
+      "name": "WebFetch",
+      "input": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:37829768%20AND%20SRC:MED&resultType=core&format=json"
+      }
+    }
+  ],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

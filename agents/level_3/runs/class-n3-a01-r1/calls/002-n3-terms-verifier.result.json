@@ -1,0 +1,30 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Período extraído é 2018 a 2025, exatamente como no pedido.",
+      "Termos em inglês cobrem o construto central (continued influence effect, retraction, correction, reliance after correction) e as variantes de método (experiment, inference, reasoning, belief).",
+      "Termos em português cobrem o construto (influência continuada, correção, retratação, persistência de informação falsa), embora em menor número que os em inglês, o que é razoável pois a literatura do tema é quase toda em inglês.",
+      "Critério de inclusão de experimentos com participantes humanos está presente e espelha a restrição do pedido.",
+      "Critério de materiais neutros (cenários fictícios, relatos inventados, alegações sem conotação política ou de saúde) está presente e traduz o pedido sem ampliar nem restringir além dele.",
+      "Exclusões cobrem todos os tipos de documento vedados: revisões, meta-análises, ensaios teóricos, editoriais, resenhas, preprints, anais, capítulos, livros e teses.",
+      "Exclusões de desinformação política, eleitoral, de vacinas, de COVID-19 e de saúde em geral cobrem a restrição do pedido.",
+      "Exclusão de estudos sem correção ou retratação preserva a exigência de medir crença ou raciocínio após a correção.",
+      "Critério de resumo disponível é coerente com a exigência do pedido de extrair tamanho de amostra, achado e trecho literal do resumo.",
+      "Nenhuma exclusão acrescenta restrição que contradiga o pedido; a exclusão de estudos de prebunking e alfabetização midiática é uma operacionalização coerente da exigência de medir influência continuada após correção."
+    ],
+    "issues": [],
+    "feedback": "Para a próxima tentativa, só melhorias opcionais: acrescentar termos de busca como 'backfire effect' e 'debriefing paradigm', que são sinônimos recorrentes na literatura do continued influence effect e podem recuperar artigos que não usam a expressão exata; considerar uma consulta com 'belief update' ou 'memory updating correction'; e lembrar o executor de que a contagem final deve ser de exatamente 25 artigos, o que não consta explicitamente dos critérios embora derive do pedido."
+  },
+  "text": "{\n \"approved\": true,\n \"checked\": [\n  \"Período extraído é 2018 a 2025, exatamente como no pedido.\",\n  \"Termos em inglês cobrem o construto central (continued influence effect, retraction, correction, reliance after correction) e as variantes de método (experiment, inference, reasoning, belief).\",\n  \"Termos em português cobrem o construto (influência continuada, correção, retratação, persistência de informação falsa), embora em menor número que os em inglês, o que é razoável pois a literatura do tema é quase toda em inglês.\",\n  \"Critério de inclusão de experimentos com participantes humanos está presente e espelha a restrição do pedido.\",\n  \"Critério de materiais neutros (cenários fictícios, relatos inventados, alegações sem conotação política ou de saúde) está presente e traduz o pedido sem ampliar nem restringir além dele.\",\n  \"Exclusões cobrem todos os tipos de documento vedados: revisões, meta-análises, ensaios teóricos, editoriais, resenhas, preprints, anais, capítulos, livros e teses.\",\n  \"Exclusões de desinformação política, eleitoral, de vacinas, de COVID-19 e de saúde em geral cobrem a restrição do pedido.\",\n  \"Exclusão de estudos sem correção ou retratação preserva a exigência de medir crença ou raciocínio após a correção.\",\n  \"Critério de resumo disponível é coerente com a exigência do pedido de extrair tamanho de amostra, achado e trecho literal do resumo.\",\n  \"Nenhuma exclusão acrescenta restrição que contradiga o pedido; a exclusão de estudos de prebunking e alfabetização midiática é uma operacionalização coerente da exigência de medir influência continuada após correção.\"\n ],\n \"issues\": [],\n \"feedback\": \"Para a próxima tentativa, só melhorias opcionais: acrescentar termos de busca como 'backfire effect' e 'debriefing paradigm', que são sinônimos recorrentes na literatura do continued influence effect e podem recuperar artigos que não usam a expressão exata; considerar uma consulta com 'belief update' ou 'memory updating correction'; e lembrar o executor de que a contagem final deve ser de exatamente 25 artigos, o que não consta explicitamente dos critérios embora derive do pedido.\"\n}",
+  "usage": {
+    "input_tokens": 1163,
+    "output_tokens": 926,
+    "cost_usd": 0.00064
+  },
+  "duration_s": 12.21,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

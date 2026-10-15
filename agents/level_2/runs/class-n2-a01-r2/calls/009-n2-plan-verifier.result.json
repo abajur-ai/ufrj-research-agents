@@ -1,0 +1,32 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Tema coberto: critério 1 define o CIE (influência continuada da informação falsa após correção/retratação), igual ao pedido.",
+      "Período coberto: critério 2 fixa 2018 a 2025 por ano de publicação, sem mudar o intervalo do pedido.",
+      "Tipo de publicação coberto: critério 3 exige artigo de periódico revisado por pares e lista exatamente as exclusões do pedido (preprints, anais, capítulos, teses, resenhas).",
+      "Estudo empírico coberto: critério 4 exclui revisões, meta-análises, ensaios teóricos e comentários, como pedido.",
+      "Método coberto: critério 5 exige experimento com humanos medindo crença ou raciocínio após correção/retratação, igual ao pedido.",
+      "Recorte de materiais coberto: critério 6 exige materiais neutros (cenários fictícios, eventos inventados, alegações não políticas/não saúde) e critério 7 exclui política, eleitoral, vacinas e COVID-19.",
+      "Meta de quantidade coberta: critério 9 pede 25 artigos válidos e permite relatar número menor sem preencher com artigos fora de critério.",
+      "Campos de saída cobertos: critério 10 lista DOI, título, autores, ano, periódico, tipo/método, amostra como no resumo, achado em uma frase e trecho literal entre aspas, igual ao pedido.",
+      "Consultas em inglês: 4 consultas em OpenAlex, Crossref e busca na web usam o termo exato do tema (\"continued influence effect\" / \"continued influence\") combinado com retraction, correction, misinformation, experiment, cobrindo o tema em inglês.",
+      "Consultas em português: 3 consultas (SciELO e busca na web) usam \"efeito de influência continuada\"/\"influência continuada\" com desinformação, retratação e correção, cobrindo o tema em português.",
+      "Verificação concreta por critério: cada critério tem procedimento em how_to_check, incluindo conferência de ano nos metadados, tipo journal-article, leitura de resumo/métodos, filtro por palavras-chave de exclusão, deduplicação por DOI, resolução do DOI no doi.org, cópia literal do N e do trecho do resumo.",
+      "Contingência para meta de 25: how_to_check prevê encadeamento de citações a partir de artigos-núcleo (Ecker, Lewandowsky) e regra de relatar o número real se não alcançar 25."
+    ],
+    "issues": [],
+    "feedback": "Plano aprovado sem erros que comprometam o resultado. Sugestões não obrigatórias: as consultas em português na SciELO tendem a retornar pouco sobre esse tema (a literatura do CIE é quase toda em inglês), então priorize as consultas em inglês e use a web/encadeamento de citações para completar; na consulta 7 de busca na web, vale também testar revistas como Memory, Cognitive Research: Principles and Implications e PLOS ONE, que publicam muito CIE; ao verificar materiais mistos (ex.: coleta com estímulos neutros e políticos no mesmo artigo), registre a decisão tomada para o pesquisador auditar."
+  },
+  "text": "{\"approved\": true,\"checked\": [\"Tema coberto: critério 1 define o CIE (influência continuada da informação falsa após correção/retratação), igual ao pedido.\", \"Período coberto: critério 2 fixa 2018 a 2025 por ano de publicação, sem mudar o intervalo do pedido.\", \"Tipo de publicação coberto: critério 3 exige artigo de periódico revisado por pares e lista exatamente as exclusões do pedido (preprints, anais, capítulos, teses, resenhas).\", \"Estudo empírico coberto: critério 4 exclui revisões, meta-análises, ensaios teóricos e comentários, como pedido.\", \"Método coberto: critério 5 exige experimento com humanos medindo crença ou raciocínio após correção/retratação, igual ao pedido.\", \"Recorte de materiais coberto: critério 6 exige materiais neutros (cenários fictícios, eventos inventados, alegações não políticas/não saúde) e critério 7 exclui política, eleitoral, vacinas e COVID-19.\", \"Meta de quantidade coberta: critério 9 pede 25 artigos válidos e permite relatar número menor sem preencher com artigos fora de critério.\", \"Campos de saída cobertos: critério 10 lista DOI, título, autores, ano, periódico, tipo/método, amostra como no resumo, achado em uma frase e trecho literal entre aspas, igual ao pedido.\", \"Consultas em inglês: 4 consultas em OpenAlex, Crossref e busca na web usam o termo exato do tema (\\\"continued influence effect\\\" / \\\"continued influence\\\") combinado com retraction, correction, misinformation, experiment, cobrindo o tema em inglês.\", \"Consultas em português: 3 consultas (SciELO e busca na web) usam \\\"efeito de influência continuada\\\"/\\\"influência continuada\\\" com desinformação, retratação e correção, cobrindo o tema em português.\", \"Verificação concreta por critério: cada critério tem procedimento em how_to_check, incluindo conferência de ano nos metadados, tipo journal-article, leitura de resumo/métodos, filtro por palavras-chave de exclusão, deduplicação por DOI, resolução do DOI no doi.org, cópia literal do N e do trecho do resumo.\", \"Contingência para meta de 25: how_to_check prevê encadeamento de citações a partir de artigos-núcleo (Ecker, Lewandowsky) e regra de relatar o número real se não alcançar 25.\"],\"issues\": [],\"feedback\": \"Plano aprovado sem erros que comprometam o resultado. Sugestões não obrigatórias: as consultas em português na SciELO tendem a retornar pouco sobre esse tema (a literatura do CIE é quase toda em inglês), então priorize as consultas em inglês e use a web/encadeamento de citações para completar; na consulta 7 de busca na web, vale também testar revistas como Memory, Cognitive Research: Principles and Implications e PLOS ONE, que publicam muito CIE; ao verificar materiais mistos (ex.: coleta com estímulos neutros e políticos no mesmo artigo), registre a decisão tomada para o pesquisador auditar.\"}",
+  "usage": {
+    "input_tokens": 2150,
+    "output_tokens": 854,
+    "cost_usd": 0.00075
+  },
+  "duration_s": 6.99,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}

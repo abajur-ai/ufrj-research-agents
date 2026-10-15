@@ -1,0 +1,29 @@
+{
+  "structured": {
+    "approved": true,
+    "checked": [
+      "Período: year_from 2018 e year_to 2025 batem exatamente com o pedido (2018 a 2025).",
+      "Termos em inglês: as 10 queries cobrem os métodos citados no pedido (experimento, eye tracking, EEG, survey, cliques/engajamento, intenção de compartilhamento).",
+      "Termos em inglês: há termos conceituais do tema, como curiosity gap, forward-referencing e sensational headlines, que ampliam a recuperação além da palavra clickbait.",
+      "Termos em português: as 6 queries cobrem efeitos, experimento, engajamento, recepção, credibilidade e percepção, equivalentes às principais queries em inglês.",
+      "Critérios de inclusão: reproduzem o pedido (artigo de periódico revisado por pares, 2018 a 2025, estudo empírico com dados próprios de leitores/usuários, clickbait como variável, tema central em efeitos nos leitores).",
+      "Critérios de exclusão: todos os itens do pedido estão presentes (modelos de detecção, análise só linguística, recorte político/eleitoral, revisões e meta-análises, preprints e anais e capítulos e teses, fora do período, clickbait fora de notícias).",
+      "O critério de exclusão de artigos sem resumo é coerente com o pedido, que exige trecho literal do resumo para cada artigo.",
+      "Nenhuma restrição do pedido foi esquecida e nenhuma exclusão contraria o texto do pesquisador.",
+      "A inclusão de entrevistas com leitores e outras medidas fisiológicas é uma interpretação aceitável, já que o pedido usa exemplos com a palavra 'como' e exige dados de leitores ou usuários."
+    ],
+    "issues": [],
+    "feedback": "Nada precisa ser corrigido para aprovação. Sugestões para a próxima tentativa: acrescentar queries com desfechos citados nos critérios mas ausentes nos termos, por exemplo 'clickbait headline memory comprehension' e 'clickbait trust news readers' em inglês e 'caça-cliques confiança leitores' em português; ao reportar os 25 artigos, registrar o tamanho da amostra exatamente como aparece no resumo, usando 'não informado no resumo' quando for o caso; aplicar com cuidado a exclusão de estudos com recorte político ou eleitoral, pois alguns experimentos com manchetes políticas podem medir efeitos de clickbait em leitores e precisam ser avaliados caso a caso."
+  },
+  "text": "{\n \"approved\": true,\n \"checked\": [\n  \"Período: year_from 2018 e year_to 2025 batem exatamente com o pedido (2018 a 2025).\",\n  \"Termos em inglês: as 10 queries cobrem os métodos citados no pedido (experimento, eye tracking, EEG, survey, cliques/engajamento, intenção de compartilhamento).\",\n  \"Termos em inglês: há termos conceituais do tema, como curiosity gap, forward-referencing e sensational headlines, que ampliam a recuperação além da palavra clickbait.\",\n  \"Termos em português: as 6 queries cobrem efeitos, experimento, engajamento, recepção, credibilidade e percepção, equivalentes às principais queries em inglês.\",\n  \"Critérios de inclusão: reproduzem o pedido (artigo de periódico revisado por pares, 2018 a 2025, estudo empírico com dados próprios de leitores/usuários, clickbait como variável, tema central em efeitos nos leitores).\",\n  \"Critérios de exclusão: todos os itens do pedido estão presentes (modelos de detecção, análise só linguística, recorte político/eleitoral, revisões e meta-análises, preprints e anais e capítulos e teses, fora do período, clickbait fora de notícias).\",\n  \"O critério de exclusão de artigos sem resumo é coerente com o pedido, que exige trecho literal do resumo para cada artigo.\",\n  \"Nenhuma restrição do pedido foi esquecida e nenhuma exclusão contraria o texto do pesquisador.\",\n  \"A inclusão de entrevistas com leitores e outras medidas fisiológicas é uma interpretação aceitável, já que o pedido usa exemplos com a palavra 'como' e exige dados de leitores ou usuários.\"\n ],\n \"issues\": [],\n \"feedback\": \"Nada precisa ser corrigido para aprovação. Sugestões para a próxima tentativa: acrescentar queries com desfechos citados nos critérios mas ausentes nos termos, por exemplo 'clickbait headline memory comprehension' e 'clickbait trust news readers' em inglês e 'caça-cliques confiança leitores' em português; ao reportar os 25 artigos, registrar o tamanho da amostra exatamente como aparece no resumo, usando 'não informado no resumo' quando for o caso; aplicar com cuidado a exclusão de estudos com recorte político ou eleitoral, pois alguns experimentos com manchetes políticas podem medir efeitos de clickbait em leitores e precisam ser avaliados caso a caso.\"\n}",
+  "usage": {
+    "input_tokens": 1237,
+    "output_tokens": 1561,
+    "cost_usd": 0.00097
+  },
+  "duration_s": 21.92,
+  "errors": [],
+  "tool_calls": [],
+  "model": "z-ai/glm-5.3-flash",
+  "effort": "high"
+}
